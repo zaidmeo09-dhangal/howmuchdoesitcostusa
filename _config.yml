@@ -1,0 +1,30 @@
+# How Much Does It Cost USA - Jekyll configuration
+# STAGING: this site is not live on the custom domain yet.
+# url/baseurl point at the GitHub Pages staging address.
+# At launch: set url to "https://howmuchdoesitcostusa.com", baseurl to "",
+# remove the noindex tag from _includes/head.html, and open robots.txt.
+title: How Much Does It Cost USA
+description: "Find what things cost in the USA with free cost calculators and guides for movers, roofing, fences, oil changes, AC, car wraps, and painting."
+url: "https://zaidmeo09-dhangal.github.io"
+baseurl: "/howmuchdoesitcostusa"
+future: true
+
+# Blog posts get /blog/slug/ URLs automatically
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: "/blog/:title/"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+
+# Exclude from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
