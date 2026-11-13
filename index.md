@@ -54,7 +54,7 @@ schema: |
   }
 ---
 
-<div class="ticker" aria-hidden="true"><span>Movers from $843</span><span>Roof replacement from $7,528</span><span>Fence from $2,100</span><span>Oil change from $45</span><span>Central AC from $5,200</span><span>Car wrap from $2,500</span><span>House painting from $2,800</span></div>
+<div class="ticker" aria-hidden="true"><div class="ticker-track"><span>Movers from $843</span><span>Roof replacement from $7,528</span><span>Fence from $2,100</span><span>Oil change from $45</span><span>Central AC from $5,200</span><span>Car wrap from $2,500</span><span>House painting from $2,800</span><span>Movers from $843</span><span>Roof replacement from $7,528</span><span>Fence from $2,100</span><span>Oil change from $45</span><span>Central AC from $5,200</span><span>Car wrap from $2,500</span><span>House painting from $2,800</span></div></div>
 
 <section class="hero">
   <div class="wrap">
