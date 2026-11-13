@@ -181,10 +181,12 @@ An older home may need a panel upgrade or a new circuit for the outdoor unit. Th
 
 ## Related links
 
-<ul>
-<li><a href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}">Central AC Installation Cost Calculator</a></li>
-<li><a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Cost Calculator</a></li>
-<li><a href="{{ '/blog/how-much-does-it-cost-to-replace-a-roof/' | relative_url }}">How Much Does It Cost to Replace a Roof?</a></li>
-<li><a href="{{ '/blog/how-much-does-a-fence-cost/' | relative_url }}">How Much Does a Fence Cost?</a></li>
-<li><a href="{{ '/tools/' | relative_url }}">All Cost Calculators</a></li>
+<div class="grid related-grid">
+<div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true">❄️</span><span class="card-cat">Home</span></div><h3><a href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}">Central AC Installation Cost Calculator</a></h3><p class="price">$5,200 - $9,500</p><a class="card-cta" href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
+<div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true">🏠</span><span class="card-cat">Home</span></div><h3><a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Cost Calculator</a></h3><p class="price">$7,528 - $11,475</p><a class="card-cta" href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
+<div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true">🏠</span><span class="card-cat">Guide</span></div><h3><a href="{{ '/blog/how-much-does-it-cost-to-replace-a-roof/' | relative_url }}">How Much Does It Cost to Replace a Roof?</a></h3><p class="price">$7,528 - $11,475</p><a class="card-cta" href="{{ '/blog/how-much-does-it-cost-to-replace-a-roof/' | relative_url }}">Read the guide &rarr;</a></div>
+</div>
+<ul class="chip-list">
+  <li><a href="{{ '/blog/how-much-does-a-fence-cost/' | relative_url }}">How Much Does a Fence Cost? <span aria-hidden="true">&rarr;</span></a></li>
+  <li><a href="{{ '/tools/' | relative_url }}">All Cost Calculators <span aria-hidden="true">&rarr;</span></a></li>
 </ul>
