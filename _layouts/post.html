@@ -1,0 +1,9 @@
+---
+layout: default
+---
+<article class="wrap post">
+  <p class="crumb"><a href="{{ '/' | relative_url }}">Home</a> / <a href="{{ '/blog/' | relative_url }}">Guides</a> / {{ page.title }}</p>
+  <p class="post-date">Published {{ page.date | date: "%B %-d, %Y" }} | Updated {{ page.date | date: "%B %-d, %Y" }}</p>
+  <h1>{{ page.title }}</h1>
+  {{ content }}
+</article>
