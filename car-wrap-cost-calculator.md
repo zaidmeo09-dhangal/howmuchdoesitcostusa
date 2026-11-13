@@ -199,7 +199,7 @@ schema: |
     </div>
     <div>
       <h3>What is not included</h3>
-      <ul class="checklist">
+      <ul class="checklist checklist-x">
         <li>Paint repair</li>
         <li>Custom design work</li>
         <li>Removal of an old wrap</li>
