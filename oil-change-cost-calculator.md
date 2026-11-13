@@ -196,7 +196,7 @@ schema: |
     </div>
     <div>
       <h3>What is not included</h3>
-      <ul class="checklist">
+      <ul class="checklist checklist-x">
         <li>Extra quarts beyond 5</li>
         <li>Cabin or engine air filters</li>
         <li>Tire rotation</li>
