@@ -197,7 +197,7 @@ schema: |
     </div>
     <div>
       <h3>What is not included</h3>
-      <ul class="checklist">
+      <ul class="checklist checklist-x">
         <li>Gutters and downspouts</li>
         <li>Skylights</li>
         <li>Structural repairs and rot repair</li>
