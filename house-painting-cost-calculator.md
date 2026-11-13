@@ -195,7 +195,7 @@ schema: |
     </div>
     <div>
       <h3>What is not included</h3>
-      <ul class="checklist">
+      <ul class="checklist checklist-x">
         <li>Rot repair</li>
         <li>Lead paint removal</li>
         <li>Deck staining</li>
