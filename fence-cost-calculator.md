@@ -197,7 +197,7 @@ schema: |
     </div>
     <div>
       <h3>What is not included</h3>
-      <ul class="checklist">
+      <ul class="checklist checklist-x">
         <li>Old fence removal</li>
         <li>Land surveys</li>
         <li>Premium caps and decorative tops</li>
