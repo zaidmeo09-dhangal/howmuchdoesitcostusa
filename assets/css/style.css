@@ -370,3 +370,17 @@ details.faq p { margin: 10px 0 4px; }
   .head-cta { font-size: 13px; padding: 9px 12px; }
   .logo-text { font-size: 14px; }
 }
+
+/* References as source chips, Related as cards + pill links: no plain bullet links. */
+.ref-chips, .chip-list { list-style: none; margin: 16px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 10px; }
+.ref-chip, .chip-list a {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 10px 16px; border: 1px solid var(--border); border-radius: 999px;
+  background: var(--surface); color: var(--ink); text-decoration: none; font-weight: 700; font-size: 15px;
+}
+.ref-chip:hover, .chip-list a:hover { text-decoration: none; border-color: var(--green); color: var(--green); }
+.ref-chip .ref-note { font-weight: 500; color: var(--muted); font-size: 13px; }
+.ref-chip .ref-arrow { color: var(--green); font-weight: 700; }
+.related-grid { margin-top: 16px; }
+.related-card { padding: 20px; }
+.related-card h3 { font-size: 19px; }
