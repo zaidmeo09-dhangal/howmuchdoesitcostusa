@@ -196,7 +196,7 @@ schema: |
     </div>
     <div>
       <h3>What is not included</h3>
-      <ul class="checklist">
+      <ul class="checklist checklist-x">
         <li>Electrical panel upgrades</li>
         <li>Full duct replacement</li>
         <li>Smart thermostat upgrades</li>
