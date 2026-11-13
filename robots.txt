@@ -1,0 +1,6 @@
+# STAGING robots.txt: do not index anything yet.
+# At launch: replace with Allow: / and a Sitemap line for
+# https://howmuchdoesitcostusa.com/sitemap.xml, and remove the
+# noindex meta tag from _includes/head.html in the same deploy.
+User-agent: *
+Disallow: /
