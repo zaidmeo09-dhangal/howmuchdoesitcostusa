@@ -28,37 +28,7 @@
     });
   }
 
-  /* Hero counters: count up once when visible, then settle on the final value. */
-  function animateCount(el) {
-    var target = parseInt(el.getAttribute("data-count"), 10);
-    if (isNaN(target)) return;
-    var start = null;
-    var dur = 1200;
-    function step(ts) {
-      if (!start) start = ts;
-      var p = Math.min((ts - start) / dur, 1);
-      el.textContent = Math.round(target * p);
-      if (p < 1) requestAnimationFrame(step);
-      else el.textContent = target;
-    }
-    requestAnimationFrame(step);
-  }
-  var counters = document.querySelectorAll(".count");
-  if ("IntersectionObserver" in window && counters.length) {
-    var seen = new WeakSet();
-    var obs = new IntersectionObserver(function (entries) {
-      entries.forEach(function (entry) {
-        if (entry.isIntersecting && !seen.has(entry.target)) {
-          seen.add(entry.target);
-          animateCount(entry.target);
-          obs.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.4 });
-    counters.forEach(function (c) { obs.observe(c); });
-  } else {
-    counters.forEach(function (c) { c.textContent = c.getAttribute("data-count"); });
-  }
+  /* Hero stats are static final numbers, no count-up, so they never show wrong values. */
 
   /* Homepage search: filter the page list, Enter or Check Price goes to the match. */
   var input = document.getElementById("siteSearch");
