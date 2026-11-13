@@ -228,25 +228,27 @@ schema: |
 
   <h2>References</h2>
   <p>Our estimates use public US cost data as a guide. Labor cost context comes from the US Bureau of Labor Statistics, housing cost context from HUD, remodeling trends from Harvard JCHS, and material prices from Home Depot and Lowes. All prices on this page are sample estimated USA ranges, not quotes.</p>
-  <ul>
-    <li><a href="https://www.bls.gov/">US Bureau of Labor Statistics</a> (labor cost data)</li>
-    <li><a href="https://www.hud.gov/">HUD</a> (housing cost data)</li>
-    <li><a href="https://www.jchs.harvard.edu/">Harvard JCHS</a> (household and remodeling cost research)</li>
-    <li><a href="https://www.homedepot.com/">Home Depot</a> (oil and filter prices)</li>
-    <li><a href="https://www.lowes.com/">Lowes</a> (oil and filter prices)</li>
-  </ul>
+  <ul class="ref-chips">
+  <li><a class="ref-chip" href="https://www.bls.gov/" rel="noopener"><span class="ref-name">US Bureau of Labor Statistics</span><span class="ref-note">labor cost data</span><span class="ref-arrow" aria-hidden="true">&nearr;</span></a></li>
+  <li><a class="ref-chip" href="https://www.hud.gov/" rel="noopener"><span class="ref-name">HUD</span><span class="ref-note">housing cost data</span><span class="ref-arrow" aria-hidden="true">&nearr;</span></a></li>
+  <li><a class="ref-chip" href="https://www.jchs.harvard.edu/" rel="noopener"><span class="ref-name">Harvard JCHS</span><span class="ref-note">household and remodeling cost research</span><span class="ref-arrow" aria-hidden="true">&nearr;</span></a></li>
+  <li><a class="ref-chip" href="https://www.homedepot.com/" rel="noopener"><span class="ref-name">Home Depot</span><span class="ref-note">oil and filter prices</span><span class="ref-arrow" aria-hidden="true">&nearr;</span></a></li>
+  <li><a class="ref-chip" href="https://www.lowes.com/" rel="noopener"><span class="ref-name">Lowes</span><span class="ref-note">oil and filter prices</span><span class="ref-arrow" aria-hidden="true">&nearr;</span></a></li>
+</ul>
 
   <h2>Related calculators and guides</h2>
-  <ul>
-    <li><a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator</a></li>
-    <li><a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Cost Calculator</a></li>
-    <li><a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a></li>
-    <li><a href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}">Central AC Installation Cost Calculator</a></li>
-    <li><a href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Car Wrap Cost Calculator</a></li>
-    <li><a href="{{ '/house-painting-cost-calculator/' | relative_url }}">House Painting Cost Calculator</a></li>
-    <li><a href="{{ '/blog/how-much-does-an-oil-change-cost/' | relative_url }}">How Much Does an Oil Change Cost? (Guide)</a></li>
-    <li><a href="{{ '/tools/' | relative_url }}">All calculators</a></li>
-  </ul>
+  <div class="grid related-grid">
+<div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true">🚚</span><span class="card-cat">Moving</span></div><h3><a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator</a></h3><p class="price">$843 - $1,637</p><a class="card-cta" href="{{ '/movers-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
+<div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true">🏠</span><span class="card-cat">Home</span></div><h3><a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Cost Calculator</a></h3><p class="price">$7,528 - $11,475</p><a class="card-cta" href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
+<div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true">🧱</span><span class="card-cat">Home</span></div><h3><a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a></h3><p class="price">$2,100 - $5,400</p><a class="card-cta" href="{{ '/fence-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
+<div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true">🛢️</span><span class="card-cat">Guide</span></div><h3><a href="{{ '/blog/how-much-does-an-oil-change-cost/' | relative_url }}">How Much Does an Oil Change Cost?</a></h3><p class="price">$45 - $140</p><a class="card-cta" href="{{ '/blog/how-much-does-an-oil-change-cost/' | relative_url }}">Read the guide &rarr;</a></div>
+</div>
+<ul class="chip-list">
+  <li><a href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}">Central AC Installation Cost Calculator <span aria-hidden="true">&rarr;</span></a></li>
+  <li><a href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Car Wrap Cost Calculator <span aria-hidden="true">&rarr;</span></a></li>
+  <li><a href="{{ '/house-painting-cost-calculator/' | relative_url }}">House Painting Cost Calculator <span aria-hidden="true">&rarr;</span></a></li>
+  <li><a href="{{ '/tools/' | relative_url }}">All calculators <span aria-hidden="true">&rarr;</span></a></li>
+</ul>
 
   <h2>Frequently asked questions</h2>
   <details class="faq">
