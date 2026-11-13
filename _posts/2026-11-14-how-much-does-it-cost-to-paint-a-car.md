@@ -180,10 +180,12 @@ Painting the door jambs, the engine bay, and the trunk costs extra, because the 
 
 ## Related links
 
-<ul>
-<li><a href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Car Wrap Cost Calculator</a></li>
-<li><a href="{{ '/house-painting-cost-calculator/' | relative_url }}">House Painting Cost Calculator</a></li>
-<li><a href="{{ '/oil-change-cost-calculator/' | relative_url }}">Oil Change Cost Calculator</a></li>
-<li><a href="{{ '/blog/how-much-does-an-oil-change-cost/' | relative_url }}">How Much Does an Oil Change Cost?</a></li>
-<li><a href="{{ '/tools/' | relative_url }}">All Cost Calculators</a></li>
+<div class="grid related-grid">
+<div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true">🚗</span><span class="card-cat">Car</span></div><h3><a href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Car Wrap Cost Calculator</a></h3><p class="price">$2,500 - $5,500</p><a class="card-cta" href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
+<div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true">🎨</span><span class="card-cat">Home</span></div><h3><a href="{{ '/house-painting-cost-calculator/' | relative_url }}">House Painting Cost Calculator</a></h3><p class="price">$2,800 - $6,800</p><a class="card-cta" href="{{ '/house-painting-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
+<div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true">🛢️</span><span class="card-cat">Car</span></div><h3><a href="{{ '/oil-change-cost-calculator/' | relative_url }}">Oil Change Cost Calculator</a></h3><p class="price">$45 - $140</p><a class="card-cta" href="{{ '/oil-change-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
+<div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true">🛢️</span><span class="card-cat">Guide</span></div><h3><a href="{{ '/blog/how-much-does-an-oil-change-cost/' | relative_url }}">How Much Does an Oil Change Cost?</a></h3><p class="price">$45 - $140</p><a class="card-cta" href="{{ '/blog/how-much-does-an-oil-change-cost/' | relative_url }}">Read the guide &rarr;</a></div>
+</div>
+<ul class="chip-list">
+  <li><a href="{{ '/tools/' | relative_url }}">All Cost Calculators <span aria-hidden="true">&rarr;</span></a></li>
 </ul>
