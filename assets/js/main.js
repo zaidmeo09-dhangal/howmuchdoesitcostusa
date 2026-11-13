@@ -14,8 +14,7 @@
     document.documentElement.setAttribute("data-theme", t);
     if (toggle) {
       toggle.setAttribute("aria-pressed", t === "dark" ? "true" : "false");
-      var label = toggle.querySelector(".theme-label");
-      if (label) label.textContent = t === "dark" ? "Light" : "Dark";
+      toggle.setAttribute("aria-label", t === "dark" ? "Switch to light theme" : "Switch to dark theme");
     }
   }
   var saved = null;
