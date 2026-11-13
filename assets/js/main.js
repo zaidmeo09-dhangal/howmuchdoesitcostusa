@@ -18,12 +18,12 @@
     }
   }
   var saved = null;
-  try { saved = localStorage.getItem("hm-cost-theme"); } catch (e) { saved = null; }
+  try { localStorage.removeItem("hm-cost-theme"); saved = localStorage.getItem("hm-cost-theme-v2"); } catch (e) { saved = null; }
   applyTheme(saved || "light");
   if (toggle) {
     toggle.addEventListener("click", function () {
       var next = document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
-      try { localStorage.setItem("hm-cost-theme", next); } catch (e) {}
+      try { localStorage.setItem("hm-cost-theme-v2", next); } catch (e) {}
       applyTheme(next);
     });
   }
