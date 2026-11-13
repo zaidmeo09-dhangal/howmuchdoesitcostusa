@@ -201,7 +201,7 @@ schema: |
     </div>
     <div>
       <h3>What is not included</h3>
-      <ul class="checklist">
+      <ul class="checklist checklist-x">
         <li>Packing and unpacking boxes</li>
         <li>Storage fees</li>
         <li>Specialty items such as pianos and safes</li>
