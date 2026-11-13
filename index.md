@@ -83,24 +83,30 @@ schema: |
       <span class="card-icon" aria-hidden="true">🏠</span>
       <h3><a href="{{ '/tools/' | relative_url }}">Home Projects</a></h3>
       <p>Roofing, fences, central air, and house painting. See what a job costs before you call a contractor.</p>
-      <p><a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Calculator</a><br>
-      <a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a><br>
-      <a href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}">Central AC Calculator</a><br>
-      <a href="{{ '/house-painting-cost-calculator/' | relative_url }}">House Painting Calculator</a></p>
+      <ul class="bucket-links">
+        <li><a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Calculator <span aria-hidden="true">&rarr;</span></a></li>
+        <li><a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator <span aria-hidden="true">&rarr;</span></a></li>
+        <li><a href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}">Central AC Calculator <span aria-hidden="true">&rarr;</span></a></li>
+        <li><a href="{{ '/house-painting-cost-calculator/' | relative_url }}">House Painting Calculator <span aria-hidden="true">&rarr;</span></a></li>
+      </ul>
     </div>
     <div class="card bucket">
       <span class="card-icon" aria-hidden="true">🚗</span>
       <h3><a href="{{ '/tools/' | relative_url }}">Car Costs</a></h3>
       <p>Oil changes and car wraps. Quick prices for the car jobs every driver pays for.</p>
-      <p><a href="{{ '/oil-change-cost-calculator/' | relative_url }}">Oil Change Calculator</a><br>
-      <a href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Car Wrap Calculator</a></p>
+      <ul class="bucket-links">
+        <li><a href="{{ '/oil-change-cost-calculator/' | relative_url }}">Oil Change Calculator <span aria-hidden="true">&rarr;</span></a></li>
+        <li><a href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Car Wrap Calculator <span aria-hidden="true">&rarr;</span></a></li>
+      </ul>
     </div>
     <div class="card bucket">
       <span class="card-icon" aria-hidden="true">🚚</span>
       <h3><a href="{{ '/tools/' | relative_url }}">Moving Costs</a></h3>
       <p>Local and long distance moves. Price your move by home size and distance.</p>
-      <p><a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator</a><br>
-      <a href="{{ '/blog/how-much-do-movers-cost/' | relative_url }}">Movers Cost Guide</a></p>
+      <ul class="bucket-links">
+        <li><a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator <span aria-hidden="true">&rarr;</span></a></li>
+        <li><a href="{{ '/blog/how-much-do-movers-cost/' | relative_url }}">Movers Cost Guide <span aria-hidden="true">&rarr;</span></a></li>
+      </ul>
     </div>
   </div>
 </section>
