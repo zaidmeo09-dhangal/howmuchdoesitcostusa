@@ -231,13 +231,13 @@ schema: |
 
   <h2>References</h2>
   <p>Our estimates use public US cost data as a guide. Labor cost context comes from the US Bureau of Labor Statistics, housing cost context from HUD, remodeling trends from Harvard JCHS, and material prices from Home Depot and Lowes. All prices on this page are sample estimated USA ranges, not quotes.</p>
-  <ul class="ref-chips">
-  <li><a class="ref-chip" href="https://www.bls.gov/" rel="noopener"><span class="ref-name">US Bureau of Labor Statistics</span><span class="ref-note">labor cost data</span><span class="ref-arrow" aria-hidden="true">&nearr;</span></a></li>
-  <li><a class="ref-chip" href="https://www.hud.gov/" rel="noopener"><span class="ref-name">HUD</span><span class="ref-note">housing cost data</span><span class="ref-arrow" aria-hidden="true">&nearr;</span></a></li>
-  <li><a class="ref-chip" href="https://www.jchs.harvard.edu/" rel="noopener"><span class="ref-name">Harvard JCHS</span><span class="ref-note">household and remodeling cost research</span><span class="ref-arrow" aria-hidden="true">&nearr;</span></a></li>
-  <li><a class="ref-chip" href="https://www.homedepot.com/" rel="noopener"><span class="ref-name">Home Depot</span><span class="ref-note">vinyl and supply prices</span><span class="ref-arrow" aria-hidden="true">&nearr;</span></a></li>
-  <li><a class="ref-chip" href="https://www.lowes.com/" rel="noopener"><span class="ref-name">Lowes</span><span class="ref-note">vinyl and supply prices</span><span class="ref-arrow" aria-hidden="true">&nearr;</span></a></li>
-</ul>
+  <div class="refs">
+  <p><a href="https://www.bls.gov/" target="_blank" rel="noopener">US Bureau of Labor Statistics</a> <span class="ref-note">labor cost data</span></p>
+  <p><a href="https://www.hud.gov/" target="_blank" rel="noopener">HUD</a> <span class="ref-note">housing cost data</span></p>
+  <p><a href="https://www.jchs.harvard.edu/" target="_blank" rel="noopener">Harvard JCHS</a> <span class="ref-note">household and remodeling cost research</span></p>
+  <p><a href="https://www.homedepot.com/" target="_blank" rel="noopener">Home Depot</a> <span class="ref-note">vinyl and supply prices</span></p>
+  <p><a href="https://www.lowes.com/" target="_blank" rel="noopener">Lowes</a> <span class="ref-note">vinyl and supply prices</span></p>
+  </div>
 
   <h2>Related calculators and guides</h2>
   <div class="grid related-grid">
