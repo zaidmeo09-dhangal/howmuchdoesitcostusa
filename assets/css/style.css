@@ -36,14 +36,14 @@
 }
 
 :root[data-theme="dark"] {
-  --bg: #141a16;
-  --surface: #1d2820;
-  --surface-soft: #243229;
+  --bg: #232a24;
+  --surface: #2e3831;
+  --surface-soft: #39473c;
   --surface-green: #0b3d2e;
   --surface-green-2: #0f4d3a;
   --ink: #f2f2f2;
   --muted: #b3c4b7;
-  --border: #33473a;
+  --border: #4a5c50;
   --green: #5cc78d;
   --green-dark: #eaf6ed;
   --gold: #f5b301;
@@ -57,18 +57,23 @@
   --hero-muted: #cfe3d6;
   --hero-border: rgba(255, 255, 255, 0.18);
   --hero-kicker: #f5b301;
-  --post-answer-bg: #182a1f;
-  --post-answer-border: #33523f;
+  --post-answer-bg: #26352a;
+  --post-answer-border: #4a5c50;
   --post-answer-note: #d8e8dc;
-  --post-table-head: #122b1d;
-  --post-zebra: #1c2c22;
-  --post-total-bg: #234534;
-  --post-check-bg: #173527;
+  --post-table-head: #1a2f22;
+  --post-zebra: #2a352d;
+  --post-total-bg: #2c5240;
+  --post-check-bg: #24402f;
   --post-x-bg: #3a1d1a;
-  --post-faq-open: #1e2f24;
+  --post-faq-open: #2a3a2e;
 }
 
 * { box-sizing: border-box; }
+/* Page background is charcoal in dark mode, never pure black: the html
+   element carries the same background so overscroll is charcoal too. */
+html { background: var(--bg); }
+:root[data-theme="light"] { color-scheme: light; }
+:root[data-theme="dark"] { color-scheme: dark; }
 /* Screen-reader-only text: visible to assistive tech, not on screen. */
 .sr-only {
   position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
@@ -254,7 +259,7 @@ section { padding: 36px 0; }
   display: flex; align-items: center; justify-content: center;
   font-size: 26px; margin-bottom: 14px;
 }
-:root[data-theme="dark"] .card-icon { background: #1a2620; }
+:root[data-theme="dark"] .card-icon { background: #2a352d; }
 .card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
 .card-cat {
   display: inline-block; background: #fff3c4; color: #7a5200;
@@ -527,7 +532,7 @@ details.faq p { margin: 10px 0 4px; }
   display: inline-block; background: #eef6f0; color: var(--green); font-weight: 700;
   border-radius: 999px; padding: 6px 14px; font-size: 14px;
 }
-:root[data-theme="dark"] .live-note { background: #1a2620; color: #4cc38a; }
+:root[data-theme="dark"] .live-note { background: #2a352d; color: #4cc38a; }
 .band .band-price { font-size: 30px; }
 .cost-table { background: var(--surface); }
 .cost-table tbody tr:hover td { background: var(--surface-soft); }
@@ -808,7 +813,7 @@ html, body { overflow-x: hidden; overflow-x: clip; }
 /* Reading progress bar under the sticky header, guide pages only */
 .post .reading-progress {
   position: sticky; top: 64px; z-index: 40;
-  height: 4px; margin: 0 -8px 4px;
+  height: 6px; margin: 0 -8px 4px;
   background: var(--border); border-radius: 999px; overflow: hidden;
 }
 .post .reading-progress span {
@@ -852,12 +857,12 @@ html, body { overflow-x: hidden; overflow-x: clip; }
 }
 .post .post-hero-visual {
   display: flex; align-items: center; justify-content: center;
-  min-height: 190px; border-radius: 16px;
+  min-height: 230px; border-radius: 16px;
   background: linear-gradient(135deg, #eef6f0 0%, #fdf6d8 100%);
   border: 1px solid var(--border);
 }
 .post .post-hero-visual svg {
-  width: 120px; height: 120px; color: var(--green);
+  width: 200px; height: auto; color: var(--green);
 }
 .post .share-row {
   display: flex; align-items: center; flex-wrap: wrap; gap: 10px;
@@ -869,12 +874,13 @@ html, body { overflow-x: hidden; overflow-x: clip; }
 }
 .post .share-label { font-weight: 700; font-size: 14px; color: var(--muted); margin-right: 2px; }
 .post .share-btn {
-  display: inline-flex; align-items: center; justify-content: center;
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
   min-height: 44px; padding: 9px 16px; border-radius: 999px;
   border: 1px solid var(--border); background: var(--surface);
   color: var(--ink); font-weight: 700; font-size: 14px; font-family: inherit;
   text-decoration: none; cursor: pointer;
 }
+.post .share-btn svg { width: 15px; height: 15px; flex: none; display: block; }
 .post .share-btn:hover { border-color: var(--green); color: var(--green); text-decoration: none; }
 .post button.share-btn { line-height: 1.2; }
 
@@ -938,7 +944,8 @@ html, body { overflow-x: hidden; overflow-x: clip; }
 .post .key-takeaways li:last-child { margin-bottom: 0; }
 .post .key-takeaways li::marker { color: var(--gold-dark); font-weight: 700; }
 
-/* Pull-quote callout: gold-tinted box for the single money-saving tip */
+/* Pull-quote callout: gold-tinted box for the single money-saving tip.
+   Large quote typography with real quotation marks around the tip. */
 .post .pull-quote {
   background: #fdf6d8; border: 1px solid #ead98a; border-left: 6px solid var(--gold);
   border-radius: 16px; padding: 22px 26px; margin: 28px 0;
@@ -949,8 +956,18 @@ html, body { overflow-x: hidden; overflow-x: clip; }
   text-transform: uppercase; color: var(--gold-dark); margin: 0 0 8px;
 }
 .post .pull-quote p:last-child {
-  font-size: 19px; line-height: 1.6; font-style: italic;
+  font-size: 22px; line-height: 1.55; font-style: italic;
   color: var(--ink); margin: 0;
+}
+.post .pull-quote p:last-child::before {
+  content: "\201C"; font-family: Georgia, "Times New Roman", serif;
+  font-size: 2em; line-height: 0; color: var(--gold);
+  margin-right: 2px; vertical-align: -0.4em; font-style: normal;
+}
+.post .pull-quote p:last-child::after {
+  content: "\201D"; font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.3em; line-height: 0; color: var(--gold);
+  margin-left: 2px; vertical-align: -0.25em; font-style: normal;
 }
 
 /* Mid-guide calculator banner, inserted by JS after the first table */
@@ -979,6 +996,14 @@ html, body { overflow-x: hidden; overflow-x: clip; }
   background: var(--post-total-bg); font-weight: 800;
 }
 .post .cost-table td.best-for { font-weight: 600; }
+/* Column alignment: prose columns stay left, only pure number columns are
+   right-aligned. The base rule right-aligns the last column and columns 3
+   and 4, so tables whose last column is prose (Best for, Cost text) or whose
+   columns 4 and later are prose need these overrides. */
+.post .cost-table.prose-last td:last-child,
+.post .cost-table.prose-last th:last-child { text-align: left; }
+.post .cost-table.prose-4 td:nth-child(n+4),
+.post .cost-table.prose-4 th:nth-child(n+4) { text-align: left; }
 
 /* Related guides as image cards: large illustrated header band, existing markup */
 .post .related-card { padding: 0; overflow: hidden; }
@@ -1001,7 +1026,7 @@ html, body { overflow-x: hidden; overflow-x: clip; }
    text, gold accent, 20 to 30 percent more padding than light mode. */
 :root[data-theme="dark"] .post .post-hero-visual {
   background: linear-gradient(135deg, #1e3a2c 0%, #2b2413 100%);
-  border-color: #33473a;
+  border-color: #4a5c50;
 }
 :root[data-theme="dark"] .post .post-hero-visual svg { color: #7fd1a8; }
 :root[data-theme="dark"] .post .key-takeaways,
@@ -1017,7 +1042,7 @@ html, body { overflow-x: hidden; overflow-x: clip; }
 :root[data-theme="dark"] .post .related-card .card-top {
   background: linear-gradient(135deg, #1e3a2c 0%, #2b2413 100%);
 }
-:root[data-theme="dark"] .post .related-card .card-icon { background: #243229; }
+:root[data-theme="dark"] .post .related-card .card-icon { background: #39473c; }
 :root[data-theme="dark"] .post .answer { padding: 30px 32px 28px; }
 :root[data-theme="dark"] .post .key-takeaways { padding: 28px 30px; }
 :root[data-theme="dark"] .post .pull-quote { padding: 28px 30px; }
@@ -1031,7 +1056,7 @@ html, body { overflow-x: hidden; overflow-x: clip; }
 :root[data-theme="dark"] .post .post-byline .post-date { color: #b3c4b7; }
 :root[data-theme="dark"] .post .answer p.note { color: #d8e8dc; }
 :root[data-theme="dark"] .post .refs p { color: #b3c4b7; }
-:root[data-theme="dark"] .post .share-btn { background: #243229; border-color: #33473a; }
+:root[data-theme="dark"] .post .share-btn { background: #39473c; border-color: #4a5c50; }
 :root[data-theme="dark"] .post .share-btn:hover { border-color: var(--green); }
 
 /* Mobile: hero stacks with the illustration band on top, TOC becomes a
@@ -1041,8 +1066,8 @@ html, body { overflow-x: hidden; overflow-x: clip; }
   .post .post-toc { position: static; }
   .post .post-toc.is-ready { display: block; }
   .post .post-hero-grid { grid-template-columns: 1fr; gap: 20px; }
-  .post .post-hero-visual { order: -1; min-height: 150px; }
-  .post .post-hero-visual svg { width: 96px; height: 96px; }
+  .post .post-hero-visual { order: -1; min-height: 170px; }
+  .post .post-hero-visual svg { width: 150px; height: auto; }
 }
 @media (max-width: 760px) {
   .post .post-hero { padding: 20px 18px 22px; margin-top: 14px; }
@@ -1052,7 +1077,7 @@ html, body { overflow-x: hidden; overflow-x: clip; }
   .post .key-takeaways { padding: 20px 18px; }
   .post .key-takeaways li { font-size: 16.5px; }
   .post .pull-quote { padding: 20px 18px; }
-  .post .pull-quote p:last-child { font-size: 18px; }
+  .post .pull-quote p:last-child { font-size: 20px; }
   .post .calc-banner { padding: 22px 20px; }
   .post .calc-banner-title { font-size: 22px; }
   .post .related-card .card-icon { width: 56px; height: 56px; }
