@@ -1,7 +1,7 @@
 ---
 layout: default
-title: About the Team Behind How Much Does It Cost USA Site
-meta_title: "About the Team Behind How Much Does It Cost USA Site"
+title: About the Small Team Behind Our Free Cost Calculators
+meta_title: "About the Small Team Behind Our Free Cost Calculators"
 meta_description: "About How Much Does It Cost USA: free cost calculators and guides that show what home, car, and moving jobs cost across the USA, with price ranges."
 permalink: /about/
 breadcrumb: About
@@ -10,6 +10,7 @@ schema: |
     "@context": "https://schema.org",
     "@type": "AboutPage",
     "name": "About How Much Does It Cost USA",
+    "url": "https://howmuchdoesitcostusa.com/about/",
     "description": "How Much Does It Cost USA publishes free cost calculators and guides that show what home, car, and moving jobs cost in the USA."
   }
 ---
@@ -19,7 +20,7 @@ schema: |
   <p>How Much Does It Cost USA is a small team that builds free online tools. We make cost calculators and guides that show what home, car, and moving jobs cost in the USA, in plain English, with no sign-up and no guesswork.</p>
   <h2>How we build a price</h2>
   <p>Every calculator on this site follows the same method. We start with a typical USA job, break it into material, labor, supplies, and equipment, and show a low, typical, and high band for each part. The totals you see are the sum of those parts, so you can check our math line by line.</p>
-  <p>Our price ranges are sample estimated USA ranges built from typical material and labor costs, with USA sources such as the US Bureau of Labor Statistics, HUD, Harvard JCHS, Home Depot, and Lowes as reference points. They are not quotes. Your real price depends on your size, your materials, and where you live, so always get 3 quotes from local pros before you hire anyone.</p>
+  <p>Our prices are sample estimated USA ranges built from typical material and labor costs, checked against named public sources such as the US Bureau of Labor Statistics, HUD, Harvard JCHS, Home Depot, and Lowes. Every calculator page shows its own breakdown, so you can see the material, labor, supplies, and equipment behind each total. They are not quotes. Your real price depends on your size, your materials, and where you live, so always get 3 quotes from local pros before you hire anyone.</p>
   <h2>What we do not do</h2>
   <ul class="checklist">
     <li>We do not sell your data. All calculations happen in your browser.</li>
