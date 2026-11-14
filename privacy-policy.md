@@ -14,7 +14,7 @@ breadcrumb: Privacy Policy
   <p>We collect almost nothing. The calculators on this site run entirely in your browser. The numbers you type into a calculator are never sent to our servers, never stored, and never shared.</p>
   <p>If you contact us by email, we receive your name, email address, and message so we can reply. We use that information only to answer you.</p>
   <h2>Cookies and analytics</h2>
-  <p>This staging site sets no analytics cookies. When the site goes live, we may add a privacy-friendly analytics tool to count visits and find broken pages. That tool will not track you across other websites.</p>
+  <p>This site sets no analytics cookies. We may add a privacy-friendly analytics tool to count visits and find broken pages. That tool will not track you across other websites.</p>
   <h2>Third parties</h2>
   <p>Pages on this site load fonts from Google Fonts. Google may see your IP address when your browser fetches a font, under Google's own privacy policy. We do not share your information with advertisers.</p>
   <h2>Children</h2>
