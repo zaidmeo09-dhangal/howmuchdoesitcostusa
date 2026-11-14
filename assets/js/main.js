@@ -28,6 +28,30 @@
     });
   }
 
+  /* Mobile hamburger menu: opens the nav links hidden below 900px. */
+  var navToggle = document.getElementById("navToggle");
+  var header = document.querySelector(".site-header");
+  var nav = document.getElementById("siteNav");
+  function setMenu(open) {
+    if (!header || !navToggle) return;
+    header.classList.toggle("nav-open", open);
+    navToggle.setAttribute("aria-expanded", open ? "true" : "false");
+    navToggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+  }
+  if (navToggle) {
+    navToggle.addEventListener("click", function () {
+      setMenu(!header.classList.contains("nav-open"));
+    });
+    if (nav) {
+      nav.addEventListener("click", function (ev) {
+        if (ev.target && ev.target.tagName === "A") setMenu(false);
+      });
+    }
+    document.addEventListener("keydown", function (ev) {
+      if (ev.key === "Escape") setMenu(false);
+    });
+  }
+
   /* Hero stats are static final numbers, no count-up, so they never show wrong values. */
 
   /* Homepage search: filter the page list, Enter or Check Price goes to the match. */
