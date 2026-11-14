@@ -79,10 +79,10 @@ schema: |
           },
           {
             "@type": "Question",
-            "name": "What is not included?",
+            "name": "How much does it cost to paint a house exterior per square foot?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Rot repair, lead paint removal, and deck staining are often extra."
+              "text": "Exterior painting costs $1.50 to $4 per square foot, per Angi. Our calculator uses $2.33 per square foot of floor area, which sits inside that range."
             }
           }
         ]
@@ -114,7 +114,7 @@ schema: |
     <div class="calc-field">
       <label for="homeSize">Home size: <span id="homeSizeVal">1,800 sq ft</span></label>
       <input type="range" id="homeSize" min="800" max="4000" step="50" value="1800">
-      <p class="hint">Use the home floor area as the starting point.</p>
+      <p class="hint">Use the home floor area as the starting point. This calculator prices by floor area, not by paintable wall area, see the area note below.</p>
     </div>
     <div class="receipt">
       <h3>Your estimated cost</h3>
@@ -166,6 +166,110 @@ schema: |
   </div>
   <p class="note">Sample estimated USA ranges. Labor is usually the largest share of a paint job.</p>
 
+  <h2>Which area does this calculator price?</h2>
+  <p>This calculator prices by home floor area, the square feet you enter above. It does not price by paintable wall area. That matters because published per square foot exterior averages use floor area while per-surface figures use wall area, so the two never match, per PaintDeck. Wall area is larger than floor area, so a quote priced per wall square foot will show a lower rate per square foot for the same job. Compare totals, not per square foot rates, when you compare quotes.</p>
+  <p>For paint quantity, use paintable surface area, not floor area. One gallon covers 350 to 400 sq ft per coat, per Angi. Do not divide your floor area by 350, because that understates the paint: the wall area you actually paint is larger than the floor area.</p>
+  <p class="table-hint">Swipe to see the Gallons per coat column &rarr;</p>
+  <div class="table-wrap">
+    <table class="cost-table">
+      <caption>Paint needed per coat by paintable surface area, at 350 to 400 sq ft per gallon, per Angi</caption>
+      <thead>
+        <tr><th>Paintable surface area</th><th>Gallons per coat</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1,000 sq ft</td><td>2.5 to 2.9</td></tr>
+        <tr><td>1,500 sq ft</td><td>3.8 to 4.3</td></tr>
+        <tr><td>2,000 sq ft</td><td>5.0 to 5.7</td></tr>
+        <tr><td>3,000 sq ft</td><td>7.5 to 8.6</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="note">Math: 1,000 / 400 = 2.5 and 1,000 / 350 = 2.9 gallons; 1,500 / 400 = 3.8 and 1,500 / 350 = 4.3; 2,000 / 400 = 5.0 and 2,000 / 350 = 5.7; 3,000 / 400 = 7.5 and 3,000 / 350 = 8.6. Double the gallons for two coats. A gallon costs $20 to $30 on average, with a $10 to $100 range, per Angi.</p>
+  <p><strong>Lead paint note:</strong> homes built before 1978 may contain lead paint, and federal law requires EPA RRP certification for renovation that disturbs lead paint, per PaintDeck. Tell your painter the age of the home before work starts.</p>
+
+  <h2>Cost by room</h2>
+  <p>Interior prices vary by room size and by room type, per Angi. A 10 by 12 ft room costs $240 to $720, and a 20 by 25 ft room costs $1,000 to $3,000.</p>
+  <p class="table-hint">Swipe to see the Sample range column &rarr;</p>
+  <div class="table-wrap">
+    <table class="cost-table">
+      <caption>Interior painting sample ranges by room type, per Angi</caption>
+      <thead>
+        <tr><th>Room</th><th>Sample range</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Kitchen</td><td>$570 to $1,210</td></tr>
+        <tr><td>Living room</td><td>$900 to $2,000</td></tr>
+        <tr><td>Bedroom</td><td>$300 to $750</td></tr>
+        <tr><td>Bathroom</td><td>$200 to $500</td></tr>
+        <tr><td>Stairway</td><td>$400 to $600</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="note">A single room costs $400 to $1,200, and a whole interior of 1,500 to 2,000 sq ft costs $3,000 to $8,000, per HousecallPro.</p>
+
+  <h2>Cost by siding (exterior)</h2>
+  <p>Exterior cost per square foot depends on the siding material, per Angi.</p>
+  <p class="table-hint">Swipe to see the Per sq ft column &rarr;</p>
+  <div class="table-wrap">
+    <table class="cost-table">
+      <caption>Exterior painting per sq ft by siding, per Angi</caption>
+      <thead>
+        <tr><th>Siding</th><th>Per sq ft</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Vinyl</td><td>$1.25 to $3</td></tr>
+        <tr><td>Stucco</td><td>$1.50 to $4</td></tr>
+        <tr><td>Wood</td><td>$1 to $3</td></tr>
+        <tr><td>Concrete</td><td>$1 to $3.50</td></tr>
+        <tr><td>Brick</td><td>$1.50 to $2.50</td></tr>
+        <tr><td>Metal</td><td>$1.50 to $2.50</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Cost by stories (exterior)</h2>
+  <p>More stories mean more ladder and scaffolding work, per Angi. Extra stories add up to 50 percent to labor.</p>
+  <p class="table-hint">Swipe to see the Sample range column &rarr;</p>
+  <div class="table-wrap">
+    <table class="cost-table">
+      <caption>Exterior painting sample ranges by stories, per Angi</caption>
+      <thead>
+        <tr><th>Stories</th><th>Sample range</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1 story</td><td>$1,500 to $3,500</td></tr>
+        <tr><td>2 stories</td><td>$3,000 to $6,200</td></tr>
+        <tr><td>3 stories</td><td>$4,500 to $10,000 plus</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Prep and add-ons</h2>
+  <p>Prep is priced apart from the paint itself in many quotes, per Angi. Cabinet painting is a separate add-on, not part of a wall paint price.</p>
+  <p class="table-hint">Swipe to see the Price column &rarr;</p>
+  <div class="table-wrap">
+    <table class="cost-table">
+      <caption>Prep and add-on prices, per Angi unless noted</caption>
+      <thead>
+        <tr><th>Add-on</th><th>Price</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Sanding and patching</td><td>$0.50 to $0.75 per sq ft</td></tr>
+        <tr><td>Primer</td><td>$10 to $20 per gallon</td></tr>
+        <tr><td>Pressure washing (exterior prep)</td><td>$200 to $450</td></tr>
+        <tr><td>Stripping old paint</td><td>$0.50 to $2 per sq ft</td></tr>
+        <tr><td>Caulking</td><td>$200 to $500</td></tr>
+        <tr><td>Accent wall</td><td>$700 to $1,800</td></tr>
+        <tr><td>Wallpaper removal</td><td>$0.60 to $3 per sq ft</td></tr>
+        <tr><td>Popcorn ceiling removal</td><td>$1 to $6 per sq ft</td></tr>
+        <tr><td>Texture</td><td>$1 to $3 per sq ft</td></tr>
+        <tr><td>Furniture moving</td><td>$30 to $100 per hour</td></tr>
+        <tr><td>Cabinet painting</td><td>$3,000 to $10,000, per HousecallPro</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="note">Labor is 70 to 90 percent of the total, at $25 to $100 per hour, per Angi. Doing interior prep yourself saves $700 to $1,800 in labor, and doing exterior prep yourself saves $500 to $1,000, per Angi.</p>
+
   <h2>How to estimate in 4 steps</h2>
   <ol class="steps">
     <li><strong>Measure your home size.</strong> Use the home floor area as the starting point for the estimate.</li>
@@ -209,16 +313,17 @@ schema: |
   </div>
 
   <h2>How we estimate</h2>
-  <p>We multiply home size by a per square foot rate for exterior or interior work, then set low at 66.7 percent and high at 161.9 percent of the typical price. The result is a sample estimated USA range for planning.</p>
+  <p>We price by floor area, not wall area. The typical price is home floor area times the job rate: $2.33 per sq ft for exterior, $1.85 per sq ft for interior. At the default 1,800 sq ft exterior job that is 1,800 x $2.33 = $4,194, rounded to the nearest $50 to $4,200. For the same home interior it is 1,800 x $1.85 = $3,330, rounded to $3,350. Low is 66.7 percent of typical and high is 161.9 percent, so $4,200 gives $2,800 low and $6,800 high after rounding to the nearest $10.</p>
   <p>Your final price depends on prep needs, paint brand, and local labor rates, so always confirm the price in writing before work starts.</p>
 
   <h2>Hiring a pro checklist</h2>
   <ul class="checklist">
-    <li>Get 3 written quotes with paint brand and coats listed</li>
+    <li>Get 3 written quotes with the paint brand, number of coats, and prep items listed line by line</li>
+    <li>Ask whether the quote prices floor area or wall area, and compare totals, not per square foot rates</li>
+    <li>Ask how sanding, patching, primer, and caulking are priced, and what counts as a repair</li>
+    <li>For a home built before 1978, ask for the lead paint plan and EPA RRP certification</li>
     <li>Check the painter license, insurance, and reviews</li>
-    <li>Ask how prep and repairs are priced</li>
-    <li>Confirm the cleanup plan in writing</li>
-    <li>Ask about the warranty on the work</li>
+    <li>Confirm the cleanup plan and the warranty on the work in writing</li>
   </ul>
 
   <h2>Budget tips</h2>
@@ -230,13 +335,16 @@ schema: |
   </ul>
 
   <h2>References</h2>
-  <p>Our estimates use public US cost data as a guide. Labor cost context comes from the US Bureau of Labor Statistics, housing cost context from HUD, remodeling trends from Harvard JCHS, and material prices from Home Depot and Lowes. All prices on this page are sample estimated USA ranges, not quotes.</p>
+  <p>Our estimates use public US cost data as a guide. Labor cost context comes from the US Bureau of Labor Statistics, housing cost context from HUD, remodeling trends from Harvard JCHS, and material prices from Home Depot and Lowes. Painting prices in this page also use Angi, HousecallPro, and PaintDeck. All prices on this page are sample estimated USA ranges, not quotes.</p>
   <div class="refs">
   <p><a href="https://www.bls.gov/" target="_blank" rel="noopener">US Bureau of Labor Statistics</a> <span class="ref-note">labor cost data</span></p>
   <p><a href="https://www.hud.gov/" target="_blank" rel="noopener">HUD</a> <span class="ref-note">housing cost data</span></p>
   <p><a href="https://www.jchs.harvard.edu/" target="_blank" rel="noopener">Harvard JCHS</a> <span class="ref-note">household and remodeling cost research</span></p>
   <p><a href="https://www.homedepot.com/" target="_blank" rel="noopener">Home Depot</a> <span class="ref-note">paint and primer prices</span></p>
   <p><a href="https://www.lowes.com/" target="_blank" rel="noopener">Lowes</a> <span class="ref-note">paint and primer prices</span></p>
+  <p><a href="https://www.angi.com/articles/cost-paint-interior-and-exterior.htm" target="_blank" rel="noopener">Angi</a> <span class="ref-note">interior and exterior painting cost, updated October 29, 2026</span></p>
+  <p><a href="https://www.housecallpro.com/resources/painting-price-guide/" target="_blank" rel="noopener">HousecallPro</a> <span class="ref-note">painting price guide and cabinet painting</span></p>
+  <p><a href="https://www.paintdeck.co/blog/cost-to-paint-a-house" target="_blank" rel="noopener">PaintDeck</a> <span class="ref-note">floor area vs wall area and lead paint</span></p>
   </div>
 
   <h2>Related calculators and guides</h2>
@@ -246,6 +354,7 @@ schema: |
 <div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V9l2-3 2 3v12"/><path d="M10 21V9l2-3 2 3v12"/><path d="M16 21V9l2-3 2 3v12"/><path d="M3 12h18"/><path d="M3 17h18"/></svg></span><span class="card-cat">Home</span></div><h3><a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a></h3><p class="price">$2,100 - $5,400</p><a class="card-cta" href="{{ '/fence-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
 </div>
 <ul class="chip-list">
+  <li><a href="{{ '/blog/how-much-does-it-cost-to-paint-a-car/' | relative_url }}">How Much Does It Cost to Paint a Car? <span aria-hidden="true">&rarr;</span></a></li>
   <li><a href="{{ '/oil-change-cost-calculator/' | relative_url }}">Oil Change Cost Calculator <span aria-hidden="true">&rarr;</span></a></li>
   <li><a href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}">Central AC Installation Cost Calculator <span aria-hidden="true">&rarr;</span></a></li>
   <li><a href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Car Wrap Cost Calculator <span aria-hidden="true">&rarr;</span></a></li>
@@ -270,8 +379,8 @@ schema: |
     <p>100 percent acrylic latex is the common USA choice.</p>
   </details>
   <details class="faq">
-    <summary>What is not included?</summary>
-    <p>Rot repair, lead paint removal, and deck staining are often extra.</p>
+    <summary>How much does it cost to paint a house exterior per square foot?</summary>
+    <p>Exterior painting costs $1.50 to $4 per square foot, per Angi. Our calculator uses $2.33 per square foot of floor area, which sits inside that range.</p>
   </details>
 </section>
 
@@ -294,7 +403,7 @@ schema: |
     document.getElementById("lowVal").textContent = fmt(low);
     document.getElementById("typVal").textContent = fmt(typ);
     document.getElementById("highVal").textContent = fmt(high);
-    var jobName = jobVal === "2.33" ? "exterior" : "interior";
+    var jobName = rate >= 2 ? "exterior" : "interior";
     var sizeTxt = Math.round(size).toLocaleString("en-US");
     var intro = "A typical " + jobName + " paint job for a " + sizeTxt + " sq ft home in the USA costs about " + fmt(typ) + ", with a sample range of " + fmt(low) + " to " + fmt(high) + ".";
     var days = size <= 1200 ? "2 to 3 days" : size <= 2000 ? "3 to 5 days" : size <= 3000 ? "4 to 6 days" : "5 to 7 days";
