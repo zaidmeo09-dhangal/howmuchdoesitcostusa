@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How Much Does It Cost to Install Central Air?"
-meta_title: "How Much Does Central Air Installation Cost? Calculator"
+title: "Central Air Installation Cost Calculator"
+meta_title: "Central Air Installation Cost Calculator - USA Prices"
 meta_description: "How much does it cost to install central air? Use our free calculator to estimate equipment, labor, and total cost by home size in the USA now."
 permalink: /central-ac-installation-cost-calculator/
 breadcrumb: Tools
@@ -11,7 +11,7 @@ schema: |
     "@graph": [
       {
         "@type": "WebPage",
-        "name": "How Much Does It Cost to Install Central Air?",
+        "name": "Central Air Installation Cost Calculator",
         "description": "How much does it cost to install central air? Use our free calculator to estimate equipment, labor, and total cost by home size in the USA now.",
         "url": "https://howmuchdoesitcostusa.com/central-ac-installation-cost-calculator/"
       },
@@ -28,7 +28,7 @@ schema: |
           {
             "@type": "HowToStep",
             "name": "Step 2",
-            "text": "Pick an efficiency. 14 SEER is the standard choice, and higher SEER units cost more up front and save on bills."
+            "text": "Pick an efficiency. 13.4 SEER2 is the federal minimum in the North, and higher SEER2 units cost more up front and save on bills."
           },
           {
             "@type": "HowToStep",
@@ -79,10 +79,10 @@ schema: |
           },
           {
             "@type": "Question",
-            "name": "What is not included?",
+            "name": "How much does it cost to replace central AC instead of installing new?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Electrical panel upgrades and duct replacement are often extra."
+              "text": "Replacing only the AC costs $3,911 to $8,067, per TrueRepairCost. Adding new ductwork raises the job to $7,500 to $16,000."
             }
           }
         ]
@@ -94,10 +94,11 @@ schema: |
 <section class="wrap">
   <p class="crumb"><a href="{{ '/' | relative_url }}">Home</a> / <a href="{{ '/tools/' | relative_url }}">Tools</a> / Central AC Installation Cost Calculator</p>
   <p class="kicker">Free Calculator</p>
-  <h1>How Much Does It Cost to Install Central Air?</h1>
+  <h1>Central Air Installation Cost Calculator</h1>
   <div class="answer">
     <p id="answerIntro">A typical 2.5 ton central air system in the USA costs about $6,800, with a sample range of $5,200 to $9,500.</p>
     <p class="note">All prices on this page are sample estimated USA ranges, not quotes.</p>
+    <p>Read the full guide: <a href="{{ '/blog/how-much-does-it-cost-to-install-central-air/' | relative_url }}">How Much Does It Cost to Install Central Air?</a></p>
     <p class="updated-line">Updated November 14, 2026</p>
   </div>
 
@@ -110,12 +111,13 @@ schema: |
       <p class="hint">About <span id="tonsVal">2.5 tons</span> for this home size.</p>
     </div>
     <div class="calc-field">
-      <label for="efficiency">Efficiency (SEER rating)</label>
+      <label for="efficiency">Efficiency (SEER2 rating)</label>
       <select id="efficiency">
-        <option value="1" selected>14 SEER (standard)</option>
-        <option value="1.15">16 SEER</option>
-        <option value="1.3">18+ SEER (high efficiency)</option>
+        <option value="1" selected>13.4 SEER2 (federal minimum, North)</option>
+        <option value="1.15">16 SEER2</option>
+        <option value="1.3">18+ SEER2 (high efficiency)</option>
       </select>
+      <p class="hint">In the Southeast and Southwest the federal minimum is 14.3 SEER2, so southern buyers should read the base price as the 14.3 SEER2 price. See the SEER2 table below.</p>
     </div>
     <div class="receipt">
       <h3>Your estimated cost</h3>
@@ -170,7 +172,7 @@ schema: |
   <h2>How to estimate in 4 steps</h2>
   <ol class="steps">
     <li><strong>Measure your home size.</strong> Use the cooled floor area to estimate the system size.</li>
-    <li><strong>Pick an efficiency.</strong> 14 SEER is the standard choice, and higher SEER units cost more up front and save on bills.</li>
+    <li><strong>Pick an efficiency.</strong> 13.4 SEER2 is the federal minimum in the North, and higher SEER2 units cost more up front and save on bills.</li>
     <li><strong>Run the calculator.</strong> Enter home size and efficiency to see your low, typical, and high sample range.</li>
     <li><strong>Get a pro load calculation.</strong> Ask an installer to confirm the size, since insulation and windows change the answer.</li>
   </ol>
@@ -178,8 +180,55 @@ schema: |
   <h2>What affects the price</h2>
   <h3>Home size</h3>
   <p>Larger homes need larger systems, and system size is the biggest driver of equipment cost. A 2,500 sq ft home needs a much larger unit than a 1,000 sq ft home.</p>
-  <h3>Efficiency rating</h3>
-  <p>Higher SEER units cost more to buy and can lower monthly cooling bills over time. A 16 or 18 SEER system costs more up front than a 14 SEER system of the same size.</p>
+  <h3>Efficiency rating (SEER2)</h3>
+  <p>Higher SEER2 units cost more to buy and can lower monthly cooling bills over time. A 16 or 18 SEER2 system costs more up front than a 13.4 SEER2 system of the same size. SEER2 is the current federal test rating, and it replaced SEER for new systems.</p>
+
+  <h2>SEER2 federal minimums by region</h2>
+  <p>Since January 2023, new central air systems must meet these SEER2 minimums, per TrueRepairCost. A quote below the minimum for your region is not a legal new install.</p>
+  <p class="table-hint">Swipe to see the Minimum column &rarr;</p>
+  <div class="table-wrap">
+    <table class="cost-table">
+      <caption>SEER2 federal minimums for central air systems</caption>
+      <thead>
+        <tr><th>Region</th><th>Minimum SEER2</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>North</td><td>13.4</td></tr>
+        <tr><td>Southeast</td><td>14.3 (systems under 45,000 BTU)</td></tr>
+        <tr><td>Southwest</td><td>14.3 (systems under 45,000 BTU)</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="note">Source: TrueRepairCost, researched November 9, 2026. A 3 ton unit-only price rises with SEER, as TrueRepairCost lists it: 14 SEER about $1,725 to $3,600, 16 SEER about $2,875 to $6,000, 18 SEER about $4,100 to $7,800, and 21 SEER about $6,325 to $10,800, per TrueRepairCost.</p>
+
+  <h2>Refrigerant and the indoor coil</h2>
+  <p>New systems use R-454B or R-32 refrigerant. R-454B has a global warming potential of 466, against 2,088 for the older R-410A, per TrueRepairCost. The indoor coil is replaced with the outdoor condenser because the coil must match the new refrigerant and the new SEER2 rating, so a condenser-only swap that keeps an old coil is a false saving.</p>
+
+  <h2>Replacement or new install</h2>
+  <p>Replacing an old system on existing ducts is a different job from adding air conditioning where there was none. Use the table to see which job you are pricing.</p>
+  <p class="table-hint">Swipe to see the Sample range column &rarr;</p>
+  <div class="table-wrap">
+    <table class="cost-table">
+      <caption>Sample estimated USA prices by project type, per TrueRepairCost</caption>
+      <thead>
+        <tr><th>Project type</th><th>Sample range</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Replace AC only</td><td>$3,911 to $8,067</td></tr>
+        <tr><td>Add AC to a furnace and ducts</td><td>$3,000 to $10,700</td></tr>
+        <tr><td>AC plus furnace</td><td>$5,000 to $11,000</td></tr>
+        <tr><td>Heat pump</td><td>$3,625 to $10,800</td></tr>
+        <tr><td>With new ductwork</td><td>$7,500 to $16,000</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="note">Labor is 40 to 60 percent of the total, per TrueRepairCost. Ductwork alone runs $3,000 to $7,500 for 300 linear feet, per Angi.</p>
+
+  <h2>Worked example: 3.5 ton home in Georgia</h2>
+  <p>TrueRepairCost prices a 3.5 ton Georgia home at $5,650 to $7,650. Georgia is in the Southeast, so the 14.3 SEER2 minimum applies. Our calculator prices a 3.5 ton system at 3.5 x $2,720 = $9,520 before the efficiency multiplier, which is higher because it is a sample model rate, not a Georgia quote, so get a local quote before you budget.</p>
+
+  <h2>Repair or replace: the $5,000 rule</h2>
+  <p>iBuyer uses a $5,000 rule: multiply the age of the system in years by the cost of the repair, and replace it if the answer is over $5,000. Worked math: 12 years x $500 repair = $6,000, which is over $5,000, so replace. A 12 year old system that needs a $500 repair fails the test, while the same repair on a 5 year old system gives 5 x $500 = $2,500, which passes.</p>
   <h3>Ductwork condition</h3>
   <p>Old or leaky ducts may need sealing or repair, which adds labor and material cost. Homes with no ducts at all need a full duct install, which costs far more.</p>
   <h3>Electrical work</h3>
@@ -196,6 +245,7 @@ schema: |
         <li>Labor and installation</li>
         <li>Basic ductwork modifications</li>
         <li>Refrigerant and supplies</li>
+        <li>Old system removal and disposal (most companies include it; if separate, Angi prices it at $25 to $200)</li>
       </ul>
     </div>
     <div>
@@ -204,44 +254,49 @@ schema: |
         <li>Electrical panel upgrades</li>
         <li>Full duct replacement</li>
         <li>Smart thermostat upgrades</li>
-        <li>Old system removal and disposal</li>
+        <li>New ductwork for a home with no ducts</li>
       </ul>
     </div>
   </div>
 
   <h2>How we estimate</h2>
-  <p>We estimate system size at about 1 ton per 600 sq ft, then multiply tons by a per ton equipment and labor rate adjusted for efficiency. Low is set at 76.5 percent and high at 139.7 percent of the typical price, giving a sample estimated USA range.</p>
+  <p>We size the system first, then price it. Tons come from home size divided by 600, rounded to the nearest half ton, with a 1.5 ton floor. The typical price is tons times $2,720 times the efficiency multiplier (1.0 for 13.4 SEER2, 1.15 for 16 SEER2, 1.3 for 18+ SEER2). At the default 1,500 sq ft home that is 2.5 tons x $2,720 x 1.0 = $6,800. Low is 76.5 percent of typical and high is 139.7 percent, so $6,800 gives $5,200 low and $9,500 high after rounding to the nearest $10.</p>
   <p>A pro should confirm the size with a load calculation before you buy, since insulation, windows, and climate change the answer.</p>
 
   <h2>Hiring a pro checklist</h2>
   <ul class="checklist">
-    <li>Get 3 written quotes with equipment models listed</li>
-    <li>Ask for a load calculation, not a guess</li>
+    <li>Get 3 written quotes with the exact condenser and coil models and SEER2 rating listed</li>
+    <li>Ask for a Manual J load calculation, not a size guess from square feet alone</li>
+    <li>Ask which refrigerant the system uses, R-454B or R-32, and confirm the coil is new</li>
+    <li>Ask for a duct leakage test and a written price for any duct repair</li>
     <li>Check the installer license, insurance, and reviews</li>
-    <li>Confirm the warranty on parts and labor</li>
-    <li>Ask who pulls the permit</li>
+    <li>Confirm the warranty on parts and labor, and who pulls the permit</li>
   </ul>
 
   <h2>Budget tips</h2>
   <ul>
-    <li>Compare 14 and 16 SEER total cost over 10 years</li>
+    <li>Compare 13.4 and 16 SEER2 total cost over 10 years</li>
     <li>Seal ducts before sizing a new system</li>
-    <li>Schedule installation in spring or fall</li>
-    <li>Ask about rebates from your utility</li>
+    <li>Schedule installation in spring or fall, when Angi says you can save 10 to 15 percent</li>
+    <li>Do not count on the federal 25C tax credit: it ended December 31, 2025, under Public Law 119-21, per TrueRepairCost. Check state and utility rebates instead</li>
   </ul>
 
   <h2>References</h2>
-  <p>Our estimates use public US cost data as a guide. Labor cost context comes from the US Bureau of Labor Statistics, housing cost context from HUD, remodeling trends from Harvard JCHS, and material prices from Home Depot and Lowes. All prices on this page are sample estimated USA ranges, not quotes.</p>
+  <p>Our estimates use public US cost data as a guide. Labor cost context comes from the US Bureau of Labor Statistics, housing cost context from HUD, remodeling trends from Harvard JCHS, and material prices from Home Depot and Lowes. AC prices in this page also use Angi, TrueRepairCost, and iBuyer. All prices on this page are sample estimated USA ranges, not quotes.</p>
   <div class="refs">
   <p><a href="https://www.bls.gov/" target="_blank" rel="noopener">US Bureau of Labor Statistics</a> <span class="ref-note">labor cost data</span></p>
   <p><a href="https://www.hud.gov/" target="_blank" rel="noopener">HUD</a> <span class="ref-note">housing cost data</span></p>
   <p><a href="https://www.jchs.harvard.edu/" target="_blank" rel="noopener">Harvard JCHS</a> <span class="ref-note">household and remodeling cost research</span></p>
   <p><a href="https://www.homedepot.com/" target="_blank" rel="noopener">Home Depot</a> <span class="ref-note">central air equipment prices</span></p>
   <p><a href="https://www.lowes.com/" target="_blank" rel="noopener">Lowes</a> <span class="ref-note">central air equipment prices</span></p>
+  <p><a href="https://www.angi.com/articles/how-much-does-installing-new-ac-cost.htm" target="_blank" rel="noopener">Angi</a> <span class="ref-note">central AC installation cost, updated October 22, 2026</span></p>
+  <p><a href="https://truerepaircost.com/central-ac-installation-cost/" target="_blank" rel="noopener">TrueRepairCost</a> <span class="ref-note">central AC installation cost, researched November 9, 2026</span></p>
+  <p><a href="https://ibuyer.com/blog/how-much-does-it-cost-to-install-central-ac/" target="_blank" rel="noopener">iBuyer</a> <span class="ref-note">central AC installation cost and the $5,000 repair rule</span></p>
   </div>
 
   <h2>Related calculators and guides</h2>
   <div class="grid related-grid">
+<div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/><path d="M4.2 7.5l15.6 9"/><path d="M19.8 7.5L4.2 16.5"/></svg></span><span class="card-cat">Guide</span></div><h3><a href="{{ '/blog/how-much-does-it-cost-to-install-central-air/' | relative_url }}">How Much Does It Cost to Install Central Air?</a></h3><p class="price">$5,200 - $9,500</p><a class="card-cta" href="{{ '/blog/how-much-does-it-cost-to-install-central-air/' | relative_url }}">Read the guide &rarr;</a></div>
 <div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h12v11H2z"/><path d="M14 9h4l3 3v4h-7"/><circle cx="6" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg></span><span class="card-cat">Moving</span></div><h3><a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator</a></h3><p class="price">$843 - $1,637</p><a class="card-cta" href="{{ '/movers-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
 <div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/><path d="M9 21v-6h6v6"/></svg></span><span class="card-cat">Home</span></div><h3><a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Cost Calculator</a></h3><p class="price">$7,528 - $11,475</p><a class="card-cta" href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
 <div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V9l2-3 2 3v12"/><path d="M10 21V9l2-3 2 3v12"/><path d="M16 21V9l2-3 2 3v12"/><path d="M3 12h18"/><path d="M3 17h18"/></svg></span><span class="card-cat">Home</span></div><h3><a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a></h3><p class="price">$2,100 - $5,400</p><a class="card-cta" href="{{ '/fence-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
@@ -271,8 +326,8 @@ schema: |
     <p>A central AC lasts about 15 to 20 years.</p>
   </details>
   <details class="faq">
-    <summary>What is not included?</summary>
-    <p>Electrical panel upgrades and duct replacement are often extra.</p>
+    <summary>How much does it cost to replace central AC instead of installing new?</summary>
+    <p>Replacing only the AC costs $3,911 to $8,067, per TrueRepairCost. Adding new ductwork raises the job to $7,500 to $16,000.</p>
   </details>
 </section>
 
