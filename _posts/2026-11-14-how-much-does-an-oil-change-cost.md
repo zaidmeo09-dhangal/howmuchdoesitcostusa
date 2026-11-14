@@ -85,7 +85,8 @@ schema: |
 
 ## Oil change cost by oil type
 
-<div class="table-wrap">
+<p class="table-hint">Swipe to see the High column &rarr;</p>
+  <div class="table-wrap">
 <table class="cost-table">
 <caption>Sample estimated USA prices for an oil change</caption>
 <thead>
