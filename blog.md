@@ -1,15 +1,23 @@
 ---
 layout: default
-title: All Cost Guides | How Much Does It Cost in the USA
-meta_title: "All Cost Guides | How Much Does It Cost in the USA"
+title: All Cost Guides in the USA
+meta_title: "All Cost Guides in the USA | Home, Car and Moving Prices"
 meta_description: "Browse all cost guides from How Much Does It Cost USA: movers, roofing, fences, oil changes, central air, and car painting prices, free to read."
 permalink: /blog/
 breadcrumb: Blog
+schema: |
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Cost Guides",
+    "url": "https://howmuchdoesitcostusa.com/blog/",
+    "description": "All cost guides: movers, roofing, fences, oil changes, central air, and car painting prices, each with a direct answer and a price table."
+  }
 ---
 
 <section class="wrap">
   <h1>Cost Guides</h1>
-  <p>Every guide opens with a direct answer, shows a price table, and links to the matching calculator. All prices are sample estimated USA ranges.</p>
+  <p>Every guide opens with a direct answer, shows a price table, and links to the matching calculator. All prices are sample estimated USA ranges. Each guide covers what drives the price up or down, what is included in the job, and how to compare quotes from local pros. Prefer a calculator? <a href="{{ '/tools/' | relative_url }}">See all 7 calculators</a> and get your low, typical, and high price in seconds.</p>
   <div class="grid">
     <div class="card"><div class="card-top"><span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h12v11H2z"/><path d="M14 9h4l3 3v4h-7"/><circle cx="6" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg></span><span class="card-cat">Guide</span></div><h3><a href="{{ '/blog/how-much-do-movers-cost/' | relative_url }}">How Much Do Movers Cost in the USA?</a></h3><p class="price">$843 - $1,637</p><p>Average prices by home size, what affects the cost, and how to save on your move.</p><a class="card-cta" href="{{ '/blog/how-much-do-movers-cost/' | relative_url }}">Read the guide &rarr;</a></div>
     <div class="card"><div class="card-top"><span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c3.5 4.2 6 7.2 6 10.2a6 6 0 1 1-12 0C6 10.2 8.5 7.2 12 3z"/></svg></span><span class="card-cat">Guide</span></div><h3><a href="{{ '/blog/how-much-does-an-oil-change-cost/' | relative_url }}">How Much Does an Oil Change Cost?</a></h3><p class="price">$45 - $140</p><p>Prices by oil type, what is included, and how often to change your oil.</p><a class="card-cta" href="{{ '/blog/how-much-does-an-oil-change-cost/' | relative_url }}">Read the guide &rarr;</a></div>
