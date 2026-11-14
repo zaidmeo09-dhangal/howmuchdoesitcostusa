@@ -452,3 +452,32 @@ details.faq p { margin: 10px 0 4px; }
   .wrap { padding: 0 18px; }
   .calc { padding: 20px; }
 }
+
+/* Mobile header and ticker fix, Nov 15, 2026: on a 360px phone the header
+   (logo + toggle + Get a Price) was wider than the viewport, so the button
+   was cut off and the page scrolled sideways, which also made the ticker
+   look clipped. The header CTA is hidden on small phones because the hero
+   already has Get a Price and Check Price buttons. */
+html, body { overflow-x: clip; }
+.ticker { max-width: 100%; }
+.ticker-track { width: max-content; }
+@media (max-width: 760px) {
+  .header-inner { gap: 10px; }
+  .logo { gap: 8px; min-width: 0; }
+  .logo-mark { width: 36px; height: 36px; font-size: 22px; border-radius: 10px; }
+  .logo-text { font-size: 15px; }
+  .logo-tag { display: none; }
+  .theme-toggle { width: 36px; height: 36px; min-height: 36px; }
+  .theme-toggle .theme-icon { width: 18px; height: 18px; }
+  .head-cta { min-height: 40px; padding: 8px 12px; font-size: 14px; }
+  .ticker { font-size: 13px; padding: 7px 0; }
+  .ticker span { padding: 0 14px; }
+}
+@media (max-width: 480px) {
+  .head-cta { display: none; }
+  .header-actions { gap: 8px; }
+}
+@media (max-width: 360px) {
+  .logo-mark { width: 34px; height: 34px; font-size: 20px; }
+  .logo-text { font-size: 14px; }
+}
