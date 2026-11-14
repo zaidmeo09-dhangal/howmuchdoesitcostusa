@@ -98,6 +98,7 @@ schema: |
   <div class="answer">
     <p id="answerIntro">A typical 2-bedroom local move in the USA costs about $1,240, with a sample range of $843 to $1,637.</p>
     <p class="note">All prices on this page are sample estimated USA ranges, not quotes.</p>
+    <p class="updated-line">Updated November 14, 2026</p>
   </div>
 
   <div class="calc">
@@ -119,6 +120,7 @@ schema: |
         <option value="1" selected>Local, under 50 miles</option>
         <option value="1.4">50 to 100 miles</option>
         <option value="2.1">100 to 500 miles</option>
+        <option value="3">Over 500 miles / interstate</option>
       </select>
     </div>
     <div class="receipt">
@@ -183,7 +185,7 @@ schema: |
   <h3>Home size</h3>
   <p>More rooms mean more boxes, more furniture, and more hours on the job. A studio move can take half the time of a 4-bedroom move, so the crew size and the total both grow with the home.</p>
   <h3>Distance</h3>
-  <p>Local moves usually charge by the hour, while longer moves add fuel, tolls, and driver time. A move of 100 to 500 miles can cost about twice as much as a local move for the same home size.</p>
+  <p>Local moves usually charge by the hour, while longer moves add fuel, tolls, and driver time. A move of 100 to 500 miles can cost about twice as much as a local move for the same home size, and a move over 500 miles can cost about three times as much.</p>
   <h3>Time of year</h3>
   <p>Summer weekends are the busiest and priciest time to move in the USA. Booking midweek or in the off season can lower the price, and early booking gives you more choice of dates.</p>
   <h3>Stairs and access</h3>
@@ -300,7 +302,7 @@ schema: |
     document.getElementById("typVal").textContent = fmt(typ);
     document.getElementById("highVal").textContent = fmt(high);
     var homeText = { "750": "studio", "950": "1-bedroom", "1240": "2-bedroom", "1750": "3-bedroom", "2300": "4+ bedroom" }[homeVal];
-    var distText = { "1": "local", "1.4": "50 to 100 mile", "2.1": "100 to 500 mile" }[distVal];
+    var distText = { "1": "local", "1.4": "50 to 100 mile", "2.1": "100 to 500 mile", "3": "over 500 mile" }[distVal];
     var intro = "A typical " + homeText + " " + distText + " move in the USA costs about " + fmt(typ) + ", with a sample range of " + fmt(low) + " to " + fmt(high) + ".";
     var labor = { "750": "Labor (2 movers, 2 to 3 hours)", "950": "Labor (2 movers, 3 to 4 hours)", "1240": "Labor (2 movers, 4 to 6 hours)", "1750": "Labor (3 movers, 6 to 8 hours)", "2300": "Labor (4 movers, 8 to 10 hours)" }[homeVal];
     try { if (window.hmSync) { window.hmSync(low, typ, high, 843, 1240, 1637, { intro: intro, labor: labor }); } } catch (e) {}
