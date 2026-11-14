@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Contact Our Team Now | How Much Does It Cost USA Site
-meta_title: "Contact Our Team Now | How Much Does It Cost USA Site"
+title: Contact Our Team About a Price, Calculator or Guide
+meta_title: "Contact Our Team About a Price, Calculator or Guide"
 meta_description: "Contact the How Much Does It Cost USA team with a question, a correction, or a suggestion for a new cost calculator or guide for our site today."
 permalink: /contact/
 breadcrumb: Contact
@@ -29,5 +29,6 @@ breadcrumb: Contact
     <p class="note">This form opens your own email app to send the message. We do not store form submissions on this site.</p>
   </form>
   <h2>Before you write</h2>
+  <p>Looking for a price first? See <a href="{{ '/tools/' | relative_url }}">all 7 cost calculators</a> or read the <a href="{{ '/blog/' | relative_url }}">cost guides</a>. Your question may already be answered there.</p>
   <p>For a price question, tell us your city or state, the size of the job, and the material you want. That is the fastest way for us to check a price.</p>
 </section>
