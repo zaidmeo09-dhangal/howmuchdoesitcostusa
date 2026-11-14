@@ -96,7 +96,7 @@ schema: |
   <p class="kicker">Free Calculator</p>
   <h1>How Much Does It Cost to Install Central Air?</h1>
   <div class="answer">
-    <p>A typical 2.5 ton central air system in the USA costs about $6,800, with a sample range of $5,200 to $9,500.</p>
+    <p id="answerIntro">A typical 2.5 ton central air system in the USA costs about $6,800, with a sample range of $5,200 to $9,500.</p>
     <p class="note">All prices on this page are sample estimated USA ranges, not quotes.</p>
   </div>
 
@@ -155,7 +155,7 @@ schema: |
       </thead>
       <tbody>
         <tr><td>Equipment (condenser, coil)</td><td>$2,800</td><td>$3,600</td><td>$5,100</td></tr>
-        <tr><td>Labor and installation</td><td>$1,600</td><td>$2,100</td><td>$2,900</td></tr>
+        <tr><td id="laborLabel">Labor and installation (2.5 ton system, 1 to 2 days)</td><td>$1,600</td><td>$2,100</td><td>$2,900</td></tr>
         <tr><td>Ductwork modifications</td><td>$350</td><td>$500</td><td>$750</td></tr>
         <tr><td>Electrical and permits</td><td>$250</td><td>$350</td><td>$450</td></tr>
         <tr><td>Supplies and refrigerant</td><td>$200</td><td>$250</td><td>$300</td></tr>
@@ -294,7 +294,10 @@ schema: |
     document.getElementById("lowVal").textContent = fmt(low);
     document.getElementById("typVal").textContent = fmt(typ);
     document.getElementById("highVal").textContent = fmt(high);
-    try { if (window.hmSync) { window.hmSync(low, typ, high, 5200, 6800, 9500); } } catch (e) {}
+    var intro = "A typical " + tons + " ton central air system in the USA costs about " + fmt(typ) + ", with a sample range of " + fmt(low) + " to " + fmt(high) + ".";
+    var days = tons <= 2 ? "1 day" : tons <= 3.5 ? "1 to 2 days" : "2 days";
+    var labor = "Labor and installation (" + tons + " ton system, " + days + ")";
+    try { if (window.hmSync) { window.hmSync(low, typ, high, 5200, 6800, 9500, { intro: intro, labor: labor }); } } catch (e) {}
   }
   document.getElementById("homeSize").addEventListener("input", update);
   document.getElementById("efficiency").addEventListener("change", update);
