@@ -1,11 +1,58 @@
 ---
 layout: default
 ---
-<article class="wrap post">
-  <header class="post-head">
-  <p class="crumb"><a href="{{ '/' | relative_url }}">Home</a> / <a href="{{ '/blog/' | relative_url }}">Guides</a> / {{ page.title }}</p>
-  <p class="post-date">Published {{ page.date | date: "%B %-d, %Y" }}</p>
-  <h1>{{ page.title }}</h1>
+<article class="wrap post" data-calculator-url="{{ page.calculator_url | relative_url }}" data-calculator-name="{{ page.calculator_name }}" data-calculator-heading="{{ page.calculator_heading }}" data-calculator-note="{{ page.calculator_note | default: '' }}">
+  <div class="reading-progress" aria-hidden="true"><span id="readingProgressBar"></span></div>
+  <header class="post-hero">
+    <p class="crumb"><a href="{{ '/' | relative_url }}">Home</a> / <a href="{{ '/blog/' | relative_url }}">Guides</a> / {{ page.title }}</p>
+    <div class="post-hero-grid">
+      <div class="post-hero-text">
+        <p class="post-kicker">{{ page.guide_category | default: "Cost Guide" }}</p>
+        <h1>{{ page.title }}</h1>
+        <div class="post-byline">
+          <span class="post-avatar" aria-hidden="true">$</span>
+          <div class="post-byline-text">
+            <span class="post-author">How Much Does It Cost USA Team</span>
+            <span class="post-date">Published {{ page.date | date: "%B %-d, %Y" }}</span>
+          </div>
+        </div>
+        <div class="share-row">
+          <span class="share-label">Share</span>
+          <a class="share-btn" href="https://twitter.com/intent/tweet?url={{ page.url | absolute_url | url_encode }}&amp;text={{ page.title | url_encode }}" target="_blank" rel="noopener">X</a>
+          <a class="share-btn" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url | url_encode }}" target="_blank" rel="noopener">Facebook</a>
+          <button type="button" class="share-btn share-copy" data-copy-url="{{ page.url | absolute_url }}">Copy link</button>
+        </div>
+      </div>
+      <div class="post-hero-visual" aria-hidden="true">
+        {% if page.url contains 'movers' %}
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h12v11H2z"/><path d="M14 9h4l3 3v4h-7"/><circle cx="6" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg>
+        {% elsif page.url contains 'roof' %}
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/><path d="M9 21v-6h6v6"/></svg>
+        {% elsif page.url contains 'fence' %}
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V9l2-3 2 3v12"/><path d="M10 21V9l2-3 2 3v12"/><path d="M16 21V9l2-3 2 3v12"/><path d="M3 12h18"/><path d="M3 17h18"/></svg>
+        {% elsif page.url contains 'oil-change' %}
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c3.5 4.2 6 7.2 6 10.2a6 6 0 1 1-12 0C6 10.2 8.5 7.2 12 3z"/></svg>
+        {% elsif page.url contains 'central-air' %}
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/><path d="M4.2 7.5l15.6 9"/><path d="M19.8 7.5L4.2 16.5"/><path d="M12 2L9.5 4.5M12 2l2.5 2.5M12 22l-2.5-2.5M12 22l2.5-2.5"/></svg>
+        {% elsif page.url contains 'paint-a-car' %}
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="13" height="6" rx="1.5"/><path d="M16 7h3v3h-5"/><path d="M13.5 13v4a2.5 2.5 0 0 0 5 0v-4"/></svg>
+        {% endif %}
+      </div>
+    </div>
   </header>
-  {{ content }}
+  <div class="post-layout">
+    <nav class="post-toc" id="postToc" aria-label="On this page">
+      <p class="post-toc-title">On this page</p>
+      <ol class="post-toc-list" id="postTocList"></ol>
+    </nav>
+    <div class="post-body">
+      {{ content }}
+    </div>
+  </div>
+  <div class="share-row share-row-bottom">
+    <span class="share-label">Share this guide</span>
+    <a class="share-btn" href="https://twitter.com/intent/tweet?url={{ page.url | absolute_url | url_encode }}&amp;text={{ page.title | url_encode }}" target="_blank" rel="noopener">X</a>
+    <a class="share-btn" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url | url_encode }}" target="_blank" rel="noopener">Facebook</a>
+    <button type="button" class="share-btn share-copy" data-copy-url="{{ page.url | absolute_url }}">Copy link</button>
+  </div>
 </article>
