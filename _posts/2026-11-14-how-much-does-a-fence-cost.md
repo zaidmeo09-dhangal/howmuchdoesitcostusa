@@ -85,7 +85,8 @@ schema: |
 
 ## Fence cost per foot installed
 
-<div class="table-wrap">
+<p class="table-hint">Swipe to see the High column &rarr;</p>
+  <div class="table-wrap">
 <table class="cost-table">
 <caption>Sample estimated USA prices, installed, per linear foot</caption>
 <thead>
