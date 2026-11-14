@@ -129,7 +129,6 @@ schema: |
 <tr><td>2 bedrooms</td><td>$1,240</td><td>$2,604</td></tr>
 <tr><td>3 bedrooms</td><td>$1,750</td><td>$3,675</td></tr>
 <tr><td>4+ bedrooms</td><td>$2,300</td><td>$4,830</td></tr>
-<tr class="total"><td>Total of the rows above</td><td>$6,990</td><td>$14,679</td></tr>
 </tbody>
 </table>
 </div>
@@ -165,7 +164,6 @@ schema: |
 <tr><td>Pool table</td><td>$375 to $1,500</td></tr>
 <tr><td>Hot tub</td><td>$300 to $1,200</td></tr>
 <tr><td>Car</td><td>$1,000 to $2,000</td></tr>
-<tr class="total"><td>Total of the rows above</td><td>$1,935 to $5,280</td></tr>
 </tbody>
 </table>
 </div>
