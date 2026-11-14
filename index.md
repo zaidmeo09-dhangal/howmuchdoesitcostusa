@@ -57,23 +57,36 @@ schema: |
 <div class="ticker" aria-hidden="true"><div class="ticker-track"><span>Movers from $843</span><span>Roof replacement from $7,528</span><span>Fence from $2,100</span><span>Oil change from $45</span><span>Central AC from $5,200</span><span>Car wrap from $2,500</span><span>House painting from $2,800</span><span>Movers from $843</span><span>Roof replacement from $7,528</span><span>Fence from $2,100</span><span>Oil change from $45</span><span>Central AC from $5,200</span><span>Car wrap from $2,500</span><span>House painting from $2,800</span></div></div>
 
 <section class="hero">
-  <div class="wrap">
-    <p class="kicker">USA COST GUIDES + CALCULATORS</p>
-    <h1>How much does it <span class="accent">cost</span> in the USA?</h1>
-    <p class="lede">Real price ranges for the jobs Americans actually pay for. Pick a calculator, answer 3 questions, and see your low, typical, and high price in seconds.</p>
-    <form class="search-box" id="searchForm" role="search" action="{{ '/tools/' | relative_url }}" method="get">
-      <label for="siteSearch" class="sr-only" style="position:absolute;left:-9999px;">Search cost calculators and guides</label>
-      <input type="search" id="siteSearch" name="q" placeholder="Try: movers, roof, fence, oil change..." autocomplete="off">
-      <button class="btn btn-gold" type="submit" style="white-space:nowrap;">Check Price</button>
-    </form>
-    <ul class="search-results" id="searchResults"></ul>
-    <p><a class="btn btn-gold" href="{{ '/tools/' | relative_url }}">Get a Price</a> <a class="btn btn-outline" href="{{ '/blog/' | relative_url }}">Read the Guides</a></p>
-    <p class="trust-row"><span>Free forever</span><span>No sign-up</span><span>USA prices</span><span>Nothing you type leaves your browser</span></p>
-    <div class="hero-sample" aria-label="Sample estimate">
-      <span class="hero-sample-label">Sample estimate: 2-bedroom local move</span>
-      <span class="hero-sample-price">Typical $1,240</span>
-      <span class="hero-sample-range">Low $843 &middot; High $1,637</span>
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="kicker">USA COST GUIDES + CALCULATORS</p>
+      <h1>How much does it <span class="accent">cost</span> in the USA?</h1>
+      <p class="lede">Real price ranges for the jobs Americans actually pay for. Pick a calculator, answer 3 questions, and see your low, typical, and high price in seconds.</p>
+      <form class="search-box" id="searchForm" role="search" action="{{ '/tools/' | relative_url }}" method="get">
+        <label for="siteSearch" class="sr-only" style="position:absolute;left:-9999px;">Search cost calculators and guides</label>
+        <input type="search" id="siteSearch" name="q" placeholder="Try: movers, roof, fence, oil change..." autocomplete="off">
+        <button class="btn btn-gold" type="submit" style="white-space:nowrap;">Check Price</button>
+      </form>
+      <ul class="search-results" id="searchResults"></ul>
+      <p><a class="btn btn-gold" href="{{ '/tools/' | relative_url }}">Get a Price</a> <a class="btn btn-outline" href="{{ '/blog/' | relative_url }}">Read the Guides</a></p>
     </div>
+    <aside class="hero-card" aria-label="Sample estimate">
+      <p class="hero-card-label">Sample estimate</p>
+      <p class="hero-card-title">2-bedroom local move</p>
+      <p class="hero-card-price">Typical $1,240</p>
+      <div class="price-bar" aria-hidden="true"><span style="width:50%"></span></div>
+      <p class="price-row"><span>Low $843</span><span>High $1,637</span></p>
+      <p class="hero-card-note">Sample estimated USA range, not a quote.</p>
+      <p><a class="btn btn-gold" href="{{ '/movers-cost-calculator/' | relative_url }}">Calculate your move price</a></p>
+      <ul class="hero-card-points">
+        <li>Free forever</li>
+        <li>No sign-up</li>
+        <li>USA prices</li>
+        <li>Nothing you type leaves your browser</li>
+      </ul>
+    </aside>
+  </div>
+  <div class="wrap">
     <div class="hero-stats">
       <div class="hstat"><div><span class="hstat-num"><span class="count" data-count="6">6</span></span></div><div class="hstat-label">Cost guides live</div></div>
       <div class="hstat"><div><span class="hstat-num"><span class="count" data-count="7">7</span></span></div><div class="hstat-label">Live calculators at launch</div></div>
