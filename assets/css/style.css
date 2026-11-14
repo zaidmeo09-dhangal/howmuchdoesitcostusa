@@ -73,9 +73,10 @@ p { margin: 0 0 1em; }
 a { color: var(--green); }
 a:hover { color: var(--teal); }
 img, svg { max-width: 100%; }
-.wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+.wrap { max-width: 1440px; margin: 0 auto; padding: 0 32px; }
+.wrap > p, .wrap > ul, .wrap > ol, .wrap > h2, .wrap > h3 { max-width: 860px; }
 main { min-height: 60vh; }
-section { padding: 28px 0; }
+section { padding: 36px 0; }
 
 /* Header */
 .site-header {
@@ -143,7 +144,7 @@ section { padding: 28px 0; }
 .hero {
   background: var(--hero-bg);
   color: var(--hero-ink);
-  padding: 40px 0 32px;
+  padding: 28px 0 24px;
 }
 .hero h1 { color: var(--hero-ink); margin-bottom: 0.4em; }
 .hero h1 .accent { color: var(--gold-dark); }
@@ -406,3 +407,43 @@ details.faq p { margin: 10px 0 4px; }
 .hero-sample-range { color: var(--muted); font-weight: 600; font-size: 14px; }
 /* Wide CTA card fills the last row of a grid instead of leaving one card alone. */
 .card-wide { grid-column: 1 / -1; }
+
+/* Premium polish pass, Nov 15, 2026: cleaner spacing, SVG icons, live calculator UI. */
+.card-icon svg { width: 26px; height: 26px; display: block; }
+.card-icon { font-size: 0; }
+.calc { padding: 28px; }
+.calc-field label { color: var(--green-dark); font-size: 15px; }
+.calc-field select {
+  appearance: none; -webkit-appearance: none; cursor: pointer; border-width: 2px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%230b6b4a' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat; background-position: right 14px center; background-size: 16px;
+  padding-right: 44px;
+}
+.calc-field select:focus, .calc-field input:focus {
+  outline: none; border-color: var(--green); box-shadow: 0 0 0 3px rgba(11, 107, 74, 0.15);
+}
+.calc-field input[type="range"] { accent-color: var(--green); height: 28px; }
+.receipt { background: var(--surface); border: 1px solid var(--border); border-top: 6px solid var(--green); }
+.receipt-bar { margin-top: 14px; }
+.two-col > div {
+  border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 20px 22px; background: var(--surface);
+}
+.two-col > div h3 { margin-top: 0; }
+.search-box input { box-shadow: var(--shadow); }
+.hero-sample { box-shadow: var(--shadow); border-left: 5px solid var(--green); }
+.trust-row { display: flex; flex-wrap: wrap; gap: 8px 20px; margin: 18px 0 0; }
+.trust-row span { display: inline-flex; align-items: center; gap: 6px; font-weight: 700; font-size: 14px; color: var(--hero-muted); }
+.trust-row span::before { content: "\2713"; color: var(--green); font-weight: 800; }
+.live-note {
+  display: inline-block; background: #eef6f0; color: var(--green); font-weight: 700;
+  border-radius: 999px; padding: 6px 14px; font-size: 14px;
+}
+:root[data-theme="dark"] .live-note { background: #1a2620; color: #4cc38a; }
+.band .band-price { font-size: 30px; }
+.cost-table { background: var(--surface); }
+.cost-table tbody tr:hover td { background: var(--surface-soft); }
+@media (max-width: 760px) {
+  .wrap { padding: 0 18px; }
+  .calc { padding: 20px; }
+}
