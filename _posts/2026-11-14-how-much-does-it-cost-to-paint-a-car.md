@@ -93,8 +93,8 @@ schema: |
 <tr><th>Paint job quality</th><th>Sample range</th><th>Typical price</th></tr>
 </thead>
 <tbody>
-<tr><td>Basic single coat</td><td>$1,500 to $2,500</td><td>$2,000</td></tr>
-<tr><td>Standard quality</td><td>$2,500 to $5,000</td><td>$3,500</td></tr>
+<tr><td>Basic single coat</td><td>$1,500 to $2,499</td><td>$2,000</td></tr>
+<tr><td>Standard quality</td><td>$2,500 to $4,999</td><td>$3,500</td></tr>
 <tr><td>Show quality</td><td>$5,000 to $10,000</td><td>$7,500</td></tr>
 </tbody>
 </table>
@@ -155,7 +155,7 @@ Painting the door jambs, the engine bay, and the trunk costs extra, because the 
 
 <ul class="checklist">
 <li><strong>Get 3 written quotes.</strong> Compare the same quality level, the same prep, and the same paint brand, not just the bottom line price.</li>
-<li><strong>Pick standard quality unless you need show quality.</strong> Standard quality suits most daily drivers, and it costs about half of a show quality job.</li>
+<li><strong>Pick standard quality unless you need show quality.</strong> Standard quality suits most daily drivers, and it costs about 47 percent of a show quality job.</li>
 <li><strong>Ask what prep is included.</strong> A cheap quote can leave out sanding and rust repair, and those extras can cost more than the saving.</li>
 <li><strong>Fix small dents first, or leave them.</strong> Decide before you get quotes, so each shop prices the same job and you can compare them fairly.</li>
 <li><strong>Consider a wrap for a color change.</strong> A vinyl wrap is cheaper than a full color change paint job, and it is reversible if you change your mind.</li>
@@ -178,6 +178,17 @@ Painting the door jambs, the engine bay, and the trunk costs extra, because the 
 <details class="faq"><summary>How long does it take?</summary><p>About 3 to 7 days for most repaints. Prep and drying take most of the time, and show quality jobs take longer because they use more coats and more sanding between coats.</p></details>
 <details class="faq"><summary>What is included?</summary><p>Prep, primer, paint, and clear coat are included in most quotes. Masking and a basic polish are usually included too, but rust repair and dent repair are often priced apart.</p></details>
 <details class="faq"><summary>Should I wrap instead of paint?</summary><p>A wrap is cheaper and reversible, paint lasts longer. A vinyl wrap suits a color change or a short term look, while paint suits a car you plan to keep for many years.</p></details>
+
+## References
+
+<p>Our estimates use public US cost data as a guide. Labor cost context comes from the US Bureau of Labor Statistics, and car paint and material prices come from Home Depot and Lowes. All prices on this page are sample estimated USA ranges, not quotes.</p>
+<div class="refs">
+<p><a href="https://www.bls.gov/" target="_blank" rel="noopener">US Bureau of Labor Statistics</a> <span class="ref-note">labor cost data</span></p>
+<p><a href="https://www.hud.gov/" target="_blank" rel="noopener">HUD</a> <span class="ref-note">housing cost data</span></p>
+<p><a href="https://www.jchs.harvard.edu/" target="_blank" rel="noopener">Harvard JCHS</a> <span class="ref-note">household and remodeling cost research</span></p>
+<p><a href="https://www.homedepot.com/" target="_blank" rel="noopener">Home Depot</a> <span class="ref-note">car paint prices</span></p>
+<p><a href="https://www.lowes.com/" target="_blank" rel="noopener">Lowes</a> <span class="ref-note">car paint prices</span></p>
+</div>
 
 ## Related links
 
