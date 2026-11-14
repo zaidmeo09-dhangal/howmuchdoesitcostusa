@@ -96,7 +96,7 @@ schema: |
   <p class="kicker">Free Calculator</p>
   <h1>How Much Does an Oil Change Cost?</h1>
   <div class="answer">
-    <p>A typical full synthetic oil change in the USA costs about $75, with a sample range of $45 to $140.</p>
+    <p id="answerIntro">A typical full synthetic oil change in the USA costs about $75, with a sample range of $45 to $140.</p>
     <p class="note">All prices on this page are sample estimated USA ranges, not quotes.</p>
   </div>
 
@@ -158,7 +158,7 @@ schema: |
       <tbody>
         <tr><td>Oil (5 quarts)</td><td>$25</td><td>$45</td><td>$85</td></tr>
         <tr><td>Oil filter</td><td>$8</td><td>$12</td><td>$20</td></tr>
-        <tr><td>Labor</td><td>$12</td><td>$18</td><td>$35</td></tr>
+        <tr><td id="laborLabel">Labor (about 30 minutes)</td><td>$12</td><td>$18</td><td>$35</td></tr>
         <tr class="total"><td>Totals</td><td>$45</td><td>$75</td><td>$140</td></tr>
       </tbody>
     </table>
@@ -283,7 +283,8 @@ schema: |
     return "$" + Math.round(n).toLocaleString("en-US");
   }
   function update() {
-    var parts = document.getElementById("oilType").value.split(",");
+    var oilSel = document.getElementById("oilType");
+    var parts = oilSel.value.split(",");
     var mult = parseFloat(document.getElementById("vehicleType").value);
     var low = Math.round(parseFloat(parts[0]) * mult);
     var typ = Math.round(parseFloat(parts[1]) * mult);
@@ -291,7 +292,11 @@ schema: |
     document.getElementById("lowVal").textContent = fmt(low);
     document.getElementById("typVal").textContent = fmt(typ);
     document.getElementById("highVal").textContent = fmt(high);
-    try { if (window.hmSync) { window.hmSync(low, typ, high, 45, 75, 140); } } catch (e) {}
+    var oilName = oilSel.options[oilSel.selectedIndex].text.toLowerCase();
+    var isTruck = mult !== 1;
+    var intro = "A typical " + oilName + " oil change" + (isTruck ? " for an SUV or truck" : "") + " in the USA costs about " + fmt(typ) + ", with a sample range of " + fmt(low) + " to " + fmt(high) + ".";
+    var labor = isTruck ? "Labor (about 45 minutes)" : "Labor (about 30 minutes)";
+    try { if (window.hmSync) { window.hmSync(low, typ, high, 45, 75, 140, { intro: intro, labor: labor }); } } catch (e) {}
   }
   document.getElementById("oilType").addEventListener("change", update);
   document.getElementById("vehicleType").addEventListener("change", update);
