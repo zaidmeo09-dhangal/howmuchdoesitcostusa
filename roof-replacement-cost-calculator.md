@@ -98,6 +98,7 @@ schema: |
   <div class="answer">
     <p id="answerIntro">A typical 1,800 sq ft asphalt shingle roof in the USA costs about $9,180, with a sample range of $7,528 to $11,475.</p>
     <p class="note">All prices on this page are sample estimated USA ranges, not quotes.</p>
+    <p class="updated-line">Updated November 14, 2026</p>
   </div>
 
   <div class="calc">
@@ -107,6 +108,11 @@ schema: |
       <label for="roofSize">Roof size: <span id="roofSizeVal">1,800 sq ft</span></label>
       <input type="range" id="roofSize" min="800" max="4000" step="50" value="1800">
       <p class="hint">Use the roof surface area, not the home floor area.</p>
+    </div>
+    <div class="calc-field">
+      <label for="roofSizeNum">Or type your roof size (sq ft)</label>
+      <input type="number" id="roofSizeNum" min="800" max="4000" step="50" value="1800" inputmode="numeric">
+      <p class="hint">From 800 to 4,000 sq ft, in steps of 50.</p>
     </div>
     <div class="calc-field">
       <label for="material">Roofing material</label>
@@ -155,7 +161,7 @@ schema: |
         <tr><th>Item</th><th>Low</th><th>Typical</th><th>High</th></tr>
       </thead>
       <tbody>
-        <tr><td>Materials (shingles)</td><td>$3,250</td><td>$3,900</td><td>$4,800</td></tr>
+        <tr><td id="matLabel">Materials (asphalt shingle)</td><td>$3,250</td><td>$3,900</td><td>$4,800</td></tr>
         <tr><td id="laborLabel">Labor (4 to 6 roofers, 2 to 3 days)</td><td>$2,900</td><td>$3,600</td><td>$4,405</td></tr>
         <tr><td>Tear-off and disposal</td><td>$650</td><td>$800</td><td>$1,050</td></tr>
         <tr><td>Underlayment and flashing</td><td>$420</td><td>$520</td><td>$700</td></tr>
@@ -179,7 +185,7 @@ schema: |
   <h3>Roof size</h3>
   <p>Larger roofs need more shingles and more labor hours, so size drives the total more than any other factor. Measure the roof surface, since a pitched roof has more area than the floor below it.</p>
   <h3>Material</h3>
-  <p>Asphalt shingles are the cheapest common choice, metal costs about twice as much, and clay tile costs most and needs a strong roof frame. The material you pick also sets how long the roof will last.</p>
+  <p>Asphalt shingles are the cheapest common choice, metal costs about 1.9 times as much, and clay tile costs most and needs a strong roof frame. The material you pick also sets how long the roof will last.</p>
   <h3>Roof pitch and shape</h3>
   <p>Steep or complex roofs take longer to work on and need more safety gear, which raises labor cost. A simple gable roof is faster and cheaper than a roof with many valleys, dormers, and angles.</p>
   <h3>Tear-off</h3>
@@ -289,6 +295,8 @@ schema: |
     var matVal = document.getElementById("material").value;
     var rate = parseFloat(matVal);
     document.getElementById("roofSizeVal").textContent = Math.round(size).toLocaleString("en-US") + " sq ft";
+    var num = document.getElementById("roofSizeNum");
+    if (num && document.activeElement !== num) { num.value = Math.round(size); }
     var typ = size * rate;
     var low = Math.round(typ * 0.82);
     var high = Math.round(typ * 1.25);
@@ -296,6 +304,8 @@ schema: |
     document.getElementById("typVal").textContent = fmt(typ);
     document.getElementById("highVal").textContent = fmt(high);
     var matName = { "5.10": "asphalt shingle", "9.50": "metal", "12.00": "clay tile" }[matVal];
+    var matLabel = document.getElementById("matLabel");
+    if (matLabel) { matLabel.textContent = "Materials (" + matName + ")"; }
     var intro = "A typical " + Math.round(size).toLocaleString("en-US") + " sq ft " + matName + " roof in the USA costs about " + fmt(typ) + ", with a sample range of " + fmt(low) + " to " + fmt(high) + ".";
     var days = size < 1200 ? "1 to 2 days" : size < 2200 ? "2 to 3 days" : size < 3000 ? "3 to 4 days" : "4 to 6 days";
     var labor = "Labor (4 to 6 roofers, " + days + ")";
@@ -303,6 +313,20 @@ schema: |
   }
   document.getElementById("roofSize").addEventListener("input", update);
   document.getElementById("material").addEventListener("change", update);
+  var numEl = document.getElementById("roofSizeNum");
+  numEl.addEventListener("input", function () {
+    var v = parseFloat(numEl.value);
+    if (isNaN(v) || v < 800 || v > 4000) { return; }
+    document.getElementById("roofSize").value = Math.round(v / 50) * 50;
+    update();
+  });
+  numEl.addEventListener("change", function () {
+    var v = parseFloat(numEl.value);
+    if (isNaN(v)) { numEl.value = document.getElementById("roofSize").value; update(); return; }
+    v = Math.max(800, Math.min(4000, Math.round(v / 50) * 50));
+    document.getElementById("roofSize").value = v;
+    update();
+  });
   update();
 })();
 </script>
