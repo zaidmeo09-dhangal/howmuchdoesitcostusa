@@ -6,6 +6,10 @@ meta_description: "How much does it cost to replace a roof? See prices by roof s
 date: 2026-11-14
 permalink: /blog/how-much-does-it-cost-to-replace-a-roof/
 breadcrumb: Blog
+guide_category: "Home Costs"
+calculator_url: "/roof-replacement-cost-calculator/"
+calculator_name: "Roof Replacement Cost Calculator"
+calculator_heading: "Price your own roof"
 schema: |
   {
     "@context": "https://schema.org",
@@ -99,6 +103,17 @@ schema: |
 <p class="note">All prices on this page are sample estimated USA ranges, not quotes. Your real price depends on your roof size, material, pitch, and the roofer you hire.</p>
 </div>
 
+<div class="key-takeaways">
+<p class="key-takeaways-title">Key takeaways</p>
+<ul>
+<li>A typical 1,800 sq ft asphalt shingle roof costs about $9,180, with a sample range of $7,528 to $11,475.</li>
+<li>Metal costs $13,500 to $21,000 with a typical total of $17,100, and clay tile costs $16,000 to $25,000 with a typical total of $21,600.</li>
+<li>An asphalt shingle roof lasts 20 to 30 years, and a metal roof lasts 40 to 70 years.</li>
+<li>Replace if the repair costs 50% or more of a full replacement, which is $4,590 on a $9,180 roof.</li>
+<li>Late fall and winter are usually the cheapest times to replace a roof, while summer and the weeks after a big storm are the busiest and the priciest.</li>
+</ul>
+</div>
+
 ## Roof replacement cost by material
 
 <p class="table-hint">Swipe to see the High column &rarr;</p>
@@ -186,6 +201,11 @@ schema: |
 ## Why roof averages disagree
 
 <p>Published averages for the same job do not match, because each source counts different roofs, materials, and regions. <a href="https://www.angi.com/articles/how-much-does-roof-replacement-cost.htm" target="_blank" rel="noopener">Angi</a> reports an average of $9,611 from 32,999 verified projects, HomeGuide reports about $10,800, Fixr reports about $10,000, and <a href="https://www.thisoldhouse.com/roofing/new-roof-cost" target="_blank" rel="noopener">This Old House</a> reports a budget of $10,319 for a 2,000 sq ft asphalt roof. Use the range for your roof size and material, not a single national average, and compare quotes for the same scope.</p>
+
+<aside class="pull-quote">
+<p class="pull-quote-label">Money-saving tip</p>
+<p>Schedule in the off season. Late fall and winter are usually cheaper, because roofers have fewer jobs booked.</p>
+</aside>
 
 ## What affects the price
 
