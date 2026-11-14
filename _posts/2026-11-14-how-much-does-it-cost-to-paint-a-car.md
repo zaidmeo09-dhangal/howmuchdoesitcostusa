@@ -79,7 +79,7 @@ schema: |
 ---
 
 <div class="answer">
-<p><strong>Direct answer:</strong> A typical quality repaint for a sedan in the USA costs about $3,500, with a sample range of $1,500 to $7,500 by quality. For a vinyl wrap instead, use the <a href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Car Wrap Cost Calculator</a> to price the wrap.</p>
+<p><strong>Direct answer:</strong> A typical quality repaint for a sedan in the USA costs about $3,500, with a sample range of $1,500 to $10,000 by quality. For a vinyl wrap instead, use the <a href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Car Wrap Cost Calculator</a> to price the wrap.</p>
 <p class="note">All prices on this page are sample estimated USA ranges, not quotes. Your real price depends on your car size, the paint quality, the prep work, and the shop you choose.</p>
 </div>
 
@@ -99,7 +99,7 @@ schema: |
 </table>
 </div>
 
-<p class="note">The direct answer range of $1,500 to $7,500 runs from the low end of a basic job to the typical price of a show quality job. A full show quality job can reach $10,000, as the table shows.</p>
+<p class="note">The direct answer range of $1,500 to $10,000 runs from the low end of a basic job to the high end of a show quality job, as the table shows.</p>
 
 ## What affects the price
 
@@ -139,7 +139,7 @@ Painting the door jambs, the engine bay, and the trunk costs extra, because the 
 </div>
 <div>
 <h3>What is not included</h3>
-<ul class="checklist">
+<ul class="checklist checklist-x">
 <li>Rust repair</li>
 <li>Dent and body repair</li>
 <li>Door jambs and engine bay, often extra</li>
