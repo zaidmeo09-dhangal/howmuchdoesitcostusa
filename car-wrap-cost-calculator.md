@@ -98,6 +98,7 @@ schema: |
   <div class="answer">
     <p id="answerIntro">A typical sedan full car wrap in the USA costs about $3,500, with a sample range of $2,500 to $5,500.</p>
     <p class="note">All prices on this page are sample estimated USA ranges, not quotes.</p>
+    <p class="updated-line">Updated November 14, 2026</p>
   </div>
 
   <div class="calc">
