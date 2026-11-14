@@ -13,7 +13,7 @@ Every page carries `<meta name="robots" content="noindex, nofollow">` and
 1. In `_config.yml`: set `url` to `https://howmuchdoesitcostusa.com` and `baseurl` to `""`.
 2. In `_includes/head.html`: remove the noindex meta tag (replace `noindex, nofollow` with `index, follow, max-image-preview:large`).
 3. In `robots.txt`: replace `Disallow: /` with `Allow: /` plus `Sitemap: https://howmuchdoesitcostusa.com/sitemap.xml`.
-4. Remove the staging note from the footer in `_includes/footer.html`.
+4. Rewrite `sitemap.xml` to the canonical domain `https://howmuchdoesitcostusa.com` (the static file is what serves, not the jekyll-sitemap plugin).
 5. Verify in Search Console that pages are indexed, and submit the sitemap.
 
 If step 2 or 3 is missed, Google will never index the live site.
