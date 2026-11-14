@@ -54,9 +54,12 @@
 
   /* Hero stats are static final numbers, no count-up, so they never show wrong values. */
 
-  /* Homepage search: filter the page list, Enter or Check Price goes to the match. */
+  /* Homepage search: filter the page list, Enter or Check Price goes to the match.
+     NOTE: this 13-entry page list is duplicated in tools.md (inline script).
+     Keep both lists in sync: same pages, same names, same URLs, same keywords. */
   var input = document.getElementById("siteSearch");
   var results = document.getElementById("searchResults");
+  var searchRoot = window.location.pathname.indexOf("/howmuchdoesitcostusa") === 0 ? "/howmuchdoesitcostusa/" : "/";
   var pages = [
     { name: "Movers Cost Calculator", url: "movers-cost-calculator/", keys: "movers moving move cost" },
     { name: "Roof Replacement Cost Calculator", url: "roof-replacement-cost-calculator/", keys: "roof replacement roofing shingle cost" },
@@ -72,24 +75,45 @@
     { name: "How Much Does It Cost to Install Central Air? (Guide)", url: "blog/how-much-does-it-cost-to-install-central-air/", keys: "central air guide cost" },
     { name: "How Much Does It Cost to Paint a Car? (Guide)", url: "blog/how-much-does-it-cost-to-paint-a-car/", keys: "paint car guide cost" }
   ];
+  /* Ranked search: a title match outranks a keyword match, so "car" returns
+     Car Wrap first and "paint" returns the Paint a Car guide first. Exact word
+     matches score more than substring matches, so "paint" beats "painting". */
+  function scorePage(p, words) {
+    var title = p.name.toLowerCase();
+    var titleWords = title.split(/[^a-z0-9]+/);
+    var keys = p.keys.toLowerCase();
+    var keyWords = keys.split(/[^a-z0-9]+/);
+    var s = 0;
+    words.forEach(function (w) {
+      if (!w) return;
+      if (titleWords.indexOf(w) !== -1) { s += 3; }
+      else if (title.indexOf(w) !== -1) { s += 2; }
+      if (keyWords.indexOf(w) !== -1) { s += 2; }
+      else if (keys.indexOf(w) !== -1) { s += 1; }
+    });
+    return s;
+  }
+  function searchPages(q) {
+    var words = q.toLowerCase().split(/\s+/);
+    return pages.map(function (p) { return { p: p, s: scorePage(p, words) }; })
+      .filter(function (r) { return r.s > 0; })
+      .sort(function (a, b) { return b.s - a.s; })
+      .map(function (r) { return r.p; });
+  }
   function go(url) {
-    var root = window.location.pathname.indexOf("/howmuchdoesitcostusa") === 0 ? "/howmuchdoesitcostusa/" : "/";
-    window.location.href = root + url;
+    window.location.href = searchRoot + url;
   }
   if (input && results) {
     input.addEventListener("input", function () {
       var q = input.value.trim().toLowerCase();
       results.innerHTML = "";
       if (q.length < 2) return;
-      var hits = pages.filter(function (p) {
-        return (p.name + " " + p.keys).toLowerCase().indexOf(q) !== -1;
-      }).slice(0, 5);
+      var hits = searchPages(q).slice(0, 5);
       hits.forEach(function (p) {
         var li = document.createElement("li");
         var a = document.createElement("a");
-        a.href = "#";
+        a.href = searchRoot + p.url;
         a.textContent = p.name;
-        a.addEventListener("click", function (ev) { ev.preventDefault(); go(p.url); });
         li.appendChild(a);
         results.appendChild(li);
       });
@@ -99,12 +123,7 @@
       form.addEventListener("submit", function (ev) {
         ev.preventDefault();
         var q = input.value.trim().toLowerCase();
-        var hit = null;
-        if (q) {
-          hit = pages.filter(function (p) {
-            return (p.name + " " + p.keys).toLowerCase().indexOf(q) !== -1;
-          })[0] || null;
-        }
+        var hit = q ? (searchPages(q)[0] || null) : null;
         go(hit ? hit.url : "tools/?q=" + encodeURIComponent(input.value.trim()));
       });
     }
