@@ -79,10 +79,10 @@ schema: |
           },
           {
             "@type": "Question",
-            "name": "What is not included?",
+            "name": "How much does a chrome or color-shift wrap cost?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Paint repair and custom design work are often extra."
+              "text": "A chrome or color-shift wrap costs $6,000 to $10,000 or more, per CostFigure, against $2,500 to $4,000 for a gloss sedan wrap."
             }
           }
         ]
@@ -120,6 +120,15 @@ schema: |
         <option value="0.55">Partial wrap</option>
         <option value="0.35">Roof and hood only</option>
       </select>
+    </div>
+    <div class="calc-field">
+      <label for="finish">Finish</label>
+      <select id="finish">
+        <option value="1" selected>Gloss (base price)</option>
+        <option value="1.125">Matte or satin (plus 12.5 percent)</option>
+        <option value="1.85">Chrome or color-shift</option>
+      </select>
+      <p class="hint">Matte or satin adds 5 to 20 percent, per CostFigure, and 12.5 percent is the midpoint of that range. Chrome or color-shift is priced so a sedan typical of $6,480 sits inside the $6,000 to $10,000 plus range CostFigure gives.</p>
     </div>
     <div class="receipt">
       <h3>Your estimated cost</h3>
@@ -190,6 +199,118 @@ schema: |
   <h3>Design complexity</h3>
   <p>Custom graphics and color changes take more design time than a single solid color. A printed design with logos costs more than a plain color wrap.</p>
 
+  <h2>Cost by vehicle type</h2>
+  <p>Film and labor rise with vehicle size. The ranges below are from ThePricer, and Kelley Blue Book gives the same shape: a 2021 Altima needs about 130 sq ft of film at $600 to $2,000 plus, with install at $1,000 to $2,500 extra, and larger vehicles run up to $5,000.</p>
+  <p class="table-hint">Swipe to see the Full wrap range column &rarr;</p>
+  <div class="table-wrap">
+    <table class="cost-table">
+      <caption>Full wrap sample ranges by vehicle type, per ThePricer</caption>
+      <thead>
+        <tr><th>Vehicle type</th><th>Full wrap range</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Small car</td><td>$1,800 to $2,500</td></tr>
+        <tr><td>Hatchback</td><td>$2,800 to $3,500</td></tr>
+        <tr><td>Sedan</td><td>$3,000 to $4,500</td></tr>
+        <tr><td>Small SUV</td><td>$3,200 to $4,500</td></tr>
+        <tr><td>Large SUV or sedan</td><td>$3,500 to $5,000</td></tr>
+        <tr><td>Pickup</td><td>$3,200 to $5,000</td></tr>
+        <tr><td>Luxury</td><td>$5,500 to $10,000</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="note">Our calculator uses $2,800 for a compact, $3,500 for a sedan, $4,800 for an SUV, and $5,500 for a truck at the typical level, which sits inside the ranges above.</p>
+
+  <h2>Cost by finish</h2>
+  <p>Gloss is the base price. Matte and satin add 5 to 20 percent, and chrome or color-shift film costs far more per square foot, per CostFigure.</p>
+  <p class="table-hint">Swipe to see the Price column &rarr;</p>
+  <div class="table-wrap">
+    <table class="cost-table">
+      <caption>Full wrap cost by finish, per CostFigure and ThePricer</caption>
+      <thead>
+        <tr><th>Finish</th><th>Price</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Gloss (base)</td><td>Sedan $2,500 to $4,000</td></tr>
+        <tr><td>Matte or satin</td><td>Gloss price plus 5 to 20 percent</td></tr>
+        <tr><td>Chrome or color-shift</td><td>$6,000 to $10,000 plus</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="note">Standard film costs $2.80 to $3.50 per sq ft, while chrome film costs $5 to $8 plus per sq ft, per CostFigure. A car needs about 255 sq ft of film, per TunedRides.</p>
+
+  <h2>Partial wrap prices</h2>
+  <p>If you do not need a full wrap, price the panel you want. The prices below are from ThePricer.</p>
+  <p class="table-hint">Swipe to see the Price column &rarr;</p>
+  <div class="table-wrap">
+    <table class="cost-table">
+      <caption>Partial wrap sample prices, per ThePricer</caption>
+      <thead>
+        <tr><th>Partial wrap</th><th>Price</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Mirrors</td><td>About $200</td></tr>
+        <tr><td>Stripes</td><td>About $300</td></tr>
+        <tr><td>Chrome delete</td><td>About $350</td></tr>
+        <tr><td>Hood or roof</td><td>About $350</td></tr>
+        <tr><td>Hood, roof, and trunk</td><td>About $750</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Hidden costs</h2>
+  <p>Two costs catch buyers out: door jambs and removal of an old wrap. Both are priced apart from a standard full wrap quote, per ThePricer.</p>
+  <p class="table-hint">Swipe to see the Price column &rarr;</p>
+  <div class="table-wrap">
+    <table class="cost-table">
+      <caption>Hidden wrap costs, per ThePricer</caption>
+      <thead>
+        <tr><th>Extra</th><th>Price</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Door jambs</td><td>$300 to $600</td></tr>
+        <tr><td>Removal of an old wrap</td><td>$500 to $1,200</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Cost per year by lifespan</h2>
+  <p>A wrap that lasts longer costs less per year, even if the upfront price is the same. ThePricer works a $4,000 wrap out as $1,333 per year over 3 years, $800 per year over 5 years, and $571 per year over 7 years. The same math on our $3,500 typical sedan wrap gives $3,500 / 3 = $1,167 per year, $3,500 / 5 = $700 per year, and $3,500 / 7 = $500 per year.</p>
+  <p class="table-hint">Swipe to see the Cost per year column &rarr;</p>
+  <div class="table-wrap">
+    <table class="cost-table">
+      <caption>Cost per year for a $4,000 wrap, per ThePricer</caption>
+      <thead>
+        <tr><th>Lifespan</th><th>Cost per year</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>3 years</td><td>$1,333</td></tr>
+        <tr><td>5 years</td><td>$800</td></tr>
+        <tr><td>7 years</td><td>$571</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Wrap vs paint vs paint protection film</h2>
+  <p>Choose by how long you will keep the car and whether you want the change to be reversible.</p>
+  <p class="table-hint">Swipe to see the Best for column &rarr;</p>
+  <div class="table-wrap">
+    <table class="cost-table">
+      <caption>Wrap, paint, and paint protection film compared</caption>
+      <thead>
+        <tr><th>Option</th><th>Typical cost</th><th>Reversible</th><th>Best for</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Vinyl wrap</td><td>$2,000 to $10,000 plus, per CostFigure</td><td>Yes</td><td>A color change you may want to undo</td></tr>
+        <tr><td>Repaint</td><td>$1,500 to $10,000 by quality, see our paint a car guide</td><td>No</td><td>A car you plan to keep for many years</td></tr>
+        <tr><td>Paint protection film</td><td>$1,000 to $8,000, per CostFigure</td><td>Yes</td><td>Protecting new or good paint</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>How long does a wrap last by film</h2>
+  <p>Lifespan depends on the film and on where it sits. Vertical panels last longer than horizontal panels, which take more sun. Per ThePricer, 3M 2080 lasts up to 8 years on vertical surfaces and 3 years on horizontal surfaces, while Avery lasts up to 12 years in black and white, 10 years in colors, and 5 years in metallic. Hand wash only, wait a week before the first wash, and park out of the sun, per Kelley Blue Book.</p>
+
   <h2>What is included and what is not</h2>
   <div class="two-col">
     <div>
@@ -213,16 +334,17 @@ schema: |
   </div>
 
   <h2>How we estimate</h2>
-  <p>We start with a base price for each vehicle size, apply a multiplier for wrap coverage, then set low at 71.4 percent and high at 157.1 percent of the typical price. The result is a sample estimated USA range for planning.</p>
+  <p>We price a wrap in three steps. Start with the vehicle base: $2,800 compact, $3,500 sedan, $4,800 SUV, $5,500 truck. Multiply by the coverage multiplier (1.0 full, 0.55 partial, 0.35 roof and hood only), then by the finish multiplier (1.0 gloss, 1.125 matte or satin, 1.85 chrome or color-shift). At the default sedan full gloss wrap that is $3,500 x 1.0 x 1.0 = $3,500. Low is 71.4 percent of typical and high is 157.1 percent, so $3,500 gives $2,500 low and $5,500 high after rounding to the nearest $10. A matte sedan full wrap is $3,500 x 1.125 = $3,937.50, rounded to $3,940 typical, with low $3,940 x 0.714 = $2,813.16 rounded to $2,810 and high $3,940 x 1.571 = $6,189.74 rounded to $6,190. A chrome sedan full wrap is $3,500 x 1.85 = $6,475, rounded to $6,480 typical, with low $6,480 x 0.714 = $4,626.72 rounded to $4,630 and high $6,480 x 1.571 = $10,180.08 rounded to $10,180.</p>
   <p>Your final price depends on vinyl brand, paint condition, and the shop, so always confirm the price in writing before work starts.</p>
 
   <h2>Hiring a pro checklist</h2>
   <ul class="checklist">
-    <li>Get 3 written quotes with the vinyl brand listed</li>
-    <li>Check the shop portfolio and reviews</li>
-    <li>Ask how long the wrap warranty lasts</li>
-    <li>Confirm prep and paint repair costs in writing</li>
-    <li>Ask how to wash and care for the wrap</li>
+    <li>Get 3 written quotes with the vinyl brand, film series, and finish listed</li>
+    <li>Ask the shop to inspect the paint first and list any repair the wrap needs in writing</li>
+    <li>Ask whether door jambs, mirrors, and removal of an old wrap are included, with prices</li>
+    <li>Check the shop portfolio for your finish, matte and chrome show flaws more than gloss</li>
+    <li>Ask how long the film warranty lasts on vertical and horizontal panels, in writing</li>
+    <li>Ask how to wash and care for the wrap, and when the first wash is safe</li>
   </ul>
 
   <h2>Budget tips</h2>
@@ -234,13 +356,15 @@ schema: |
   </ul>
 
   <h2>References</h2>
-  <p>Our estimates use public US cost data as a guide. Labor cost context comes from the US Bureau of Labor Statistics, housing cost context from HUD, remodeling trends from Harvard JCHS, and material prices from Home Depot and Lowes. All prices on this page are sample estimated USA ranges, not quotes.</p>
+  <p>Our estimates use public US cost data as a guide. Labor cost context comes from the US Bureau of Labor Statistics, and material prices from Home Depot and Lowes. Wrap prices in this page also use Kelley Blue Book, ThePricer, CostFigure, and TunedRides. All prices on this page are sample estimated USA ranges, not quotes.</p>
   <div class="refs">
   <p><a href="https://www.bls.gov/" target="_blank" rel="noopener">US Bureau of Labor Statistics</a> <span class="ref-note">labor cost data</span></p>
-  <p><a href="https://www.hud.gov/" target="_blank" rel="noopener">HUD</a> <span class="ref-note">housing cost data</span></p>
-  <p><a href="https://www.jchs.harvard.edu/" target="_blank" rel="noopener">Harvard JCHS</a> <span class="ref-note">household and remodeling cost research</span></p>
   <p><a href="https://www.homedepot.com/" target="_blank" rel="noopener">Home Depot</a> <span class="ref-note">vinyl and supply prices</span></p>
   <p><a href="https://www.lowes.com/" target="_blank" rel="noopener">Lowes</a> <span class="ref-note">vinyl and supply prices</span></p>
+  <p><a href="https://www.kbb.com/car-advice/car-wraps/" target="_blank" rel="noopener">Kelley Blue Book</a> <span class="ref-note">car wrap cost and care, updated August 15, 2026</span></p>
+  <p><a href="https://www.thepricer.org/car-wrap-cost/" target="_blank" rel="noopener">ThePricer</a> <span class="ref-note">car wrap cost by vehicle and film lifespan, updated October 6, 2026</span></p>
+  <p><a href="https://costfigure.com/auto/how-much-does-a-car-wrap-cost/" target="_blank" rel="noopener">CostFigure</a> <span class="ref-note">car wrap cost by finish, March 2026</span></p>
+  <p><a href="https://tunedrides.com/blog/how-much-does-a-car-wrap-cost/" target="_blank" rel="noopener">TunedRides</a> <span class="ref-note">film needed per car and DIY vinyl cost</span></p>
   </div>
 
   <h2>Related calculators and guides</h2>
@@ -250,6 +374,7 @@ schema: |
 <div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V9l2-3 2 3v12"/><path d="M10 21V9l2-3 2 3v12"/><path d="M16 21V9l2-3 2 3v12"/><path d="M3 12h18"/><path d="M3 17h18"/></svg></span><span class="card-cat">Home</span></div><h3><a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a></h3><p class="price">$2,100 - $5,400</p><a class="card-cta" href="{{ '/fence-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
 </div>
 <ul class="chip-list">
+  <li><a href="{{ '/blog/how-much-does-it-cost-to-paint-a-car/' | relative_url }}">How Much Does It Cost to Paint a Car? <span aria-hidden="true">&rarr;</span></a></li>
   <li><a href="{{ '/oil-change-cost-calculator/' | relative_url }}">Oil Change Cost Calculator <span aria-hidden="true">&rarr;</span></a></li>
   <li><a href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}">Central AC Installation Cost Calculator <span aria-hidden="true">&rarr;</span></a></li>
   <li><a href="{{ '/house-painting-cost-calculator/' | relative_url }}">House Painting Cost Calculator <span aria-hidden="true">&rarr;</span></a></li>
@@ -274,8 +399,8 @@ schema: |
     <p>Wrapping usually takes 3 to 5 days.</p>
   </details>
   <details class="faq">
-    <summary>What is not included?</summary>
-    <p>Paint repair and custom design work are often extra.</p>
+    <summary>How much does a chrome or color-shift wrap cost?</summary>
+    <p>A chrome or color-shift wrap costs $6,000 to $10,000 or more, per CostFigure, against $2,500 to $4,000 for a gloss sedan wrap.</p>
   </details>
 </section>
 
@@ -290,9 +415,11 @@ schema: |
   function update() {
     var vehVal = document.getElementById("vehicleSize").value;
     var wrapVal = document.getElementById("wrapType").value;
+    var finishVal = document.getElementById("finish").value;
     var base = parseFloat(vehVal);
     var mult = parseFloat(wrapVal);
-    var typ = round10(base * mult);
+    var finishMult = parseFloat(finishVal);
+    var typ = round10(base * mult * finishMult);
     var low = round10(typ * 0.714);
     var high = round10(typ * 1.571);
     document.getElementById("lowVal").textContent = fmt(low);
@@ -300,13 +427,15 @@ schema: |
     document.getElementById("highVal").textContent = fmt(high);
     var vehName = { "2800": "compact", "3500": "sedan", "4800": "SUV", "5500": "truck" }[vehVal];
     var wrapName = { "1": "full car wrap", "0.55": "partial wrap", "0.35": "roof and hood wrap" }[wrapVal];
-    var intro = "A typical " + vehName + " " + wrapName + " in the USA costs about " + fmt(typ) + ", with a sample range of " + fmt(low) + " to " + fmt(high) + ".";
+    var finishName = { "1": "gloss", "1.125": "matte or satin", "1.85": "chrome or color-shift" }[finishVal];
+    var intro = "A typical " + vehName + " " + finishName + " " + wrapName + " in the USA costs about " + fmt(typ) + ", with a sample range of " + fmt(low) + " to " + fmt(high) + ".";
     var days = wrapVal === "1" ? "3 to 5 days" : wrapVal === "0.55" ? "1 to 2 days" : "1 day";
     var labor = "Labor (2 installers, " + days + ")";
     try { if (window.hmSync) { window.hmSync(low, typ, high, 2500, 3500, 5500, { intro: intro, labor: labor }); } } catch (e) {}
   }
   document.getElementById("vehicleSize").addEventListener("change", update);
   document.getElementById("wrapType").addEventListener("change", update);
+  document.getElementById("finish").addEventListener("change", update);
   update();
 })();
 </script>
