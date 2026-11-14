@@ -1103,12 +1103,16 @@ h1, h2 {
   margin: -24px -24px 18px;
   aspect-ratio: 16 / 10;
   object-fit: cover;
+  object-position: center;
   border-radius: 20px 20px 0 0;
   background: var(--surface-soft);
 }
 
-/* Homepage hero photo with floating Typical price badge. */
+/* Homepage hero photo with floating Typical price badge.
+   The badge sits inside .hero-photo (the image only), so it can never
+   cover the caption below the photo. */
 .hero-figure { position: relative; margin: 0; }
+.hero-photo { position: relative; }
 .hero-img {
   display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover;
   border-radius: 20px; box-shadow: var(--shadow);
@@ -1120,6 +1124,11 @@ h1, h2 {
   border-radius: 16px; padding: 14px 18px;
   box-shadow: 0 8px 24px rgba(18, 33, 26, 0.25);
   max-width: calc(100% - 32px);
+}
+@media (max-width: 480px) {
+  .hero-badge { padding: 10px 14px; left: 12px; bottom: 12px; max-width: calc(100% - 24px); }
+  .hero-badge-price { font-size: 24px; }
+  .hero-badge-title { font-size: 14px; }
 }
 .hero-badge p { margin: 0; }
 .hero-badge-label { font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; color: #cfe3d6; }
@@ -1155,21 +1164,26 @@ h1, h2 {
 @media (max-width: 900px) { .how-steps { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 480px) { .how-steps { grid-template-columns: 1fr; } }
 
-/* Guide hero photo (replaces the small SVG trade illustration). */
+/* Guide hero photo (replaces the small SVG trade illustration).
+   Fixed landscape ratio on every screen so portrait photos crop to
+   landscape with the subject centred. The !important on object-position
+   overrides the per-page image_pos inline style, so all heroes crop alike. */
 .post-hero-img {
   display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover;
+  object-position: center !important;
   border-radius: 20px; margin-top: 22px;
   background: var(--surface-soft);
 }
-@media (max-width: 760px) { .post-hero-img { aspect-ratio: 4 / 3; } }
+@media (max-width: 760px) { .post-hero-img { aspect-ratio: 16 / 10; } }
 
-/* Calculator header photo band. */
+/* Calculator header photo band. Same fixed landscape ratio as guide heroes. */
 .calc-hero-img {
-  display: block; width: 100%; aspect-ratio: 21 / 9; object-fit: cover;
+  display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover;
+  object-position: center !important;
   border-radius: 20px; margin: 4px 0 0;
   background: var(--surface-soft);
 }
-@media (max-width: 760px) { .calc-hero-img { aspect-ratio: 16 / 9; } }
+@media (max-width: 760px) { .calc-hero-img { aspect-ratio: 16 / 10; } }
 
 /* Price tag bands: Typical is the gold-tagged most common choice. */
 .bands { margin-top: 34px; }
