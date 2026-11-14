@@ -71,6 +71,22 @@ schema: |
               "@type": "Answer",
               "text": "Gutters, skylights, and structural repairs are usually not included in a standard roof quote. Ask each roofer to list these items, so you know what the price does and does not cover."
             }
+          },
+          {
+            "@type": "Question",
+            "name": "Does homeowners insurance pay for a new roof?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Storm damage is often covered, while wear and age are usually excluded. You pay the deductible first, and the insurer pays the covered cost above it."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does roof pitch add to the cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "WhatHomeCosts puts a 4:12 to 8:12 pitch at base to 5 to 10% more, 8:12 to 12:12 at about 15 to 25% more, and 12:12 and over at up to about 30% more. On a $9,180 roof, 30% more is $9,180 x 1.30 = $11,934."
+            }
           }
         ]
       }
@@ -100,7 +116,76 @@ schema: |
 </table>
 </div>
 
-<p class="note">For asphalt shingle, the typical $9,180 works out to about $5.10 per sq ft for a 1,800 sq ft roof. Metal and clay tile cost more up front, but they last much longer.</p>
+<p class="note">For asphalt shingle, the typical $9,180 works out to about $5.10 per sq ft for a 1,800 sq ft roof. Metal and clay tile cost more up front, but they last much longer. Split by grade, <a href="https://whathomecosts.com/roof-replacement-cost/" target="_blank" rel="noopener">WhatHomeCosts</a> puts 3-tab asphalt at $3 to $5 per sq ft and architectural asphalt at $4 to $7 per sq ft, so the calculator default of $5.10 per sq ft sits inside the architectural range.</p>
+
+## Roof replacement cost by roof size
+
+<p>The table below uses the calculator math for architectural asphalt at $5.10 per sq ft, with low at 82% and high at 125% of the typical price. For example, 1,800 x $5.10 = $9,180, 1,800 x $5.10 x 0.82 = $7,528, and 1,800 x $5.10 x 1.25 = $11,475.</p>
+
+<p class="table-hint">Swipe to see the High column &rarr;</p>
+  <div class="table-wrap">
+<table class="cost-table">
+<caption>Sample estimated USA prices for an asphalt shingle roof by size</caption>
+<thead>
+<tr><th>Roof size</th><th>Low</th><th>Typical</th><th>High</th></tr>
+</thead>
+<tbody>
+<tr><td>1,000 sq ft</td><td>$4,182</td><td>$5,100</td><td>$6,375</td></tr>
+<tr><td>1,500 sq ft</td><td>$6,273</td><td>$7,650</td><td>$9,562</td></tr>
+<tr><td>1,800 sq ft</td><td>$7,528</td><td>$9,180</td><td>$11,475</td></tr>
+<tr><td>2,000 sq ft</td><td>$8,364</td><td>$10,200</td><td>$12,750</td></tr>
+<tr><td>2,500 sq ft</td><td>$10,455</td><td>$12,750</td><td>$15,938</td></tr>
+<tr><td>3,000 sq ft</td><td>$12,546</td><td>$15,300</td><td>$19,125</td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="note"><a href="https://www.thisoldhouse.com/roofing/new-roof-cost" target="_blank" rel="noopener">This Old House</a> puts the average US roof at about 1,700 sq ft and an asphalt roof that size at $8,772, which works out to $5.16 per sq ft. Price the rest of the exterior too with the <a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a> before you set the budget.</p>
+
+## Full line-item breakdown: a 20-square architectural asphalt roof
+
+<p>A square is 100 sq ft, so 20 squares is a 2,000 sq ft roof. Line items from <a href="https://whathomecosts.com/roof-replacement-cost/" target="_blank" rel="noopener">WhatHomeCosts</a>, which reconciles 8 sources. The worked total uses the midpoint of each range.</p>
+
+<p class="table-hint">Swipe to see the midpoint &rarr;</p>
+  <div class="table-wrap">
+<table class="cost-table">
+<caption>Line-item breakdown for a 20-square architectural asphalt roof, WhatHomeCosts ranges</caption>
+<thead>
+<tr><th>Line item</th><th>Range</th><th>Midpoint</th></tr>
+</thead>
+<tbody>
+<tr><td>Shingles</td><td>$2,000 to $5,000</td><td>$3,500</td></tr>
+<tr><td>Underlayment, flashing, and ventilation</td><td>$300 to $1,200</td><td>$750</td></tr>
+<tr><td>Labor</td><td>$3,000 to $5,500</td><td>$4,250</td></tr>
+<tr><td>Tear-off and disposal</td><td>$1,000 to $2,500</td><td>$1,750</td></tr>
+<tr><td>Permits and inspections</td><td>$100 to $500</td><td>$300</td></tr>
+<tr><td>Decking contingency</td><td>$150 to $1,000</td><td>$575</td></tr>
+<tr class="total"><td>Total</td><td>$6,600 to $15,500</td><td>$11,125</td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="note">Worked total: $3,500 + $750 + $4,250 + $1,750 + $300 + $575 = $11,125. That sits inside the WhatHomeCosts total range of $6,600 to $15,500. A second layer adds $1 to $2 per sq ft, and decking runs $2 to $5 per sq ft, both from WhatHomeCosts.</p>
+
+## Repair vs replace: how to decide
+
+<p>Three rules from <a href="https://www.angi.com/articles/how-much-does-roof-replacement-cost.htm" target="_blank" rel="noopener">Angi</a> help you decide whether to repair or replace.</p>
+
+<ul>
+<li><strong>The 50% rule.</strong> Replace if the repair costs 50% or more of a full replacement. On a $9,180 roof, that line is $4,590: 50% of $9,180 = $4,590.</li>
+<li><strong>The age rule.</strong> Replace if the roof is 20 or more years old, even if the damage looks small, because more failures usually follow.</li>
+<li><strong>The damage rule.</strong> Replace if damage covers more than 20% of the roof surface, because patching that much roof rarely holds.</li>
+</ul>
+
+<p>If none of the three rules points to replacement, a repair is usually the better spend. Get the roofer to put the repair price and the replacement price on the same quote so you can test the 50% rule yourself.</p>
+
+## Does homeowners insurance pay for a new roof?
+
+<p>Storm damage is often covered, while wear and age are usually excluded. Hail and wind damage from a single storm is the usual covered case, while a roof that failed because it is old, or because leaks were left alone, is usually not covered. You pay the deductible first, and the insurer pays the covered cost above it. File the claim before work starts, and keep photos of the damage.</p>
+
+## Why roof averages disagree
+
+<p>Published averages for the same job do not match, because each source counts different roofs, materials, and regions. <a href="https://www.angi.com/articles/how-much-does-roof-replacement-cost.htm" target="_blank" rel="noopener">Angi</a> reports an average of $9,611 from 32,999 verified projects, HomeGuide reports about $10,800, Fixr reports about $10,000, and <a href="https://www.thisoldhouse.com/roofing/new-roof-cost" target="_blank" rel="noopener">This Old House</a> reports a budget of $10,319 for a 2,000 sq ft asphalt roof. Use the range for your roof size and material, not a single national average, and compare quotes for the same scope.</p>
 
 ## What affects the price
 
@@ -168,8 +253,12 @@ Most US cities require a permit for a full roof replacement, and the permit fee 
 <li><strong>Get 3 written quotes.</strong> Ask each roofer for the same material and scope, and ask for the permit, disposal, and warranty to be listed in writing.</li>
 <li><strong>Verify license and insurance.</strong> Check the roofer license for your state, and ask for proof of liability insurance and workers compensation cover.</li>
 <li><strong>Check reviews and past jobs.</strong> Read recent reviews, ask for addresses of recent jobs you can drive past, and ask for references you can call.</li>
-<li><strong>Sign a detailed contract.</strong> The contract should list the material, the brand, the color, the price, the start date, the payment schedule, and the warranty terms.</li>
+<li><strong>Sign a detailed contract.</strong> The contract should list the material, the brand, the color, the price, the start date, the payment schedule, the per-sheet decking price, and both warranties: workmanship and manufacturer material.</li>
 </ol>
+
+## Other exterior costs
+
+<p>A new roof is often one job in a run of exterior work. Price the yard with the <a href="{{ '/blog/how-much-does-a-fence-cost/' | relative_url }}">How Much Does a Fence Cost?</a> guide and the <a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a>, and if you are moving into the home, price the move with the <a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator</a>. Budgeting the roof, the fence, and the move together keeps one big bill from hiding behind another.</p>
 
 ## Frequently asked questions
 
@@ -178,6 +267,12 @@ Most US cities require a permit for a full roof replacement, and the permit fee 
 <details class="faq"><summary>Can a new roof go over the old one?</summary><p>Sometimes, but a full tear-off is usually better. A tear-off lets the roofer check the deck, fix hidden damage, and install the new roof on a clean surface.</p></details>
 <details class="faq"><summary>When is it cheapest?</summary><p>Late fall and winter are usually the cheapest times, because roofers have fewer jobs booked. Summer and the weeks after a big storm are the busiest and the priciest.</p></details>
 <details class="faq"><summary>What is not included?</summary><p>Gutters, skylights, and structural repairs are usually not included in a standard roof quote. Ask each roofer to list these items, so you know what the price does and does not cover.</p></details>
+<details class="faq"><summary>Does homeowners insurance pay for a new roof?</summary><p>Storm damage is often covered, while wear and age are usually excluded. You pay the deductible first, and the insurer pays the covered cost above it.</p></details>
+<details class="faq"><summary>How much does roof pitch add to the cost?</summary><p>WhatHomeCosts puts a 4:12 to 8:12 pitch at base to 5 to 10% more, 8:12 to 12:12 at about 15 to 25% more, and 12:12 and over at up to about 30% more. On a $9,180 roof, 30% more is $9,180 x 1.30 = $11,934.</p></details>
+
+## References
+
+<p>Roof averages on this page come from <a href="https://www.angi.com/articles/how-much-does-roof-replacement-cost.htm" target="_blank" rel="noopener">Angi</a>, <a href="https://www.thisoldhouse.com/roofing/new-roof-cost" target="_blank" rel="noopener">This Old House</a>, <a href="https://whathomecosts.com/roof-replacement-cost/" target="_blank" rel="noopener">WhatHomeCosts</a>, and <a href="https://www.costimated.com/costs/roof-replacement-cost/" target="_blank" rel="noopener">Costimated</a>. All other prices on this page are sample estimated USA ranges, not quotes.</p>
 
 ## Related links
 
