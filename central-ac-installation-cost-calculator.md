@@ -120,34 +120,36 @@ schema: |
       <h3>Your estimated cost</h3>
       <p class="receipt-total" id="typVal">$6,800</p>
       <p class="receipt-range">Sample range: <span id="lowVal">$5,200</span> (low) to <span id="highVal">$9,500</span> (high)</p>
+      <div class="price-bar receipt-bar" aria-hidden="true"><span id="rangeBar" style="width:37%"></span></div>
       <p class="note">Sample estimated USA range. Your final price depends on home size, system size, efficiency, ductwork, and local labor rates.</p>
     </div>
   </div>
 
   <h2>Low, typical, and high cost</h2>
-  <p>These bands show what a 2.5 ton, 14 SEER central air system usually costs in the USA. Use them to plan your budget before you request quotes.</p>
+  <p>These bands update with your calculator choices. Use them to plan your budget before you request quotes.</p>
   <div class="bands">
     <div class="band">
       <p class="band-label">Low</p>
-      <p class="band-price">$5,200</p>
-      <p>A standard system with good ducts and no electrical work.</p>
+      <p class="band-price" id="bandLowVal">$5,200</p>
+      <p>A smaller job with basic choices.</p>
     </div>
     <div class="band band-typical">
       <p class="band-label">Typical</p>
-      <p class="band-price">$6,800</p>
-      <p>A 2.5 ton, 14 SEER system with basic ductwork changes.</p>
+      <p class="band-price" id="bandTypVal">$6,800</p>
+      <p>Your selection at typical USA rates.</p>
     </div>
     <div class="band">
       <p class="band-label">High</p>
-      <p class="band-price">$9,500</p>
-      <p>A high efficiency system, duct repairs, or electrical upgrades.</p>
+      <p class="band-price" id="bandHighVal">$9,500</p>
+      <p>A larger job, premium choices, or extra services.</p>
     </div>
   </div>
 
   <h2>Itemized cost breakdown</h2>
+  <p class="note live-note">Updates live with your calculator choices.</p>
   <div class="table-wrap">
     <table class="cost-table">
-      <caption>Sample estimated cost breakdown for a 2.5 ton, 14 SEER central air system</caption>
+      <caption>Sample estimated cost breakdown, updated for your selection</caption>
       <thead>
         <tr><th>Item</th><th>Low</th><th>Typical</th><th>High</th></tr>
       </thead>
@@ -238,9 +240,9 @@ schema: |
 
   <h2>Related calculators and guides</h2>
   <div class="grid related-grid">
-<div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true">🚚</span><span class="card-cat">Moving</span></div><h3><a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator</a></h3><p class="price">$843 - $1,637</p><a class="card-cta" href="{{ '/movers-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
-<div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true">🏠</span><span class="card-cat">Home</span></div><h3><a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Cost Calculator</a></h3><p class="price">$7,528 - $11,475</p><a class="card-cta" href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
-<div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true">🧱</span><span class="card-cat">Home</span></div><h3><a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a></h3><p class="price">$2,100 - $5,400</p><a class="card-cta" href="{{ '/fence-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
+<div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h12v11H2z"/><path d="M14 9h4l3 3v4h-7"/><circle cx="6" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg></span><span class="card-cat">Moving</span></div><h3><a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator</a></h3><p class="price">$843 - $1,637</p><a class="card-cta" href="{{ '/movers-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
+<div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/><path d="M9 21v-6h6v6"/></svg></span><span class="card-cat">Home</span></div><h3><a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Cost Calculator</a></h3><p class="price">$7,528 - $11,475</p><a class="card-cta" href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
+<div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3v18M12 3v18M19 3v18"/><path d="M3 8h18M3 15h18"/></svg></span><span class="card-cat">Home</span></div><h3><a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a></h3><p class="price">$2,100 - $5,400</p><a class="card-cta" href="{{ '/fence-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
 </div>
 <ul class="chip-list">
   <li><a href="{{ '/oil-change-cost-calculator/' | relative_url }}">Oil Change Cost Calculator <span aria-hidden="true">&rarr;</span></a></li>
@@ -292,6 +294,7 @@ schema: |
     document.getElementById("lowVal").textContent = fmt(low);
     document.getElementById("typVal").textContent = fmt(typ);
     document.getElementById("highVal").textContent = fmt(high);
+    try { if (window.hmSync) { window.hmSync(low, typ, high, 5200, 6800, 9500); } } catch (e) {}
   }
   document.getElementById("homeSize").addEventListener("input", update);
   document.getElementById("efficiency").addEventListener("change", update);
