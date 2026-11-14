@@ -119,7 +119,7 @@ schema: |
 
 <p class="table-hint">Swipe to see the High column &rarr;</p>
   <div class="table-wrap">
-<table class="cost-table">
+<table class="cost-table prose-4">
 <caption>Sample estimated USA prices for a sedan repaint</caption>
 <thead>
 <tr><th>Paint job quality</th><th>Sample range</th><th>Typical price</th><th>Warranty</th><th>Turnaround</th><th>Finish life</th><th>Best for</th></tr>
@@ -128,6 +128,7 @@ schema: |
 <tr><td>Basic single coat</td><td>$1,500 to $2,499</td><td>$2,000</td><td>Confirm in writing, not stated in the sources used</td><td>About 3 to 7 days for most repaints</td><td>Single-stage paint fades in 5 to 8 years, per UseCalcPro</td><td class="best-for">A budget repaint</td></tr>
 <tr><td>Standard quality</td><td>$2,500 to $4,999</td><td>$3,500</td><td>Confirm in writing, not stated in the sources used</td><td>About 3 to 7 days for most repaints</td><td>Base and clear coat lasts 10 to 15 plus years, per UseCalcPro</td><td class="best-for">Most daily drivers</td></tr>
 <tr><td>Show quality</td><td>$5,000 to $10,000</td><td>$7,500</td><td>Confirm in writing, not stated in the sources used</td><td>Longer than a standard job, more coats and more sanding between coats</td><td>Base and clear coat lasts 10 to 15 plus years, per UseCalcPro</td><td class="best-for">Show cars, and cars kept for many years</td></tr>
+<tr class="total"><td>Total of the rows above</td><td>$9,000 to $17,498</td><td>$13,000</td><td></td><td></td><td></td><td></td></tr>
 </tbody>
 </table>
 </div>
