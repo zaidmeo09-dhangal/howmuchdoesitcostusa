@@ -6,6 +6,10 @@ meta_description: "How much does it cost to install central air? See prices by h
 date: 2026-11-14
 permalink: /blog/how-much-does-it-cost-to-install-central-air/
 breadcrumb: Blog
+guide_category: "Home Costs"
+calculator_url: "/central-ac-installation-cost-calculator/"
+calculator_name: "Central AC Installation Cost Calculator"
+calculator_heading: "Price your own central air"
 schema: |
   {
     "@context": "https://schema.org",
@@ -99,6 +103,17 @@ schema: |
 <p class="note">All prices on this page are sample estimated USA ranges, not quotes. Your real price depends on your home size, system size, SEER2 rating, and the installer you hire.</p>
 </div>
 
+<div class="key-takeaways">
+<p class="key-takeaways-title">Key takeaways</p>
+<ul>
+<li>A typical 2.5 ton central air system costs about $6,800, with a sample range of $5,200 to $9,500.</li>
+<li>A 1,000 sq ft home needs a 1.5 ton system at $4,500 to $7,500, and a 2,500 sq ft home needs a 4 ton system at $8,000 to $14,000.</li>
+<li>A higher SEER2 system costs about 15 to 30 percent more than a standard system.</li>
+<li>A central air system lasts 15 to 20 years with regular care, and most installs take 1 to 2 days.</li>
+<li>The federal 25C tax credit ended December 31, 2025, so check state and utility rebates instead.</li>
+</ul>
+</div>
+
 ## Central air cost by home size
 
 <p class="table-hint">Swipe to see the High column &rarr;</p>
@@ -125,6 +140,11 @@ schema: |
 <p>Use the $5,000 rule before you pay for a repair, per iBuyer: multiply the age of the system in years by the cost of the repair, and replace it if the answer is over $5,000. Worked math: 12 years x $500 repair = $6,000, which is over $5,000, so replace. The same $500 repair on a 5 year old system gives 5 x $500 = $2,500, so repair it.</p>
 <p>TrueRepairCost prices a 3.5 ton Georgia home at $5,650 to $7,650. Georgia is in the Southeast, so the 14.3 SEER2 minimum applies there.</p>
 <p>Do not count on the federal 25C tax credit: it ended December 31, 2025, under Public Law 119-21, per TrueRepairCost. Check state and utility rebates instead.</p>
+
+<aside class="pull-quote">
+<p class="pull-quote-label">Money-saving tip</p>
+<p>Use the $5,000 rule before you pay for a repair: multiply the age of the system in years by the cost of the repair, and replace it if the answer is over $5,000.</p>
+</aside>
 
 ## What affects the price
 
