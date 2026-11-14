@@ -85,7 +85,8 @@ schema: |
 
 ## Average mover cost by home size
 
-<div class="table-wrap">
+<p class="table-hint">Swipe to see the High column &rarr;</p>
+  <div class="table-wrap">
 <table class="cost-table">
 <caption>Sample estimated USA prices for a local move, and a long distance estimate</caption>
 <thead>
