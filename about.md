@@ -29,7 +29,7 @@ schema: |
   <h2>Our calculators</h2>
   <p><a href="{{ '/tools/' | relative_url }}">See all 7 cost calculators</a>, or read the <a href="{{ '/blog/' | relative_url }}">cost guides</a> to learn what drives each price up or down.</p>
   <h2>Sitemap</h2>
-  <p>When this site goes live, the full sitemap will list all 17 pages: the homepage, 7 calculators, 6 guides, About, Contact, and Privacy Policy. The staging sitemap is generated automatically at <code>/sitemap.xml</code>.</p>
+  <p>The sitemap lists all 17 pages: the homepage, 7 calculators, 6 guides, About, Contact, and Privacy Policy. It is generated automatically at <code>/sitemap.xml</code>.</p>
   <h2>Contact</h2>
   <p>Found a wrong price or a broken calculator? <a href="{{ '/contact/' | relative_url }}">Contact us</a> and we will check it.</p>
 </section>
