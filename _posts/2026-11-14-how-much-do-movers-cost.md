@@ -132,7 +132,7 @@ Packing, storage, and specialty items such as pianos, safes, and pool tables add
 <h3>What is included</h3>
 <ul class="checklist">
 <li>Loading and unloading</li>
-<li>Truck, fuel, and mileage for a local move</li>
+<li>Truck, fuel, and mileage for your move</li>
 <li>Furniture blankets and shrink wrap</li>
 <li>Basic liability coverage</li>
 <li>Disassembly and reassembly of standard beds and tables</li>
@@ -140,7 +140,7 @@ Packing, storage, and specialty items such as pianos, safes, and pool tables add
 </div>
 <div>
 <h3>What is not included</h3>
-<ul class="checklist">
+<ul class="checklist checklist-x">
 <li>Packing boxes and packing materials</li>
 <li>Full packing service</li>
 <li>Storage between homes</li>
