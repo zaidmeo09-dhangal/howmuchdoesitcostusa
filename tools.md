@@ -1,15 +1,23 @@
 ---
 layout: default
-title: All Free Cost Calculators | How Much Does It Cost USA
-meta_title: "All Free Cost Calculators | How Much Does It Cost USA"
+title: All 7 Free Cost Calculators in the USA for Home and Car
+meta_title: "All 7 Free Cost Calculators in the USA for Home and Car"
 meta_description: "All free cost calculators from How Much Does It Cost USA: movers, roof, fence, oil change, central air, car wrap, and house painting, all free."
 permalink: /tools/
 breadcrumb: Tools
+schema: |
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "All Cost Calculators",
+    "url": "https://howmuchdoesitcostusa.com/tools/",
+    "description": "All free cost calculators: movers, roof, fence, oil change, central air, car wrap, and house painting, with low, typical, and high prices."
+  }
 ---
 
 <section class="wrap">
   <h1>All Cost Calculators</h1>
-  <p>Every calculator on this site is free, with no sign-up. Pick a job, answer a few questions, and see your low, typical, and high price in seconds. All prices are sample estimated USA ranges.</p>
+  <p>Every calculator on this site is free, with no sign-up. Pick a job, answer a few questions, and see your low, typical, and high price in seconds. All prices are sample estimated USA ranges. Each calculator shows its own breakdown of material, labor, supplies, and equipment, so you can check the math line by line. Prefer to read first? See the <a href="{{ '/blog/' | relative_url }}">cost guides</a>, where each guide explains what moves the price up or down and links to its calculator.</p>
   <div id="searchNotice" class="search-notice" role="status" hidden></div>
   <div class="grid">
     <div class="card"><div class="card-top"><span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h12v11H2z"/><path d="M14 9h4l3 3v4h-7"/><circle cx="6" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg></span><span class="card-cat">Moving</span></div><h3><a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator</a></h3><p class="price">$843 - $1,637</p><div class="price-bar" aria-hidden="true"><span style="width:50%"></span></div><div class="price-row"><span>Low $843</span><span>High $1,637</span></div><p>Price a local or long distance move by home size and distance. Typical: 2-bedroom move $1,240.</p><a class="card-cta" href="{{ '/movers-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
@@ -33,6 +41,8 @@ breadcrumb: Tools
   if (!box) { return; }
   box.hidden = false;
   var root = window.location.pathname.indexOf("/howmuchdoesitcostusa") === 0 ? "/howmuchdoesitcostusa/" : "/";
+  /* NOTE: this 13-entry page list is duplicated in assets/js/main.js.
+     Keep both lists in sync: same pages, same names, same URLs, same keywords. */
   var pages = [
     { name: "Movers Cost Calculator", url: "movers-cost-calculator/", keys: "movers moving move cost" },
     { name: "Roof Replacement Cost Calculator", url: "roof-replacement-cost-calculator/", keys: "roof replacement roofing shingle cost" },
@@ -61,26 +71,43 @@ breadcrumb: Tools
     return ul;
   }
   var qLower = q.toLowerCase();
-  var hits = pages.filter(function (p) {
-    return (p.name + " " + p.keys).toLowerCase().indexOf(qLower) !== -1;
-  });
+  var words = qLower.split(/\s+/);
+  /* Same scoring as main.js: title match outranks keyword match, exact word
+     outranks substring, so "car" ranks Car Wrap first and "paint" ranks the
+     Paint a Car guide first. */
+  function scorePage(p, words) {
+    var title = p.name.toLowerCase();
+    var titleWords = title.split(/[^a-z0-9]+/);
+    var keys = p.keys.toLowerCase();
+    var keyWords = keys.split(/[^a-z0-9]+/);
+    var s = 0;
+    words.forEach(function (w) {
+      if (!w) return;
+      if (titleWords.indexOf(w) !== -1) { s += 3; }
+      else if (title.indexOf(w) !== -1) { s += 2; }
+      if (keyWords.indexOf(w) !== -1) { s += 2; }
+      else if (keys.indexOf(w) !== -1) { s += 1; }
+    });
+    return s;
+  }
+  var ranked = pages.map(function (p) { return { p: p, s: scorePage(p, words) }; })
+    .filter(function (r) { return r.s > 0; })
+    .sort(function (a, b) { return b.s - a.s; });
   var lead = document.createElement("p");
-  if (hits.length) {
+  if (ranked.length) {
     lead.textContent = "Results for \u201C" + q + "\u201D:";
     box.appendChild(lead);
-    box.appendChild(linkList(hits));
+    box.appendChild(linkList(ranked.map(function (r) { return r.p; })));
   } else {
-    lead.textContent = "No calculators or guides match \u201C" + q + "\u201D. Try one of these closest calculators instead:";
+    /* No word matched at all: say so honestly instead of silently suggesting
+       unrelated calculators. The three links below are labelled as
+       suggestions, not matches. */
+    lead.textContent = "No calculator matches \u201C" + q + "\u201D yet.";
     box.appendChild(lead);
-    var words = qLower.split(/\s+/);
-    var ranked = pages.map(function (p) {
-      var text = (p.name + " " + p.keys).toLowerCase();
-      var s = 0;
-      words.forEach(function (w) { if (w && text.indexOf(w) !== -1) { s++; } });
-      return { p: p, s: s };
-    }).filter(function (r) { return r.s > 0; }).sort(function (a, b) { return b.s - a.s; }).slice(0, 3).map(function (r) { return r.p; });
-    if (!ranked.length) { ranked = [pages[0], pages[1], pages[3]]; }
-    box.appendChild(linkList(ranked));
+    var sugg = document.createElement("p");
+    sugg.textContent = "Suggestions, not matches: our most popular calculators:";
+    box.appendChild(sugg);
+    box.appendChild(linkList([pages[0], pages[1], pages[3]]));
   }
 })();
 </script>
