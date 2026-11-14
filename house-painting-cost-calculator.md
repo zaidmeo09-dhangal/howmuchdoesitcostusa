@@ -98,6 +98,7 @@ schema: |
   <div class="answer">
     <p id="answerIntro">A typical exterior paint job for a 1,800 sq ft home in the USA costs about $4,200, with a sample range of $2,800 to $6,800.</p>
     <p class="note">All prices on this page are sample estimated USA ranges, not quotes.</p>
+    <p class="updated-line">Updated November 14, 2026</p>
   </div>
 
   <div class="calc">
