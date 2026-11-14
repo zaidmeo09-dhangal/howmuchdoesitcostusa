@@ -96,7 +96,7 @@ schema: |
   <p class="kicker">Free Calculator</p>
   <h1>How Much Does It Cost to Replace a Roof?</h1>
   <div class="answer">
-    <p>A typical 1,800 sq ft asphalt shingle roof in the USA costs about $9,180, with a sample range of $7,528 to $11,475.</p>
+    <p id="answerIntro">A typical 1,800 sq ft asphalt shingle roof in the USA costs about $9,180, with a sample range of $7,528 to $11,475.</p>
     <p class="note">All prices on this page are sample estimated USA ranges, not quotes.</p>
   </div>
 
@@ -155,7 +155,7 @@ schema: |
       </thead>
       <tbody>
         <tr><td>Materials (shingles)</td><td>$3,250</td><td>$3,900</td><td>$4,400</td></tr>
-        <tr><td>Labor</td><td>$2,900</td><td>$3,600</td><td>$4,100</td></tr>
+        <tr><td id="laborLabel">Labor (4 to 6 roofers, 2 to 3 days)</td><td>$2,900</td><td>$3,600</td><td>$4,100</td></tr>
         <tr><td>Tear-off and disposal</td><td>$650</td><td>$800</td><td>$1,050</td></tr>
         <tr><td>Underlayment and flashing</td><td>$420</td><td>$520</td><td>$700</td></tr>
         <tr><td>Permits and fees</td><td>$180</td><td>$220</td><td>$320</td></tr>
@@ -285,7 +285,8 @@ schema: |
   }
   function update() {
     var size = parseFloat(document.getElementById("roofSize").value);
-    var rate = parseFloat(document.getElementById("material").value);
+    var matVal = document.getElementById("material").value;
+    var rate = parseFloat(matVal);
     document.getElementById("roofSizeVal").textContent = Math.round(size).toLocaleString("en-US") + " sq ft";
     var typ = size * rate;
     var low = Math.round(typ * 0.82);
@@ -293,7 +294,11 @@ schema: |
     document.getElementById("lowVal").textContent = fmt(low);
     document.getElementById("typVal").textContent = fmt(typ);
     document.getElementById("highVal").textContent = fmt(high);
-    try { if (window.hmSync) { window.hmSync(low, typ, high, 7528, 9180, 11475); } } catch (e) {}
+    var matName = { "5.10": "asphalt shingle", "9.50": "metal", "12.00": "clay tile" }[matVal];
+    var intro = "A typical " + Math.round(size).toLocaleString("en-US") + " sq ft " + matName + " roof in the USA costs about " + fmt(typ) + ", with a sample range of " + fmt(low) + " to " + fmt(high) + ".";
+    var days = size < 1200 ? "1 to 2 days" : size < 2200 ? "2 to 3 days" : size < 3000 ? "3 to 4 days" : "4 to 6 days";
+    var labor = "Labor (4 to 6 roofers, " + days + ")";
+    try { if (window.hmSync) { window.hmSync(low, typ, high, 7528, 9180, 11475, { intro: intro, labor: labor }); } } catch (e) {}
   }
   document.getElementById("roofSize").addEventListener("input", update);
   document.getElementById("material").addEventListener("change", update);
