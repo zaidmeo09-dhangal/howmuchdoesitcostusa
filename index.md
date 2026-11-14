@@ -89,8 +89,8 @@ schema: |
   <div class="wrap">
     <div class="hero-stats">
       <div class="hstat"><div><span class="hstat-num"><span class="count" data-count="6">6</span></span></div><div class="hstat-label">Cost guides live</div></div>
-      <div class="hstat"><div><span class="hstat-num"><span class="count" data-count="7">7</span></span></div><div class="hstat-label">Live calculators at launch</div></div>
-      <div class="hstat"><div><span class="hstat-num"><span class="count" data-count="5">5</span></span><span class="hstat-suffix"> sec</span></div><div class="hstat-label">To your price range</div></div>
+      <div class="hstat"><div><span class="hstat-num"><span class="count" data-count="7">7</span></span></div><div class="hstat-label">Calculators</div></div>
+      <div class="hstat"><div><span class="hstat-num"><span class="count" data-count="5">5</span></span><span class="hstat-suffix"> sec</span></div><div class="hstat-label">To your price</div></div>
     </div>
   </div>
 </section>
