@@ -139,7 +139,7 @@ A shop may add a new air filter, a cabin filter, a tire rotation, or a fluid top
 </div>
 <div>
 <h3>What is not included</h3>
-<ul class="checklist">
+<ul class="checklist checklist-x">
 <li>Engine air filter</li>
 <li>Cabin air filter</li>
 <li>Other fluid changes, such as coolant or transmission fluid</li>
