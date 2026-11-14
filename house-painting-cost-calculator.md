@@ -5,6 +5,11 @@ meta_title: "How Much Does It Cost to Paint a House? Calculator"
 meta_description: "How much does it cost to paint a house? Estimate interior and exterior painting by home size, with low, typical, and high prices in the USA."
 permalink: /house-painting-cost-calculator/
 breadcrumb: Tools
+image: /assets/images/house-painting-hero.webp
+image_card: /assets/images/house-painting-card.webp
+image_alt: "Man painting the exterior wall of a house with a roller on a ladder"
+image_w: 1200
+image_h: 800
 schema: |
   {
     "@context": "https://schema.org",
@@ -101,6 +106,8 @@ schema: |
     <p class="updated-line">Updated November 14, 2026</p>
   </div>
 
+  <img class="calc-hero-img" src="{{ page.image | relative_url }}" srcset="{{ page.image_card | relative_url }} 800w, {{ page.image | relative_url }} 1200w" sizes="(max-width: 760px) 100vw, 1200px" width="{{ page.image_w | default: 1200 }}" height="{{ page.image_h | default: 800 }}" alt="{{ page.image_alt }}" loading="lazy" decoding="async"{% if page.image_pos %} style="object-position: {{ page.image_pos }};"{% endif %}>
+
   <div class="calc">
     <h2>House Painting Cost Calculator</h2>
     <p>Pick your job type and home size to see a sample estimated price for painting your house.</p>
@@ -133,7 +140,7 @@ schema: |
       <p class="band-price" id="bandLowVal">$2,800</p>
       <p>A smaller job with basic choices.</p>
     </div>
-    <div class="band band-typical">
+    <div class="band band-typical"><p class="band-tag">Most common</p>
       <p class="band-label">Typical</p>
       <p class="band-price" id="bandTypVal">$4,200</p>
       <p>Your selection at typical USA rates.</p>
@@ -349,9 +356,9 @@ schema: |
 
   <h2>Related calculators and guides</h2>
   <div class="grid related-grid">
-<div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h12v11H2z"/><path d="M14 9h4l3 3v4h-7"/><circle cx="6" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg></span><span class="card-cat">Moving</span></div><h3><a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator</a></h3><p class="price">$843 - $1,637</p><a class="card-cta" href="{{ '/movers-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
-<div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/><path d="M9 21v-6h6v6"/></svg></span><span class="card-cat">Home</span></div><h3><a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Cost Calculator</a></h3><p class="price">$7,528 - $11,475</p><a class="card-cta" href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
-<div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V9l2-3 2 3v12"/><path d="M10 21V9l2-3 2 3v12"/><path d="M16 21V9l2-3 2 3v12"/><path d="M3 12h18"/><path d="M3 17h18"/></svg></span><span class="card-cat">Home</span></div><h3><a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a></h3><p class="price">$2,100 - $5,400</p><a class="card-cta" href="{{ '/fence-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
+<div class="card related-card"><img class="card-img" src="{{ '/assets/images/movers-card.webp' | relative_url }}" srcset="{{ '/assets/images/movers-card.webp' | relative_url }} 800w, {{ '/assets/images/movers-hero.webp' | relative_url }} 1200w" sizes="(max-width: 760px) 100vw, 800px" width="800" height="534" alt="Two professional movers carrying cardboard boxes in a bright room on moving day" loading="lazy" decoding="async"><div class="card-top"><span class="card-cat">Moving</span></div><h3><a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator</a></h3><p class="price">$843 - $1,637</p><a class="card-cta" href="{{ '/movers-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
+<div class="card related-card"><img class="card-img" src="{{ '/assets/images/roof-card.webp' | relative_url }}" srcset="{{ '/assets/images/roof-card.webp' | relative_url }} 800w, {{ '/assets/images/roof-hero.webp' | relative_url }} 1200w" sizes="(max-width: 760px) 100vw, 800px" width="800" height="534" alt="Roofer installing asphalt shingles on a residential roof with a nail gun" loading="lazy" decoding="async"><div class="card-top"><span class="card-cat">Home</span></div><h3><a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Cost Calculator</a></h3><p class="price">$7,528 - $11,475</p><a class="card-cta" href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
+<div class="card related-card"><img class="card-img" src="{{ '/assets/images/fence-card.webp' | relative_url }}" srcset="{{ '/assets/images/fence-card.webp' | relative_url }} 800w, {{ '/assets/images/fence-hero.webp' | relative_url }} 1200w" sizes="(max-width: 760px) 100vw, 800px" width="800" height="1200" alt="Wooden fence and gate beside a stone path in a sunny backyard" loading="lazy" decoding="async"><div class="card-top"><span class="card-cat">Home</span></div><h3><a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a></h3><p class="price">$2,100 - $5,400</p><a class="card-cta" href="{{ '/fence-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
 </div>
 <ul class="chip-list">
   <li><a href="{{ '/blog/how-much-does-it-cost-to-paint-a-car/' | relative_url }}">How Much Does It Cost to Paint a Car? <span aria-hidden="true">&rarr;</span></a></li>
