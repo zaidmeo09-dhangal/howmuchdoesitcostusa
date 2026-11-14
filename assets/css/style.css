@@ -188,7 +188,7 @@ section { padding: 36px 0; }
 .search-results li a:hover { background: var(--gold); }
 
 /* Cards and grids */
-.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; align-items: start; }
 .grid-2 { grid-template-columns: repeat(2, 1fr); }
 .card {
   background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
@@ -236,7 +236,7 @@ section { padding: 36px 0; }
 .card h3 a { color: var(--ink); text-decoration: none; }
 .card h3 a:hover { color: var(--green); }
 .card .meta { color: var(--muted); font-size: 14px; font-weight: 600; }
-.card .price { font-family: "IBM Plex Mono", monospace; font-size: 22px; font-weight: 600; color: var(--green); }
+.card .price { font-family: "Public Sans", system-ui, sans-serif; font-variant-numeric: tabular-nums; font-size: 22px; font-weight: 700; color: var(--green); }
 .tag {
   display: inline-block; background: var(--surface-soft); color: var(--muted);
   border-radius: 999px; padding: 4px 10px; font-size: 13px; font-weight: 700;
@@ -266,13 +266,13 @@ section { padding: 36px 0; }
 }
 .receipt h3 { margin-top: 0; }
 .receipt .receipt-total {
-  font-family: "IBM Plex Mono", monospace; font-size: 34px; font-weight: 600;
+  font-family: "Public Sans", system-ui, sans-serif; font-variant-numeric: tabular-nums; font-size: 34px; font-weight: 800;
   color: var(--green); line-height: 1.1;
 }
 .receipt .receipt-range { font-size: 15px; color: var(--muted); font-weight: 600; }
 .receipt table { width: 100%; border-collapse: collapse; margin-top: 12px; font-size: 15px; }
 .receipt td { padding: 6px 0; border-bottom: 1px solid var(--border); }
-.receipt td:last-child { text-align: right; font-family: "IBM Plex Mono", monospace; }
+.receipt td:last-child { text-align: right; font-family: "Public Sans", system-ui, sans-serif; font-variant-numeric: tabular-nums; font-weight: 600; }
 
 /* Price bands */
 .bands { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 20px 0; }
@@ -282,7 +282,7 @@ section { padding: 36px 0; }
 }
 .band-typical { border: 2px solid var(--green); background: var(--surface-soft); }
 .band .band-label { font-weight: 700; color: var(--muted); font-size: 14px; text-transform: uppercase; letter-spacing: 0.08em; }
-.band .band-price { font-family: "IBM Plex Mono", monospace; font-size: 28px; font-weight: 600; color: var(--green); margin: 6px 0; }
+.band .band-price { font-family: "Public Sans", system-ui, sans-serif; font-variant-numeric: tabular-nums; font-size: 28px; font-weight: 800; color: var(--green); margin: 6px 0; }
 
 /* Tables */
 .table-wrap { overflow-x: auto; margin: 16px 0; }
@@ -291,7 +291,7 @@ table.cost-table { width: 100%; border-collapse: collapse; min-width: 560px; }
 .cost-table th { background: var(--surface-green); color: #ffffff; font-size: 14px; text-transform: uppercase; letter-spacing: 0.05em; }
 .cost-table td:last-child, .cost-table th:last-child,
 .cost-table td:nth-child(3), .cost-table th:nth-child(3),
-.cost-table td:nth-child(4), .cost-table th:nth-child(4) { text-align: right; font-family: "IBM Plex Mono", monospace; }
+.cost-table td:nth-child(4), .cost-table th:nth-child(4) { text-align: right; font-family: "Public Sans", system-ui, sans-serif; font-variant-numeric: tabular-nums; font-weight: 600; }
 .cost-table tr.total td { font-weight: 700; border-top: 2px solid var(--green); }
 .cost-table caption { text-align: left; font-weight: 700; padding-bottom: 8px; }
 
@@ -404,7 +404,7 @@ details.faq p { margin: 10px 0 4px; }
 }
 .hero-card-label { color: var(--hero-kicker); font-weight: 800; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 6px; }
 .hero-card-title { font-family: "Bricolage Grotesque", "Public Sans", system-ui, sans-serif; font-size: 22px; font-weight: 700; color: var(--hero-ink); margin-bottom: 4px; }
-.hero-card-price { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 34px; font-weight: 800; color: var(--green); margin-bottom: 10px; }
+.hero-card-price { font-family: "Public Sans", system-ui, sans-serif; font-variant-numeric: tabular-nums; font-size: 34px; font-weight: 800; color: var(--green); margin-bottom: 10px; }
 .hero-card .price-row { display: flex; justify-content: space-between; font-weight: 700; font-size: 14px; color: var(--hero-muted); margin: 8px 0 12px; }
 .hero-card-note { font-size: 14px; color: var(--hero-muted); margin-bottom: 14px; }
 .hero-card .btn { display: inline-block; }
