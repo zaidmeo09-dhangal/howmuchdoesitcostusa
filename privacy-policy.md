@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Privacy Policy | How Much Does It Cost USA Website
-meta_title: "Privacy Policy | How Much Does It Cost USA Website"
+title: Privacy Policy for Our Free Cost Calculators and Guides
+meta_title: "Privacy Policy for Our Free Cost Calculators and Guides"
 meta_description: "Privacy Policy for How Much Does It Cost USA: what we collect, how we use it, and how we protect your privacy when you use our free tools online."
 permalink: /privacy/
 breadcrumb: Privacy Policy
@@ -13,8 +13,9 @@ breadcrumb: Privacy Policy
   <h2>What we collect</h2>
   <p>We collect almost nothing. The calculators on this site run entirely in your browser. The numbers you type into a calculator are never sent to our servers, never stored, and never shared.</p>
   <p>If you contact us by email, we receive your name, email address, and message so we can reply. We use that information only to answer you.</p>
+  <p>The contact form sends nothing to this site. It opens your own email app, so your message goes straight from your email to us and is never stored here.</p>
   <h2>Cookies and analytics</h2>
-  <p>This site sets no analytics cookies. We may add a privacy-friendly analytics tool to count visits and find broken pages. That tool will not track you across other websites.</p>
+  <p>No analytics tool is currently in use on this site, and the site sets no cookies. We may add a privacy-friendly analytics tool in future to count visits and find broken pages. That tool will not track you across other websites.</p>
   <h2>Third parties</h2>
   <p>Pages on this site load fonts from Google Fonts. Google may see your IP address when your browser fetches a font, under Google's own privacy policy. We do not share your information with advertisers.</p>
   <h2>Children</h2>
