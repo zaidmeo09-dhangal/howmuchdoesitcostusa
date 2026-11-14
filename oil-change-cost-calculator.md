@@ -98,6 +98,7 @@ schema: |
   <div class="answer">
     <p id="answerIntro">A typical full synthetic oil change in the USA costs about $75, with a sample range of $45 to $140.</p>
     <p class="note">All prices on this page are sample estimated USA ranges, not quotes.</p>
+    <p class="updated-line">Updated November 14, 2026</p>
   </div>
 
   <div class="calc">
