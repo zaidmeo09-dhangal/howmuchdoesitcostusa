@@ -130,7 +130,6 @@ schema: |
 <tr><td>High-mileage</td><td>$50 to $100</td><td>$75</td></tr>
 <tr><td>Diesel</td><td>$80 to $200+</td><td>$140</td></tr>
 <tr><td>European / specialty</td><td>$110 to $160+</td><td>$135</td></tr>
-<tr class="total"><td>Total of the rows above</td><td>$380 to $760+</td><td>$535</td></tr>
 </tbody>
 </table>
 </div>
