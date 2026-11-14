@@ -98,6 +98,7 @@ schema: |
   <div class="answer">
     <p id="answerIntro">A typical 2.5 ton central air system in the USA costs about $6,800, with a sample range of $5,200 to $9,500.</p>
     <p class="note">All prices on this page are sample estimated USA ranges, not quotes.</p>
+    <p class="updated-line">Updated November 14, 2026</p>
   </div>
 
   <div class="calc">
