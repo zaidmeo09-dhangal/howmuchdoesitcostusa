@@ -130,4 +130,118 @@
   }
 
   window.hmCostFmt = fmt;
+
+  /* Guide pages: table of contents, reading progress, copy link, calculator banner. */
+  var postArticle = document.querySelector("article.post");
+  if (postArticle) {
+    var postBody = postArticle.querySelector(".post-body");
+    function fallbackCopy(text) {
+      var ta = document.createElement("textarea");
+      ta.value = text;
+      ta.setAttribute("readonly", "");
+      ta.style.position = "absolute";
+      ta.style.left = "-9999px";
+      document.body.appendChild(ta);
+      ta.select();
+      try { document.execCommand("copy"); } catch (e) {}
+      document.body.removeChild(ta);
+    }
+    /* Table of contents, built from the guide H2s. Hidden until JS fills it. */
+    var toc = document.getElementById("postToc");
+    var tocList = document.getElementById("postTocList");
+    if (postBody && toc && tocList) {
+      var headings = postBody.querySelectorAll("h2");
+      var tocLinks = [];
+      headings.forEach(function (h) {
+        var text = h.textContent.trim();
+        if (!text) return;
+        if (!h.id) {
+          h.id = text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "") || "section";
+        }
+        var li = document.createElement("li");
+        var a = document.createElement("a");
+        a.href = "#" + h.id;
+        a.textContent = text;
+        li.appendChild(a);
+        tocList.appendChild(li);
+        tocLinks.push({ h: h, a: a });
+      });
+      if (tocLinks.length > 1) {
+        toc.classList.add("is-ready");
+        var spy = function () {
+          var current = tocLinks[0];
+          tocLinks.forEach(function (item) {
+            if (item.h.getBoundingClientRect().top <= 140) current = item;
+          });
+          tocLinks.forEach(function (item) {
+            item.a.classList.toggle("is-active", item === current);
+          });
+        };
+        window.addEventListener("scroll", spy, { passive: true });
+        spy();
+      }
+    }
+    /* Thin reading progress bar under the header. */
+    var bar = document.getElementById("readingProgressBar");
+    if (bar) {
+      var onScroll = function () {
+        var total = postArticle.offsetHeight - window.innerHeight;
+        var done = window.scrollY - postArticle.offsetTop;
+        var pct = total > 0 ? Math.min(100, Math.max(0, (done / total) * 100)) : 0;
+        bar.style.width = pct + "%";
+      };
+      window.addEventListener("scroll", onScroll, { passive: true });
+      window.addEventListener("resize", onScroll);
+      onScroll();
+    }
+    /* Copy link buttons, top and bottom of the guide. */
+    var copyBtns = postArticle.querySelectorAll(".share-copy");
+    copyBtns.forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var url = btn.getAttribute("data-copy-url") || window.location.href;
+        var done = function () {
+          btn.textContent = "Copied";
+          setTimeout(function () { btn.textContent = "Copy link"; }, 2000);
+        };
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(url).then(done, function () { fallbackCopy(url); done(); });
+        } else { fallbackCopy(url); done(); }
+      });
+    });
+    /* Mid-guide calculator banner after the first table, driven by front matter. */
+    var calcUrl = postArticle.getAttribute("data-calculator-url");
+    var calcName = postArticle.getAttribute("data-calculator-name");
+    var calcHeading = postArticle.getAttribute("data-calculator-heading");
+    if (postBody && calcUrl && calcName) {
+      var banner = document.createElement("aside");
+      banner.className = "calc-banner";
+      var label = document.createElement("p");
+      label.className = "calc-banner-label";
+      label.textContent = "Calculator";
+      var head = document.createElement("p");
+      head.className = "calc-banner-title";
+      head.textContent = calcHeading || ("Price it with the " + calcName);
+      banner.appendChild(label);
+      banner.appendChild(head);
+      var calcNote = postArticle.getAttribute("data-calculator-note");
+      if (calcNote) {
+        var np = document.createElement("p");
+        np.className = "calc-banner-note";
+        np.textContent = calcNote;
+        banner.appendChild(np);
+      }
+      var link = document.createElement("a");
+      link.className = "btn btn-gold";
+      link.href = calcUrl;
+      link.textContent = calcName;
+      banner.appendChild(link);
+      var firstTable = postBody.querySelector(".table-wrap");
+      if (firstTable && firstTable.parentNode) {
+        firstTable.parentNode.insertBefore(banner, firstTable.nextSibling);
+      } else {
+        var ans = postBody.querySelector(".answer");
+        if (ans && ans.parentNode) ans.parentNode.insertBefore(banner, ans.nextSibling);
+      }
+    }
+  }
 })();
