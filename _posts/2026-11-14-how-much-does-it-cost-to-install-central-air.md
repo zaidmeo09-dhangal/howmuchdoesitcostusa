@@ -140,7 +140,7 @@ An older home may need a panel upgrade or a new circuit for the outdoor unit. Th
 </div>
 <div>
 <h3>What is not included</h3>
-<ul class="checklist">
+<ul class="checklist checklist-x">
 <li>Electrical panel upgrades</li>
 <li>Duct replacement or major duct repair</li>
 <li>Permit fees, where required</li>
@@ -182,7 +182,7 @@ An older home may need a panel upgrade or a new circuit for the outdoor unit. Th
 ## Related links
 
 <div class="grid related-grid">
-<div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M3.5 7l17 10M20.5 7l-17 10"/></svg></span><span class="card-cat">Home</span></div><h3><a href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}">Central AC Installation Cost Calculator</a></h3><p class="price">$5,200 - $9,500</p><a class="card-cta" href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
+<div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/><path d="M4.2 7.5l15.6 9"/><path d="M19.8 7.5L4.2 16.5"/><path d="M12 2L9.5 4.5M12 2l2.5 2.5M12 22l-2.5-2.5M12 22l2.5-2.5"/></svg></span><span class="card-cat">Home</span></div><h3><a href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}">Central AC Installation Cost Calculator</a></h3><p class="price">$5,200 - $9,500</p><a class="card-cta" href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
 <div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/><path d="M9 21v-6h6v6"/></svg></span><span class="card-cat">Home</span></div><h3><a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Cost Calculator</a></h3><p class="price">$7,528 - $11,475</p><a class="card-cta" href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
 <div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/><path d="M9 21v-6h6v6"/></svg></span><span class="card-cat">Guide</span></div><h3><a href="{{ '/blog/how-much-does-it-cost-to-replace-a-roof/' | relative_url }}">How Much Does It Cost to Replace a Roof?</a></h3><p class="price">$7,528 - $11,475</p><a class="card-cta" href="{{ '/blog/how-much-does-it-cost-to-replace-a-roof/' | relative_url }}">Read the guide &rarr;</a></div>
 </div>
