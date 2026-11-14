@@ -200,8 +200,14 @@
       btn.addEventListener("click", function () {
         var url = btn.getAttribute("data-copy-url") || window.location.href;
         var done = function () {
-          btn.textContent = "Copied";
-          setTimeout(function () { btn.textContent = "Copy link"; }, 2000);
+          var label = btn.querySelector("span");
+          if (label) {
+            label.textContent = "Copied";
+            setTimeout(function () { label.textContent = "Copy link"; }, 2000);
+          } else {
+            btn.textContent = "Copied";
+            setTimeout(function () { btn.textContent = "Copy link"; }, 2000);
+          }
         };
         if (navigator.clipboard && navigator.clipboard.writeText) {
           navigator.clipboard.writeText(url).then(done, function () { fallbackCopy(url); done(); });
