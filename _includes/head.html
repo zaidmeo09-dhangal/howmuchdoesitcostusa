@@ -25,11 +25,12 @@
 (function(){try{localStorage.removeItem("hm-cost-theme");var t=localStorage.getItem("hm-cost-theme-v2");if(!t){t="light";}document.documentElement.setAttribute("data-theme",t);}catch(e){document.documentElement.setAttribute("data-theme","light");}})();
 </script>
 <script>
-/* Live sync for calculator pages: bands, result range bar, and the itemized
-   breakdown table all update with the calculator choices. Column totals stay
-   exact: each row scales by its own column factor, then the largest row in a
-   column absorbs any rounding difference so the rows sum to the total. */
-window.hmSync = function (low, typ, high, dLow, dTyp, dHigh) {
+/* Live sync for calculator pages: bands, result range bar, the itemized
+   breakdown table, the intro sentence, and the labor row label all update
+   with the calculator choices. Column totals stay exact: each row scales by
+   its own column factor, then the largest row in a column absorbs any
+   rounding difference so the rows sum to the total. */
+window.hmSync = function (low, typ, high, dLow, dTyp, dHigh, extra) {
   function fmt(n) { return "$" + Math.round(n).toLocaleString("en-US"); }
   var bL = document.getElementById("bandLowVal");
   var bT = document.getElementById("bandTypVal");
@@ -37,6 +38,16 @@ window.hmSync = function (low, typ, high, dLow, dTyp, dHigh) {
   if (bL) { bL.textContent = fmt(low); }
   if (bT) { bT.textContent = fmt(typ); }
   if (bH) { bH.textContent = fmt(high); }
+  if (extra) {
+    if (extra.intro) {
+      var ai = document.getElementById("answerIntro");
+      if (ai) { ai.textContent = extra.intro; }
+    }
+    if (extra.labor) {
+      var ll = document.getElementById("laborLabel");
+      if (ll) { ll.textContent = extra.labor; }
+    }
+  }
   var bar = document.getElementById("rangeBar");
   if (bar && high > low) {
     bar.style.width = Math.max(4, Math.min(100, Math.round((typ - low) / (high - low) * 100))) + "%";
