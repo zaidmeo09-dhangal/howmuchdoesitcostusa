@@ -72,12 +72,14 @@ schema: |
       <p><a class="btn btn-gold" href="{{ '/tools/' | relative_url }}">Get a Price</a> <a class="btn btn-outline" href="{{ '/blog/' | relative_url }}">Read the Guides</a></p>
     </div>
     <figure class="hero-figure">
+      <div class="hero-photo">
       <img class="hero-img" src="{{ '/assets/images/hero-home-hero.webp' | relative_url }}" srcset="{{ '/assets/images/hero-home-card.webp' | relative_url }} 800w, {{ '/assets/images/hero-home-hero.webp' | relative_url }} 1200w" sizes="(max-width: 900px) 100vw, 400px" width="1200" height="800" alt="Modern two story suburban house in the USA with a lawn and blue sky" fetchpriority="high" decoding="async">
       <div class="hero-badge">
         <p class="hero-badge-label">Sample estimate</p>
         <p class="hero-badge-title">2-bedroom local move</p>
         <p class="hero-badge-price">Typical $1,240</p>
         <p class="hero-badge-range">Low $843 - High $1,637</p>
+      </div>
       </div>
       <figcaption class="hero-figure-note">Sample estimated USA range, not a quote. <a href="{{ '/movers-cost-calculator/' | relative_url }}">Calculate your move price</a></figcaption>
     </figure>
@@ -90,12 +92,11 @@ schema: |
       <li>Nothing you type leaves your browser</li>
     </ul>
   </div>
-  </div>
   <div class="wrap">
     <div class="hero-stats">
       <div class="hstat"><div><span class="hstat-num"><span class="count" data-count="6">6</span></span></div><div class="hstat-label">Cost guides live</div></div>
       <div class="hstat"><div><span class="hstat-num"><span class="count" data-count="7">7</span></span></div><div class="hstat-label">Calculators</div></div>
-      <div class="hstat"><div><span class="hstat-num hstat-word">In seconds</span></div><div class="hstat-label">To your price</div></div>
+      <div class="hstat"><div><span class="hstat-num">100%</span></div><div class="hstat-label">Free to use</div></div>
     </div>
   </div>
 </section>
