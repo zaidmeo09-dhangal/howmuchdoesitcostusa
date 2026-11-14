@@ -61,7 +61,7 @@ schema: |
             "name": "How much is a gate?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "A sample price is $150 to $400 per gate, depending on the size, the material, and the hardware. Wide drive gates and automatic openers cost more than a standard walk gate."
+              "text": "A sample price is $150 to $600 per walk gate, per RemodelCalculators. Wide drive gates cost $600 to $1,500, and an automatic opener adds $500 to $2,000, per Quotsey."
             }
           },
           {
@@ -70,6 +70,22 @@ schema: |
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "Old fence removal and surveys are usually not included in a standard fence quote. Ask each installer to list removal, permit fees, and gates, so you know what the price does and does not cover."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does a 200 ft wood fence cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The fence alone costs $2,600 to $6,000 at $13 to $30 per foot, per Quotsey. With two walk gates, old fence removal, and a permit, the worked example in this guide totals $3,520 to $8,950."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is it cheaper to replace a fence or build a new one?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Building new is cheaper per foot. RemodelCalculators puts replacement at $30 to $80 per linear foot, against $20 to $60 per linear foot for a new fence, because replacement adds removal at $3 to $7 per foot."
             }
           }
         ]
@@ -110,11 +126,11 @@ Length is the biggest price driver, because every extra foot needs more posts, p
 
 ### Material choice
 
-Wood is the cheapest up front, chain link is the cheapest per foot, and vinyl costs the most to install in these sample ranges. The right choice depends on privacy, looks, and how much care you want to do later.
+Chain link is the cheapest per foot, and wood privacy is the cheapest full privacy fence up front. Vinyl costs the most to install in these sample ranges. The right choice depends on privacy, looks, and how much care you want to do later.
 
 ### Height and style
 
-A 6 ft privacy fence costs more than a 4 ft picket fence, because it uses taller posts and more material. Decorative tops, lattice, and horizontal boards also add to the price.
+A 6 ft privacy fence costs more than a 4 ft picket fence, because it uses taller posts and more material. Going from 4 ft to 6 ft adds about 30 to 50 percent per foot, per Quotsey, and an 8 ft fence adds about 25 to 35 percent over a 6 ft fence, per BuilderMuse. Decorative tops, lattice, and horizontal boards also add to the price.
 
 ### Ground and slope
 
@@ -122,7 +138,134 @@ Flat, clear ground is the cheapest to build on. Slopes, rocks, tree roots, and w
 
 ### Gates and posts
 
-Every gate adds material, hardware, and labor, at a sample price of $150 to $400 per gate. Wider posts, metal posts, and decorative post caps also add to the total.
+Every gate adds material, hardware, and labor, at a sample price of $150 to $600 per walk gate, per RemodelCalculators. Wider posts, metal posts, and decorative post caps also add to the total.
+
+## Worked example: a 200 ft wood fence
+
+BuilderMuse works through a 200 ft wood fence with two walk gates, old fence removal, and a permit, and puts it at roughly $3,700 to $8,860. Here is the same job built up from the sourced ranges, so you can see where the money goes.
+
+<p class="table-hint">Swipe to see the High column &rarr;</p>
+  <div class="table-wrap">
+<table class="cost-table">
+<caption>Worked example: 200 ft pressure treated wood fence, two walk gates, removal, permit</caption>
+<thead>
+<tr><th>Item</th><th>Source range</th><th>Low</th><th>High</th></tr>
+</thead>
+<tbody>
+<tr><td>200 ft wood fence, $13 to $30 per foot</td><td>Quotsey</td><td>$2,600</td><td>$6,000</td></tr>
+<tr><td>Two walk gates, $150 to $600 each</td><td>RemodelCalculators</td><td>$300</td><td>$1,200</td></tr>
+<tr><td>Old fence removal, $3 to $8 per foot</td><td>Quotsey</td><td>$600</td><td>$1,600</td></tr>
+<tr><td>Permit, $20 to $150</td><td>RemodelCalculators</td><td>$20</td><td>$150</td></tr>
+<tr class="total"><td>Totals</td><td></td><td>$3,520</td><td>$8,950</td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="note">Arithmetic: low is $2,600 + $300 + $600 + $20 = $3,520. High is $6,000 + $1,200 + $1,600 + $150 = $8,950. BuilderMuse lands a little higher at the low end and a little lower at the high end, at roughly $3,700 to $8,860, because it uses different per foot and permit assumptions for the same job. Post count for this job: 200 ft at 8 ft spacing is 200 / 8 + 2 = 27 posts, per the BuilderMuse formula.</p>
+
+## Fence cost by material and height
+
+<p class="table-hint">Swipe to see the High column &rarr;</p>
+  <div class="table-wrap">
+<table class="cost-table">
+<caption>Installed cost per linear foot, per RemodelCalculators</caption>
+<thead>
+<tr><th>Material</th><th>Height</th><th>Cost per foot</th><th>Sample total for 150 ft</th></tr>
+</thead>
+<tbody>
+<tr><td>Chain link, galvanized</td><td>4 ft</td><td>$8 to $28</td><td>$1,200 to $4,200</td></tr>
+<tr><td>Wood privacy, pressure treated pine</td><td>6 ft</td><td>$15 to $45</td><td>$2,250 to $6,750</td></tr>
+<tr><td>Cedar privacy</td><td>6 ft</td><td>$22 to $60</td><td>$3,300 to $9,000</td></tr>
+<tr><td>Vinyl privacy</td><td>6 ft</td><td>$25 to $60</td><td>$3,750 to $9,000</td></tr>
+<tr><td>Aluminum, ornamental</td><td>6 ft</td><td>$25 to $75</td><td>$3,750 to $11,250</td></tr>
+<tr><td>Composite privacy</td><td>6 ft</td><td>$35 to $95</td><td>$5,250 to $14,250</td></tr>
+<tr><td>Wrought iron / steel</td><td>6 ft</td><td>$25 to $85</td><td>$3,750 to $12,750</td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="note">Totals are the per foot price times 150 ft. For height changes, going from 4 ft to 6 ft adds about 30 to 50 percent per foot, per Quotsey, and 8 ft adds about 25 to 35 percent over 6 ft, per BuilderMuse.</p>
+
+## Whole fence cost by material and length
+
+<p class="table-hint">Swipe to see the High column &rarr;</p>
+  <div class="table-wrap">
+<table class="cost-table">
+<caption>Installed totals by fence length, from Quotsey per foot ranges</caption>
+<thead>
+<tr><th>Material</th><th>100 ft</th><th>150 ft</th><th>200 ft</th><th>400 ft</th></tr>
+</thead>
+<tbody>
+<tr><td>Chain link, $15 to $25 per foot</td><td>$1,500 to $2,500</td><td>$2,250 to $3,750</td><td>$3,000 to $5,000</td><td>$6,000 to $10,000</td></tr>
+<tr><td>Pressure treated wood, $13 to $30 per foot</td><td>$1,300 to $3,000</td><td>$1,950 to $4,500</td><td>$2,600 to $6,000</td><td>$5,200 to $12,000</td></tr>
+<tr><td>Vinyl, $30 to $60 per foot</td><td>$3,000 to $6,000</td><td>$4,500 to $9,000</td><td>$6,000 to $12,000</td><td>$12,000 to $24,000</td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="note">Each total is the per foot range times the length. For a 400 ft vinyl fence, RemodelCalculators gives $10,000 to $24,000, close to the $12,000 to $24,000 above. A 400 ft composite fence runs $14,000 to $38,000, per RemodelCalculators.</p>
+
+## Fence cost by region
+
+Prices move with local labor rates. Quotsey gives these ranges for a 150 ft pressure treated wood fence by region.
+
+<p class="table-hint">Swipe to see the High column &rarr;</p>
+  <div class="table-wrap">
+<table class="cost-table">
+<caption>150 ft pressure treated wood fence, per Quotsey</caption>
+<thead>
+<tr><th>Region</th><th>Sample range</th></tr>
+</thead>
+<tbody>
+<tr><td>Northeast</td><td>$3,200 to $6,500</td></tr>
+<tr><td>Southeast</td><td>$2,400 to $4,800</td></tr>
+<tr><td>Midwest</td><td>$2,600 to $5,000</td></tr>
+<tr><td>West Coast</td><td>$3,000 to $6,000</td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="note">Urban and coastal areas run about 40 to 60 percent higher than rural areas, per Quotsey, so a city quote can sit well above these ranges.</p>
+
+## Sloped ground: stepped vs racked
+
+A fence on a slope is built one of two ways, per RemodelCalculators. A racked fence tilts the panels to follow the ground, and it works on gentle slopes below about 15 degrees. A stepped fence keeps each panel level and steps down the slope, which works on steeper ground but leaves gaps under the panels and needs more posts. Grading to level the ground costs $500 to $3,000, per RemodelCalculators, so ask the installer which method they priced before you compare quotes.
+
+## Replacement vs a new fence
+
+Replacing an old fence costs more per foot than building on clear ground. RemodelCalculators puts replacement at $30 to $80 per linear foot, against $20 to $60 per linear foot for a new fence. Removal alone runs $3 to $7 per foot, per RemodelCalculators, or $3 to $8 per foot as a standalone job, per Quotsey. On a 150 ft fence, removal alone is $450 to $1,050 at $3 to $7 per foot. If the old posts are sound and the line is unchanged, ask whether the new fence can reuse the post holes, which can cut the labor.
+
+## Lifetime cost per foot per year
+
+The cheapest fence to install is not always the cheapest to own. RemodelCalculators gives these lifetime costs per foot per year, which spread the install price and the upkeep over the life of the fence.
+
+<p class="table-hint">Swipe to see the High column &rarr;</p>
+  <div class="table-wrap">
+<table class="cost-table">
+<caption>Lifetime cost per foot per year, per RemodelCalculators</caption>
+<thead>
+<tr><th>Material</th><th>Cost per foot per year</th></tr>
+</thead>
+<tbody>
+<tr><td>Chain link, galvanized</td><td>$0.75</td></tr>
+<tr><td>Aluminum</td><td>$1.13</td></tr>
+<tr><td>Vinyl privacy</td><td>$1.52</td></tr>
+<tr><td>Cedar</td><td>$2.00</td></tr>
+<tr><td>Composite</td><td>$2.18</td></tr>
+<tr><td>Wood, pressure treated pine</td><td>$2.24</td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="note">Wood lasts about 15 to 20 years, vinyl and chain link about 20 to 30 years, aluminum 30 years or more, and wrought iron 50 years or more, per Quotsey. A good fence can also add about 2 to 5 percent to home value, per Quotsey.</p>
+
+## DIY vs hiring a pro
+
+Labor runs $10 to $30 per linear foot and is about half the job, per Quotsey, so doing it yourself can save real money on a long fence. BuilderMuse puts labor at about $1,600 on an average project, roughly half the total. The median wage for fence erectors is $23.07 per hour, or $47,980 per year, per the US Bureau of Labor Statistics, May 2025. A DIY build still needs post hole digging, concrete setting, level panels, and a call to 811 before digging, which is free. Hire a pro if the ground is sloped or rocky, the fence is over 6 ft, or the boundary is disputed, because fixing a crooked or misplaced fence costs more than building it right the first time.
+
+## Before you build
+
+Check these five things before anyone digs. A property survey costs $200 to $545, per BuilderMuse, and it settles where the fence can legally go. Call 811 before digging, which is free, per BuilderMuse, so buried lines get marked. Check your HOA rules, because many HOAs limit material, style, and height. Check your city setback rules, because a fence usually must sit inside your line, not on it. Check your city height cap, because front yard fences are often limited to a lower height than backyard fences. A permit costs $20 to $150, per RemodelCalculators, or $50 to $300, per Quotsey, depending on the city.
 
 ## What is included and what is not included
 
@@ -166,8 +309,9 @@ Every gate adds material, hardware, and labor, at a sample price of $150 to $400
 <li><strong>Measure your fence line.</strong> Walk the line, measure the total length, and mark where each gate should go.</li>
 <li><strong>Check your property lines and rules.</strong> Confirm the boundary, check your city height and permit rules, and check your HOA rules if you have one.</li>
 <li><strong>Get 3 written quotes.</strong> Ask each installer for the same length, height, and material, with gates, removal, and permit fees listed.</li>
+<li><strong>Ask for the post spec.</strong> Confirm wood or metal posts, post spacing, concrete depth, and how the posts are set.</li>
 <li><strong>Check reviews and past work.</strong> Read recent reviews, look at photos of recent jobs, and ask for references you can call.</li>
-<li><strong>Confirm the permit and warranty in writing.</strong> The contract should list the material, the height, the price, the start date, and the warranty on labor and materials.</li>
+<li><strong>Confirm the permit, warranty, and call to 811 in writing.</strong> The contract should list the material, the height, the price, the start date, and the warranty on labor and materials, and it should state who calls 811 before digging.</li>
 </ol>
 
 ## Frequently asked questions
@@ -175,8 +319,24 @@ Every gate adds material, hardware, and labor, at a sample price of $150 to $400
 <details class="faq"><summary>Wood or vinyl, which is cheaper?</summary><p>Wood costs less up front, vinyl less over time. Wood needs staining and repairs, while vinyl needs little care, so vinyl can be cheaper across 20 years even though it costs more to install.</p></details>
 <details class="faq"><summary>Do I need a permit?</summary><p>Many US cities require a permit for a new fence, and some also limit the height and the style. Check your city rules and your HOA rules before you order materials.</p></details>
 <details class="faq"><summary>How long does a wood fence last?</summary><p>About 15 to 20 years with regular care. Sealing or staining every few years, keeping the boards off the soil, and fixing loose posts early all help a wood fence last longer.</p></details>
-<details class="faq"><summary>How much is a gate?</summary><p>A sample price is $150 to $400 per gate, depending on the size, the material, and the hardware. Wide drive gates and automatic openers cost more than a standard walk gate.</p></details>
+<details class="faq"><summary>How much is a gate?</summary><p>A sample price is $150 to $600 per walk gate, per RemodelCalculators. Wide drive gates cost $600 to $1,500, and an automatic opener adds $500 to $2,000, per Quotsey.</p></details>
 <details class="faq"><summary>What is not included?</summary><p>Old fence removal and surveys are usually not included in a standard fence quote. Ask each installer to list removal, permit fees, and gates, so you know what the price does and does not cover.</p></details>
+<details class="faq"><summary>How much does a 200 ft wood fence cost?</summary><p>The fence alone costs $2,600 to $6,000 at $13 to $30 per foot, per Quotsey. With two walk gates, old fence removal, and a permit, the worked example in this guide totals $3,520 to $8,950.</p></details>
+<details class="faq"><summary>Is it cheaper to replace a fence or build a new one?</summary><p>Building new is cheaper per foot. RemodelCalculators puts replacement at $30 to $80 per linear foot, against $20 to $60 per linear foot for a new fence, because replacement adds removal at $3 to $7 per foot.</p></details>
+
+## References
+
+<p>Price ranges in this guide come from RemodelCalculators, Quotsey, and BuilderMuse, with labor context from the US Bureau of Labor Statistics. All prices are sample estimated USA ranges, not quotes.</p>
+<div class="refs">
+<p><a href="https://remodelcalculators.com/fence-cost" target="_blank" rel="noopener">RemodelCalculators</a> <span class="ref-note">fence cost per foot, by material and height</span></p>
+<p><a href="https://www.quotsey.com/cost-guides/fence-installation-cost/" target="_blank" rel="noopener">Quotsey</a> <span class="ref-note">fence installation cost by material and region</span></p>
+<p><a href="https://buildermuse.com/residential/fence-installation-cost-2026/" target="_blank" rel="noopener">BuilderMuse</a> <span class="ref-note">fence installation cost, HomeAdvisor survey data</span></p>
+<p><a href="https://www.bls.gov/" target="_blank" rel="noopener">US Bureau of Labor Statistics</a> <span class="ref-note">fence erector wage data</span></p>
+</div>
+
+## Compare with other home projects
+
+<p>If you are pricing a full exterior refresh, read <a href="{{ '/blog/how-much-does-it-cost-to-replace-a-roof/' | relative_url }}">how much it costs to replace a roof</a> and price the paintwork with the <a href="{{ '/house-painting-cost-calculator/' | relative_url }}">House Painting Cost Calculator</a>. If the fence is for a new home, see <a href="{{ '/blog/how-much-do-movers-cost/' | relative_url }}">how much movers cost</a>.</p>
 
 ## Related links
 
