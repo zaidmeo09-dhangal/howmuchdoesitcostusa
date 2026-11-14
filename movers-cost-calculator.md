@@ -96,7 +96,7 @@ schema: |
   <p class="kicker">Free Calculator</p>
   <h1>How Much Do Movers Cost?</h1>
   <div class="answer">
-    <p>A typical 2-bedroom local move in the USA costs about $1,240, with a sample range of $843 to $1,637.</p>
+    <p id="answerIntro">A typical 2-bedroom local move in the USA costs about $1,240, with a sample range of $843 to $1,637.</p>
     <p class="note">All prices on this page are sample estimated USA ranges, not quotes.</p>
   </div>
 
@@ -159,7 +159,7 @@ schema: |
         <tr><th>Item</th><th>Low</th><th>Typical</th><th>High</th></tr>
       </thead>
       <tbody>
-        <tr><td>Labor (2 movers, 4 to 6 hours)</td><td>$420</td><td>$600</td><td>$780</td></tr>
+        <tr><td id="laborLabel">Labor (2 movers, 4 to 6 hours)</td><td>$420</td><td>$600</td><td>$780</td></tr>
         <tr><td>Truck and fuel</td><td>$180</td><td>$250</td><td>$320</td></tr>
         <tr><td>Packing materials</td><td>$95</td><td>$150</td><td>$190</td></tr>
         <tr><td>Insurance and fees</td><td>$85</td><td>$130</td><td>$175</td></tr>
@@ -288,15 +288,21 @@ schema: |
     return "$" + Math.round(n).toLocaleString("en-US");
   }
   function update() {
-    var base = parseFloat(document.getElementById("homeSize").value);
-    var mult = parseFloat(document.getElementById("distance").value);
+    var homeVal = document.getElementById("homeSize").value;
+    var distVal = document.getElementById("distance").value;
+    var base = parseFloat(homeVal);
+    var mult = parseFloat(distVal);
     var typ = base * mult;
     var low = Math.round(typ * 0.68);
     var high = Math.round(typ * 1.32);
     document.getElementById("lowVal").textContent = fmt(low);
     document.getElementById("typVal").textContent = fmt(typ);
     document.getElementById("highVal").textContent = fmt(high);
-    try { if (window.hmSync) { window.hmSync(low, typ, high, 843, 1240, 1637); } } catch (e) {}
+    var homeText = { "750": "studio", "950": "1-bedroom", "1240": "2-bedroom", "1750": "3-bedroom", "2300": "4+ bedroom" }[homeVal];
+    var distText = { "1": "local", "1.4": "50 to 100 mile", "2.1": "100 to 500 mile" }[distVal];
+    var intro = "A typical " + homeText + " " + distText + " move in the USA costs about " + fmt(typ) + ", with a sample range of " + fmt(low) + " to " + fmt(high) + ".";
+    var labor = { "750": "Labor (2 movers, 2 to 3 hours)", "950": "Labor (2 movers, 3 to 4 hours)", "1240": "Labor (2 movers, 4 to 6 hours)", "1750": "Labor (3 movers, 6 to 8 hours)", "2300": "Labor (4 movers, 8 to 10 hours)" }[homeVal];
+    try { if (window.hmSync) { window.hmSync(low, typ, high, 843, 1240, 1637, { intro: intro, labor: labor }); } } catch (e) {}
   }
   document.getElementById("homeSize").addEventListener("change", update);
   document.getElementById("distance").addEventListener("change", update);
