@@ -105,7 +105,7 @@
             return (p.name + " " + p.keys).toLowerCase().indexOf(q) !== -1;
           })[0] || null;
         }
-        go(hit ? hit.url : "tools/");
+        go(hit ? hit.url : "tools/?q=" + encodeURIComponent(input.value.trim()));
       });
     }
   }
