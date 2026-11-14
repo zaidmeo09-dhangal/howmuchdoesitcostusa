@@ -37,7 +37,7 @@ schema: |
             "name": "How often should I change my oil?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Change your oil every 5,000 to 7,500 miles for most cars. Check your owner manual, because some newer cars with full synthetic oil can go longer, and hard driving shortens the interval."
+              "text": "Conventional oil every 3,000 to 5,000 miles, synthetic blend up to 7,500 miles, and full synthetic up to 10,000 miles, per SoFi citing Kelley Blue Book. Check your owner manual, because hard driving shortens the interval."
             }
           },
           {
@@ -71,6 +71,22 @@ schema: |
               "@type": "Answer",
               "text": "Yes, if you have the tools and a safe place to work. Recycle the old oil properly at an auto parts store or a recycling center, and never pour it down a drain or on the ground."
             }
+          },
+          {
+            "@type": "Question",
+            "name": "Why was my oil change bill higher than the advertised price?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Extra quarts cost $7 to $12 each over 5 quarts, an OEM or cartridge filter adds $5 to $25, access labor adds $10 to $30, and shop supplies and disposal add $5 to $15, per MotorTriage."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does an oil change cost per year?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "At 12,000 miles a year, conventional oil costs about $135 a year, synthetic blend about $104 a year, and full synthetic about $90 a year, because full synthetic lasts up to 10,000 miles between changes."
+            }
           }
         ]
       }
@@ -93,14 +109,50 @@ schema: |
 <tr><th>Oil type</th><th>Sample range</th><th>Typical price</th></tr>
 </thead>
 <tbody>
-<tr><td>Conventional</td><td>$35 to $70</td><td>$45</td></tr>
-<tr><td>Synthetic blend</td><td>$45 to $100</td><td>$65</td></tr>
-<tr><td>Full synthetic</td><td>$45 to $140</td><td>$75</td></tr>
+<tr><td>Conventional</td><td>$35 to $75</td><td>$45</td></tr>
+<tr><td>Synthetic blend</td><td>$40 to $100</td><td>$65</td></tr>
+<tr><td>Full synthetic</td><td>$65 to $125</td><td>$75</td></tr>
+<tr><td>High-mileage</td><td>$50 to $100</td><td>$75</td></tr>
+<tr><td>Diesel</td><td>$80 to $200+</td><td>$140</td></tr>
+<tr><td>European / specialty</td><td>$110 to $160+</td><td>$135</td></tr>
 </tbody>
 </table>
 </div>
 
-<p class="note">SUVs and trucks cost about 25 percent more than a typical car, because they take more oil. A full synthetic change that costs $75 for a car costs about $94 for a larger vehicle.</p>
+<p class="note">Conventional, blend, and full synthetic ranges are from SoFi, citing Kelley Blue Book. High-mileage, diesel, and European ranges are Firestone ranges published by MotorTriage. Typical prices are the calculator sample values, and each sits inside its range. SUVs and trucks cost about 25 percent more than a typical car, because they take more oil. A full synthetic change that costs $75 for a car costs about $94 for a larger vehicle.</p>
+
+## Oil change cost by provider
+
+Where you go matters as much as which oil you pick. Prices below are published ranges, checked September 7, 2026 by MotorTriage, except the dealer figure, which is from SoFi, dated March 6, 2026.
+
+<p class="table-hint">Swipe to see the High column &rarr;</p>
+  <div class="table-wrap">
+<table class="cost-table">
+<caption>Published oil change prices by provider</caption>
+<thead>
+<tr><th>Provider</th><th>Conventional</th><th>Full synthetic</th></tr>
+</thead>
+<tbody>
+<tr><td>Walmart</td><td>$28.88</td><td>$62.88</td></tr>
+<tr><td>Firestone</td><td>$30 to $50</td><td>$70 to $130</td></tr>
+<tr><td>Dealer</td><td colspan="2">About $100 for a standard oil change, per SoFi</td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="note">Walmart and Firestone figures are from MotorTriage, with prices checked September 7, 2026. The dealer figure is from SoFi, citing Kelley Blue Book, which puts a dealer oil change at about $100. A dealer may include a full inspection, while a quick lube shop is faster and cheaper.</p>
+
+## Why your bill was higher than the advertised price
+
+An advertised oil change price usually covers the base oil, a standard filter, and basic labor for a small car. Your bill grows when your car needs more than the base job, per MotorTriage. Each extra quart over 5 costs $7 to $12. An OEM or cartridge filter adds $5 to $25 over a standard filter. Access labor, for cars where the filter or drain is hard to reach, adds $10 to $30. Shop supplies and disposal add $5 to $15. Ask for the full price, including the filter type, the quart count, and the shop fees, before the work starts, so the advertised price and your bill match.
+
+## How much an oil change costs per year
+
+Full synthetic costs more per visit but lasts longer, so it can cost less per year. At 12,000 miles a year, the math runs like this. Conventional oil at $45 a change every 4,000 miles, the middle of the 3,000 to 5,000 mile interval, is 3 changes a year, or $135 a year. Synthetic blend at $65 a change every 7,500 miles is 1.6 changes a year, or about $104 a year. Full synthetic at $75 a change every 10,000 miles is 1.2 changes a year, or $90 a year. The 12,000 miles a year figure is an assumption for this comparison, so redo it with your own yearly miles. A dealer visit can also cost more per change, at about $100, per SoFi, which moves the yearly total up the same way.
+
+## DIY vs hiring a pro
+
+Doing it yourself costs $25 to $50 in parts, per HowMuchDoesThatCost, and SoFi puts the saving at $25 to $75 per change against paying a shop. A shop charges for labor, the filter, and disposal, and it also takes the old oil away. If you change your own oil, collect the used oil in a sealed container and take it to an auto parts store or a recycling center. The US Environmental Protection Agency guidance for used oil is to recycle it, never to pour it down a drain or on the ground. Hire a pro if your car needs a special oil grade, the filter is hard to reach, or you have nowhere safe to work under the car.
 
 ## What affects the price
 
@@ -166,18 +218,36 @@ A shop may add a new air filter, a cabin filter, a tire rotation, or a fluid top
 <ol class="steps">
 <li><strong>Check your manual for the oil type.</strong> Note the oil grade, the oil type, and the change interval before you call any shop.</li>
 <li><strong>Get 3 prices for the same oil.</strong> Ask each shop for the full price, including the filter, disposal, and any shop fees.</li>
-<li><strong>Ask what is included.</strong> Confirm the oil brand and grade, the filter, and the basic check, so you know what you are paying for.</li>
+<li><strong>Ask what is included.</strong> Confirm the oil brand and grade, the filter type, and the basic check, so you know what you are paying for.</li>
+<li><strong>Ask about the filter type and the disposal fee.</strong> An OEM or cartridge filter costs more than a standard filter, and the disposal fee may sit outside the quoted price.</li>
+<li><strong>Look for a coupon before you book.</strong> Shops often offer coupons, and bundling an oil change with a tire rotation can cost less than booking them apart.</li>
 <li><strong>Check reviews and the shop.</strong> Read recent reviews, and pick a shop that is clean, busy, and clear about its prices.</li>
 <li><strong>Keep your receipt and mileage.</strong> Save the receipt, note the mileage, and set a reminder for the next change at the interval in your manual.</li>
 </ol>
 
 ## Frequently asked questions
 
-<details class="faq"><summary>How often should I change my oil?</summary><p>Change your oil every 5,000 to 7,500 miles for most cars. Check your owner manual, because some newer cars with full synthetic oil can go longer, and hard driving shortens the interval.</p></details>
+<details class="faq"><summary>How often should I change my oil?</summary><p>Conventional oil every 3,000 to 5,000 miles, synthetic blend up to 7,500 miles, and full synthetic up to 10,000 miles, per SoFi citing Kelley Blue Book. Check your owner manual, because hard driving shortens the interval.</p></details>
 <details class="faq"><summary>Is full synthetic worth it?</summary><p>Yes for most modern cars. Full synthetic oil protects the engine better in heat and cold, and it lasts longer between changes, so it can be cheaper over time even though one change costs more.</p></details>
 <details class="faq"><summary>How long does it take?</summary><p>About 30 to 45 minutes at most shops. Quick lube shops are often faster, while a dealer visit can take longer if the car waits in line for a service bay.</p></details>
 <details class="faq"><summary>What is included?</summary><p>A standard oil change includes the engine oil, a new oil filter, and a basic check of fluids and tire pressure. Ask the shop to list exactly what is included before you agree to the price.</p></details>
 <details class="faq"><summary>Can I change my own oil?</summary><p>Yes, if you have the tools and a safe place to work. Recycle the old oil properly at an auto parts store or a recycling center, and never pour it down a drain or on the ground.</p></details>
+<details class="faq"><summary>Why was my oil change bill higher than the advertised price?</summary><p>Extra quarts cost $7 to $12 each over 5 quarts, an OEM or cartridge filter adds $5 to $25, access labor adds $10 to $30, and shop supplies and disposal add $5 to $15, per MotorTriage.</p></details>
+<details class="faq"><summary>How much does an oil change cost per year?</summary><p>At 12,000 miles a year, conventional oil costs about $135 a year, synthetic blend about $104 a year, and full synthetic about $90 a year, because full synthetic lasts up to 10,000 miles between changes.</p></details>
+
+## References
+
+<p>Price ranges in this guide come from SoFi, citing Kelley Blue Book, and from MotorTriage, with typical prices from HowMuchDoesThatCost and ARI invoice data. All prices are sample estimated USA ranges, not quotes.</p>
+<div class="refs">
+<p><a href="https://www.sofi.com/learn/content/average-cost-oil-change/" target="_blank" rel="noopener">SoFi</a> <span class="ref-note">oil change cost by oil type, citing Kelley Blue Book</span></p>
+<p><a href="https://motortriage.com/oil-change-cost/" target="_blank" rel="noopener">MotorTriage</a> <span class="ref-note">oil change cost by oil type and provider</span></p>
+<p><a href="https://howmuchdoesthatcost.com/automotive/oil-change-cost/" target="_blank" rel="noopener">HowMuchDoesThatCost</a> <span class="ref-note">average oil change cost and breakdown</span></p>
+<p><a href="https://ari.app/2026/10/car-repair-costs/" target="_blank" rel="noopener">ARI</a> <span class="ref-note">median oil change cost from repair invoices</span></p>
+</div>
+
+## Compare with other car costs
+
+<p>An oil change is the cheapest regular car job. For bigger car spending, price a wrap with the <a href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Car Wrap Cost Calculator</a> and read <a href="{{ '/blog/how-much-does-it-cost-to-paint-a-car/' | relative_url }}">how much it costs to paint a car</a>. If the car is part of a move, see <a href="{{ '/blog/how-much-do-movers-cost/' | relative_url }}">how much movers cost</a>.</p>
 
 ## Related links
 
