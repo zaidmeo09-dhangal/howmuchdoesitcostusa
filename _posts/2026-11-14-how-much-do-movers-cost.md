@@ -129,6 +129,7 @@ schema: |
 <tr><td>2 bedrooms</td><td>$1,240</td><td>$2,604</td></tr>
 <tr><td>3 bedrooms</td><td>$1,750</td><td>$3,675</td></tr>
 <tr><td>4+ bedrooms</td><td>$2,300</td><td>$4,830</td></tr>
+<tr class="total"><td>Total of the rows above</td><td>$6,990</td><td>$14,679</td></tr>
 </tbody>
 </table>
 </div>
@@ -164,6 +165,7 @@ schema: |
 <tr><td>Pool table</td><td>$375 to $1,500</td></tr>
 <tr><td>Hot tub</td><td>$300 to $1,200</td></tr>
 <tr><td>Car</td><td>$1,000 to $2,000</td></tr>
+<tr class="total"><td>Total of the rows above</td><td>$1,935 to $5,280</td></tr>
 </tbody>
 </table>
 </div>
@@ -174,7 +176,7 @@ schema: |
 
 <p class="table-hint">Swipe to see the cover &rarr;</p>
   <div class="table-wrap">
-<table class="cost-table">
+<table class="cost-table prose-last">
 <caption>Released value vs full-value protection</caption>
 <thead>
 <tr><th>Cover</th><th>What it pays</th><th>Cost</th></tr>
@@ -206,7 +208,7 @@ schema: |
 
 <p class="table-hint">Swipe to see the details &rarr;</p>
   <div class="table-wrap">
-<table class="cost-table">
+<table class="cost-table prose-last">
 <caption>Full-service vs container vs DIY moves</caption>
 <thead>
 <tr><th>Option</th><th>Who loads and drives</th><th>Best for</th></tr>
