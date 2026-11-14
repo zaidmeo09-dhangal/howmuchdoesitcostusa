@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "How Much Do Movers Cost?"
-meta_title: "How Much Do Movers Cost in the USA? Free Calculator"
-meta_description: "How much do movers cost in the USA? Use our free calculator to see low, typical, and high prices for local and long distance moves near you."
+title: "Movers Cost Calculator"
+meta_title: "Movers Cost Calculator: Price by Home Size and Distance"
+meta_description: "Use the free Movers Cost Calculator to price a local or long distance move by home size and distance, with low, typical, and high USA ranges."
 permalink: /movers-cost-calculator/
 breadcrumb: Tools
 schema: |
@@ -11,8 +11,8 @@ schema: |
     "@graph": [
       {
         "@type": "WebPage",
-        "name": "How Much Do Movers Cost?",
-        "description": "How much do movers cost in the USA? Use our free calculator to see low, typical, and high prices for local and long distance moves near you.",
+        "name": "Movers Cost Calculator",
+        "description": "Use the free Movers Cost Calculator to price a local or long distance move by home size and distance, with low, typical, and high USA ranges.",
         "url": "https://howmuchdoesitcostusa.com/movers-cost-calculator/"
       },
       {
@@ -79,10 +79,10 @@ schema: |
           },
           {
             "@type": "Question",
-            "name": "What is not included in a moving quote?",
+            "name": "When is the cheapest time to move?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Packing, storage, and specialty items are often extra."
+              "text": "Outside the May to August peak season, when FreightWaves reports prices run 10% to 25% higher. Midweek and mid-month dates are usually cheapest."
             }
           }
         ]
@@ -94,7 +94,7 @@ schema: |
 <section class="wrap">
   <p class="crumb"><a href="{{ '/' | relative_url }}">Home</a> / <a href="{{ '/tools/' | relative_url }}">Tools</a> / Movers Cost Calculator</p>
   <p class="kicker">Free Calculator</p>
-  <h1>How Much Do Movers Cost?</h1>
+  <h1>Movers Cost Calculator</h1>
   <div class="answer">
     <p id="answerIntro">A typical 2-bedroom local move in the USA costs about $1,240, with a sample range of $843 to $1,637.</p>
     <p class="note">All prices on this page are sample estimated USA ranges, not quotes.</p>
@@ -103,7 +103,7 @@ schema: |
 
   <div class="calc">
     <h2>Movers Cost Calculator</h2>
-    <p>Pick your home size and distance to see a sample estimated price for your move.</p>
+    <p>Pick your home size and distance to see a sample estimated price for your move. For averages by home size and distance, and tips to save, see the full <a href="{{ '/blog/how-much-do-movers-cost/' | relative_url }}">How Much Do Movers Cost in the USA?</a> guide.</p>
     <div class="calc-field">
       <label for="homeSize">Home size</label>
       <select id="homeSize">
@@ -173,6 +173,54 @@ schema: |
   </div>
   <p class="note">Sample estimated USA ranges. Labor is usually the largest share of a moving bill.</p>
 
+  <h2>Worked example: a 2-bedroom local move</h2>
+  <p>This example uses the calculator default, a 2-bedroom local move, and shows every line. The hourly rate sits inside the <a href="https://www.angi.com/articles/how-much-does-it-cost-hire-movers.htm" target="_blank" rel="noopener">Angi</a> range of $60 to $200 per hour for 2 movers.</p>
+  <ul>
+    <li>Labor: 5 hours x $120 per hour for a 2-mover crew = $600</li>
+    <li>Truck and fuel: $250</li>
+    <li>Packing materials: $150</li>
+    <li>Insurance and fees: $130</li>
+    <li>Supplies and equipment: $110</li>
+    <li><strong>Total: $600 + $250 + $150 + $130 + $110 = $1,240</strong></li>
+  </ul>
+  <p>That $1,240 matches the calculator typical price for a 2-bedroom local move. Change the hours or the rate and the labor line changes with it: 4 hours x $120 per hour = $480, and 6 hours x $120 per hour = $720.</p>
+
+  <h2>Cost by home size</h2>
+  <p>Local move ranges from <a href="https://www.angi.com/articles/how-much-does-it-cost-hire-movers.htm" target="_blank" rel="noopener">Angi</a>, based on 6,434 verified projects and updated September 17, 2026. Angi reports a national average of $1,694, with most people paying $875 to $2,546 for a local move.</p>
+  <p class="table-hint">Swipe to see the range &rarr;</p>
+  <div class="table-wrap">
+    <table class="cost-table">
+      <caption>Local mover cost by home size, Angi ranges</caption>
+      <thead>
+        <tr><th>Home size</th><th>Local move range</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1 bedroom</td><td>$250 to $700</td></tr>
+        <tr><td>2 bedrooms</td><td>$500 to $1,200</td></tr>
+        <tr><td>3 bedrooms</td><td>$900 to $2,000</td></tr>
+        <tr><td>4 bedrooms</td><td>$1,200 to $3,500</td></tr>
+        <tr><td>5 bedrooms</td><td>$3,000 to $4,000</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Cost by distance</h2>
+  <p>Long distance ranges from <a href="https://www.angi.com/articles/how-much-does-it-cost-hire-movers.htm" target="_blank" rel="noopener">Angi</a>. Angi puts long distance moves at $2,700 to $10,000 and over, while <a href="https://findmoversnow.com/moving-company-costs/" target="_blank" rel="noopener">FindMoversNow</a> puts the long distance range at $1,300 to $9,500.</p>
+  <p class="table-hint">Swipe to see the range &rarr;</p>
+  <div class="table-wrap">
+    <table class="cost-table">
+      <caption>Long distance mover cost by mileage and home size, Angi ranges</caption>
+      <thead>
+        <tr><th>Distance</th><th>1 to 2 bedrooms</th><th>3 to 5 bedrooms</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>250 miles</td><td>$700 to $2,500</td><td>$2,000 to $6,000</td></tr>
+        <tr><td>1,000 miles</td><td>$1,400 to $3,500</td><td>$4,000 to $8,000</td></tr>
+        <tr><td>2,000 miles or more</td><td>$2,000 to $6,000</td><td>$6,500 to $9,000 and over</td></tr>
+      </tbody>
+    </table>
+  </div>
+
   <h2>How to estimate in 4 steps</h2>
   <ol class="steps">
     <li><strong>Measure your home size.</strong> Count bedrooms and large items so the crew size matches the load.</li>
@@ -191,7 +239,7 @@ schema: |
   <h3>Stairs and access</h3>
   <p>Long carries, stairs, and tight parking slow the crew down and often add a fee. Tell the mover about stairs, elevators, and parking limits before you book so the quote is accurate.</p>
   <h3>Extra services</h3>
-  <p>Packing, unpacking, storage, and moving pianos or safes are usually priced separately. Ask for each extra as its own line item so you can compare quotes fairly.</p>
+  <p>Packing, unpacking, storage, and moving pianos or safes are usually priced separately. Ask for each extra as its own line item so you can compare quotes fairly. If the move is into a home you just bought, price the roof too with the <a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Cost Calculator</a>, so the move and the roof do not land in the same month unplanned.</p>
 
   <h2>What is included and what is not</h2>
   <div class="two-col">
@@ -216,13 +264,15 @@ schema: |
   </div>
 
   <h2>How we estimate</h2>
-  <p>We start with a base price for each home size, then apply a distance multiplier. Low is 68 percent of the typical price and high is 132 percent, which gives a sample estimated USA range for planning.</p>
-  <p>Final prices vary by city, season, and company, so treat these numbers as estimates, not quotes. Always confirm the price in writing before moving day.</p>
+  <p>Every home size on this calculator has its own starting price, based on the crew size and hours a home that size usually takes. We then multiply that starting price by a distance factor: local moves stay at 1.0, 50 to 100 miles at 1.4, 100 to 500 miles at 2.1, and over 500 miles at 3.0. Low is 68 percent of the typical price and high is 132 percent, which gives the sample range you see above.</p>
+  <p>The Angi averages on this page are shown for comparison and come from Angi survey data, not from our calculator. Final prices vary by city, season, and company, so treat these numbers as estimates, not quotes. Always confirm the price in writing before moving day.</p>
 
   <h2>Hiring a pro checklist</h2>
   <ul class="checklist">
     <li>Get 3 written quotes and compare them line by line</li>
-    <li>Check the mover license, insurance, and reviews</li>
+    <li>Check the mover FMCSA license for an interstate move, plus insurance and reviews</li>
+    <li>Ask for a binding quote or a not-to-exceed estimate in writing</li>
+    <li>Ask how the claims process works if something is damaged, and what the deadline is to file</li>
     <li>Ask what stairs, long carries, and packing cost</li>
     <li>Confirm the insurance coverage in writing</li>
     <li>Read the contract before moving day</li>
@@ -234,16 +284,19 @@ schema: |
     <li>Pack your own boxes to cut labor hours</li>
     <li>Declutter before you get quotes so you move less</li>
     <li>Compare binding and nonbinding estimates before you sign</li>
+    <li>Price the yard too if you are moving into a new home: see the <a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a></li>
   </ul>
 
   <h2>References</h2>
-  <p>Our estimates use public US cost data as a guide. Labor cost context comes from the US Bureau of Labor Statistics, housing cost context from HUD, remodeling trends from Harvard JCHS, and material prices from Home Depot and Lowes. All prices on this page are sample estimated USA ranges, not quotes.</p>
+  <p>Our estimates use public US cost data as a guide. Labor cost context comes from the US Bureau of Labor Statistics, and box and packing supply prices come from Home Depot and Lowes. Mover averages on this page come from Angi, FreightWaves, FindMoversNow, and This Old House. All prices on this page are sample estimated USA ranges, not quotes.</p>
   <div class="refs">
   <p><a href="https://www.bls.gov/" target="_blank" rel="noopener">US Bureau of Labor Statistics</a> <span class="ref-note">labor cost data</span></p>
-  <p><a href="https://www.hud.gov/" target="_blank" rel="noopener">HUD</a> <span class="ref-note">housing cost data</span></p>
-  <p><a href="https://www.jchs.harvard.edu/" target="_blank" rel="noopener">Harvard JCHS</a> <span class="ref-note">household and remodeling cost research</span></p>
   <p><a href="https://www.homedepot.com/" target="_blank" rel="noopener">Home Depot</a> <span class="ref-note">boxes and packing supply prices</span></p>
   <p><a href="https://www.lowes.com/" target="_blank" rel="noopener">Lowes</a> <span class="ref-note">boxes and packing supply prices</span></p>
+  <p><a href="https://www.angi.com/articles/how-much-does-it-cost-hire-movers.htm" target="_blank" rel="noopener">Angi</a> <span class="ref-note">mover cost averages by home size and distance</span></p>
+  <p><a href="https://www.freightwaves.com/checkpoint/moving-costs/" target="_blank" rel="noopener">FreightWaves</a> <span class="ref-note">hourly rates, peak season, and storage costs</span></p>
+  <p><a href="https://findmoversnow.com/moving-company-costs/" target="_blank" rel="noopener">FindMoversNow</a> <span class="ref-note">average move cost and city hourly rates</span></p>
+  <p><a href="https://www.consumervoice.org/articles/how-much-do-movers-cost" target="_blank" rel="noopener">This Old House</a> <span class="ref-note">2025 survey of 1,000 moving customers</span></p>
   </div>
 
   <h2>Related calculators and guides</h2>
@@ -278,8 +331,8 @@ schema: |
     <p>Tipping 10 to 20 percent of the total is common in the USA, and it is optional.</p>
   </details>
   <details class="faq">
-    <summary>What is not included in a moving quote?</summary>
-    <p>Packing, storage, and specialty items are often extra.</p>
+    <summary>When is the cheapest time to move?</summary>
+    <p>Outside the May to August peak season, when FreightWaves reports prices run 10% to 25% higher. Midweek and mid-month dates are usually cheapest.</p>
   </details>
 </section>
 
