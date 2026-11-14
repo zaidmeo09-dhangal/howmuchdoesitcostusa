@@ -115,10 +115,24 @@ section { padding: 36px 0; }
 .header-actions { display: flex; align-items: center; gap: 10px; flex: none; }
 .theme-toggle {
   display: inline-flex; align-items: center; justify-content: center;
-  width: 40px; height: 40px; min-height: 40px; padding: 0; border-radius: 50%;
+  width: 44px; height: 44px; min-height: 44px; padding: 0; border-radius: 50%;
   border: 1px solid var(--border); background: var(--surface-soft);
   color: var(--ink); cursor: pointer; flex: none;
 }
+/* Hamburger menu button, hidden on desktop, shown when the nav hides. */
+.nav-toggle {
+  display: none; align-items: center; justify-content: center; flex-direction: column; gap: 5px;
+  width: 44px; height: 44px; min-height: 44px; padding: 0; border-radius: 12px;
+  border: 1px solid var(--border); background: var(--surface-soft);
+  color: var(--ink); cursor: pointer; flex: none;
+}
+.nav-toggle .bar {
+  display: block; width: 20px; height: 2px; border-radius: 2px;
+  background: var(--ink); transition: transform 0.2s ease, opacity 0.2s ease;
+}
+.site-header.nav-open .nav-toggle .bar:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.site-header.nav-open .nav-toggle .bar:nth-child(2) { opacity: 0; }
+.site-header.nav-open .nav-toggle .bar:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 .theme-toggle:hover { background: var(--border); }
 .theme-toggle .theme-icon { display: block; }
 .theme-toggle .icon-sun { display: none; }
@@ -286,6 +300,15 @@ section { padding: 36px 0; }
 
 /* Tables */
 .table-wrap { overflow-x: auto; margin: 16px 0; }
+/* Mobile scroll cue above breakdown tables: the High column sits off-screen
+   until the user swipes, with no hint. Shown only on small screens. */
+.table-hint { display: none; }
+@media (max-width: 760px) {
+  .table-hint {
+    display: block; text-align: right; font-size: 13px; font-weight: 700;
+    color: var(--muted); margin: 14px 0 -10px;
+  }
+}
 table.cost-table { width: 100%; border-collapse: collapse; min-width: 560px; }
 .cost-table th, .cost-table td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--border); }
 .cost-table th { background: var(--surface-green); color: #ffffff; font-size: 14px; text-transform: uppercase; letter-spacing: 0.05em; }
@@ -324,14 +347,22 @@ details.faq {
 }
 details.faq summary {
   font-weight: 700; cursor: pointer; min-height: 48px;
-  display: flex; align-items: center; list-style: none;
+  display: flex; align-items: center; list-style: none; gap: 12px;
 }
+/* Expand chevron on every FAQ row, rotates open. The marker was hidden
+   with no indicator, so rows looked like plain boxes. */
+details.faq summary::after {
+  content: ""; flex: none; width: 10px; height: 10px; margin-left: auto;
+  border-right: 2px solid var(--green); border-bottom: 2px solid var(--green);
+  transform: rotate(45deg); transition: transform 0.2s ease;
+}
+details.faq[open] summary::after { transform: rotate(225deg); }
 details.faq summary::-webkit-details-marker { display: none; }
 details.faq p { margin: 10px 0 4px; }
 
 /* Footer */
 .site-footer { background: var(--surface); color: var(--muted); margin-top: 40px; padding: 32px 0 20px; border-top: 3px solid var(--gold); }
-.site-footer a { color: var(--ink); text-decoration: none; display: block; padding: 5px 0; font-weight: 500; }
+.site-footer a { color: var(--ink); text-decoration: none; display: block; padding: 10px 0; font-weight: 500; min-height: 44px; }
 .site-footer a:hover { color: var(--green); }
 .site-footer .logo-text { color: var(--ink); white-space: nowrap; }
 .site-footer .logo { flex-wrap: nowrap; }
@@ -414,9 +445,20 @@ details.faq p { margin: 10px 0 4px; }
 @media (max-width: 900px) {
   .hero-grid { grid-template-columns: 1fr; gap: 24px; }
   /* Tablet widths 768-900px: logo + 4 nav links + toggle + Get a Price do
-     not fit side by side either, so the nav hides here too. Nav links are
-     also in the footer and the hero has the same calls to action. */
+     not fit side by side either, so the nav hides here too and opens from
+     the hamburger button instead. */
   .site-nav { display: none; }
+  .nav-toggle { display: inline-flex; }
+  .site-header.nav-open .site-nav {
+    display: flex; flex-direction: column; align-items: stretch; gap: 2px;
+    position: absolute; top: 100%; left: 0; right: 0;
+    background: var(--surface); border-bottom: 1px solid var(--border);
+    box-shadow: 0 12px 24px rgba(18, 33, 26, 0.12);
+    padding: 8px 18px 12px; margin-left: 0;
+  }
+  .site-header.nav-open .site-nav a {
+    padding: 12px 10px; min-height: 44px; border-radius: 12px; font-size: 16px;
+  }
 }
 /* Wide CTA card fills the last row of a grid instead of leaving one card alone. */
 .card-wide { grid-column: 1 / -1; }
@@ -462,7 +504,7 @@ details.faq p { margin: 10px 0 4px; }
    was cut off and the page scrolled sideways, which also made the ticker
    look clipped. The header CTA is hidden on small phones because the hero
    already has Get a Price and Check Price buttons. */
-html, body { overflow-x: clip; }
+html, body { overflow-x: hidden; overflow-x: clip; }
 .ticker { max-width: 100%; }
 .ticker-track { width: max-content; }
 @media (max-width: 760px) {
@@ -471,8 +513,8 @@ html, body { overflow-x: clip; }
   .logo-mark { width: 36px; height: 36px; font-size: 22px; border-radius: 10px; }
   .logo-text { font-size: 15px; }
   .logo-tag { display: none; }
-  .theme-toggle { width: 36px; height: 36px; min-height: 36px; }
-  .theme-toggle .theme-icon { width: 18px; height: 18px; }
+  .theme-toggle { width: 44px; height: 44px; min-height: 44px; }
+  .theme-toggle .theme-icon { width: 20px; height: 20px; }
   .head-cta { min-height: 40px; padding: 8px 12px; font-size: 14px; }
   .ticker { font-size: 13px; padding: 7px 0; }
   .ticker span { padding: 0 14px; }
@@ -480,12 +522,21 @@ html, body { overflow-x: clip; }
 @media (max-width: 480px) {
   .head-cta { display: none; }
   .header-actions { gap: 8px; }
-  /* "Typical $1,240" at 34px mono is tight in a 360px card; 30px keeps it
-     on one line with room to spare. Same for calculator result totals. */
-  .hero-card-price { font-size: 30px; }
+  /* "Typical $1,240" at 34px wraps to two lines in a 360px card; 28px on
+     one line with room to spare. Same for calculator result totals. */
+  .hero-card-price { font-size: 28px; white-space: nowrap; }
   .receipt .receipt-total { font-size: 30px; }
+  /* Trust checklist one column on mobile so the long line does not squeeze
+     into 3 to 4 lines. */
+  .hero-card-points { grid-template-columns: 1fr; }
+  /* Hero stats stay in 3 columns but smaller, so labels fit on one line. */
+  .hstat-num { font-size: 30px; }
+  .hstat-suffix { font-size: 24px; }
+  .hstat-label { font-size: 12px; }
 }
 @media (max-width: 360px) {
-  .logo-mark { width: 34px; height: 34px; font-size: 20px; }
-  .logo-text { font-size: 14px; }
+  .logo-mark { width: 32px; height: 32px; font-size: 19px; }
+  .logo-text { font-size: 13px; }
+  .header-inner { gap: 8px; }
+  .header-actions { gap: 6px; }
 }
