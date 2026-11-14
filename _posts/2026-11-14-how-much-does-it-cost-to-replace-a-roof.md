@@ -85,7 +85,8 @@ schema: |
 
 ## Roof replacement cost by material
 
-<div class="table-wrap">
+<p class="table-hint">Swipe to see the High column &rarr;</p>
+  <div class="table-wrap">
 <table class="cost-table">
 <caption>Sample estimated USA prices for a 1,800 sq ft roof</caption>
 <thead>
