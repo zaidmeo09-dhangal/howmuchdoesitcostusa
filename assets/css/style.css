@@ -413,6 +413,10 @@ details.faq p { margin: 10px 0 4px; }
 .hero-card-points li::before { content: "\2713"; color: var(--green); font-weight: 800; }
 @media (max-width: 900px) {
   .hero-grid { grid-template-columns: 1fr; gap: 24px; }
+  /* Tablet widths 768-900px: logo + 4 nav links + toggle + Get a Price do
+     not fit side by side either, so the nav hides here too. Nav links are
+     also in the footer and the hero has the same calls to action. */
+  .site-nav { display: none; }
 }
 /* Wide CTA card fills the last row of a grid instead of leaving one card alone. */
 .card-wide { grid-column: 1 / -1; }
@@ -476,6 +480,10 @@ html, body { overflow-x: clip; }
 @media (max-width: 480px) {
   .head-cta { display: none; }
   .header-actions { gap: 8px; }
+  /* "Typical $1,240" at 34px mono is tight in a 360px card; 30px keeps it
+     on one line with room to spare. Same for calculator result totals. */
+  .hero-card-price { font-size: 30px; }
+  .receipt .receipt-total { font-size: 30px; }
 }
 @media (max-width: 360px) {
   .logo-mark { width: 34px; height: 34px; font-size: 20px; }
