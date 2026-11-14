@@ -128,7 +128,6 @@ schema: |
 <tr><td>1,500 sq ft</td><td>2.5 ton</td><td>$5,200 to $9,500</td></tr>
 <tr><td>2,000 sq ft</td><td>3.5 ton</td><td>$7,000 to $12,000</td></tr>
 <tr><td>2,500 sq ft</td><td>4 ton</td><td>$8,000 to $14,000</td></tr>
-<tr class="total"><td>Total of the rows above</td><td></td><td>$24,700 to $43,000</td></tr>
 </tbody>
 </table>
 </div>
