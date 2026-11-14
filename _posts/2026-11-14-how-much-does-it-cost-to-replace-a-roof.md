@@ -127,6 +127,7 @@ schema: |
 <tr><td>Asphalt shingle</td><td>$7,528 to $11,475</td><td>$9,180</td></tr>
 <tr><td>Metal</td><td>$13,500 to $21,000</td><td>$17,100</td></tr>
 <tr><td>Clay tile</td><td>$16,000 to $25,000</td><td>$21,600</td></tr>
+<tr class="total"><td>Total of the rows above</td><td>$37,028 to $57,475</td><td>$47,880</td></tr>
 </tbody>
 </table>
 </div>
@@ -151,6 +152,7 @@ schema: |
 <tr><td>2,000 sq ft</td><td>$8,364</td><td>$10,200</td><td>$12,750</td></tr>
 <tr><td>2,500 sq ft</td><td>$10,455</td><td>$12,750</td><td>$15,938</td></tr>
 <tr><td>3,000 sq ft</td><td>$12,546</td><td>$15,300</td><td>$19,125</td></tr>
+<tr class="total"><td>Total of the rows above</td><td>$49,348</td><td>$60,180</td><td>$75,225</td></tr>
 </tbody>
 </table>
 </div>
@@ -175,12 +177,12 @@ schema: |
 <tr><td>Tear-off and disposal</td><td>$1,000 to $2,500</td><td>$1,750</td></tr>
 <tr><td>Permits and inspections</td><td>$100 to $500</td><td>$300</td></tr>
 <tr><td>Decking contingency</td><td>$150 to $1,000</td><td>$575</td></tr>
-<tr class="total"><td>Total</td><td>$6,600 to $15,500</td><td>$11,125</td></tr>
+<tr class="total"><td>Total</td><td>$6,550 to $15,700</td><td>$11,125</td></tr>
 </tbody>
 </table>
 </div>
 
-<p class="note">Worked total: $3,500 + $750 + $4,250 + $1,750 + $300 + $575 = $11,125. That sits inside the WhatHomeCosts total range of $6,600 to $15,500. A second layer adds $1 to $2 per sq ft, and decking runs $2 to $5 per sq ft, both from WhatHomeCosts.</p>
+<p class="note">Worked total: $3,500 + $750 + $4,250 + $1,750 + $300 + $575 = $11,125. That sits inside the WhatHomeCosts total range of $6,600 to $15,500. The range in the total row above is the sum of the line-item ranges: $6,550 to $15,700. A second layer adds $1 to $2 per sq ft, and decking runs $2 to $5 per sq ft, both from WhatHomeCosts.</p>
 
 ## Repair vs replace: how to decide
 
