@@ -96,7 +96,7 @@ schema: |
   <p class="kicker">Free Calculator</p>
   <h1>How Much Does a Fence Cost?</h1>
   <div class="answer">
-    <p>A typical 150 ft wood privacy fence in the USA costs about $3,335, with a sample range of $2,100 to $5,400.</p>
+    <p id="answerIntro">A typical 150 ft wood privacy fence in the USA costs about $3,335, with a sample range of $2,100 to $5,400.</p>
     <p class="note">All prices on this page are sample estimated USA ranges, not quotes.</p>
   </div>
 
@@ -155,7 +155,7 @@ schema: |
       </thead>
       <tbody>
         <tr><td>Materials (panels, posts, concrete)</td><td>$1,100</td><td>$1,750</td><td>$2,850</td></tr>
-        <tr><td>Labor</td><td>$650</td><td>$1,050</td><td>$1,690</td></tr>
+        <tr><td id="laborLabel">Labor (2 installers, 1 to 2 days)</td><td>$650</td><td>$1,050</td><td>$1,690</td></tr>
         <tr><td>Gates and hardware</td><td>$120</td><td>$200</td><td>$320</td></tr>
         <tr><td>Staining and sealing</td><td>$90</td><td>$150</td><td>$240</td></tr>
         <tr><td>Permits and fees</td><td>$80</td><td>$110</td><td>$190</td></tr>
@@ -286,7 +286,8 @@ schema: |
   function round10(n) { return Math.round(n / 10) * 10; }
   function update() {
     var len = parseFloat(document.getElementById("fenceLength").value);
-    var rate = parseFloat(document.getElementById("material").value);
+    var matVal = document.getElementById("material").value;
+    var rate = parseFloat(matVal);
     document.getElementById("fenceLengthVal").textContent = Math.round(len).toLocaleString("en-US") + " ft";
     var typ = Math.round(len * rate);
     var low = round10(typ * 0.63);
@@ -294,7 +295,11 @@ schema: |
     document.getElementById("lowVal").textContent = fmt(low);
     document.getElementById("typVal").textContent = fmt(typ);
     document.getElementById("highVal").textContent = fmt(high);
-    try { if (window.hmSync) { window.hmSync(low, typ, high, 2100, 3335, 5400); } } catch (e) {}
+    var matName = { "22.23": "wood privacy", "38.00": "vinyl", "14.00": "chain link" }[matVal];
+    var intro = "A typical " + Math.round(len).toLocaleString("en-US") + " ft " + matName + " fence in the USA costs about " + fmt(typ) + ", with a sample range of " + fmt(low) + " to " + fmt(high) + ".";
+    var days = len <= 100 ? "half a day" : len <= 200 ? "1 to 2 days" : len <= 300 ? "2 to 3 days" : "3 to 4 days";
+    var labor = "Labor (2 installers, " + days + ")";
+    try { if (window.hmSync) { window.hmSync(low, typ, high, 2100, 3335, 5400, { intro: intro, labor: labor }); } } catch (e) {}
   }
   document.getElementById("fenceLength").addEventListener("input", update);
   document.getElementById("material").addEventListener("change", update);
