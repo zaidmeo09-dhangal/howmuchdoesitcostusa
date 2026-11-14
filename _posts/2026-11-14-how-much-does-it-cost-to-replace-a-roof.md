@@ -127,7 +127,6 @@ schema: |
 <tr><td>Asphalt shingle</td><td>$7,528 to $11,475</td><td>$9,180</td></tr>
 <tr><td>Metal</td><td>$13,500 to $21,000</td><td>$17,100</td></tr>
 <tr><td>Clay tile</td><td>$16,000 to $25,000</td><td>$21,600</td></tr>
-<tr class="total"><td>Total of the rows above</td><td>$37,028 to $57,475</td><td>$47,880</td></tr>
 </tbody>
 </table>
 </div>
@@ -152,7 +151,6 @@ schema: |
 <tr><td>2,000 sq ft</td><td>$8,364</td><td>$10,200</td><td>$12,750</td></tr>
 <tr><td>2,500 sq ft</td><td>$10,455</td><td>$12,750</td><td>$15,938</td></tr>
 <tr><td>3,000 sq ft</td><td>$12,546</td><td>$15,300</td><td>$19,125</td></tr>
-<tr class="total"><td>Total of the rows above</td><td>$49,348</td><td>$60,180</td><td>$75,225</td></tr>
 </tbody>
 </table>
 </div>
