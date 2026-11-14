@@ -120,44 +120,46 @@ schema: |
       <h3>Your estimated cost</h3>
       <p class="receipt-total" id="typVal">$9,180</p>
       <p class="receipt-range">Sample range: <span id="lowVal">$7,528</span> (low) to <span id="highVal">$11,475</span> (high)</p>
+      <div class="price-bar receipt-bar" aria-hidden="true"><span id="rangeBar" style="width:42%"></span></div>
       <p class="note">Sample estimated USA range. Your final price depends on roof size, material, pitch, and local labor rates.</p>
     </div>
   </div>
 
   <h2>Low, typical, and high cost</h2>
-  <p>These bands show what a 1,800 sq ft asphalt shingle roof usually costs in the USA. Use them to plan your budget before you request quotes.</p>
+  <p>These bands update with your calculator choices. Use them to plan your budget before you request quotes.</p>
   <div class="bands">
     <div class="band">
       <p class="band-label">Low</p>
-      <p class="band-price">$7,528</p>
-      <p>A simple roof shape, standard shingles, and a straightforward tear-off.</p>
+      <p class="band-price" id="bandLowVal">$7,528</p>
+      <p>A smaller job with basic choices.</p>
     </div>
     <div class="band band-typical">
       <p class="band-label">Typical</p>
-      <p class="band-price">$9,180</p>
-      <p>A 1,800 sq ft asphalt shingle roof with tear-off and permits.</p>
+      <p class="band-price" id="bandTypVal">$9,180</p>
+      <p>Your selection at typical USA rates.</p>
     </div>
     <div class="band">
       <p class="band-label">High</p>
-      <p class="band-price">$11,475</p>
-      <p>A steep or complex roof, premium shingles, or extra deck repairs.</p>
+      <p class="band-price" id="bandHighVal">$11,475</p>
+      <p>A larger job, premium choices, or extra services.</p>
     </div>
   </div>
 
   <h2>Itemized cost breakdown</h2>
+  <p class="note live-note">Updates live with your calculator choices.</p>
   <div class="table-wrap">
     <table class="cost-table">
-      <caption>Sample estimated cost breakdown for a 1,800 sq ft asphalt shingle roof</caption>
+      <caption>Sample estimated cost breakdown, updated for your selection</caption>
       <thead>
         <tr><th>Item</th><th>Low</th><th>Typical</th><th>High</th></tr>
       </thead>
       <tbody>
-        <tr><td>Materials (shingles)</td><td>$3,200</td><td>$3,900</td><td>$4,400</td></tr>
+        <tr><td>Materials (shingles)</td><td>$3,250</td><td>$3,900</td><td>$4,400</td></tr>
         <tr><td>Labor</td><td>$2,900</td><td>$3,600</td><td>$4,100</td></tr>
         <tr><td>Tear-off and disposal</td><td>$650</td><td>$800</td><td>$1,050</td></tr>
         <tr><td>Underlayment and flashing</td><td>$420</td><td>$520</td><td>$700</td></tr>
         <tr><td>Permits and fees</td><td>$180</td><td>$220</td><td>$320</td></tr>
-        <tr><td>Supplies and equipment</td><td>$178</td><td>$140</td><td>$905</td></tr>
+        <tr><td>Supplies and equipment</td><td>$128</td><td>$140</td><td>$905</td></tr>
         <tr class="total"><td>Totals</td><td>$7,528</td><td>$9,180</td><td>$11,475</td></tr>
       </tbody>
     </table>
@@ -239,10 +241,10 @@ schema: |
 
   <h2>Related calculators and guides</h2>
   <div class="grid related-grid">
-<div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true">🚚</span><span class="card-cat">Moving</span></div><h3><a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator</a></h3><p class="price">$843 - $1,637</p><a class="card-cta" href="{{ '/movers-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
-<div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true">🧱</span><span class="card-cat">Home</span></div><h3><a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a></h3><p class="price">$2,100 - $5,400</p><a class="card-cta" href="{{ '/fence-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
-<div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true">🛢️</span><span class="card-cat">Car</span></div><h3><a href="{{ '/oil-change-cost-calculator/' | relative_url }}">Oil Change Cost Calculator</a></h3><p class="price">$45 - $140</p><a class="card-cta" href="{{ '/oil-change-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
-<div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true">🏠</span><span class="card-cat">Guide</span></div><h3><a href="{{ '/blog/how-much-does-it-cost-to-replace-a-roof/' | relative_url }}">How Much Does It Cost to Replace a Roof?</a></h3><p class="price">$7,528 - $11,475</p><a class="card-cta" href="{{ '/blog/how-much-does-it-cost-to-replace-a-roof/' | relative_url }}">Read the guide &rarr;</a></div>
+<div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h12v11H2z"/><path d="M14 9h4l3 3v4h-7"/><circle cx="6" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg></span><span class="card-cat">Moving</span></div><h3><a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator</a></h3><p class="price">$843 - $1,637</p><a class="card-cta" href="{{ '/movers-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
+<div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3v18M12 3v18M19 3v18"/><path d="M3 8h18M3 15h18"/></svg></span><span class="card-cat">Home</span></div><h3><a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a></h3><p class="price">$2,100 - $5,400</p><a class="card-cta" href="{{ '/fence-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
+<div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c3.5 4.2 6 7.2 6 10.2a6 6 0 1 1-12 0C6 10.2 8.5 7.2 12 3z"/></svg></span><span class="card-cat">Car</span></div><h3><a href="{{ '/oil-change-cost-calculator/' | relative_url }}">Oil Change Cost Calculator</a></h3><p class="price">$45 - $140</p><a class="card-cta" href="{{ '/oil-change-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
+<div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/><path d="M9 21v-6h6v6"/></svg></span><span class="card-cat">Guide</span></div><h3><a href="{{ '/blog/how-much-does-it-cost-to-replace-a-roof/' | relative_url }}">How Much Does It Cost to Replace a Roof?</a></h3><p class="price">$7,528 - $11,475</p><a class="card-cta" href="{{ '/blog/how-much-does-it-cost-to-replace-a-roof/' | relative_url }}">Read the guide &rarr;</a></div>
 </div>
 <ul class="chip-list">
   <li><a href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}">Central AC Installation Cost Calculator <span aria-hidden="true">&rarr;</span></a></li>
@@ -291,6 +293,7 @@ schema: |
     document.getElementById("lowVal").textContent = fmt(low);
     document.getElementById("typVal").textContent = fmt(typ);
     document.getElementById("highVal").textContent = fmt(high);
+    try { if (window.hmSync) { window.hmSync(low, typ, high, 7528, 9180, 11475); } } catch (e) {}
   }
   document.getElementById("roofSize").addEventListener("input", update);
   document.getElementById("material").addEventListener("change", update);
