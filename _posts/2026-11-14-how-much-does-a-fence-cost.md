@@ -127,7 +127,6 @@ schema: |
 <tr><td>Wood</td><td>$14 to $36</td><td>$22</td><td>$2,100 to $5,400</td></tr>
 <tr><td>Vinyl</td><td>$25 to $55</td><td>$38</td><td>$3,750 to $8,250</td></tr>
 <tr><td>Chain link</td><td>$9 to $20</td><td>$14</td><td>$1,350 to $3,000</td></tr>
-<tr class="total"><td>Total of the rows above</td><td>$48 to $111</td><td>$74</td><td>$7,200 to $16,650</td></tr>
 </tbody>
 </table>
 </div>
@@ -196,7 +195,6 @@ BuilderMuse works through a 200 ft wood fence with two walk gates, old fence rem
 <tr><td>Aluminum, ornamental</td><td>6 ft</td><td>$25 to $75</td><td>$3,750 to $11,250</td></tr>
 <tr><td>Composite privacy</td><td>6 ft</td><td>$35 to $95</td><td>$5,250 to $14,250</td></tr>
 <tr><td>Wrought iron / steel</td><td>6 ft</td><td>$25 to $85</td><td>$3,750 to $12,750</td></tr>
-<tr class="total"><td>Total of the rows above</td><td></td><td>$155 to $448</td><td>$23,250 to $67,200</td></tr>
 </tbody>
 </table>
 </div>
@@ -216,7 +214,6 @@ BuilderMuse works through a 200 ft wood fence with two walk gates, old fence rem
 <tr><td>Chain link, $15 to $25 per foot</td><td>$1,500 to $2,500</td><td>$2,250 to $3,750</td><td>$3,000 to $5,000</td><td>$6,000 to $10,000</td></tr>
 <tr><td>Pressure treated wood, $13 to $30 per foot</td><td>$1,300 to $3,000</td><td>$1,950 to $4,500</td><td>$2,600 to $6,000</td><td>$5,200 to $12,000</td></tr>
 <tr><td>Vinyl, $30 to $60 per foot</td><td>$3,000 to $6,000</td><td>$4,500 to $9,000</td><td>$6,000 to $12,000</td><td>$12,000 to $24,000</td></tr>
-<tr class="total"><td>Total of the rows above</td><td>$5,800 to $11,500</td><td>$8,700 to $17,250</td><td>$11,600 to $23,000</td><td>$23,200 to $46,000</td></tr>
 </tbody>
 </table>
 </div>
@@ -239,7 +236,6 @@ Prices move with local labor rates. Quotsey gives these ranges for a 150 ft pres
 <tr><td>Southeast</td><td>$2,400 to $4,800</td></tr>
 <tr><td>Midwest</td><td>$2,600 to $5,000</td></tr>
 <tr><td>West Coast</td><td>$3,000 to $6,000</td></tr>
-<tr class="total"><td>Total of the rows above</td><td>$11,200 to $22,300</td></tr>
 </tbody>
 </table>
 </div>
@@ -272,7 +268,6 @@ The cheapest fence to install is not always the cheapest to own. RemodelCalculat
 <tr><td>Cedar</td><td>$2.00</td></tr>
 <tr><td>Composite</td><td>$2.18</td></tr>
 <tr><td>Wood, pressure treated pine</td><td>$2.24</td></tr>
-<tr class="total"><td>Total of the rows above</td><td>$9.82</td></tr>
 </tbody>
 </table>
 </div>
