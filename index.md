@@ -60,7 +60,7 @@ schema: |
   <div class="wrap hero-grid">
     <div class="hero-copy">
       <p class="kicker">USA COST GUIDES + CALCULATORS</p>
-      <h1>How much does it <span class="accent">cost</span> in the USA?</h1>
+      <h1 aria-label="How much does it cost in the USA?">How much does it <span class="accent">cost</span> in the USA?</h1>
       <p class="lede">Real price ranges for the jobs Americans actually pay for. Pick a calculator, answer a few questions, and see your low, typical, and high price in seconds.</p>
       <p class="hero-answer">A typical 2-bedroom local move costs about <strong>$1,240</strong>, in a range of $843 to $1,637. See the full breakdown in the <a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator</a>.</p>
       <form class="search-box" id="searchForm" role="search" action="{{ '/tools/' | relative_url }}" method="get">
