@@ -96,7 +96,7 @@ schema: |
   <p class="kicker">Free Calculator</p>
   <h1>How Much Does It Cost to Paint a House?</h1>
   <div class="answer">
-    <p>A typical exterior paint job for a 1,800 sq ft home in the USA costs about $4,200, with a sample range of $2,800 to $6,800.</p>
+    <p id="answerIntro">A typical exterior paint job for a 1,800 sq ft home in the USA costs about $4,200, with a sample range of $2,800 to $6,800.</p>
     <p class="note">All prices on this page are sample estimated USA ranges, not quotes.</p>
   </div>
 
@@ -154,7 +154,7 @@ schema: |
       </thead>
       <tbody>
         <tr><td>Paint and primer</td><td>$900</td><td>$1,300</td><td>$2,100</td></tr>
-        <tr><td>Labor</td><td>$1,500</td><td>$2,300</td><td>$3,800</td></tr>
+        <tr><td id="laborLabel">Labor (1,800 sq ft exterior job, 3 to 5 days)</td><td>$1,500</td><td>$2,300</td><td>$3,800</td></tr>
         <tr><td>Prep and repairs</td><td>$220</td><td>$350</td><td>$550</td></tr>
         <tr><td>Supplies and equipment</td><td>$130</td><td>$180</td><td>$250</td></tr>
         <tr><td>Permits and fees</td><td>$50</td><td>$70</td><td>$100</td></tr>
@@ -282,7 +282,8 @@ schema: |
   }
   function round10(n) { return Math.round(n / 10) * 10; }
   function update() {
-    var rate = parseFloat(document.getElementById("jobType").value);
+    var jobVal = document.getElementById("jobType").value;
+    var rate = parseFloat(jobVal);
     var size = parseFloat(document.getElementById("homeSize").value);
     document.getElementById("homeSizeVal").textContent = Math.round(size).toLocaleString("en-US") + " sq ft";
     var typ = Math.round((size * rate) / 50) * 50;
@@ -291,7 +292,12 @@ schema: |
     document.getElementById("lowVal").textContent = fmt(low);
     document.getElementById("typVal").textContent = fmt(typ);
     document.getElementById("highVal").textContent = fmt(high);
-    try { if (window.hmSync) { window.hmSync(low, typ, high, 2800, 4200, 6800); } } catch (e) {}
+    var jobName = jobVal === "2.33" ? "exterior" : "interior";
+    var sizeTxt = Math.round(size).toLocaleString("en-US");
+    var intro = "A typical " + jobName + " paint job for a " + sizeTxt + " sq ft home in the USA costs about " + fmt(typ) + ", with a sample range of " + fmt(low) + " to " + fmt(high) + ".";
+    var days = size <= 1200 ? "2 to 3 days" : size <= 2000 ? "3 to 5 days" : size <= 3000 ? "4 to 6 days" : "5 to 7 days";
+    var labor = "Labor (" + sizeTxt + " sq ft " + jobName + " job, " + days + ")";
+    try { if (window.hmSync) { window.hmSync(low, typ, high, 2800, 4200, 6800, { intro: intro, labor: labor }); } } catch (e) {}
   }
   document.getElementById("jobType").addEventListener("change", update);
   document.getElementById("homeSize").addEventListener("input", update);
