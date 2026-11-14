@@ -151,6 +151,7 @@ schema: |
 
   <h2>Itemized cost breakdown</h2>
   <p class="note live-note">Updates live with your calculator choices.</p>
+  <p class="table-hint">Swipe to see the High column &rarr;</p>
   <div class="table-wrap">
     <table class="cost-table">
       <caption>Sample estimated cost breakdown, updated for your selection</caption>
