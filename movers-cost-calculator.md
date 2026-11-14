@@ -5,6 +5,11 @@ meta_title: "Movers Cost Calculator: Price by Home Size and Distance"
 meta_description: "Use the free Movers Cost Calculator to price a local or long distance move by home size and distance, with low, typical, and high USA ranges."
 permalink: /movers-cost-calculator/
 breadcrumb: Tools
+image: /assets/images/movers-hero.webp
+image_card: /assets/images/movers-card.webp
+image_alt: "Two professional movers carrying cardboard boxes in a bright room on moving day"
+image_w: 1200
+image_h: 800
 schema: |
   {
     "@context": "https://schema.org",
@@ -101,6 +106,8 @@ schema: |
     <p class="updated-line">Updated November 14, 2026</p>
   </div>
 
+  <img class="calc-hero-img" src="{{ page.image | relative_url }}" srcset="{{ page.image_card | relative_url }} 800w, {{ page.image | relative_url }} 1200w" sizes="(max-width: 760px) 100vw, 1200px" width="{{ page.image_w | default: 1200 }}" height="{{ page.image_h | default: 800 }}" alt="{{ page.image_alt }}" loading="lazy" decoding="async"{% if page.image_pos %} style="object-position: {{ page.image_pos }};"{% endif %}>
+
   <div class="calc">
     <h2>Movers Cost Calculator</h2>
     <p>Pick your home size and distance to see a sample estimated price for your move. For averages by home size and distance, and tips to save, see the full <a href="{{ '/blog/how-much-do-movers-cost/' | relative_url }}">How Much Do Movers Cost in the USA?</a> guide.</p>
@@ -140,7 +147,7 @@ schema: |
       <p class="band-price" id="bandLowVal">$843</p>
       <p>A smaller job with basic choices.</p>
     </div>
-    <div class="band band-typical">
+    <div class="band band-typical"><p class="band-tag">Most common</p>
       <p class="band-label">Typical</p>
       <p class="band-price" id="bandTypVal">$1,240</p>
       <p>Your selection at typical USA rates.</p>
@@ -301,10 +308,10 @@ schema: |
 
   <h2>Related calculators and guides</h2>
   <div class="grid related-grid">
-<div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/><path d="M9 21v-6h6v6"/></svg></span><span class="card-cat">Home</span></div><h3><a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Cost Calculator</a></h3><p class="price">$7,528 - $11,475</p><a class="card-cta" href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
-<div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V9l2-3 2 3v12"/><path d="M10 21V9l2-3 2 3v12"/><path d="M16 21V9l2-3 2 3v12"/><path d="M3 12h18"/><path d="M3 17h18"/></svg></span><span class="card-cat">Home</span></div><h3><a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a></h3><p class="price">$2,100 - $5,400</p><a class="card-cta" href="{{ '/fence-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
-<div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c3.5 4.2 6 7.2 6 10.2a6 6 0 1 1-12 0C6 10.2 8.5 7.2 12 3z"/></svg></span><span class="card-cat">Car</span></div><h3><a href="{{ '/oil-change-cost-calculator/' | relative_url }}">Oil Change Cost Calculator</a></h3><p class="price">$45 - $140</p><a class="card-cta" href="{{ '/oil-change-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
-<div class="card related-card"><div class="card-top"><span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h12v11H2z"/><path d="M14 9h4l3 3v4h-7"/><circle cx="6" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg></span><span class="card-cat">Guide</span></div><h3><a href="{{ '/blog/how-much-do-movers-cost/' | relative_url }}">How Much Do Movers Cost in the USA?</a></h3><p class="price">$843 - $1,637</p><a class="card-cta" href="{{ '/blog/how-much-do-movers-cost/' | relative_url }}">Read the guide &rarr;</a></div>
+<div class="card related-card"><img class="card-img" src="{{ '/assets/images/roof-card.webp' | relative_url }}" srcset="{{ '/assets/images/roof-card.webp' | relative_url }} 800w, {{ '/assets/images/roof-hero.webp' | relative_url }} 1200w" sizes="(max-width: 760px) 100vw, 800px" width="800" height="534" alt="Roofer installing asphalt shingles on a residential roof with a nail gun" loading="lazy" decoding="async"><div class="card-top"><span class="card-cat">Home</span></div><h3><a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Cost Calculator</a></h3><p class="price">$7,528 - $11,475</p><a class="card-cta" href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
+<div class="card related-card"><img class="card-img" src="{{ '/assets/images/fence-card.webp' | relative_url }}" srcset="{{ '/assets/images/fence-card.webp' | relative_url }} 800w, {{ '/assets/images/fence-hero.webp' | relative_url }} 1200w" sizes="(max-width: 760px) 100vw, 800px" width="800" height="1200" alt="Wooden fence and gate beside a stone path in a sunny backyard" loading="lazy" decoding="async"><div class="card-top"><span class="card-cat">Home</span></div><h3><a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a></h3><p class="price">$2,100 - $5,400</p><a class="card-cta" href="{{ '/fence-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
+<div class="card related-card"><img class="card-img" src="{{ '/assets/images/oil-change-card.webp' | relative_url }}" srcset="{{ '/assets/images/oil-change-card.webp' | relative_url }} 800w, {{ '/assets/images/oil-change-hero.webp' | relative_url }} 1200w" sizes="(max-width: 760px) 100vw, 800px" width="800" height="534" alt="Mechanic pouring engine oil into a car engine in a garage" loading="lazy" decoding="async"><div class="card-top"><span class="card-cat">Car</span></div><h3><a href="{{ '/oil-change-cost-calculator/' | relative_url }}">Oil Change Cost Calculator</a></h3><p class="price">$45 - $140</p><a class="card-cta" href="{{ '/oil-change-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
+<div class="card related-card"><img class="card-img" src="{{ '/assets/images/movers-card.webp' | relative_url }}" srcset="{{ '/assets/images/movers-card.webp' | relative_url }} 800w, {{ '/assets/images/movers-hero.webp' | relative_url }} 1200w" sizes="(max-width: 760px) 100vw, 800px" width="800" height="534" alt="Two professional movers carrying cardboard boxes in a bright room on moving day" loading="lazy" decoding="async"><div class="card-top"><span class="card-cat">Guide</span></div><h3><a href="{{ '/blog/how-much-do-movers-cost/' | relative_url }}">How Much Do Movers Cost in the USA?</a></h3><p class="price">$843 - $1,637</p><a class="card-cta" href="{{ '/blog/how-much-do-movers-cost/' | relative_url }}">Read the guide &rarr;</a></div>
 </div>
 <ul class="chip-list">
   <li><a href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}">Central AC Installation Cost Calculator <span aria-hidden="true">&rarr;</span></a></li>
