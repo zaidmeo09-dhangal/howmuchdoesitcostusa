@@ -24,6 +24,15 @@
   --hero-muted: #485c50;
   --hero-border: #d3e2d8;
   --hero-kicker: #0b6b4a;
+  --post-answer-bg: #edf6f0;
+  --post-answer-border: #cfe3d6;
+  --post-answer-note: #3d5347;
+  --post-table-head: #0b3d2e;
+  --post-zebra: #f7faf8;
+  --post-total-bg: #e6f2ea;
+  --post-check-bg: #e3f2e8;
+  --post-x-bg: #fdecea;
+  --post-faq-open: #eef6f0;
 }
 
 :root[data-theme="dark"] {
@@ -48,6 +57,15 @@
   --hero-muted: #cfe3d6;
   --hero-border: rgba(255, 255, 255, 0.18);
   --hero-kicker: #f5b301;
+  --post-answer-bg: #122a1e;
+  --post-answer-border: #2c5240;
+  --post-answer-note: #b9d6c2;
+  --post-table-head: #0e2f21;
+  --post-zebra: #182720;
+  --post-total-bg: #1b3a29;
+  --post-check-bg: #173527;
+  --post-x-bg: #3a1d1a;
+  --post-faq-open: #16241c;
 }
 
 * { box-sizing: border-box; }
@@ -558,4 +576,225 @@ html, body { overflow-x: hidden; overflow-x: clip; }
   .logo-text { font-size: 13px; }
   .header-inner { gap: 8px; }
   .header-actions { gap: 6px; }
+}
+
+/* Premium guide design pass, Nov 15, 2026. Guide pages only, everything
+   scoped under .post, so the homepage and calculator pages are untouched.
+   No text, prices, links, titles, meta or footer changes in this block. */
+
+/* Guide header, typography and rhythm */
+.post .post-head { margin-bottom: 4px; }
+.post .crumb { margin: 26px 0 0; }
+.post .crumb a { text-decoration: none; font-weight: 600; }
+.post .crumb a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.post .post-date {
+  display: inline-block; background: var(--surface-soft);
+  border: 1px solid var(--border); border-radius: 999px;
+  padding: 6px 14px; margin: 18px 0 0; font-size: 13px; letter-spacing: 0.02em;
+}
+.post h1 {
+  letter-spacing: -0.02em; margin: 14px 0 8px; padding-bottom: 20px;
+  border-bottom: 1px solid var(--border); position: relative;
+}
+.post h1::after {
+  content: ""; position: absolute; left: 0; bottom: -1px;
+  width: 64px; height: 3px; background: var(--gold); border-radius: 3px;
+}
+.post h2 {
+  font-size: clamp(26px, 3.4vw, 33px); letter-spacing: -0.015em;
+  margin: 56px 0 18px; padding-top: 32px;
+  border-top: 1px solid var(--border); position: relative;
+}
+.post h2::before {
+  content: ""; position: absolute; top: -1px; left: 0;
+  width: 56px; height: 3px; background: var(--gold); border-radius: 3px;
+}
+.post h3 { font-size: 21px; letter-spacing: -0.01em; margin: 36px 0 12px; }
+.post p { line-height: 1.75; margin-bottom: 18px; }
+.post li { line-height: 1.7; }
+.post ul, .post ol { margin-bottom: 18px; }
+.post ul:not(.checklist):not(.steps):not(.chip-list) li::marker,
+.post ol:not(.steps) li::marker { color: var(--green); font-weight: 700; }
+.post a { text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.post p a, .post li a { font-weight: 600; }
+
+/* Direct answer box: distinct tinted card, label on its own line */
+.post .answer {
+  background: linear-gradient(180deg, var(--post-answer-bg), var(--surface));
+  border: 1px solid var(--post-answer-border);
+  border-left: 6px solid var(--green);
+  border-radius: 16px; padding: 24px 26px 22px;
+  margin: 28px 0 8px; box-shadow: var(--shadow); max-width: 860px;
+}
+.post .answer p:first-child { font-size: 19px; line-height: 1.6; margin: 0; }
+.post .answer p:first-child strong {
+  display: block; font-size: 12.5px; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--green); margin-bottom: 8px;
+}
+.post .answer a { font-weight: 700; }
+.post .answer p.note {
+  margin: 16px 0 0; padding: 14px 0 0;
+  border-top: 1px solid var(--post-answer-border);
+  font-size: 15px; line-height: 1.6; color: var(--post-answer-note);
+  background: transparent; border-radius: 0;
+}
+
+/* Note callouts outside the answer box: soft card with a gold edge */
+.post > p.note {
+  background: var(--surface-soft); border: 1px solid var(--border);
+  border-left: 4px solid var(--gold); border-radius: 12px;
+  padding: 14px 18px; font-size: 15px; line-height: 1.65;
+  color: var(--ink); margin: 20px 0; max-width: 860px;
+}
+.post > p.note a { font-weight: 700; }
+/* Tip and warning callouts, ready for future guides. No post uses them yet. */
+.post .tip {
+  background: var(--surface-soft); border: 1px solid var(--border);
+  border-left: 4px solid var(--green); border-radius: 12px;
+  padding: 14px 18px; font-size: 15px; line-height: 1.65; margin: 20px 0;
+}
+.post .warning {
+  background: var(--post-x-bg); border: 1px solid var(--border);
+  border-left: 4px solid var(--danger); border-radius: 12px;
+  padding: 14px 18px; font-size: 15px; line-height: 1.65; margin: 20px 0;
+}
+
+/* Premium cost tables: card frame, dark green header, zebra rows, bold Total */
+.post .table-wrap {
+  max-width: 860px; border: 1px solid var(--border); border-radius: 16px;
+  box-shadow: var(--shadow); background: var(--surface);
+  margin: 24px 0; overflow-x: auto; -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+}
+.post .table-wrap::-webkit-scrollbar { height: 8px; }
+.post .table-wrap::-webkit-scrollbar-thumb {
+  background: var(--border); border-radius: 999px;
+}
+.post table.cost-table {
+  min-width: 560px; margin: 0;
+  border-collapse: separate; border-spacing: 0; background: transparent;
+}
+.post .cost-table caption {
+  caption-side: top; text-align: left; font-size: 14px; font-weight: 600;
+  color: var(--muted); padding: 16px 18px 10px;
+}
+.post .cost-table th {
+  background: var(--post-table-head); color: #ffffff;
+  padding: 14px 16px; font-size: 13px; letter-spacing: 0.06em; border-bottom: none;
+}
+.post .cost-table th:first-child { border-top-left-radius: 15px; }
+.post .cost-table th:last-child { border-top-right-radius: 15px; }
+.post .cost-table td { padding: 13px 16px; font-size: 16px; }
+.post .cost-table tbody tr:nth-child(even) td { background: var(--post-zebra); }
+.post .cost-table tbody tr:last-child td { border-bottom: none; }
+.post .cost-table tbody tr:hover td { background: var(--surface-soft); }
+.post .cost-table tr.total td {
+  background: var(--post-total-bg); border-top: 2px solid var(--green);
+  font-weight: 800; color: var(--ink); font-size: 16px; padding: 15px 16px;
+}
+
+/* Checklists: circled check and X markers, ruled rows */
+.post .checklist li { padding: 11px 0 11px 38px; border-bottom: 1px solid var(--border); }
+.post .checklist li:last-child { border-bottom: none; }
+.post .checklist li::before {
+  left: 0; top: 11px; width: 24px; height: 24px; border-radius: 50%;
+  background: var(--post-check-bg); color: var(--green); font-size: 13px;
+  display: flex; align-items: center; justify-content: center;
+}
+.post .checklist-x li::before { background: var(--post-x-bg); color: var(--danger); }
+.post .checklist li strong { color: var(--ink); }
+
+/* Steps: larger numbered circles with a soft shadow */
+.post .steps li { padding: 18px 0 18px 58px; }
+.post .steps li:last-child { border-bottom: none; }
+.post .steps li::before {
+  top: 16px; width: 38px; height: 38px; font-size: 16px;
+  box-shadow: 0 2px 8px rgba(18, 33, 26, 0.18);
+}
+.post .steps li strong { color: var(--ink); }
+
+/* Included / not included two-column cards */
+.post .two-col { gap: 18px; margin: 24px 0; max-width: 860px; }
+.post .two-col > div { padding: 24px; box-shadow: var(--shadow); }
+.post .two-col h3 {
+  margin-top: 0; padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+.post .two-col .checklist { margin-bottom: 0; }
+
+/* FAQ: rounder card, tinted open state, divider under the question */
+.post details.faq {
+  border-radius: 16px; padding: 4px 20px; margin-bottom: 12px;
+  box-shadow: var(--shadow); max-width: 860px;
+}
+.post details.faq[open] {
+  border-color: var(--green); background: var(--post-faq-open);
+}
+.post details.faq summary { font-size: 17px; line-height: 1.45; padding: 14px 0; }
+.post details.faq summary::after {
+  width: 11px; height: 11px;
+  border-right-width: 2.5px; border-bottom-width: 2.5px;
+}
+.post details.faq p {
+  margin: 0 0 18px; padding-top: 14px;
+  border-top: 1px solid var(--border);
+  font-size: 16px; line-height: 1.7; color: var(--ink);
+}
+
+/* References and related cards on guide pages */
+.post .refs {
+  border-top: 1px solid var(--border); padding-top: 18px;
+  margin-top: 8px; max-width: 860px;
+}
+.post .refs p { font-size: 15px; color: var(--muted); line-height: 1.7; }
+.post .refs a { font-weight: 700; }
+.post .related-grid { margin-top: 20px; }
+.post .related-card { padding: 24px; }
+.post .related-card h3 { font-size: 20px; margin: 14px 0 8px; }
+.post .related-card .price { font-size: 23px; }
+.post .related-card .card-cta { margin-top: 16px; }
+.post .chip-list { margin: 20px 0 8px; }
+.post .chip-list a { padding: 12px 18px; box-shadow: var(--shadow); }
+
+/* Dark mode: deep tinted surfaces, never washed-out grey */
+:root[data-theme="dark"] .post .answer { box-shadow: 0 8px 28px rgba(0, 0, 0, 0.45); }
+:root[data-theme="dark"] .post .cost-table th {
+  background: var(--post-table-head); color: #eaf6ed;
+}
+:root[data-theme="dark"] .post .steps li::before {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+:root[data-theme="dark"] .post .table-wrap { box-shadow: 0 8px 28px rgba(0, 0, 0, 0.35); }
+
+/* Mobile: comfortable answer padding, no cramped hero, clean table scroll */
+@media (max-width: 760px) {
+  .post h1 { font-size: clamp(28px, 7vw, 34px); padding-bottom: 16px; }
+  .post h2 { font-size: 25px; margin: 44px 0 14px; padding-top: 24px; }
+  .post h3 { font-size: 19px; margin: 28px 0 10px; }
+  .post .answer { padding: 20px 18px; margin: 24px 0 8px; border-radius: 14px; }
+  .post .answer p:first-child { font-size: 18px; }
+  .post > p.note { padding: 13px 15px; font-size: 15px; }
+  .post table.cost-table { min-width: 540px; }
+  .post .cost-table th, .post .cost-table td { padding: 12px 14px; font-size: 15px; }
+  .post .table-hint {
+    display: block; text-align: center; font-size: 13px; font-weight: 700;
+    color: var(--muted); background: var(--surface-soft);
+    border: 1px solid var(--border); border-radius: 999px;
+    padding: 7px 14px; margin: 18px 0 -6px;
+  }
+  .post details.faq { padding: 2px 16px; }
+  .post details.faq summary { font-size: 16px; }
+  .post .steps li { padding-left: 52px; }
+  .post .steps li::before { width: 34px; height: 34px; }
+  .post .two-col > div { padding: 20px; }
+  .post .related-card { padding: 20px; }
+}
+@media (max-width: 480px) {
+  .post h1 { font-size: 28px; }
+  .post .answer p:first-child { font-size: 17px; }
+  .post .checklist li { padding-left: 36px; }
+}
+@media (max-width: 360px) {
+  .post .answer { padding: 18px 16px; }
+  .post .cost-table th, .post .cost-table td { padding: 11px 12px; }
 }
