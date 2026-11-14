@@ -24,6 +24,63 @@
 /* Set theme before paint: saved choice wins, otherwise light (the default). */
 (function(){try{localStorage.removeItem("hm-cost-theme");var t=localStorage.getItem("hm-cost-theme-v2");if(!t){t="light";}document.documentElement.setAttribute("data-theme",t);}catch(e){document.documentElement.setAttribute("data-theme","light");}})();
 </script>
+<script>
+/* Live sync for calculator pages: bands, result range bar, and the itemized
+   breakdown table all update with the calculator choices. Column totals stay
+   exact: each row scales by its own column factor, then the largest row in a
+   column absorbs any rounding difference so the rows sum to the total. */
+window.hmSync = function (low, typ, high, dLow, dTyp, dHigh) {
+  function fmt(n) { return "$" + Math.round(n).toLocaleString("en-US"); }
+  var bL = document.getElementById("bandLowVal");
+  var bT = document.getElementById("bandTypVal");
+  var bH = document.getElementById("bandHighVal");
+  if (bL) { bL.textContent = fmt(low); }
+  if (bT) { bT.textContent = fmt(typ); }
+  if (bH) { bH.textContent = fmt(high); }
+  var bar = document.getElementById("rangeBar");
+  if (bar && high > low) {
+    bar.style.width = Math.max(4, Math.min(100, Math.round((typ - low) / (high - low) * 100))) + "%";
+  }
+  var table = document.querySelector(".cost-table");
+  if (!table || !dLow || !dTyp || !dHigh) { return; }
+  var rows = table.querySelectorAll("tbody tr:not(.total)");
+  var totals = [low, typ, high];
+  var factors = [low / dLow, typ / dTyp, high / dHigh];
+  var cols = [[], [], []];
+  rows.forEach(function (row) {
+    var cells = row.querySelectorAll("td");
+    if (cells.length < 4) { return; }
+    for (var c = 0; c < 3; c++) {
+      if (!row.dataset["c" + c]) {
+        row.dataset["c" + c] = cells[c + 1].textContent.replace(/[^0-9.]/g, "");
+      }
+      var base = parseFloat(row.dataset["c" + c]) || 0;
+      var v = Math.round(base * factors[c]);
+      cols[c].push(v);
+      cells[c + 1].textContent = fmt(v);
+    }
+  });
+  for (var j = 0; j < 3; j++) {
+    var sum = cols[j].reduce(function (a, b) { return a + b; }, 0);
+    var diff = totals[j] - sum;
+    if (diff !== 0 && cols[j].length) {
+      var idx = 0, max = -1;
+      cols[j].forEach(function (v, i) { if (v > max) { max = v; idx = i; } });
+      cols[j][idx] += diff;
+      rows[idx].querySelectorAll("td")[j + 1].textContent = fmt(cols[j][idx]);
+    }
+  }
+  var totalRow = table.querySelector("tbody tr.total");
+  if (totalRow) {
+    var tc = totalRow.querySelectorAll("td");
+    if (tc.length >= 4) {
+      tc[1].textContent = fmt(low);
+      tc[2].textContent = fmt(typ);
+      tc[3].textContent = fmt(high);
+    }
+  }
+};
+</script>
 {% if page.schema %}
 <script type="application/ld+json">
 {{ page.schema }}
