@@ -71,6 +71,22 @@ schema: |
               "@type": "Answer",
               "text": "Move mid-week, declutter first, and pack yourself. Get 3 written quotes and compare the full price, not just the hourly rate."
             }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does it cost to move a piano?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Angi reports $260 to $580 to move a piano. The price depends on the piano type, the stairs, and the distance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much do movers charge per pound for a long distance move?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Angi reports $0.50 to $0.80 per pound and FindMoversNow reports $0.55 to $0.90 per pound, so a combined range of $0.50 to $0.90 per pound covers both sources."
+            }
           }
         ]
       }
@@ -103,6 +119,92 @@ schema: |
 </div>
 
 <p class="note">Long distance costs about 2.1 times the local price in these sample ranges. For example, $1,240 times 2.1 equals $2,604 for a 2-bedroom move of 100 to 500 miles.</p>
+
+<p>Survey data tells a similar story. <a href="https://www.angi.com/articles/how-much-does-it-cost-hire-movers.htm" target="_blank" rel="noopener">Angi</a> reports a national average of $1,694, with most people paying $875 to $2,546 for a local move, based on 6,434 verified projects. A <a href="https://www.consumervoice.org/articles/how-much-do-movers-cost" target="_blank" rel="noopener">This Old House</a> 2025 survey of 1,000 customers found a local average of $1,489, a long distance average of $3,124, and an overall average of $3,020.</p>
+
+## Long distance cost by weight
+
+<p>Long distance movers often price by weight as well as distance. <a href="https://www.angi.com/articles/how-much-does-it-cost-hire-movers.htm" target="_blank" rel="noopener">Angi</a> reports $0.50 to $0.80 per pound, and <a href="https://findmoversnow.com/moving-company-costs/" target="_blank" rel="noopener">FindMoversNow</a> reports $0.55 to $0.90 per pound, so a combined range of $0.50 to $0.90 per pound covers both sources. The worked line below uses that combined range.</p>
+
+<ul>
+<li>7,000 pounds at $0.50 per pound = $3,500</li>
+<li>7,000 pounds at $0.90 per pound = $6,300</li>
+</ul>
+
+<p>Ask the mover for the estimated weight on the written quote, because the weight is what sets the final price on a weight based move.</p>
+
+## Specialty item costs
+
+<p>Some items need a specialist crew or extra equipment, and they are priced on top of the main move. Ranges from <a href="https://www.angi.com/articles/how-much-does-it-cost-hire-movers.htm" target="_blank" rel="noopener">Angi</a>.</p>
+
+<p class="table-hint">Swipe to see the range &rarr;</p>
+  <div class="table-wrap">
+<table class="cost-table">
+<caption>Specialty item moving costs, Angi ranges</caption>
+<thead>
+<tr><th>Item</th><th>Cost range</th></tr>
+</thead>
+<tbody>
+<tr><td>Piano</td><td>$260 to $580</td></tr>
+<tr><td>Pool table</td><td>$375 to $1,500</td></tr>
+<tr><td>Hot tub</td><td>$300 to $1,200</td></tr>
+<tr><td>Car</td><td>$1,000 to $2,000</td></tr>
+</tbody>
+</table>
+</div>
+
+## Moving insurance: released value vs full-value protection
+
+<p>Every interstate mover must offer released value coverage, and most also sell full-value protection. The two work very differently, so check which one is on your quote.</p>
+
+<p class="table-hint">Swipe to see the cover &rarr;</p>
+  <div class="table-wrap">
+<table class="cost-table">
+<caption>Released value vs full-value protection</caption>
+<thead>
+<tr><th>Cover</th><th>What it pays</th><th>Cost</th></tr>
+</thead>
+<tbody>
+<tr><td>Released value</td><td>$0.60 per pound per item, so a 100 pound item pays $60</td><td>Included in the basic price</td></tr>
+<tr><td>Full-value protection</td><td>Repair, replacement, or cash value of the item</td><td>About 1% to 2% of the declared value, so $50,000 of cover costs about $500 to $1,000</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>Released value at $0.60 per pound comes from <a href="https://www.angi.com/articles/how-much-does-it-cost-hire-movers.htm" target="_blank" rel="noopener">Angi</a>, and the 1% to 2% full-value figure comes from <a href="https://www.freightwaves.com/checkpoint/moving-costs/" target="_blank" rel="noopener">FreightWaves</a>. The $60 and $500 to $1,000 figures are arithmetic from those rates: 100 x $0.60 = $60, and 1% of $50,000 = $500 while 2% of $50,000 = $1,000.</p>
+
+## Binding vs non-binding vs not-to-exceed estimates
+
+<p>Interstate movers work under FMCSA rules, and the estimate type decides whether the price can change on moving day.</p>
+
+<ul>
+<li><strong>Binding estimate.</strong> The price is fixed for the items and services listed. The mover cannot charge more unless you add items or ask for extra services.</li>
+<li><strong>Non-binding estimate.</strong> The price is an estimate based on weight and services. The final bill can be higher or lower than the estimate, and you pay the actual cost.</li>
+<li><strong>Not-to-exceed estimate.</strong> The price cannot go above the quoted amount, but it can come in lower if the actual weight is less than estimated. This is also called a binding not-to-exceed estimate.</li>
+</ul>
+
+<p>Get the estimate type in writing, with the items list attached. A <a href="https://www.consumervoice.org/articles/how-much-do-movers-cost" target="_blank" rel="noopener">This Old House</a> 2025 survey of 1,000 customers found only 43% got a binding estimate, so most people sign a quote that can still change.</p>
+
+## Full-service vs container vs DIY
+
+<p>There are three ways to move, and the right one depends on how much work you want to do yourself.</p>
+
+<p class="table-hint">Swipe to see the details &rarr;</p>
+  <div class="table-wrap">
+<table class="cost-table">
+<caption>Full-service vs container vs DIY moves</caption>
+<thead>
+<tr><th>Option</th><th>Who loads and drives</th><th>Best for</th></tr>
+</thead>
+<tbody>
+<tr><td>Full-service mover</td><td>The crew loads, drives, and unloads</td><td>People who want the least work; local average $1,489 and long distance average $3,124 in the This Old House 2025 survey</td></tr>
+<tr><td>Moving container</td><td>You load, the company drives the container</td><td>People who want to pack themselves but do not want to drive a truck</td></tr>
+<tr><td>DIY truck rental</td><td>You load and drive</td><td>Small local moves on a tight budget, where you pay the rental, fuel, and your own time</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>Container and DIY prices vary by company, distance, and season, so get a written quote for each option on the same date before you compare.</p>
 
 ## What affects the price
 
@@ -168,9 +270,13 @@ Packing, storage, and specialty items such as pianos, safes, and pool tables add
 <li><strong>List everything you are moving.</strong> Walk through every room, count the large items, and note stairs, elevators, and parking limits at both homes.</li>
 <li><strong>Get 3 written quotes.</strong> Ask each mover for the same job, the same date, and the same services, so the quotes are easy to compare.</li>
 <li><strong>Check licenses and reviews.</strong> For an interstate move, check the mover on the FMCSA site. For any move, read recent reviews and ask for references.</li>
-<li><strong>Ask for a binding quote in writing.</strong> Confirm the price, the crew size, the arrival time, and every extra charge before you sign anything.</li>
+<li><strong>Ask for a binding quote in writing.</strong> Confirm the price, the crew size, the arrival time, and every extra charge before you sign anything. Ask whether it is binding, non-binding, or not-to-exceed, and ask how the claims process works if something is damaged.</li>
 <li><strong>Confirm the details the day before.</strong> Check the date, arrival time, crew size, payment method, and your new address, so nothing is left to guess on moving day.</li>
 </ol>
+
+## Other costs after a move
+
+<p>A move is often the start of a run of home costs, not the end of it. If the new home needs a roof, price it with the <a href="{{ '/blog/how-much-does-it-cost-to-replace-a-roof/' | relative_url }}">How Much Does It Cost to Replace a Roof?</a> guide and the <a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Cost Calculator</a>. If the yard needs fencing, see <a href="{{ '/blog/how-much-does-a-fence-cost/' | relative_url }}">How Much Does a Fence Cost?</a>. Budgeting the move and the home together keeps one big bill from hiding behind another.</p>
 
 ## Frequently asked questions
 
@@ -179,6 +285,12 @@ Packing, storage, and specialty items such as pianos, safes, and pool tables add
 <details class="faq"><summary>Are moving quotes binding?</summary><p>Some quotes are binding and some are not, so ask for a binding quote in writing before you sign. A binding quote lists the price, the crew size, and what is included.</p></details>
 <details class="faq"><summary>What costs extra?</summary><p>Packing, storage, stairs, long carries, and specialty items such as pianos and safes usually cost extra. Ask each mover to list every extra charge in the written quote.</p></details>
 <details class="faq"><summary>How can I save on a move?</summary><p>Move mid-week, declutter first, and pack yourself. Get 3 written quotes and compare the full price, not just the hourly rate.</p></details>
+<details class="faq"><summary>How much does it cost to move a piano?</summary><p>Angi reports $260 to $580 to move a piano. The price depends on the piano type, the stairs, and the distance.</p></details>
+<details class="faq"><summary>How much do movers charge per pound for a long distance move?</summary><p>Angi reports $0.50 to $0.80 per pound and FindMoversNow reports $0.55 to $0.90 per pound, so a combined range of $0.50 to $0.90 per pound covers both sources.</p></details>
+
+## References
+
+<p>Mover averages on this page come from <a href="https://www.angi.com/articles/how-much-does-it-cost-hire-movers.htm" target="_blank" rel="noopener">Angi</a>, <a href="https://www.freightwaves.com/checkpoint/moving-costs/" target="_blank" rel="noopener">FreightWaves</a>, <a href="https://findmoversnow.com/moving-company-costs/" target="_blank" rel="noopener">FindMoversNow</a>, and <a href="https://www.consumervoice.org/articles/how-much-do-movers-cost" target="_blank" rel="noopener">This Old House</a>. All other prices on this page are sample estimated USA ranges, not quotes.</p>
 
 ## Related links
 
