@@ -961,13 +961,13 @@ html, body { overflow-x: hidden; overflow-x: clip; }
 }
 .post .pull-quote p:last-child::before {
   content: "\201C"; font-family: Georgia, "Times New Roman", serif;
-  font-size: 2em; line-height: 0; color: var(--gold);
-  margin-right: 2px; vertical-align: -0.4em; font-style: normal;
+  font-size: 48px; line-height: 0; color: var(--gold);
+  margin-right: 4px; vertical-align: -0.35em; font-style: normal;
 }
 .post .pull-quote p:last-child::after {
   content: "\201D"; font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.3em; line-height: 0; color: var(--gold);
-  margin-left: 2px; vertical-align: -0.25em; font-style: normal;
+  font-size: 48px; line-height: 0; color: var(--gold);
+  margin-left: 4px; vertical-align: -0.35em; font-style: normal;
 }
 
 /* Mid-guide calculator banner, inserted by JS after the first table */
