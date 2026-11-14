@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "How Much Does It Cost to Replace a Roof?"
-meta_title: "How Much Does It Cost to Replace a Roof? Calculator"
-meta_description: "How much does it cost to replace a roof? Get a free estimate by roof size and material, with a full breakdown of labor and material costs included."
+title: "Roof Replacement Cost Calculator"
+meta_title: "Roof Replacement Cost Calculator: Price by Roof Size"
+meta_description: "Use the free Roof Replacement Cost Calculator to price a new roof by size and material, with low, typical, and high sample USA ranges shown here."
 permalink: /roof-replacement-cost-calculator/
 breadcrumb: Tools
 schema: |
@@ -11,8 +11,8 @@ schema: |
     "@graph": [
       {
         "@type": "WebPage",
-        "name": "How Much Does It Cost to Replace a Roof?",
-        "description": "How much does it cost to replace a roof? Get a free estimate by roof size and material, with a full breakdown of labor and material costs included.",
+        "name": "Roof Replacement Cost Calculator",
+        "description": "Use the free Roof Replacement Cost Calculator to price a new roof by size and material, with low, typical, and high sample USA ranges shown here.",
         "url": "https://howmuchdoesitcostusa.com/roof-replacement-cost-calculator/"
       },
       {
@@ -79,10 +79,10 @@ schema: |
           },
           {
             "@type": "Question",
-            "name": "What is not included?",
+            "name": "Does homeowners insurance pay for a new roof?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Gutters, skylights, and structural repairs are usually extra."
+              "text": "Storm damage is often covered, while wear and age are usually excluded. You pay the deductible first, and the insurer pays the covered cost above it."
             }
           }
         ]
@@ -94,7 +94,7 @@ schema: |
 <section class="wrap">
   <p class="crumb"><a href="{{ '/' | relative_url }}">Home</a> / <a href="{{ '/tools/' | relative_url }}">Tools</a> / Roof Replacement Cost Calculator</p>
   <p class="kicker">Free Calculator</p>
-  <h1>How Much Does It Cost to Replace a Roof?</h1>
+  <h1>Roof Replacement Cost Calculator</h1>
   <div class="answer">
     <p id="answerIntro">A typical 1,800 sq ft asphalt shingle roof in the USA costs about $9,180, with a sample range of $7,528 to $11,475.</p>
     <p class="note">All prices on this page are sample estimated USA ranges, not quotes.</p>
@@ -103,7 +103,7 @@ schema: |
 
   <div class="calc">
     <h2>Roof Replacement Cost Calculator</h2>
-    <p>Pick your roof size and material to see a sample estimated price for a new roof.</p>
+    <p>Pick your roof size and material to see a sample estimated price for a new roof. For prices by roof size, repair vs replace rules, and insurance, see the full <a href="{{ '/blog/how-much-does-it-cost-to-replace-a-roof/' | relative_url }}">How Much Does It Cost to Replace a Roof?</a> guide.</p>
     <div class="calc-field">
       <label for="roofSize">Roof size: <span id="roofSizeVal">1,800 sq ft</span></label>
       <input type="range" id="roofSize" min="800" max="4000" step="50" value="1800">
@@ -163,15 +163,69 @@ schema: |
       <tbody>
         <tr><td id="matLabel">Materials (asphalt shingle)</td><td>$3,250</td><td>$3,900</td><td>$4,800</td></tr>
         <tr><td id="laborLabel">Labor (4 to 6 roofers, 2 to 3 days)</td><td>$2,900</td><td>$3,600</td><td>$4,405</td></tr>
-        <tr><td>Tear-off and disposal</td><td>$650</td><td>$800</td><td>$1,050</td></tr>
+        <tr><td>Tear-off and disposal</td><td>$500</td><td>$600</td><td>$750</td></tr>
         <tr><td>Underlayment and flashing</td><td>$420</td><td>$520</td><td>$700</td></tr>
         <tr><td>Permits and fees</td><td>$180</td><td>$220</td><td>$320</td></tr>
         <tr><td>Supplies and equipment</td><td>$128</td><td>$140</td><td>$200</td></tr>
+        <tr><td>Decking contingency</td><td>$150</td><td>$200</td><td>$300</td></tr>
         <tr class="total"><td>Totals</td><td>$7,528</td><td>$9,180</td><td>$11,475</td></tr>
       </tbody>
     </table>
   </div>
-  <p class="note">Sample estimated USA ranges. Materials and labor together are most of the total.</p>
+  <p class="note">Sample estimated USA ranges. Materials and labor together are most of the total. The decking contingency is an allowance for sheets found damaged during tear-off, inside the <a href="https://whathomecosts.com/roof-replacement-cost/" target="_blank" rel="noopener">WhatHomeCosts</a> range of $150 to $1,000. Tear-off is set lower than before so the totals stay the same.</p>
+
+  <h2>Worked example: a 20-square architectural asphalt roof</h2>
+  <p>A square is 100 sq ft, so 20 squares is a 2,000 sq ft roof. The line items below are from <a href="https://whathomecosts.com/roof-replacement-cost/" target="_blank" rel="noopener">WhatHomeCosts</a>, and the worked total uses the midpoint of each range, shown line by line.</p>
+  <ul>
+    <li>Shingles, $2,000 to $5,000, midpoint $3,500</li>
+    <li>Underlayment, flashing, and ventilation, $300 to $1,200, midpoint $750</li>
+    <li>Labor, $3,000 to $5,500, midpoint $4,250</li>
+    <li>Tear-off and disposal, $1,000 to $2,500, midpoint $1,750</li>
+    <li>Permits and inspections, $100 to $500, midpoint $300</li>
+    <li>Decking contingency, $150 to $1,000, midpoint $575</li>
+    <li><strong>Total: $3,500 + $750 + $4,250 + $1,750 + $300 + $575 = $11,125</strong></li>
+  </ul>
+  <p>That $11,125 sits inside the WhatHomeCosts total range of $6,600 to $15,500 for this job. For comparison, our calculator prices a 2,000 sq ft asphalt roof at $10,200 typical, from 2,000 x $5.10, with a range of $8,364 to $12,750.</p>
+
+  <h2>Cost by material</h2>
+  <p>Per sq ft ranges from <a href="https://whathomecosts.com/roof-replacement-cost/" target="_blank" rel="noopener">WhatHomeCosts</a> and lifespans from <a href="https://www.angi.com/articles/how-much-does-roof-replacement-cost.htm" target="_blank" rel="noopener">Angi</a>. The calculator default is architectural asphalt at $5.10 per sq ft, inside the $4 to $7 architectural range.</p>
+  <p class="table-hint">Swipe to see the lifespan &rarr;</p>
+  <div class="table-wrap">
+    <table class="cost-table">
+      <caption>Roof cost by material, per sq ft and lifespan</caption>
+      <thead>
+        <tr><th>Material</th><th>Per sq ft</th><th>Lifespan</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>3-tab asphalt</td><td>$3 to $5</td><td>15 to 30 years</td></tr>
+        <tr><td>Architectural asphalt</td><td>$4 to $7</td><td>15 to 30 years</td></tr>
+        <tr><td>Metal</td><td>$5 to $16</td><td>30 to 100 years</td></tr>
+        <tr><td>Wood shake</td><td>$6 to $15</td><td>Not stated in sources used</td></tr>
+        <tr><td>Concrete or clay tile</td><td>$10 to $20</td><td>50 to 100 years</td></tr>
+        <tr><td>Slate</td><td>$15 to $30</td><td>Up to 200 years</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>If you are budgeting the whole exterior, price the yard with the <a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a> too.</p>
+
+  <h2>Cost by pitch</h2>
+  <p>Steeper roofs cost more because the crew works slower and needs more safety gear. Percentages from <a href="https://whathomecosts.com/roof-replacement-cost/" target="_blank" rel="noopener">WhatHomeCosts</a>, applied to the calculator default of $9,180 for a 1,800 sq ft asphalt roof.</p>
+  <p class="table-hint">Swipe to see the added cost &rarr;</p>
+  <div class="table-wrap">
+    <table class="cost-table">
+      <caption>Roof cost by pitch, WhatHomeCosts percentages</caption>
+      <thead>
+        <tr><th>Pitch</th><th>Added cost</th><th>Example on $9,180</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Under 4:12</td><td>Base price</td><td>$9,180</td></tr>
+        <tr><td>4:12 to 8:12</td><td>Base to 5 to 10% more</td><td>$9,180 to $10,098</td></tr>
+        <tr><td>8:12 to 12:12</td><td>About 15 to 25% more</td><td>$10,557 to $11,475</td></tr>
+        <tr><td>12:12 and over</td><td>Up to about 30% more</td><td>Up to $11,934</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Example arithmetic: $9,180 x 1.10 = $10,098, $9,180 x 1.15 = $10,557, $9,180 x 1.25 = $11,475, and $9,180 x 1.30 = $11,934. Pitch is shown as a table only on this page, so the calculator totals above stay unchanged.</p>
 
   <h2>How to estimate in 4 steps</h2>
   <ol class="steps">
@@ -216,16 +270,17 @@ schema: |
   </div>
 
   <h2>How we estimate</h2>
-  <p>We multiply roof size by a per square foot rate for each material, then set low at 82 percent and high at 125 percent of the typical price. The result is a sample estimated USA range for planning, not a quote.</p>
-  <p>Your final price depends on pitch, local labor rates, and the condition of the roof deck, so always confirm the price in writing before work starts.</p>
+  <p>We take your roof size in square feet and multiply it by the per square foot rate for the material you pick: asphalt shingle at $5.10, metal at $9.50, and clay tile at $12.00. Low is 82 percent of the typical price and high is 125 percent. The itemized table then splits that total into materials, labor, tear-off, underlayment, permits, supplies, and a decking contingency, so the rows always add up to the total shown.</p>
+  <p>Pitch is not a calculator input on this page. The pitch table above shows what a steeper roof adds, so you can adjust the estimate yourself. Your final price also depends on local labor rates and the condition of the roof deck, so always confirm the price in writing before work starts.</p>
 
   <h2>Hiring a pro checklist</h2>
   <ul class="checklist">
     <li>Get 3 written quotes with material brands listed</li>
     <li>Check the roofer license, insurance, and reviews</li>
-    <li>Ask about the workmanship warranty</li>
+    <li>Ask for the per-sheet decking price in the contract, so deck repairs are not an open bill</li>
+    <li>Ask about both warranties: the workmanship warranty and the manufacturer material warranty</li>
     <li>Confirm tear-off and disposal are included</li>
-    <li>Ask who pulls the permit</li>
+    <li>Ask who pulls the permit, and check the permit is in the quote</li>
   </ul>
 
   <h2>Budget tips</h2>
@@ -234,16 +289,19 @@ schema: |
     <li>Ask about mid-grade shingles for the best value</li>
     <li>Fix small leaks early before deck damage grows</li>
     <li>Compare quotes line by line, not just the total</li>
+    <li>If you are moving into the home, price the move too with the <a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator</a></li>
   </ul>
 
   <h2>References</h2>
-  <p>Our estimates use public US cost data as a guide. Labor cost context comes from the US Bureau of Labor Statistics, housing cost context from HUD, remodeling trends from Harvard JCHS, and material prices from Home Depot and Lowes. All prices on this page are sample estimated USA ranges, not quotes.</p>
+  <p>Our estimates use public US cost data as a guide. Roofer wage context comes from the US Bureau of Labor Statistics, and roofing material prices come from Home Depot and Lowes. Roof averages on this page come from Angi, This Old House, WhatHomeCosts, and Costimated. All prices on this page are sample estimated USA ranges, not quotes.</p>
   <div class="refs">
-  <p><a href="https://www.bls.gov/" target="_blank" rel="noopener">US Bureau of Labor Statistics</a> <span class="ref-note">labor cost data</span></p>
-  <p><a href="https://www.hud.gov/" target="_blank" rel="noopener">HUD</a> <span class="ref-note">housing cost data</span></p>
-  <p><a href="https://www.jchs.harvard.edu/" target="_blank" rel="noopener">Harvard JCHS</a> <span class="ref-note">household and remodeling cost research</span></p>
+  <p><a href="https://www.bls.gov/" target="_blank" rel="noopener">US Bureau of Labor Statistics</a> <span class="ref-note">roofer wage data</span></p>
   <p><a href="https://www.homedepot.com/" target="_blank" rel="noopener">Home Depot</a> <span class="ref-note">roofing material prices</span></p>
   <p><a href="https://www.lowes.com/" target="_blank" rel="noopener">Lowes</a> <span class="ref-note">roofing material prices</span></p>
+  <p><a href="https://www.angi.com/articles/how-much-does-roof-replacement-cost.htm" target="_blank" rel="noopener">Angi</a> <span class="ref-note">roof replacement averages by material</span></p>
+  <p><a href="https://www.thisoldhouse.com/roofing/new-roof-cost" target="_blank" rel="noopener">This Old House</a> <span class="ref-note">roof cost by material and roof size</span></p>
+  <p><a href="https://whathomecosts.com/roof-replacement-cost/" target="_blank" rel="noopener">WhatHomeCosts</a> <span class="ref-note">roof cost by material, pitch, and line items</span></p>
+  <p><a href="https://www.costimated.com/costs/roof-replacement-cost/" target="_blank" rel="noopener">Costimated</a> <span class="ref-note">national turnkey roof replacement average</span></p>
   </div>
 
   <h2>Related calculators and guides</h2>
@@ -278,8 +336,8 @@ schema: |
     <p>Late fall and winter are often the cheapest times to replace a roof.</p>
   </details>
   <details class="faq">
-    <summary>What is not included?</summary>
-    <p>Gutters, skylights, and structural repairs are usually extra.</p>
+    <summary>Does homeowners insurance pay for a new roof?</summary>
+    <p>Storm damage is often covered, while wear and age are usually excluded. You pay the deductible first, and the insurer pays the covered cost above it.</p>
   </details>
 </section>
 
