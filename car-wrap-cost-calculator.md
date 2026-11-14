@@ -96,7 +96,7 @@ schema: |
   <p class="kicker">Free Calculator</p>
   <h1>How Much Does It Cost to Wrap a Car?</h1>
   <div class="answer">
-    <p>A typical sedan full car wrap in the USA costs about $3,500, with a sample range of $2,500 to $5,500.</p>
+    <p id="answerIntro">A typical sedan full car wrap in the USA costs about $3,500, with a sample range of $2,500 to $5,500.</p>
     <p class="note">All prices on this page are sample estimated USA ranges, not quotes.</p>
   </div>
 
@@ -159,7 +159,7 @@ schema: |
       </thead>
       <tbody>
         <tr><td>Vinyl material</td><td>$1,100</td><td>$1,500</td><td>$2,400</td></tr>
-        <tr><td>Labor</td><td>$1,100</td><td>$1,600</td><td>$2,500</td></tr>
+        <tr><td id="laborLabel">Labor (2 installers, 3 to 5 days)</td><td>$1,100</td><td>$1,600</td><td>$2,500</td></tr>
         <tr><td>Design and prep</td><td>$180</td><td>$250</td><td>$400</td></tr>
         <tr><td>Supplies and finishing</td><td>$120</td><td>$150</td><td>$200</td></tr>
         <tr class="total"><td>Totals</td><td>$2,500</td><td>$3,500</td><td>$5,500</td></tr>
@@ -286,15 +286,22 @@ schema: |
   }
   function round10(n) { return Math.round(n / 10) * 10; }
   function update() {
-    var base = parseFloat(document.getElementById("vehicleSize").value);
-    var mult = parseFloat(document.getElementById("wrapType").value);
+    var vehVal = document.getElementById("vehicleSize").value;
+    var wrapVal = document.getElementById("wrapType").value;
+    var base = parseFloat(vehVal);
+    var mult = parseFloat(wrapVal);
     var typ = round10(base * mult);
     var low = round10(typ * 0.714);
     var high = round10(typ * 1.571);
     document.getElementById("lowVal").textContent = fmt(low);
     document.getElementById("typVal").textContent = fmt(typ);
     document.getElementById("highVal").textContent = fmt(high);
-    try { if (window.hmSync) { window.hmSync(low, typ, high, 2500, 3500, 5500); } } catch (e) {}
+    var vehName = { "2800": "compact", "3500": "sedan", "4800": "SUV", "5500": "truck" }[vehVal];
+    var wrapName = { "1": "full car wrap", "0.55": "partial wrap", "0.35": "roof and hood wrap" }[wrapVal];
+    var intro = "A typical " + vehName + " " + wrapName + " in the USA costs about " + fmt(typ) + ", with a sample range of " + fmt(low) + " to " + fmt(high) + ".";
+    var days = wrapVal === "1" ? "3 to 5 days" : wrapVal === "0.55" ? "1 to 2 days" : "1 day";
+    var labor = "Labor (2 installers, " + days + ")";
+    try { if (window.hmSync) { window.hmSync(low, typ, high, 2500, 3500, 5500, { intro: intro, labor: labor }); } } catch (e) {}
   }
   document.getElementById("vehicleSize").addEventListener("change", update);
   document.getElementById("wrapType").addEventListener("change", update);
