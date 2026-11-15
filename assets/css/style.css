@@ -1,78 +1,86 @@
-/* How Much Does It Cost USA, Warm Editorial (direction 1).
-   Cream and terracotta, Playfair Display serif headings, Public Sans body.
-   Magazine feel, clean and light. Default theme is light, dark only by choice.
+/* How Much Does It Cost USA, Ranking First design.
+   Clean white default, one accent only: emerald green.
+   Big prices, big type, visible motion that never hides content.
+   Base state of every element is fully visible without JavaScript.
+   JavaScript only ADDS animation classes; nothing starts hidden.
    No em dashes in content. */
 
 :root[data-theme="light"] {
-  --bg: #FAF6EE;
-  --surface: #FFFDF8;
-  --surface-soft: #F5EEE0;
-  --surface-green: #BC5233;
-  --surface-green-2: #9A3F24;
-  --ink: #2B2320;
-  --muted: #6F6257;
-  --border: #E9DFCE;
-  --green: #BC5233;
-  --green-dark: #9A3F24;
-  --gold: #BC5233;
-  --gold-dark: #9A3F24;
-  --teal: #9A3F24;
-  --accent: #BC5233;
-  --accent-dark: #9A3F24;
-  --accent-tint: #F7E8DF;
-  --danger: #A63A22;
-  --shadow: 0 2px 10px rgba(43, 35, 32, 0.06);
+  --bg: #FFFFFF;
+  --surface: #FFFFFF;
+  --surface-soft: #F2F7F4;
+  --surface-green: #0B7A5F;
+  --surface-green-2: #095E4A;
+  --ink: #10201B;
+  --muted: #5A6B64;
+  --border: #DCE7E1;
+  --green: #0B7A5F;
+  --green-dark: #095E4A;
+  --gold: #0B7A5F;
+  --gold-dark: #095E4A;
+  --teal: #0B7A5F;
+  --accent: #0B7A5F;
+  --accent-dark: #095E4A;
+  --accent-bright: #0E9C7A;
+  --accent-tint: #E3F2EC;
+  --accent-soft: #F2F7F4;
+  --danger: #B3261E;
+  --shadow: 0 2px 10px rgba(16, 32, 27, 0.07);
+  --shadow-lift: 0 10px 28px rgba(16, 32, 27, 0.14);
   --radius: 16px;
-  --hero-bg: #FAF6EE;
-  --hero-ink: #2B2320;
-  --hero-muted: #6F6257;
-  --hero-border: #E9DFCE;
-  --hero-kicker: #BC5233;
-  --post-answer-bg: #F7E8DF;
-  --post-answer-border: #E9DFCE;
-  --post-answer-note: #6F6257;
-  --post-table-head: #BC5233;
-  --post-zebra: #F8F1E4;
-  --post-total-bg: #F7E8DF;
-  --post-check-bg: #F7E8DF;
-  --post-x-bg: #FBEDE7;
-  --post-faq-open: #F7E8DF;
+  --hero-bg: #FFFFFF;
+  --hero-ink: #10201B;
+  --hero-muted: #5A6B64;
+  --hero-border: #DCE7E1;
+  --hero-kicker: #0B7A5F;
+  --post-answer-bg: #E3F2EC;
+  --post-answer-border: #DCE7E1;
+  --post-answer-note: #5A6B64;
+  --post-table-head: #0B7A5F;
+  --post-zebra: #F2F7F4;
+  --post-total-bg: #E3F2EC;
+  --post-check-bg: #E3F2EC;
+  --post-x-bg: #FDECEA;
+  --post-faq-open: #F2F7F4;
 }
 
 :root[data-theme="dark"] {
-  --bg: #211A16;
-  --surface: #2C241E;
-  --surface-soft: #3A2E25;
-  --surface-green: #5C3220;
-  --surface-green-2: #6B3A24;
-  --ink: #F5EDE0;
-  --muted: #C9BBA9;
-  --border: #4A3D31;
-  --green: #E0784F;
-  --green-dark: #F0A37E;
-  --gold: #E0784F;
-  --gold-dark: #F0A37E;
-  --teal: #E0784F;
-  --accent: #E0784F;
-  --accent-dark: #F0A37E;
-  --accent-tint: #3D2C22;
-  --danger: #FF9A80;
-  --shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
+  --bg: #0E1B16;
+  --surface: #152620;
+  --surface-soft: #1D322A;
+  --surface-green: #0B7A5F;
+  --surface-green-2: #0E9C7A;
+  --ink: #EDF5F0;
+  --muted: #A9BDB3;
+  --border: #2C463B;
+  --green: #3DD598;
+  --green-dark: #7CE8BE;
+  --gold: #3DD598;
+  --gold-dark: #7CE8BE;
+  --teal: #3DD598;
+  --accent: #3DD598;
+  --accent-dark: #7CE8BE;
+  --accent-bright: #3DD598;
+  --accent-tint: #123528;
+  --accent-soft: #1D322A;
+  --danger: #FF9A90;
+  --shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+  --shadow-lift: 0 10px 28px rgba(0, 0, 0, 0.55);
   --radius: 16px;
-  --hero-bg: #211A16;
-  --hero-ink: #F5EDE0;
-  --hero-muted: #C9BBA9;
-  --hero-border: #4A3D31;
-  --hero-kicker: #E0784F;
-  --post-answer-bg: #3D2C22;
-  --post-answer-border: #4A3D31;
-  --post-answer-note: #D8CBB8;
-  --post-table-head: #5C3220;
-  --post-zebra: #332820;
-  --post-total-bg: #3D2C22;
-  --post-check-bg: #3D2C22;
-  --post-x-bg: #3D2320;
-  --post-faq-open: #332820;
+  --hero-bg: #0E1B16;
+  --hero-ink: #EDF5F0;
+  --hero-muted: #A9BDB3;
+  --hero-border: #2C463B;
+  --hero-kicker: #3DD598;
+  --post-answer-bg: #123528;
+  --post-answer-border: #2C463B;
+  --post-answer-note: #A9BDB3;
+  --post-table-head: #0B7A5F;
+  --post-zebra: #1A2E26;
+  --post-total-bg: #123528;
+  --post-check-bg: #123528;
+  --post-x-bg: #3A1F1C;
+  --post-faq-open: #1A2E26;
 }
 
 * { box-sizing: border-box; }
@@ -85,7 +93,7 @@ html { background: var(--bg); scroll-behavior: smooth; }
 }
 .skip-link {
   position: absolute; left: -9999px; top: 0; z-index: 100;
-  background: #FFFDF8; color: #2B2320; padding: 8px 12px; white-space: nowrap;
+  background: #FFFFFF; color: #10201B; padding: 8px 12px; white-space: nowrap;
 }
 .skip-link:focus { left: 8px; top: 8px; }
 body {
@@ -97,13 +105,14 @@ body {
   line-height: 1.6;
 }
 h1, h2, h3, h4 {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
-  font-weight: 700;
-  line-height: 1.2;
+  font-family: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-weight: 800;
+  line-height: 1.15;
   color: var(--ink);
   margin: 0 0 0.6em;
+  letter-spacing: -0.02em;
 }
-h1 { font-size: clamp(32px, 4.5vw, 48px); letter-spacing: -0.01em; }
+h1 { font-size: clamp(38px, 5.5vw, 60px); letter-spacing: -0.025em; }
 h2 { font-size: clamp(26px, 3vw, 34px); margin-top: 1.6em; }
 h3 { font-size: 21px; margin-top: 1.4em; }
 p { margin: 0 0 1em; }
@@ -116,32 +125,37 @@ main { min-height: 60vh; }
 section { padding: 36px 0; }
 section.wrap > h1 {
   padding-bottom: 16px;
-  border-bottom: 3px double var(--accent);
+  border-bottom: 3px solid var(--accent);
   margin-bottom: 20px;
 }
+/* Homepage section headings get a short accent rule underneath. */
+section.wrap > h2::after {
+  content: ""; display: block; width: 56px; height: 4px;
+  background: var(--accent); border-radius: 4px; margin-top: 12px;
+}
 
-/* Gentle fade rise, staggered on cards. Starts near visible so the page
-   never reads as blank. Disabled for reduced motion. */
-@keyframes fade-rise {
-  from { opacity: 0.65; transform: translateY(8px); }
+/* Motion: everything is fully visible by default. JavaScript adds .rise
+   only when an element scrolls into view, and the keyframe starts at
+   near-visible (opacity 0.85, 10px down) so there is never a blank flash.
+   Counters and price bars are also set by JavaScript only; the HTML
+   already holds the final numbers and widths. */
+@keyframes rise-in {
+  from { opacity: 0.85; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
 }
-.hero-copy, .hero-card { animation: fade-rise 0.5s ease both; }
-.hero-card { animation-delay: 0.08s; }
-.grid .card { animation: fade-rise 0.5s ease both; }
-.grid .card:nth-child(2) { animation-delay: 0.06s; }
-.grid .card:nth-child(3) { animation-delay: 0.12s; }
-.grid .card:nth-child(4) { animation-delay: 0.18s; }
-.grid .card:nth-child(5) { animation-delay: 0.24s; }
-.grid .card:nth-child(6) { animation-delay: 0.3s; }
-.grid .card:nth-child(7) { animation-delay: 0.36s; }
-section { animation: fade-rise 0.5s ease both; }
+.rise { animation: rise-in 0.5s ease both; }
+@keyframes pop-in {
+  from { transform: scale(0.96); }
+  to { transform: scale(1); }
+}
+.hero-card.rise { animation: rise-in 0.5s ease both, pop-in 0.5s ease both; }
 
 /* Header */
 .site-header {
   position: sticky; top: 0; z-index: 50;
   background: var(--surface);
   border-bottom: 1px solid var(--border);
+  box-shadow: 0 1px 0 rgba(16, 32, 27, 0.03);
 }
 .header-inner {
   display: flex; align-items: center; gap: 16px;
@@ -151,25 +165,25 @@ section { animation: fade-rise 0.5s ease both; }
 .logo-mark {
   display: inline-flex; align-items: center; justify-content: center;
   width: 44px; height: 44px; border-radius: 12px;
-  background: var(--accent); color: #FFF6EE;
-  font-family: "Playfair Display", Georgia, serif; font-size: 26px; font-weight: 700;
+  background: var(--accent); color: #FFFFFF;
+  font-family: "Public Sans", sans-serif; font-size: 26px; font-weight: 800;
   flex: none;
 }
 .logo-text {
-  font-family: "Playfair Display", Georgia, serif; font-weight: 700;
+  font-family: "Public Sans", sans-serif; font-weight: 800;
   font-size: 19px; line-height: 1.1; color: var(--ink); white-space: nowrap;
 }
 .logo-tag {
-  display: block; font-family: "Public Sans", sans-serif; font-weight: 600;
+  display: block; font-family: "Public Sans", sans-serif; font-weight: 700;
   font-size: 10px; letter-spacing: 0.14em; color: var(--muted);
 }
 .site-nav { display: flex; gap: 4px; margin-left: auto; }
 .site-nav a {
-  color: var(--ink); text-decoration: none; font-weight: 600; font-size: 15px;
+  color: var(--ink); text-decoration: none; font-weight: 700; font-size: 15px;
   padding: 10px 12px; border-radius: 999px; min-height: 44px;
   display: inline-flex; align-items: center;
 }
-.site-nav a:hover { background: var(--surface-soft); color: var(--accent); }
+.site-nav a:hover { background: var(--accent-tint); color: var(--accent); }
 .header-actions { display: flex; align-items: center; gap: 10px; flex: none; }
 .theme-toggle {
   display: inline-flex; align-items: center; justify-content: center;
@@ -200,29 +214,40 @@ section { animation: fade-rise 0.5s ease both; }
 .btn {
   display: inline-flex; align-items: center; justify-content: center;
   min-height: 48px; padding: 12px 22px; border-radius: 999px;
-  font-weight: 700; font-size: 16px; text-decoration: none; cursor: pointer;
+  font-weight: 800; font-size: 16px; text-decoration: none; cursor: pointer;
   border: 1px solid transparent; white-space: nowrap;
 }
-.btn-primary { background: var(--accent); color: #FFF6EE; }
-.btn-primary:hover { background: var(--accent-dark); color: #FFF6EE; }
-.btn-gold { background: var(--accent); color: #FFF6EE; }
-.btn-gold:hover { background: var(--accent-dark); color: #FFF6EE; }
+.btn-primary { background: var(--accent); color: #FFFFFF; }
+.btn-primary:hover { background: var(--accent-dark); color: #FFFFFF; }
+.btn-gold { background: var(--accent); color: #FFFFFF; }
+.btn-gold:hover { background: var(--accent-dark); color: #FFFFFF; }
 .btn-outline { background: transparent; border-color: var(--accent); color: var(--accent); }
 .btn-outline:hover { background: var(--accent-tint); }
 .head-cta { min-height: 42px; padding: 9px 15px; font-size: 15px; white-space: nowrap; flex: none; }
 
-/* Hero */
+/* Hero: big answer first, animated counter card on the right. */
 .hero {
-  background: var(--hero-bg);
+  background:
+    radial-gradient(720px 260px at 85% -40px, var(--accent-tint), transparent 70%),
+    radial-gradient(560px 220px at -5% 0, var(--accent-tint), transparent 65%),
+    var(--hero-bg);
   color: var(--hero-ink);
-  padding: 28px 0 24px;
+  padding: 44px 0 28px;
+  border-bottom: 1px solid var(--hero-border);
 }
 .hero-grid { display: grid; grid-template-columns: minmax(0, 1fr) 400px; gap: 48px; align-items: center; }
 .hero h1 { color: var(--hero-ink); margin-bottom: 0.4em; }
-.hero h1 .accent { color: var(--accent); font-style: italic; }
+.hero h1 .accent { color: var(--accent); }
+.hero h1 .accent-u {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-thickness: 6px;
+  text-underline-offset: 8px;
+  text-decoration-color: var(--accent);
+}
 .hero .kicker { color: var(--hero-kicker); }
 .hero p.lede { color: var(--hero-muted); font-size: 19px; max-width: 640px; }
-.hero-answer { font-size: 18px; color: var(--hero-ink); max-width: 640px; }
+.hero-answer { font-size: 19px; color: var(--hero-ink); max-width: 640px; }
 .hero-answer a { font-weight: 700; }
 .hero .btn-gold { margin-right: 10px; }
 .hero-stats {
@@ -230,36 +255,49 @@ section { animation: fade-rise 0.5s ease both; }
   margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--hero-border);
 }
 .hstat-num {
-  font-family: "Playfair Display", Georgia, serif;
-  font-size: clamp(38px, 4.2vw, 46px); font-weight: 700; color: var(--hero-ink); line-height: 1;
+  font-family: "Public Sans", sans-serif;
+  font-size: clamp(40px, 4.2vw, 48px); font-weight: 800; color: var(--accent); line-height: 1;
 }
-.hstat-suffix { color: var(--accent); font-size: clamp(30px, 3.4vw, 38px); font-weight: 700; }
+.hstat-suffix { color: var(--accent); font-size: clamp(30px, 3.4vw, 38px); font-weight: 800; }
 .hstat-label { font-size: 15px; font-weight: 700; color: var(--hero-muted); margin-top: 6px; }
 .hstat-num.hstat-word { font-size: clamp(24px, 2.6vw, 30px); line-height: 1.3; }
 .updated-line { font-size: 14px; color: var(--muted); margin-top: 6px; }
+.hero-updated {
+  display: inline-block; background: var(--accent-tint); color: var(--accent-dark);
+  font-weight: 800; font-size: 13px; letter-spacing: 0.04em;
+  border-radius: 999px; padding: 6px 14px; margin: 0 0 14px;
+}
 .search-notice { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 16px 18px; margin: 16px 0; }
 .search-notice p { margin: 0 0 8px; }
 .search-notice ul { margin: 8px 0 0; padding-left: 20px; }
 .search-notice a { font-weight: 700; }
 .ticker {
-  background: var(--accent); color: #FFF6EE; overflow: hidden;
-  font-weight: 700; font-size: 14px; white-space: nowrap; padding: 8px 0;
+  background: var(--accent); color: #FFFFFF; overflow: hidden;
+  font-weight: 800; font-size: 14px; white-space: nowrap; padding: 10px 0;
 }
-.ticker-track { display: inline-flex; white-space: nowrap; animation: ticker-scroll 32s linear infinite; will-change: transform; width: max-content; }
+.ticker-track { display: inline-flex; white-space: nowrap; animation: ticker-scroll 28s linear infinite; will-change: transform; width: max-content; }
 .ticker:hover .ticker-track { animation-play-state: paused; }
 @keyframes ticker-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 .ticker span { display: inline-block; padding: 0 18px; }
 
-/* Typographic sample estimate panel in the hero, paper card with a thin terracotta left rule. */
+/* Hero counter card: the big animated price. The HTML holds $1,240, so
+   the final price is visible even with JavaScript off. */
 .hero-card {
   background: var(--surface); border: 1px solid var(--border);
-  border-left: 4px solid var(--accent);
-  border-radius: var(--radius); box-shadow: var(--shadow); padding: 24px 26px;
+  border-top: 6px solid var(--accent);
+  border-radius: 20px; box-shadow: var(--shadow-lift); padding: 28px 28px 24px;
 }
 .hero-card-label { color: var(--accent); font-weight: 800; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 6px; }
-.hero-card-title { font-family: "Playfair Display", Georgia, serif; font-size: 22px; font-weight: 700; color: var(--hero-ink); margin-bottom: 4px; }
-.hero-card-price { font-family: "Playfair Display", Georgia, serif; font-size: 34px; font-weight: 700; color: var(--accent); margin-bottom: 10px; }
-.hero-card-range { font-weight: 700; font-size: 15px; color: var(--hero-muted); margin: 8px 0 12px; }
+.hero-card-title { font-family: "Public Sans", sans-serif; font-size: 22px; font-weight: 800; color: var(--hero-ink); margin-bottom: 4px; }
+.hero-card-price { font-family: "Public Sans", sans-serif; font-size: 22px; font-weight: 800; color: var(--ink); margin-bottom: 10px; }
+.hero-counter {
+  display: block; font-size: clamp(56px, 6vw, 72px); line-height: 1;
+  font-weight: 800; letter-spacing: -0.03em; color: var(--accent);
+  margin: 2px 0 4px; font-variant-numeric: tabular-nums;
+}
+.hero-card-range { font-weight: 800; font-size: 16px; color: var(--hero-muted); margin: 8px 0 12px; }
+.hero-card-range-bar { height: 10px; background: var(--surface-soft); border-radius: 999px; overflow: hidden; margin: 10px 0 4px; }
+.hero-card-range-bar span { display: block; height: 100%; width: 50%; background: var(--accent); border-radius: 999px; }
 .hero-card-note { font-size: 14px; color: var(--hero-muted); margin-bottom: 0; }
 .hero-card-note a { font-weight: 700; }
 
@@ -268,7 +306,7 @@ section { animation: fade-rise 0.5s ease both; }
   list-style: none; margin: 18px 0 0; padding: 0;
   display: flex; flex-wrap: wrap; gap: 8px 28px;
 }
-.trust-row li { display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 15px; color: var(--hero-muted); }
+.trust-row li { display: flex; align-items: center; gap: 8px; font-weight: 800; font-size: 15px; color: var(--hero-muted); }
 .trust-row li::before { content: "\2713"; color: var(--accent); font-weight: 800; }
 
 /* Search */
@@ -279,13 +317,12 @@ section { animation: fade-rise 0.5s ease both; }
   font-size: 16px;
 }
 .search-box input:focus { outline: 3px solid var(--accent-tint); border-color: var(--accent); }
-/* Dark mode only: warm light grey placeholder, readable on the charcoal surface. Light mode placeholder is untouched. */
-:root[data-theme="dark"] .search-box input::placeholder { color: #D8CDBD; opacity: 1; }
-:root[data-theme="dark"] .search-box input::-webkit-input-placeholder { color: #D8CDBD; opacity: 1; }
+:root[data-theme="dark"] .search-box input::placeholder { color: #B7C8BE; opacity: 1; }
+:root[data-theme="dark"] .search-box input::-webkit-input-placeholder { color: #B7C8BE; opacity: 1; }
 .search-results { list-style: none; margin: 8px 0 0; padding: 0; max-width: 640px; }
 .search-results li a {
   display: block; background: var(--surface); color: var(--ink); text-decoration: none;
-  padding: 12px 16px; border-radius: 12px; margin-bottom: 6px; font-weight: 600;
+  padding: 12px 16px; border-radius: 12px; margin-bottom: 6px; font-weight: 700;
   border: 1px solid var(--border);
 }
 .search-results li a:hover { background: var(--accent-tint); }
@@ -296,12 +333,11 @@ section { animation: fade-rise 0.5s ease both; }
 .card {
   background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
   padding: 24px; box-shadow: var(--shadow);
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
   display: flex; flex-direction: column;
   height: 100%;
 }
-.card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(43, 35, 32, 0.12); }
-/* Terracotta tint band at the top of every card, holding a small inline SVG icon. */
+.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lift); border-color: var(--accent); }
 .card-art {
   flex: none;
   margin: -24px -24px 18px;
@@ -323,35 +359,38 @@ section { animation: fade-rise 0.5s ease both; }
 .card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
 .card-cat {
   display: inline-block; background: var(--accent-tint); color: var(--accent-dark);
-  border-radius: 999px; padding: 4px 10px; font-size: 12px; font-weight: 700;
+  border-radius: 999px; padding: 4px 10px; font-size: 12px; font-weight: 800;
   text-transform: uppercase; letter-spacing: 0.08em; white-space: nowrap;
 }
-.price-bar { height: 8px; background: var(--surface-soft); border-radius: 999px; overflow: hidden; margin: 14px 0 6px; }
-.price-bar span { display: block; height: 100%; background: linear-gradient(90deg, var(--accent), var(--accent-dark)); border-radius: 999px; }
+/* Price bar: inline width in the HTML is the final state. JavaScript
+   animates from 0 to that width on scroll; without JavaScript the bar
+   simply shows at its final width. */
+.price-bar { height: 10px; background: var(--surface-soft); border-radius: 999px; overflow: hidden; margin: 14px 0 6px; }
+.price-bar span { display: block; height: 100%; background: var(--accent); border-radius: 999px; transition: width 0.6s ease; }
 .price-row { display: flex; justify-content: space-between; font-size: 13px; color: var(--muted); font-weight: 700; }
 .card a { text-decoration: none; }
 .card a:hover { text-decoration: underline; }
 .card .card-cta, .card a.card-cta {
-  display: inline-flex; align-items: center; align-self: flex-start; gap: 6px; font-weight: 700;
+  display: inline-flex; align-items: center; align-self: flex-start; gap: 6px; font-weight: 800;
   color: var(--accent); text-decoration: none; margin-top: auto; padding: 9px 16px;
   border: 1px solid var(--accent); border-radius: 999px; font-size: 15px;
 }
-.card .card-cta:hover, .card a.card-cta:hover { color: var(--accent-dark); text-decoration: none; background: var(--accent-tint); border-color: var(--accent-dark); }
+.card .card-cta:hover, .card a.card-cta:hover { color: #FFFFFF; text-decoration: none; background: var(--accent); border-color: var(--accent); }
 .bucket-links { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
 .bucket-links a {
   display: flex; align-items: center; justify-content: space-between; gap: 10px;
-  color: var(--ink); text-decoration: none; font-weight: 600; font-size: 15px;
+  color: var(--ink); text-decoration: none; font-weight: 700; font-size: 15px;
   padding: 9px 12px; border: 1px solid var(--border); border-radius: 12px;
   background: var(--surface-soft);
 }
 .bucket-links a:hover { text-decoration: none; border-color: var(--accent); color: var(--accent); }
-.bucket-links a span { color: var(--accent); font-weight: 700; }
+.bucket-links a span { color: var(--accent); font-weight: 800; }
 .bucket-links a:hover span { transform: translateX(3px); }
 .card h3 { margin-top: 0; }
 .card h3 a { color: var(--ink); text-decoration: none; }
 .card h3 a:hover { color: var(--accent); }
 .card .meta { color: var(--muted); font-size: 14px; font-weight: 600; }
-.card .price { font-family: "Playfair Display", Georgia, serif; font-size: 24px; font-weight: 700; color: var(--accent); }
+.card .price { font-family: "Public Sans", sans-serif; font-size: 30px; font-weight: 800; letter-spacing: -0.02em; color: var(--accent); }
 .tag {
   display: inline-block; background: var(--surface-soft); color: var(--muted);
   border-radius: 999px; padding: 4px 10px; font-size: 13px; font-weight: 700;
@@ -371,7 +410,7 @@ section { animation: fade-rise 0.5s ease both; }
 .how-step-num {
   display: inline-flex; align-items: center; justify-content: center;
   width: 44px; height: 44px; border-radius: 50%;
-  background: var(--accent); color: #FFF6EE; font-size: 20px; font-weight: 800;
+  background: var(--accent); color: #FFFFFF; font-size: 20px; font-weight: 800;
   margin-bottom: 12px;
 }
 .how-steps h3 { margin: 0 0 6px; font-size: 20px; }
@@ -393,12 +432,12 @@ section { animation: fade-rise 0.5s ease both; }
 .calc-field .hint { color: var(--muted); font-size: 14px; margin-top: 4px; }
 .calc-field select {
   appearance: none; -webkit-appearance: none; cursor: pointer; border-width: 2px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23BC5233' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%230B7A5F' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
   background-repeat: no-repeat; background-position: right 14px center; background-size: 16px;
   padding-right: 44px;
 }
 .calc-field select:focus, .calc-field input:focus {
-  outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px rgba(188, 82, 51, 0.15);
+  outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px rgba(11, 122, 95, 0.15);
 }
 .calc-field input[type="range"] { accent-color: var(--accent); height: 28px; }
 .receipt {
@@ -407,8 +446,8 @@ section { animation: fade-rise 0.5s ease both; }
 }
 .receipt h3 { margin-top: 0; }
 .receipt .receipt-total {
-  font-family: "Playfair Display", Georgia, serif; font-size: 34px; font-weight: 700;
-  color: var(--accent); line-height: 1.1;
+  font-family: "Public Sans", sans-serif; font-size: 44px; font-weight: 800;
+  letter-spacing: -0.02em; color: var(--accent); line-height: 1.1;
 }
 .receipt .receipt-range { font-size: 15px; color: var(--muted); font-weight: 600; }
 .receipt table { width: 100%; border-collapse: collapse; margin-top: 12px; font-size: 15px; }
@@ -416,22 +455,27 @@ section { animation: fade-rise 0.5s ease both; }
 .receipt td:last-child { text-align: right; font-weight: 600; }
 .receipt-bar { margin-top: 14px; }
 .live-note {
-  display: inline-block; background: var(--accent-tint); color: var(--accent-dark); font-weight: 700;
+  display: inline-block; background: var(--accent-tint); color: var(--accent-dark); font-weight: 800;
   border-radius: 999px; padding: 6px 14px; font-size: 14px;
 }
 
-/* Price bands */
-.bands { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 34px 0 20px; }
+/* Price bands, with a visual Low / Typical / High track above them. */
+.bands { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 34px 0 20px; position: relative; }
+.bands::before {
+  content: ""; grid-column: 1 / -1; height: 10px; border-radius: 999px;
+  background: linear-gradient(90deg, var(--surface-soft) 0 30%, var(--accent) 30% 70%, var(--surface-soft) 70% 100%);
+  margin-bottom: -4px;
+}
 .band {
   border: 1px solid var(--border); border-radius: var(--radius); padding: 18px;
   text-align: center; background: var(--surface); position: relative;
 }
 .band-typical { border: 2px solid var(--accent); background: var(--accent-tint); }
-.band .band-label { font-weight: 700; color: var(--muted); font-size: 14px; text-transform: uppercase; letter-spacing: 0.08em; }
-.band .band-price { font-family: "Playfair Display", Georgia, serif; font-size: 30px; font-weight: 700; color: var(--accent); margin: 6px 0; }
+.band .band-label { font-weight: 800; color: var(--muted); font-size: 14px; text-transform: uppercase; letter-spacing: 0.08em; }
+.band .band-price { font-family: "Public Sans", sans-serif; font-size: 34px; font-weight: 800; letter-spacing: -0.02em; color: var(--accent); margin: 6px 0; }
 .band-tag {
   position: absolute; top: -13px; left: 50%; transform: translateX(-50%);
-  background: var(--accent); color: #FFF6EE;
+  background: var(--accent); color: #FFFFFF;
   font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.06em;
   padding: 4px 12px; border-radius: 999px; white-space: nowrap; margin: 0;
 }
@@ -441,12 +485,12 @@ section { animation: fade-rise 0.5s ease both; }
 .table-hint { display: none; }
 table.cost-table { width: 100%; border-collapse: collapse; min-width: 560px; background: var(--surface); }
 .cost-table th, .cost-table td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--border); }
-.cost-table th { background: var(--surface-green); color: #FFF6EE; font-size: 14px; text-transform: uppercase; letter-spacing: 0.05em; }
+.cost-table th { background: var(--surface-green); color: #FFFFFF; font-size: 14px; text-transform: uppercase; letter-spacing: 0.05em; }
 .cost-table td:last-child, .cost-table th:last-child,
 .cost-table td:nth-child(3), .cost-table th:nth-child(3),
 .cost-table td:nth-child(4), .cost-table th:nth-child(4) { text-align: right; font-weight: 600; }
 .cost-table tbody tr:hover td { background: var(--surface-soft); }
-.cost-table tr.total td { font-weight: 700; border-top: 2px solid var(--accent); }
+.cost-table tr.total td { font-weight: 800; border-top: 2px solid var(--accent); }
 .cost-table caption { text-align: left; font-weight: 700; padding-bottom: 8px; }
 
 /* Answer box, steps, lists */
@@ -460,11 +504,11 @@ table.cost-table { width: 100%; border-collapse: collapse; min-width: 560px; bac
 .steps li::before {
   content: counter(step); position: absolute; left: 0; top: 12px;
   width: 34px; height: 34px; border-radius: 50%; background: var(--accent);
-  color: #FFF6EE; font-weight: 700; display: flex; align-items: center; justify-content: center;
+  color: #FFFFFF; font-weight: 800; display: flex; align-items: center; justify-content: center;
 }
 .checklist { list-style: none; padding: 0; }
 .checklist li { padding: 6px 0 6px 30px; position: relative; }
-.checklist li::before { content: "\2713"; position: absolute; left: 4px; color: var(--accent); font-weight: 700; }
+.checklist li::before { content: "\2713"; position: absolute; left: 4px; color: var(--accent); font-weight: 800; }
 .checklist-x li::before { content: "\2715"; color: var(--danger); }
 .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
 .two-col > div {
@@ -473,9 +517,12 @@ table.cost-table { width: 100%; border-collapse: collapse; min-width: 560px; bac
 }
 .two-col > div h3 { margin-top: 0; }
 .note { color: var(--muted); font-size: 14px; }
-.kicker { color: var(--accent); font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; font-size: 13px; }
+.kicker { color: var(--accent); font-weight: 800; text-transform: uppercase; letter-spacing: 0.12em; font-size: 13px; }
 .crumb { color: var(--muted); font-size: 14px; }
 .post-date { color: var(--muted); font-size: 14px; font-weight: 600; }
+.page-byline { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: 15px; color: var(--muted); margin: 0 0 4px; }
+.page-byline strong { color: var(--ink); }
+.page-byline .byline-dot { color: var(--accent); font-weight: 800; }
 
 /* FAQ */
 details.faq {
@@ -483,7 +530,7 @@ details.faq {
   margin-bottom: 10px; background: var(--surface);
 }
 details.faq summary {
-  font-weight: 700; cursor: pointer; min-height: 48px;
+  font-weight: 800; cursor: pointer; min-height: 48px;
   display: flex; align-items: center; list-style: none; gap: 12px;
 }
 details.faq summary::after {
@@ -536,7 +583,7 @@ details.faq p { margin: 10px 0 4px; }
 /* Guide pages, scoped under .post. */
 .post .post-head { margin-bottom: 4px; }
 .post .crumb { margin: 26px 0 0; }
-.post .crumb a { text-decoration: none; font-weight: 600; }
+.post .crumb a { text-decoration: none; font-weight: 700; }
 .post .crumb a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .post .post-date {
   display: inline-block; background: var(--surface-soft);
@@ -544,14 +591,13 @@ details.faq p { margin: 10px 0 4px; }
   padding: 6px 14px; margin: 18px 0 0; font-size: 13px; letter-spacing: 0.02em;
 }
 .post h1 {
-  letter-spacing: -0.01em; margin: 14px 0 8px; padding-bottom: 20px;
+  letter-spacing: -0.025em; margin: 14px 0 8px; padding-bottom: 20px;
   border-bottom: none; position: relative;
 }
-/* Editorial double rule under the guide header, replacing the photo hero. */
 .post .post-hero {
   background: transparent; border: none; box-shadow: none;
   padding: 0 0 24px; margin: 18px 0 8px;
-  border-bottom: 3px double var(--accent);
+  border-bottom: 3px solid var(--accent);
 }
 .post .post-hero .crumb { margin: 0 0 18px; }
 .post .post-hero-grid {
@@ -567,17 +613,17 @@ details.faq p { margin: 10px 0 4px; }
 .post .post-avatar {
   display: inline-flex; align-items: center; justify-content: center;
   width: 44px; height: 44px; border-radius: 12px; flex: none;
-  background: var(--accent); color: #FFF6EE;
-  font-family: "Playfair Display", Georgia, serif; font-size: 24px; font-weight: 700;
+  background: var(--accent); color: #FFFFFF;
+  font-family: "Public Sans", sans-serif; font-size: 24px; font-weight: 800;
 }
 .post .post-byline-text { display: flex; flex-direction: column; gap: 2px; }
-.post .post-author { font-weight: 700; font-size: 15px; color: var(--ink); }
+.post .post-author { font-weight: 800; font-size: 15px; color: var(--ink); }
 .post .post-byline .post-date {
   background: transparent; border: none; padding: 0; margin: 0;
   font-size: 14px; font-weight: 600; color: var(--muted);
 }
 .post h2 {
-  font-size: clamp(26px, 3.4vw, 33px); letter-spacing: -0.01em;
+  font-size: clamp(26px, 3.4vw, 33px); letter-spacing: -0.02em;
   margin: 56px 0 18px; padding-top: 32px;
   border-top: 1px solid var(--border); position: relative;
 }
@@ -602,13 +648,13 @@ details.faq p { margin: 10px 0 4px; }
 }
 .post .reading-progress span {
   display: block; height: 100%; width: 0;
-  background: linear-gradient(90deg, var(--accent), var(--accent-dark));
+  background: var(--accent);
   border-radius: 999px;
 }
 
 /* Direct answer box */
 .post .answer {
-  background: linear-gradient(180deg, var(--post-answer-bg), var(--surface));
+  background: var(--post-answer-bg);
   border: 1px solid var(--post-answer-border);
   border-left: 4px solid var(--accent);
   border-radius: 16px; padding: 24px 26px 22px;
@@ -662,7 +708,7 @@ details.faq p { margin: 10px 0 4px; }
   color: var(--muted); padding: 16px 18px 10px;
 }
 .post .cost-table th {
-  background: var(--post-table-head); color: #FFF6EE;
+  background: var(--post-table-head); color: #FFFFFF;
   padding: 14px 16px; font-size: 13px; letter-spacing: 0.06em; border-bottom: none;
 }
 .post .cost-table th:first-child { border-top-left-radius: 15px; }
@@ -695,7 +741,7 @@ details.faq p { margin: 10px 0 4px; }
 .post .steps li:last-child { border-bottom: none; }
 .post .steps li::before {
   top: 16px; width: 38px; height: 38px; font-size: 16px;
-  box-shadow: 0 2px 8px rgba(43, 35, 32, 0.18);
+  box-shadow: 0 2px 8px rgba(16, 32, 27, 0.18);
 }
 .post .steps li strong { color: var(--ink); }
 .post .two-col { gap: 18px; margin: 24px 0; max-width: 860px; }
@@ -735,7 +781,7 @@ details.faq p { margin: 10px 0 4px; }
 /* Share row */
 .post .share-row { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; margin: 0; }
 .post .share-row-bottom { margin: 36px 0 8px; padding-top: 24px; border-top: 1px solid var(--border); }
-.post .share-label { font-weight: 700; font-size: 14px; color: var(--muted); margin-right: 2px; }
+.post .share-label { font-weight: 800; font-size: 14px; color: var(--muted); margin-right: 2px; }
 .post .share-btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 8px;
   min-height: 44px; padding: 9px 16px; border-radius: 999px;
@@ -759,7 +805,7 @@ details.faq p { margin: 10px 0 4px; }
 }
 .post .post-toc.is-ready { display: block; }
 .post .post-toc-title {
-  font-family: "Playfair Display", Georgia, serif; font-weight: 700;
+  font-family: "Public Sans", sans-serif; font-weight: 800;
   font-size: 15px; letter-spacing: 0.04em; text-transform: uppercase;
   color: var(--ink); margin: 0 0 10px; padding-bottom: 10px;
   border-bottom: 1px solid var(--border);
@@ -787,21 +833,21 @@ details.faq p { margin: 10px 0 4px; }
 .post .post-body details.faq p { font-size: 18px; line-height: 1.7; }
 .post .post-body .table-wrap, .post .post-body .two-col { max-width: 860px; }
 
-/* Key takeaways box */
+/* Key facts box: built from facts already stated on the same page. */
 .post .key-takeaways {
-  background: var(--accent-tint); border: 1px solid var(--border); border-left: 4px solid var(--accent);
+  background: var(--accent-tint); border: 1px solid var(--border); border-top: 4px solid var(--accent);
   border-radius: 16px; padding: 22px 26px; margin: 20px 0 8px;
   box-shadow: var(--shadow); max-width: 720px;
 }
 .post .key-takeaways-title {
-  font-family: "Playfair Display", Georgia, serif; font-weight: 700;
+  font-family: "Public Sans", sans-serif; font-weight: 800;
   font-size: 17px; letter-spacing: 0.02em; color: var(--ink);
   margin: 0 0 10px;
 }
 .post .key-takeaways ul { margin: 0; padding-left: 20px; }
 .post .key-takeaways li { font-size: 17px; line-height: 1.65; margin-bottom: 8px; }
 .post .key-takeaways li:last-child { margin-bottom: 0; }
-.post .key-takeaways li::marker { color: var(--accent-dark); font-weight: 700; }
+.post .key-takeaways li::marker { color: var(--accent-dark); font-weight: 800; }
 
 /* Pull-quote callout */
 .post .pull-quote {
@@ -830,23 +876,23 @@ details.faq p { margin: 10px 0 4px; }
 
 /* Mid-guide calculator banner, inserted by JS after the first table */
 .post .calc-banner {
-  background: var(--surface-green); color: #FFF6EE;
+  background: var(--surface-green); color: #FFFFFF;
   border-radius: var(--radius); padding: 24px 28px; margin: 28px 0;
   box-shadow: var(--shadow); max-width: 860px;
 }
 .post .calc-banner-label {
   font-size: 12.5px; font-weight: 800; letter-spacing: 0.12em;
-  text-transform: uppercase; color: #F7E8DF; margin: 0 0 8px;
+  text-transform: uppercase; color: #D2F2E6; margin: 0 0 8px;
 }
 .post .calc-banner-title {
-  font-family: "Playfair Display", Georgia, serif; font-weight: 700;
-  font-size: 24px; line-height: 1.3; color: #FFF6EE; margin: 0 0 16px;
+  font-family: "Public Sans", sans-serif; font-weight: 800;
+  font-size: 24px; line-height: 1.3; color: #FFFFFF; margin: 0 0 16px;
 }
 .post .calc-banner-note {
-  font-size: 15px; line-height: 1.6; color: #F7E8DF; margin: 0 0 16px;
+  font-size: 15px; line-height: 1.6; color: #D2F2E6; margin: 0 0 16px;
 }
-.post .calc-banner .btn { margin: 0; background: #FFF6EE; color: var(--accent-dark); }
-.post .calc-banner .btn:hover { background: #F7E8DF; }
+.post .calc-banner .btn { margin: 0; background: #FFFFFF; color: var(--accent-dark); }
+.post .calc-banner .btn:hover { background: #E3F2EC; }
 
 /* Responsive */
 html, body { overflow-x: hidden; overflow-x: clip; }
@@ -860,7 +906,7 @@ html, body { overflow-x: hidden; overflow-x: clip; }
     display: flex; flex-direction: column; align-items: stretch; gap: 2px;
     position: absolute; top: 100%; left: 0; right: 0;
     background: var(--surface); border-bottom: 1px solid var(--border);
-    box-shadow: 0 12px 24px rgba(43, 35, 32, 0.12);
+    box-shadow: 0 12px 24px rgba(16, 32, 27, 0.12);
     padding: 8px 18px 12px; margin-left: 0;
   }
   .site-header.nav-open .site-nav a {
@@ -878,6 +924,7 @@ html, body { overflow-x: hidden; overflow-x: clip; }
   .logo-tag { font-size: 9px; }
   .head-cta { font-size: 13.5px; padding: 9px 15px; }
   .grid, .grid-2, .bands, .two-col { grid-template-columns: 1fr; }
+  .bands::before { display: none; }
   .hero-stats { grid-template-columns: repeat(3, 1fr); gap: 10px; }
   .hstat-num { font-size: 36px; }
   .hstat-label { font-size: 14px; }
@@ -929,8 +976,9 @@ html, body { overflow-x: hidden; overflow-x: clip; }
 @media (max-width: 480px) {
   .head-cta { display: none; }
   .header-actions { gap: 8px; }
-  .hero-card-price { font-size: 28px; white-space: nowrap; }
-  .receipt .receipt-total { font-size: 30px; }
+  .hero-card-price { font-size: 20px; }
+  .hero-counter { font-size: 52px; white-space: nowrap; }
+  .receipt .receipt-total { font-size: 38px; }
   .hstat-num { font-size: 30px; }
   .hstat-suffix { font-size: 24px; }
   .hstat-label { font-size: 12px; }
@@ -954,35 +1002,46 @@ html, body { overflow-x: hidden; overflow-x: clip; }
   .post .cost-table th, .post .cost-table td { padding: 11px 12px; }
 }
 
-/* Dark mode polish: tinted surfaces, never washed-out grey. */
+/* Dark mode polish. */
 :root[data-theme="dark"] .post .answer { box-shadow: 0 8px 28px rgba(0, 0, 0, 0.45); }
-:root[data-theme="dark"] .post .cost-table th { background: var(--post-table-head); color: #F5EDE0; }
+:root[data-theme="dark"] .post .cost-table th { background: var(--post-table-head); color: #FFFFFF; }
 :root[data-theme="dark"] .post .steps li::before { box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); }
 :root[data-theme="dark"] .post .table-wrap { box-shadow: 0 8px 28px rgba(0, 0, 0, 0.35); }
 :root[data-theme="dark"] .post .answer { padding: 30px 32px 28px; }
 :root[data-theme="dark"] .post .key-takeaways { padding: 28px 30px; }
 :root[data-theme="dark"] .post .pull-quote { padding: 28px 30px; }
-:root[data-theme="dark"] .post .calc-banner { padding: 30px 32px; background: #3D2C22; border: 1px solid #4A3D31; }
-:root[data-theme="dark"] .post .calc-banner-note { color: #D8CBB8; }
+:root[data-theme="dark"] .post .calc-banner { padding: 30px 32px; background: #123528; border: 1px solid #2C463B; }
+:root[data-theme="dark"] .post .calc-banner-note { color: #A9BDB3; }
 :root[data-theme="dark"] .post .post-toc { padding: 24px; }
 :root[data-theme="dark"] .post .cost-table td { padding: 16px 18px; }
 :root[data-theme="dark"] .post .cost-table th { padding: 16px 18px; }
 :root[data-theme="dark"] .post details.faq { padding: 6px 24px; }
 :root[data-theme="dark"] .post h2 { margin-top: 68px; }
-:root[data-theme="dark"] .post .post-byline .post-date { color: #C9BBA9; }
-:root[data-theme="dark"] .post .answer p.note { color: #D8CBB8; }
-:root[data-theme="dark"] .post .refs p { color: #C9BBA9; }
-:root[data-theme="dark"] .post .share-btn { background: #3A2E25; border-color: #4A3D31; }
+:root[data-theme="dark"] .post .post-byline .post-date { color: #A9BDB3; }
+:root[data-theme="dark"] .post .answer p.note { color: #A9BDB3; }
+:root[data-theme="dark"] .post .refs p { color: #A9BDB3; }
+:root[data-theme="dark"] .post .share-btn { background: #1D322A; border-color: #2C463B; }
 :root[data-theme="dark"] .post .share-btn:hover { border-color: var(--accent); }
 :root[data-theme="dark"] .calc-field select {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23E0784F' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%233DD598' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
 }
 :root[data-theme="dark"] .card:hover { box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5); }
+:root[data-theme="dark"] .hero {
+  background:
+    radial-gradient(720px 260px at 85% -40px, #123528, transparent 70%),
+    radial-gradient(560px 220px at -5% 0, #123528, transparent 65%),
+    var(--hero-bg);
+}
+:root[data-theme="dark"] .calc-field select:focus, :root[data-theme="dark"] .calc-field input:focus {
+  box-shadow: 0 0 0 3px rgba(61, 213, 152, 0.25);
+}
 
-/* Reduced motion: no fade rise, no ticker scroll, no smooth scroll. */
+/* Reduced motion: no ticker scroll, no rise, no smooth scroll. Counters
+   and bars show their final values immediately (handled in main.js). */
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .ticker-track { animation: none; }
-  .hero-copy, .hero-card, .grid .card, section { animation: none; }
+  .rise { animation: none; }
+  .price-bar span { transition: none; }
   * { transition: none; }
 }
