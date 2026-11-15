@@ -104,7 +104,7 @@ schema: |
 </div>
 
 <div class="key-takeaways">
-<p class="key-takeaways-title">Key takeaways</p>
+<p class="key-takeaways-title">Key facts</p>
 <ul>
 <li>A typical full synthetic oil change costs about $75, with a sample range of $45 to $140.</li>
 <li>Conventional oil costs $35 to $75, synthetic blend $40 to $100, and full synthetic $65 to $125.</li>
