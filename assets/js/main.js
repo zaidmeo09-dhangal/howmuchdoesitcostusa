@@ -52,7 +52,62 @@
     });
   }
 
-  /* Hero stats are static final numbers, no count-up, so they never show wrong values. */
+  /* Visible motion, safe by design: the HTML already holds the final
+     numbers and bar widths, so the page is complete without JavaScript.
+     JavaScript only animates them when they scroll into view.
+     Counters count up to their data-count value; price bars fill from
+     0 to their inline width; cards rise in. Reduced motion shows the
+     final values at once. */
+  var reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  function animateCount(el) {
+    var target = parseInt(el.getAttribute("data-count"), 10);
+    var prefix = el.getAttribute("data-prefix") || "";
+    if (isNaN(target)) return;
+    if (reduceMotion) {
+      el.textContent = prefix + target.toLocaleString("en-US");
+      return;
+    }
+    var start = null;
+    var dur = 900;
+    var step = function (ts) {
+      if (!start) start = ts;
+      var p = Math.min(1, (ts - start) / dur);
+      var eased = 1 - Math.pow(1 - p, 3);
+      el.textContent = prefix + Math.round(target * eased).toLocaleString("en-US");
+      if (p < 1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  }
+  var counters = document.querySelectorAll("[data-count]");
+  var bars = document.querySelectorAll(".card .price-bar span");
+  var risers = document.querySelectorAll(".grid .card, .how-steps li, .bands .band, .calc, .answer, .key-takeaways, .post .table-wrap, .hero-card");
+  if ("IntersectionObserver" in window && !reduceMotion) {
+    var seen = function (entries, obs) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        var el = entry.target;
+        if (el.hasAttribute("data-count")) animateCount(el);
+        if (el.classList.contains("price-bar-fill")) el.style.width = el.getAttribute("data-target-width");
+        el.classList.add("rise");
+        obs.unobserve(el);
+      });
+    };
+    var io = new IntersectionObserver(seen, { threshold: 0.15 });
+    counters.forEach(function (el) { io.observe(el); });
+    bars.forEach(function (el) {
+      el.setAttribute("data-target-width", el.style.width || "50%");
+      el.classList.add("price-bar-fill");
+      el.style.width = "0%";
+      io.observe(el);
+    });
+    risers.forEach(function (el) { io.observe(el); });
+  } else if (reduceMotion) {
+    counters.forEach(function (el) {
+      var t = parseInt(el.getAttribute("data-count"), 10);
+      var pre = el.getAttribute("data-prefix") || "";
+      if (!isNaN(t)) el.textContent = pre + t.toLocaleString("en-US");
+    });
+  }
 
   /* Homepage search: filter the page list, Enter or Check Price goes to the match.
      NOTE: this 13-entry page list is duplicated in tools.md (inline script).
