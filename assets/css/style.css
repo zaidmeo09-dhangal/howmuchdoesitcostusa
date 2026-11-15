@@ -338,17 +338,21 @@ section.wrap > h2::after {
   height: 100%;
 }
 .card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lift); border-color: var(--accent); }
+/* Card icon band: short and rich, big icon on the left, category tag and
+   price range on the right, so the band carries real content. */
 .card-art {
   flex: none;
   margin: -24px -24px 18px;
-  padding: 18px 24px;
-  background: var(--accent-tint);
-  border-bottom: 1px solid var(--border);
+  padding: 12px 20px;
+  background: linear-gradient(135deg, var(--accent-tint) 0%, var(--surface-soft) 100%);
+  border-bottom: 2px solid var(--accent);
   border-radius: 16px 16px 0 0;
   color: var(--accent);
-  display: flex; align-items: center;
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
 }
-.card-art svg { width: 30px; height: 30px; display: block; }
+.card-art svg { width: 44px; height: 44px; display: block; flex: none; }
+.card-art-meta { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; text-align: right; }
+.card-art-price { font-weight: 800; font-size: 17px; color: var(--ink); white-space: nowrap; }
 .card-icon {
   width: 52px; height: 52px; border-radius: 16px; flex: none;
   background: var(--accent-tint); color: var(--accent);
@@ -365,8 +369,8 @@ section.wrap > h2::after {
 /* Price bar: inline width in the HTML is the final state. JavaScript
    animates from 0 to that width on scroll; without JavaScript the bar
    simply shows at its final width. */
-.price-bar { height: 10px; background: var(--surface-soft); border-radius: 999px; overflow: hidden; margin: 14px 0 6px; }
-.price-bar span { display: block; height: 100%; background: var(--accent); border-radius: 999px; transition: width 0.6s ease; }
+.price-bar { height: 12px; background: var(--border); border-radius: 999px; overflow: hidden; margin: 14px 0 6px; }
+.price-bar span { display: block; height: 100%; background: linear-gradient(90deg, var(--accent-bright), var(--accent)); border-radius: 999px; transition: width 0.6s ease; }
 .price-row { display: flex; justify-content: space-between; font-size: 13px; color: var(--muted); font-weight: 700; }
 .card a { text-decoration: none; }
 .card a:hover { text-decoration: underline; }
@@ -643,8 +647,8 @@ details.faq p { margin: 10px 0 4px; }
 /* Reading progress bar under the sticky header, guide pages only */
 .post .reading-progress {
   position: sticky; top: 64px; z-index: 40;
-  height: 6px; margin: 0 -8px 4px;
-  background: var(--border); border-radius: 999px; overflow: hidden;
+  height: 8px; margin: 0 -8px 4px;
+  background: var(--accent-tint); border-radius: 999px; overflow: hidden;
 }
 .post .reading-progress span {
   display: block; height: 100%; width: 0;
