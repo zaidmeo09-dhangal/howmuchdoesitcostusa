@@ -61,6 +61,8 @@
   var reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   function animateCount(el) {
     var target = parseInt(el.getAttribute("data-count"), 10);
+    var startVal = parseInt(el.getAttribute("data-start"), 10);
+    if (isNaN(startVal)) startVal = 0;
     var prefix = el.getAttribute("data-prefix") || "";
     if (isNaN(target)) return;
     if (reduceMotion) {
@@ -73,7 +75,7 @@
       if (!start) start = ts;
       var p = Math.min(1, (ts - start) / dur);
       var eased = 1 - Math.pow(1 - p, 3);
-      el.textContent = prefix + Math.round(target * eased).toLocaleString("en-US");
+      el.textContent = prefix + Math.round(startVal + (target - startVal) * eased).toLocaleString("en-US");
       if (p < 1) requestAnimationFrame(step);
     };
     requestAnimationFrame(step);
@@ -243,7 +245,7 @@
         var total = postArticle.offsetHeight - window.innerHeight;
         var done = window.scrollY - postArticle.offsetTop;
         var pct = total > 0 ? Math.min(100, Math.max(0, (done / total) * 100)) : 0;
-        bar.style.width = pct + "%";
+        bar.style.width = Math.max(pct, 6) + "%";
       };
       window.addEventListener("scroll", onScroll, { passive: true });
       window.addEventListener("resize", onScroll);
