@@ -120,12 +120,13 @@ section.wrap > h1 {
   margin-bottom: 20px;
 }
 
-/* Gentle fade rise, staggered on cards. Disabled for reduced motion. */
+/* Gentle fade rise, staggered on cards. Starts near visible so the page
+   never reads as blank. Disabled for reduced motion. */
 @keyframes fade-rise {
-  from { opacity: 0; transform: translateY(14px); }
+  from { opacity: 0.65; transform: translateY(8px); }
   to { opacity: 1; transform: translateY(0); }
 }
-.hero-copy, .hero-card { animation: fade-rise 0.6s ease both; }
+.hero-copy, .hero-card { animation: fade-rise 0.5s ease both; }
 .hero-card { animation-delay: 0.08s; }
 .grid .card { animation: fade-rise 0.5s ease both; }
 .grid .card:nth-child(2) { animation-delay: 0.06s; }
@@ -278,6 +279,9 @@ section { animation: fade-rise 0.5s ease both; }
   font-size: 16px;
 }
 .search-box input:focus { outline: 3px solid var(--accent-tint); border-color: var(--accent); }
+/* Dark mode only: warm light grey placeholder, readable on the charcoal surface. Light mode placeholder is untouched. */
+:root[data-theme="dark"] .search-box input::placeholder { color: #D8CDBD; opacity: 1; }
+:root[data-theme="dark"] .search-box input::-webkit-input-placeholder { color: #D8CDBD; opacity: 1; }
 .search-results { list-style: none; margin: 8px 0 0; padding: 0; max-width: 640px; }
 .search-results li a {
   display: block; background: var(--surface); color: var(--ink); text-decoration: none;
