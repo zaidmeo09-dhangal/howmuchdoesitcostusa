@@ -1095,11 +1095,16 @@ h1, h2 {
   letter-spacing: 0.01em;
 }
 
-/* Card photo headers: image bleeds to the card edges, replaces the small icon. */
+/* Card photo headers: image bleeds to the card edges, replaces the small icon.
+   Every card file is now exactly 800x500 (16/10) and every hero file exactly
+   1200x675 (16/9), so all cards render the same height even before CSS loads.
+   flex: none stops the column flex card from ever stretching the image box. */
 .card-img {
   display: block;
+  flex: none;
   width: calc(100% + 48px);
   max-width: none;
+  height: auto;
   margin: -24px -24px 18px;
   aspect-ratio: 16 / 10;
   object-fit: cover;
@@ -1107,6 +1112,10 @@ h1, h2 {
   border-radius: 20px 20px 0 0;
   background: var(--surface-soft);
 }
+
+/* Cards in a row are always the same height: the grid stretches them and the
+   button is pinned to the bottom with margin-top auto. */
+.grid .card { height: 100%; }
 
 /* Homepage hero photo with floating Typical price badge.
    The badge sits inside .hero-photo (the image only), so it can never
@@ -1169,7 +1178,7 @@ h1, h2 {
    landscape with the subject centred. The !important on object-position
    overrides the per-page image_pos inline style, so all heroes crop alike. */
 .post-hero-img {
-  display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover;
+  display: block; flex: none; width: 100%; aspect-ratio: 16 / 9; object-fit: cover;
   object-position: center !important;
   border-radius: 20px; margin-top: 22px;
   background: var(--surface-soft);
@@ -1178,7 +1187,7 @@ h1, h2 {
 
 /* Calculator header photo band. Same fixed landscape ratio as guide heroes. */
 .calc-hero-img {
-  display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover;
+  display: block; flex: none; width: 100%; aspect-ratio: 16 / 9; object-fit: cover;
   object-position: center !important;
   border-radius: 20px; margin: 4px 0 0;
   background: var(--surface-soft);
