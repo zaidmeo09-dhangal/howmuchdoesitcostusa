@@ -89,13 +89,6 @@ schema: |
       <li>Updated November 14, 2026</li>
     </ul>
   </div>
-  <div class="wrap">
-    <div class="hero-stats">
-      <div class="hstat"><div><span class="hstat-num"><span class="count" data-count="6" data-start="4">6</span></span></div><div class="hstat-label">Cost guides live</div></div>
-      <div class="hstat"><div><span class="hstat-num"><span class="count" data-count="7" data-start="5">7</span></span></div><div class="hstat-label">Calculators</div></div>
-      <div class="hstat"><div><span class="hstat-num"><span class="count" data-count="100" data-start="90">100</span>%</span></div><div class="hstat-label">Free to use</div></div>
-    </div>
-  </div>
 </section>
 
 <section class="wrap how-it-works">
