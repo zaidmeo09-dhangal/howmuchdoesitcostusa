@@ -95,6 +95,7 @@ schema: |
   <p class="crumb"><a href="{{ '/' | relative_url }}">Home</a> / <a href="{{ '/tools/' | relative_url }}">Tools</a> / House Painting Cost Calculator</p>
   <p class="kicker">Free Calculator</p>
   <h1>How Much Does It Cost to Paint a House?</h1>
+  <p class="page-byline">By <strong>How Much Does It Cost USA Team</strong> <span class="byline-dot" aria-hidden="true">|</span> Updated November 2026</p>
   <div class="answer">
     <p id="answerIntro">A typical exterior paint job for a 1,800 sq ft home in the USA costs about $4,200, with a sample range of $2,800 to $6,800.</p>
     <p class="note">All prices on this page are sample estimated USA ranges, not quotes.</p>
