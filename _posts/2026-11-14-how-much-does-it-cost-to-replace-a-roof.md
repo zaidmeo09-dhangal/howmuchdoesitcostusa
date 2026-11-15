@@ -104,7 +104,7 @@ schema: |
 </div>
 
 <div class="key-takeaways">
-<p class="key-takeaways-title">Key takeaways</p>
+<p class="key-takeaways-title">Key facts</p>
 <ul>
 <li>A typical 1,800 sq ft asphalt shingle roof costs about $9,180, with a sample range of $7,528 to $11,475.</li>
 <li>Metal costs $13,500 to $21,000 with a typical total of $17,100, and clay tile costs $16,000 to $25,000 with a typical total of $21,600.</li>
