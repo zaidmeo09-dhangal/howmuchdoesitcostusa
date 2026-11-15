@@ -60,7 +60,8 @@ schema: |
   <div class="wrap hero-grid">
     <div class="hero-copy">
       <p class="kicker">USA COST GUIDES + CALCULATORS</p>
-      <h1 aria-label="How much does it cost in the USA?">How much does it <span class="accent">cost</span> in the USA?</h1>
+      <p class="hero-updated">Updated November 2026</p>
+      <h1 aria-label="How much does it cost in the USA?">How much does it <span class="accent-u">cost</span> in the USA?</h1>
       <p class="lede">Real price ranges for the jobs Americans actually pay for. Pick a calculator, answer a few questions, and see your low, typical, and high price in seconds.</p>
       <p class="hero-answer">A typical 2-bedroom local move costs about <strong>$1,240</strong>, in a range of $843 to $1,637. See the full breakdown in the <a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator</a>.</p>
       <form class="search-box" id="searchForm" role="search" action="{{ '/tools/' | relative_url }}" method="get">
@@ -74,8 +75,9 @@ schema: |
     <aside class="hero-card" aria-label="Sample estimate">
       <p class="hero-card-label">Sample estimate</p>
       <p class="hero-card-title">2-bedroom local move</p>
-      <p class="hero-card-price">Typical $1,240</p>
+      <p class="hero-card-price">Typical <span class="hero-counter" data-count="1240" data-prefix="$">$1,240</span></p>
       <p class="hero-card-range">Low $843 - High $1,637</p>
+      <div class="hero-card-range-bar" aria-hidden="true"><span style="width:50%"></span></div>
       <p class="hero-card-note">Sample estimated USA range, not a quote. <a href="{{ '/movers-cost-calculator/' | relative_url }}">Calculate your move price</a></p>
     </aside>
   </div>
@@ -84,14 +86,14 @@ schema: |
       <li>Free forever</li>
       <li>No sign-up</li>
       <li>USA prices</li>
-      <li>Nothing you type leaves your browser</li>
+      <li>Updated November 2026</li>
     </ul>
   </div>
   <div class="wrap">
     <div class="hero-stats">
       <div class="hstat"><div><span class="hstat-num"><span class="count" data-count="6">6</span></span></div><div class="hstat-label">Cost guides live</div></div>
       <div class="hstat"><div><span class="hstat-num"><span class="count" data-count="7">7</span></span></div><div class="hstat-label">Calculators</div></div>
-      <div class="hstat"><div><span class="hstat-num">100%</span></div><div class="hstat-label">Free to use</div></div>
+      <div class="hstat"><div><span class="hstat-num"><span class="count" data-count="100">100</span>%</span></div><div class="hstat-label">Free to use</div></div>
     </div>
   </div>
 </section>
