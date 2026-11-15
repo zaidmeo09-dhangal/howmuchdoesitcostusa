@@ -104,7 +104,7 @@ schema: |
 </div>
 
 <div class="key-takeaways">
-<p class="key-takeaways-title">Key takeaways</p>
+<p class="key-takeaways-title">Key facts</p>
 <ul>
 <li>A typical 2-bedroom local move costs about $1,240, with a sample range of $843 to $1,637.</li>
 <li>A long distance move of 100 to 500 miles costs about 2.1 times the local price, so a 2-bedroom move is about $2,604.</li>
