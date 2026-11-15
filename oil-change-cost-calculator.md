@@ -95,6 +95,7 @@ schema: |
   <p class="crumb"><a href="{{ '/' | relative_url }}">Home</a> / <a href="{{ '/tools/' | relative_url }}">Tools</a> / Oil Change Cost Calculator</p>
   <p class="kicker">Free Calculator</p>
   <h1>Oil Change Cost Calculator</h1>
+  <p class="page-byline">By <strong>How Much Does It Cost USA Team</strong> <span class="byline-dot" aria-hidden="true">|</span> Updated November 2026</p>
   <div class="answer">
     <p id="answerIntro">A typical full synthetic oil change in the USA costs about $75, with a sample range of $45 to $140.</p>
     <p class="note">All prices on this page are sample estimated USA ranges, not quotes. Read the full <a href="{{ '/blog/how-much-does-an-oil-change-cost/' | relative_url }}">oil change cost guide</a> for prices by oil type, provider, and vehicle.</p>
