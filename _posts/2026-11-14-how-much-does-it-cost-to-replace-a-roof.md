@@ -10,11 +10,6 @@ guide_category: "Home Costs"
 calculator_url: "/roof-replacement-cost-calculator/"
 calculator_name: "Roof Replacement Cost Calculator"
 calculator_heading: "Price your own roof"
-image: /assets/images/roof-hero.webp
-image_card: /assets/images/roof-card.webp
-image_alt: "Roofer installing asphalt shingles on a residential roof with a nail gun"
-image_w: 1200
-image_h: 675
 schema: |
   {
     "@context": "https://schema.org",
@@ -302,9 +297,9 @@ Most US cities require a permit for a full roof replacement, and the permit fee 
 ## Related links
 
 <div class="grid related-grid">
-<div class="card related-card"><img class="card-img" src="{{ '/assets/images/roof-card.webp' | relative_url }}" srcset="{{ '/assets/images/roof-card.webp' | relative_url }} 800w, {{ '/assets/images/roof-hero.webp' | relative_url }} 1200w" sizes="(max-width: 760px) 100vw, 800px" width="800" height="500" alt="Roofer installing asphalt shingles on a residential roof with a nail gun" loading="lazy" decoding="async"><div class="card-top"><span class="card-cat">Home</span></div><h3><a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Cost Calculator</a></h3><p class="price">$7,528 - $11,475</p><a class="card-cta" href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
-<div class="card related-card"><img class="card-img" src="{{ '/assets/images/fence-card.webp' | relative_url }}" srcset="{{ '/assets/images/fence-card.webp' | relative_url }} 800w, {{ '/assets/images/fence-hero.webp' | relative_url }} 1200w" sizes="(max-width: 760px) 100vw, 800px" width="800" height="500" alt="Wooden fence and gate beside a stone path in a sunny backyard" loading="lazy" decoding="async"><div class="card-top"><span class="card-cat">Home</span></div><h3><a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a></h3><p class="price">$2,100 - $5,400</p><a class="card-cta" href="{{ '/fence-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
-<div class="card related-card"><img class="card-img" src="{{ '/assets/images/fence-card.webp' | relative_url }}" srcset="{{ '/assets/images/fence-card.webp' | relative_url }} 800w, {{ '/assets/images/fence-hero.webp' | relative_url }} 1200w" sizes="(max-width: 760px) 100vw, 800px" width="800" height="500" alt="Wooden fence and gate beside a stone path in a sunny backyard" loading="lazy" decoding="async"><div class="card-top"><span class="card-cat">Guide</span></div><h3><a href="{{ '/blog/how-much-does-a-fence-cost/' | relative_url }}">How Much Does a Fence Cost?</a></h3><p class="price">$2,100 - $5,400</p><a class="card-cta" href="{{ '/blog/how-much-does-a-fence-cost/' | relative_url }}">Read the guide &rarr;</a></div>
+<div class="card related-card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12 12 3l10 9"/><path d="M6 10v10h12V10"/><path d="M9.5 14h2m2 0h2m-6 3h2m2 0h2"/></svg></div><div class="card-top"><span class="card-cat">Home</span></div><h3><a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Cost Calculator</a></h3><p class="price">$7,528 - $11,475</p><a class="card-cta" href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
+<div class="card related-card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3v18M10 3v18M16 3v18M20 3v18"/><path d="M3 8h18M3 16h18"/></svg></div><div class="card-top"><span class="card-cat">Home</span></div><h3><a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a></h3><p class="price">$2,100 - $5,400</p><a class="card-cta" href="{{ '/fence-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
+<div class="card related-card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3v18M10 3v18M16 3v18M20 3v18"/><path d="M3 8h18M3 16h18"/></svg></div><div class="card-top"><span class="card-cat">Guide</span></div><h3><a href="{{ '/blog/how-much-does-a-fence-cost/' | relative_url }}">How Much Does a Fence Cost?</a></h3><p class="price">$2,100 - $5,400</p><a class="card-cta" href="{{ '/blog/how-much-does-a-fence-cost/' | relative_url }}">Read the guide &rarr;</a></div>
 </div>
 <ul class="chip-list">
   <li><a href="{{ '/blog/how-much-does-it-cost-to-install-central-air/' | relative_url }}">How Much Does It Cost to Install Central Air? <span aria-hidden="true">&rarr;</span></a></li>
