@@ -84,6 +84,30 @@ schema: |
               "@type": "Answer",
               "text": "Replacing only the AC costs $3,911 to $8,067, per TrueRepairCost. Adding new ductwork raises the job to $7,500 to $16,000."
             }
+          },
+          {
+            "@type": "Question",
+            "name": "Should I repair or replace my central AC?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Use the $5,000 rule: multiply the age of the system in years by the cost of the repair, and replace it if the answer is over $5,000. A 12 year old system with a $500 repair gives $6,000, so replace, while the same repair on a 5 year old system gives $2,500, so repair."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I install central air in a home with no ducts?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A home with no ducts needs a full duct install, which costs far more. With new ductwork the job runs $7,500 to $16,000, per TrueRepairCost, against $3,911 to $8,067 to replace the AC only."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does it cost to install central air?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A typical 2.5 ton central air system costs about $6,800 to install, with a sample range of $5,200 to $9,500. A 1.5 ton system costs $4,080 typical, and a 3.5 ton system costs $9,520 typical, at 13.4 SEER2."
+            }
           }
         ]
       }
@@ -95,17 +119,17 @@ schema: |
   <p class="crumb"><a href="{{ '/' | relative_url }}">Home</a> / <a href="{{ '/tools/' | relative_url }}">Tools</a> / Central AC Installation Cost Calculator</p>
   <p class="kicker">Free Calculator</p>
   <h1>Central Air Installation Cost Calculator</h1>
-  <p class="page-byline">By <strong>How Much Does It Cost USA Team</strong> <span class="byline-dot" aria-hidden="true">|</span> Updated November 14, 2026</p>
+  <p class="page-byline">By <strong>How Much Does It Cost USA Team</strong> <span class="byline-dot" aria-hidden="true">|</span> Updated November 21, 2026</p>
   <div class="answer">
     <p id="answerIntro">A typical 2.5 ton central air system in the USA costs about $6,800, with a sample range of $5,200 to $9,500.</p>
     <p class="note">All prices on this page are sample estimated USA ranges, not quotes.</p>
     <p>Read the full guide: <a href="{{ '/blog/how-much-does-it-cost-to-install-central-air/' | relative_url }}">How Much Does It Cost to Install Central Air?</a></p>
-    <p class="updated-line">Updated November 14, 2026</p>
+    <p class="updated-line">Updated November 21, 2026</p>
   </div>
 
   <div class="calc">
     <h2>Central AC Installation Cost Calculator</h2>
-    <p>Pick your home size and efficiency to see a sample estimated price for a new central air system.</p>
+    <p>Pick your home size and efficiency to see the cost to install central air for your home, as a sample estimated price for a new central air system.</p>
     <div class="calc-field">
       <label for="homeSize">Home size: <span id="homeSizeVal">1,500 sq ft</span></label>
       <input type="range" id="homeSize" min="800" max="3500" step="50" value="1500">
@@ -129,7 +153,7 @@ schema: |
     </div>
   </div>
 
-  <h2>Low, typical, and high cost</h2>
+  <h2>Cost to install central air: low, typical, and high</h2>
   <p>These bands update with your calculator choices. Use them to plan your budget before you request quotes.</p>
   <div class="bands">
     <div class="band">
@@ -184,6 +208,10 @@ schema: |
   <h3>Efficiency rating (SEER2)</h3>
   <p>Higher SEER2 units cost more to buy and can lower monthly cooling bills over time. A 16 or 18 SEER2 system costs more up front than a 13.4 SEER2 system of the same size. SEER2 is the current federal test rating, and it replaced SEER for new systems.</p>
 
+  <h3>Insulation and windows</h3>
+  <p>Insulation and windows change the size your home needs, so square feet alone do not settle it. A well insulated home with good windows needs less cooling than a drafty home of the same size, and a home with large west facing windows needs more. A pro should confirm the size with a load calculation before you buy, since insulation, windows, and climate change the answer. Sealing ducts before sizing a new system also helps, since leaky ducts waste cooled air.</p>
+  <h3>Thermostat and controls</h3>
+  <p>Smart thermostat upgrades are not included in the price on this page. A new thermostat can help a new system run well, but it is a separate cost, so ask for it as its own line if you want one. Check that the thermostat works with the system you pick, and ask who sets it up and shows you how to use it. A good control does not fix a wrong size, so settle the size first.</p>
   <h2>SEER2 federal minimums by region</h2>
   <p>Since January 2023, new central air systems must meet these SEER2 minimums, per TrueRepairCost. A quote below the minimum for your region is not a legal new install.</p>
   <p class="table-hint">Swipe to see the Minimum column &rarr;</p>
@@ -280,8 +308,50 @@ schema: |
     <li>Seal ducts before sizing a new system</li>
     <li>Schedule installation in spring or fall, when Angi says you can save 10 to 15 percent</li>
     <li>Do not count on the federal 25C tax credit: it ended December 31, 2025, under Public Law 119-21, per TrueRepairCost. Check state and utility rebates instead</li>
-  </ul>
+      <li>Ask for a Manual J load calculation, not a size guess from square feet alone</li>
+    <li>Ask for a duct leakage test and a written price for any duct repair</li>
+    <li>Check state and utility rebates, since the federal 25C tax credit ended December 31, 2025</li>
+</ul>
 
+  <h2>Where the $6,800 typical total goes</h2>
+  <p>The table below repeats the typical column from the breakdown above, so you can see the share of each line at the calculator default.</p>
+  <div class="table-wrap">
+    <table class="cost-table">
+      <caption>Typical cost lines for a 2.5 ton central air system</caption>
+      <thead>
+        <tr><th>Item</th><th>Typical</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Equipment (condenser, coil)</td><td>$3,600</td></tr>
+        <tr><td>Labor and installation (2.5 ton system, 1 to 2 days)</td><td>$2,100</td></tr>
+        <tr><td>Ductwork modifications</td><td>$500</td></tr>
+        <tr><td>Electrical and permits</td><td>$350</td></tr>
+        <tr><td>Supplies and refrigerant</td><td>$250</td></tr>
+        <tr class="total"><td>Total</td><td>$6,800</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Equipment at $3,600 and labor at $2,100 together are most of the $6,800 total. Labor is 40 to 60 percent of the total, per TrueRepairCost. If a quote is far above the $9,500 high end, ask whether full duct replacement or electrical panel work is in it.</p>
+  <h2>Cost by system size</h2>
+  <p>The calculator prices tons at $2,720 each at 13.4 SEER2, so the typical price by size is the table below. A 16 SEER2 system costs 1.15 times as much, and an 18+ SEER2 system costs 1.3 times as much.</p>
+  <div class="table-wrap">
+    <table class="cost-table">
+      <caption>Typical installed cost by system size, at 13.4 SEER2</caption>
+      <thead>
+        <tr><th>System size</th><th>Typical</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1.5 tons</td><td>$4,080</td></tr>
+        <tr><td>2 tons</td><td>$5,440</td></tr>
+        <tr><td>2.5 tons</td><td>$6,800</td></tr>
+        <tr><td>3 tons</td><td>$8,160</td></tr>
+        <tr><td>3.5 tons</td><td>$9,520</td></tr>
+        <tr><td>4 tons</td><td>$10,880</td></tr>
+        <tr><td>5 tons</td><td>$13,600</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Size is the biggest driver of equipment cost, but do not pick a size from square feet alone. A pro should confirm the size with a load calculation, since insulation, windows, and climate change the answer. If your home has no ducts, add new ductwork: with new ductwork the job runs $7,500 to $16,000, per TrueRepairCost.</p>
   <h2>References</h2>
   <p>Our estimates use public US cost data as a guide. Labor cost context comes from the US Bureau of Labor Statistics, housing cost context from HUD, remodeling trends from Harvard JCHS, and material prices from Home Depot and Lowes. AC prices in this page also use Angi, TrueRepairCost, and iBuyer. All prices on this page are sample estimated USA ranges, not quotes.</p>
   <div class="refs">
@@ -329,6 +399,18 @@ schema: |
   <details class="faq">
     <summary>How much does it cost to replace central AC instead of installing new?</summary>
     <p>Replacing only the AC costs $3,911 to $8,067, per TrueRepairCost. Adding new ductwork raises the job to $7,500 to $16,000.</p>
+  </details>
+  <details class="faq">
+    <summary>Should I repair or replace my central AC?</summary>
+    <p>Use the $5,000 rule: multiply the age of the system in years by the cost of the repair, and replace it if the answer is over $5,000. A 12 year old system with a $500 repair gives $6,000, so replace, while the same repair on a 5 year old system gives $2,500, so repair.</p>
+  </details>
+  <details class="faq">
+    <summary>Can I install central air in a home with no ducts?</summary>
+    <p>A home with no ducts needs a full duct install, which costs far more. With new ductwork the job runs $7,500 to $16,000, per TrueRepairCost, against $3,911 to $8,067 to replace the AC only.</p>
+  </details>
+  <details class="faq">
+    <summary>How much does it cost to install central air?</summary>
+    <p>A typical 2.5 ton central air system costs about $6,800 to install, with a sample range of $5,200 to $9,500. A 1.5 ton system costs $4,080 typical, and a 3.5 ton system costs $9,520 typical, at 13.4 SEER2.</p>
   </details>
 </section>
 
