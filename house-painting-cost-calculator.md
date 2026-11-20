@@ -84,6 +84,54 @@ schema: |
               "@type": "Answer",
               "text": "Exterior painting costs $1.50 to $4 per square foot, per Angi. Our calculator uses $2.33 per square foot of floor area, which sits inside that range."
             }
+          },
+          {
+            "@type": "Question",
+            "name": "How much paint do I need for a 1,500 sq ft home?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Use paintable surface area, not floor area. A 1,500 sq ft paintable surface needs 3.8 to 4.3 gallons per coat, per Angi, so double the gallons for two coats. A gallon costs $20 to $30 on average, per Angi."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I paint my house myself?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You can, and doing interior prep yourself saves $700 to $1,800 in labor, while doing exterior prep yourself saves $500 to $1,000, per Angi. Labor is still most of the total, so weigh your time against the saving."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does it cost to paint a house?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A typical exterior paint job for a 1,800 sq ft home costs about $4,200, with a sample range of $2,800 to $6,800. The same home interior costs about $3,350 typical."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the cost to paint exterior of house?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The cost to paint the exterior of a house is $2.33 per sq ft of floor area, so a 1,800 sq ft home costs about $4,200 typical, with a sample range of $2,800 to $6,800. Exterior painting costs $1.50 to $4 per square foot, per Angi."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does it cost to paint a 1500 sq ft house interior?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A 1500 sq ft house interior costs about $2,800 typical, from 1,500 times $1.85, which is $2,775, rounded to $2,800, with a sample range of about $1,870 to $4,530."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the exterior house painting cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Exterior house painting cost for a 1,800 sq ft home is about $4,200 typical, with a sample range of $2,800 to $6,800, at $2.33 per sq ft of floor area."
+            }
           }
         ]
       }
@@ -95,16 +143,16 @@ schema: |
   <p class="crumb"><a href="{{ '/' | relative_url }}">Home</a> / <a href="{{ '/tools/' | relative_url }}">Tools</a> / House Painting Cost Calculator</p>
   <p class="kicker">Free Calculator</p>
   <h1>How Much Does It Cost to Paint a House?</h1>
-  <p class="page-byline">By <strong>How Much Does It Cost USA Team</strong> <span class="byline-dot" aria-hidden="true">|</span> Updated November 14, 2026</p>
+  <p class="page-byline">By <strong>How Much Does It Cost USA Team</strong> <span class="byline-dot" aria-hidden="true">|</span> Updated November 21, 2026</p>
   <div class="answer">
     <p id="answerIntro">A typical exterior paint job for a 1,800 sq ft home in the USA costs about $4,200, with a sample range of $2,800 to $6,800.</p>
     <p class="note">All prices on this page are sample estimated USA ranges, not quotes.</p>
-    <p class="updated-line">Updated November 14, 2026</p>
+    <p class="updated-line">Updated November 21, 2026</p>
   </div>
 
   <div class="calc">
     <h2>House Painting Cost Calculator</h2>
-    <p>Pick your job type and home size to see a sample estimated price for painting your house.</p>
+    <p>Pick your job type and home size to see how much it costs to paint a house, as a sample estimated price for painting your house.</p>
     <div class="calc-field">
       <label for="jobType">Job type</label>
       <select id="jobType">
@@ -208,7 +256,7 @@ schema: |
   </div>
   <p class="note">A single room costs $400 to $1,200, and a whole interior of 1,500 to 2,000 sq ft costs $3,000 to $8,000, per HousecallPro.</p>
 
-  <h2>Cost by siding (exterior)</h2>
+  <h2>Exterior house painting cost by siding</h2>
   <p>Exterior cost per square foot depends on the siding material, per Angi.</p>
   <p class="table-hint">Swipe to see the Per sq ft column &rarr;</p>
   <div class="table-wrap">
@@ -269,7 +317,7 @@ schema: |
       </tbody>
     </table>
   </div>
-  <p class="note">Labor is 70 to 90 percent of the total, at $25 to $100 per hour, per Angi. Doing interior prep yourself saves $700 to $1,800 in labor, and doing exterior prep yourself saves $500 to $1,000, per Angi.</p>
+  <p class="note">Labor is 70 to 90 percent of the total, at $25 to $100 per hour, per Angi.</p>
 
   <h2>How to estimate in 4 steps</h2>
   <ol class="steps">
@@ -291,6 +339,10 @@ schema: |
   <h3>Number of coats</h3>
   <p>Two coats cost more than one and usually look better and last longer. A color change almost always needs two coats for full coverage.</p>
 
+  <h3>Color change</h3>
+  <p>A color change almost always needs two coats for full coverage, and two coats cost more than one. Primer is usually included, but ask your painter to confirm, and check the paint brand and number of coats in the quote.</p>
+  <h3>Weather and timing for exterior work</h3>
+  <p>Exterior work needs dry, mild days, and paint in the off season can bring better rates. Rain, cold, and strong sun all slow exterior paint, and a rushed job in bad weather peels early. If the house needs exterior work beyond paint, price the roof with the <a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Cost Calculator</a>.</p>
   <h2>What is included and what is not</h2>
   <div class="two-col">
     <div>
@@ -320,7 +372,6 @@ schema: |
   <h2>Hiring a pro checklist</h2>
   <ul class="checklist">
     <li>Get 3 written quotes with the paint brand, number of coats, and prep items listed line by line</li>
-    <li>Ask whether the quote prices floor area or wall area, and compare totals, not per square foot rates</li>
     <li>Ask how sanding, patching, primer, and caulking are priced, and what counts as a repair</li>
     <li>For a home built before 1978, ask for the lead paint plan and EPA RRP certification</li>
     <li>Check the painter license, insurance, and reviews</li>
@@ -329,12 +380,33 @@ schema: |
 
   <h2>Budget tips</h2>
   <ul>
-    <li>Paint in the off season for better rates</li>
-    <li>Choose a mid-grade paint for the best value</li>
-    <li>Do your own moving and light prep</li>
     <li>Compare quotes line by line, not just the total</li>
-  </ul>
+      <li>Ask whether the quote prices floor area or wall area, and compare totals, not per square foot rates</li>
+    <li>Ask how sanding, patching, primer, and caulking are priced, and what counts as a repair</li>
+</ul>
 
+  <h2>Where the $4,200 typical total goes</h2>
+  <p>The table below repeats the typical column from the breakdown above, so you can see the share of each line at the calculator default.</p>
+  <div class="table-wrap">
+    <table class="cost-table">
+      <caption>Typical cost lines for a 1,800 sq ft exterior paint job</caption>
+      <thead>
+        <tr><th>Item</th><th>Typical</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Paint and primer</td><td>$1,300</td></tr>
+        <tr><td>Labor (1,800 sq ft exterior job, 3 to 5 days)</td><td>$2,300</td></tr>
+        <tr><td>Prep and repairs</td><td>$350</td></tr>
+        <tr><td>Supplies and equipment</td><td>$180</td></tr>
+        <tr><td>Permits and fees</td><td>$70</td></tr>
+        <tr class="total"><td>Total</td><td>$4,200</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Labor at $2,300 is the largest line, and labor is 70 to 90 percent of the total, at $25 to $100 per hour, per Angi. Doing interior prep yourself saves $700 to $1,800 in labor, and doing exterior prep yourself saves $500 to $1,000, per Angi.</p>
+  <h2>Interior vs exterior: what changes</h2>
+  <p>Exterior and interior jobs use different paint and prep, so prices differ even for the same home. Exterior work runs $2.33 per sq ft of floor area, and a 1,800 sq ft home costs $4,200 typical. Interior work runs $1.85 per sq ft, and the same home costs $3,350 typical. Exterior paint must stand up to weather, and the job needs ladders and weather-safe days. Interior paint needs more care around furniture and floors, and it needs cutting in around trim, doors, and ceilings.</p>
+  <p>Labor is the largest share of both jobs, at $25 to $100 per hour, per Angi. Do not compare an interior quote with an exterior quote: compare totals for the same job type, and check the paint brand, the number of coats, and the prep items in each one.</p>
   <h2>References</h2>
   <p>Our estimates use public US cost data as a guide. Labor cost context comes from the US Bureau of Labor Statistics, housing cost context from HUD, remodeling trends from Harvard JCHS, and material prices from Home Depot and Lowes. Painting prices in this page also use Angi, HousecallPro, and PaintDeck. All prices on this page are sample estimated USA ranges, not quotes.</p>
   <div class="refs">
@@ -382,6 +454,30 @@ schema: |
   <details class="faq">
     <summary>How much does it cost to paint a house exterior per square foot?</summary>
     <p>Exterior painting costs $1.50 to $4 per square foot, per Angi. Our calculator uses $2.33 per square foot of floor area, which sits inside that range.</p>
+  </details>
+  <details class="faq">
+    <summary>How much paint do I need for a 1,500 sq ft home?</summary>
+    <p>Use paintable surface area, not floor area. A 1,500 sq ft paintable surface needs 3.8 to 4.3 gallons per coat, per Angi, so double the gallons for two coats. A gallon costs $20 to $30 on average, per Angi.</p>
+  </details>
+  <details class="faq">
+    <summary>Can I paint my house myself?</summary>
+    <p>You can, and doing interior prep yourself saves $700 to $1,800 in labor, while doing exterior prep yourself saves $500 to $1,000, per Angi. Labor is still most of the total, so weigh your time against the saving.</p>
+  </details>
+  <details class="faq">
+    <summary>How much does it cost to paint a house?</summary>
+    <p>A typical exterior paint job for a 1,800 sq ft home costs about $4,200, with a sample range of $2,800 to $6,800. The same home interior costs about $3,350 typical.</p>
+  </details>
+  <details class="faq">
+    <summary>What is the cost to paint exterior of house?</summary>
+    <p>The cost to paint the exterior of a house is $2.33 per sq ft of floor area, so a 1,800 sq ft home costs about $4,200 typical, with a sample range of $2,800 to $6,800. Exterior painting costs $1.50 to $4 per square foot, per Angi.</p>
+  </details>
+  <details class="faq">
+    <summary>How much does it cost to paint a 1500 sq ft house interior?</summary>
+    <p>A 1500 sq ft house interior costs about $2,800 typical, from 1,500 times $1.85, which is $2,775, rounded to $2,800, with a sample range of about $1,870 to $4,530.</p>
+  </details>
+  <details class="faq">
+    <summary>What is the exterior house painting cost?</summary>
+    <p>Exterior house painting cost for a 1,800 sq ft home is about $4,200 typical, with a sample range of $2,800 to $6,800, at $2.33 per sq ft of floor area.</p>
   </details>
 </section>
 
