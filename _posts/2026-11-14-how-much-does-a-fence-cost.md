@@ -27,7 +27,7 @@ schema: |
           "name": "How Much Does It Cost USA"
         },
         "datePublished": "2026-11-14",
-        "dateModified": "2026-11-14",
+        "dateModified": "2026-11-21",
         "mainEntityOfPage": {
           "@type": "WebPage",
           "@id": "https://howmuchdoesitcostusa.com/blog/how-much-does-a-fence-cost/"
@@ -91,6 +91,38 @@ schema: |
               "@type": "Answer",
               "text": "Building new is cheaper per foot. RemodelCalculators puts replacement at $30 to $80 per linear foot, against $20 to $60 per linear foot for a new fence, because replacement adds removal at $3 to $7 per foot."
             }
+          },
+          {
+            "@type": "Question",
+            "name": "How many posts does a 200 ft fence need?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "At 8 ft spacing, a 200 ft fence needs 27 posts, because 200 divided by 8 plus 2 equals 27."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which fence is best for privacy?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A 6 ft wood or vinyl privacy fence gives the most privacy. A shadow box fence looks finished from both sides and lets some air through, while a picket or rail fence gives little privacy."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does a 6-foot privacy fence cost per foot?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A 6-foot wood privacy fence costs about $22 per foot typical, in a sample range of $14 to $36 per foot installed. A 150 ft wood privacy fence costs about $3,335 typical."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does 200 ft of chain link fence cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Chain link costs $9 to $20 per foot installed, with $14 typical, so 200 ft of chain link fence costs $1,800 to $4,000, with $2,800 typical, from 200 times $14."
+            }
           }
         ]
       }
@@ -132,6 +164,8 @@ schema: |
 </div>
 
 <p class="note">Totals are the per foot price times 150 ft. For wood, $14 times 150 equals $2,100 and $36 times 150 equals $5,400. The typical 150 ft wood total of $3,335 uses an unrounded per foot figure near $22.</p>
+
+<p>A 6-foot privacy fence costs about $22 per foot typical for wood, in a sample range of $14 to $36 per foot installed, so a 150 ft wood privacy fence costs about $3,335 typical. Chain link costs $9 to $20 per foot installed, with $14 typical, so 200 ft of chain link fence costs $1,800 to $4,000, with $2,800 typical, from 200 times $14.</p>
 
 ## What affects the price
 
@@ -334,6 +368,22 @@ Check these five things before anyone digs. A property survey costs $200 to $545
 <li><strong>Confirm the permit, warranty, and call to 811 in writing.</strong> The contract should list the material, the height, the price, the start date, and the warranty on labor and materials, and it should state who calls 811 before digging.</li>
 </ol>
 
+## How to measure your fence line
+
+<p>Measure before you ask for a quote, because length is the biggest price driver. Walk the line with a tape or a measuring wheel, and add a little extra for corners and gates. Count the posts too: at 8 ft spacing, a 200 ft fence needs 27 posts, because 200 divided by 8 plus 2 equals 27. Mark where each gate should go, and note slopes, trees, and rocks along the line, because slopes, rocks, tree roots, and wet soil slow the crew down and add labor. A clear measurement means each installer prices the same fence, so the quotes are easy to compare.</p>
+
+## Fence care by material
+
+<p>Care needs differ by material, and they shape the lifetime cost. Wood needs the most care: seal or stain it every few years, keep the boards off the soil, and fix loose posts early, and it lasts about 15 to 20 years with regular care. Vinyl needs little care, and it lasts about 20 to 30 years. Chain link also lasts about 20 to 30 years, aluminum lasts 30 years or more, and wrought iron lasts 50 years or more. A fence that gets regular care lasts longer and costs less per year, so factor the upkeep into the choice, not just the install price.</p>
+
+## Fence cost over 20 years
+
+<p>The lifetime cost per foot per year turns into a yearly cost for a 150 ft fence. Chain link at $0.75 per foot per year costs about $113 a year for 150 ft. Aluminum at $1.13 costs about $170 a year. Vinyl at $1.52 costs about $228 a year. Cedar at $2.00 costs about $300 a year. Composite at $2.18 costs about $327 a year. Wood at $2.24 costs about $336 a year. Wood costs the most per year to own, even though it costs less than vinyl to install, because it needs staining and repairs. A good fence can also add about 2 to 5 percent to home value, so the lifetime cost is only one side of the value.</p>
+
+## Fence styles: which type fits your yard
+
+<p>Material is only half the choice. The style decides how much privacy you get, how the fence looks, and how much material it uses. A privacy fence uses solid boards with no gaps, so it blocks the view and the wind, and it uses the most material. A shadow box fence staggers boards on both sides of the rails, so it looks finished from both sides and lets some air through. A picket fence uses spaced vertical boards, so it marks the boundary and looks open, but it gives little privacy. A rail fence uses horizontal rails with wide gaps, so it suits a large yard or a rural boundary, but it will not keep small pets in. A split rail fence is a wood rail style that works well for property boundaries, but it is not the best for pets or privacy. An invisible or electric fence runs a wire underground and suits pet containment only, with no visible barrier at all. Match the style to the job first, then pick the material: a privacy style in wood or vinyl suits a backyard, while a picket or rail style suits a front yard where an open look matters more.</p>
+
 ## Frequently asked questions
 
 <details class="faq"><summary>Wood or vinyl, which is cheaper?</summary><p>Wood costs less up front, vinyl less over time. Wood needs staining and repairs, while vinyl needs little care, so vinyl can be cheaper across 20 years even though it costs more to install.</p></details>
@@ -343,6 +393,11 @@ Check these five things before anyone digs. A property survey costs $200 to $545
 <details class="faq"><summary>What is not included?</summary><p>Old fence removal and surveys are usually not included in a standard fence quote. Ask each installer to list removal, permit fees, and gates, so you know what the price does and does not cover.</p></details>
 <details class="faq"><summary>How much does a 200 ft wood fence cost?</summary><p>The fence alone costs $2,600 to $6,000 at $13 to $30 per foot, per Quotsey. With two walk gates, old fence removal, and a permit, the worked example in this guide totals $3,520 to $8,950.</p></details>
 <details class="faq"><summary>Is it cheaper to replace a fence or build a new one?</summary><p>Building new is cheaper per foot. RemodelCalculators puts replacement at $30 to $80 per linear foot, against $20 to $60 per linear foot for a new fence, because replacement adds removal at $3 to $7 per foot.</p></details>
+<details class="faq"><summary>How many posts does a 200 ft fence need?</summary><p>At 8 ft spacing, a 200 ft fence needs 27 posts, because 200 divided by 8 plus 2 equals 27.</p></details>
+<details class="faq"><summary>Which fence is best for privacy?</summary><p>A 6 ft wood or vinyl privacy fence gives the most privacy. A shadow box fence looks finished from both sides and lets some air through, while a picket or rail fence gives little privacy.</p></details>
+
+<details class="faq"><summary>How much does a 6-foot privacy fence cost per foot?</summary><p>A 6-foot wood privacy fence costs about $22 per foot typical, in a sample range of $14 to $36 per foot installed. A 150 ft wood privacy fence costs about $3,335 typical.</p></details>
+<details class="faq"><summary>How much does 200 ft of chain link fence cost?</summary><p>Chain link costs $9 to $20 per foot installed, with $14 typical, so 200 ft of chain link fence costs $1,800 to $4,000, with $2,800 typical, from 200 times $14.</p></details>
 
 ## References
 
@@ -356,7 +411,7 @@ Check these five things before anyone digs. A property survey costs $200 to $545
 
 ## Compare with other home projects
 
-<p>If you are pricing a full exterior refresh, read <a href="{{ '/blog/how-much-does-it-cost-to-replace-a-roof/' | relative_url }}">how much it costs to replace a roof</a> and price the paintwork with the <a href="{{ '/house-painting-cost-calculator/' | relative_url }}">House Painting Cost Calculator</a>. If the fence is for a new home, see <a href="{{ '/blog/how-much-do-movers-cost/' | relative_url }}">how much movers cost</a>.</p>
+<p>If you are pricing a full exterior refresh, read <a href="{{ '/blog/how-much-does-it-cost-to-replace-a-roof/' | relative_url }}">how much it costs to replace a roof</a> and <a href="{{ '/blog/how-much-does-it-cost-to-paint-a-house/' | relative_url }}">how much it costs to paint a house</a>, and price the paintwork with the <a href="{{ '/house-painting-cost-calculator/' | relative_url }}">House Painting Cost Calculator</a>. If the fence is for a new home, see <a href="{{ '/blog/how-much-do-movers-cost/' | relative_url }}">how much movers cost</a>.</p>
 
 ## Related links
 
