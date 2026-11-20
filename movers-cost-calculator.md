@@ -84,6 +84,38 @@ schema: |
               "@type": "Answer",
               "text": "Outside the May to August peak season, when FreightWaves reports prices run 10% to 25% higher. Midweek and mid-month dates are usually cheapest."
             }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I hire movers for loading only?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, many movers offer loading only, but ask for the price in writing and check what insurance covers when you supply the truck."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What should I do if a mover damages something?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Tell the crew on the day, note the damage on the paperwork, and ask how the claims process works and what the deadline is to file."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much do piano movers cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Piano movers cost $260 to $580, per Angi. The price depends on the piano type, the stairs, and the distance, and pianos are priced apart from the main move."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much do movers cost for a 1 bedroom apartment?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Movers cost about $950 typical for a 1 bedroom apartment local move, with a sample range of $646 to $1,254. A long distance move of 100 to 500 miles costs about 2.1 times the local price, so about $1,995."
+            }
           }
         ]
       }
@@ -95,11 +127,11 @@ schema: |
   <p class="crumb"><a href="{{ '/' | relative_url }}">Home</a> / <a href="{{ '/tools/' | relative_url }}">Tools</a> / Movers Cost Calculator</p>
   <p class="kicker">Free Calculator</p>
   <h1>Movers Cost Calculator</h1>
-  <p class="page-byline">By <strong>How Much Does It Cost USA Team</strong> <span class="byline-dot" aria-hidden="true">|</span> Updated November 14, 2026</p>
+  <p class="page-byline">By <strong>How Much Does It Cost USA Team</strong> <span class="byline-dot" aria-hidden="true">|</span> Updated November 21, 2026</p>
   <div class="answer">
     <p id="answerIntro">A typical 2-bedroom local move in the USA costs about $1,240, with a sample range of $843 to $1,637.</p>
     <p class="note">All prices on this page are sample estimated USA ranges, not quotes.</p>
-    <p class="updated-line">Updated November 14, 2026</p>
+    <p class="updated-line">Updated November 21, 2026</p>
   </div>
 
   <div class="calc">
@@ -205,6 +237,8 @@ schema: |
     </table>
   </div>
 
+  <p>For a 1 bedroom apartment, movers cost about $950 typical for a local move. Select 1 bedroom in the calculator above to see the low and high sample range for your distance.</p>
+
   <h2>Cost by distance</h2>
   <p>Long distance ranges from <a href="https://www.angi.com/articles/how-much-does-it-cost-hire-movers.htm" target="_blank" rel="noopener">Angi</a>. Angi puts long distance moves at $2,700 to $10,000 and over, while <a href="https://findmoversnow.com/moving-company-costs/" target="_blank" rel="noopener">FindMoversNow</a> puts the long distance range at $1,300 to $9,500.</p>
   <p class="table-hint">Swipe to see the range &rarr;</p>
@@ -240,8 +274,16 @@ schema: |
   <h3>Stairs and access</h3>
   <p>Long carries, stairs, and tight parking slow the crew down and often add a fee. Tell the mover about stairs, elevators, and parking limits before you book so the quote is accurate.</p>
   <h3>Extra services</h3>
-  <p>Packing, unpacking, storage, and moving pianos or safes are usually priced separately. Ask for each extra as its own line item so you can compare quotes fairly. If the move is into a home you just bought, price the roof too with the <a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Cost Calculator</a>, so the move and the roof do not land in the same month unplanned.</p>
+  <p>Packing, unpacking, storage, and moving pianos or safes are usually priced separately. Piano movers cost $260 to $580, per Angi, so ask for the piano as its own line item on the quote. Ask for each extra as its own line item so you can compare quotes fairly. If the move is into a home you just bought, price the roof too with the <a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Cost Calculator</a>, so the move and the roof do not land in the same month unplanned.</p>
 
+  <h3>Crew size</h3>
+  <p>Crew size sets the hourly pace of the job. A 2-mover crew at $80 to $120 per hour suits a studio or 1-bedroom move, while a larger home needs more movers to keep the day short. Match the crew to the home size before you book.</p>
+  <h3>Packing help</h3>
+  <p>Packing is priced apart from loading in most quotes. Packing materials run $95 to $190 in the breakdown on this page, with $150 typical, and full packing help adds labor hours on top of that. If you pack your own boxes, label each box with the room it belongs in and keep heavy items in small boxes so the crew can move fast. Leave furniture disassembly to the crew unless you have the tools and the time to do it well.</p>
+  <h3>Insurance and valuation</h3>
+  <p>Insurance and fees run $85 to $175 in the breakdown on this page, with $130 typical. Standard liability coverage is basic, and it pays by weight rather than by value, so a light but valuable item gets little cover. Ask what full value protection costs, what the claims deadline is, and how damage is reported. Put the cover level in writing before moving day, and photograph valuable items before the crew loads them.</p>
+  <h3>Additional costs to budget for</h3>
+  <p>The calculator covers the move itself, but a move has costs around it that catch people out. Long carries apply when the truck cannot park close to the door. Storage applies when the new home is not ready on moving day. Travel adds fuel, meals, and a hotel on a long-distance move. Specialty items such as pianos and safes are priced apart from the main quote, and tips for the crew are not included. Ask each mover which of these apply to your move, and get each one as its own line item before you book.</p>
   <h2>What is included and what is not</h2>
   <div class="two-col">
     <div>
@@ -288,6 +330,32 @@ schema: |
     <li>Price the yard too if you are moving into a new home: see the <a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a></li>
   </ul>
 
+  <h2>Where the $1,240 typical total goes</h2>
+  <p>The table below repeats the typical column from the breakdown above, so you can see the share of each line at the calculator default.</p>
+  <div class="table-wrap">
+    <table class="cost-table">
+      <caption>Typical cost lines for a 2-bedroom local move</caption>
+      <thead>
+        <tr><th>Item</th><th>Typical</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Labor (2 movers, 4 to 6 hours)</td><td>$600</td></tr>
+        <tr><td>Truck and fuel</td><td>$250</td></tr>
+        <tr><td>Packing materials</td><td>$150</td></tr>
+        <tr><td>Insurance and fees</td><td>$130</td></tr>
+        <tr><td>Supplies and equipment</td><td>$110</td></tr>
+        <tr class="total"><td>Total</td><td>$1,240</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Labor is the largest line at $600, and truck and fuel is next at $250.</p>
+
+  <h2>Full-service, self-service, or DIY</h2>
+  <p>Full-service movers load, drive, and unload, and they can pack as well. Self-service means you pack and load while the company supplies the truck and drives it. DIY means you rent the truck and do it all yourself. Our $1,240 typical price is a full-service local move: labor $600, truck and fuel $250, packing materials $150, insurance and fees $130, and supplies $110. If you pack and load yourself, the labor and packing lines shrink, but truck, fuel, and insurance stay.</p>
+  <p>Choose by time and risk, not by the total alone. A long-distance move, or one with pianos, safes, or antiques, suits full-service. A small local move with few large items suits self-service or DIY. Ask what each option includes before you decide,</p>
+
+  <h2>Binding vs non-binding estimates</h2>
+  <p>A binding estimate is a fixed price: the amount quoted is the amount you pay on moving day, even if the job takes longer than planned. A non-binding estimate can rise if the weight or the hours grow, and a not-to-exceed estimate caps the rise. Compare binding and non-binding estimates before you sign, and get the type in writing. A quote far below the $843 low end for a 2-bedroom local move should raise a question, and a quote far above the $1,637 high end needs a clear reason, such as packing, storage, or a specialty item. Keep the calculator result beside the quotes, and pick the mover whose written terms match the price, not just the lowest total.</p>
   <h2>References</h2>
   <p>Our estimates use public US cost data as a guide. Labor cost context comes from the US Bureau of Labor Statistics, and box and packing supply prices come from Home Depot and Lowes. Mover averages on this page come from Angi, FreightWaves, FindMoversNow, and This Old House. All prices on this page are sample estimated USA ranges, not quotes.</p>
   <div class="refs">
@@ -334,6 +402,22 @@ schema: |
   <details class="faq">
     <summary>When is the cheapest time to move?</summary>
     <p>Outside the May to August peak season, when FreightWaves reports prices run 10% to 25% higher. Midweek and mid-month dates are usually cheapest.</p>
+  </details>
+  <details class="faq">
+    <summary>Can I hire movers for loading only?</summary>
+    <p>Yes, many movers offer loading only, but ask for the price in writing and check what insurance covers when you supply the truck.</p>
+  </details>
+  <details class="faq">
+    <summary>What should I do if a mover damages something?</summary>
+    <p>Tell the crew on the day, note the damage on the paperwork, and ask how the claims process works and what the deadline is to file.</p>
+  </details>
+  <details class="faq">
+    <summary>How much do piano movers cost?</summary>
+    <p>Piano movers cost $260 to $580, per Angi. The price depends on the piano type, the stairs, and the distance, and pianos are priced apart from the main move.</p>
+  </details>
+  <details class="faq">
+    <summary>How much do movers cost for a 1 bedroom apartment?</summary>
+    <p>Movers cost about $950 typical for a 1 bedroom apartment local move, with a sample range of $646 to $1,254. A long distance move of 100 to 500 miles costs about 2.1 times the local price, so about $1,995.</p>
   </details>
 </section>
 
