@@ -84,6 +84,54 @@ schema: |
               "@type": "Answer",
               "text": "Extra quarts cost $7 to $12 each over 5 quarts, an OEM or cartridge filter adds $5 to $25, access labor adds $10 to $30, and shop supplies and disposal add $5 to $15, per MotorTriage."
             }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I bring my own oil and filter?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Some shops allow it and some do not, so ask before you book. If the shop allows it, ask what labor and shop fees still apply, and confirm the oil grade matches your manual."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does an oil change include a tire rotation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No, a tire rotation is not included in the price on this page. Ask the shop for the price if it is due, and combine the two jobs in one visit when it makes sense."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much should an oil change cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "An oil change should cost about $75 typical for full synthetic, in a sample range of $45 to $140. Conventional oil costs $35 to $70, and synthetic blend costs $45 to $100."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does an oil change cost at Jiffy Lube?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "This page does not publish a Jiffy Lube price, because prices vary by location and oil type. Quick lube shops generally fall within the $45 to $140 range on this page, with $75 typical for a full synthetic change. Ask the shop to confirm the oil type, grade, and filter in the quote."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does an oil change cost at Valvoline?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "This page does not publish a Valvoline price, because prices vary by location and oil type. Quick lube shops generally fall within the $45 to $140 range on this page, with $75 typical for a full synthetic change. Ask the shop to confirm the oil type, grade, and filter in the quote."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does an oil change cost at Take 5?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "This page does not publish a Take 5 price, because prices vary by location and oil type. Quick lube shops generally fall within the $45 to $140 range on this page, with $75 typical for a full synthetic change. Ask the shop to confirm the oil type, grade, and filter in the quote."
+            }
           }
         ]
       }
@@ -95,11 +143,11 @@ schema: |
   <p class="crumb"><a href="{{ '/' | relative_url }}">Home</a> / <a href="{{ '/tools/' | relative_url }}">Tools</a> / Oil Change Cost Calculator</p>
   <p class="kicker">Free Calculator</p>
   <h1>Oil Change Cost Calculator</h1>
-  <p class="page-byline">By <strong>How Much Does It Cost USA Team</strong> <span class="byline-dot" aria-hidden="true">|</span> Updated November 14, 2026</p>
+  <p class="page-byline">By <strong>How Much Does It Cost USA Team</strong> <span class="byline-dot" aria-hidden="true">|</span> Updated November 21, 2026</p>
   <div class="answer">
     <p id="answerIntro">A typical full synthetic oil change in the USA costs about $75, with a sample range of $45 to $140.</p>
     <p class="note">All prices on this page are sample estimated USA ranges, not quotes. Read the full <a href="{{ '/blog/how-much-does-an-oil-change-cost/' | relative_url }}">oil change cost guide</a> for prices by oil type, provider, and vehicle.</p>
-    <p class="updated-line">Updated November 14, 2026</p>
+    <p class="updated-line">Updated November 21, 2026</p>
   </div>
 
   <div class="calc">
@@ -192,6 +240,14 @@ schema: |
   <h3>Extra services</h3>
   <p>Fluid top-offs, tire rotation, and inspections may be included or added as extras. Ask what is in the quoted price before you agree to the work.</p>
 
+  <h3>Oil grade and viscosity</h3>
+  <p>Oil grade matters as much as oil type. Your manual lists the grade your engine needs, such as 5W-30, and the wrong grade can hurt fuel use and wear. Check the manual before you book, and ask the shop to confirm the grade in writing. A shop that cannot name the grade it plans to use is a shop to skip. Keep the receipt with the grade on it for your service records.</p>
+  <h3>Filter type</h3>
+  <p>The filter is a small line with a real effect on price. An OEM or cartridge filter adds $5 to $25, per MotorTriage, against a standard filter. Ask which filter type is fitted, standard, OEM, or cartridge, and check that the quoted price includes it. A cheap filter that fits badly can leak, so the filter is not the place to cut corners on a $75 job.</p>
+  <h3>Engine size and oil amount</h3>
+  <p>Some engines need 6 or more quarts, and each extra quart adds to the bill. An extra quart costs $7 to $12 over 5 quarts, per MotorTriage, so an SUV or truck that needs 7 quarts pays about $14 to $24 more for oil alone. The calculator applies a 1.25 multiplier for SUVs and trucks, which need more oil and a larger filter. Check your manual for the exact amount so you can spot a quote that is missing it.</p>
+  <h3>Service history</h3>
+  <p>Keep the receipt from every oil change, with the date, the miles, the oil type, and the grade. A clear history helps the next shop pick the right oil, and it helps a buyer trust the car when you sell it. If you switch shops, bring the last receipt so the new shop does not guess. A car with a steady history of full synthetic changes at the manual interval is worth more than the same car with no records.</p>
   <h2>What is included and what is not</h2>
   <div class="two-col">
     <div>
@@ -235,8 +291,53 @@ schema: |
     <li>Compare quick lube shops and independent mechanics</li>
     <li>Look for coupons from national chains</li>
     <li>Combine the oil change with a tire rotation when it is due</li>
-  </ul>
+      <li>Ask for the oil brand, grade, and filter type in writing before the work starts</li>
+    <li>Check for coupons from national chains before you book</li>
+    <li>Keep the receipt with the oil type and grade for your service records</li>
+    <li>Ask whether the quoted price includes shop fees and disposal, or adds them at the till</li>
+</ul>
 
+  <h2>Where the $75 typical total goes</h2>
+  <p>The table below repeats the typical column from the breakdown above, so you can see the share of each line at the calculator default.</p>
+  <div class="table-wrap">
+    <table class="cost-table">
+      <caption>Typical cost lines for a full synthetic oil change</caption>
+      <thead>
+        <tr><th>Item</th><th>Typical</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Oil (5 quarts)</td><td>$40</td></tr>
+        <tr><td>Oil filter</td><td>$12</td></tr>
+        <tr><td>Labor (about 30 minutes)</td><td>$18</td></tr>
+        <tr><td>Shop fees and disposal</td><td>$5</td></tr>
+        <tr class="total"><td>Total</td><td>$75</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Oil at $40 is the largest line, and the rows add up exactly: $40 + $12 + $18 + $5 = $75. Shop fees and disposal run $2 to $10, per HowMuchDoesThatCost. If your bill is far above the $140 high end, check the extra lines: extra quarts at $7 to $12 each, an OEM or cartridge filter at $5 to $25, access labor at $10 to $30, and shop supplies and disposal at $5 to $15, per MotorTriage. Ask the shop to point to each extra on the bill before you pay.</p>
+
+  <h2>How often to change your oil</h2>
+  <p>Follow your manual interval instead of changing oil early. The intervals below are from SoFi citing Kelley Blue Book, and they are the same figures used in the FAQ on this page.</p>
+  <div class="table-wrap">
+    <table class="cost-table">
+      <caption>Oil change intervals by oil type</caption>
+      <thead>
+        <tr><th>Oil type</th><th>Change every</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Conventional</td><td>3,000 to 5,000 miles</td></tr>
+        <tr><td>Synthetic blend</td><td>Up to 7,500 miles</td></tr>
+        <tr><td>Full synthetic</td><td>Up to 10,000 miles</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Full synthetic costs more per visit but lasts longest, so it can cost less per mile than conventional oil changed twice as often. A car that does short trips in cold weather may need shorter intervals than a car that runs long highway trips, so use the manual for your car, not a sticker on the windshield.</p>
+
+  <h2>What to ask before you book</h2>
+  <p>Ask the shop to confirm the oil brand, the grade, the filter type, and any shop fees in the quote. Ask how long the visit will take: an oil change takes about 30 to 45 minutes. Ask whether fluid top-offs, a tire rotation, and an inspection are included or added as extras, since a tire rotation is not included in the price on this page. Look for a coupon from the chain or the shop before you book, and compare quick lube shops and independent mechanics. For bigger car spending, see the <a href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Car Wrap Cost Calculator</a>, and if the car is part of a move, the <a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator</a> prices the move itself.</p>
+  <h2>Dealer, quick lube, or independent shop</h2>
+  <p>Dealers usually charge more than quick lube shops and independent mechanics, and a dealer may include a full inspection with the change. Quick lube chains such as Jiffy Lube, Valvoline, and Take 5 generally fall within the $45 to $140 range on this page, with $75 typical for a full synthetic change, so ask the shop to confirm the oil type, grade, and filter in the quote rather than trusting a brand name price. A quick lube shop is faster and cheaper, and it suits a standard oil change on a common car. An independent mechanic sits between the two on price, and it suits a car that needs other work at the same visit. The $45 to $140 range on this page covers all three, with $75 typical for a full synthetic change on a sedan.</p>
+  <p>Wherever you go, ask the same questions: the oil brand and grade, the filter type, the shop fees, and what the quoted price includes. A dealer quote that includes a full inspection is not the same as a quick lube quote that covers oil and filter only, so compare what is included, not just the total.</p>
   <h2>References</h2>
   <p>Our estimates use public US cost data as a guide. Oil change prices by oil type come from SoFi, citing Kelley Blue Book, and from MotorTriage, with typical prices from HowMuchDoesThatCost and ARI invoice data, and labor cost context from the US Bureau of Labor Statistics. All prices on this page are sample estimated USA ranges, not quotes.</p>
   <div class="refs">
@@ -284,6 +385,30 @@ schema: |
   <details class="faq">
     <summary>Why was my oil change bill higher than the advertised price?</summary>
     <p>Extra quarts cost $7 to $12 each over 5 quarts, an OEM or cartridge filter adds $5 to $25, access labor adds $10 to $30, and shop supplies and disposal add $5 to $15, per MotorTriage.</p>
+  </details>
+  <details class="faq">
+    <summary>Can I bring my own oil and filter?</summary>
+    <p>Some shops allow it and some do not, so ask before you book. If the shop allows it, ask what labor and shop fees still apply, and confirm the oil grade matches your manual.</p>
+  </details>
+  <details class="faq">
+    <summary>Does an oil change include a tire rotation?</summary>
+    <p>No, a tire rotation is not included in the price on this page. Ask the shop for the price if it is due, and combine the two jobs in one visit when it makes sense.</p>
+  </details>
+  <details class="faq">
+    <summary>How much should an oil change cost?</summary>
+    <p>An oil change should cost about $75 typical for full synthetic, in a sample range of $45 to $140. Conventional oil costs $35 to $70, and synthetic blend costs $45 to $100.</p>
+  </details>
+  <details class="faq">
+    <summary>How much does an oil change cost at Jiffy Lube?</summary>
+    <p>This page does not publish a Jiffy Lube price, because prices vary by location and oil type. Quick lube shops generally fall within the $45 to $140 range on this page, with $75 typical for a full synthetic change. Ask the shop to confirm the oil type, grade, and filter in the quote.</p>
+  </details>
+  <details class="faq">
+    <summary>How much does an oil change cost at Valvoline?</summary>
+    <p>This page does not publish a Valvoline price, because prices vary by location and oil type. Quick lube shops generally fall within the $45 to $140 range on this page, with $75 typical for a full synthetic change. Ask the shop to confirm the oil type, grade, and filter in the quote.</p>
+  </details>
+  <details class="faq">
+    <summary>How much does an oil change cost at Take 5?</summary>
+    <p>This page does not publish a Take 5 price, because prices vary by location and oil type. Quick lube shops generally fall within the $45 to $140 range on this page, with $75 typical for a full synthetic change. Ask the shop to confirm the oil type, grade, and filter in the quote.</p>
   </details>
 </section>
 
