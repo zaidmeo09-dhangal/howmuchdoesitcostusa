@@ -84,6 +84,38 @@ schema: |
               "@type": "Answer",
               "text": "Storm damage is often covered, while wear and age are usually excluded. You pay the deductible first, and the insurer pays the covered cost above it."
             }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I know if I need a full replacement or a repair?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Fix small leaks early, and replace the roof when leaks repeat, shingles are missing across wide areas, or the deck is soft. A full tear-off lets the roofer check the deck before the new roof goes on."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Should I replace gutters at the same time as the roof?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Gutters and downspouts are not included in the price on this page, so ask your roofer for a separate price and check whether the old gutters can be reused."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the cost to replace a roof?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A typical 1,800 sq ft asphalt shingle roof costs about $9,180 to replace, with a sample range of $7,528 to $11,475. Metal costs $13,500 to $21,000 with a typical total of $17,100, and clay tile costs $16,000 to $25,000 with a typical total of $21,600."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does an asphalt roof replacement cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "An asphalt roof replacement costs $5.10 per sq ft at the calculator default for architectural asphalt, so a 1,800 sq ft roof costs about $9,180 typical. 3-tab asphalt costs $3 to $5 per sq ft and architectural asphalt costs $4 to $7 per sq ft."
+            }
           }
         ]
       }
@@ -95,16 +127,16 @@ schema: |
   <p class="crumb"><a href="{{ '/' | relative_url }}">Home</a> / <a href="{{ '/tools/' | relative_url }}">Tools</a> / Roof Replacement Cost Calculator</p>
   <p class="kicker">Free Calculator</p>
   <h1>Roof Replacement Cost Calculator</h1>
-  <p class="page-byline">By <strong>How Much Does It Cost USA Team</strong> <span class="byline-dot" aria-hidden="true">|</span> Updated November 14, 2026</p>
+  <p class="page-byline">By <strong>How Much Does It Cost USA Team</strong> <span class="byline-dot" aria-hidden="true">|</span> Updated November 21, 2026</p>
   <div class="answer">
     <p id="answerIntro">A typical 1,800 sq ft asphalt shingle roof in the USA costs about $9,180, with a sample range of $7,528 to $11,475.</p>
     <p class="note">All prices on this page are sample estimated USA ranges, not quotes.</p>
-    <p class="updated-line">Updated November 14, 2026</p>
+    <p class="updated-line">Updated November 21, 2026</p>
   </div>
 
   <div class="calc">
     <h2>Roof Replacement Cost Calculator</h2>
-    <p>Pick your roof size and material to see a sample estimated price for a new roof. For prices by roof size, repair vs replace rules, and insurance, see the full <a href="{{ '/blog/how-much-does-it-cost-to-replace-a-roof/' | relative_url }}">How Much Does It Cost to Replace a Roof?</a> guide.</p>
+    <p>Use this roof replacement cost calculator to pick your roof size and material and see a sample estimated price for a new roof. For prices by roof size, repair vs replace rules, and insurance, see the full <a href="{{ '/blog/how-much-does-it-cost-to-replace-a-roof/' | relative_url }}">How Much Does It Cost to Replace a Roof?</a> guide.</p>
     <div class="calc-field">
       <label for="roofSize">Roof size: <span id="roofSizeVal">1,800 sq ft</span></label>
       <input type="range" id="roofSize" min="800" max="4000" step="50" value="1800">
@@ -132,7 +164,7 @@ schema: |
     </div>
   </div>
 
-  <h2>Low, typical, and high cost</h2>
+  <h2>Roof replacement cost: low, typical, and high</h2>
   <p>These bands update with your calculator choices. Use them to plan your budget before you request quotes.</p>
   <div class="bands">
     <div class="band">
@@ -188,7 +220,7 @@ schema: |
   </ul>
   <p>That $11,125 sits inside the WhatHomeCosts total range of $6,600 to $15,500 for this job. For comparison, our calculator prices a 2,000 sq ft asphalt roof at $10,200 typical, from 2,000 x $5.10, with a range of $8,364 to $12,750.</p>
 
-  <h2>Cost by material</h2>
+  <h2>Asphalt roof replacement cost by material</h2>
   <p>Per sq ft ranges from <a href="https://whathomecosts.com/roof-replacement-cost/" target="_blank" rel="noopener">WhatHomeCosts</a> and lifespans from <a href="https://www.angi.com/articles/how-much-does-roof-replacement-cost.htm" target="_blank" rel="noopener">Angi</a>. The calculator default is architectural asphalt at $5.10 per sq ft, inside the $4 to $7 architectural range.</p>
   <p class="table-hint">Swipe to see the lifespan &rarr;</p>
   <div class="table-wrap">
@@ -248,6 +280,10 @@ schema: |
   <h3>Location and permits</h3>
   <p>Labor rates and permit fees vary by city, and some areas require inspections at set stages. Ask your roofer which permits are needed and whether the fee is in the quote.</p>
 
+  <h3>Ventilation and flashing</h3>
+  <p>Underlayment and flashing run $420 to $700 in the breakdown on this page, with $520 typical. Flashing seals the joints around chimneys, valleys, and walls, and it is where many leaks start when it is old or badly fitted. Ventilation matters too, since a roof that cannot breathe traps heat and moisture in the attic. Ask the roofer to list flashing and vents as separate lines, so you can see whether they are new or reused.</p>
+  <h3>Decking condition</h3>
+  <p>The decking contingency is $150 to $300 in the breakdown on this page, with $200 typical, inside the <a href="https://whathomecosts.com/roof-replacement-cost/" target="_blank" rel="noopener">WhatHomeCosts</a> range of $150 to $1,000. The deck is the wood under the shingles, and soft or rotted sheets only show up once the old roof is off. Ask for the per-sheet decking price in the contract before work starts, so a few bad sheets do not become an open bill.</p>
   <h2>What is included and what is not</h2>
   <div class="two-col">
     <div>
@@ -271,7 +307,7 @@ schema: |
   </div>
 
   <h2>How we estimate</h2>
-  <p>We take your roof size in square feet and multiply it by the per square foot rate for the material you pick: asphalt shingle at $5.10, metal at $9.50, and clay tile at $12.00. Low is 82 percent of the typical price and high is 125 percent. The itemized table then splits that total into materials, labor, tear-off, underlayment, permits, supplies, and a decking contingency, so the rows always add up to the total shown.</p>
+  <p>We take your roof size in square feet and multiply it by the per square foot rate for the material you pick: asphalt shingle at $5.10, metal at $9.50, and clay tile at $12.00. Low is 82 percent of the typical price and high is 125 percent. The itemized table then splits that total into materials, labor, tear-off, underlayment, permits, supplies, and a decking contingency, so the rows always add up to the total shown. That total is the cost to replace a roof at the size and material you pick.</p>
   <p>Pitch is not a calculator input on this page. The pitch table above shows what a steeper roof adds, so you can adjust the estimate yourself. Your final price also depends on local labor rates and the condition of the roof deck, so always confirm the price in writing before work starts.</p>
 
   <h2>Hiring a pro checklist</h2>
@@ -291,8 +327,35 @@ schema: |
     <li>Fix small leaks early before deck damage grows</li>
     <li>Compare quotes line by line, not just the total</li>
     <li>If you are moving into the home, price the move too with the <a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator</a></li>
-  </ul>
+      <li>Ask whether tear-off and disposal are included before you compare totals</li>
+    <li>Ask for the per-sheet decking price in writing so repairs are not an open bill</li>
+    <li>Fix small leaks early before deck damage grows and raises the bill</li>
+</ul>
 
+  <h2>Where the $9,180 typical total goes</h2>
+  <p>The table below repeats the typical column from the breakdown above, so you can see the share of each line at the calculator default.</p>
+  <div class="table-wrap">
+    <table class="cost-table">
+      <caption>Typical cost lines for a 1,800 sq ft asphalt roof</caption>
+      <thead>
+        <tr><th>Item</th><th>Typical</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Materials (asphalt shingle)</td><td>$3,900</td></tr>
+        <tr><td>Labor (4 to 6 roofers, 2 to 3 days)</td><td>$3,600</td></tr>
+        <tr><td>Tear-off and disposal</td><td>$600</td></tr>
+        <tr><td>Underlayment and flashing</td><td>$520</td></tr>
+        <tr><td>Permits and fees</td><td>$220</td></tr>
+        <tr><td>Supplies and equipment</td><td>$140</td></tr>
+        <tr><td>Decking contingency</td><td>$200</td></tr>
+        <tr class="total"><td>Total</td><td>$9,180</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Materials at $3,900 and labor at $3,600 together are most of the $9,180 total. If a quote is far below the $7,528 low end, check the material brand and whether tear-off and disposal are included. Use the <a href="{{ '/house-painting-cost-calculator/' | relative_url }}">House Painting Cost Calculator</a> to price the exterior paint that often follows a roof job, and the <a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a> for the yard.</p>
+  <h2>Repair or replace: how to decide</h2>
+  <p>Fix small leaks early before deck damage grows, and repair the roof when the damage is local: a few missing shingles, one flashing joint, or a single leak with a clear cause. Replace the roof when leaks repeat in more than one place, shingles are missing across wide areas, or the deck is soft underfoot. Age matters too: asphalt lasts 20 to 30 years and metal lasts 40 to 70 years, so a roof near the end of its life that needs a big repair is usually better replaced.</p>
+  <p>Get both prices in writing before you decide. A repair that needs tear-off can approach replacement cost fast: tear-off and disposal run $1,000 to $2,500 in the worked example on this page, and the decking contingency runs $150 to $1,000, per WhatHomeCosts. Compare that total against the $7,528 to $11,475 range for a full replacement before you pay for the repair.</p>
   <h2>References</h2>
   <p>Our estimates use public US cost data as a guide. Roofer wage context comes from the US Bureau of Labor Statistics, and roofing material prices come from Home Depot and Lowes. Roof averages on this page come from Angi, This Old House, WhatHomeCosts, and Costimated. All prices on this page are sample estimated USA ranges, not quotes.</p>
   <div class="refs">
@@ -339,6 +402,22 @@ schema: |
   <details class="faq">
     <summary>Does homeowners insurance pay for a new roof?</summary>
     <p>Storm damage is often covered, while wear and age are usually excluded. You pay the deductible first, and the insurer pays the covered cost above it.</p>
+  </details>
+  <details class="faq">
+    <summary>How do I know if I need a full replacement or a repair?</summary>
+    <p>Fix small leaks early, and replace the roof when leaks repeat, shingles are missing across wide areas, or the deck is soft. A full tear-off lets the roofer check the deck before the new roof goes on.</p>
+  </details>
+  <details class="faq">
+    <summary>Should I replace gutters at the same time as the roof?</summary>
+    <p>Gutters and downspouts are not included in the price on this page, so ask your roofer for a separate price and check whether the old gutters can be reused.</p>
+  </details>
+  <details class="faq">
+    <summary>What is the cost to replace a roof?</summary>
+    <p>A typical 1,800 sq ft asphalt shingle roof costs about $9,180 to replace, with a sample range of $7,528 to $11,475. Metal costs $13,500 to $21,000 with a typical total of $17,100, and clay tile costs $16,000 to $25,000 with a typical total of $21,600.</p>
+  </details>
+  <details class="faq">
+    <summary>How much does an asphalt roof replacement cost?</summary>
+    <p>An asphalt roof replacement costs $5.10 per sq ft at the calculator default for architectural asphalt, so a 1,800 sq ft roof costs about $9,180 typical. 3-tab asphalt costs $3 to $5 per sq ft and architectural asphalt costs $4 to $7 per sq ft.</p>
   </details>
 </section>
 
