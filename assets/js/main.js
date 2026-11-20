@@ -112,7 +112,7 @@
   }
 
   /* Homepage search: filter the page list, Enter or Check Price goes to the match.
-     NOTE: this 13-entry page list is duplicated in tools.md (inline script).
+     NOTE: this 15-entry page list is duplicated in tools.md (inline script).
      Keep both lists in sync: same pages, same names, same URLs, same keywords. */
   var input = document.getElementById("siteSearch");
   var results = document.getElementById("searchResults");
@@ -130,7 +130,9 @@
     { name: "How Much Does It Cost to Replace a Roof? (Guide)", url: "blog/how-much-does-it-cost-to-replace-a-roof/", keys: "roof guide cost" },
     { name: "How Much Does a Fence Cost? (Guide)", url: "blog/how-much-does-a-fence-cost/", keys: "fence guide cost" },
     { name: "How Much Does It Cost to Install Central Air? (Guide)", url: "blog/how-much-does-it-cost-to-install-central-air/", keys: "central air guide cost" },
-    { name: "How Much Does It Cost to Paint a Car? (Guide)", url: "blog/how-much-does-it-cost-to-paint-a-car/", keys: "paint car guide cost" }
+    { name: "How Much Does It Cost to Paint a Car? (Guide)", url: "blog/how-much-does-it-cost-to-paint-a-car/", keys: "paint car guide cost" },
+    { name: "How Much Does a Car Wrap Cost? (Guide)", url: "blog/how-much-does-a-car-wrap-cost/", keys: "car wrap guide cost" },
+    { name: "How Much Does It Cost to Paint a House? (Guide)", url: "blog/how-much-does-it-cost-to-paint-a-house/", keys: "paint house guide cost" }
   ];
   /* Ranked search: a title match outranks a keyword match, so "car" returns
      Car Wrap first and "paint" returns the Paint a Car guide first. Exact word
