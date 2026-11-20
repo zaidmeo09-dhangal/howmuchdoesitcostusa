@@ -27,7 +27,7 @@ schema: |
           "name": "How Much Does It Cost USA"
         },
         "datePublished": "2026-11-14",
-        "dateModified": "2026-11-14",
+        "dateModified": "2026-11-21",
         "mainEntityOfPage": {
           "@type": "WebPage",
           "@id": "https://howmuchdoesitcostusa.com/blog/how-much-does-it-cost-to-replace-a-roof/"
@@ -90,6 +90,38 @@ schema: |
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "WhatHomeCosts puts a 4:12 to 8:12 pitch at base to 5 to 10% more, 8:12 to 12:12 at about 15 to 25% more, and 12:12 and over at up to about 30% more. On a $9,180 roof, 30% more is $9,180 x 1.30 = $11,934."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does a roof cost per year?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "An asphalt roof at $9,180 costs $459 a year over 20 years and $306 a year over 30 years. A metal roof at $17,100 costs about $428 a year over 40 years and about $244 a year over 70 years."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I know my roof needs replacing?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Look for missing, cracked, or curling shingles, granules in the gutters, daylight in the attic, and water stains inside. Replace if the roof is 20 or more years old, or if damage covers more than 20 percent of the roof surface."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the cost to replace a roof?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A typical 1,800 sq ft asphalt shingle roof costs about $9,180 to replace, with a sample range of $7,528 to $11,475. Metal costs $13,500 to $21,000 with a typical total of $17,100, and clay tile costs $16,000 to $25,000 with a typical total of $21,600."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does an asphalt roof replacement cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "An asphalt roof replacement costs $5.10 per sq ft at the calculator default for architectural asphalt, so a 1,800 sq ft roof costs about $9,180 typical. 3-tab asphalt costs $3 to $5 per sq ft and architectural asphalt costs $4 to $7 per sq ft."
             }
           }
         ]
@@ -280,6 +312,59 @@ Most US cities require a permit for a full roof replacement, and the permit fee 
 
 <p>A new roof is often one job in a run of exterior work. Price the yard with the <a href="{{ '/blog/how-much-does-a-fence-cost/' | relative_url }}">How Much Does a Fence Cost?</a> guide and the <a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a>, and if you are moving into the home, price the move with the <a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator</a>. Budgeting the roof, the fence, and the move together keeps one big bill from hiding behind another.</p>
 
+## Roof cost by pitch
+
+<p>Steeper roofs cost more because the crew works slower and needs more safety gear. The percentages below are applied to the calculator default of $9,180 for a 1,800 sq ft asphalt roof.</p>
+
+<p class="table-hint">Swipe to see the example price &rarr;</p>
+  <div class="table-wrap">
+<table class="cost-table">
+<caption>Roof cost by pitch, percentages on a $9,180 roof</caption>
+<thead>
+<tr><th>Pitch</th><th>Added cost</th><th>Example on $9,180</th></tr>
+</thead>
+<tbody>
+<tr><td>Under 4:12</td><td>Base price</td><td>$9,180</td></tr>
+<tr><td>4:12 to 8:12</td><td>Base to 5 to 10% more</td><td>$9,180 to $10,098</td></tr>
+<tr><td>8:12 to 12:12</td><td>About 15 to 25% more</td><td>$10,557 to $11,475</td></tr>
+<tr><td>12:12 and over</td><td>Up to about 30% more</td><td>Up to $11,934</td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="note">Math: $9,180 times 1.10 is $10,098, $9,180 times 1.15 is $10,557, $9,180 times 1.25 is $11,475, and $9,180 times 1.30 is $11,934. Ask the roofer to state the pitch on the quote, so a steep roof price is not a surprise.</p>
+
+## Roof cost by material per square foot
+
+<p>Per square foot prices show why material choice matters, and they set the cost to replace a roof as much as the roof size does. 3-tab asphalt runs $3 to $5 per sq ft and architectural asphalt $4 to $7 per sq ft, so the calculator default of $5.10 per sq ft sits inside the architectural range. On a 1,800 sq ft roof, 3-tab asphalt at $3 to $5 per sq ft is $5,400 to $9,000, and architectural asphalt at $4 to $7 per sq ft is $7,200 to $12,600. Metal costs $13,500 to $21,000 with a typical total of $17,100, and clay tile costs $16,000 to $25,000 with a typical total of $21,600. Metal and clay tile cost more up front, but they last much longer: an asphalt shingle roof lasts 20 to 30 years, and a metal roof lasts 40 to 70 years.</p>
+
+## Roof cost per year of ownership
+
+<p>The upfront price is only half the story. An asphalt roof at $9,180 costs $459 a year over 20 years and $306 a year over 30 years. A metal roof at $17,100 costs about $428 a year over 40 years and about $244 a year over 70 years. Metal costs about $7,920 more than asphalt up front, yet it can cost less per year because it lasts about twice as long. The per year math favors the longer lasting material, but only if you plan to stay in the home long enough to use that life. If you plan to sell in a few years, a mid grade architectural shingle often gives the better value.</p>
+
+## Roof install day and inspection checklist
+
+<ul class="checklist">
+<li><strong>Clear the driveway and the yard.</strong> Move cars, patio furniture, and plants away from the house before the crew arrives.</li>
+<li><strong>Protect the attic and the walls.</strong> Cover stored items in the attic, and take pictures off the walls, because hammering shakes the house.</li>
+<li><strong>Check the deck once the old roof is off.</strong> Ask the roofer to show you any soft or rotten decking before it is covered, and confirm the per-sheet decking price in the contract.</li>
+<li><strong>Check the flashing, vents, and ridge cap.</strong> These are part of a full job, and they are the spots where leaks start if they are skipped.</li>
+<li><strong>Walk the yard after cleanup.</strong> Check for nails with the roofer, and confirm the disposal of the old roofing is complete.</li>
+<li><strong>Keep the warranty papers.</strong> Save both warranties, workmanship and manufacturer material, with the contract and the permit.</li>
+</ul>
+
+## Signs your roof needs replacing
+
+<p>Age and damage are the two clearest signs, and the repair vs replace rules on this page use both: replace if the roof is 20 or more years old, and replace if damage covers more than 20 percent of the roof surface. Look for the visible signs too. Missing, cracked, or curling shingles, granules in the gutters, daylight through the roof boards in the attic, and water stains on ceilings or walls all point to a roof that is failing. A roof that leaks in several places, or one that has been patched again and again, usually costs more to keep repairing than to replace. If the damage is small and the roof is young, a repair is usually the better spend. Get the roofer to put the repair price and the replacement price on the same quote, then test the 50 percent rule yourself: replace if the repair costs 50 percent or more of a full replacement, which is $4,590 on a $9,180 roof.</p>
+
+## Roof area is bigger than the house
+
+<p>Roofers price by roof area, not by home floor area, and the roof is always bigger than the footprint of the house. The roof extends past the exterior walls, and the pitch adds surface area, so a 2,000 sq ft house typically has a roof of 22 to 28 squares, where a square is 100 sq ft. A low pitch adds a little area, a steep pitch adds a lot, and a complex roof with valleys, dormers, and chimneys adds more still. That is why two homes with the same floor area can get very different roof quotes. Ask the roofer for the measured roof area in squares on the written quote, so you can check the per square foot price against the $5.10 per sq ft used for architectural asphalt on this page.</p>
+
+## Overlay or tear-off: why tear-off usually wins
+
+<p>A new roof can sometimes go over the old one, but a full tear-off is usually better. A tear-off lets the roofer check the deck, fix hidden damage, and install the new roof on a clean surface. An overlay hides the deck, so rotten wood stays hidden, and it adds a second layer that costs $1 to $2 per sq ft extra to remove later. An overlay can also shorten the life of the new roof and can void the manufacturer warranty, which is why many reputable roofers refuse overlays. If the old roof has two layers already, a tear-off is the only sensible choice, because a roof with two old layers costs more to tear off than a roof with one layer, and a third layer is not a sound roof.</p>
+
 ## Frequently asked questions
 
 <details class="faq"><summary>How long does a new roof last?</summary><p>An asphalt shingle roof lasts 20 to 30 years, and a metal roof lasts 40 to 70 years. The real life depends on the material grade, the install quality, and the local weather.</p></details>
@@ -289,6 +374,11 @@ Most US cities require a permit for a full roof replacement, and the permit fee 
 <details class="faq"><summary>What is not included?</summary><p>Gutters, skylights, and structural repairs are usually not included in a standard roof quote. Ask each roofer to list these items, so you know what the price does and does not cover.</p></details>
 <details class="faq"><summary>Does homeowners insurance pay for a new roof?</summary><p>Storm damage is often covered, while wear and age are usually excluded. You pay the deductible first, and the insurer pays the covered cost above it.</p></details>
 <details class="faq"><summary>How much does roof pitch add to the cost?</summary><p>WhatHomeCosts puts a 4:12 to 8:12 pitch at base to 5 to 10% more, 8:12 to 12:12 at about 15 to 25% more, and 12:12 and over at up to about 30% more. On a $9,180 roof, 30% more is $9,180 x 1.30 = $11,934.</p></details>
+<details class="faq"><summary>How much does a roof cost per year?</summary><p>An asphalt roof at $9,180 costs $459 a year over 20 years and $306 a year over 30 years. A metal roof at $17,100 costs about $428 a year over 40 years and about $244 a year over 70 years.</p></details>
+<details class="faq"><summary>How do I know my roof needs replacing?</summary><p>Look for missing, cracked, or curling shingles, granules in the gutters, daylight in the attic, and water stains inside. Replace if the roof is 20 or more years old, or if damage covers more than 20 percent of the roof surface.</p></details>
+
+<details class="faq"><summary>What is the cost to replace a roof?</summary><p>A typical 1,800 sq ft asphalt shingle roof costs about $9,180 to replace, with a sample range of $7,528 to $11,475. Metal costs $13,500 to $21,000 with a typical total of $17,100, and clay tile costs $16,000 to $25,000 with a typical total of $21,600.</p></details>
+<details class="faq"><summary>How much does an asphalt roof replacement cost?</summary><p>An asphalt roof replacement costs $5.10 per sq ft at the calculator default for architectural asphalt, so a 1,800 sq ft roof costs about $9,180 typical. 3-tab asphalt costs $3 to $5 per sq ft and architectural asphalt costs $4 to $7 per sq ft.</p></details>
 
 ## References
 
