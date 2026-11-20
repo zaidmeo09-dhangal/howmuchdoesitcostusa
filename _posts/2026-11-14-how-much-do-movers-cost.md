@@ -27,7 +27,7 @@ schema: |
           "name": "How Much Does It Cost USA"
         },
         "datePublished": "2026-11-14",
-        "dateModified": "2026-11-14",
+        "dateModified": "2026-11-21",
         "mainEntityOfPage": {
           "@type": "WebPage",
           "@id": "https://howmuchdoesitcostusa.com/blog/how-much-do-movers-cost/"
@@ -78,7 +78,7 @@ schema: |
           },
           {
             "@type": "Question",
-            "name": "How much does it cost to move a piano?",
+            "name": "How much do piano movers cost?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "Angi reports $260 to $580 to move a piano. The price depends on the piano type, the stairs, and the distance."
@@ -90,6 +90,38 @@ schema: |
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "Angi reports $0.50 to $0.80 per pound and FindMoversNow reports $0.55 to $0.90 per pound, so a combined range of $0.50 to $0.90 per pound covers both sources."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does a local move cost for a studio?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A studio local move costs about $750, with a long distance estimate of $1,575 for 100 to 500 miles, at about 2.1 times the local price."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do movers charge extra for stairs and long carries?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Many movers do charge extra for stairs, long carries, and no elevator access. Tell each mover about stairs, narrow halls, and parking limits before you accept a quote, so the price covers the real job."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Should I tip the movers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Tips are not included in a standard quote. Tipping is customary for good service, and the amount is up to you. Check the quote first, because tips for the crew are listed as not included."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much do movers cost for a 1 bedroom apartment?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A 1 bedroom apartment move costs about $950 typical for a local move, with a long distance estimate of $1,995 for 100 to 500 miles, at about 2.1 times the local price."
             }
           }
         ]
@@ -133,7 +165,7 @@ schema: |
 </table>
 </div>
 
-<p class="note">Long distance costs about 2.1 times the local price in these sample ranges. For example, $1,240 times 2.1 equals $2,604 for a 2-bedroom move of 100 to 500 miles.</p>
+<p class="note">Long distance costs about 2.1 times the local price in these sample ranges. For example, $1,240 times 2.1 equals $2,604 for a 2-bedroom move of 100 to 500 miles. For a 1 bedroom apartment, movers cost about $950 typical for a local move, with a long distance estimate of $1,995 for 100 to 500 miles.</p>
 
 <p>Survey data tells a similar story. <a href="https://www.angi.com/articles/how-much-does-it-cost-hire-movers.htm" target="_blank" rel="noopener">Angi</a> reports a national average of $1,694, with most people paying $875 to $2,546 for a local move, based on 6,434 verified projects. A <a href="https://www.consumervoice.org/articles/how-much-do-movers-cost" target="_blank" rel="noopener">This Old House</a> 2025 survey of 1,000 customers found a local average of $1,489, a long distance average of $3,124, and an overall average of $3,020.</p>
 
@@ -298,6 +330,37 @@ Packing, storage, and specialty items such as pianos, safes, and pool tables add
 
 <p>A move is often the start of a run of home costs, not the end of it. If the new home needs a roof, price it with the <a href="{{ '/blog/how-much-does-it-cost-to-replace-a-roof/' | relative_url }}">How Much Does It Cost to Replace a Roof?</a> guide and the <a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Cost Calculator</a>. If the yard needs fencing, see <a href="{{ '/blog/how-much-does-a-fence-cost/' | relative_url }}">How Much Does a Fence Cost?</a>. Budgeting the move and the home together keeps one big bill from hiding behind another.</p>
 
+## Mover cost by crew size and hours
+
+<p>Local moves are priced by the hour, and the crew size sets the hourly rate. A sample rate is $80 to $120 per hour for 2 movers and a truck, and most local moves have a minimum of 2 to 3 hours. That puts the minimum charge at $160 to $360: 2 hours at $80 is $160, and 3 hours at $120 is $360. Larger crews cost more per hour, and they also finish faster, so a bigger crew can cost less in total on a large home even though the hourly rate is higher. Ask each mover for the crew size and the minimum hours on the written quote, so you can work out the lowest possible bill before you compare quotes.</p>
+
+## Local vs long distance: which price model applies
+
+<p>The price model changes with the distance. A local move is priced by the hour, while a long distance move is priced by distance and weight. A long distance move of 100 to 500 miles costs about 2.1 times the local price in the sample ranges on this page, so a studio that costs $750 locally costs about $1,575 over that distance, and a 4-bedroom home that costs $2,300 locally costs about $4,830. Weight gives a second way to check a long distance quote. At $0.50 to $0.90 per pound, a 5,000 pound load costs $2,500 to $4,500, and a 7,000 pound load costs $3,500 to $6,300. If the weight on the quote looks high for your home size, ask the mover how it was weighed, because the weight is what sets the final price on a weight based move.</p>
+
+## Before moving day checklist
+
+<ul class="checklist">
+<li><strong>Declutter first.</strong> Sell, donate, or throw away what you do not need, so you pay to move less stuff.</li>
+<li><strong>Pack and label every box.</strong> Seal each box, label it with the room it goes to, and stack boxes by the door.</li>
+<li><strong>Measure large items and doorways.</strong> Check that beds, sofas, and tables fit through the doors and halls at both homes.</li>
+<li><strong>Clear the path for the truck.</strong> Check parking, stairs, and elevator access at both homes, and tell the mover about any limits.</li>
+<li><strong>Keep valuables with you.</strong> Carry cash, documents, jewelry, and medicines yourself, not in the moving truck.</li>
+<li><strong>Confirm the details the day before.</strong> Check the date, arrival time, crew size, payment method, and your new address.</li>
+</ul>
+
+## Common mistakes that raise the bill
+
+<p>Most surprise charges come from things the mover did not know about when the quote was written. A home that is not packed when the crew arrives adds paid hours. Stairs, a long walk from the truck, and no elevator add time and labor. Specialty items such as pianos, safes, and pool tables need extra equipment, and they are priced on top of the main move: a piano costs $260 to $580, a pool table $375 to $1,500, a hot tub $300 to $1,200, and a car $1,000 to $2,000, per Angi. Packing, storage, and full-value protection also add to the bill, so decide what you need before you ask for quotes, and get every extra charge listed in writing. A quote that leaves out packing, stairs, or a piano is not cheaper, it is incomplete.</p>
+
+## Costs people forget to budget
+
+<p>The mover quote is not the whole move budget. Competitor guides from This Old House and FreightWaves list the same forgotten costs again and again, and none of them appear on a standard mover quote. Plan for meals while your kitchen is packed, pet boarding or pet transport, cleaning for the old home and the new home, and temporary lodging if your move-in and move-out dates do not line up. Lost wages count too, if you need time off work to handle the move. Parking is easy to miss: some cities and apartment complexes need a pre-arranged permit to park a truck. A cancellation or rescheduling fee can also apply if you change the date at short notice. None of these are mover charges, but they all come out of the same budget, so list them before you set the move budget.</p>
+
+## Broker or carrier: who is actually moving you
+
+<p>Not every company that quotes a move is the company that moves you. A carrier owns the trucks and employs the crew. A broker takes your booking and passes the job to a carrier, which can mean the crew, the truck, and the service on the day are not the ones you spoke to when you booked. This Old House notes that brokered moves can cost less up front but can also bring service inconsistencies. Ask every company whether it is a carrier or a broker, who will actually load and drive on the day, and who handles a claim if something is damaged. Get the answer in writing, with the estimate type, the crew size, and what is included, before you sign.</p>
+
 ## Frequently asked questions
 
 <details class="faq"><summary>How much do movers cost per hour?</summary><p>A sample rate is $80 to $120 per hour for 2 movers and a truck. Larger crews cost more per hour, and most local moves have a minimum of 2 to 3 hours.</p></details>
@@ -305,8 +368,13 @@ Packing, storage, and specialty items such as pianos, safes, and pool tables add
 <details class="faq"><summary>Are moving quotes binding?</summary><p>Some quotes are binding and some are not, so ask for a binding quote in writing before you sign. A binding quote lists the price, the crew size, and what is included.</p></details>
 <details class="faq"><summary>What costs extra?</summary><p>Packing, storage, stairs, long carries, and specialty items such as pianos and safes usually cost extra. Ask each mover to list every extra charge in the written quote.</p></details>
 <details class="faq"><summary>How can I save on a move?</summary><p>Move mid-week, declutter first, and pack yourself. Get 3 written quotes and compare the full price, not just the hourly rate.</p></details>
-<details class="faq"><summary>How much does it cost to move a piano?</summary><p>Angi reports $260 to $580 to move a piano. The price depends on the piano type, the stairs, and the distance.</p></details>
+<details class="faq"><summary>How much do piano movers cost?</summary><p>Angi reports $260 to $580 to move a piano. The price depends on the piano type, the stairs, and the distance.</p></details>
 <details class="faq"><summary>How much do movers charge per pound for a long distance move?</summary><p>Angi reports $0.50 to $0.80 per pound and FindMoversNow reports $0.55 to $0.90 per pound, so a combined range of $0.50 to $0.90 per pound covers both sources.</p></details>
+<details class="faq"><summary>How much does a local move cost for a studio?</summary><p>A studio local move costs about $750, with a long distance estimate of $1,575 for 100 to 500 miles, at about 2.1 times the local price.</p></details>
+<details class="faq"><summary>Do movers charge extra for stairs and long carries?</summary><p>Many movers do charge extra for stairs, long carries, and no elevator access. Tell each mover about stairs, narrow halls, and parking limits before you accept a quote, so the price covers the real job.</p></details>
+<details class="faq"><summary>Should I tip the movers?</summary><p>Tips are not included in a standard quote. Tipping is customary for good service, and the amount is up to you. Check the quote first, because tips for the crew are listed as not included.</p></details>
+
+<details class="faq"><summary>How much do movers cost for a 1 bedroom apartment?</summary><p>A 1 bedroom apartment move costs about $950 typical for a local move, with a long distance estimate of $1,995 for 100 to 500 miles, at about 2.1 times the local price.</p></details>
 
 ## References
 
