@@ -5,6 +5,14 @@ meta_title: "Privacy Policy for Our Free Cost Calculators and Guides"
 meta_description: "Privacy Policy for How Much Does It Cost USA: what we collect, how we use it, and how we protect your privacy when you use our free tools online."
 permalink: /privacy/
 breadcrumb: Privacy Policy
+schema: |
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Privacy Policy for How Much Does It Cost USA",
+    "url": "https://howmuchdoesitcostusa.com/privacy/",
+    "description": "Privacy Policy for How Much Does It Cost USA: what we collect, how we use it, and how we protect your privacy when you use our free tools online."
+  }
 ---
 
 <section class="hero">
@@ -28,9 +36,9 @@ breadcrumb: Privacy Policy
   <p>If you contact us by email, we use your name, email address, and message only to reply to you. We do not sell your email address, we do not share it with advertisers, and we do not add it to a mailing list. The contact form sends nothing to this site: it opens your own email app, so your message goes straight from your email to us and is never stored here.</p>
   <p>We keep a reply only as long as needed to answer the message and fix the issue it raises. If your message reports a wrong price, we use the size, place, and material you gave us to check the price, and nothing else. You can ask us to delete your message at any time through the <a href="{{ '/contact/' | relative_url }}">contact page</a>.</p>
   <h2>Cookies and analytics</h2>
-  <p>No analytics tool is currently in use on this site, and the site sets no cookies. The calculators run in your browser, so the numbers you type are never sent to our servers, never stored, and never shared.</p>
+  <p>This site uses Google Analytics (GA4), added November 21, 2026. Google Analytics counts visits and shows us which pages are read. It also sees an approximate location and the device and browser a visitor uses. It collects no personal information and does not identify individual visitors. Google Analytics sets cookies in your browser so it can tell a new visit from a returning one. The calculators still run entirely in your browser, so the numbers you type into a calculator are never sent to our servers, never stored, and never shared.</p>
   <h2>Analytics in future</h2>
-  <p>A basic visit-counting analytics tool may be added in future to count visits and find broken pages. That tool will count visits only, and it will not track visitors across other websites. If such a tool is added, this policy will be updated with its name and the date it was added, and the date at the top of this page will change.</p>
+  <p>Google Analytics (GA4) is now in use on this site, since November 21, 2026. If the analytics tool changes, this policy will be updated with the name of the new tool and the date it was added, and the date at the top of this page will change.</p>
   <h2>Third parties</h2>
   <p>Pages on this site load fonts from Google Fonts. Google may see your IP address when your browser fetches a font, under Google's own privacy policy. We do not share your information with advertisers, and we do not sell or rent any information we receive. The cost guides link out to named public sources, such as Angi and the US Bureau of Labor Statistics, and those sites have their own privacy policies when you click through to them.</p>
   <h2>Children</h2>
