@@ -210,7 +210,7 @@ schema: |
   <p class="table-hint">Swipe to see the High column &rarr;</p>
   <div class="table-wrap">
     <table class="cost-table">
-      <caption>Sample estimated cost breakdown, updated for your selection</caption>
+      
       <thead>
         <tr><th>Item</th><th>Low</th><th>Typical</th><th>High</th></tr>
       </thead>
@@ -251,7 +251,7 @@ schema: |
   <p class="table-hint">Swipe to see the Minimum column &rarr;</p>
   <div class="table-wrap">
     <table class="cost-table">
-      <caption>SEER2 federal minimums for central air systems</caption>
+      
       <thead>
         <tr><th>Region</th><th>Minimum SEER2</th></tr>
       </thead>
@@ -267,7 +267,7 @@ schema: |
   <p>Efficiency is where much of the price range comes from. The table below shows unit-only prices for a 3 ton system, per TrueRepairCost.</p>
   <div class="table-wrap">
     <table class="cost-table">
-      <caption>Unit-only price for a 3 ton central air system by SEER rating</caption>
+      
       <thead>
         <tr><th>SEER rating</th><th>Unit only</th></tr>
       </thead>
@@ -289,7 +289,7 @@ schema: |
   <p class="table-hint">Swipe to see the Sample range column &rarr;</p>
   <div class="table-wrap">
     <table class="cost-table">
-      <caption>Sample estimated USA prices by project type, per TrueRepairCost</caption>
+      
       <thead>
         <tr><th>Project type</th><th>Sample range</th></tr>
       </thead>
@@ -376,7 +376,7 @@ schema: |
   <p>The table below repeats the typical column from the breakdown above, so you can see the share of each line at the calculator default.</p>
   <div class="table-wrap">
     <table class="cost-table">
-      <caption>Typical cost lines for a 2.5 ton central air system</caption>
+      
       <thead>
         <tr><th>Item</th><th>Typical</th></tr>
       </thead>
@@ -395,7 +395,7 @@ schema: |
   <p>The calculator prices tons at $2,720 each at 13.4 SEER2, so the typical price by size is the table below. A 16 SEER2 system costs 1.15 times as much, and an 18+ SEER2 system costs 1.3 times as much.</p>
   <div class="table-wrap">
     <table class="cost-table">
-      <caption>Typical installed cost by system size, at 13.4 SEER2</caption>
+      
       <thead>
         <tr><th>System size</th><th>Typical</th></tr>
       </thead>
@@ -416,7 +416,7 @@ schema: |
   <p>The table below prices each home size with the same formula as the calculator: tons from home size divided by 600, rounded to the nearest half ton, at $2,720 per ton at 13.4 SEER2. Low is 76.5 percent of typical and high is 139.7 percent.</p>
   <div class="table-wrap">
     <table class="cost-table">
-      <caption>Sample estimated installed cost by home size, at 13.4 SEER2</caption>
+      
       <thead>
         <tr><th>Home size</th><th>System size</th><th>Typical</th><th>Sample range</th></tr>
       </thead>
