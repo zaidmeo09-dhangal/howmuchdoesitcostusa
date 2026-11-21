@@ -175,7 +175,7 @@ schema: |
   </div>
 
   <div class="calc">
-    <h2>Fence Cost Calculator</h2>
+    <h2>Estimate your fence installation cost</h2>
     <p>Use this fence cost calculator to estimate your fence installation cost. Pick your fence length, material, height, and gates to see a sample estimated price for your fence.</p>
     <div class="calc-field">
       <label for="fenceLength">Fence length: <span id="fenceLengthVal">150 ft</span></label>
