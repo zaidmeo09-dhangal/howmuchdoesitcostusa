@@ -186,11 +186,13 @@ schema: |
 
 <p class="note">Long distance costs about 2.1 times the local price in these sample ranges. For example, $1,240 times 2.1 equals $2,604 for a 2-bedroom move of 100 to 500 miles. For a 1 bedroom apartment, movers cost about $950 typical for a local move, with a long distance estimate of $1,995 for 100 to 500 miles.</p>
 
-<p>Survey data tells a similar story. <a href="https://www.angi.com/articles/how-much-does-it-cost-hire-movers.htm" target="_blank" rel="noopener">Angi</a> reports a national average of $1,694, with most people paying $875 to $2,546 for a local move, based on 6,434 verified projects. A <a href="https://www.consumervoice.org/articles/how-much-do-movers-cost" target="_blank" rel="noopener">This Old House</a> 2025 survey of 1,000 customers found a local average of $1,489, a long distance average of $3,124, and an overall average of $3,020.</p>
+<p>Survey data tells a similar story. <a href="https://www.angi.com/articles/how-much-does-it-cost-hire-movers.htm" target="_blank" rel="noopener">Angi</a> reports a national average of $1,694, with most people paying $875 to $2,546 for a local move, based on 6,434 verified projects. A This Old House 2025 survey of 1,000 customers found a local average of $1,489, a long distance average of $3,129, and an overall average of $3,020.</p>
+
+<figure><img src="/assets/images/blog/movers-cost/movers-carrying-boxes.webp" alt="Two professional movers carrying cardboard boxes in a bright room during a move" width="1200" height="800" loading="lazy"></figure>
 
 ## Long distance cost by weight
 
-<p>Long distance movers often price by weight as well as distance. <a href="https://www.angi.com/articles/how-much-does-it-cost-hire-movers.htm" target="_blank" rel="noopener">Angi</a> reports $0.50 to $0.80 per pound, and <a href="https://findmoversnow.com/moving-company-costs/" target="_blank" rel="noopener">FindMoversNow</a> reports $0.55 to $0.90 per pound, so a combined range of $0.50 to $0.90 per pound covers both sources. The worked line below uses that combined range.</p>
+<p>Long distance movers often price by weight as well as distance. <a href="https://www.angi.com/articles/how-much-does-it-cost-hire-movers.htm" target="_blank" rel="noopener">Angi</a> reports $0.50 to $0.80 per pound, and FindMoversNow reports $0.55 to $0.90 per pound, so a combined range of $0.50 to $0.90 per pound covers both sources. The worked line below uses that combined range.</p>
 
 <ul>
 <li>7,000 pounds at $0.50 per pound = $3,500</li>
@@ -237,7 +239,7 @@ schema: |
 </table>
 </div>
 
-<p>Released value at $0.60 per pound comes from <a href="https://www.angi.com/articles/how-much-does-it-cost-hire-movers.htm" target="_blank" rel="noopener">Angi</a>, and the 1% to 2% full-value figure comes from <a href="https://www.freightwaves.com/checkpoint/moving-costs/" target="_blank" rel="noopener">FreightWaves</a>. The $60 and $500 to $1,000 figures are arithmetic from those rates: 100 x $0.60 = $60, and 1% of $50,000 = $500 while 2% of $50,000 = $1,000.</p>
+<p>Released value at $0.60 per pound comes from <a href="https://www.angi.com/articles/how-much-does-it-cost-hire-movers.htm" target="_blank" rel="noopener">Angi</a>, and the 1% to 2% full-value figure comes from FreightWaves. The $60 and $500 to $1,000 figures are arithmetic from those rates: 100 x $0.60 = $60, and 1% of $50,000 = $500 while 2% of $50,000 = $1,000.</p>
 
 ## Binding vs non-binding vs not-to-exceed estimates
 
@@ -249,7 +251,7 @@ schema: |
 <li><strong>Not-to-exceed estimate.</strong> The price cannot go above the quoted amount, but it can come in lower if the actual weight is less than estimated. This is also called a binding not-to-exceed estimate.</li>
 </ul>
 
-<p>Get the estimate type in writing, with the items list attached. On an interstate move with a non-binding estimate, federal rules mean the mover cannot make you pay more than 110% of the estimate at delivery to release your goods, and any amount above that is billed after delivery. A <a href="https://www.consumervoice.org/articles/how-much-do-movers-cost" target="_blank" rel="noopener">This Old House</a> 2025 survey of 1,000 customers found only 43% got a binding estimate, so most people sign a quote that can still change.</p>
+<p>Get the estimate type in writing, with the items list attached. On an interstate move with a non-binding estimate, federal rules mean the mover cannot make you pay more than 110% of the estimate at delivery to release your goods, and any amount above that is billed after delivery. A 2025 survey of 1,000 moving customers found only 43% got a binding estimate, so most people sign a quote that can still change.</p>
 
 ## Full-service vs container vs DIY
 
@@ -263,7 +265,7 @@ schema: |
 <tr><th>Option</th><th>Who loads and drives</th><th>Best for</th></tr>
 </thead>
 <tbody>
-<tr><td>Full-service mover</td><td>The crew loads, drives, and unloads</td><td>People who want the least work; local average $1,489 and long distance average $3,124 in the This Old House 2025 survey</td></tr>
+<tr><td>Full-service mover</td><td>The crew loads, drives, and unloads</td><td>People who want the least work; local average $1,489 and long distance average $3,129 in the This Old House 2025 survey</td></tr>
 <tr><td>Moving container</td><td>You load, the company drives the container</td><td>People who want to pack themselves but do not want to drive a truck</td></tr>
 <tr><td>DIY truck rental</td><td>You load and drive</td><td>Small local moves on a tight budget, where you pay the rental, fuel, and your own time</td></tr>
 </tbody>
@@ -271,6 +273,8 @@ schema: |
 </div>
 
 <p>Container and DIY prices vary by company, distance, and season, so get a written quote for each option on the same date before you compare.</p>
+
+<figure><img src="/assets/images/blog/movers-cost/movers-loading-van.webp" alt="Two movers loading furniture into the back of a van on moving day" width="1200" height="800" loading="lazy"></figure>
 
 ## What affects the price
 
@@ -409,7 +413,7 @@ Packing, storage, and specialty items such as pianos, safes, and pool tables add
 
 ## References
 
-<p>Mover averages on this page come from <a href="https://www.angi.com/articles/how-much-does-it-cost-hire-movers.htm" target="_blank" rel="noopener">Angi</a>, <a href="https://www.freightwaves.com/checkpoint/moving-costs/" target="_blank" rel="noopener">FreightWaves</a>, <a href="https://findmoversnow.com/moving-company-costs/" target="_blank" rel="noopener">FindMoversNow</a>, and <a href="https://www.consumervoice.org/articles/how-much-do-movers-cost" target="_blank" rel="noopener">This Old House</a>. All other prices on this page are sample estimated USA ranges, not quotes.</p>
+<p>Mover averages on this page come from <a href="https://www.angi.com/articles/how-much-does-it-cost-hire-movers.htm" target="_blank" rel="noopener">Angi</a>, FreightWaves, FindMoversNow, and This Old House. All other prices on this page are sample estimated USA ranges, not quotes.</p>
 
 ## Related links
 
