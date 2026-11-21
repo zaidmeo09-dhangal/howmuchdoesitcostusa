@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Central Air Installation Cost Calculator"
-meta_title: "Central Air Installation Cost Calculator - USA Prices"
-meta_description: "How much does it cost to install central air? Use our free calculator to estimate equipment, labor, and total cost by home size in the USA now."
+title: "Central Air Installation Cost Calculator: Get a Price"
+meta_title: "Central Air Installation Cost Calculator: Get a Price"
+meta_description: "Use our central air installation cost calculator to estimate equipment, labor, and total cost by home size, system size, and SEER2 rating."
 permalink: /central-ac-installation-cost-calculator/
 breadcrumb: Tools
 schema: |
@@ -12,7 +12,7 @@ schema: |
       {
         "@type": "WebPage",
         "name": "Central Air Installation Cost Calculator",
-        "description": "How much does it cost to install central air? Use our free calculator to estimate equipment, labor, and total cost by home size in the USA now.",
+        "description": "Use our central air installation cost calculator to estimate equipment, labor, and total cost by home size, system size, and SEER2 rating.",
         "url": "https://howmuchdoesitcostusa.com/central-ac-installation-cost-calculator/"
       },
       {
@@ -103,6 +103,38 @@ schema: |
           },
           {
             "@type": "Question",
+            "name": "How much does a central air installation cost with ductwork?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "With new ductwork the job runs $7,500 to $16,000, per TrueRepairCost. Ductwork alone runs $3,000 to $7,500 for 300 linear feet, per Angi. A home with good existing ducts pays only for modifications, priced at $350 to $750 in the calculator."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What does a central air and furnace installation cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AC plus furnace together costs $5,000 to $11,000, per TrueRepairCost. Doing both at once costs less than two separate jobs, because the crew is on site once and the coil, duct connections, and controls are shared."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What does this calculator include?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It includes equipment, labor and installation, ductwork modifications, electrical and permits, and supplies and refrigerant. It does not include electrical panel upgrades, full duct replacement, or smart thermostat upgrades."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How accurate is this central air installation cost calculator?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It is a planning estimate built from the formula on this page: tons from home size, priced at $2,720 per ton at 13.4 SEER2. Real quotes vary with ductwork, electrical work, and local labor rates, so get 3 written quotes before you budget."
+            }
+          },
+          {
+            "@type": "Question",
             "name": "How much does it cost to install central air?",
             "acceptedAnswer": {
               "@type": "Answer",
@@ -129,7 +161,7 @@ schema: |
 
   <div class="calc">
     <h2>Central AC Installation Cost Calculator</h2>
-    <p>Pick your home size and efficiency to see the cost to install central air for your home, as a sample estimated price for a new central air system.</p>
+    <p>Pick your home size and efficiency to see the cost to install central air for your home, as a sample estimated price for a new central air system. This central air conditioning installation cost calculator prices the equipment, the labor, and the usual extras, so you can see where the money goes before you request quotes.</p>
     <div class="calc-field">
       <label for="homeSize">Home size: <span id="homeSizeVal">1,500 sq ft</span></label>
       <input type="range" id="homeSize" min="800" max="3500" step="50" value="1500">
@@ -210,6 +242,8 @@ schema: |
 
   <h3>Insulation and windows</h3>
   <p>Insulation and windows change the size your home needs, so square feet alone do not settle it. A well insulated home with good windows needs less cooling than a drafty home of the same size, and a home with large west facing windows needs more. A pro should confirm the size with a load calculation before you buy, since insulation, windows, and climate change the answer. Sealing ducts before sizing a new system also helps, since leaky ducts waste cooled air.</p>
+  <h3>Climate zone</h3>
+  <p>Square feet alone do not set the size, because climate changes how much cooling each square foot needs. A home in a hot climate needs more cooling per square foot than the same home in a cool climate, so the same floor area can need a different tonnage in Florida than in Minnesota. A Manual J load calculation accounts for your climate, insulation, windows, and air leakage, and it is the right way to confirm the size before you buy.</p>
   <h3>Thermostat and controls</h3>
   <p>Smart thermostat upgrades are not included in the price on this page. A new thermostat can help a new system run well, but it is a separate cost, so ask for it as its own line if you want one. Check that the thermostat works with the system you pick, and ask who sets it up and shows you how to use it. A good control does not fix a wrong size, so settle the size first.</p>
   <h2>SEER2 federal minimums by region</h2>
@@ -228,7 +262,24 @@ schema: |
       </tbody>
     </table>
   </div>
-  <p class="note">Source: TrueRepairCost, researched November 9, 2026. A 3 ton unit-only price rises with SEER, as TrueRepairCost lists it: 14 SEER about $1,725 to $3,600, 16 SEER about $2,875 to $6,000, 18 SEER about $4,100 to $7,800, and 21 SEER about $6,325 to $10,800, per TrueRepairCost.</p>
+  <p class="note">Source: TrueRepairCost, researched November 9, 2026. These are unit-only prices for a 3 ton system; labor, ductwork, and permits are on top.</p>
+  <h3>What a 3 ton unit costs by SEER rating</h3>
+  <p>Efficiency is where much of the price range comes from. The table below shows unit-only prices for a 3 ton system, per TrueRepairCost.</p>
+  <div class="table-wrap">
+    <table class="cost-table">
+      <caption>Unit-only price for a 3 ton central air system by SEER rating</caption>
+      <thead>
+        <tr><th>SEER rating</th><th>Unit only</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>14 SEER</td><td>$1,725 to $3,600</td></tr>
+        <tr><td>16 SEER</td><td>$2,875 to $6,000</td></tr>
+        <tr><td>18 SEER</td><td>$4,100 to $7,800</td></tr>
+        <tr><td>21 SEER</td><td>$6,325 to $10,800</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>A higher SEER system costs more to buy and less to run. In a hot climate with a long cooling season, the extra cost can pay back through lower power bills. In a cool climate where you run cooling only a few weeks a year, it may never pay back, so compare the extra cost with the yearly saving before you buy.</p>
 
   <h2>Refrigerant and the indoor coil</h2>
   <p>New systems use R-454B or R-32 refrigerant. R-454B has a global warming potential of 466, against 2,088 for the older R-410A, per TrueRepairCost. The indoor coil is replaced with the outdoor condenser because the coil must match the new refrigerant and the new SEER2 rating, so a condenser-only swap that keeps an old coil is a false saving.</p>
@@ -252,9 +303,17 @@ schema: |
     </table>
   </div>
   <p class="note">Labor is 40 to 60 percent of the total, per TrueRepairCost. Ductwork alone runs $3,000 to $7,500 for 300 linear feet, per Angi.</p>
+  <h3>Central air installation cost with ductwork</h3>
+  <p>With new ductwork the job runs $7,500 to $16,000, per TrueRepairCost. Ductwork alone runs $3,000 to $7,500 for 300 linear feet, per Angi. If your home already has good ducts, you pay only for modifications, which the calculator prices at $350 to $750. If the ducts are leaky, undersized, or crushed, fix them before you size the new system, because a new condenser cannot fix a bad duct system.</p>
+  <h3>Central air and furnace together</h3>
+  <p>A central air and furnace installation costs $5,000 to $11,000 for the pair, per TrueRepairCost. A combined central heat and air install suits a home that needs both heating and cooling replaced at once, and doing both together costs less than two separate jobs, because the crew is on site once and the coil, duct connections, and controls are shared. A heat pump, which heats and cools with one system, runs $3,625 to $10,800.</p>
 
   <h2>Worked example: 3.5 ton home in Georgia</h2>
   <p>TrueRepairCost prices a 3.5 ton Georgia home at $5,650 to $7,650. Georgia is in the Southeast, so the 14.3 SEER2 minimum applies. Our calculator prices a 3.5 ton system at 3.5 x $2,720 = $9,520 before the efficiency multiplier, which is higher because it is a sample model rate, not a Georgia quote, so get a local quote before you budget.</p>
+
+  <h2>Two more worked examples</h2>
+  <p>A 2,000 sq ft home needs about 3.5 tons, so the calculator gives $9,520 typical at 13.4 SEER2. At 16 SEER2 the same system costs 1.15 times as much, or about $10,950.</p>
+  <p>A 1,000 sq ft home needs about 1.5 tons, so the calculator gives $4,080 typical at 13.4 SEER2. At 18+ SEER2 the same system costs 1.3 times as much, or about $5,300.</p>
 
   <h2>Repair or replace: the $5,000 rule</h2>
   <p>iBuyer uses a $5,000 rule: multiply the age of the system in years by the cost of the repair, and replace it if the answer is over $5,000. Worked math: 12 years x $500 repair = $6,000, which is over $5,000, so replace. A 12 year old system that needs a $500 repair fails the test, while the same repair on a 5 year old system gives 5 x $500 = $2,500, which passes.</p>
@@ -352,6 +411,25 @@ schema: |
     </table>
   </div>
   <p>Size is the biggest driver of equipment cost, but do not pick a size from square feet alone. A pro should confirm the size with a load calculation, since insulation, windows, and climate change the answer. If your home has no ducts, add new ductwork: with new ductwork the job runs $7,500 to $16,000, per TrueRepairCost.</p>
+
+  <h2>Central air installation cost by home size</h2>
+  <p>The table below prices each home size with the same formula as the calculator: tons from home size divided by 600, rounded to the nearest half ton, at $2,720 per ton at 13.4 SEER2. Low is 76.5 percent of typical and high is 139.7 percent.</p>
+  <div class="table-wrap">
+    <table class="cost-table">
+      <caption>Sample estimated installed cost by home size, at 13.4 SEER2</caption>
+      <thead>
+        <tr><th>Home size</th><th>System size</th><th>Typical</th><th>Sample range</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1,000 sq ft</td><td>1.5 tons</td><td>$4,080</td><td>$3,120 to $5,700</td></tr>
+        <tr><td>1,500 sq ft</td><td>2.5 tons</td><td>$6,800</td><td>$5,200 to $9,500</td></tr>
+        <tr><td>2,000 sq ft</td><td>3.5 tons</td><td>$9,520</td><td>$7,280 to $13,300</td></tr>
+        <tr><td>2,500 sq ft</td><td>4 tons</td><td>$10,880</td><td>$8,320 to $15,200</td></tr>
+        <tr><td>3,000 sq ft</td><td>5 tons</td><td>$13,600</td><td>$10,400 to $19,000</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>A 16 SEER2 system costs 1.15 times as much as the figures above, and an 18+ SEER2 system costs 1.3 times as much. Homes with no ducts need a full duct install on top of these figures.</p>
   <h2>References</h2>
   <p>Our estimates use public US cost data as a guide. Labor cost context comes from the US Bureau of Labor Statistics, housing cost context from HUD, remodeling trends from Harvard JCHS, and material prices from Home Depot and Lowes. AC prices in this page also use Angi, TrueRepairCost, and iBuyer. All prices on this page are sample estimated USA ranges, not quotes.</p>
   <div class="refs">
@@ -407,6 +485,22 @@ schema: |
   <details class="faq">
     <summary>Can I install central air in a home with no ducts?</summary>
     <p>A home with no ducts needs a full duct install, which costs far more. With new ductwork the job runs $7,500 to $16,000, per TrueRepairCost, against $3,911 to $8,067 to replace the AC only.</p>
+  </details>
+  <details class="faq">
+    <summary>How much does a central air installation cost with ductwork?</summary>
+    <p>With new ductwork the job runs $7,500 to $16,000, per TrueRepairCost. Ductwork alone runs $3,000 to $7,500 for 300 linear feet, per Angi. A home with good existing ducts pays only for modifications, priced at $350 to $750 in the calculator.</p>
+  </details>
+  <details class="faq">
+    <summary>What does a central air and furnace installation cost?</summary>
+    <p>AC plus furnace together costs $5,000 to $11,000, per TrueRepairCost. Doing both at once costs less than two separate jobs, because the crew is on site once and the coil, duct connections, and controls are shared.</p>
+  </details>
+  <details class="faq">
+    <summary>What does this calculator include?</summary>
+    <p>It includes equipment, labor and installation, ductwork modifications, electrical and permits, and supplies and refrigerant. It does not include electrical panel upgrades, full duct replacement, or smart thermostat upgrades.</p>
+  </details>
+  <details class="faq">
+    <summary>How accurate is this central air installation cost calculator?</summary>
+    <p>It is a planning estimate built from the formula on this page: tons from home size, priced at $2,720 per ton at 13.4 SEER2. Real quotes vary with ductwork, electrical work, and local labor rates, so get 3 written quotes before you budget.</p>
   </details>
   <details class="faq">
     <summary>How much does it cost to install central air?</summary>
