@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How Much Does a Fence Cost?"
-meta_title: "How Much Does a Fence Cost in the USA? Full Price Guide."
+meta_title: "How Much Does a Fence Cost? Prices by Material and Size"
 meta_description: "How much does a fence cost in the USA? Compare wood, vinyl, and chain link prices by fence length, and see what drives the total cost up or down."
 date: 2026-11-14
 permalink: /blog/how-much-does-a-fence-cost/
@@ -16,7 +16,7 @@ schema: |
     "@graph": [
       {
         "@type": "Article",
-        "headline": "How Much Does a Fence Cost?",
+        "headline": "How Much Does a Fence Cost? Prices by Material and Size",
         "description": "How much does a fence cost in the USA? Compare wood, vinyl, and chain link prices by fence length, and see what drives the total cost up or down.",
         "author": {
           "@type": "Organization",
@@ -122,6 +122,54 @@ schema: |
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "Chain link costs $9 to $20 per foot installed, with $14 typical, so 200 ft of chain link fence costs $1,800 to $4,000, with $2,800 typical, from 200 times $14."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does it cost to build a fence?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "To build a fence, multiply the length by the installed cost per foot, then add gates, permits, and removal. Installed cost per foot is $14 to $36 for wood, $25 to $55 for vinyl, and $9 to $20 for chain link, so a 150 ft wood privacy fence costs about $3,335 typical, with a sample range of $2,100 to $5,400. To put up a fence on the same 150 ft line in vinyl costs $3,750 to $8,250."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does a privacy fence cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A 6 ft wood privacy fence costs about $22 per foot typical, in a sample range of $14 to $36 per foot installed, so a 150 ft wood privacy fence costs about $3,335 typical. The same 150 ft line in vinyl costs $3,750 to $8,250 at $25 to $55 per foot."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does a chain link fence cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Chain link costs $9 to $20 per foot installed, with $14 typical, so a 150 ft chain link fence costs $1,350 to $3,000, with $2,100 typical."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does a wood fence cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Wood costs $14 to $36 per foot installed, with $22 typical, so a 150 ft wood privacy fence costs $2,100 to $5,400, with about $3,335 typical."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does it cost to install a fence?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Installation labor runs $10 to $30 per linear foot and is about half the job, per Quotsey. For a 150 ft wood privacy fence, the installed total is about $3,335 typical, with a sample range of $2,100 to $5,400. To erect a fence on sloped or rocky ground costs more, because the crew spends longer on every post hole."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does it cost to replace a fence?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Replacement costs $30 to $80 per linear foot, per RemodelCalculators, against $20 to $60 per linear foot for a new fence, because replacement adds removal at $3 to $7 per foot. On a 150 ft fence, removal alone is $450 to $1,050."
             }
           }
         ]
@@ -276,6 +324,32 @@ Prices move with local labor rates. Quotsey gives these ranges for a 150 ft pres
 
 <p class="note">Urban and coastal areas run about 40 to 60 percent higher than rural areas, per Quotsey, so a city quote can sit well above these ranges.</p>
 
+## Example fence budgets
+
+<p>Use these four budgets to place your own fence before you call an installer. Each total is the fence only, from the per foot ranges above, so gates, permits, and old fence removal sit on top.</p>
+
+<p class="table-hint">Swipe to see the Sample cost column &rarr;</p>
+  <div class="table-wrap">
+<table class="cost-table">
+<caption>Sample fence budgets by job size</caption>
+<thead>
+<tr><th>Budget</th><th>Fence</th><th>Sample cost</th></tr>
+</thead>
+<tbody>
+<tr><td>Small side yard</td><td>100 ft chain link</td><td>$900 to $2,000</td></tr>
+<tr><td>Standard backyard</td><td>150 ft wood privacy</td><td>$2,100 to $5,400, about $3,335 typical</td></tr>
+<tr><td>Privacy fence</td><td>150 ft vinyl</td><td>$3,750 to $8,250</td></tr>
+<tr><td>Large yard</td><td>300 ft wood</td><td>$4,200 to $10,800</td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="note">Each total is the per foot range times the length. For the standard backyard, 150 ft of wood at $14 to $36 per foot is $2,100 to $5,400, with about $3,335 typical.</p>
+
+## Where the money goes
+
+<p>At the $3,335 typical total for a 150 ft wood privacy fence, the money splits like this: materials $1,750, labor $1,050, gates and hardware $200, staining and sealing $150, permits and fees $110, and supplies and equipment $75. Materials and labor together are about 84 percent of the total, so shopping for cheaper panels can only ever move about half the bill. The labor half is set mostly by your ground and your local market, not by negotiation, which is why two honest quotes for the same fence can still differ by a lot.</p>
+
 ## Sloped ground: stepped vs racked
 
 A fence on a slope is built one of two ways, per RemodelCalculators. A racked fence tilts the panels to follow the ground, and it works on gentle slopes below about 15 degrees. A stepped fence keeps each panel level and steps down the slope, which works on steeper ground but leaves gaps under the panels and needs more posts. Grading to level the ground costs $500 to $3,000, per RemodelCalculators, so ask the installer which method they priced before you compare quotes.
@@ -312,6 +386,10 @@ The cheapest fence to install is not always the cheapest to own. RemodelCalculat
 <p class="pull-quote-label">Money-saving tip</p>
 <p>Where the fence sits on a shared line and your neighbor agrees, splitting the cost can cut your bill in half.</p>
 </aside>
+
+## How much does it cost to install a fence?
+
+<p>Installation is the labor half of the bill: labor runs $10 to $30 per linear foot and is about half the job, per Quotsey. That is why the cheapest installed price is not always the cheapest fence, and why a quote that folds gates, removal, and permits into one per foot number is hard to compare. Ask each installer to list labor, gates, removal, and permit fees separately, and price your own fence first with the <a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a>, so you know what the install should cost before the quotes arrive.</p>
 
 ## DIY vs hiring a pro
 
@@ -357,6 +435,16 @@ Check these five things before anyone digs. A property survey costs $200 to $545
 <li><strong>Clear the fence line yourself.</strong> Move plants, debris, and stored items before the crew arrives, so paid labor time goes to the fence itself.</li>
 </ul>
 
+## Common mistakes that raise the cost
+
+<ul>
+<li><strong>Building on the wrong line.</strong> A fence in the wrong place can mean moving it at your own expense, so confirm the boundary with a survey before anyone digs.</li>
+<li><strong>Skipping the permit.</strong> A fence built without a permit can have to come down, and the fee is small next to the cost of moving a finished fence.</li>
+<li><strong>Forgetting the gates.</strong> Gates are priced per unit, not per foot, at $150 to $600 per walk gate, so a quote without them is not the full price.</li>
+<li><strong>Buying the cheapest wood and leaving it unstained.</strong> Wood needs staining or sealing every few years, so the lowest quote can become the highest cost over 20 years.</li>
+<li><strong>Accepting shallow posts.</strong> Posts set shallow or spaced too wide lean within a few years, and the fix is digging them out and starting over.</li>
+</ul>
+
 ## How to hire a fence installer
 
 <ol class="steps">
@@ -398,6 +486,12 @@ Check these five things before anyone digs. A property survey costs $200 to $545
 
 <details class="faq"><summary>How much does a 6-foot privacy fence cost per foot?</summary><p>A 6-foot wood privacy fence costs about $22 per foot typical, in a sample range of $14 to $36 per foot installed. A 150 ft wood privacy fence costs about $3,335 typical.</p></details>
 <details class="faq"><summary>How much does 200 ft of chain link fence cost?</summary><p>Chain link costs $9 to $20 per foot installed, with $14 typical, so 200 ft of chain link fence costs $1,800 to $4,000, with $2,800 typical, from 200 times $14.</p></details>
+<details class="faq"><summary>How much does it cost to build a fence?</summary><p>To build a fence, multiply the length by the installed cost per foot, then add gates, permits, and removal. Installed cost per foot is $14 to $36 for wood, $25 to $55 for vinyl, and $9 to $20 for chain link, so a 150 ft wood privacy fence costs about $3,335 typical, with a sample range of $2,100 to $5,400. To put up a fence on the same 150 ft line in vinyl costs $3,750 to $8,250.</p></details>
+<details class="faq"><summary>How much does a privacy fence cost?</summary><p>A 6 ft wood privacy fence costs about $22 per foot typical, in a sample range of $14 to $36 per foot installed, so a 150 ft wood privacy fence costs about $3,335 typical. The same 150 ft line in vinyl costs $3,750 to $8,250 at $25 to $55 per foot.</p></details>
+<details class="faq"><summary>How much does a chain link fence cost?</summary><p>Chain link costs $9 to $20 per foot installed, with $14 typical, so a 150 ft chain link fence costs $1,350 to $3,000, with $2,100 typical.</p></details>
+<details class="faq"><summary>How much does a wood fence cost?</summary><p>Wood costs $14 to $36 per foot installed, with $22 typical, so a 150 ft wood privacy fence costs $2,100 to $5,400, with about $3,335 typical.</p></details>
+<details class="faq"><summary>How much does it cost to install a fence?</summary><p>Installation labor runs $10 to $30 per linear foot and is about half the job, per Quotsey. For a 150 ft wood privacy fence, the installed total is about $3,335 typical, with a sample range of $2,100 to $5,400. To erect a fence on sloped or rocky ground costs more, because the crew spends longer on every post hole.</p></details>
+<details class="faq"><summary>How much does it cost to replace a fence?</summary><p>Replacement costs $30 to $80 per linear foot, per RemodelCalculators, against $20 to $60 per linear foot for a new fence, because replacement adds removal at $3 to $7 per foot. On a 150 ft fence, removal alone is $450 to $1,050.</p></details>
 
 ## References
 
