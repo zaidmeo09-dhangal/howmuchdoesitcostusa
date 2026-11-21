@@ -11,6 +11,8 @@ card_price: "$2,100 - $5,400"
 calculator_url: "/fence-cost-calculator/"
 calculator_name: "Fence Cost Calculator"
 calculator_heading: "Price your own fence"
+image: /assets/images/blog/fence-cost/feature.webp
+image_alt: "A wooden privacy fence around a grassy residential backyard with a garden shed"
 schema: |
   {
     "@context": "https://schema.org",
