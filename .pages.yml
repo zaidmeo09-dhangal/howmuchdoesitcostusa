@@ -1,0 +1,129 @@
+# How Much Does It Cost USA - Pages CMS config
+# Docs: https://pagescms.org/docs
+# Place: repo root. Pages CMS reads this file per repository and per branch.
+# The user signs in at app.pagescms.org with GitHub and picks the repo;
+# nothing in this file signs in or creates an account.
+# Field names below must match the post front matter exactly, so Pages CMS
+# reads the existing 8 guide posts correctly. Do not rename any field.
+
+media:
+  - name: images
+    label: Blog images
+    input: assets/images
+    output: /assets/images
+    extensions: [webp, png, jpg]
+    categories: [image]
+    rename: false
+
+content:
+  - name: posts
+    label: Cost Guides
+    type: collection
+    path: _posts
+    format: yaml-frontmatter
+    filename:
+      template: "{year}-{month}-{day}-{primary}.md"
+      field: create
+    view:
+      primary: title
+      sort: date
+      order: desc
+    fields:
+      - name: layout
+        label: Layout
+        type: string
+        required: true
+        default: post
+        description: "Always post. Do not change."
+      - name: title
+        label: Title
+        type: string
+        required: true
+        description: "The H1. Plain, direct, keyword first."
+      - name: meta_title
+        label: Meta title
+        type: string
+        required: true
+        description: "41 to 59 characters, brand free (no site name suffix)."
+      - name: meta_description
+        label: Meta description
+        type: text
+        required: true
+        description: "120 to 156 characters, direct answer style, USA prices."
+      - name: date
+        label: Publish date
+        type: date
+        required: true
+        options:
+          format: yyyy-MM-dd
+        description: "Must match the date in the file name."
+      - name: permalink
+        label: Permalink
+        type: string
+        required: true
+        pattern: "^/blog/[a-z0-9-]+/$"
+        description: "Always /blog/<slug>/. Never change a published permalink."
+      - name: breadcrumb
+        label: Breadcrumb
+        type: string
+        required: true
+        default: Blog
+        description: "Always Blog."
+      - name: guide_category
+        label: Guide category
+        type: select
+        required: true
+        options:
+          values: [Moving Costs, Home Costs, Home Projects, Car Costs]
+        description: "The category chip shown on the blog card."
+      - name: calculator_url
+        label: Calculator URL
+        type: string
+        description: "Matching calculator page, e.g. /roof-replacement-cost-calculator/. Only when a matching calculator exists."
+      - name: calculator_name
+        label: Calculator name
+        type: string
+        description: "Matching calculator name, e.g. Roof Replacement Cost Calculator. Only when a matching calculator exists."
+      - name: calculator_heading
+        label: Calculator heading
+        type: string
+        description: "Short heading above the calculator link, e.g. Price your own roof. Only when a matching calculator exists."
+      - name: calculator_note
+        label: Calculator note
+        type: string
+        description: "Short note shown with the calculator link, e.g. when the matching calculator covers a related job only. Only when a note is needed; most posts leave this empty."
+      - name: card_price
+        label: Card price
+        type: string
+        description: "Price range on the blog card, e.g. \"$2,100 - $5,400\". Leave empty if the post has no price range; no chip shows then."
+      - name: image
+        label: Feature image
+        type: image
+        options:
+          media: images
+          path: blog
+          extensions: [webp]
+        description: "Feature image: exactly 1200 x 630 px, WebP, under 100 KB, saved at /assets/images/blog/<slug>/feature.webp. The post layout shows it only when this field is set."
+      - name: image_alt
+        label: Image alt text
+        type: string
+        description: "Plain description of the feature image. Falls back to the post title if left out, so always set it."
+      - name: categories
+        label: Categories
+        type: select
+        options:
+          values: [guides]
+          multiple: true
+        description: "Always guides."
+      - name: schema
+        label: Schema (JSON-LD)
+        type: code
+        options:
+          format: json
+        description: "Hand written JSON-LD: Article (with image) plus FAQPage. Every FAQ question and answer must match the visible FAQs on the page exactly, word for word."
+      - name: body
+        label: Body
+        type: code
+        options:
+          format: markdown
+        description: "Post body below the front matter. Edit as code: the body contains raw HTML blocks (answer box, price tables, FAQs), so do not use the rich text editor here."
