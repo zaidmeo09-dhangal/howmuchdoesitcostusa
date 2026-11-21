@@ -11,6 +11,8 @@ card_price: "$2,800 - $6,800"
 calculator_url: "/house-painting-cost-calculator/"
 calculator_name: "House Painting Cost Calculator"
 calculator_heading: "Price your own house painting"
+image: /assets/images/blog/house-painting-cost/feature.webp
+image_alt: "Man painting the exterior wall of a house with a roller on a long handle, with a ladder beside him"
 schema: |
   {
     "@context": "https://schema.org",
