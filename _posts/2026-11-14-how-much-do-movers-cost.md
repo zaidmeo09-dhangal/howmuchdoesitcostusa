@@ -11,6 +11,8 @@ card_price: "$843 - $1,637"
 calculator_url: "/movers-cost-calculator/"
 calculator_name: "Movers Cost Calculator"
 calculator_heading: "Price your own move"
+image: /assets/images/blog/movers-cost/feature.webp
+image_alt: "Two professional movers carrying cardboard boxes in a bright room during a move"
 schema: |
   {
     "@context": "https://schema.org",
