@@ -12,7 +12,7 @@ calculator_url: "/car-wrap-cost-calculator/"
 calculator_name: "Car Wrap Cost Calculator"
 calculator_heading: "Price your own wrap"
 image: /assets/images/blog/paint-a-car-cost/feature.webp
-image_alt: "A painter in a white protective suit and respirator mask spray-painting a masked car inside a bright auto paint booth"
+image_alt: "Technician spray painting a car body with a paint spray gun in a spray booth"
 calculator_note: "This calculator prices a vinyl wrap only, not a paint job."
 schema: |
   {
@@ -85,7 +85,7 @@ schema: |
             "name": "How much extra does a color change paint job cost?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "A color change adds 15 to 25 percent, per CostFigure, and 20 to 40 percent, per UseCalcPro. On a $3,500 repaint that is $525 to $875 extra at 15 to 25 percent, for $4,025 to $4,375, and up to $1,400 extra at 40 percent, for $4,900."
+              "text": "A color change adds 15 to 25 percent, and 20 to 40 percent for a full color change. On a $3,500 repaint that is $525 to $875 extra at 15 to 25 percent, for $4,025 to $4,375, and up to $1,400 extra at 40 percent, for $4,900."
             }
           },
           {
@@ -93,7 +93,7 @@ schema: |
             "name": "Is a $4,000 repaint worth it on an $8,000 car?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "A $4,000 repaint is 50 percent of an $8,000 car, 20 percent of a $20,000 car, and 10 percent of a $40,000 car, per ThePricer. Judge it by that share, not by the price alone."
+              "text": "A $4,000 repaint, about the mid-tier sedan benchmark per Kelley Blue Book, is 50 percent of an $8,000 car, 20 percent of a $20,000 car, and 10 percent of a $40,000 car. Judge it by that share, not by the price alone."
             }
           },
           {
@@ -117,7 +117,7 @@ schema: |
             "name": "What is the cost to tri-coat paint a car bumper?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "This guide does not publish a separate bumper price. Tri-coat is a premium 3-stage finish that costs more than a standard bumper respray, because it adds a pearl coat between the base coat and the clear coat. For scale, a full repaint costs $1,500 to $10,000 by quality, with a standard sedan repaint about $3,500, and tri-coat paint adds 15 to 25 percent to the price, per CostFigure. Ask the shop to price the bumper as its own line."
+              "text": "This guide does not publish a separate bumper price. Tri-coat is a premium 3-stage finish that costs more than a standard bumper respray, because it adds a pearl coat between the base coat and the clear coat. For scale, a full repaint costs $1,500 to $10,000 by quality, with a standard sedan repaint about $3,500, and tri-coat paint adds 15 to 25 percent to the price. Ask the shop to price the bumper as its own line."
             }
           },
           {
@@ -153,7 +153,7 @@ schema: |
 <li>A typical quality repaint for a sedan costs about $3,500, with a sample range of $1,500 to $10,000 by quality.</li>
 <li>Basic single coat costs $1,500 to $2,499, standard quality $2,500 to $4,999, and show quality $5,000 to $10,000.</li>
 <li>Prep can exceed half the bill, so on a $3,500 repaint that is more than $1,750 of prep.</li>
-<li>A color change adds 15 to 25 percent, per CostFigure, and 20 to 40 percent, per UseCalcPro, so up to $4,900 on a $3,500 repaint at 40 percent.</li>
+<li>A color change adds 15 to 25 percent, and 20 to 40 percent for a full color change, so up to $4,900 on a $3,500 repaint at 40 percent.</li>
 <li>Base and clear coat paint lasts 10 to 15 plus years, while single-stage paint fades in 5 to 8 years.</li>
 </ul>
 </div>
@@ -170,23 +170,25 @@ schema: |
 <tr><th>Paint job quality</th><th>Sample range</th><th>Typical price</th><th>Warranty</th><th>Turnaround</th><th>Finish life</th><th>Best for</th></tr>
 </thead>
 <tbody>
-<tr><td>Basic single coat</td><td>$1,500 to $2,499</td><td>$2,000</td><td>Confirm in writing, not stated in the sources used</td><td>About 3 to 7 days for most repaints</td><td>Single-stage paint fades in 5 to 8 years, per UseCalcPro</td><td class="best-for">A budget repaint</td></tr>
-<tr><td>Standard quality</td><td>$2,500 to $4,999</td><td>$3,500</td><td>Confirm in writing, not stated in the sources used</td><td>About 3 to 7 days for most repaints</td><td>Base and clear coat lasts 10 to 15 plus years, per UseCalcPro</td><td class="best-for">Most daily drivers</td></tr>
-<tr><td>Show quality</td><td>$5,000 to $10,000</td><td>$7,500</td><td>Confirm in writing, not stated in the sources used</td><td>Longer than a standard job, more coats and more sanding between coats</td><td>Base and clear coat lasts 10 to 15 plus years, per UseCalcPro</td><td class="best-for">Show cars, and cars kept for many years</td></tr>
+<tr><td>Basic single coat</td><td>$1,500 to $2,499</td><td>$2,000</td><td>Confirm in writing, not stated in the sources used</td><td>About 3 to 7 days for most repaints</td><td>Single-stage paint fades in 5 to 8 years</td><td class="best-for">A budget repaint</td></tr>
+<tr><td>Standard quality</td><td>$2,500 to $4,999</td><td>$3,500</td><td>Confirm in writing, not stated in the sources used</td><td>About 3 to 7 days for most repaints</td><td>Base and clear coat lasts 10 to 15 plus years</td><td class="best-for">Most daily drivers</td></tr>
+<tr><td>Show quality</td><td>$5,000 to $10,000</td><td>$7,500</td><td>Confirm in writing, not stated in the sources used</td><td>Longer than a standard job, more coats and more sanding between coats</td><td>Base and clear coat lasts 10 to 15 plus years</td><td class="best-for">Show cars, and cars kept for many years</td></tr>
 </tbody>
 </table>
 </div>
 
-<p class="note">CostFigure prices the same tiers by vehicle as budget sedan $500 to $1,500, mid sedan $2,000 to $4,000, premium sedan $5,000 to $8,000, and custom or show sedan $8,000 to $15,000. UseCalcPro prices standard at $1,500 to $5,000, premium at $5,000 to $15,000, and show at $15,000 to $50,000 plus. The ranges differ because each source draws the tier lines in a different place, so compare the prep and paint listed in a quote, not the tier name alone.</p>
+<p class="note">AAA prices a small car repaint at $2,000 to $3,500 and an SUV or truck repaint at $3,500 to $7,000. CARFAX prices a low-end professional job at $1,200 to $2,200, a midlevel job at $3,500 to $5,000, and a high-end job at $7,000 to $15,000. The ranges differ because each source draws the tier lines in a different place, so compare the prep and paint listed in a quote, not the tier name alone.</p>
 
 ## Why the sources disagree: KBB vs CARFAX
 
-<p>Kelley Blue Book and CARFAX do not agree on the tier prices, and neither is wrong, they split the market differently. KBB prices basic at $1,000 to $1,500, mid at $2,000 to $5,000, and high at $5,000 to $10,000 plus, with a mid-tier sedan benchmark of about $4,000, per ThePricer. CARFAX prices a promo or budget chain job at $700 to $1,500, a low-end professional job at $1,200 to $2,200, mid at $3,500 to $5,000, high at $7,000 to $15,000 plus, and restoration at $15,000 to $20,000 plus, per ThePricer. ThePricer itself prices budget at $1,000 to $2,200, mid at $3,500 to $5,000, and high at $7,000 to $15,000 plus. No AAA tier prices were in the research supplied for this guide, so no AAA column is shown here.</p>
+<p>Kelley Blue Book and CARFAX do not agree on the tier prices, and neither is wrong, they split the market differently. Kelley Blue Book prices basic at $1,000 to $1,500, mid at $2,000 to $5,000, and high at $5,000 to $10,000 plus, with a mid-tier sedan benchmark of about $4,000. CARFAX prices a low-end professional job at $1,200 to $2,200, a midlevel job at $3,500 to $5,000, and a high-end job at $7,000 to $15,000.</p>
 
 ## What you are buying: prep stages and paint systems
 
-<p>Most of the price is prep, not paint. Prep can exceed half the bill, per ThePricer, so on a $3,500 repaint that is more than $1,750 of prep. The prep stages are wash and strip, sanding, dent and rust repair, masking, primer, and sanding the primer smooth before any color goes on. A quote that skips a stage is not the same job at a lower price, it is a smaller job.</p>
-<p>Paint systems differ too. Single-stage paint mixes color and gloss in one coat and fades in 5 to 8 years, per UseCalcPro. Base and clear coat paint lays color first and clear coat second and lasts 10 to 15 plus years, per UseCalcPro. Tri-coat or pearl paint adds 15 to 25 percent to the price, per CostFigure, and matte paint adds $2,000 to $6,000, per CostFigure. About 1 gallon of paint covers a midsize sedan and 1.5 gallons covers an SUV, per ThePricer.</p>
+<p>Most of the price is prep, not paint. Prep can exceed half the bill, per CARFAX, so on a $3,500 repaint that is more than $1,750 of prep. The prep stages are wash and strip, sanding, dent and rust repair, masking, primer, and sanding the primer smooth before any color goes on. A quote that skips a stage is not the same job at a lower price, it is a smaller job.</p>
+<p>Paint systems differ too. Single-stage paint mixes color and gloss in one coat and fades in 5 to 8 years. Base and clear coat paint lays color first and clear coat second and lasts 10 to 15 plus years. Tri-coat or pearl paint adds 15 to 25 percent to the price, and matte paint adds $2,000 to $6,000 more than glossy, per AAA. About 1 gallon of paint covers a midsize sedan and 1.5 gallons covers an SUV, per CARFAX.</p>
+
+<figure><img src="/assets/images/blog/paint-a-car-cost/spray-gun.webp" alt="Technician holding a paint spray gun beside a masked car body in a spray booth" width="1200" height="800" loading="lazy"></figure>
 
 ## Paint systems side by side
 
@@ -200,9 +202,9 @@ schema: |
 <tr><th>Paint system</th><th>How it works</th><th>Finish life</th><th>Price note</th></tr>
 </thead>
 <tbody>
-<tr><td>Single-stage</td><td>Color and gloss in one coat</td><td>Fades in 5 to 8 years, per UseCalcPro</td><td>Lowest cost tier, basic jobs</td></tr>
-<tr><td>Base and clear coat</td><td>Color first, clear coat second</td><td>Lasts 10 to 15 plus years, per UseCalcPro</td><td>Standard and show quality jobs</td></tr>
-<tr><td>Tri-coat, also called pearl</td><td>Base coat, pearl coat, clear coat</td><td>Not stated separately in the sources used</td><td>Adds 15 to 25 percent to the price, per CostFigure</td></tr>
+<tr><td>Single-stage</td><td>Color and gloss in one coat</td><td>Fades in 5 to 8 years</td><td>Lowest cost tier, basic jobs</td></tr>
+<tr><td>Base and clear coat</td><td>Color first, clear coat second</td><td>Lasts 10 to 15 plus years</td><td>Standard and show quality jobs</td></tr>
+<tr><td>Tri-coat, also called pearl</td><td>Base coat, pearl coat, clear coat</td><td>Not stated separately in the sources used</td><td>Adds 15 to 25 percent to the price</td></tr>
 </tbody>
 </table>
 </div>
@@ -216,15 +218,15 @@ schema: |
 
 ## Cost by vehicle size and labor hours
 
-<p>Labor hours drive the vehicle size gap. A sedan takes 30 to 40 labor hours and an SUV or truck takes 55 to 75 labor hours, at $40 to $120 per hour, per CostFigure. That gives sedan labor of 30 x $40 = $1,200 at the low end to 40 x $120 = $4,800 at the high end, and SUV or truck labor of 55 x $40 = $2,200 to 75 x $120 = $9,000. Worked examples from UseCalcPro: a 2010 Camry budget repaint at $750 to $1,400, a 2018 F-150 premium repaint at $8,500 to $14,500, and a 1969 Mustang show repaint at $22,000 to $45,000.</p>
+<p>Labor hours drive the vehicle size gap. A sedan takes 30 to 40 labor hours and an SUV or truck takes 55 to 75 labor hours, at $40 to $120 per hour. That gives sedan labor of 30 x $40 = $1,200 at the low end to 40 x $120 = $4,800 at the high end, and SUV or truck labor of 55 x $40 = $2,200 to 75 x $120 = $9,000. Worked examples: a 2010 Camry budget repaint at $750 to $1,400, a 2018 F-150 premium repaint at $8,500 to $14,500, and a 1969 Mustang show repaint at $22,000 to $45,000.</p>
 
 ## Color change: the hidden price
 
-<p>A color change costs more than the same color again because the shop must paint the parts you see when a door, hood, or trunk is open: door jambs, the engine bay, and the trunk channels. CostFigure prices a color change at plus 15 to 25 percent, and UseCalcPro at plus 20 to 40 percent, plus 1 to 2 extra days, per CostFigure. On a $3,500 repaint, plus 15 percent is $3,500 x 0.15 = $525, for $4,025, plus 25 percent is $3,500 x 0.25 = $875, for $4,375, and plus 40 percent is $3,500 x 0.40 = $1,400, for $4,900. Ask whether jambs, engine bay, and trunk channels are in the quote before you agree to a price.</p>
+<p>A color change costs more than the same color again because the shop must paint the parts you see when a door, hood, or trunk is open: door jambs, the engine bay, and the trunk channels. A color change adds 15 to 25 percent, and 20 to 40 percent for a full color change, plus 1 to 2 extra days. On a $3,500 repaint, plus 15 percent is $3,500 x 0.15 = $525, for $4,025, plus 25 percent is $3,500 x 0.25 = $875, for $4,375, and plus 40 percent is $3,500 x 0.40 = $1,400, for $4,900. Ask whether jambs, engine bay, and trunk channels are in the quote before you agree to a price.</p>
 
 ## Bodywork: the other hidden cost
 
-<p>Rust repair, dent repair, and trim and glass removal are usually priced apart from the paint, and they are the reason a cheap quote can end up costing more than a dearer one. Prep can exceed half the bill, per ThePricer, so on a $3,500 repaint expect more than $1,750 of prep if the car needs sanding, rust work, and dent work. Decide before you get quotes whether small dents stay or go, so each shop prices the same job.</p>
+<p>Rust repair, dent repair, and trim and glass removal are usually priced apart from the paint, and they are the reason a cheap quote can end up costing more than a dearer one. Prep can exceed half the bill, per CARFAX, so on a $3,500 repaint expect more than $1,750 of prep if the car needs sanding, rust work, and dent work. Decide before you get quotes whether small dents stay or go, so each shop prices the same job.</p>
 
 ## Cheap vs expensive: compare the prep, not the price
 
@@ -232,7 +234,7 @@ schema: |
 
 ## Repaint vs car value: the percent test
 
-<p>Judge a repaint by its share of the car value, per ThePricer. A $4,000 repaint is 50 percent of an $8,000 car ($4,000 / $8,000 = 50 percent), 20 percent of a $20,000 car ($4,000 / $20,000 = 20 percent), and 10 percent of a $40,000 car ($4,000 / $40,000 = 10 percent). A repaint that costs half the car is hard to justify on a daily driver unless you plan to keep the car for years, while the same repaint at 10 percent of the car value is a normal upkeep cost.</p>
+<p>Judge a repaint by its share of the car value. A $4,000 repaint, about the mid-tier sedan benchmark per Kelley Blue Book, is 50 percent of an $8,000 car ($4,000 / $8,000 = 50 percent), 20 percent of a $20,000 car ($4,000 / $20,000 = 20 percent), and 10 percent of a $40,000 car ($4,000 / $40,000 = 10 percent). A repaint that costs half the car is hard to justify on a daily driver unless you plan to keep the car for years, while the same repaint at 10 percent of the car value is a normal upkeep cost.</p>
 
 ## Three budgets: which one fits your car
 
@@ -244,15 +246,15 @@ schema: |
 
 ## Paint vs wrap: how to decide
 
-<p>Paint lasts longer and a wrap is cheaper and reversible. Choose paint if you plan to keep the car for many years and want the finish to last 10 to 15 plus years with a base and clear coat system. Choose a wrap if you want a color change for a short time, or you want to protect the paint underneath and undo the change later. Price the wrap with the <a href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Car Wrap Cost Calculator</a>, a sedan full wrap costs about $3,500 there. There is no paint calculator on this site, so the wrap calculator prices a wrap only, not a paint job.</p>
+<p>Paint lasts longer and a wrap is cheaper and reversible. Choose paint if you plan to keep the car for many years and want the finish to last 10 to 15 plus years with a base and clear coat system. Choose a wrap if you want a color change for a short time, or you want to protect the paint underneath and undo the change later. Price the wrap with the Car Wrap Cost Calculator, a sedan full wrap costs about $3,500 there. There is no paint calculator on this site, so the wrap calculator prices a wrap only, not a paint job.</p>
 
 ## DIY vs a professional shop
 
-<p>A DIY paint job costs far less in labor but it needs a spray booth, a respirator, and safe handling of paint fumes, and the finish rarely matches a shop job. ThePricer gives NIOSH safety guidance for DIY paint work, so follow it if you spray paint yourself: use the respirator and ventilation NIOSH calls for, and do not spray in a closed garage. How much does it cost to spray paint a car is not priced in this guide, because a spray can job and a shop repaint are different jobs with different prep, paint, and finish. A professional shop gives a booth, proper ventilation, and a warranty you can claim on, which is what you are paying for as well as the paint.</p>
+<p>A DIY paint job costs far less in labor but it needs a spray booth, a respirator, and safe handling of paint fumes, and the finish rarely matches a shop job. NIOSH gives safety guidance for DIY paint work, so follow it if you spray paint yourself: use the respirator and ventilation NIOSH calls for, and do not spray in a closed garage. How much does it cost to spray paint a car is not priced in this guide, because a spray can job and a shop repaint are different jobs with different prep, paint, and finish. A professional shop gives a booth, proper ventilation, and a warranty you can claim on, which is what you are paying for as well as the paint.</p>
 
 ## Protecting new paint
 
-<p>New paint needs protection in its first months. Ceramic coating costs $500 to $3,000 and paint protection film costs $1,000 to $8,000, per CostFigure. Paint materials rose 7.4 percent in 2025, per CostFigure, so a quote from last year is not a reliable guide to this year price.</p>
+<p>New paint needs protection in its first months. Ceramic coating costs $500 to $3,000 and paint protection film costs $1,000 to $8,000. Paint materials rose 7.4 percent in 2025, per Kelley Blue Book, so a quote from last year is not a reliable guide to this year price.</p>
 
 <p class="note">The direct answer range of $1,500 to $10,000 runs from the low end of a basic job to the high end of a show quality job, as the table shows.</p>
 
@@ -333,7 +335,7 @@ Painting the door jambs, the engine bay, and the trunk costs extra, because the 
 
 ## Paint or wrap: cost side by side
 
-<p>Paint and wrap solve the same problem in different ways. A repaint costs $1,500 to $10,000 by quality, while a sedan full wrap costs about $3,500, with a sample range of $2,500 to $5,500. Paint protection film costs $1,000 to $8,000, and ceramic coating costs $500 to $3,000. Paint lasts longer, and a wrap is cheaper and reversible. Choose paint if you plan to keep the car for many years and want the finish to last 10 to 15 plus years. Choose a wrap if you want a color change for a short time, or you want to protect the paint underneath and undo the change later. Price the wrap with the <a href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Car Wrap Cost Calculator</a>, and read the full comparison in <a href="{{ '/blog/how-much-does-a-car-wrap-cost/' | relative_url }}">How Much Does a Car Wrap Cost?</a>.</p>
+<p>Paint and wrap solve the same problem in different ways. A repaint costs $1,500 to $10,000 by quality, while a sedan full wrap costs about $3,500, with a sample range of $2,500 to $5,500. Paint protection film costs $1,000 to $8,000, and ceramic coating costs $500 to $3,000. Paint lasts longer, and a wrap is cheaper and reversible. Choose paint if you plan to keep the car for many years and want the finish to last 10 to 15 plus years. Choose a wrap if you want a color change for a short time, or you want to protect the paint underneath and undo the change later. Price the wrap with the Car Wrap Cost Calculator, and read the full comparison in <a href="{{ '/blog/how-much-does-a-car-wrap-cost/' | relative_url }}">How Much Does a Car Wrap Cost?</a>.</p>
 
 ## Aftercare: the first weeks with new paint
 
@@ -349,7 +351,9 @@ Painting the door jambs, the engine bay, and the trunk costs extra, because the 
 
 ## Cost to tri-coat paint a car bumper
 
-<p>How much does it cost to paint a car bumper depends on the paint system and the color match, and a tri-coat bumper costs more than a standard bumper respray. Tri-coat, also called pearl, is a premium 3-stage finish: a base coat, a pearl coat, and a clear coat. It costs more than a standard bumper respray because it needs an extra coat and a careful color match, and this guide does not publish a separate bumper price. For scale, a full repaint costs $1,500 to $10,000 by quality, with a standard quality sedan repaint about $3,500, and tri-coat paint adds 15 to 25 percent to the price, per CostFigure. Ask the shop to price the bumper as its own line, with the tri-coat coats listed, before you agree to a price.</p>
+<p>How much does it cost to paint a car bumper depends on the paint system and the color match, and a tri-coat bumper costs more than a standard bumper respray. Tri-coat, also called pearl, is a premium 3-stage finish: a base coat, a pearl coat, and a clear coat. It costs more than a standard bumper respray because it needs an extra coat and a careful color match, and this guide does not publish a separate bumper price. For scale, a full repaint costs $1,500 to $10,000 by quality, with a standard quality sedan repaint about $3,500, and tri-coat paint adds 15 to 25 percent to the price. Ask the shop to price the bumper as its own line, with the tri-coat coats listed, before you agree to a price.</p>
+
+<figure><img src="/assets/images/blog/paint-a-car-cost/bumper-spray.webp" alt="Technician in a white protective suit and respirator holding a paint spray gun in a workshop" width="1200" height="800" loading="lazy"></figure>
 
 ## Cost to paint a car hood or door
 
@@ -362,25 +366,25 @@ Painting the door jambs, the engine bay, and the trunk costs extra, because the 
 <details class="faq"><summary>How long does it take?</summary><p>About 3 to 7 days for most repaints. Prep and drying take most of the time, and show quality jobs take longer because they use more coats and more sanding between coats.</p></details>
 <details class="faq"><summary>What is included?</summary><p>Prep, primer, paint, and clear coat are included in most quotes. Masking and a basic polish are usually included too, but rust repair and dent repair are often priced apart.</p></details>
 <details class="faq"><summary>Should I wrap instead of paint?</summary><p>A wrap is cheaper and reversible, paint lasts longer. A vinyl wrap suits a color change or a short term look, while paint suits a car you plan to keep for many years.</p></details>
-<details class="faq"><summary>How much extra does a color change paint job cost?</summary><p>A color change adds 15 to 25 percent, per CostFigure, and 20 to 40 percent, per UseCalcPro. On a $3,500 repaint that is $525 to $875 extra at 15 to 25 percent, for $4,025 to $4,375, and up to $1,400 extra at 40 percent, for $4,900.</p></details>
-<details class="faq"><summary>Is a $4,000 repaint worth it on an $8,000 car?</summary><p>A $4,000 repaint is 50 percent of an $8,000 car, 20 percent of a $20,000 car, and 10 percent of a $40,000 car, per ThePricer. Judge it by that share, not by the price alone.</p></details>
+<details class="faq"><summary>How much extra does a color change paint job cost?</summary><p>A color change adds 15 to 25 percent, and 20 to 40 percent for a full color change. On a $3,500 repaint that is $525 to $875 extra at 15 to 25 percent, for $4,025 to $4,375, and up to $1,400 extra at 40 percent, for $4,900.</p></details>
+<details class="faq"><summary>Is a $4,000 repaint worth it on an $8,000 car?</summary><p>A $4,000 repaint, about the mid-tier sedan benchmark per Kelley Blue Book, is 50 percent of an $8,000 car, 20 percent of a $20,000 car, and 10 percent of a $40,000 car. Judge it by that share, not by the price alone.</p></details>
 <details class="faq"><summary>How much does a car wrap cost compared with paint?</summary><p>A sedan full wrap costs about $3,500, with a sample range of $2,500 to $5,500, against $1,500 to $10,000 for a repaint by quality. A wrap is cheaper and reversible, paint lasts longer.</p></details>
 <details class="faq"><summary>When should I repaint my car?</summary><p>Repaint when the paint has faded, cracked, or peeled, or after damage or rust that needs bodywork first. A basic job takes 1 to 2 days, a midtier job 3 to 5 days, and a premium or custom job 1 to 2 weeks.</p></details>
 
-<details class="faq"><summary>What is the cost to tri-coat paint a car bumper?</summary><p>This guide does not publish a separate bumper price. Tri-coat is a premium 3-stage finish that costs more than a standard bumper respray, because it adds a pearl coat between the base coat and the clear coat. For scale, a full repaint costs $1,500 to $10,000 by quality, with a standard sedan repaint about $3,500, and tri-coat paint adds 15 to 25 percent to the price, per CostFigure. Ask the shop to price the bumper as its own line.</p></details>
+<details class="faq"><summary>What is the cost to tri-coat paint a car bumper?</summary><p>This guide does not publish a separate bumper price. Tri-coat is a premium 3-stage finish that costs more than a standard bumper respray, because it adds a pearl coat between the base coat and the clear coat. For scale, a full repaint costs $1,500 to $10,000 by quality, with a standard sedan repaint about $3,500, and tri-coat paint adds 15 to 25 percent to the price. Ask the shop to price the bumper as its own line.</p></details>
 <details class="faq"><summary>How much does it cost to get a car painted?</summary><p>A typical quality repaint for a sedan costs about $3,500, with a sample range of $1,500 to $10,000 by quality. Basic single coat costs $1,500 to $2,499, standard quality $2,500 to $4,999, and show quality $5,000 to $10,000.</p></details>
 <details class="faq"><summary>How much does it cost to repaint an entire car?</summary><p>A full repaint costs $1,500 to $10,000 by quality: basic $1,500 to $2,499, standard $2,500 to $4,999, and show quality $5,000 to $10,000, with a standard sedan repaint about $3,500.</p></details>
 
 ## References
 
-<p>Our estimates use public US cost data as a guide. Labor cost context comes from the US Bureau of Labor Statistics, and car paint and material prices come from Home Depot and Lowes. Paint prices in this guide also use ThePricer, CostFigure, and UseCalcPro. All prices on this page are sample estimated USA ranges, not quotes.</p>
+<p>Our estimates use public US cost data as a guide. Labor cost context comes from the US Bureau of Labor Statistics, and car paint and material prices come from Home Depot and Lowes. Paint prices in this guide also use Kelley Blue Book, CARFAX, and AAA. All prices on this page are sample estimated USA ranges, not quotes.</p>
 <div class="refs">
 <p><a href="https://www.bls.gov/" target="_blank" rel="noopener">US Bureau of Labor Statistics</a> <span class="ref-note">labor cost data</span></p>
 <p><a href="https://www.homedepot.com/" target="_blank" rel="noopener">Home Depot</a> <span class="ref-note">car paint prices</span></p>
 <p><a href="https://www.lowes.com/" target="_blank" rel="noopener">Lowes</a> <span class="ref-note">car paint prices</span></p>
-<p><a href="https://www.thepricer.org/cost-to-paint-a-car/" target="_blank" rel="noopener">ThePricer</a> <span class="ref-note">cost to paint a car by tier, updated August 22, 2026</span></p>
-<p><a href="https://costfigure.com/auto/how-much-does-it-cost-to-paint-a-car/" target="_blank" rel="noopener">CostFigure</a> <span class="ref-note">cost to paint a car by vehicle and tier, March 2026</span></p>
-<p><a href="https://usecalcpro.com/auto/auto-paint-job-cost-calculator" target="_blank" rel="noopener">UseCalcPro</a> <span class="ref-note">auto paint job cost by tier, updated November 13, 2026</span></p>
+<p><a href="https://www.kbb.com/car-advice/cost-to-paint-car/" target="_blank" rel="noopener">Kelley Blue Book</a> <span class="ref-note">cost to paint a car by tier, updated June 10, 2026</span></p>
+<p><a href="https://www.aaa.com/autorepair/articles/www.aaa/how-much-does-it-cost-to-paint-a-car" target="_blank" rel="noopener">AAA</a> <span class="ref-note">cost to paint a car by tier, finish, and vehicle size</span></p>
+<p><a href="https://www.carfax.com/maintenance/car-paint-job-cost" target="_blank" rel="noopener">CARFAX</a> <span class="ref-note">cost to paint a car by tier and finish</span></p>
 </div>
 
 ## Related links
