@@ -214,7 +214,7 @@ schema: |
   <p class="table-hint">Swipe to see the High column &rarr;</p>
   <div class="table-wrap">
     <table class="cost-table">
-      <caption>Sample estimated cost breakdown, updated for your selection</caption>
+      
       <thead>
         <tr><th>Item</th><th>Low</th><th>Typical</th><th>High</th></tr>
       </thead>
@@ -247,7 +247,7 @@ schema: |
   <p class="table-hint">Swipe to see the range &rarr;</p>
   <div class="table-wrap">
     <table class="cost-table">
-      <caption>Local mover cost by home size, Angi ranges</caption>
+      
       <thead>
         <tr><th>Home size</th><th>Local move range</th></tr>
       </thead>
@@ -268,7 +268,7 @@ schema: |
   <p class="table-hint">Swipe to see the range &rarr;</p>
   <div class="table-wrap">
     <table class="cost-table">
-      <caption>Long distance mover cost by mileage and home size, Angi ranges</caption>
+      
       <thead>
         <tr><th>Distance</th><th>1 to 2 bedrooms</th><th>3 to 5 bedrooms</th></tr>
       </thead>
@@ -358,7 +358,7 @@ schema: |
   <p>The table below repeats the typical column from the breakdown above, so you can see the share of each line at the calculator default.</p>
   <div class="table-wrap">
     <table class="cost-table">
-      <caption>Typical cost lines for a 2-bedroom local move</caption>
+      
       <thead>
         <tr><th>Item</th><th>Typical</th></tr>
       </thead>
