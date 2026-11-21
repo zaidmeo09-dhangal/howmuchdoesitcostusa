@@ -2,7 +2,7 @@
 layout: default
 title: How Much Does It Cost in the USA? Free Price Guides
 meta_title: "How Much Does It Cost in the USA? Free Price Guides"
-meta_description: "Find what things cost in the USA with free cost calculators and guides for movers, roofing, fences, oil changes, AC, car wraps, and painting."
+meta_description: "How much does it cost in the USA? Find free cost calculators and price guides for movers, roofing, fences, oil changes, AC, car wraps, and painting."
 schema: |
   {
     "@context": "https://schema.org",
@@ -62,7 +62,7 @@ schema: |
       <p class="kicker">USA COST GUIDES + CALCULATORS</p>
       <p class="hero-updated">Updated November 21, 2026</p>
       <h1 aria-label="How much does it cost in the USA?">How much does it <span class="accent-u">cost</span> in the USA?</h1>
-      <p class="lede">Real price ranges for the jobs Americans actually pay for. Pick a calculator, answer a few questions, and see your low, typical, and high price in seconds.</p>
+      <p class="lede">Wondering how much does it cost to move, re-roof, or repaint a home in the USA? Pick a calculator, answer a few questions, and see your low, typical, and high price in seconds.</p>
       <p class="hero-answer">A typical 2-bedroom local move costs about <strong>$1,240</strong>, in a range of $843 to $1,637. See the full breakdown in the <a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator</a>.</p>
       <form class="search-box" id="searchForm" role="search" action="{{ '/tools/' | relative_url }}" method="get">
         <label for="siteSearch" class="sr-only">Search cost calculators and guides</label>
@@ -137,7 +137,7 @@ schema: |
 </section>
 
 <section class="wrap">
-  <h2>Trending costs people search for</h2>
+  <h2>How much does it cost? Prices people search for most</h2>
   <p>These are the costs Americans look up most.</p>
   <div class="grid">
 <div class="card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h12v11H2z"/><path d="M14 9h4l3 3v4h-7"/><circle cx="6" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg><span class="card-art-meta"><span class="card-cat">Moving</span><span class="card-art-price">$843 - $1,637</span></span></div><h3><a href="{{ '/movers-cost-calculator/' | relative_url }}">How much do movers cost?</a></h3><div class="price-bar" aria-hidden="true"><span style="width:50%"></span></div><div class="price-row"><span>Low $843</span><span>High $1,637</span></div><p>Typical: 2-bedroom local move $1,240.</p><a class="card-cta" href="{{ '/movers-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
@@ -177,8 +177,9 @@ schema: |
 
 <section class="wrap">
   <h2>Cost guides</h2>
+  <p>Eight guides that answer how much does it cost for one job at a time, with prices by size and material and tips to save.</p>
   <div class="grid">
-<div class="card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h12v11H2z"/><path d="M14 9h4l3 3v4h-7"/><circle cx="6" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg><span class="card-art-meta"><span class="card-cat">Guide</span><span class="card-art-price">$843 - $1,637</span></span></div><h3><a href="{{ '/blog/how-much-do-movers-cost/' | relative_url }}">How Much Do Movers Cost in the USA?</a></h3><p>Average prices by home size, what affects the cost, and how to save on your move.</p><a class="card-cta" href="{{ '/blog/how-much-do-movers-cost/' | relative_url }}">Read the guide &rarr;</a></div>
+<div class="card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h12v11H2z"/><path d="M14 9h4l3 3v4h-7"/><circle cx="6" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg><span class="card-art-meta"><span class="card-cat">Guide</span><span class="card-art-price">$843 - $1,637</span></span></div><h3><a href="{{ '/blog/how-much-do-movers-cost/' | relative_url }}">How Much Do Movers Cost? Local and Long-Distance Prices</a></h3><p>Average prices by home size, what affects the cost, and how to save on your move.</p><a class="card-cta" href="{{ '/blog/how-much-do-movers-cost/' | relative_url }}">Read the guide &rarr;</a></div>
     <div class="card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/><path d="M9.5 14a2.5 2.5 0 0 0 2.5 2.5"/></svg><span class="card-art-meta"><span class="card-cat">Guide</span><span class="card-art-price">$45 - $140</span></span></div><h3><a href="{{ '/blog/how-much-does-an-oil-change-cost/' | relative_url }}">How Much Does an Oil Change Cost?</a></h3><p>Prices by oil type, what is included, and how often to change your oil.</p><a class="card-cta" href="{{ '/blog/how-much-does-an-oil-change-cost/' | relative_url }}">Read the guide &rarr;</a></div>
     <div class="card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12 12 3l10 9"/><path d="M6 10v10h12V10"/><path d="M9.5 14h2m2 0h2m-6 3h2m2 0h2"/></svg><span class="card-art-meta"><span class="card-cat">Guide</span><span class="card-art-price">$7,528 - $11,475</span></span></div><h3><a href="{{ '/blog/how-much-does-it-cost-to-replace-a-roof/' | relative_url }}">How Much Does It Cost to Replace a Roof?</a></h3><p>Prices by roof size and material, plus how to hire a roofer.</p><a class="card-cta" href="{{ '/blog/how-much-does-it-cost-to-replace-a-roof/' | relative_url }}">Read the guide &rarr;</a></div>
     <div class="card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3v18M10 3v18M16 3v18M20 3v18"/><path d="M3 8h18M3 16h18"/></svg><span class="card-art-meta"><span class="card-cat">Guide</span><span class="card-art-price">$2,100 - $5,400</span></span></div><h3><a href="{{ '/blog/how-much-does-a-fence-cost/' | relative_url }}">How Much Does a Fence Cost?</a></h3><p>Wood, vinyl, and chain link prices by fence length.</p><a class="card-cta" href="{{ '/blog/how-much-does-a-fence-cost/' | relative_url }}">Read the guide &rarr;</a></div>
@@ -191,7 +192,7 @@ schema: |
 
 <section class="wrap">
   <h2>How we build our prices</h2>
-  <p>Every price on this site starts with a typical USA job, broken into material, labor, supplies, and equipment, and shown as a low, typical, and high band. The totals are the sum of those parts, so you can check the math line by line on each calculator page. Prices are checked against named public sources such as the US Bureau of Labor Statistics, Home Depot, and Lowes, and every calculator page names its own sources. They are sample estimated USA ranges, not quotes, and your real price depends on your size, your materials, and where you live. Read the full method on the <a href="{{ '/about/' | relative_url }}">About page</a>, and always get 3 quotes from local pros before you hire anyone.</p>
+  <p>Every price on this site starts with a typical USA job, broken into material, labor, supplies, and equipment, and shown as a low, typical, and high band. The totals are the sum of those parts, so you can check the math line by line on each calculator page. Prices are checked against named public sources such as the US Bureau of Labor Statistics, Home Depot, and Lowes, and every calculator page names its own sources. They are sample estimated USA ranges, not quotes, and your real price depends on your size, your materials, and where you live. Read the full method on the <a href="{{ '/about/' | relative_url }}">About page</a>, and always get 3 quotes from local pros before you hire anyone. Plan on the high end of the range, and use the typical price to judge whether a quote looks fair.</p>
 </section>
 
 <section class="wrap">
