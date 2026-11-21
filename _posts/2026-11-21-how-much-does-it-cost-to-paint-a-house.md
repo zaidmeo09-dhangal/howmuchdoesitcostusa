@@ -189,6 +189,8 @@ schema: |
 </ul>
 </div>
 
+<figure><img src="/assets/images/blog/house-painting-cost/house-painting-inpost-1.webp" alt="Man painting the exterior wall of a house with a roller on an extension pole beside a ladder" width="1200" height="800" loading="lazy"></figure>
+
 ## House painting cost by home size
 
 <p>How much does it cost to paint a whole house? For a 1,800 sq ft home, a typical exterior job is about $4,200, with a sample range of $2,800 to $6,800, and the same home interior is about $3,350 typical. The table below shows the same math for other home sizes, so find your size and read across for exterior and interior.</p>
@@ -449,6 +451,8 @@ Two coats cost more than one and usually look better and last longer. A color ch
 ## Best time of year to paint a house
 
 <p>Exterior painting needs dry, mild days, so spring and fall are the best seasons in most of the USA: the paint dries well, the crew can work without heat or cold slowing the job, and rain is less likely to stop work. Summer heat and strong sun dry paint too fast on the surface, and cold slows drying and can leave a weak finish. Interior painting is less tied to the season, because the work is inside, but the off season is still the best time to book: painters with open dates are often more flexible on price, so ask for off season dates when you get quotes. Whatever the season, do not start an exterior job when rain is expected before the paint has dried.</p>
+
+<figure><img src="/assets/images/blog/house-painting-cost/house-painting-inpost-2.webp" alt="Painter on a ladder priming a red wooden house wall while another painter works below" width="1200" height="800" loading="lazy"></figure>
 
 ## How long paint lasts, and how to make it last longer
 
