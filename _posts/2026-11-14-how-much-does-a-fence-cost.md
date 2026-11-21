@@ -197,6 +197,8 @@ schema: |
 </ul>
 </div>
 
+<figure><img src="/assets/images/blog/fence-cost/fence-inpost-1.webp" alt="Wooden fence and gate beside a stone path in a sunny backyard" width="1200" height="800" loading="lazy"></figure>
+
 ## Fence cost per foot installed
 
 <p class="table-hint">Swipe to see the High column &rarr;</p>
@@ -392,7 +394,7 @@ The cheapest fence to install is not always the cheapest to own. RemodelCalculat
 
 ## How much does it cost to install a fence?
 
-<p>Installation is the labor half of the bill: labor runs $10 to $30 per linear foot and is about half the job, per Quotsey. That is why the cheapest installed price is not always the cheapest fence, and why a quote that folds gates, removal, and permits into one per foot number is hard to compare. Ask each installer to list labor, gates, removal, and permit fees separately, and price your own fence first with the <a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a>, so you know what the install should cost before the quotes arrive.</p>
+<p>Installation is the labor half of the bill: labor runs $10 to $30 per linear foot and is about half the job, per Quotsey. That is why the cheapest installed price is not always the cheapest fence, and why a quote that folds gates, removal, and permits into one per foot number is hard to compare. Ask each installer to list labor, gates, removal, and permit fees separately, and price your own fence first with the Fence Cost Calculator, so you know what the install should cost before the quotes arrive.</p>
 
 ## DIY vs hiring a pro
 
@@ -475,6 +477,8 @@ Check these five things before anyone digs. A property survey costs $200 to $545
 
 <p>Material is only half the choice. The style decides how much privacy you get, how the fence looks, and how much material it uses. A privacy fence uses solid boards with no gaps, so it blocks the view and the wind, and it uses the most material. A shadow box fence staggers boards on both sides of the rails, so it looks finished from both sides and lets some air through. A picket fence uses spaced vertical boards, so it marks the boundary and looks open, but it gives little privacy. A rail fence uses horizontal rails with wide gaps, so it suits a large yard or a rural boundary, but it will not keep small pets in. A split rail fence is a wood rail style that works well for property boundaries, but it is not the best for pets or privacy. An invisible or electric fence runs a wire underground and suits pet containment only, with no visible barrier at all. Match the style to the job first, then pick the material: a privacy style in wood or vinyl suits a backyard, while a picket or rail style suits a front yard where an open look matters more.</p>
 
+<figure><img src="/assets/images/blog/fence-cost/fence-inpost-2.webp" alt="Weathered wooden split rail fence running across a green field" width="1200" height="800" loading="lazy"></figure>
+
 ## Frequently asked questions
 
 <details class="faq"><summary>Wood or vinyl, which is cheaper?</summary><p>Wood costs less up front, vinyl less over time. Wood needs staining and repairs, while vinyl needs little care, so vinyl can be cheaper across 20 years even though it costs more to install.</p></details>
@@ -500,9 +504,6 @@ Check these five things before anyone digs. A property survey costs $200 to $545
 
 <p>Price ranges in this guide come from RemodelCalculators, Quotsey, and BuilderMuse, with labor context from the US Bureau of Labor Statistics. All prices are sample estimated USA ranges, not quotes.</p>
 <div class="refs">
-<p><a href="https://remodelcalculators.com/fence-cost" target="_blank" rel="noopener">RemodelCalculators</a> <span class="ref-note">fence cost per foot, by material and height</span></p>
-<p><a href="https://www.quotsey.com/cost-guides/fence-installation-cost/" target="_blank" rel="noopener">Quotsey</a> <span class="ref-note">fence installation cost by material and region</span></p>
-<p><a href="https://buildermuse.com/residential/fence-installation-cost-2026/" target="_blank" rel="noopener">BuilderMuse</a> <span class="ref-note">fence installation cost, HomeAdvisor survey data</span></p>
 <p><a href="https://www.bls.gov/" target="_blank" rel="noopener">US Bureau of Labor Statistics</a> <span class="ref-note">fence erector wage data</span></p>
 </div>
 
