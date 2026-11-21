@@ -365,10 +365,10 @@ section.wrap > h2::after {
 .card a:hover { text-decoration: underline; }
 .card .card-cta, .card a.card-cta {
   display: inline-flex; align-items: center; align-self: flex-start; gap: 6px; font-weight: 800;
-  color: var(--accent); text-decoration: none; margin-top: auto; padding: 9px 16px;
-  border: 1px solid var(--accent); border-radius: 999px; font-size: 15px;
+  color: #FFFFFF; text-decoration: none; margin-top: auto; padding: 9px 16px;
+  background: var(--accent); border: 1px solid var(--accent); border-radius: 999px; font-size: 15px;
 }
-.card .card-cta:hover, .card a.card-cta:hover { color: #FFFFFF; text-decoration: none; background: var(--accent); border-color: var(--accent); }
+.card .card-cta:hover, .card a.card-cta:hover { color: #FFFFFF; text-decoration: none; background: var(--accent-dark); border-color: var(--accent-dark); }
 .bucket-links { list-style: none; margin: auto 0 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
 .bucket-links a {
   display: flex; align-items: center; justify-content: space-between; gap: 10px;
@@ -382,6 +382,10 @@ section.wrap > h2::after {
 .card h3 { margin-top: 0; }
 .card h3 a { color: var(--ink); text-decoration: none; }
 .card h3 a:hover { color: var(--accent); }
+/* Card descriptions clamp to 3 lines so equal-height cards do not leave a big empty gap. */
+.card > p {
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+}
 .card .meta { color: var(--muted); font-size: 14px; font-weight: 600; }
 .card .price { font-family: "Public Sans", sans-serif; font-size: 30px; font-weight: 800; letter-spacing: -0.02em; color: var(--accent); white-space: nowrap; }
 .tag {
