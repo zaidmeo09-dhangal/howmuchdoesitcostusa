@@ -1,8 +1,8 @@
 ---
 layout: default
-title: All 7 Free Cost Calculators in the USA for Home and Car
-meta_title: "All 7 Free Cost Calculators in the USA for Home and Car"
-meta_description: "All free cost calculators from How Much Does It Cost USA: movers, roof, fence, oil change, central air, car wrap, and house painting, all free."
+title: All 8 Free Cost Calculators in the USA for Home and Car
+meta_title: "All 8 Free Cost Calculators in the USA for Home and Car"
+meta_description: "All cost calculators from How Much Does It Cost USA: movers, roof, fence, oil change, central air, car wrap, car painting, and house painting, all free."
 permalink: /tools/
 breadcrumb: Tools
 schema: |
@@ -11,7 +11,7 @@ schema: |
     "@type": "CollectionPage",
     "name": "All Cost Calculators",
     "url": "https://howmuchdoesitcostusa.com/tools/",
-    "description": "All free cost calculators: movers, roof, fence, oil change, central air, car wrap, and house painting, with low, typical, and high prices."
+    "description": "All free cost calculators: movers, roof, fence, oil change, central air, car wrap, car painting, and house painting, with low, typical, and high prices."
   }
 ---
 
@@ -29,7 +29,7 @@ schema: |
 </section>
 <section class="wrap">
   <h2>How to use the calculators</h2>
-  <p>Pick the job you want to price, then answer the few questions on its page. A movers price needs your home size and distance, a roof price needs the roof size and material, a fence price needs the length, material, height, and gates, an oil change needs the oil type and vehicle type, central air needs the home size and efficiency, a car wrap needs the vehicle size, wrap type, and finish, and house painting needs the job type and home size. No calculator asks for your name, email, or address, and every calculation happens in your browser.</p>
+  <p>Pick the job you want to price, then answer the few questions on its page. A movers price needs your home size and distance, a roof price needs the roof size and material, a fence price needs the length, material, height, and gates, an oil change needs the oil type and vehicle type, central air needs the home size and efficiency, a car wrap needs the vehicle size, wrap type, and finish, a car paint job needs the vehicle size, paint quality, and job scope, and house painting needs the job type and home size. No calculator asks for your name, email, or address, and every calculation happens in your browser.</p>
   <h2>How the low, typical, and high ranges work</h2>
   <p>Each calculator shows three bands. Low is a smaller job with basic choices, typical is the most common result at typical USA rates, and high is a larger job, premium choices, or extra services. Below the bands, an itemized breakdown splits the total into material, labor, supplies, and equipment, so you can check the math line by line. The bands update with your choices, so change one input and the range moves with it.</p>
   <h2>Why prices are ranges, not quotes</h2>
@@ -42,6 +42,7 @@ schema: |
     <div class="card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/><path d="M9.5 14a2.5 2.5 0 0 0 2.5 2.5"/></svg><span class="card-art-meta"><span class="card-cat">Car</span><span class="card-art-price">$45 - $140</span></span></div><h3><a href="{{ '/oil-change-cost-calculator/' | relative_url }}">Oil Change Cost Calculator</a></h3><div class="price-bar" aria-hidden="true"><span style="width:32%"></span></div><div class="price-row"><span>Low $45</span><span>High $140</span></div><p>Price an oil change by oil type. Typical: full synthetic oil change $75.</p><a class="card-cta" href="{{ '/oil-change-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
     <div class="card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M4 6l16 12M20 6 4 18"/><circle cx="12" cy="12" r="3"/></svg><span class="card-art-meta"><span class="card-cat">Home</span><span class="card-art-price">$5,200 - $9,500</span></span></div><h3><a href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}">Central AC Installation Cost Calculator</a></h3><div class="price-bar" aria-hidden="true"><span style="width:37%"></span></div><div class="price-row"><span>Low $5,200</span><span>High $9,500</span></div><p>Price a new central air system by home size. Typical: 2.5 ton system $6,800.</p><a class="card-cta" href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
     <div class="card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 11 6 7.2A2 2 0 0 1 7.9 6h8.2a2 2 0 0 1 1.9 1.2L19.5 11"/><rect x="3" y="11" width="18" height="5.5" rx="1.5"/><circle cx="7.5" cy="18" r="1.8"/><circle cx="16.5" cy="18" r="1.8"/></svg><span class="card-art-meta"><span class="card-cat">Car</span><span class="card-art-price">$2,500 - $5,500</span></span></div><h3><a href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Car Wrap Cost Calculator</a></h3><div class="price-bar" aria-hidden="true"><span style="width:33%"></span></div><div class="price-row"><span>Low $2,500</span><span>High $5,500</span></div><p>Price a full or partial car wrap by vehicle size. Typical: sedan full wrap $3,500.</p><a class="card-cta" href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
+    <div class="card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 11 6 7.2A2 2 0 0 1 7.9 6h8.2a2 2 0 0 1 1.9 1.2L19.5 11"/><rect x="3" y="11" width="18" height="5.5" rx="1.5"/><circle cx="7.5" cy="18" r="1.8"/><circle cx="16.5" cy="18" r="1.8"/></svg><span class="card-art-meta"><span class="card-cat">Car</span><span class="card-art-price">$2,500 - $5,500</span></span></div><h3><a href="{{ '/paint-a-car-cost-calculator/' | relative_url }}">Paint a Car Cost Calculator</a></h3><div class="price-bar" aria-hidden="true"><span style="width:33%"></span></div><div class="price-row"><span>Low $2,500</span><span>High $5,500</span></div><p>Price a car repaint by vehicle size, quality, and scope. Typical: sedan repaint $3,500.</p><a class="card-cta" href="{{ '/paint-a-car-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
     <div class="card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h13v6H3z"/><path d="M16 7h2a2 2 0 0 1 2 2v2"/><path d="M18 11v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-4"/></svg><span class="card-art-meta"><span class="card-cat">Home</span><span class="card-art-price">$2,800 - $6,800</span></span></div><h3><a href="{{ '/house-painting-cost-calculator/' | relative_url }}">House Painting Cost Calculator</a></h3><div class="price-bar" aria-hidden="true"><span style="width:35%"></span></div><div class="price-row"><span>Low $2,800</span><span>High $6,800</span></div><p>Price interior and exterior house painting by home size. Typical: exterior job $4,200.</p><a class="card-cta" href="{{ '/house-painting-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
     <div class="card card-wide"><h3>Not sure where to start?</h3><p>Read the cost guides first. Each guide explains what moves the price up or down, and links to the matching calculator.</p><a class="card-cta" href="{{ '/blog/' | relative_url }}">Read all cost guides &rarr;</a></div>
   </div>
@@ -59,7 +60,7 @@ schema: |
   if (!box) { return; }
   box.hidden = false;
   var root = window.location.pathname.indexOf("/howmuchdoesitcostusa") === 0 ? "/howmuchdoesitcostusa/" : "/";
-  /* NOTE: this 15-entry page list is duplicated in assets/js/main.js.
+  /* NOTE: this 16-entry page list is duplicated in assets/js/main.js.
      Keep both lists in sync: same pages, same names, same URLs, same keywords. */
   var pages = [
     { name: "Movers Cost Calculator", url: "movers-cost-calculator/", keys: "movers moving move cost" },
@@ -68,6 +69,7 @@ schema: |
     { name: "Oil Change Cost Calculator", url: "oil-change-cost-calculator/", keys: "oil change car service cost" },
     { name: "Central AC Installation Cost Calculator", url: "central-ac-installation-cost-calculator/", keys: "central air ac installation cooling cost" },
     { name: "Car Wrap Cost Calculator", url: "car-wrap-cost-calculator/", keys: "car wrap vinyl vehicle cost" },
+    { name: "Paint a Car Cost Calculator", url: "paint-a-car-cost-calculator/", keys: "paint car repaint vehicle cost" },
     { name: "House Painting Cost Calculator", url: "house-painting-cost-calculator/", keys: "house painting paint car cost" },
     { name: "How Much Do Movers Cost? (Guide)", url: "blog/how-much-do-movers-cost/", keys: "movers guide cost" },
     { name: "How Much Does an Oil Change Cost? (Guide)", url: "blog/how-much-does-an-oil-change-cost/", keys: "oil change guide cost" },
@@ -94,7 +96,7 @@ schema: |
   var words = qLower.split(/\s+/);
   /* Same scoring as main.js: title match outranks keyword match, exact word
      outranks substring, so "car" ranks Car Wrap first and "paint" ranks the
-     Paint a Car guide first. */
+     Paint a Car Cost Calculator first. */
   function scorePage(p, words) {
     var title = p.name.toLowerCase();
     var titleWords = title.split(/[^a-z0-9]+/);
