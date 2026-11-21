@@ -7,6 +7,7 @@ date: 2026-11-14
 permalink: /blog/how-much-does-an-oil-change-cost/
 breadcrumb: Blog
 guide_category: "Car Costs"
+card_price: "$45 - $140"
 calculator_url: "/oil-change-cost-calculator/"
 calculator_name: "Oil Change Cost Calculator"
 calculator_heading: "Price your own oil change"
