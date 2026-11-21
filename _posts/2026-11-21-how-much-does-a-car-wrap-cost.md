@@ -7,6 +7,7 @@ date: 2026-11-21
 permalink: /blog/how-much-does-a-car-wrap-cost/
 breadcrumb: Blog
 guide_category: "Car Costs"
+card_price: "$2,500 - $5,500"
 calculator_url: "/car-wrap-cost-calculator/"
 calculator_name: "Car Wrap Cost Calculator"
 calculator_heading: "Price your own car wrap"
