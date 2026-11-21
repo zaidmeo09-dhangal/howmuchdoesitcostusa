@@ -8,12 +8,11 @@ permalink: /blog/how-much-does-it-cost-to-paint-a-car/
 breadcrumb: Blog
 guide_category: "Car Costs"
 card_price: "$1,500 - $10,000"
-calculator_url: "/car-wrap-cost-calculator/"
-calculator_name: "Car Wrap Cost Calculator"
-calculator_heading: "Price your own wrap"
+calculator_url: "/paint-a-car-cost-calculator/"
+calculator_name: "Paint a Car Cost Calculator"
+calculator_heading: "Price your own paint job"
 image: /assets/images/blog/paint-a-car-cost/feature.webp
 image_alt: "Technician spray painting a car body with a paint spray gun in a spray booth"
-calculator_note: "This calculator prices a vinyl wrap only, not a paint job."
 schema: |
   {
     "@context": "https://schema.org",
@@ -143,7 +142,7 @@ schema: |
 ---
 
 <div class="answer">
-<p><strong>Direct answer:</strong> A typical quality repaint for a sedan in the USA costs about $3,500, with a sample range of $1,500 to $10,000 by quality. For a vinyl wrap instead, use the <a href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Car Wrap Cost Calculator</a> to price the wrap.</p>
+<p><strong>Direct answer:</strong> A typical quality repaint for a sedan in the USA costs about $3,500, with a sample range of $1,500 to $10,000 by quality. Price your own job with the <a href="{{ '/paint-a-car-cost-calculator/' | relative_url }}">Paint a Car Cost Calculator</a>. For a vinyl wrap instead, use the <a href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Car Wrap Cost Calculator</a> to price the wrap.</p>
 <p class="note">All prices on this page are sample estimated USA ranges, not quotes. Your real price depends on your car size, the paint quality, the prep work, and the shop you choose.</p>
 </div>
 
@@ -246,7 +245,7 @@ schema: |
 
 ## Paint vs wrap: how to decide
 
-<p>Paint lasts longer and a wrap is cheaper and reversible. Choose paint if you plan to keep the car for many years and want the finish to last 10 to 15 plus years with a base and clear coat system. Choose a wrap if you want a color change for a short time, or you want to protect the paint underneath and undo the change later. Price the wrap with the Car Wrap Cost Calculator, a sedan full wrap costs about $3,500 there. There is no paint calculator on this site, so the wrap calculator prices a wrap only, not a paint job.</p>
+<p>Paint lasts longer and a wrap is cheaper and reversible. Choose paint if you plan to keep the car for many years and want the finish to last 10 to 15 plus years with a base and clear coat system. Choose a wrap if you want a color change for a short time, or you want to protect the paint underneath and undo the change later. Price the wrap with the Car Wrap Cost Calculator, a sedan full wrap costs about $3,500 there. Price a paint job with the <a href="{{ '/paint-a-car-cost-calculator/' | relative_url }}">Paint a Car Cost Calculator</a>.</p>
 
 ## DIY vs a professional shop
 
@@ -390,6 +389,7 @@ Painting the door jambs, the engine bay, and the trunk costs extra, because the 
 ## Related links
 
 <div class="grid related-grid">
+<div class="card related-card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 11 6 7.2A2 2 0 0 1 7.9 6h8.2a2 2 0 0 1 1.9 1.2L19.5 11"/><rect x="3" y="11" width="18" height="5.5" rx="1.5"/><circle cx="7.5" cy="18" r="1.8"/><circle cx="16.5" cy="18" r="1.8"/></svg></div><div class="card-top"><span class="card-cat">Car</span></div><h3><a href="{{ '/paint-a-car-cost-calculator/' | relative_url }}">Paint a Car Cost Calculator</a></h3><p class="price">$1,500 - $10,000</p><a class="card-cta" href="{{ '/paint-a-car-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
 <div class="card related-card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 11 6 7.2A2 2 0 0 1 7.9 6h8.2a2 2 0 0 1 1.9 1.2L19.5 11"/><rect x="3" y="11" width="18" height="5.5" rx="1.5"/><circle cx="7.5" cy="18" r="1.8"/><circle cx="16.5" cy="18" r="1.8"/></svg></div><div class="card-top"><span class="card-cat">Car</span></div><h3><a href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Car Wrap Cost Calculator</a></h3><p class="price">$2,500 - $5,500</p><a class="card-cta" href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
 <div class="card related-card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h13v6H3z"/><path d="M16 7h2a2 2 0 0 1 2 2v2"/><path d="M18 11v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-4"/></svg></div><div class="card-top"><span class="card-cat">Home</span></div><h3><a href="{{ '/house-painting-cost-calculator/' | relative_url }}">House Painting Cost Calculator</a></h3><p class="price">$2,800 - $6,800</p><a class="card-cta" href="{{ '/house-painting-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
 <div class="card related-card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/><path d="M9.5 14a2.5 2.5 0 0 0 2.5 2.5"/></svg></div><div class="card-top"><span class="card-cat">Car</span></div><h3><a href="{{ '/oil-change-cost-calculator/' | relative_url }}">Oil Change Cost Calculator</a></h3><p class="price">$45 - $140</p><a class="card-cta" href="{{ '/oil-change-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
