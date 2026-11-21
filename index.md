@@ -89,6 +89,9 @@ schema: |
       <li>Updated November 21, 2026</li>
     </ul>
   </div>
+  <div class="wrap">
+    <figure class="hero-photo"><img src="{{ '/assets/images/hero-home.webp' | relative_url }}" alt="Modern two story suburban house in the USA with a lawn and blue sky" width="900" height="600" fetchpriority="high"></figure>
+  </div>
 </section>
 
 <section class="wrap how-it-works">
