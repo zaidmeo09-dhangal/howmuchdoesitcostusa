@@ -54,7 +54,7 @@ schema: |
   }
 ---
 
-<div class="ticker" aria-hidden="true"><div class="ticker-track"><span>Movers typically $1,240</span><span>Roof replacement typically $9,180</span><span>Fence typically $3,335</span><span>Oil change typically $75</span><span>Central AC typically $6,800</span><span>Car wrap typically $3,500</span><span>House painting typically $4,200</span><span>Movers typically $1,240</span><span>Roof replacement typically $9,180</span><span>Fence typically $3,335</span><span>Oil change typically $75</span><span>Central AC typically $6,800</span><span>Car wrap typically $3,500</span><span>House painting typically $4,200</span></div></div>
+<div class="ticker" aria-hidden="true"><div class="ticker-track"><span>Movers typically $1,240</span><span>Roof replacement typically $9,180</span><span>Fence typically $3,335</span><span>Oil change typically $75</span><span>Central AC typically $6,800</span><span>Car wrap typically $3,500</span><span>House painting typically $4,200</span><span>Paint a car typically $3,500</span><span>Movers typically $1,240</span><span>Roof replacement typically $9,180</span><span>Fence typically $3,335</span><span>Oil change typically $75</span><span>Central AC typically $6,800</span><span>Car wrap typically $3,500</span><span>House painting typically $4,200</span><span>Paint a car typically $3,500</span></div></div>
 
 <section class="hero">
   <div class="wrap hero-grid">
@@ -152,11 +152,11 @@ schema: |
     <div class="card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h13v6H3z"/><path d="M16 7h2a2 2 0 0 1 2 2v2"/><path d="M18 11v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-4"/></svg><span class="card-art-meta"><span class="card-cat">Home</span><span class="card-art-price">$2,800 - $6,800</span></span></div><h3><a href="{{ '/house-painting-cost-calculator/' | relative_url }}">How much does house painting cost?</a></h3><div class="price-bar" aria-hidden="true"><span style="width:35%"></span></div><div class="price-row"><span>Low $2,800</span><span>High $6,800</span></div><p>Typical: exterior paint job for a 1,800 sq ft home $4,200.</p><a class="card-cta" href="{{ '/house-painting-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
   </div>
   <p class="note">Prices are sample estimated USA ranges, not quotes. See each calculator page for the full breakdown.</p>
-  <p><a class="btn btn-outline" href="{{ '/tools/' | relative_url }}">See all 7 calculators &rarr;</a></p>
+  <p><a class="btn btn-outline" href="{{ '/tools/' | relative_url }}">See all 8 calculators &rarr;</a></p>
 </section>
 
 <section class="wrap">
-  <h2>All 7 calculators at a glance</h2>
+  <h2>All 8 calculators at a glance</h2>
   <p>Every calculator on this site shows a low, typical, and high price, with an itemized breakdown on its own page. Prices are sample estimated USA ranges, not quotes, and big cities usually cost more than small towns.</p>
   <div class="table-wrap">
     <table class="cost-table">
@@ -171,11 +171,12 @@ schema: |
         <tr><td>Oil change, full synthetic</td><td>$45</td><td>$75</td><td>$140</td></tr>
         <tr><td>Central AC, 2.5 ton system</td><td>$5,200</td><td>$6,800</td><td>$9,500</td></tr>
         <tr><td>Car wrap, sedan full wrap</td><td>$2,500</td><td>$3,500</td><td>$5,500</td></tr>
+        <tr><td>Paint a car, sedan repaint</td><td>$2,500</td><td>$3,500</td><td>$5,500</td></tr>
         <tr><td>House painting, 1,800 sq ft exterior</td><td>$2,800</td><td>$4,200</td><td>$6,800</td></tr>
       </tbody>
     </table>
   </div>
-  <p><a class="btn btn-outline" href="{{ '/tools/' | relative_url }}">See all 7 calculators &rarr;</a></p>
+  <p><a class="btn btn-outline" href="{{ '/tools/' | relative_url }}">See all 8 calculators &rarr;</a></p>
 </section>
 
 <section class="wrap">
