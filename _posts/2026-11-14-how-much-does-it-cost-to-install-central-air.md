@@ -7,6 +7,7 @@ date: 2026-11-14
 permalink: /blog/how-much-does-it-cost-to-install-central-air/
 breadcrumb: Blog
 guide_category: "Home Costs"
+card_price: "$5,200 - $9,500"
 calculator_url: "/central-ac-installation-cost-calculator/"
 calculator_name: "Central AC Installation Cost Calculator"
 calculator_heading: "Price your own central air"
