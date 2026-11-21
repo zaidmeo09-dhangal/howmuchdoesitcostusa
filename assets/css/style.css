@@ -1037,6 +1037,20 @@ html, body { overflow-x: hidden; overflow-x: clip; }
   display: block; width: 100%; aspect-ratio: 1200 / 630; object-fit: cover;
   border-radius: 20px;
 }
+/* In-post images: same readable width as the text (720px), natural aspect,
+   like StudentCalcTools. Only the feature image above is fixed 1200x630;
+   internal images are never forced to that size. */
+.post .post-body figure { max-width: 720px; margin: 28px 0; }
+.post .post-body figure img {
+  display: block; width: 100%; height: auto; border-radius: 14px;
+}
+.post .post-body figure figcaption {
+  margin-top: 10px; font-size: 15px; line-height: 1.5; color: var(--muted);
+}
+.post .post-body p > img {
+  display: block; width: 100%; max-width: 720px; height: auto;
+  border-radius: 14px; margin: 28px 0;
+}
 /* Blog card image: shown only when a post sets post.image. The wrapper
    bleeds to the card edge like .card-art (card padding is 24px). */
 .card .card-img { margin: -24px -24px 0; }
