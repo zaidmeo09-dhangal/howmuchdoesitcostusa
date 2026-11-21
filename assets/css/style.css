@@ -665,7 +665,7 @@ details.faq p { margin: 10px 0 4px; }
   font-size: 15px; line-height: 1.6; color: var(--post-answer-note);
   background: transparent; border-radius: 0;
 }
-.post > p.note {
+.post > p.note, .post .post-body > p.note {
   background: var(--surface-soft); border: 1px solid var(--border);
   border-left: 4px solid var(--accent); border-radius: 12px;
   padding: 14px 18px; font-size: 15px; line-height: 1.65;
