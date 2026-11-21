@@ -170,7 +170,7 @@ schema: |
 <p class="table-hint">Swipe to see the High column &rarr;</p>
   <div class="table-wrap">
 <table class="cost-table">
-<caption>Sample estimated USA prices for a local move, and a long distance estimate</caption>
+
 <thead>
 <tr><th>Home size</th><th>Local move (typical)</th><th>Long distance, 100 to 500 miles (estimate)</th></tr>
 </thead>
@@ -206,7 +206,7 @@ schema: |
 <p class="table-hint">Swipe to see the range &rarr;</p>
   <div class="table-wrap">
 <table class="cost-table">
-<caption>Specialty item moving costs, Angi ranges</caption>
+
 <thead>
 <tr><th>Item</th><th>Cost range</th></tr>
 </thead>
@@ -226,7 +226,7 @@ schema: |
 <p class="table-hint">Swipe to see the cover &rarr;</p>
   <div class="table-wrap">
 <table class="cost-table prose-last">
-<caption>Released value vs full-value protection</caption>
+
 <thead>
 <tr><th>Cover</th><th>What it pays</th><th>Cost</th></tr>
 </thead>
@@ -258,7 +258,7 @@ schema: |
 <p class="table-hint">Swipe to see the details &rarr;</p>
   <div class="table-wrap">
 <table class="cost-table prose-last">
-<caption>Full-service vs container vs DIY moves</caption>
+
 <thead>
 <tr><th>Option</th><th>Who loads and drives</th><th>Best for</th></tr>
 </thead>
