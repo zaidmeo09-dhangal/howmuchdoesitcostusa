@@ -218,7 +218,7 @@ schema: |
 <p class="table-hint">Swipe to see the High column &rarr;</p>
   <div class="table-wrap">
 <table class="cost-table">
-<caption>Sample estimated USA prices for an oil change</caption>
+
 <thead>
 <tr><th>Oil type</th><th>Sample range</th><th>Typical price</th></tr>
 </thead>
@@ -246,7 +246,7 @@ Where you go matters as much as which oil you pick. Prices below are published r
 <p class="table-hint">Swipe to see the High column &rarr;</p>
   <div class="table-wrap">
 <table class="cost-table">
-<caption>Published oil change prices by provider</caption>
+
 <thead>
 <tr><th>Provider</th><th>Conventional</th><th>Full synthetic</th></tr>
 </thead>
@@ -359,7 +359,7 @@ A shop may add a new air filter, a cabin filter, a tire rotation, or a fluid top
 <p class="table-hint">Swipe to see the SUV and truck price &rarr;</p>
   <div class="table-wrap">
 <table class="cost-table">
-<caption>Typical oil change price, car vs SUV and truck, full synthetic $75 for a car</caption>
+
 <thead>
 <tr><th>Oil type</th><th>Typical car price</th><th>About 25 percent more for SUV and truck</th></tr>
 </thead>
