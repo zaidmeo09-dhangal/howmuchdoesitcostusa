@@ -137,7 +137,7 @@ schema: |
             "name": "How much does it cost to paint a brick house?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Brick costs $1.50 to $2.50 per sq ft, per Angi. The total depends on the size of the home and the prep the brick needs, because rough brick takes more paint than smooth siding."
+              "text": "Brick costs $1.40 to $4.20 per sq ft, per Angi. The total depends on the size of the home and the prep the brick needs, because rough brick takes more paint than smooth siding."
             }
           },
           {
@@ -256,13 +256,13 @@ schema: |
 <tr><td>Stucco</td><td>$1.50 to $4</td></tr>
 <tr><td>Wood</td><td>$1 to $3</td></tr>
 <tr><td>Concrete</td><td>$1 to $3.50</td></tr>
-<tr><td>Brick</td><td>$1.50 to $2.50</td></tr>
+<tr><td>Brick</td><td>$1.40 to $4.20</td></tr>
 <tr><td>Metal</td><td>$1.50 to $2.50</td></tr>
 </tbody>
 </table>
 </div>
 
-<p class="note">Stucco has the widest range, at $1.50 to $4 per sq ft, because rough stucco takes more paint and more prep than smooth siding. Wood is the cheapest per square foot at $1 to $3, but it needs more prep when the paint is peeling. How much does it cost to paint a brick house? Brick costs $1.50 to $2.50 per sq ft, per Angi, and rough brick takes more paint than smooth siding, so ask how the painter prices the brick and the prep before you compare totals.</p>
+<p class="note">Stucco has the widest range, at $1.50 to $4 per sq ft, because rough stucco takes more paint and more prep than smooth siding. Wood is the cheapest per square foot at $1 to $3, but it needs more prep when the paint is peeling. How much does it cost to paint a brick house? Brick costs $1.40 to $4.20 per sq ft, per Angi, and rough brick takes more paint than smooth siding, so ask how the painter prices the brick and the prep before you compare totals.</p>
 
 ## Cost by stories (exterior)
 
@@ -482,7 +482,7 @@ Two coats cost more than one and usually look better and last longer. A color ch
 <details class="faq"><summary>What is the cost to paint exterior of house?</summary><p>The cost to paint the exterior of a house is $2.33 per sq ft of floor area, so a 1,800 sq ft home costs about $4,200 typical, with a sample range of $2,800 to $6,800. Exterior painting costs $1.50 to $4 per square foot, per Angi.</p></details>
 <details class="faq"><summary>How much does it cost to paint a 1500 sq ft house interior?</summary><p>A 1500 sq ft house interior costs about $2,800 typical, from 1,500 times $1.85, which is $2,775, rounded to $2,800, with a sample range of about $1,870 to $4,530.</p></details>
 <details class="faq"><summary>What is the exterior house painting cost?</summary><p>Exterior house painting cost for a 1,800 sq ft home is about $4,200 typical, with a sample range of $2,800 to $6,800, at $2.33 per sq ft of floor area.</p></details>
-<details class="faq"><summary>How much does it cost to paint a brick house?</summary><p>Brick costs $1.50 to $2.50 per sq ft, per Angi. The total depends on the size of the home and the prep the brick needs, because rough brick takes more paint than smooth siding.</p></details>
+<details class="faq"><summary>How much does it cost to paint a brick house?</summary><p>Brick costs $1.40 to $4.20 per sq ft, per Angi. The total depends on the size of the home and the prep the brick needs, because rough brick takes more paint than smooth siding.</p></details>
 <details class="faq"><summary>How much does it cost to get a house painted?</summary><p>For a 1,800 sq ft home, a typical exterior job costs about $4,200, with a sample range of $2,800 to $6,800, and the same home interior costs about $3,350 typical.</p></details>
 <details class="faq"><summary>How much does it cost to paint a 2,000 sq ft house?</summary><p>A 2,000 sq ft home costs about $4,650 typical exterior, with a sample range of $3,100 to $7,530, and about $3,700 typical interior.</p></details>
 <details class="faq"><summary>What is the best time of year to paint a house?</summary><p>Spring and fall are the best seasons for exterior painting in most of the USA, because the weather is dry and mild. Paint in the off season for better rates, and do not start an exterior job when rain is expected before the paint has dried.</p></details>
