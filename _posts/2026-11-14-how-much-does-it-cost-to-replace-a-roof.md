@@ -226,7 +226,7 @@ schema: |
 <p class="table-hint">Swipe to see the High column &rarr;</p>
   <div class="table-wrap">
 <table class="cost-table">
-<caption>Sample estimated USA prices for a 1,800 sq ft roof</caption>
+
 <thead>
 <tr><th>Material</th><th>Sample range</th><th>Typical total</th></tr>
 </thead>
@@ -247,7 +247,7 @@ schema: |
 <p class="table-hint">Swipe to see the High column &rarr;</p>
   <div class="table-wrap">
 <table class="cost-table">
-<caption>Sample estimated USA prices for an asphalt shingle roof by size</caption>
+
 <thead>
 <tr><th>Roof size</th><th>Low</th><th>Typical</th><th>High</th></tr>
 </thead>
@@ -271,7 +271,7 @@ schema: |
 <p class="table-hint">Swipe to see the midpoint &rarr;</p>
   <div class="table-wrap">
 <table class="cost-table">
-<caption>Line-item breakdown for a 20-square architectural asphalt roof, WhatHomeCosts ranges</caption>
+
 <thead>
 <tr><th>Line item</th><th>Range</th><th>Midpoint</th></tr>
 </thead>
@@ -399,7 +399,7 @@ Most US cities require a permit for a full roof replacement, and the permit fee 
 <p class="table-hint">Swipe to see the example price &rarr;</p>
   <div class="table-wrap">
 <table class="cost-table">
-<caption>Roof cost by pitch, percentages on a $9,180 roof</caption>
+
 <thead>
 <tr><th>Pitch</th><th>Added cost</th><th>Example on $9,180</th></tr>
 </thead>
