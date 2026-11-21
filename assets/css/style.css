@@ -298,6 +298,10 @@ section.wrap > h2::after {
 .trust-row li { display: flex; align-items: center; gap: 8px; font-weight: 800; font-size: 15px; color: var(--hero-muted); }
 .trust-row li::before { content: "\2713"; color: var(--accent); font-weight: 800; }
 
+/* Hero photo: full-width house photo under the trust row, inside the hero. */
+.hero-photo { margin: 24px 0 0; }
+.hero-photo img { display: block; width: 100%; height: auto; border-radius: 16px; }
+
 /* Search */
 .search-box { display: flex; gap: 10px; margin: 20px 0 8px; max-width: 640px; }
 .search-box input {
