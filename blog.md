@@ -15,9 +15,19 @@ schema: |
   }
 ---
 
+<section class="hero">
+  <div class="wrap">
+    <p class="kicker">Cost Guides</p>
+    <h1>Cost <span class="accent-u">Guides</span></h1>
+    <p class="lede">Every guide opens with a direct answer, shows a price table, and links to the matching calculator. All prices are sample estimated USA ranges. Each guide covers what drives the price up or down, what is included in the job, and how to compare quotes from local pros. Prefer a calculator? <a href="{{ '/tools/' | relative_url }}">See all 7 calculators</a> and get your low, typical, and high price in seconds.</p>
+    <ul class="trust-row">
+      <li>Direct answers</li>
+      <li>Price tables</li>
+      <li>USA prices</li>
+    </ul>
+  </div>
+</section>
 <section class="wrap">
-  <h1>Cost Guides</h1>
-  <p>Every guide opens with a direct answer, shows a price table, and links to the matching calculator. All prices are sample estimated USA ranges. Each guide covers what drives the price up or down, what is included in the job, and how to compare quotes from local pros. Prefer a calculator? <a href="{{ '/tools/' | relative_url }}">See all 7 calculators</a> and get your low, typical, and high price in seconds.</p>
   <h2>How to use the guides</h2>
   <p>Each guide opens with a direct answer, so you get the price first and the detail after it. Read the answer, then check the price table for your size, material, or type. The guide then explains what drives the price up or down, what is included in the job, and what is not, so you know what a quote should cover.</p>
   <h2>Guides and calculators, side by side</h2>
