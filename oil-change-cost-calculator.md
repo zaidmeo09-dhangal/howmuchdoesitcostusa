@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Oil Change Cost Calculator"
-meta_title: "Oil Change Cost Calculator: USA Prices by Oil Type"
+title: "Oil Change Cost Calculator: Synthetic and Conventional"
+meta_title: "Oil Change Cost Calculator: Synthetic and Conventional"
 meta_description: "Use the free oil change cost calculator to price conventional, blend, full synthetic, diesel, and European oil for your car, with USA cost bands."
 permalink: /oil-change-cost-calculator/
 breadcrumb: Tools
@@ -11,7 +11,7 @@ schema: |
     "@graph": [
       {
         "@type": "WebPage",
-        "name": "Oil Change Cost Calculator",
+        "name": "Oil Change Cost Calculator: Synthetic and Conventional",
         "description": "Use the free oil change cost calculator to price conventional, blend, full synthetic, diesel, and European oil for your car, with USA cost bands.",
         "url": "https://howmuchdoesitcostusa.com/oil-change-cost-calculator/"
       },
@@ -132,6 +132,22 @@ schema: |
               "@type": "Answer",
               "text": "This page does not publish a Take 5 price, because prices vary by location and oil type. Quick lube shops generally fall within the $45 to $140 range on this page, with $75 typical for a full synthetic change. Ask the shop to confirm the oil type, grade, and filter in the quote."
             }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does an oil change cost per year?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "At 12,000 miles a year, conventional oil costs about $135 a year, synthetic blend about $104 a year, and full synthetic about $90 a year, because full synthetic lasts up to 10,000 miles between changes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many quarts of oil does my car need?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Most sedans take 5 quarts. SUVs and trucks often take 7 or 8 quarts, which is why the calculator applies a 1.25 multiplier for them. Check your manual for the exact amount for your car."
+            }
           }
         ]
       }
@@ -180,7 +196,7 @@ schema: |
     </div>
   </div>
 
-  <h2>Low, typical, and high cost</h2>
+  <h2>How much does an oil change cost?</h2>
   <p>These bands update with your calculator choices. Use them to plan your budget before you request quotes.</p>
   <div class="bands">
     <div class="band">
@@ -316,6 +332,10 @@ schema: |
   </div>
   <p>Oil at $40 is the largest line, and the rows add up exactly: $40 + $12 + $18 + $5 = $75. Shop fees and disposal run $2 to $10, per HowMuchDoesThatCost. If your bill is far above the $140 high end, check the extra lines: extra quarts at $7 to $12 each, an OEM or cartridge filter at $5 to $25, access labor at $10 to $30, and shop supplies and disposal at $5 to $15, per MotorTriage. Ask the shop to point to each extra on the bill before you pay.</p>
 
+  <h2>How the calculator works</h2>
+  <p>An oil change has four lines: oil, filter, labor, and shop fees. The calculator adds them up for the oil type you pick, using sample low, typical, and high totals for a sedan, then applies a 1.25 multiplier for SUVs and trucks, which need more oil and a larger filter.</p>
+  <p><strong>Worked example, full synthetic on a sedan.</strong> Oil (5 quarts) $40, plus a $12 filter, plus $18 labor, plus $5 shop fees and disposal, equals $75. The oil and filter alone cost $52, which is the parts cost if you change the oil yourself. For an SUV or truck, the 1.25 multiplier takes the $75 typical total to about $94.</p>
+
   <h2>How often to change your oil</h2>
   <p>Follow your manual interval instead of changing oil early. The intervals below are from SoFi citing Kelley Blue Book, and they are the same figures used in the FAQ on this page.</p>
   <div class="table-wrap">
@@ -332,6 +352,23 @@ schema: |
     </table>
   </div>
   <p>Full synthetic costs more per visit but lasts longest, so it can cost less per mile than conventional oil changed twice as often. A car that does short trips in cold weather may need shorter intervals than a car that runs long highway trips, so use the manual for your car, not a sticker on the windshield.</p>
+
+  <h2>Annual oil change cost calculation</h2>
+  <p>The price per change is only half the story. A cheaper oil that needs changing twice as often can cost more over a year. The table below runs the math at 12,000 miles a year, using the typical prices and intervals on this page.</p>
+  <div class="table-wrap">
+    <table class="cost-table">
+      <caption>Annual oil change cost at 12,000 miles a year</caption>
+      <thead>
+        <tr><th>Oil type</th><th>Changes per year</th><th>Cost per year</th><th>Cost per mile</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Conventional</td><td>3</td><td>About $135</td><td>About $0.011</td></tr>
+        <tr><td>Synthetic blend</td><td>1.6</td><td>About $104</td><td>About $0.009</td></tr>
+        <tr><td>Full synthetic</td><td>1.2</td><td>About $90</td><td>About $0.008</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Conventional oil at $45 a change every 4,000 miles, the middle of the 3,000 to 5,000 mile interval, is 3 changes a year, or $135 a year. Synthetic blend at $65 a change every 7,500 miles is 1.6 changes a year, or about $104 a year. Full synthetic at $75 a change every 10,000 miles is 1.2 changes a year, or $90 a year. Full synthetic costs the most per visit and the least per year, and the least per mile, because it lasts longest between changes. Redo the math with your own yearly miles: divide your miles by your change interval, then multiply by the price per change.</p>
 
   <h2>What to ask before you book</h2>
   <p>Ask the shop to confirm the oil brand, the grade, the filter type, and any shop fees in the quote. Ask how long the visit will take: an oil change takes about 30 to 45 minutes. Ask whether fluid top-offs, a tire rotation, and an inspection are included or added as extras, since a tire rotation is not included in the price on this page. Look for a coupon from the chain or the shop before you book, and compare quick lube shops and independent mechanics. For bigger car spending, see the <a href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Car Wrap Cost Calculator</a>, and if the car is part of a move, the <a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator</a> prices the move itself.</p>
@@ -409,6 +446,14 @@ schema: |
   <details class="faq">
     <summary>How much does an oil change cost at Take 5?</summary>
     <p>This page does not publish a Take 5 price, because prices vary by location and oil type. Quick lube shops generally fall within the $45 to $140 range on this page, with $75 typical for a full synthetic change. Ask the shop to confirm the oil type, grade, and filter in the quote.</p>
+  </details>
+  <details class="faq">
+    <summary>How much does an oil change cost per year?</summary>
+    <p>At 12,000 miles a year, conventional oil costs about $135 a year, synthetic blend about $104 a year, and full synthetic about $90 a year, because full synthetic lasts up to 10,000 miles between changes.</p>
+  </details>
+  <details class="faq">
+    <summary>How many quarts of oil does my car need?</summary>
+    <p>Most sedans take 5 quarts. SUVs and trucks often take 7 or 8 quarts, which is why the calculator applies a 1.25 multiplier for them. Check your manual for the exact amount for your car.</p>
   </details>
 </section>
 
