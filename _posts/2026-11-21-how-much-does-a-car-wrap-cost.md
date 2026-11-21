@@ -199,6 +199,8 @@ schema: |
 </ul>
 </div>
 
+<figure><img src="/assets/images/blog/car-wrap-cost/car-wrap-inpost-1.webp" alt="Worker applying white vinyl wrap to a car hood with a heat gun in a workshop" width="1200" height="800" loading="lazy"></figure>
+
 ## Car wrap cost by vehicle type
 
 <p>Film and labor rise with vehicle size. Larger vehicles need more vinyl and more labor hours, so size drives the price. So how much does it typically cost to wrap a car? For a sedan, a full wrap typically costs about $3,500, while a small car typically costs less and an SUV or truck typically costs more, as the table shows.</p>
@@ -436,9 +438,11 @@ Shop labor rates vary by city and cost of living, the same way any skilled trade
 
 <p>Wrapping a car in vinyl yourself costs less in cash and far more in time and risk. Standard film costs $2.80 to $3.50 per sq ft, and a car needs about 255 sq ft of film, before tools, prep, and the days the job takes. You also need a heat gun, a squeegee set, slip solution, and knifeless tape for trimming, and first-timers waste far more film than a pro shop, so buy more than the job should need. A pro shop takes 3 to 5 days for a full wrap, and it includes prep, design, and a warranty on the work. DIY film bubbles, lifts, and shows every flaw in the paint underneath, and a bad DIY job can cost more to strip and redo than the pro price. If you want to try it yourself, start with one panel, a roof or a hood, and build skill there before you commit to a full car.</p>
 
+<figure><img src="/assets/images/blog/car-wrap-cost/car-wrap-inpost-2.webp" alt="Hands smoothing white vinyl wrap onto a car hood in a workshop" width="1200" height="800" loading="lazy"></figure>
+
 ## How to hire a wrap shop
 
-<p>If you want to know how much it costs to get a car wrap from a pro shop, price your own wrap first with the <a href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Car Wrap Cost Calculator</a>, then get 3 written quotes for the same vehicle, coverage, and finish, and compare them line by line.</p>
+<p>If you want to know how much it costs to get a car wrap from a pro shop, price your own wrap first with the Car Wrap Cost Calculator, then get 3 written quotes for the same vehicle, coverage, and finish, and compare them line by line.</p>
 
 <ol class="steps">
 <li><strong>Ask the shop to inspect the paint first.</strong> Dents, rust, and peeling paint must be fixed before wrapping, so get any repair listed in writing.</li>
