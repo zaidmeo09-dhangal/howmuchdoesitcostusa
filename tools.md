@@ -15,9 +15,19 @@ schema: |
   }
 ---
 
+<section class="hero">
+  <div class="wrap">
+    <p class="kicker">Free Calculators</p>
+    <h1>All Cost <span class="accent-u">Calculators</span></h1>
+    <p class="lede">Every calculator on this site is free, with no sign-up. Pick a job, answer a few questions, and see your low, typical, and high price in seconds. All prices are sample estimated USA ranges. Each calculator shows its own breakdown of material, labor, supplies, and equipment, so you can check the math line by line. Prefer to read first? See the <a href="{{ '/blog/' | relative_url }}">cost guides</a>, where each guide explains what moves the price up or down and links to its calculator.</p>
+    <ul class="trust-row">
+      <li>Free forever</li>
+      <li>No sign-up</li>
+      <li>USA prices</li>
+    </ul>
+  </div>
+</section>
 <section class="wrap">
-  <h1>All Cost Calculators</h1>
-  <p>Every calculator on this site is free, with no sign-up. Pick a job, answer a few questions, and see your low, typical, and high price in seconds. All prices are sample estimated USA ranges. Each calculator shows its own breakdown of material, labor, supplies, and equipment, so you can check the math line by line. Prefer to read first? See the <a href="{{ '/blog/' | relative_url }}">cost guides</a>, where each guide explains what moves the price up or down and links to its calculator.</p>
   <h2>How to use the calculators</h2>
   <p>Pick the job you want to price, then answer the few questions on its page. A movers price needs your home size and distance, a roof price needs the roof size and material, a fence price needs the length, material, height, and gates, an oil change needs the oil type and vehicle type, central air needs the home size and efficiency, a car wrap needs the vehicle size, wrap type, and finish, and house painting needs the job type and home size. No calculator asks for your name, email, or address, and every calculation happens in your browser.</p>
   <h2>How the low, typical, and high ranges work</h2>
