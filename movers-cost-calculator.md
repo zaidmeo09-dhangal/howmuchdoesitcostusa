@@ -159,7 +159,7 @@ schema: |
   </div>
 
   <div class="calc">
-    <h2>Movers Cost Calculator</h2>
+    <h2>Estimate your moving cost</h2>
     <p>Wondering how much do movers cost for your move? Pick your home size and distance to see a sample estimated price. No email and no sign-up, and the result stays in your browser. For averages by home size and distance, and tips to save, see the full <a href="{{ '/blog/how-much-do-movers-cost/' | relative_url }}">How Much Do Movers Cost? Local and Long-Distance Prices</a> guide.</p>
     <div class="calc-field">
       <label for="homeSize">Home size</label>
