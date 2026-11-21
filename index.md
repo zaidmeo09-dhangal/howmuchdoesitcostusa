@@ -157,7 +157,7 @@ schema: |
   <p>Every calculator on this site shows a low, typical, and high price, with an itemized breakdown on its own page. Prices are sample estimated USA ranges, not quotes, and big cities usually cost more than small towns.</p>
   <div class="table-wrap">
     <table class="cost-table">
-      <caption>Typical prices for all 7 calculators</caption>
+      
       <thead>
         <tr><th>Job</th><th>Low</th><th>Typical</th><th>High</th></tr>
       </thead>
