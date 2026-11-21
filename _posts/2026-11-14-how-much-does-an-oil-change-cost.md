@@ -213,6 +213,8 @@ schema: |
 </ul>
 </div>
 
+<figure><img src="/assets/images/blog/oil-change-cost/oil-change-inpost-1.webp" alt="Mechanic pouring engine oil into a car engine in a garage" width="1200" height="800" loading="lazy"></figure>
+
 ## Oil change cost by oil type
 
 <p class="table-hint">Swipe to see the High column &rarr;</p>
@@ -280,6 +282,8 @@ Full synthetic costs more per visit but lasts longer, so it can cost less per ye
 ## DIY vs hiring a pro
 
 Doing it yourself costs $25 to $50 in parts, per HowMuchDoesThatCost, and SoFi puts the saving at $25 to $75 per change against paying a shop. A shop charges for labor, the filter, and disposal, and it also takes the old oil away. If you change your own oil, collect the used oil in a sealed container and take it to an auto parts store or a recycling center. The US Environmental Protection Agency guidance for used oil is to recycle it, never to pour it down a drain or on the ground. Hire a pro if your car needs a special oil grade, the filter is hard to reach, or you have nowhere safe to work under the car.
+
+<figure><img src="/assets/images/blog/oil-change-cost/oil-change-inpost-2.webp" alt="Mechanic checking engine oil with a dipstick under the open hood of a car" width="1200" height="800" loading="lazy"></figure>
 
 ## What affects the price
 
@@ -434,9 +438,6 @@ A shop may add a new air filter, a cabin filter, a tire rotation, or a fluid top
 <p>Price ranges in this guide come from SoFi, citing Kelley Blue Book, and from MotorTriage, with typical prices from HowMuchDoesThatCost and ARI invoice data. All prices are sample estimated USA ranges, not quotes.</p>
 <div class="refs">
 <p><a href="https://www.sofi.com/learn/content/average-cost-oil-change/" target="_blank" rel="noopener">SoFi</a> <span class="ref-note">oil change cost by oil type, citing Kelley Blue Book</span></p>
-<p><a href="https://motortriage.com/oil-change-cost/" target="_blank" rel="noopener">MotorTriage</a> <span class="ref-note">oil change cost by oil type and provider</span></p>
-<p><a href="https://howmuchdoesthatcost.com/automotive/oil-change-cost/" target="_blank" rel="noopener">HowMuchDoesThatCost</a> <span class="ref-note">average oil change cost and breakdown</span></p>
-<p><a href="https://ari.app/2026/10/car-repair-costs/" target="_blank" rel="noopener">ARI</a> <span class="ref-note">median oil change cost from repair invoices</span></p>
 </div>
 
 ## Compare with other car costs
