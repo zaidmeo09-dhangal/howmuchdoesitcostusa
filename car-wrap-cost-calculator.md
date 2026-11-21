@@ -231,7 +231,7 @@ schema: |
   <p class="table-hint">Swipe to see the High column &rarr;</p>
   <div class="table-wrap">
     <table class="cost-table">
-      <caption>Sample estimated cost breakdown, updated for your selection</caption>
+      
       <thead>
         <tr><th>Item</th><th>Low</th><th>Typical</th><th>High</th></tr>
       </thead>
@@ -281,7 +281,7 @@ schema: |
   <p class="table-hint">Swipe to see the Full wrap range column &rarr;</p>
   <div class="table-wrap">
     <table class="cost-table">
-      <caption>Full wrap sample ranges by vehicle type, per ThePricer</caption>
+      
       <thead>
         <tr><th>Vehicle type</th><th>Full wrap range</th></tr>
       </thead>
@@ -303,7 +303,7 @@ schema: |
   <p class="table-hint">Swipe to see the Price column &rarr;</p>
   <div class="table-wrap">
     <table class="cost-table">
-      <caption>Full wrap cost by finish, per CostFigure and ThePricer</caption>
+      
       <thead>
         <tr><th>Finish</th><th>Price</th></tr>
       </thead>
@@ -321,7 +321,7 @@ schema: |
   <p class="table-hint">Swipe to see the Price column &rarr;</p>
   <div class="table-wrap">
     <table class="cost-table">
-      <caption>Partial wrap sample prices, per ThePricer</caption>
+      
       <thead>
         <tr><th>Partial wrap</th><th>Price</th></tr>
       </thead>
@@ -340,7 +340,7 @@ schema: |
   <p class="table-hint">Swipe to see the Price column &rarr;</p>
   <div class="table-wrap">
     <table class="cost-table">
-      <caption>Hidden wrap costs, per ThePricer</caption>
+      
       <thead>
         <tr><th>Extra</th><th>Price</th></tr>
       </thead>
@@ -356,7 +356,7 @@ schema: |
   <p class="table-hint">Swipe to see the Cost per year column &rarr;</p>
   <div class="table-wrap">
     <table class="cost-table">
-      <caption>Cost per year for a $4,000 wrap, per ThePricer</caption>
+      
       <thead>
         <tr><th>Lifespan</th><th>Cost per year</th></tr>
       </thead>
@@ -373,7 +373,7 @@ schema: |
   <p class="table-hint">Swipe to see the Best for column &rarr;</p>
   <div class="table-wrap">
     <table class="cost-table">
-      <caption>Wrap, paint, and paint protection film compared</caption>
+      
       <thead>
         <tr><th>Option</th><th>Typical cost</th><th>Reversible</th><th>Best for</th></tr>
       </thead>
