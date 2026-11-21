@@ -11,6 +11,8 @@ card_price: "$7,528 - $11,475"
 calculator_url: "/roof-replacement-cost-calculator/"
 calculator_name: "Roof Replacement Cost Calculator"
 calculator_heading: "Price your own roof"
+image: /assets/images/blog/roof-replacement-cost/feature.webp
+image_alt: "A roofer installing dark asphalt shingles on a house roof with a nail gun"
 schema: |
   {
     "@context": "https://schema.org",
