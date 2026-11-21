@@ -7,6 +7,7 @@ date: 2026-11-21
 permalink: /blog/how-much-does-it-cost-to-paint-a-house/
 breadcrumb: Blog
 guide_category: "Home Projects"
+card_price: "$2,800 - $6,800"
 calculator_url: "/house-painting-cost-calculator/"
 calculator_name: "House Painting Cost Calculator"
 calculator_heading: "Price your own house painting"
