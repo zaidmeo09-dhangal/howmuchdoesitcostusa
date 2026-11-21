@@ -154,7 +154,7 @@ schema: |
 <p class="table-hint">Swipe to see the 5+ years column &rarr;</p>
   <div class="table-wrap">
 <table class="cost-table">
-<caption>Full wrap removal cost by vehicle size and wrap age</caption>
+
 <thead>
 <tr><th>Vehicle</th><th>Under 3 years</th><th>3 to 5 years</th><th>5+ years</th></tr>
 </thead>
@@ -180,7 +180,7 @@ schema: |
 <p class="table-hint">Swipe to see the Price column &rarr;</p>
   <div class="table-wrap">
 <table class="cost-table">
-<caption>Partial and per-panel wrap removal prices</caption>
+
 <thead>
 <tr><th>Job</th><th>Price</th></tr>
 </thead>
@@ -227,7 +227,7 @@ schema: |
 <p class="table-hint">Swipe to see the Pro shop column &rarr;</p>
   <div class="table-wrap">
 <table class="cost-table">
-<caption>DIY vs professional car wrap removal</caption>
+
 <thead>
 <tr><th>Factor</th><th>DIY</th><th>Pro shop</th></tr>
 </thead>
@@ -255,7 +255,7 @@ schema: |
 <p class="table-hint">Swipe to see the Typical extra cost column &rarr;</p>
   <div class="table-wrap">
 <table class="cost-table">
-<caption>What to check on a car wrap removal quote</caption>
+
 <thead>
 <tr><th>Item</th><th>What to ask</th><th>Typical extra cost if not included</th></tr>
 </thead>
