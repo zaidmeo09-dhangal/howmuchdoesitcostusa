@@ -221,7 +221,7 @@ schema: |
   <p class="table-hint">Swipe to see the High column &rarr;</p>
   <div class="table-wrap">
     <table class="cost-table">
-      <caption>Sample estimated cost breakdown, updated for your selection</caption>
+      
       <thead>
         <tr><th>Item</th><th>Low</th><th>Typical</th><th>High</th></tr>
       </thead>
@@ -257,7 +257,7 @@ schema: |
   <p class="table-hint">Swipe to see the lifespan &rarr;</p>
   <div class="table-wrap">
     <table class="cost-table">
-      <caption>Roof cost by material, per sq ft and lifespan</caption>
+      
       <thead>
         <tr><th>Material</th><th>Per sq ft</th><th>Lifespan</th></tr>
       </thead>
@@ -278,7 +278,7 @@ schema: |
   <p class="table-hint">Swipe to see the added cost &rarr;</p>
   <div class="table-wrap">
     <table class="cost-table">
-      <caption>Roof cost by pitch, WhatHomeCosts percentages</caption>
+      
       <thead>
         <tr><th>Pitch</th><th>Added cost</th><th>Example on $9,180</th></tr>
       </thead>
@@ -383,7 +383,7 @@ schema: |
   <p>The table below repeats the typical column from the breakdown above, so you can see the share of each line at the calculator default.</p>
   <div class="table-wrap">
     <table class="cost-table">
-      <caption>Typical cost lines for a 1,800 sq ft asphalt roof</caption>
+      
       <thead>
         <tr><th>Item</th><th>Typical</th></tr>
       </thead>
