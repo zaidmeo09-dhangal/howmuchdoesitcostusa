@@ -72,13 +72,17 @@ schema: |
       <ul class="search-results" id="searchResults"></ul>
       <p><a class="btn btn-gold" href="{{ '/tools/' | relative_url }}">Get a Price</a> <a class="btn btn-outline" href="{{ '/blog/' | relative_url }}">Read the Guides</a></p>
     </div>
-    <aside class="hero-card" aria-label="Sample estimate">
-      <p class="hero-card-label">Sample estimate</p>
-      <p class="hero-card-title">2-bedroom local move</p>
-      <p class="hero-card-price">Typical <span class="hero-counter" data-count="1240" data-start="843" data-prefix="$">$1,240</span></p>
-      <p class="hero-card-range">Low $843 - High $1,637</p>
-      <div class="hero-card-range-bar" aria-hidden="true"><span style="width:50%"></span></div>
-      <p class="hero-card-note">Sample estimated USA range, not a quote. <a href="{{ '/movers-cost-calculator/' | relative_url }}">Calculate your move price</a></p>
+    <aside class="hero-visual" aria-label="Sample estimate">
+      <div class="hero-blob" aria-hidden="true"></div>
+      <img class="hero-visual-photo" src="{{ '/assets/images/blog/movers-cost/feature.webp' | relative_url }}" alt="Two professional movers carrying cardboard boxes in a bright room during a move" width="1200" height="630" fetchpriority="high">
+      <div class="hero-card hero-estimate">
+        <p class="hero-card-label">Sample estimate</p>
+        <p class="hero-card-title">2-bedroom local move</p>
+        <p class="hero-card-price">Typical <span class="hero-counter" data-count="1240" data-start="843" data-prefix="$">$1,240</span></p>
+        <p class="hero-card-range">Low $843 - High $1,637</p>
+        <div class="hero-card-range-bar" aria-hidden="true"><span style="width:50%"></span></div>
+        <p class="hero-card-note">Sample estimated USA range, not a quote. <a href="{{ '/movers-cost-calculator/' | relative_url }}">Calculate your move price</a></p>
+      </div>
     </aside>
   </div>
   <div class="wrap">
@@ -89,54 +93,87 @@ schema: |
       <li>Updated November 21, 2026</li>
     </ul>
   </div>
-  <div class="wrap">
-    <figure class="hero-photo"><img src="{{ '/assets/images/hero-home.webp' | relative_url }}" alt="Modern two story suburban house in the USA with a lawn and blue sky" width="900" height="600" fetchpriority="high"></figure>
+</section>
+
+<div class="ticker" aria-hidden="true"><div class="ticker-track"><span>Free forever</span><span>No sign-up</span><span>USA prices</span><span>Low, typical and high ranges</span><span>7 free calculators</span><span>9 cost guides</span><span>Free forever</span><span>No sign-up</span><span>USA prices</span><span>Low, typical and high ranges</span><span>7 free calculators</span><span>9 cost guides</span></div></div>
+
+<section class="wrap">
+  <p class="kicker">Why use it</p>
+  <h2>Price it before you call a pro</h2>
+  <div class="grid grid-4">
+    <div class="card">
+      <span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/><path d="M17 6.5c0-1.9-2.2-3-5-3s-5 1.1-5 3 1.8 2.6 5 3.2 5 1.6 5 3.3-2.2 3-5 3-5-1.1-5-3"/></svg></span>
+      <h3>Free forever</h3>
+      <p>Every calculator and guide is free. No account, no trial, no paywall.</p>
+    </div>
+    <div class="card">
+      <span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8z"/></svg></span>
+      <h3>Instant price</h3>
+      <p>Answer a few questions and see your low, typical, and high price in seconds.</p>
+    </div>
+    <div class="card">
+      <span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></span>
+      <h3>No sign-up</h3>
+      <p>Nothing you type is sent or stored. All calculations happen in your browser.</p>
+    </div>
+    <div class="card">
+      <span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+      <h3>USA prices</h3>
+      <p>National USA ranges, checked against public sources, with a full breakdown.</p>
+    </div>
   </div>
 </section>
 
 <section class="wrap how-it-works">
   <h2>How it works</h2>
-  <ol class="how-steps">
+  <ol class="how-steps how-steps-3">
     <li><span class="how-step-num" aria-hidden="true">1</span><h3>Pick your job</h3><p>Choose a calculator or guide for the job you want to price.</p></li>
     <li><span class="how-step-num" aria-hidden="true">2</span><h3>Answer a few questions</h3><p>Pick your size and options. No account, no sign-up.</p></li>
     <li><span class="how-step-num" aria-hidden="true">3</span><h3>Get your price range</h3><p>See your low, typical, and high price in seconds.</p></li>
-    <li><span class="how-step-num" aria-hidden="true">4</span><h3>Compare 3 quotes</h3><p>Use the range to check quotes from local pros.</p></li>
   </ol>
 </section>
 
 <section class="wrap">
   <h2>What do you want to price?</h2>
   <div class="grid">
-    <div class="card bucket">
-      <span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/><path d="M9 21v-6h6v6"/></svg></span>
+    <div class="card">
+      <div class="card-img"><img src="{{ '/assets/images/blog/house-painting-cost/feature.webp' | relative_url }}" alt="Man painting the exterior wall of a house with a roller on a long handle, with a ladder beside him" width="1200" height="630" loading="lazy"></div>
       <h3><a href="{{ '/tools/' | relative_url }}">Home Projects</a></h3>
-      <p>Roof replacement cost, fences, central air, and house painting. See what a job costs before you call a contractor.</p>
-      <ul class="bucket-links">
-        <li><a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Calculator <span aria-hidden="true">&rarr;</span></a></li>
-        <li><a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator <span aria-hidden="true">&rarr;</span></a></li>
-        <li><a href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}">Central AC Calculator <span aria-hidden="true">&rarr;</span></a></li>
-        <li><a href="{{ '/house-painting-cost-calculator/' | relative_url }}">House Painting Calculator <span aria-hidden="true">&rarr;</span></a></li>
-      </ul>
+      <p>Roof $9,180 · Fence $3,335 · Central AC $6,800 · House painting $4,200</p>
+      <a class="card-cta" href="{{ '/tools/' | relative_url }}">See home prices &rarr;</a>
     </div>
-    <div class="card bucket">
-      <span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 11 6 7.2A2 2 0 0 1 7.9 6h8.2a2 2 0 0 1 1.9 1.2L19.5 11"/><rect x="3" y="11" width="18" height="5.5" rx="1.5"/><circle cx="7.5" cy="18" r="1.8"/><circle cx="16.5" cy="18" r="1.8"/></svg></span>
+    <div class="card">
+      <div class="card-img"><img src="{{ '/assets/images/blog/car-wrap-cost/feature.webp' | relative_url }}" alt="Worker applying white vinyl wrap to a car hood with a heat gun in a workshop" width="1200" height="630" loading="lazy"></div>
       <h3><a href="{{ '/tools/' | relative_url }}">Car Costs</a></h3>
-      <p>Oil change cost and car wrap cost. Quick prices for the car jobs every driver pays for.</p>
-      <ul class="bucket-links">
-        <li><a href="{{ '/oil-change-cost-calculator/' | relative_url }}">Oil Change Calculator <span aria-hidden="true">&rarr;</span></a></li>
-        <li><a href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Car Wrap Calculator <span aria-hidden="true">&rarr;</span></a></li>
-      </ul>
+      <p>Oil change $75 · Car wrap $3,500 · Paint a car from $1,500</p>
+      <a class="card-cta" href="{{ '/tools/' | relative_url }}">See car prices &rarr;</a>
     </div>
-    <div class="card bucket">
-      <span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h12v11H2z"/><path d="M14 9h4l3 3v4h-7"/><circle cx="6" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg></span>
+    <div class="card">
+      <div class="card-img"><img src="{{ '/assets/images/blog/movers-cost/feature.webp' | relative_url }}" alt="Two professional movers carrying cardboard boxes in a bright room during a move" width="1200" height="630" loading="lazy"></div>
       <h3><a href="{{ '/tools/' | relative_url }}">Moving Costs</a></h3>
-      <p>Local and long distance moves. Price your move by home size and distance.</p>
-      <ul class="bucket-links">
-        <li><a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator <span aria-hidden="true">&rarr;</span></a></li>
-        <li><a href="{{ '/blog/how-much-do-movers-cost/' | relative_url }}">Movers Cost Guide <span aria-hidden="true">&rarr;</span></a></li>
-      </ul>
+      <p>Local move $1,240 · Long distance by home size and distance</p>
+      <a class="card-cta" href="{{ '/tools/' | relative_url }}">See moving prices &rarr;</a>
     </div>
   </div>
+</section>
+
+<section class="wrap">
+  <p class="kicker">Popular prices</p>
+  <h2>What jobs cost right now</h2>
+  <div class="table-wrap">
+    <table class="cost-table">
+      <thead>
+        <tr><th>Job</th><th>Low</th><th>Typical</th><th>High</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>2-bedroom local move</td><td>$843</td><td>$1,240</td><td>$1,637</td></tr>
+        <tr><td>1,800 sq ft asphalt roof</td><td>$7,528</td><td>$9,180</td><td>$11,475</td></tr>
+        <tr><td>150 ft wood privacy fence</td><td>$2,100</td><td>$3,335</td><td>$5,400</td></tr>
+        <tr><td>Full synthetic oil change</td><td>$45</td><td>$75</td><td>$140</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="note">Sample estimated USA ranges, not quotes. Always get 3 quotes from local pros.</p>
 </section>
 
 <section class="wrap">
@@ -204,4 +241,12 @@ schema: |
   <details class="faq"><summary>Are the prices exact quotes?</summary><p>No. Prices on this site are sample estimated USA ranges built from typical material and labor costs. Your real quote depends on your size, materials, and location, so always get 3 quotes from local pros.</p></details>
   <details class="faq"><summary>Do the prices cover the whole USA?</summary><p>Yes. The ranges are USA national averages. Big cities usually cost more than small towns, and the guides explain what moves the price up or down.</p></details>
   <details class="faq"><summary>Do you store what I type into a calculator?</summary><p>No. All calculations happen in your browser. Nothing you type is sent to our servers or stored anywhere.</p></details>
+</section>
+
+<section class="wrap">
+  <div class="final-cta">
+    <h2>Ready to price your job?</h2>
+    <p>Free, instant, no sign-up. See your low, typical, and high price in seconds.</p>
+    <p><a class="btn btn-white" href="{{ '/tools/' | relative_url }}">Get a Price</a></p>
+  </div>
 </section>
