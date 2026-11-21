@@ -7,6 +7,7 @@ date: 2026-11-14
 permalink: /blog/how-much-do-movers-cost/
 breadcrumb: Blog
 guide_category: "Moving Costs"
+card_price: "$843 - $1,637"
 calculator_url: "/movers-cost-calculator/"
 calculator_name: "Movers Cost Calculator"
 calculator_heading: "Price your own move"
