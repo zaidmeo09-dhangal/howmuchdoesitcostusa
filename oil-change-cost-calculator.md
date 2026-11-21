@@ -167,7 +167,7 @@ schema: |
   </div>
 
   <div class="calc">
-    <h2>Oil Change Cost Calculator</h2>
+    <h2>Estimate your oil change cost</h2>
     <p>Pick your oil type and vehicle type to see a sample estimated price for an oil change.</p>
     <div class="calc-field">
       <label for="oilType">Oil type</label>
