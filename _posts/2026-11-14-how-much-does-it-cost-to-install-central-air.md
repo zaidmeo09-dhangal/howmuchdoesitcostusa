@@ -11,6 +11,8 @@ card_price: "$5,200 - $9,500"
 calculator_url: "/central-ac-installation-cost-calculator/"
 calculator_name: "Central AC Installation Cost Calculator"
 calculator_heading: "Price your own central air"
+image: /assets/images/blog/central-air-cost/feature.webp
+image_alt: "Outdoor air conditioner condenser units mounted on the exterior wall of a building"
 schema: |
   {
     "@context": "https://schema.org",
