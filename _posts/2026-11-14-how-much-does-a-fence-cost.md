@@ -7,6 +7,7 @@ date: 2026-11-14
 permalink: /blog/how-much-does-a-fence-cost/
 breadcrumb: Blog
 guide_category: "Home Costs"
+card_price: "$2,100 - $5,400"
 calculator_url: "/fence-cost-calculator/"
 calculator_name: "Fence Cost Calculator"
 calculator_heading: "Price your own fence"
