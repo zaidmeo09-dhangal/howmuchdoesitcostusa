@@ -294,7 +294,7 @@ schema: |
         <tr><td>Stucco</td><td>$1.50 to $4</td></tr>
         <tr><td>Wood</td><td>$1 to $3</td></tr>
         <tr><td>Concrete</td><td>$1 to $3.50</td></tr>
-        <tr><td>Brick</td><td>$1.50 to $2.50</td></tr>
+        <tr><td>Brick</td><td>$1.40 to $4.20</td></tr>
         <tr><td>Metal</td><td>$1.50 to $2.50</td></tr>
       </tbody>
     </table>
