@@ -82,7 +82,7 @@
   }
   var counters = document.querySelectorAll("[data-count]");
   var bars = document.querySelectorAll(".card .price-bar span");
-  var risers = document.querySelectorAll(".grid .card, .how-steps li, .bands .band, .calc, .answer, .key-takeaways, .post .table-wrap, .hero-card");
+  var risers = document.querySelectorAll(".grid .card, .how-steps li, .bands .band, .calc, .answer, .key-takeaways, .table-wrap, .hero-card, .final-cta");
   if ("IntersectionObserver" in window && !reduceMotion) {
     var seen = function (entries, obs) {
       entries.forEach(function (entry) {
