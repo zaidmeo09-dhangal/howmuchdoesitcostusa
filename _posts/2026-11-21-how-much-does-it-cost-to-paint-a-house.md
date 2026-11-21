@@ -198,7 +198,7 @@ schema: |
 <p class="table-hint">Swipe to see the High column &rarr;</p>
   <div class="table-wrap">
 <table class="cost-table">
-<caption>Sample estimated USA prices by home floor area</caption>
+
 <thead>
 <tr><th>Home size</th><th>Exterior low</th><th>Exterior typical</th><th>Exterior high</th><th>Interior typical</th></tr>
 </thead>
@@ -227,7 +227,7 @@ schema: |
 <p class="table-hint">Swipe to see the Sample range column &rarr;</p>
   <div class="table-wrap">
 <table class="cost-table">
-<caption>Interior painting sample ranges by room type, per Angi</caption>
+
 <thead>
 <tr><th>Room</th><th>Sample range</th></tr>
 </thead>
@@ -250,7 +250,7 @@ schema: |
 <p class="table-hint">Swipe to see the Per sq ft column &rarr;</p>
   <div class="table-wrap">
 <table class="cost-table">
-<caption>Exterior painting per sq ft by siding, per Angi</caption>
+
 <thead>
 <tr><th>Siding</th><th>Per sq ft</th></tr>
 </thead>
@@ -274,7 +274,7 @@ schema: |
 <p class="table-hint">Swipe to see the Sample range column &rarr;</p>
   <div class="table-wrap">
 <table class="cost-table">
-<caption>Exterior painting sample ranges by stories, per Angi</caption>
+
 <thead>
 <tr><th>Stories</th><th>Sample range</th></tr>
 </thead>
@@ -295,7 +295,7 @@ schema: |
 <p class="table-hint">Swipe to see the High column &rarr;</p>
   <div class="table-wrap">
 <table class="cost-table">
-<caption>Sample estimated cost breakdown, 1,800 sq ft exterior job</caption>
+
 <thead>
 <tr><th>Item</th><th>Low</th><th>Typical</th><th>High</th></tr>
 </thead>
@@ -319,7 +319,7 @@ schema: |
 <p class="table-hint">Swipe to see the Gallons per coat column &rarr;</p>
   <div class="table-wrap">
 <table class="cost-table">
-<caption>Paint needed per coat by paintable surface area, at 350 to 400 sq ft per gallon, per Angi</caption>
+
 <thead>
 <tr><th>Paintable surface area</th><th>Gallons per coat</th></tr>
 </thead>
@@ -341,7 +341,7 @@ schema: |
 <p class="table-hint">Swipe to see the Price column &rarr;</p>
   <div class="table-wrap">
 <table class="cost-table">
-<caption>Prep and add-on prices, per Angi unless noted</caption>
+
 <thead>
 <tr><th>Add-on</th><th>Price</th></tr>
 </thead>
