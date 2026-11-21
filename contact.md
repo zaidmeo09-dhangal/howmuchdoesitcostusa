@@ -7,9 +7,19 @@ permalink: /contact/
 breadcrumb: Contact
 ---
 
+<section class="hero">
+  <div class="wrap">
+    <p class="kicker">Contact</p>
+    <h1><span class="accent-u">Contact</span> Us</h1>
+    <p class="lede">Have a question, a price correction, or an idea for a new cost calculator or guide? Send us a message. We read every message and reply to the ones that help us fix or improve the site.</p>
+    <ul class="trust-row">
+      <li>We read every message</li>
+      <li>Price corrections welcome</li>
+      <li>No data stored</li>
+    </ul>
+  </div>
+</section>
 <section class="wrap">
-  <h1>Contact Us</h1>
-  <p>Have a question, a price correction, or an idea for a new cost calculator or guide? Send us a message. We read every message and reply to the ones that help us fix or improve the site.</p>
   <form class="contact-form" action="mailto:howmuchdoesitcostusa@gmail.com" method="post" enctype="text/plain">
     <label for="cname">Your name</label>
     <input type="text" id="cname" name="name" required>
