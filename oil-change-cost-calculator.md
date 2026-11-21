@@ -221,7 +221,7 @@ schema: |
   <p class="table-hint">Swipe to see the High column &rarr;</p>
   <div class="table-wrap">
     <table class="cost-table">
-      <caption>Sample estimated cost breakdown, updated for your selection</caption>
+      
       <thead>
         <tr><th>Item</th><th>Low</th><th>Typical</th><th>High</th></tr>
       </thead>
@@ -317,7 +317,7 @@ schema: |
   <p>The table below repeats the typical column from the breakdown above, so you can see the share of each line at the calculator default.</p>
   <div class="table-wrap">
     <table class="cost-table">
-      <caption>Typical cost lines for a full synthetic oil change</caption>
+      
       <thead>
         <tr><th>Item</th><th>Typical</th></tr>
       </thead>
@@ -340,7 +340,7 @@ schema: |
   <p>Follow your manual interval instead of changing oil early. The intervals below are from SoFi citing Kelley Blue Book, and they are the same figures used in the FAQ on this page.</p>
   <div class="table-wrap">
     <table class="cost-table">
-      <caption>Oil change intervals by oil type</caption>
+      
       <thead>
         <tr><th>Oil type</th><th>Change every</th></tr>
       </thead>
@@ -357,7 +357,7 @@ schema: |
   <p>The price per change is only half the story. A cheaper oil that needs changing twice as often can cost more over a year. The table below runs the math at 12,000 miles a year, using the typical prices and intervals on this page.</p>
   <div class="table-wrap">
     <table class="cost-table">
-      <caption>Annual oil change cost at 12,000 miles a year</caption>
+      
       <thead>
         <tr><th>Oil type</th><th>Changes per year</th><th>Cost per year</th><th>Cost per mile</th></tr>
       </thead>
