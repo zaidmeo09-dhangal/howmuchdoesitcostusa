@@ -1030,3 +1030,22 @@ html, body { overflow-x: hidden; overflow-x: clip; }
   .price-bar span { transition: none; }
   * { transition: none; }
 }
+
+/* Blog feature image: shown only when a post sets page.image. */
+.post-feature { margin: 0 0 28px; }
+.post-feature img {
+  display: block; width: 100%; aspect-ratio: 1200 / 630; object-fit: cover;
+  border-radius: 20px;
+}
+/* Blog card image: shown only when a post sets post.image. The wrapper
+   bleeds to the card edge like .card-art (card padding is 24px). */
+.card .card-img { margin: -24px -24px 0; }
+.card .card-img img {
+  display: block; width: 100%; aspect-ratio: 1200 / 630; object-fit: cover;
+  border-radius: 16px 16px 0 0;
+}
+/* Category and price row under a card image, matching .card-art spacing. */
+.card .card-meta {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  margin: 14px 0 18px;
+}
