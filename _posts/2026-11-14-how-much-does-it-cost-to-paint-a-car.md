@@ -165,7 +165,7 @@ schema: |
 <p class="table-hint">Swipe to see the High column &rarr;</p>
   <div class="table-wrap">
 <table class="cost-table prose-4">
-<caption>Sample estimated USA prices for a sedan repaint</caption>
+
 <thead>
 <tr><th>Paint job quality</th><th>Sample range</th><th>Typical price</th><th>Warranty</th><th>Turnaround</th><th>Finish life</th><th>Best for</th></tr>
 </thead>
@@ -195,7 +195,7 @@ schema: |
 <p class="table-hint">Swipe to see the Price note column &rarr;</p>
   <div class="table-wrap">
 <table class="cost-table">
-<caption>Car paint systems compared</caption>
+
 <thead>
 <tr><th>Paint system</th><th>How it works</th><th>Finish life</th><th>Price note</th></tr>
 </thead>
