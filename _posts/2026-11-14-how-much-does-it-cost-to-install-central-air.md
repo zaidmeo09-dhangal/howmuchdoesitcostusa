@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How Much Does It Cost to Install Central Air?"
-meta_title: "How Much Does It Cost to Install Central Air? Guide."
+meta_title: "How Much Does It Cost to Install Central Air? Guide"
 meta_description: "How much does it cost to install central air? See the cost of installing a central air conditioning system by home size, system type, and SEER2 rating."
 date: 2026-11-14
 permalink: /blog/how-much-does-it-cost-to-install-central-air/
@@ -12,14 +12,14 @@ calculator_url: "/central-ac-installation-cost-calculator/"
 calculator_name: "Central AC Installation Cost Calculator"
 calculator_heading: "Price your own central air"
 image: /assets/images/blog/central-air-cost/feature.webp
-image_alt: "Outdoor air conditioner condenser units mounted on the exterior wall of a building"
+image_alt: "HVAC technician servicing an outdoor air conditioner condenser unit with pressure gauges"
 schema: |
   {
     "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Article",
-        "headline": "How Much Does It Cost to Install Central Air?",
+        "headline": "How Much Does It Cost to Install Central Air? Guide",
         "description": "How much does it cost to install central air? See the cost of installing a central air conditioning system by home size, system type, and SEER2 rating.",
         "author": {
           "@type": "Organization",
@@ -180,6 +180,8 @@ schema: |
 <li>The federal 25C tax credit ended December 31, 2025, so check state and utility rebates instead.</li>
 </ul>
 </div>
+
+<figure><img src="/assets/images/blog/central-air-cost/central-air-inpost-1.webp" alt="HVAC technician servicing an outdoor air conditioner condenser unit with pressure gauges" width="1100" height="538" loading="lazy"></figure>
 
 ## Cost to install central air by home size
 
