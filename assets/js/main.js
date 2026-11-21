@@ -112,7 +112,7 @@
   }
 
   /* Homepage search: filter the page list, Enter or Check Price goes to the match.
-     NOTE: this 15-entry page list is duplicated in tools.md (inline script).
+     NOTE: this 16-entry page list is duplicated in tools.md (inline script).
      Keep both lists in sync: same pages, same names, same URLs, same keywords. */
   var input = document.getElementById("siteSearch");
   var results = document.getElementById("searchResults");
@@ -124,6 +124,7 @@
     { name: "Oil Change Cost Calculator", url: "oil-change-cost-calculator/", keys: "oil change car service cost" },
     { name: "Central AC Installation Cost Calculator", url: "central-ac-installation-cost-calculator/", keys: "central air ac installation cooling cost" },
     { name: "Car Wrap Cost Calculator", url: "car-wrap-cost-calculator/", keys: "car wrap vinyl vehicle cost" },
+    { name: "Paint a Car Cost Calculator", url: "paint-a-car-cost-calculator/", keys: "paint car repaint vehicle cost" },
     { name: "House Painting Cost Calculator", url: "house-painting-cost-calculator/", keys: "house painting paint car cost" },
     { name: "How Much Do Movers Cost? (Guide)", url: "blog/how-much-do-movers-cost/", keys: "movers guide cost" },
     { name: "How Much Does an Oil Change Cost? (Guide)", url: "blog/how-much-does-an-oil-change-cost/", keys: "oil change guide cost" },
@@ -135,7 +136,7 @@
     { name: "How Much Does It Cost to Paint a House? (Guide)", url: "blog/how-much-does-it-cost-to-paint-a-house/", keys: "paint house guide cost" }
   ];
   /* Ranked search: a title match outranks a keyword match, so "car" returns
-     Car Wrap first and "paint" returns the Paint a Car guide first. Exact word
+     Car Wrap first and "paint" returns the Paint a Car Cost Calculator first. Exact word
      matches score more than substring matches, so "paint" beats "painting". */
   function scorePage(p, words) {
     var title = p.name.toLowerCase();
