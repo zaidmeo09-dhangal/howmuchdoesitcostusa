@@ -15,9 +15,19 @@ schema: |
   }
 ---
 
+<section class="hero">
+  <div class="wrap">
+    <p class="kicker">About Us</p>
+    <h1>About How Much Does It Cost <span class="accent-u">USA</span></h1>
+    <p class="lede">How Much Does It Cost USA is a small team that builds free online tools. We make cost calculators and guides that show what home, car, and moving jobs cost in the USA, in plain English, with no sign-up and no guesswork.</p>
+    <ul class="trust-row">
+      <li>Free forever</li>
+      <li>No sign-up</li>
+      <li>USA prices</li>
+    </ul>
+  </div>
+</section>
 <section class="wrap">
-  <h1>About How Much Does It Cost USA</h1>
-  <p>How Much Does It Cost USA is a small team that builds free online tools. We make cost calculators and guides that show what home, car, and moving jobs cost in the USA, in plain English, with no sign-up and no guesswork.</p>
   <h2>How we build a price</h2>
   <p>Every calculator on this site follows the same method. We start with a typical USA job, break it into material, labor, supplies, and equipment, and show a low, typical, and high band for each part. The totals you see are the sum of those parts, so you can check our math line by line.</p>
   <p>Our prices are sample estimated USA ranges built from typical material and labor costs, checked against named public sources such as the US Bureau of Labor Statistics, HUD, Harvard JCHS, Home Depot, and Lowes. Every calculator page shows its own breakdown, so you can see the material, labor, supplies, and equipment behind each total. They are not quotes. Your real price depends on your size, your materials, and where you live, so always get 3 quotes from local pros before you hire anyone.</p>
