@@ -167,7 +167,7 @@ schema: |
   </div>
 
   <div class="calc">
-    <h2>Roof Replacement Cost Calculator</h2>
+    <h2>Estimate your roof replacement cost</h2>
     <p>Use this roof replacement cost calculator to pick your roof size and material and see a sample estimated price for a new roof. For prices by roof size, repair vs replace rules, and insurance, see the full <a href="{{ '/blog/how-much-does-it-cost-to-replace-a-roof/' | relative_url }}">How Much Does It Cost to Replace a Roof?</a> guide.</p>
     <div class="calc-field">
       <label for="roofSize">Roof size: <span id="roofSizeVal">1,800 sq ft</span></label>
