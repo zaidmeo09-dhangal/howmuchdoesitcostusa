@@ -28,7 +28,7 @@ schema: |
   </div>
 </section>
 <section class="wrap">
-  <form class="contact-form" action="mailto:howmuchdoesitcostusa@gmail.com" method="post" enctype="text/plain">
+  <form class="contact-form" action="mailto:support@howmuchdoesitcostusa.com" method="post" enctype="text/plain">
     <label for="cname">Your name</label>
     <input type="text" id="cname" name="name" required>
     <label for="cemail">Your email</label>
@@ -44,7 +44,7 @@ schema: |
     <label for="cmessage">Your message</label>
     <textarea id="cmessage" name="message" required></textarea>
     <p><button class="btn btn-primary" type="submit">Send Message</button></p>
-    <p class="note">This form opens your own email app addressed to the site team at <a href="mailto:howmuchdoesitcostusa&#64;gmail.com">howmuchdoesitcostusa&#64;gmail.com</a>. We do not store form submissions on this site.</p>
+    <p class="note">This form opens your own email app addressed to the site team at <a href="mailto:support&#64;howmuchdoesitcostusa.com">support&#64;howmuchdoesitcostusa.com</a>. We do not store form submissions on this site.</p>
   </form>
   <h2>What to include in a price correction</h2>
   <p>A price correction is most useful when we can check it. Tell us your city or state, the size of the job, and the material you want priced. For a roof, that means the roof size and the material. For a fence, the length, height, and material. For a move, the home size and the distance. For an oil change, the oil type and the vehicle type. For central air, the home size and the efficiency rating. For a car wrap, the vehicle size and the wrap type. For house painting, the job type and the home size.</p>
