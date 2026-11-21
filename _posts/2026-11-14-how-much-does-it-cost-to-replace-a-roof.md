@@ -7,6 +7,7 @@ date: 2026-11-14
 permalink: /blog/how-much-does-it-cost-to-replace-a-roof/
 breadcrumb: Blog
 guide_category: "Home Costs"
+card_price: "$7,528 - $11,475"
 calculator_url: "/roof-replacement-cost-calculator/"
 calculator_name: "Roof Replacement Cost Calculator"
 calculator_heading: "Price your own roof"
