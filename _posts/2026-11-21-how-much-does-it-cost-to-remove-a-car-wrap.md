@@ -216,7 +216,7 @@ schema: |
 
 <p>A pro removal is a patient job, not a fast one. The technician heats a section with a heat gun until the adhesive softens, lifts an edge with a plastic tool, and pulls the film back at a low angle while heating ahead of the peel. Panels come off one at a time, then the technician cleans the adhesive residue and wipes each panel down. A typical car takes 3 to 8 hours. A sedan with a wrap under 5 years old takes 3 to 5 hours, while a badly aged or chrome wrap can take 8 to 12 hours or more.</p>
 
-<figure><img src="/assets/images/blog/car-wrap-removal-cost/car-wrap-removal-process.webp" alt="Technician peeling a vinyl wrap off a car door with a heat gun during removal" width="1200" height="800" loading="lazy"><figcaption>A technician peels vinyl from a car door with a heat gun during removal.</figcaption></figure>
+<figure><img src="/assets/images/blog/car-wrap-removal-cost/car-wrap-removal-process.webp" alt="Technician peeling a vinyl wrap off a car door with a heat gun during removal" width="1200" height="800" loading="lazy"></figure>
 
 <p>Heat is the whole technique. Too little heat and the film tears and leaves adhesive everywhere. Too much heat and the adhesive melts into the clear coat, or the paint itself is at risk. That is why a shop charges labor by the hour: the job cannot be rushed without making the cleanup longer.</p>
 
@@ -242,7 +242,7 @@ schema: |
 </table>
 </div>
 
-<figure><img src="/assets/images/blog/car-wrap-removal-cost/car-wrap-removal-diy-vs-pro.webp" alt="Infographic comparing DIY and professional car wrap removal cost and time" width="1200" height="800" loading="lazy"><figcaption>DIY removal costs less in cash and far more in time. A pro shop costs more and finishes in a day.</figcaption></figure>
+<figure><img src="/assets/images/blog/car-wrap-removal-cost/car-wrap-removal-diy-vs-pro.webp" alt="Infographic comparing DIY and professional car wrap removal cost and time" width="1200" height="800" loading="lazy"></figure>
 
 <p>DIY tools cost $50 to $150 for a heat gun, plastic scrapers, adhesive remover, and towels. Some guides quote $40 to $80 for basic tools and $100 to $300 if you add a steamer or a polisher. The real cost is your weekend: a careful first-timer needs 8 to 20 hours or more on a full car, against 3 to 8 hours for a pro shop. Work panel by panel, heat before you pull, pull low and slow, and stop if the film starts coming off in tiny brittle pieces. That is the sign the wrap is too old for DIY.</p>
 
@@ -287,7 +287,7 @@ schema: |
 
 <p>Expect the paint to look different from the paint you remember, and do not panic. Two things are normal after a wrap comes off: ghosting, a faint outline where the wrap edges sat or where covered paint stayed a different shade from exposed paint, and uneven gloss, where some panels look shinier than others. Both come from years of the film shielding the paint in some places and not others. A light polish usually reduces both a lot, and it is the step most people skip and then regret.</p>
 
-<figure><img src="/assets/images/blog/car-wrap-removal-cost/car-wrap-after-removal.webp" alt="Clean car with glossy original paint showing after a vinyl wrap was removed" width="1200" height="800" loading="lazy"><figcaption>Clean, glossy original paint after a vinyl wrap was removed.</figcaption></figure>
+<figure><img src="/assets/images/blog/car-wrap-removal-cost/car-wrap-after-removal.webp" alt="Clean car with glossy original paint showing after a vinyl wrap was removed" width="1200" height="800" loading="lazy"></figure>
 
 <p>What is not normal is paint coming off with the film, deep scratches the wrap was hiding, or clear coat peeling in sheets. Those point to weak or repainted paint underneath, and they are the reason a shop inspects the paint before it starts pulling film. If the paint underneath needs more than a polish, read <a href="{{ '/blog/how-much-does-it-cost-to-paint-a-car/' | relative_url }}">how much does it cost to paint a car</a> before you decide on a repaint, because a repaint costs $1,500 to $10,000 by quality and is a very different decision from a polish.</p>
 
