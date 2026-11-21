@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "How Much Does It Cost to Paint a House?"
-meta_title: "How Much Does It Cost to Paint a House? Guide."
+title: "How Much Does It Cost to Paint a House? Full Price Guide"
+meta_title: "How Much Does It Cost to Paint a House? Full Price Guide"
 meta_description: "How much does it cost to paint a house in the USA? See exterior and interior prices by home size, what is included, and how to hire a painter."
 date: 2026-11-21
 permalink: /blog/how-much-does-it-cost-to-paint-a-house/
@@ -16,7 +16,7 @@ schema: |
     "@graph": [
       {
         "@type": "Article",
-        "headline": "How Much Does It Cost to Paint a House?",
+        "headline": "How Much Does It Cost to Paint a House? Full Price Guide",
         "description": "How much does it cost to paint a house in the USA? See exterior and interior prices by home size, what is included, and how to hire a painter.",
         "author": {
           "@type": "Organization",
@@ -131,6 +131,38 @@ schema: |
               "@type": "Answer",
               "text": "Exterior house painting cost for a 1,800 sq ft home is about $4,200 typical, with a sample range of $2,800 to $6,800, at $2.33 per sq ft of floor area."
             }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does it cost to paint a brick house?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Brick costs $1.50 to $2.50 per sq ft, per Angi. The total depends on the size of the home and the prep the brick needs, because rough brick takes more paint than smooth siding."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does it cost to get a house painted?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For a 1,800 sq ft home, a typical exterior job costs about $4,200, with a sample range of $2,800 to $6,800, and the same home interior costs about $3,350 typical."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does it cost to paint a 2,000 sq ft house?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A 2,000 sq ft home costs about $4,650 typical exterior, with a sample range of $3,100 to $7,530, and about $3,700 typical interior."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the best time of year to paint a house?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Spring and fall are the best seasons for exterior painting in most of the USA, because the weather is dry and mild. Paint in the off season for better rates, and do not start an exterior job when rain is expected before the paint has dried."
+            }
           }
         ]
       }
@@ -155,6 +187,8 @@ schema: |
 </div>
 
 ## House painting cost by home size
+
+<p>How much does it cost to paint a whole house? For a 1,800 sq ft home, a typical exterior job is about $4,200, with a sample range of $2,800 to $6,800, and the same home interior is about $3,350 typical. The table below shows the same math for other home sizes, so find your size and read across for exterior and interior.</p>
 
 <p>The calculator prices by home floor area, not by paintable wall area. The typical price is home floor area times the job rate: $2.33 per sq ft for exterior, $1.85 per sq ft for interior. At the default 1,800 sq ft exterior job that is 1,800 times $2.33, which is $4,194, rounded to the nearest $50 to $4,200. For the same home interior it is 1,800 times $1.85, which is $3,330, rounded to $3,350.</p>
 
@@ -183,7 +217,7 @@ schema: |
 
 <p>This calculator prices by home floor area, the square feet you enter. It does not price by paintable wall area. That matters because published per square foot exterior averages use floor area while per-surface figures use wall area, so the two never match. Wall area is larger than floor area, so a quote priced per wall square foot will show a lower rate per square foot for the same job. Compare totals, not per square foot rates, when you compare quotes. Ask each painter whether the quote prices floor area or wall area, and compare the totals for the same job.</p>
 
-## Cost by room
+## How much does it cost to paint a house interior
 
 <p>Interior prices vary by room size and by room type, per Angi. A 10 by 12 ft room costs $240 to $720, and a 20 by 25 ft room costs $1,000 to $3,000. A single room costs $400 to $1,200, and a whole interior of 1,500 to 2,000 sq ft costs $3,000 to $8,000.</p>
 
@@ -206,7 +240,7 @@ schema: |
 
 <p class="note">A kitchen costs more than a bedroom of the same size, because it has more trim, cabinets, and fixtures to work around. A bathroom is the cheapest room to paint, at $200 to $500, because it is small.</p>
 
-## Cost by siding (exterior)
+## How much does it cost to paint a house exterior
 
 <p>Exterior cost per square foot depends on the siding material, per Angi. The calculator rate of $2.33 per sq ft of floor area sits inside the ranges below for most siding types.</p>
 
@@ -228,11 +262,11 @@ schema: |
 </table>
 </div>
 
-<p class="note">Stucco has the widest range, at $1.50 to $4 per sq ft, because rough stucco takes more paint and more prep than smooth siding. Wood is the cheapest per square foot at $1 to $3, but it needs more prep when the paint is peeling.</p>
+<p class="note">Stucco has the widest range, at $1.50 to $4 per sq ft, because rough stucco takes more paint and more prep than smooth siding. Wood is the cheapest per square foot at $1 to $3, but it needs more prep when the paint is peeling. How much does it cost to paint a brick house? Brick costs $1.50 to $2.50 per sq ft, per Angi, and rough brick takes more paint than smooth siding, so ask how the painter prices the brick and the prep before you compare totals.</p>
 
 ## Cost by stories (exterior)
 
-<p>More stories mean more ladder and scaffolding work, per Angi. Extra stories add up to 50 percent to labor.</p>
+<p>More stories mean more ladder and scaffolding work, per Angi. Extra stories add up to 50 percent to labor. How much does it cost to paint a house outside rises with height as well as size, so a tall home is not priced like a wide one of the same floor area.</p>
 
 <p class="table-hint">Swipe to see the Sample range column &rarr;</p>
   <div class="table-wrap">
@@ -249,7 +283,7 @@ schema: |
 </table>
 </div>
 
-<p class="note">A 2 story home costs about twice a 1 story home at the low end, $3,000 against $1,500, because the crew needs ladders or scaffolding for the upper walls. A 3 story home costs $4,500 to $10,000 plus, so get the height priced in writing before you compare quotes.</p>
+<p class="note">A 2 story home costs about twice a 1 story home at the low end, $3,000 against $1,500, because the crew needs ladders or scaffolding for the upper walls. How much does it cost to paint a two-story house? A 2 story exterior costs $3,000 to $6,200, and a 3 story home costs $4,500 to $10,000 plus, so get the height priced in writing before you compare quotes.</p>
 
 ## Itemized cost breakdown
 
@@ -390,6 +424,8 @@ Two coats cost more than one and usually look better and last longer. A color ch
 
 ## How to hire a painter
 
+<p>How much does it cost to get a house painted is the first question most homeowners ask, and how much does it cost to have a house painted depends on the same job: size, scope, prep, paint, and local labor rates. The steps below keep every quote on the same job, so the prices are comparable.</p>
+
 <ol class="steps">
 <li><strong>Measure your home and note the job type.</strong> Use the home floor area as the starting point, and decide exterior, interior, or both before you call.</li>
 <li><strong>Get 3 written quotes.</strong> Ask each painter to list paint brand, number of coats, and prep items line by line, for the same job.</li>
@@ -406,6 +442,18 @@ Two coats cost more than one and usually look better and last longer. A color ch
 ## When to repaint, and how long it takes
 
 <p>Repaint your house exterior every 5 to 10 years, by climate and paint quality. Harsh sun, rain, and salt air shorten the life, while a mild climate and a good paint stretch it. A paint job takes about 3 to 5 days for an average home. A home of 1,200 sq ft or less takes 2 to 3 days, a home of 2,000 sq ft takes 3 to 5 days, and a home over 3,000 sq ft takes 5 to 7 days. Plan the work for dry weather on an exterior job, because rain stops exterior painting and can push the schedule out.</p>
+
+## Best time of year to paint a house
+
+<p>Exterior painting needs dry, mild days, so spring and fall are the best seasons in most of the USA: the paint dries well, the crew can work without heat or cold slowing the job, and rain is less likely to stop work. Summer heat and strong sun dry paint too fast on the surface, and cold slows drying and can leave a weak finish. Interior painting is less tied to the season, because the work is inside, but the off season is still the best time to book: painters with open dates are often more flexible on price, so ask for off season dates when you get quotes. Whatever the season, do not start an exterior job when rain is expected before the paint has dried.</p>
+
+## How long paint lasts, and how to make it last longer
+
+<p>Exterior paint lasts 5 to 10 years, by climate and paint quality, and interior paint lasts about as long in low traffic rooms, while hallways, kitchens, and rooms used every day wear sooner. Sun baked walls fade first, coastal homes face salt air and moisture that speed up peeling, and a mild climate stretches the life of a good paint job. Two things stretch any paint job: thorough prep before the paint goes on, and simple upkeep after it. Wash the exterior once a year, touch up chips promptly before water gets under the paint, and repaint before the old coat fails, because painting over peeling paint only buys a short time.</p>
+
+## How to read a quote: the 5 lines to check
+
+<p>A quote is only comparable when it lists the same job, so check these 5 lines before you compare totals. First, the paint brand and the paint quality, because premium paint covers better and lasts longer. Second, the number of coats, because a color change almost always needs two coats for full coverage. Third, the prep items, and how sanding, patching, primer, and caulking are priced, and what counts as a repair. Fourth, the scope: which surfaces are included, walls only, walls and ceilings, or walls, ceilings, and trim. Fifth, the cleanup plan and the warranty on the work, in writing. A low quote that leaves out prep, a second coat, or the trim is not cheaper, it is a smaller job.</p>
 
 ## Walls only, or walls, ceilings, and trim?
 
@@ -434,6 +482,10 @@ Two coats cost more than one and usually look better and last longer. A color ch
 <details class="faq"><summary>What is the cost to paint exterior of house?</summary><p>The cost to paint the exterior of a house is $2.33 per sq ft of floor area, so a 1,800 sq ft home costs about $4,200 typical, with a sample range of $2,800 to $6,800. Exterior painting costs $1.50 to $4 per square foot, per Angi.</p></details>
 <details class="faq"><summary>How much does it cost to paint a 1500 sq ft house interior?</summary><p>A 1500 sq ft house interior costs about $2,800 typical, from 1,500 times $1.85, which is $2,775, rounded to $2,800, with a sample range of about $1,870 to $4,530.</p></details>
 <details class="faq"><summary>What is the exterior house painting cost?</summary><p>Exterior house painting cost for a 1,800 sq ft home is about $4,200 typical, with a sample range of $2,800 to $6,800, at $2.33 per sq ft of floor area.</p></details>
+<details class="faq"><summary>How much does it cost to paint a brick house?</summary><p>Brick costs $1.50 to $2.50 per sq ft, per Angi. The total depends on the size of the home and the prep the brick needs, because rough brick takes more paint than smooth siding.</p></details>
+<details class="faq"><summary>How much does it cost to get a house painted?</summary><p>For a 1,800 sq ft home, a typical exterior job costs about $4,200, with a sample range of $2,800 to $6,800, and the same home interior costs about $3,350 typical.</p></details>
+<details class="faq"><summary>How much does it cost to paint a 2,000 sq ft house?</summary><p>A 2,000 sq ft home costs about $4,650 typical exterior, with a sample range of $3,100 to $7,530, and about $3,700 typical interior.</p></details>
+<details class="faq"><summary>What is the best time of year to paint a house?</summary><p>Spring and fall are the best seasons for exterior painting in most of the USA, because the weather is dry and mild. Paint in the off season for better rates, and do not start an exterior job when rain is expected before the paint has dried.</p></details>
 
 ## References
 
