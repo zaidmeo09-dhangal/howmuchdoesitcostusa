@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "How Much Do Movers Cost in the USA?"
-meta_title: "How Much Do Movers Cost in the USA? Full Price Guide."
-meta_description: "How much do movers cost in the USA? See average prices by home size, what affects the cost, and how to save money on your next move in the USA."
+title: "How Much Do Movers Cost? Local and Long-Distance Prices"
+meta_title: "How Much Do Movers Cost? Local and Long-Distance Prices"
+meta_description: "How much do movers cost? See local and long-distance prices by home size, what affects the cost, and how to save money on your next move in the USA."
 date: 2026-11-14
 permalink: /blog/how-much-do-movers-cost/
 breadcrumb: Blog
@@ -16,8 +16,8 @@ schema: |
     "@graph": [
       {
         "@type": "Article",
-        "headline": "How Much Do Movers Cost in the USA?",
-        "description": "How much do movers cost in the USA? See average prices by home size, what affects the cost, and how to save money on your next move in the USA.",
+        "headline": "How Much Do Movers Cost? Local and Long-Distance Prices",
+        "description": "How much do movers cost? See local and long-distance prices by home size, what affects the cost, and how to save money on your next move in the USA.",
         "author": {
           "@type": "Organization",
           "name": "How Much Does It Cost USA"
@@ -123,6 +123,22 @@ schema: |
               "@type": "Answer",
               "text": "A 1 bedroom apartment move costs about $950 typical for a local move, with a long distance estimate of $1,995 for 100 to 500 miles, at about 2.1 times the local price."
             }
+          },
+          {
+            "@type": "Question",
+            "name": "How much do professional movers cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Professional movers cost about $1,240 typical for a 2-bedroom local move, with a sample range of $843 to $1,637. A long distance move of 100 to 500 miles costs about 2.1 times the local price, so about $2,604 for the same home."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much do movers cost for a 2 bedroom apartment?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Movers cost about $1,240 typical for a 2 bedroom apartment local move, with a sample range of $843 to $1,637. That is the same as the 2-bedroom figure in the table above, because the calculator prices by bedrooms and distance."
+            }
           }
         ]
       }
@@ -146,7 +162,7 @@ schema: |
 </ul>
 </div>
 
-## Average mover cost by home size
+## How much do movers cost for a local move?
 
 <p class="table-hint">Swipe to see the High column &rarr;</p>
   <div class="table-wrap">
@@ -182,7 +198,7 @@ schema: |
 
 ## Specialty item costs
 
-<p>Some items need a specialist crew or extra equipment, and they are priced on top of the main move. Ranges from <a href="https://www.angi.com/articles/how-much-does-it-cost-hire-movers.htm" target="_blank" rel="noopener">Angi</a>.</p>
+<p>Some items need a specialist crew or extra equipment, and they are priced on top of the main move. Piano movers cost $260 to $580, per Angi, and the other ranges below are from Angi too.</p>
 
 <p class="table-hint">Swipe to see the range &rarr;</p>
   <div class="table-wrap">
@@ -230,7 +246,7 @@ schema: |
 <li><strong>Not-to-exceed estimate.</strong> The price cannot go above the quoted amount, but it can come in lower if the actual weight is less than estimated. This is also called a binding not-to-exceed estimate.</li>
 </ul>
 
-<p>Get the estimate type in writing, with the items list attached. A <a href="https://www.consumervoice.org/articles/how-much-do-movers-cost" target="_blank" rel="noopener">This Old House</a> 2025 survey of 1,000 customers found only 43% got a binding estimate, so most people sign a quote that can still change.</p>
+<p>Get the estimate type in writing, with the items list attached. On an interstate move with a non-binding estimate, federal rules mean the mover cannot make you pay more than 110% of the estimate at delivery to release your goods, and any amount above that is billed after delivery. A <a href="https://www.consumervoice.org/articles/how-much-do-movers-cost" target="_blank" rel="noopener">This Old House</a> 2025 survey of 1,000 customers found only 43% got a binding estimate, so most people sign a quote that can still change.</p>
 
 ## Full-service vs container vs DIY
 
@@ -279,6 +295,10 @@ Packing, storage, and specialty items such as pianos, safes, and pool tables add
 <p class="pull-quote-label">Money-saving tip</p>
 <p>Get 3 written quotes and compare the full price, not just the hourly rate.</p>
 </aside>
+
+## Add-on charges that catch people out
+
+<p>The base quote rarely tells the full story. Packing and packing materials, storage between homes, stairs and long carries, and specialty items all cost extra, and the quote may not list them. Two more to ask about are the shuttle fee, when a full-size truck cannot reach your street and a smaller truck carries your things the last part of the way, and the fuel surcharge, which some movers add on top of the quote instead of including it. Ask each mover to list every extra charge in writing, so a low quote and a complete quote can be compared fairly.</p>
 
 ## What is included and what is not included
 
@@ -330,13 +350,17 @@ Packing, storage, and specialty items such as pianos, safes, and pool tables add
 
 <p>A move is often the start of a run of home costs, not the end of it. If the new home needs a roof, price it with the <a href="{{ '/blog/how-much-does-it-cost-to-replace-a-roof/' | relative_url }}">How Much Does It Cost to Replace a Roof?</a> guide and the <a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Cost Calculator</a>. If the yard needs fencing, see <a href="{{ '/blog/how-much-does-a-fence-cost/' | relative_url }}">How Much Does a Fence Cost?</a>. Budgeting the move and the home together keeps one big bill from hiding behind another.</p>
 
-## Mover cost by crew size and hours
+## How much do movers cost per hour?
 
 <p>Local moves are priced by the hour, and the crew size sets the hourly rate. A sample rate is $80 to $120 per hour for 2 movers and a truck, and most local moves have a minimum of 2 to 3 hours. That puts the minimum charge at $160 to $360: 2 hours at $80 is $160, and 3 hours at $120 is $360. Larger crews cost more per hour, and they also finish faster, so a bigger crew can cost less in total on a large home even though the hourly rate is higher. Ask each mover for the crew size and the minimum hours on the written quote, so you can work out the lowest possible bill before you compare quotes.</p>
 
 ## Local vs long distance: which price model applies
 
 <p>The price model changes with the distance. A local move is priced by the hour, while a long distance move is priced by distance and weight. A long distance move of 100 to 500 miles costs about 2.1 times the local price in the sample ranges on this page, so a studio that costs $750 locally costs about $1,575 over that distance, and a 4-bedroom home that costs $2,300 locally costs about $4,830. Weight gives a second way to check a long distance quote. At $0.50 to $0.90 per pound, a 5,000 pound load costs $2,500 to $4,500, and a 7,000 pound load costs $3,500 to $6,300. If the weight on the quote looks high for your home size, ask the mover how it was weighed, because the weight is what sets the final price on a weight based move.</p>
+
+## How much do movers cost in big cities?
+
+<p>Big cities usually cost more than small towns, because labor, parking, and access cost more there. Movers in Chicago, San Francisco, and the Bay Area often charge above the national average, so treat the ranges on this page as a starting point and get 3 written quotes from local movers in your city before you book.</p>
 
 ## Before moving day checklist
 
@@ -375,6 +399,10 @@ Packing, storage, and specialty items such as pianos, safes, and pool tables add
 <details class="faq"><summary>Should I tip the movers?</summary><p>Tips are not included in a standard quote. Tipping is customary for good service, and the amount is up to you. Check the quote first, because tips for the crew are listed as not included.</p></details>
 
 <details class="faq"><summary>How much do movers cost for a 1 bedroom apartment?</summary><p>A 1 bedroom apartment move costs about $950 typical for a local move, with a long distance estimate of $1,995 for 100 to 500 miles, at about 2.1 times the local price.</p></details>
+
+<details class="faq"><summary>How much do professional movers cost?</summary><p>Professional movers cost about $1,240 typical for a 2-bedroom local move, with a sample range of $843 to $1,637. A long distance move of 100 to 500 miles costs about 2.1 times the local price, so about $2,604 for the same home.</p></details>
+
+<details class="faq"><summary>How much do movers cost for a 2 bedroom apartment?</summary><p>Movers cost about $1,240 typical for a 2 bedroom apartment local move, with a sample range of $843 to $1,637. That is the same as the 2-bedroom figure in the table above, because the calculator prices by bedrooms and distance.</p></details>
 
 ## References
 
