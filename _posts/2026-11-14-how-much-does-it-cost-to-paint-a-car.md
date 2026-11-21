@@ -11,6 +11,8 @@ card_price: "$1,500 - $10,000"
 calculator_url: "/car-wrap-cost-calculator/"
 calculator_name: "Car Wrap Cost Calculator"
 calculator_heading: "Price your own wrap"
+image: /assets/images/blog/paint-a-car-cost/feature.webp
+image_alt: "A painter in a white protective suit and respirator mask spray-painting a masked car inside a bright auto paint booth"
 calculator_note: "This calculator prices a vinyl wrap only, not a paint job."
 schema: |
   {
