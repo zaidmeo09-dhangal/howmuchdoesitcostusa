@@ -11,6 +11,8 @@ card_price: "$45 - $140"
 calculator_url: "/oil-change-cost-calculator/"
 calculator_name: "Oil Change Cost Calculator"
 calculator_heading: "Price your own oil change"
+image: /assets/images/blog/oil-change-cost/feature.webp
+image_alt: "A mechanic wearing black gloves pouring engine oil into a car engine"
 schema: |
   {
     "@context": "https://schema.org",
