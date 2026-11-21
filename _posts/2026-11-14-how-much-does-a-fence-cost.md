@@ -202,7 +202,7 @@ schema: |
 <p class="table-hint">Swipe to see the High column &rarr;</p>
   <div class="table-wrap">
 <table class="cost-table">
-<caption>Sample estimated USA prices, installed, per linear foot</caption>
+
 <thead>
 <tr><th>Material</th><th>Cost per foot</th><th>Typical cost per foot</th><th>Sample total for 150 ft</th></tr>
 </thead>
@@ -247,7 +247,7 @@ BuilderMuse works through a 200 ft wood fence with two walk gates, old fence rem
 <p class="table-hint">Swipe to see the High column &rarr;</p>
   <div class="table-wrap">
 <table class="cost-table">
-<caption>Worked example: 200 ft pressure treated wood fence, two walk gates, removal, permit</caption>
+
 <thead>
 <tr><th>Item</th><th>Source range</th><th>Low</th><th>High</th></tr>
 </thead>
@@ -268,7 +268,7 @@ BuilderMuse works through a 200 ft wood fence with two walk gates, old fence rem
 <p class="table-hint">Swipe to see the High column &rarr;</p>
   <div class="table-wrap">
 <table class="cost-table">
-<caption>Installed cost per linear foot, per RemodelCalculators</caption>
+
 <thead>
 <tr><th>Material</th><th>Height</th><th>Cost per foot</th><th>Sample total for 150 ft</th></tr>
 </thead>
@@ -291,7 +291,7 @@ BuilderMuse works through a 200 ft wood fence with two walk gates, old fence rem
 <p class="table-hint">Swipe to see the High column &rarr;</p>
   <div class="table-wrap">
 <table class="cost-table">
-<caption>Installed totals by fence length, from Quotsey per foot ranges</caption>
+
 <thead>
 <tr><th>Material</th><th>100 ft</th><th>150 ft</th><th>200 ft</th><th>400 ft</th></tr>
 </thead>
@@ -312,7 +312,7 @@ Prices move with local labor rates. Quotsey gives these ranges for a 150 ft pres
 <p class="table-hint">Swipe to see the High column &rarr;</p>
   <div class="table-wrap">
 <table class="cost-table">
-<caption>150 ft pressure treated wood fence, per Quotsey</caption>
+
 <thead>
 <tr><th>Region</th><th>Sample range</th></tr>
 </thead>
@@ -334,7 +334,7 @@ Prices move with local labor rates. Quotsey gives these ranges for a 150 ft pres
 <p class="table-hint">Swipe to see the Sample cost column &rarr;</p>
   <div class="table-wrap">
 <table class="cost-table">
-<caption>Sample fence budgets by job size</caption>
+
 <thead>
 <tr><th>Budget</th><th>Fence</th><th>Sample cost</th></tr>
 </thead>
@@ -368,7 +368,7 @@ The cheapest fence to install is not always the cheapest to own. RemodelCalculat
 <p class="table-hint">Swipe to see the High column &rarr;</p>
   <div class="table-wrap">
 <table class="cost-table">
-<caption>Lifetime cost per foot per year, per RemodelCalculators</caption>
+
 <thead>
 <tr><th>Material</th><th>Cost per foot per year</th></tr>
 </thead>
