@@ -25,6 +25,9 @@ layout: default
       </div>
     </div>
   </header>
+  {% if page.image %}
+  <figure class="post-feature"><img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}" width="1200" height="630" fetchpriority="high"></figure>
+  {% endif %}
   <div class="post-layout">
     <nav class="post-toc" id="postToc" aria-label="On this page">
       <p class="post-toc-title">On this page</p>
