@@ -244,7 +244,7 @@ schema: |
   <p class="table-hint">Swipe to see the High column &rarr;</p>
   <div class="table-wrap">
     <table class="cost-table">
-      <caption>Sample estimated cost breakdown, updated for your selection</caption>
+      
       <thead>
         <tr><th>Item</th><th>Low</th><th>Typical</th><th>High</th></tr>
       </thead>
@@ -342,7 +342,7 @@ schema: |
   <p>Height changes the price at the same length. The figures below are from the height section on this page, at the 150 ft wood privacy default.</p>
   <div class="table-wrap">
     <table class="cost-table">
-      <caption>Typical cost by fence height, 150 ft wood privacy fence</caption>
+      
       <thead>
         <tr><th>Height</th><th>Typical</th></tr>
       </thead>
@@ -359,7 +359,7 @@ schema: |
   <p>The table below repeats the typical column from the breakdown above, so you can see the share of each line at the calculator default.</p>
   <div class="table-wrap">
     <table class="cost-table">
-      <caption>Typical cost lines for a 150 ft wood privacy fence</caption>
+      
       <thead>
         <tr><th>Item</th><th>Typical</th></tr>
       </thead>
@@ -380,7 +380,7 @@ schema: |
   <p class="table-hint">Swipe to see the High column &rarr;</p>
   <div class="table-wrap">
     <table class="cost-table">
-      <caption>Sample estimated cost by material, 150 ft fence at 6 ft</caption>
+      
       <thead>
         <tr><th>Material</th><th>Per foot</th><th>Low</th><th>Typical</th><th>High</th></tr>
       </thead>
@@ -398,7 +398,7 @@ schema: |
   <p class="table-hint">Swipe to see the High column &rarr;</p>
   <div class="table-wrap">
     <table class="cost-table">
-      <caption>Sample estimated cost by fence length, wood privacy at 6 ft</caption>
+      
       <thead>
         <tr><th>Length</th><th>Low</th><th>Typical</th><th>High</th></tr>
       </thead>
