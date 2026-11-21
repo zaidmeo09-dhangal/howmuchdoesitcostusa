@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Fence Cost Calculator"
-meta_title: "Free Fence Cost Calculator: Price Per Foot in the USA"
+meta_title: "Fence Cost Calculator: Wood, Vinyl, and Chain Link"
 meta_description: "Use the free fence cost calculator to price a wood, vinyl, or chain link fence by length and height, with low, typical, and high USA cost bands."
 permalink: /fence-cost-calculator/
 breadcrumb: Tools
@@ -11,7 +11,7 @@ schema: |
     "@graph": [
       {
         "@type": "WebPage",
-        "name": "Fence Cost Calculator",
+        "name": "Fence Cost Calculator: Wood, Vinyl, and Chain Link",
         "description": "Use the free fence cost calculator to price a wood, vinyl, or chain link fence by length and height, with low, typical, and high USA cost bands.",
         "url": "https://howmuchdoesitcostusa.com/fence-cost-calculator/"
       },
@@ -116,6 +116,46 @@ schema: |
               "@type": "Answer",
               "text": "Chain link costs $14.00 per foot in this calculator, so 200 ft of chain link fence costs $2,800 typical, from 200 times $14.00, with a sample range of about $1,760 to $4,540 using the low and high bands on this page."
             }
+          },
+          {
+            "@type": "Question",
+            "name": "How to calculate fence cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Multiply the fence length by the per foot rate for the material, adjust for height, then add the gates. For a 150 ft wood privacy fence at 6 ft, that is 150 times $22.23, which is about $3,335 typical."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does a 100 ft wood fence cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A 100 ft wood privacy fence at 6 ft costs about $2,223 typical in this calculator, from 100 times $22.23, with a sample range of $1,400 to $3,600."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does a vinyl privacy fence cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A 150 ft vinyl privacy fence at 6 ft costs about $5,700 typical in this calculator, from 150 times $38.00, with a sample range of $3,590 to $9,230."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many fence posts do I need?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Divide the fence length by the post spacing, round up, and add one post for the end. A 150 ft fence at 8 ft spacing has 19 sections and 20 posts, because 150 divided by 8 is 18.75, which rounds up to 19, plus one end post."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does fence staining cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Staining and sealing costs $90 to $240 at the 150 ft wood default in this calculator, with $150 typical. Vinyl and chain link cost $0 for staining, because those materials are not stained. Fence painting is priced separately and is not included in this calculator."
+            }
           }
         ]
       }
@@ -136,7 +176,7 @@ schema: |
 
   <div class="calc">
     <h2>Fence Cost Calculator</h2>
-    <p>Pick your fence length, material, height, and gates to see a sample estimated price for your fence.</p>
+    <p>Use this fence cost calculator to estimate your fence installation cost. Pick your fence length, material, height, and gates to see a sample estimated price for your fence.</p>
     <div class="calc-field">
       <label for="fenceLength">Fence length: <span id="fenceLengthVal">150 ft</span></label>
       <input type="range" id="fenceLength" min="50" max="400" step="10" value="150">
@@ -221,7 +261,7 @@ schema: |
   </div>
   <p class="note">Sample estimated USA ranges. Materials and labor together are most of the total. Staining and sealing is $0 for vinyl and chain link, because those materials are not stained. The staining amount is moved into the materials row for those materials, so the totals still add up exactly.</p>
 
-  <h2>How to estimate in 4 steps</h2>
+  <h2>How to calculate fence cost in 4 steps</h2>
   <ol class="steps">
     <li><strong>Measure your fence length.</strong> Walk the boundary and add gate openings to the total length.</li>
     <li><strong>Pick a material.</strong> Chain link costs least per foot, wood privacy costs least among privacy fences up front, and vinyl costs more but needs less care.</li>
@@ -271,6 +311,7 @@ schema: |
 
   <h2>How we estimate</h2>
   <p>We start with the fence length times the per foot rate for the material you pick, then adjust for height: 4 ft uses about 71 percent of the 6 ft rate and 8 ft uses 130 percent. The low band sits at 63 percent of the typical price and the high band at 162 percent. Each extra walk gate then adds $150 at the low end, $375 typical, and $600 at the high end. The result is a sample estimated USA range for planning, and the itemized rows always add up to the totals shown.</p>
+  <p>The formula is simple: total equals fence length times the per foot rate for the material, times the height multiplier, plus the gates. At the default, that is 150 times $22.23 times 1.00, which is about $3,335 typical. To count posts, divide the length by the post spacing, round up, and add one post for the end: a 150 ft fence at 8 ft spacing has 19 sections and 20 posts, because 150 divided by 8 is 18.75, which rounds up to 19, plus one end post.</p>
   <p>Your final price depends on height, gates, ground slope, and local labor rates, so always confirm the price in writing before work starts.</p>
 
   <h2>Hiring a pro checklist</h2>
@@ -334,6 +375,47 @@ schema: |
     </table>
   </div>
   <p>Materials at $1,750 and labor at $1,050 together are most of the $3,335 total. Each extra walk gate adds $150 at the low end, $375 typical, and $600 at the high end, so count the gates before you ask for a quote. If the fence is for a new home, the <a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator</a> prices the move itself.</p>
+  <h2>Fence cost by material: wood, vinyl, and chain link</h2>
+  <p>Use the calculator above as a wood fence cost calculator, a vinyl fence installation cost calculator, or a chain link fence cost calculator. Change the material and every total on the page updates. The table below shows all three at the same 150 ft, 6 ft default, so you can compare them side by side.</p>
+  <p class="table-hint">Swipe to see the High column &rarr;</p>
+  <div class="table-wrap">
+    <table class="cost-table">
+      <caption>Sample estimated cost by material, 150 ft fence at 6 ft</caption>
+      <thead>
+        <tr><th>Material</th><th>Per foot</th><th>Low</th><th>Typical</th><th>High</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Chain link</td><td>$14.00</td><td>$1,320</td><td>$2,100</td><td>$3,400</td></tr>
+        <tr><td>Wood privacy</td><td>$22.23</td><td>$2,100</td><td>$3,335</td><td>$5,400</td></tr>
+        <tr><td>Vinyl</td><td>$38.00</td><td>$3,590</td><td>$5,700</td><td>$9,230</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Chain link is the cheapest fence per foot, and wood privacy is the cheapest full privacy fence up front. Vinyl costs the most to install here, but it needs no staining and sealing, so the $90 to $240 fence stain cost at the wood default is $0 for vinyl and chain link. Your material choice sets both the up front price and the long term upkeep.</p>
+
+  <h2>Fence cost by length</h2>
+  <p>Fence length is the biggest price driver, because every extra foot needs more posts, panels, and labor. The table below uses the wood privacy rate of $22.23 per foot at 6 ft, with the same low and high bands as the calculator.</p>
+  <p class="table-hint">Swipe to see the High column &rarr;</p>
+  <div class="table-wrap">
+    <table class="cost-table">
+      <caption>Sample estimated cost by fence length, wood privacy at 6 ft</caption>
+      <thead>
+        <tr><th>Length</th><th>Low</th><th>Typical</th><th>High</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>50 ft</td><td>$700</td><td>$1,112</td><td>$1,800</td></tr>
+        <tr><td>100 ft</td><td>$1,400</td><td>$2,223</td><td>$3,600</td></tr>
+        <tr><td>150 ft</td><td>$2,100</td><td>$3,335</td><td>$5,400</td></tr>
+        <tr><td>200 ft</td><td>$2,800</td><td>$4,446</td><td>$7,200</td></tr>
+        <tr><td>300 ft</td><td>$4,200</td><td>$6,669</td><td>$10,800</td></tr>
+        <tr><td>400 ft</td><td>$5,600</td><td>$8,892</td><td>$14,410</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Doubling the length from 150 ft to 300 ft doubles the typical cost from $3,335 to $6,669, because the price scales with length. Gates, permits, and old fence removal sit on top of these totals, so add them before you compare quotes.</p>
+
+  <h2>Fence installation cost vs DIY</h2>
+  <p>At the $3,335 typical default, materials are $1,750 and labor is $1,050, so labor is about a third of the total. Doing the job yourself saves that labor share, but you need the tools, the time, and a call to 811 before digging, which is free. A pro crew sets a 150 ft fence in 1 to 2 days and usually warranties the work. Hire a pro if the ground is sloped or rocky, the fence is over 6 ft, or the boundary is disputed, because fixing a leaning or misplaced fence costs more than building it right the first time.</p>
   <h2>Fence by style: picket, privacy, and shadow box</h2>
   <p>Style sets how much material the fence uses, so it moves the price as much as the material does. A picket fence uses spaced boards and suits a front boundary, where a 4 ft height marks the line without blocking the view. A privacy fence uses solid boards at the standard 6 ft height, and it costs most because it uses the most material. A shadow box fence sits between the two: boards alternate on each side of the rail, so it gives near privacy with airflow and a finished look from both sides.</p>
   <p>Pick the style by what the fence must do. For privacy, use a 6 ft solid board fence in wood at $22.23 per ft or vinyl at $38.00 per ft. For a boundary marker or a pet fence, a shorter fence or chain link at $14.00 per ft costs less.</p>
@@ -402,6 +484,26 @@ schema: |
   <details class="faq">
     <summary>How much does 200 ft of chain link fence cost?</summary>
     <p>Chain link costs $14.00 per foot in this calculator, so 200 ft of chain link fence costs $2,800 typical, from 200 times $14.00, with a sample range of about $1,760 to $4,540 using the low and high bands on this page.</p>
+  </details>
+  <details class="faq">
+    <summary>How to calculate fence cost?</summary>
+    <p>Multiply the fence length by the per foot rate for the material, adjust for height, then add the gates. For a 150 ft wood privacy fence at 6 ft, that is 150 times $22.23, which is about $3,335 typical.</p>
+  </details>
+  <details class="faq">
+    <summary>How much does a 100 ft wood fence cost?</summary>
+    <p>A 100 ft wood privacy fence at 6 ft costs about $2,223 typical in this calculator, from 100 times $22.23, with a sample range of $1,400 to $3,600.</p>
+  </details>
+  <details class="faq">
+    <summary>How much does a vinyl privacy fence cost?</summary>
+    <p>A 150 ft vinyl privacy fence at 6 ft costs about $5,700 typical in this calculator, from 150 times $38.00, with a sample range of $3,590 to $9,230.</p>
+  </details>
+  <details class="faq">
+    <summary>How many fence posts do I need?</summary>
+    <p>Divide the fence length by the post spacing, round up, and add one post for the end. A 150 ft fence at 8 ft spacing has 19 sections and 20 posts, because 150 divided by 8 is 18.75, which rounds up to 19, plus one end post.</p>
+  </details>
+  <details class="faq">
+    <summary>How much does fence staining cost?</summary>
+    <p>Staining and sealing costs $90 to $240 at the 150 ft wood default in this calculator, with $150 typical. Vinyl and chain link cost $0 for staining, because those materials are not stained. Fence painting is priced separately and is not included in this calculator.</p>
   </details>
 </section>
 
