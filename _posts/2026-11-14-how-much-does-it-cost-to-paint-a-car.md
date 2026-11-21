@@ -7,6 +7,7 @@ date: 2026-11-14
 permalink: /blog/how-much-does-it-cost-to-paint-a-car/
 breadcrumb: Blog
 guide_category: "Car Costs"
+card_price: "$1,500 - $10,000"
 calculator_url: "/car-wrap-cost-calculator/"
 calculator_name: "Car Wrap Cost Calculator"
 calculator_heading: "Price your own wrap"
