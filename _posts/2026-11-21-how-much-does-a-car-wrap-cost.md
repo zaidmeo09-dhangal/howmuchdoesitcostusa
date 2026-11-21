@@ -11,6 +11,8 @@ card_price: "$2,500 - $5,500"
 calculator_url: "/car-wrap-cost-calculator/"
 calculator_name: "Car Wrap Cost Calculator"
 calculator_heading: "Price your own car wrap"
+image: /assets/images/blog/car-wrap-cost/feature.webp
+image_alt: "Worker applying white vinyl wrap to a car hood with a heat gun in a workshop"
 schema: |
   {
     "@context": "https://schema.org",
