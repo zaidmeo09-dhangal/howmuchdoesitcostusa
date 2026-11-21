@@ -7,11 +7,21 @@ permalink: /privacy/
 breadcrumb: Privacy Policy
 ---
 
+<section class="hero">
+  <div class="wrap">
+    <p class="kicker">Privacy Policy</p>
+    <h1><span class="accent-u">Privacy</span> Policy</h1>
+    <p class="hero-updated">Last updated: November 21, 2026</p>
+    <p class="lede">We collect almost nothing. The calculators on this site run entirely in your browser. The numbers you type into a calculator are never sent to our servers, never stored, and never shared.</p>
+    <ul class="trust-row">
+      <li>No sign-up</li>
+      <li>No data selling</li>
+      <li>Calculations in your browser</li>
+    </ul>
+  </div>
+</section>
 <section class="wrap">
-  <h1>Privacy Policy</h1>
-  <p>Last updated: November 21, 2026.</p>
   <h2>What we collect</h2>
-  <p>We collect almost nothing. The calculators on this site run entirely in your browser. The numbers you type into a calculator are never sent to our servers, never stored, and never shared.</p>
   <p>If you contact us by email, we receive your name, email address, and message so we can reply. We use that information only to answer you.</p>
   <p>The contact form sends nothing to this site. It opens your own email app, so your message goes straight from your email to us and is never stored here.</p>
   <h2>How we use contact email</h2>
