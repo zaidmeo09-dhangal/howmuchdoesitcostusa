@@ -186,7 +186,7 @@ schema: |
 <p class="table-hint">Swipe to see the High column &rarr;</p>
   <div class="table-wrap">
 <table class="cost-table">
-<caption>Sample estimated USA prices for a full central air install</caption>
+
 <thead>
 <tr><th>Home size</th><th>System size</th><th>Sample range</th></tr>
 </thead>
@@ -309,7 +309,7 @@ An older home may need a panel upgrade or a new circuit for the outdoor unit. Th
 <p class="table-hint">Swipe to see the Typical cost column &rarr;</p>
   <div class="table-wrap">
 <table class="cost-table">
-<caption>Typical installed cost for a 2.5 ton system by SEER2 rating</caption>
+
 <thead>
 <tr><th>Efficiency</th><th>Typical cost</th></tr>
 </thead>
@@ -339,7 +339,7 @@ An older home may need a panel upgrade or a new circuit for the outdoor unit. Th
 <p class="table-hint">Swipe to see the Typical cost column &rarr;</p>
   <div class="table-wrap">
 <table class="cost-table">
-<caption>Cooling options compared for a typical home</caption>
+
 <thead>
 <tr><th>System</th><th>What it does</th><th>Typical cost</th></tr>
 </thead>
