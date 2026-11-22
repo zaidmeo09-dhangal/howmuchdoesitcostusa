@@ -439,8 +439,6 @@ schema: |
   <p><a href="https://www.homedepot.com/" target="_blank" rel="noopener">Home Depot</a> <span class="ref-note">central air equipment prices</span></p>
   <p><a href="https://www.lowes.com/" target="_blank" rel="noopener">Lowes</a> <span class="ref-note">central air equipment prices</span></p>
   <p><a href="https://www.angi.com/articles/how-much-does-installing-new-ac-cost.htm" target="_blank" rel="noopener">Angi</a> <span class="ref-note">central AC installation cost, updated October 22, 2026</span></p>
-  <p><a href="https://truerepaircost.com/central-ac-installation-cost/" target="_blank" rel="noopener">TrueRepairCost</a> <span class="ref-note">central AC installation cost, researched November 9, 2026</span></p>
-  <p><a href="https://ibuyer.com/blog/how-much-does-it-cost-to-install-central-ac/" target="_blank" rel="noopener">iBuyer</a> <span class="ref-note">central AC installation cost and the $5,000 repair rule</span></p>
   </div>
 
   <h2>Related calculators and guides</h2>
