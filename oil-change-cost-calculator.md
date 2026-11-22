@@ -379,9 +379,6 @@ schema: |
   <p>Our estimates use public US cost data as a guide. Oil change prices by oil type come from SoFi, citing Kelley Blue Book, and from MotorTriage, with typical prices from HowMuchDoesThatCost and ARI invoice data, and labor cost context from the US Bureau of Labor Statistics. All prices on this page are sample estimated USA ranges, not quotes.</p>
   <div class="refs">
   <p><a href="https://www.sofi.com/learn/content/average-cost-oil-change/" target="_blank" rel="noopener">SoFi</a> <span class="ref-note">oil change cost by oil type, citing Kelley Blue Book</span></p>
-  <p><a href="https://motortriage.com/oil-change-cost/" target="_blank" rel="noopener">MotorTriage</a> <span class="ref-note">oil change cost by oil type and provider</span></p>
-  <p><a href="https://howmuchdoesthatcost.com/automotive/oil-change-cost/" target="_blank" rel="noopener">HowMuchDoesThatCost</a> <span class="ref-note">average oil change cost and breakdown</span></p>
-  <p><a href="https://ari.app/2026/10/car-repair-costs/" target="_blank" rel="noopener">ARI</a> <span class="ref-note">median oil change cost from repair invoices</span></p>
   <p><a href="https://www.bls.gov/" target="_blank" rel="noopener">US Bureau of Labor Statistics</a> <span class="ref-note">labor cost data</span></p>
   </div>
 
