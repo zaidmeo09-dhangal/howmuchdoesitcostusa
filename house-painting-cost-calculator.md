@@ -458,8 +458,6 @@ schema: |
   <p><a href="https://www.homedepot.com/" target="_blank" rel="noopener">Home Depot</a> <span class="ref-note">paint and primer prices</span></p>
   <p><a href="https://www.lowes.com/" target="_blank" rel="noopener">Lowes</a> <span class="ref-note">paint and primer prices</span></p>
   <p><a href="https://www.angi.com/articles/cost-paint-interior-and-exterior.htm" target="_blank" rel="noopener">Angi</a> <span class="ref-note">interior and exterior painting cost, updated October 29, 2026</span></p>
-  <p><a href="https://www.housecallpro.com/resources/painting-price-guide/" target="_blank" rel="noopener">HousecallPro</a> <span class="ref-note">painting price guide and cabinet painting</span></p>
-  <p><a href="https://www.paintdeck.co/blog/cost-to-paint-a-house" target="_blank" rel="noopener">PaintDeck</a> <span class="ref-note">floor area vs wall area and lead paint</span></p>
   </div>
 
   <h2>Related calculators and guides</h2>
