@@ -237,10 +237,10 @@ schema: |
       </tbody>
     </table>
   </div>
-  <p class="note">Sample estimated USA ranges. Materials and labor together are most of the total. The decking contingency is an allowance for sheets found damaged during tear-off, inside the <a href="https://whathomecosts.com/roof-replacement-cost/" target="_blank" rel="noopener">WhatHomeCosts</a> range of $150 to $1,000. Tear-off is set lower than before so the totals stay the same.</p>
+  <p class="note">Sample estimated USA ranges. Materials and labor together are most of the total. The decking contingency is an allowance for sheets found damaged during tear-off, inside the WhatHomeCosts range of $150 to $1,000. Tear-off is set lower than before so the totals stay the same.</p>
 
   <h2>Worked example: a 20-square architectural asphalt roof</h2>
-  <p>A square is 100 sq ft, so 20 squares is a 2,000 sq ft roof. The line items below are from <a href="https://whathomecosts.com/roof-replacement-cost/" target="_blank" rel="noopener">WhatHomeCosts</a>, and the worked total uses the midpoint of each range, shown line by line.</p>
+  <p>A square is 100 sq ft, so 20 squares is a 2,000 sq ft roof. The line items below are from WhatHomeCosts, and the worked total uses the midpoint of each range, shown line by line.</p>
   <ul>
     <li>Shingles, $2,000 to $5,000, midpoint $3,500</li>
     <li>Underlayment, flashing, and ventilation, $300 to $1,200, midpoint $750</li>
@@ -253,7 +253,7 @@ schema: |
   <p>That $11,125 sits inside the WhatHomeCosts total range of $6,600 to $15,500 for this job. For comparison, our calculator prices a 2,000 sq ft asphalt roof at $10,200 typical, from 2,000 x $5.10, with a range of $8,364 to $12,750.</p>
 
   <h2>Asphalt roof replacement cost by material</h2>
-  <p>Per sq ft ranges from <a href="https://whathomecosts.com/roof-replacement-cost/" target="_blank" rel="noopener">WhatHomeCosts</a> and lifespans from <a href="https://www.angi.com/articles/how-much-does-roof-replacement-cost.htm" target="_blank" rel="noopener">Angi</a>. The calculator default is architectural asphalt at $5.10 per sq ft, inside the $4 to $7 architectural range.</p>
+  <p>Per sq ft ranges from WhatHomeCosts and lifespans from <a href="https://www.angi.com/articles/how-much-does-roof-replacement-cost.htm" target="_blank" rel="noopener">Angi</a>. The calculator default is architectural asphalt at $5.10 per sq ft, inside the $4 to $7 architectural range.</p>
   <p class="table-hint">Swipe to see the lifespan &rarr;</p>
   <div class="table-wrap">
     <table class="cost-table">
@@ -274,7 +274,7 @@ schema: |
   <p>If you are budgeting the whole exterior, price the yard with the <a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a> too.</p>
 
   <h2>Cost by pitch</h2>
-  <p>Steeper roofs cost more because the crew works slower and needs more safety gear. Percentages from <a href="https://whathomecosts.com/roof-replacement-cost/" target="_blank" rel="noopener">WhatHomeCosts</a>, applied to the calculator default of $9,180 for a 1,800 sq ft asphalt roof.</p>
+  <p>Steeper roofs cost more because the crew works slower and needs more safety gear. Percentages from WhatHomeCosts, applied to the calculator default of $9,180 for a 1,800 sq ft asphalt roof.</p>
   <p class="table-hint">Swipe to see the added cost &rarr;</p>
   <div class="table-wrap">
     <table class="cost-table">
@@ -329,7 +329,7 @@ schema: |
   <h3>Ventilation and flashing</h3>
   <p>Underlayment and flashing run $420 to $700 in the breakdown on this page, with $520 typical. Flashing seals the joints around chimneys, valleys, and walls, and it is where many leaks start when it is old or badly fitted. Ventilation matters too, since a roof that cannot breathe traps heat and moisture in the attic. Ask the roofer to list flashing and vents as separate lines, so you can see whether they are new or reused.</p>
   <h3>Decking condition</h3>
-  <p>The decking contingency is $150 to $300 in the breakdown on this page, with $200 typical, inside the <a href="https://whathomecosts.com/roof-replacement-cost/" target="_blank" rel="noopener">WhatHomeCosts</a> range of $150 to $1,000. The deck is the wood under the shingles, and soft or rotted sheets only show up once the old roof is off. Ask for the per-sheet decking price in the contract before work starts, so a few bad sheets do not become an open bill.</p>
+  <p>The decking contingency is $150 to $300 in the breakdown on this page, with $200 typical, inside the WhatHomeCosts range of $150 to $1,000. The deck is the wood under the shingles, and soft or rotted sheets only show up once the old roof is off. Ask for the per-sheet decking price in the contract before work starts, so a few bad sheets do not become an open bill.</p>
   <h2>What is included and what is not</h2>
   <div class="two-col">
     <div>
@@ -399,7 +399,7 @@ schema: |
       </tbody>
     </table>
   </div>
-  <p>Materials at $3,900 and labor at $3,600 together are most of the $9,180 total. If a quote is far below the $7,528 low end, check the material brand and whether tear-off and disposal are included. Use the <a href="{{ '/house-painting-cost-calculator/' | relative_url }}">House Painting Cost Calculator</a> to price the exterior paint that often follows a roof job, and the <a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a> for the yard.</p>
+  <p>Materials at $3,900 and labor at $3,600 together are most of the $9,180 total. If a quote is far below the $7,528 low end, check the material brand and whether tear-off and disposal are included. Use the <a href="{{ '/house-painting-cost-calculator/' | relative_url }}">House Painting Cost Calculator</a> to price the exterior paint that often follows a roof job, and the Fence Cost Calculator for the yard.</p>
   <h2>Repair or replace: how to decide</h2>
   <p>Fix small leaks early before deck damage grows, and repair the roof when the damage is local: a few missing shingles, one flashing joint, or a single leak with a clear cause. Replace the roof when leaks repeat in more than one place, shingles are missing across wide areas, or the deck is soft underfoot. Age matters too: asphalt lasts 20 to 30 years and metal lasts 40 to 70 years, so a roof near the end of its life that needs a big repair is usually better replaced.</p>
   <p>Get both prices in writing before you decide. A repair that needs tear-off can approach replacement cost fast: tear-off and disposal run $1,000 to $2,500 in the worked example on this page, and the decking contingency runs $150 to $1,000, per WhatHomeCosts. Compare that total against the $7,528 to $11,475 range for a full replacement before you pay for the repair.</p>
@@ -411,8 +411,6 @@ schema: |
   <p><a href="https://www.lowes.com/" target="_blank" rel="noopener">Lowes</a> <span class="ref-note">roofing material prices</span></p>
   <p><a href="https://www.angi.com/articles/how-much-does-roof-replacement-cost.htm" target="_blank" rel="noopener">Angi</a> <span class="ref-note">roof replacement averages by material</span></p>
   <p><a href="https://www.thisoldhouse.com/roofing/new-roof-cost" target="_blank" rel="noopener">This Old House</a> <span class="ref-note">roof cost by material and roof size</span></p>
-  <p><a href="https://whathomecosts.com/roof-replacement-cost/" target="_blank" rel="noopener">WhatHomeCosts</a> <span class="ref-note">roof cost by material, pitch, and line items</span></p>
-  <p><a href="https://www.costimated.com/costs/roof-replacement-cost/" target="_blank" rel="noopener">Costimated</a> <span class="ref-note">national turnkey roof replacement average</span></p>
   </div>
 
   <h2>Related calculators and guides</h2>
