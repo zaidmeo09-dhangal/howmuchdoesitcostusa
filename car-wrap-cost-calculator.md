@@ -449,9 +449,6 @@ schema: |
   <p><a href="https://www.homedepot.com/" target="_blank" rel="noopener">Home Depot</a> <span class="ref-note">vinyl and supply prices</span></p>
   <p><a href="https://www.lowes.com/" target="_blank" rel="noopener">Lowes</a> <span class="ref-note">vinyl and supply prices</span></p>
   <p><a href="https://www.kbb.com/car-advice/car-wraps/" target="_blank" rel="noopener">Kelley Blue Book</a> <span class="ref-note">car wrap cost and care, updated August 15, 2026</span></p>
-  <p><a href="https://www.thepricer.org/car-wrap-cost/" target="_blank" rel="noopener">ThePricer</a> <span class="ref-note">car wrap cost by vehicle and film lifespan, updated October 6, 2026</span></p>
-  <p><a href="https://costfigure.com/auto/how-much-does-a-car-wrap-cost/" target="_blank" rel="noopener">CostFigure</a> <span class="ref-note">car wrap cost by finish, March 2026</span></p>
-  <p><a href="https://tunedrides.com/blog/how-much-does-a-car-wrap-cost/" target="_blank" rel="noopener">TunedRides</a> <span class="ref-note">film needed per car and DIY vinyl cost</span></p>
   </div>
 
   <h2>Related calculators and guides</h2>
