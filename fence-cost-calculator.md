@@ -422,9 +422,6 @@ schema: |
   <h2>References</h2>
   <p>Our estimates use public US cost data as a guide. Fence prices by material and height come from RemodelCalculators, Quotsey, and BuilderMuse, labor cost context comes from the US Bureau of Labor Statistics, remodeling trends from Harvard JCHS, and material prices from Home Depot and Lowes. All prices on this page are sample estimated USA ranges, not quotes.</p>
   <div class="refs">
-  <p><a href="https://remodelcalculators.com/fence-cost" target="_blank" rel="noopener">RemodelCalculators</a> <span class="ref-note">fence cost per foot, by material and height</span></p>
-  <p><a href="https://www.quotsey.com/cost-guides/fence-installation-cost/" target="_blank" rel="noopener">Quotsey</a> <span class="ref-note">fence installation cost by material and region</span></p>
-  <p><a href="https://buildermuse.com/residential/fence-installation-cost-2026/" target="_blank" rel="noopener">BuilderMuse</a> <span class="ref-note">fence installation cost, HomeAdvisor survey data</span></p>
   <p><a href="https://www.bls.gov/" target="_blank" rel="noopener">US Bureau of Labor Statistics</a> <span class="ref-note">labor cost data</span></p>
   <p><a href="https://www.jchs.harvard.edu/" target="_blank" rel="noopener">Harvard JCHS</a> <span class="ref-note">household and remodeling cost research</span></p>
   <p><a href="https://www.homedepot.com/" target="_blank" rel="noopener">Home Depot</a> <span class="ref-note">fence material prices</span></p>
@@ -516,7 +513,23 @@ schema: |
   }
   function round10(n) { return Math.round(n / 10) * 10; }
   function num(txt) { return parseFloat(String(txt).replace(/[^0-9.]/g, "")) || 0; }
+  var baseRows = null;
+  function cacheBaseRows() {
+    if (baseRows) { return true; }
+    var table = document.querySelector(".cost-table");
+    if (!table) { return false; }
+    var rows = table.querySelectorAll("tbody tr:not(.total)");
+    if (!rows || rows.length < 6) { return false; }
+    baseRows = [];
+    rows.forEach(function (row) {
+      var cells = row.querySelectorAll("td");
+      if (cells.length < 4) { return; }
+      baseRows.push([num(cells[1].textContent), num(cells[2].textContent), num(cells[3].textContent)]);
+    });
+    return baseRows.length >= 6;
+  }
   function update() {
+    cacheBaseRows();
     var len = parseFloat(document.getElementById("fenceLength").value);
     var matVal = document.getElementById("material").value;
     var rate = parseFloat(matVal);
@@ -541,24 +554,50 @@ schema: |
     var labor = "Labor (2 installers, " + days + ")";
     try { if (window.hmSync) { window.hmSync(baseLow, baseTyp, baseHigh, 2100, 3335, 5400, { intro: intro, labor: labor }); } } catch (e) {}
     var table = document.querySelector(".cost-table");
-    if (table) {
+    if (table && baseRows) {
       var matCells = document.getElementById("matRow").querySelectorAll("td");
       var gateCells = document.getElementById("gateRow").querySelectorAll("td");
       var stainCells = document.getElementById("stainRow").querySelectorAll("td");
       var totalCells = table.querySelector("tbody tr.total").querySelectorAll("td");
       var bandIds = ["bandLowVal", "bandTypVal", "bandHighVal"];
+      var totals = [low, typ, high];
+      var baseTotals = [baseLow, baseTyp, baseHigh];
+      var factors = [baseLow / 2100, baseTyp / 3335, baseHigh / 5400];
+      /* Recompute every adjusted row from the cached originals, so each
+         change replaces the old amount instead of adding to it. The scale
+         and rounding step mirrors hmSync: each row scales by its column
+         factor, and the largest row absorbs the rounding difference. */
+      var scaled = [[], [], []];
       for (var c = 0; c < 3; c++) {
+        var colSum = 0;
+        for (var r = 0; r < baseRows.length; r++) {
+          var v = Math.round(baseRows[r][c] * factors[c]);
+          scaled[c].push(v);
+          colSum += v;
+        }
+        var diff = baseTotals[c] - colSum;
+        if (diff !== 0 && scaled[c].length) {
+          var big = 0, bigVal = -1;
+          for (var k = 0; k < scaled[c].length; k++) {
+            if (scaled[c][k] > bigVal) { bigVal = scaled[c][k]; big = k; }
+          }
+          scaled[c][big] += diff;
+        }
+      }
+      for (var col = 0; col < 3; col++) {
+        var matV = scaled[col][0];
+        var gateV = scaled[col][2] + gateAmt[col];
+        var stainV = scaled[col][3];
         if (matVal !== "22.23") {
-          var stainVal = num(stainCells[c + 1].textContent);
-          matCells[c + 1].textContent = fmt(num(matCells[c + 1].textContent) + stainVal);
-          stainCells[c + 1].textContent = fmt(0);
+          matV += stainV;
+          stainV = 0;
         }
-        if (gates > 0) {
-          gateCells[c + 1].textContent = fmt(num(gateCells[c + 1].textContent) + gateAmt[c]);
-          totalCells[c + 1].textContent = fmt(num(totalCells[c + 1].textContent) + gateAmt[c]);
-          var band = document.getElementById(bandIds[c]);
-          if (band) { band.textContent = fmt(num(band.textContent) + gateAmt[c]); }
-        }
+        matCells[col + 1].textContent = fmt(matV);
+        gateCells[col + 1].textContent = fmt(gateV);
+        stainCells[col + 1].textContent = fmt(stainV);
+        totalCells[col + 1].textContent = fmt(totals[col]);
+        var band = document.getElementById(bandIds[col]);
+        if (band) { band.textContent = fmt(totals[col]); }
       }
     }
     var bar = document.getElementById("rangeBar");
