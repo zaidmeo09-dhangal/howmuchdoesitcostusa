@@ -264,7 +264,7 @@ schema: |
   <p>For a 1 bedroom apartment, movers cost about $950 typical for a local move. Select 1 bedroom in the calculator above to see the low and high sample range for your distance.</p>
 
   <h2>Average cost of movers by distance</h2>
-  <p>Long distance ranges from <a href="https://www.angi.com/articles/how-much-does-it-cost-hire-movers.htm" target="_blank" rel="noopener">Angi</a>. Angi puts long distance moves at $2,700 to $10,000 and over, while <a href="https://findmoversnow.com/moving-company-costs/" target="_blank" rel="noopener">FindMoversNow</a> puts the long distance range at $1,300 to $9,500.</p>
+  <p>Long distance ranges from <a href="https://www.angi.com/articles/how-much-does-it-cost-hire-movers.htm" target="_blank" rel="noopener">Angi</a>. Angi puts long distance moves at $2,700 to $10,000 and over, while FindMoversNow puts the long distance range at $1,300 to $9,500.</p>
   <p class="table-hint">Swipe to see the range &rarr;</p>
   <div class="table-wrap">
     <table class="cost-table">
@@ -388,8 +388,7 @@ schema: |
   <p><a href="https://www.lowes.com/" target="_blank" rel="noopener">Lowes</a> <span class="ref-note">boxes and packing supply prices</span></p>
   <p><a href="https://www.angi.com/articles/how-much-does-it-cost-hire-movers.htm" target="_blank" rel="noopener">Angi</a> <span class="ref-note">mover cost averages by home size and distance</span></p>
   <p><a href="https://www.freightwaves.com/checkpoint/moving-costs/" target="_blank" rel="noopener">FreightWaves</a> <span class="ref-note">hourly rates, peak season, and storage costs</span></p>
-  <p><a href="https://findmoversnow.com/moving-company-costs/" target="_blank" rel="noopener">FindMoversNow</a> <span class="ref-note">average move cost and city hourly rates</span></p>
-  <p><a href="https://www.consumervoice.org/articles/how-much-do-movers-cost" target="_blank" rel="noopener">This Old House</a> <span class="ref-note">2025 survey of 1,000 moving customers</span></p>
+  <p>This Old House <span class="ref-note">2025 survey of 1,000 moving customers</span></p>
   </div>
 
   <h2>Related calculators and guides</h2>
