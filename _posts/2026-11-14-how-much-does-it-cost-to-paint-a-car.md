@@ -245,7 +245,7 @@ schema: |
 
 ## Paint vs wrap: how to decide
 
-<p>Paint lasts longer and a wrap is cheaper and reversible. Choose paint if you plan to keep the car for many years and want the finish to last 10 to 15 plus years with a base and clear coat system. Choose a wrap if you want a color change for a short time, or you want to protect the paint underneath and undo the change later. Price the wrap with the Car Wrap Cost Calculator, a sedan full wrap costs about $3,500 there. Price a paint job with the <a href="{{ '/paint-a-car-cost-calculator/' | relative_url }}">Paint a Car Cost Calculator</a>.</p>
+<p>Paint lasts longer and a wrap is cheaper and reversible. Choose paint if you plan to keep the car for many years and want the finish to last 10 to 15 plus years with a base and clear coat system. Choose a wrap if you want a color change for a short time, or you want to protect the paint underneath and undo the change later. Price the wrap with the Car Wrap Cost Calculator, a sedan full wrap costs about $3,500 there. Price a paint job with the Paint a Car Cost Calculator.</p>
 
 ## DIY vs a professional shop
 
