@@ -194,7 +194,7 @@ schema: |
     <div class="receipt">
       <h3>Your estimated cost</h3>
       <p class="receipt-total" id="typVal">$3,500</p>
-      <p class="receipt-range">Sample range: <span id="lowVal">$2,500</span> (low) to <span id="highVal">$5,500</span> (high)</p>
+      <p class="receipt-range">Sample range: <span id="lowVal">$2,500</span> (low) to <span id="highVal">$4,999</span> (high)</p>
       <div class="price-bar receipt-bar" aria-hidden="true"><span id="rangeBar" style="width:33%"></span></div>
       <p class="note">Sample estimated USA range. Your final price depends on vehicle size, paint quality, job scope, prep work, and the shop.</p>
     </div>
@@ -215,7 +215,7 @@ schema: |
     </div>
     <div class="band">
       <p class="band-label">High</p>
-      <p class="band-price" id="bandHighVal">$5,500</p>
+      <p class="band-price" id="bandHighVal">$4,999</p>
       <p>A larger job, premium choices, or extra services.</p>
     </div>
   </div>
@@ -230,11 +230,11 @@ schema: |
         <tr><th>Item</th><th>Low</th><th>Typical</th><th>High</th></tr>
       </thead>
       <tbody>
-        <tr><td id="laborLabel">Prep and sanding (full car)</td><td>$1,200</td><td>$1,800</td><td>$2,800</td></tr>
-        <tr><td>Paint and clear coat</td><td>$600</td><td>$900</td><td>$1,500</td></tr>
-        <tr><td>Primer and masking</td><td>$400</td><td>$500</td><td>$700</td></tr>
-        <tr><td>Supplies and finishing</td><td>$300</td><td>$300</td><td>$500</td></tr>
-        <tr class="total"><td>Totals</td><td>$2,500</td><td>$3,500</td><td>$5,500</td></tr>
+        <tr><td id="laborLabel">Prep and sanding (full car)</td><td>$1,200</td><td>$1,800</td><td>$2,546</td></tr>
+        <tr><td>Paint and clear coat</td><td>$600</td><td>$900</td><td>$1,363</td></tr>
+        <tr><td>Primer and masking</td><td>$400</td><td>$500</td><td>$636</td></tr>
+        <tr><td>Supplies and finishing</td><td>$300</td><td>$300</td><td>$454</td></tr>
+        <tr class="total"><td>Totals</td><td>$2,500</td><td>$3,500</td><td>$4,999</td></tr>
       </tbody>
     </table>
   </div>
@@ -365,7 +365,7 @@ schema: |
   </div>
 
   <h2>How we estimate</h2>
-  <p>We price a paint job in three steps. Start with the vehicle base: $2,750 small car, $3,500 sedan, $5,250 SUV, $5,250 truck. Multiply by the quality multiplier (0.571 basic, 1.0 standard, 2.143 show), then by the scope multiplier (1.0 full, 0.35 partial panels, 0.12 touch-up). Low is 71.4 percent of typical and high is 157.1 percent, rounded to the nearest $10. At the default sedan standard full repaint that is $3,500 x 1.0 x 1.0 = $3,500, with low $3,500 x 0.714 = $2,499 rounded to $2,500 and high $3,500 x 1.571 = $5,498.50 rounded to $5,500. The multipliers line up with the guide typicals: a basic sedan is $3,500 x 0.571 = $2,000 typical, and a show sedan is $3,500 x 2.143 = $7,500 typical. An SUV show full repaint is $5,250 x 2.143 = $11,250 typical. A sedan standard partial panels job is $3,500 x 0.35 = $1,225, rounded to $1,230 typical.</p>
+  <p>We price a paint job in three steps. Start with the vehicle base: $2,750 small car, $3,500 sedan, $5,250 SUV, $5,250 truck. Multiply by the quality multiplier (0.571 basic, 1.0 standard, 2.143 show), then by the scope multiplier (1.0 full, 0.35 partial panels, 0.12 touch-up), and round the typical price to the nearest $10. Low and high come from the guide bands for the chosen quality: basic $1,500 to $2,499, standard $2,500 to $4,999, and show $5,000 to $10,000 for a sedan full repaint, scaled in proportion to the typical price for other sizes and scopes and rounded to the nearest $10. At the default sedan standard full repaint that is $3,500 x 1.0 x 1.0 = $3,500 typical, with low $2,500 and high $4,999. The multipliers line up with the guide typicals: a basic sedan is $3,500 x 0.571 = $2,000 typical, with low $1,500 and high $2,499, and a show sedan is $3,500 x 2.143 = $7,500 typical, with low $5,000 and high $10,000. An SUV show full repaint is $5,250 x 2.143 = $11,250 typical, with low $7,500 and high $15,000. A sedan standard partial panels job is $3,500 x 0.35 = $1,225, rounded to $1,230 typical, with low $880 and high $1,760.</p>
   <p>Note that the $5,000 to $10,000 show band is for a sedan, and larger vehicles run higher, per CARFAX high-end $7,000 to $15,000 and the guide 2018 F-150 premium example at $8,500 to $14,500.</p>
   <p>Your final price depends on vehicle size, paint quality, job scope, prep work, and the shop, so always confirm the price in writing before work starts.</p>
 
@@ -478,8 +478,20 @@ schema: |
     var scopeVal = document.getElementById("jobScope").value;
     var base = parseFloat(vehVal);
     var typ = round10(base * parseFloat(qualityVal) * parseFloat(scopeVal));
-    var low = round10(typ * 0.714);
-    var high = round10(typ * 1.571);
+    var bands = {
+      "0.571": { low: 1500, high: 2499, typ: 2000 },
+      "1": { low: 2500, high: 4999, typ: 3500 },
+      "2.143": { low: 5000, high: 10000, typ: 7500 }
+    };
+    var band = bands[qualityVal];
+    var low, high;
+    if (vehVal === "3500" && scopeVal === "1") {
+      low = band.low;
+      high = band.high;
+    } else {
+      low = round10(band.low * typ / band.typ);
+      high = round10(band.high * typ / band.typ);
+    }
     document.getElementById("lowVal").textContent = fmt(low);
     document.getElementById("typVal").textContent = fmt(typ);
     document.getElementById("highVal").textContent = fmt(high);
@@ -488,7 +500,7 @@ schema: |
     var scopeName = { "1": "full repaint", "0.35": "partial panels paint job", "0.12": "touch-up" }[scopeVal];
     var intro = "A typical " + vehName + " " + qualityName + " " + scopeName + " in the USA costs about " + fmt(typ) + ", with a sample range of " + fmt(low) + " to " + fmt(high) + ".";
     var labor = scopeVal === "1" ? "Prep and sanding (full car)" : scopeVal === "0.35" ? "Prep and sanding (panels only)" : "Prep and sanding (spot prep)";
-    try { if (window.hmSync) { window.hmSync(low, typ, high, 2500, 3500, 5500, { intro: intro, labor: labor }); } } catch (e) {}
+    try { if (window.hmSync) { window.hmSync(low, typ, high, 2500, 3500, 4999, { intro: intro, labor: labor }); } } catch (e) {}
   }
   document.getElementById("vehicleSize").addEventListener("change", update);
   document.getElementById("paintQuality").addEventListener("change", update);
