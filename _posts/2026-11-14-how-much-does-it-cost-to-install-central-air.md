@@ -419,7 +419,6 @@ An older home may need a panel upgrade or a new circuit for the outdoor unit. Th
 <p><a href="https://www.angi.com/articles/how-much-does-installing-new-ac-cost.htm" target="_blank" rel="noopener">Angi</a> <span class="ref-note">central AC installation cost, updated October 22, 2026</span></p>
 <p><a href="https://www.irs.gov/newsroom/faqs-for-modification-of-sections-25c-25d-25e-30c-30d-45l-45w-and-179d-under-public-law-119-21-139-stat-72-july-4-2025-commonly-known-as-the-one-big-beautiful-bill-obbb" target="_blank" rel="noopener">IRS</a> <span class="ref-note">25C credit termination under Public Law 119-21</span></p>
 <p><a href="https://www1.eere.energy.gov/buildings/appliance_standards/pdfs/2023_CAC_Standards_FAQ_10-5-2022_Final.pdf" target="_blank" rel="noopener">US Department of Energy</a> <span class="ref-note">2023 central air conditioner SEER2 standards</span></p>
-<p><a href="https://ibuyer.com/blog/how-much-does-it-cost-to-install-central-ac/" target="_blank" rel="noopener">iBuyer</a> <span class="ref-note">central AC installation cost and the $5,000 repair rule</span></p>
 </div>
 
 ## Related links
