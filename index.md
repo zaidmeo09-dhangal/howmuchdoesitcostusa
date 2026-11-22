@@ -171,7 +171,7 @@ schema: |
         <tr><td>Oil change, full synthetic</td><td>$45</td><td>$75</td><td>$140</td></tr>
         <tr><td>Central AC, 2.5 ton system</td><td>$5,200</td><td>$6,800</td><td>$9,500</td></tr>
         <tr><td>Car wrap, sedan full wrap</td><td>$2,500</td><td>$3,500</td><td>$5,500</td></tr>
-        <tr><td>Paint a car, sedan repaint</td><td>$2,500</td><td>$3,500</td><td>$5,500</td></tr>
+        <tr><td>Paint a car, sedan repaint</td><td>$2,500</td><td>$3,500</td><td>$4,999</td></tr>
         <tr><td>House painting, 1,800 sq ft exterior</td><td>$2,800</td><td>$4,200</td><td>$6,800</td></tr>
       </tbody>
     </table>
