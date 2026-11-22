@@ -63,8 +63,8 @@ schema: |
     <li><a href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Car Wrap Cost Calculator</a>: a typical sedan full wrap costs about $3,500, in a range of $2,500 to $5,500.</li>
     <li><a href="{{ '/house-painting-cost-calculator/' | relative_url }}">House Painting Cost Calculator</a>: a typical exterior paint job for a 1,800 sq ft home costs about $4,200, in a range of $2,800 to $6,800.</li>
   </ul>
-  <p>See <a href="{{ '/tools/' | relative_url }}">all 7 cost calculators</a> or read the <a href="{{ '/blog/' | relative_url }}">cost guides</a>, including the car wrap guide and the house painting guide, for prices by size, material, and type.</p>
+  <p>See <a href="{{ '/tools/' | relative_url }}">all 8 cost calculators</a> or read the <a href="{{ '/blog/' | relative_url }}">cost guides</a>, including the car wrap guide and the house painting guide, for prices by size, material, and type.</p>
   <h2>Before you write</h2>
-  <p>Looking for a price first? See <a href="{{ '/tools/' | relative_url }}">all 7 cost calculators</a> or read the <a href="{{ '/blog/' | relative_url }}">cost guides</a>. Your question may already be answered there.</p>
+  <p>Looking for a price first? See <a href="{{ '/tools/' | relative_url }}">all 8 cost calculators</a> or read the <a href="{{ '/blog/' | relative_url }}">cost guides</a>. Your question may already be answered there.</p>
   <p>For a price question, tell us your city or state, the size of the job, and the material you want. That is the fastest way for us to check a price.</p>
 </section>
