@@ -15,7 +15,7 @@ schema: |
   }
 ---
 
-<section class="hero">
+<section class="hero contact-hero">
   <div class="wrap">
     <p class="kicker">Contact</p>
     <h1><span class="accent-u">Contact</span> Us</h1>
@@ -27,7 +27,7 @@ schema: |
     </ul>
   </div>
 </section>
-<section class="wrap">
+<section class="wrap contact-form-section">
   <form class="contact-form" action="mailto:support@howmuchdoesitcostusa.com" method="post" enctype="text/plain">
     <label for="cname">Your name</label>
     <input type="text" id="cname" name="name" required>
@@ -61,6 +61,7 @@ schema: |
     <li><a href="{{ '/oil-change-cost-calculator/' | relative_url }}">Oil Change Cost Calculator</a>: a typical full synthetic oil change costs about $75, in a range of $45 to $140.</li>
     <li><a href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}">Central AC Installation Cost Calculator</a>: a typical 2.5 ton system costs about $6,800, in a range of $5,200 to $9,500.</li>
     <li><a href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Car Wrap Cost Calculator</a>: a typical sedan full wrap costs about $3,500, in a range of $2,500 to $5,500.</li>
+    <li><a href="{{ '/paint-a-car-cost-calculator/' | relative_url }}">Paint a Car Cost Calculator</a>: a typical sedan repaint costs about $3,500, in a range of $1,500 to $10,000.</li>
     <li><a href="{{ '/house-painting-cost-calculator/' | relative_url }}">House Painting Cost Calculator</a>: a typical exterior paint job for a 1,800 sq ft home costs about $4,200, in a range of $2,800 to $6,800.</li>
   </ul>
   <p>See <a href="{{ '/tools/' | relative_url }}">all 8 cost calculators</a> or read the <a href="{{ '/blog/' | relative_url }}">cost guides</a>, including the car wrap guide and the house painting guide, for prices by size, material, and type.</p>
