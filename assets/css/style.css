@@ -134,6 +134,10 @@ section { background: #FFFFFF; }
 section.hero { padding: 64px 0 48px; }
 section.hero .kicker { color: #F05A30; font-weight: 800; text-transform: uppercase; letter-spacing: .12em; font-size: 13px; margin-bottom: 14px; }
 section.hero h1 { margin-bottom: 16px; }
+/* Inner-page hero H1 (About, Contact, Privacy, Tools, Blog): 44px, smaller
+   than the homepage hero H1 (52px). The homepage H1 lives in .hero-grid,
+   not .wrap, so this rule never touches it. */
+section.hero .wrap h1 { font-size: 44px; }
 section.hero .lede { font-size: 18px; color: #5B6472; max-width: 860px; }
 section.hero .trust-row { margin-top: 20px; }
 
@@ -363,7 +367,10 @@ section.hero .trust-row { margin-top: 20px; }
 section.wrap > h1, section.wrap > h2, section.wrap > h3, .calc h2, .calc h3, .hero h1, .post h2, .post h3 { scroll-margin-top: 120px; }
 
 /* Calculator */
-.calc { background: #FFFFFF; border: 1px solid #EDEDED; border-top: 4px solid #F05A30; border-radius: 24px; padding: 28px; box-shadow: var(--shadow); margin: 24px 0; }
+.calc { background: #FFFFFF; border: 1px solid #EDEDED; border-top: 4px solid #F05A30; border-radius: 24px; padding: 28px; box-shadow: var(--shadow); margin: 24px 0; transition: box-shadow .2s ease, border-color .2s ease; }
+.calc:hover { box-shadow: var(--shadow-lift); border-color: #F05A30; }
+/* Calculator H2 ("Estimate your moving cost"): 32px, in line with inner H2s. */
+.calc h2 { font-size: 32px; }
 .calc-field { margin-bottom: 16px; }
 .calc-field label { display: block; font-weight: 700; margin-bottom: 6px; color: #191C25; font-size: 15px; }
 .calc-field select, .calc-field input[type="number"], .calc-field input[type="range"] { width: 100%; min-height: 48px; padding: 10px 12px; font-size: 16px; border: 1px solid #E5E5E5; border-radius: 12px; background: #fff; color: #191C25; }
@@ -372,7 +379,8 @@ section.wrap > h1, section.wrap > h2, section.wrap > h3, .calc h2, .calc h3, .he
 .calc-field select { appearance: none; -webkit-appearance: none; cursor: pointer; border-width: 2px; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23F05A30' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 14px center; background-size: 16px; padding-right: 44px; }
 .calc-field select:focus, .calc-field input:focus { outline: none; border-color: #F05A30; box-shadow: 0 0 0 3px rgba(240, 90, 48, 0.15); }
 .calc-field input[type="range"] { accent-color: #F05A30; height: 28px; }
-.receipt { background: #FFFFFF; border: 1px solid #EDEDED; border-top: 4px solid #F05A30; border-radius: 12px; padding: 18px; margin-top: 20px; }
+.receipt { background: #FFFFFF; border: 1px solid #EDEDED; border-top: 4px solid #F05A30; border-radius: 12px; padding: 18px; margin-top: 20px; transition: transform .2s ease, box-shadow .2s ease; }
+.receipt:hover { transform: translateY(-4px); box-shadow: var(--shadow-lift); }
 .receipt h3 { margin-top: 0; }
 .receipt .receipt-total { font-family: 'Poppins', sans-serif; font-size: 44px; font-weight: 800; letter-spacing: -.02em; color: #F05A30; line-height: 1.1; }
 .receipt .receipt-range { font-size: 15px; color: #5B6472; font-weight: 600; }
@@ -385,7 +393,8 @@ section.wrap > h1, section.wrap > h2, section.wrap > h3, .calc h2, .calc h3, .he
 /* Price bands */
 .bands { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 34px 0 20px; position: relative; }
 .bands::before { content: ""; grid-column: 1 / -1; height: 10px; border-radius: 999px; background: linear-gradient(90deg, #F7F7F7 0 30%, #F05A30 30% 70%, #F7F7F7 70% 100%); margin-bottom: -4px; }
-.band { border: 1px solid #EDEDED; border-radius: 24px; padding: 18px; text-align: center; background: #fff; position: relative; }
+.band { border: 1px solid #EDEDED; border-radius: 24px; padding: 18px; text-align: center; background: #fff; position: relative; transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease; }
+.band:hover { transform: translateY(-4px); box-shadow: var(--shadow-lift); border-color: #F05A30; }
 .band-typical { border: 2px solid #F05A30; background: #FFF4EF; }
 .band .band-label { font-weight: 800; color: #5B6472; font-size: 14px; text-transform: uppercase; letter-spacing: .08em; }
 .band .band-price { font-family: 'Poppins', sans-serif; font-size: 34px; font-weight: 800; letter-spacing: -.02em; color: #F05A30; margin: 6px 0; }
@@ -413,7 +422,8 @@ table.cost-table { width: 100%; border-collapse: collapse; min-width: 560px; bac
 .checklist li::before { content: "\2713"; position: absolute; left: 4px; color: #F05A30; font-weight: 800; }
 .checklist-x li::before { content: "\2715"; color: #B3261E; }
 .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-.two-col > div { border: 1px solid #EDEDED; border-radius: 24px; padding: 20px 22px; background: #fff; }
+.two-col > div { border: 1px solid #EDEDED; border-radius: 24px; padding: 20px 22px; background: #fff; transition: transform .2s ease, box-shadow .2s ease; }
+.two-col > div:hover { transform: translateY(-4px); box-shadow: var(--shadow-lift); }
 .two-col > div h3 { margin-top: 0; }
 .note { color: #5B6472; font-size: 14px; }
 .kicker { color: #F05A30; font-weight: 800; text-transform: uppercase; letter-spacing: .12em; font-size: 13px; }
@@ -424,7 +434,8 @@ table.cost-table { width: 100%; border-collapse: collapse; min-width: 560px; bac
 .page-byline .byline-dot { color: #F05A30; font-weight: 800; }
 
 /* FAQ on calculator and guide pages (details element) */
-details.faq { border: 1px solid #EDEDED; border-radius: 12px; padding: 14px 18px; margin-bottom: 10px; background: #fff; }
+details.faq { border: 1px solid #EDEDED; border-radius: 12px; padding: 14px 18px; margin-bottom: 10px; background: #fff; transition: border-color .2s ease, box-shadow .2s ease; }
+details.faq:hover { border-color: #F05A30; }
 details.faq summary { font-weight: 800; cursor: pointer; min-height: 48px; display: flex; align-items: center; list-style: none; gap: 12px; }
 details.faq summary::after { content: ""; flex: none; width: 10px; height: 10px; margin-left: auto; border-right: 2px solid #F05A30; border-bottom: 2px solid #F05A30; transform: rotate(45deg); transition: transform .2s ease; }
 details.faq[open] summary::after { transform: rotate(225deg); }
@@ -440,6 +451,7 @@ section.hero.contact-hero { padding-bottom: 16px; }
 section.wrap.contact-form-section { padding-top: 12px; }
 .contact-form label:first-of-type { margin-top: 0; }
 .contact-form input, .contact-form textarea, .contact-form select { width: 100%; min-height: 48px; padding: 10px 12px; font-size: 16px; border: 1px solid #E5E5E5; border-radius: 12px; background: #fff; color: #191C25; }
+.contact-form input:focus, .contact-form textarea:focus, .contact-form select:focus { outline: none; border-color: #F05A30; box-shadow: 0 0 0 3px rgba(240, 90, 48, 0.15); }
 .contact-form textarea { min-height: 140px; }
 
 /* References and related */
@@ -461,7 +473,7 @@ section.wrap.contact-form-section { padding-top: 12px; }
 .post .crumb a { text-decoration: none; font-weight: 700; }
 .post .crumb a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .post .post-date { display: inline-block; background: #F7F7F7; border: 1px solid #EDEDED; border-radius: 999px; padding: 6px 14px; margin: 18px 0 0; font-size: 13px; letter-spacing: .02em; }
-.post h1 { letter-spacing: -.025em; margin: 14px 0 8px; padding-bottom: 20px; border-bottom: none; position: relative; }
+.post h1 { letter-spacing: -.025em; margin: 14px 0 8px; padding-bottom: 20px; border-bottom: none; position: relative; font-size: 44px; }
 .post .post-hero { background: transparent; border: none; box-shadow: none; padding: 0 0 24px; margin: 18px 0 8px; border-bottom: 3px solid #F05A30; }
 .post .post-hero .crumb { margin: 0 0 18px; }
 .post .post-hero-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 28px; align-items: center; }
@@ -472,7 +484,7 @@ section.wrap.contact-form-section { padding-top: 12px; }
 .post .post-byline-text { display: flex; flex-direction: column; gap: 2px; }
 .post .post-author { font-weight: 800; font-size: 15px; color: #191C25; }
 .post .post-byline .post-date { background: transparent; border: none; padding: 0; margin: 0; font-size: 14px; font-weight: 600; color: #5B6472; }
-.post h2 { font-size: clamp(26px, 3.4vw, 33px); letter-spacing: -.02em; margin: 56px 0 18px; padding-top: 32px; border-top: 1px solid #EDEDED; position: relative; }
+.post h2 { font-size: clamp(26px, 3.4vw, 32px); letter-spacing: -.02em; margin: 56px 0 18px; padding-top: 32px; border-top: 1px solid #EDEDED; position: relative; }
 .post h2::before { content: ""; position: absolute; top: -1px; left: 0; width: 56px; height: 3px; background: #F05A30; border-radius: 3px; }
 .post h3 { font-size: 21px; letter-spacing: -.01em; margin: 36px 0 12px; }
 .post p { line-height: 1.75; margin-bottom: 18px; }
@@ -583,8 +595,12 @@ section.wrap.contact-form-section { padding-top: 12px; }
 .post .post-body figure img { display: block; width: 100%; height: auto; border-radius: 14px; }
 .post .post-body figure figcaption { margin-top: 10px; font-size: 15px; line-height: 1.5; color: #5B6472; }
 .post .post-body p > img { display: block; width: 100%; max-width: 720px; height: auto; border-radius: 14px; margin: 28px 0; }
-section.wrap > h1 { padding-bottom: 16px; border-bottom: 3px solid #F05A30; margin-bottom: 20px; }
-section.wrap { padding: 36px 0; }
+section.wrap > h1 { padding-bottom: 16px; border-bottom: 3px solid #F05A30; margin-bottom: 20px; font-size: 44px; }
+section.wrap { padding: 64px 0; }
+/* Inner-page H2 (calculators, About, Contact, Privacy, Tools, Blog): 32px,
+   in line with the design system. The homepage section H2s use
+   .section-head h2 / .h2-left (40px) and are untouched. */
+section.wrap > h2 { font-size: 32px; }
 section.wrap > h2::after { content: ""; display: block; width: 56px; height: 4px; background: #F05A30; border-radius: 4px; margin-top: 12px; }
 section.wrap > p, section.wrap > ul, section.wrap > ol, section.wrap > h2, section.wrap > h3 { max-width: 860px; }
 
@@ -618,6 +634,9 @@ section.wrap > p, section.wrap > ul, section.wrap > ol, section.wrap > h2, secti
   .section-head h2, .h2-left { font-size: 34px; }
   .cta-banner h2 { font-size: 30px; }
   .section { padding: 56px 0; }
+  section.wrap { padding: 56px 0; }
+  section.hero .wrap h1, section.wrap > h1 { font-size: 36px; }
+  section.wrap > h2, .calc h2 { font-size: 28px; }
   .hero { padding: 56px 0 72px; }
   .hero-grid { padding: 0 20px; gap: 48px; }
   .float-1 { left: 0; }
@@ -668,6 +687,9 @@ section.wrap > p, section.wrap > ul, section.wrap > ol, section.wrap > h2, secti
   .cta-banner h2 { font-size: 28px; }
   .cta-banner { padding: 48px 24px; }
   .section { padding: 48px 0; }
+  section.wrap { padding: 48px 0; }
+  section.hero .wrap h1, section.wrap > h1 { font-size: 32px; }
+  section.wrap > h2, .calc h2 { font-size: 26px; }
   .hero { padding: 48px 0 64px; }
   .hero-grid { gap: 40px; }
   .price-answer .big { font-size: 40px; }
