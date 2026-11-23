@@ -1,33 +1,53 @@
 <footer class="site-footer">
-  <div class="wrap footer-inner">
-    <div class="footer-brand">
-      <a class="logo" href="{{ '/' | relative_url }}">
-        <span class="logo-mark" aria-hidden="true">$</span>
-        <span class="logo-text">How Much Does It Cost</span>
-      </a>
-      <p>Real prices, no guessing.</p>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <a class="logo" href="{{ '/' | relative_url }}"><span class="logo-mark" aria-hidden="true">$</span> How Much Does It <em>Cost</em></a>
+        <p>Free USA price calculators and guides. Know a fair price before you call a pro.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Calculators</h4>
+        <a href="{{ '/tools/' | relative_url }}">All Calculators</a>
+        <a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers</a>
+        <a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement</a>
+        <a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence</a>
+        <a href="{{ '/oil-change-cost-calculator/' | relative_url }}">Oil Change</a>
+        <a href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}">Central AC</a>
+        <a href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Car Wrap</a>
+        <a href="{{ '/paint-a-car-cost-calculator/' | relative_url }}">Paint a Car</a>
+        <a href="{{ '/house-painting-cost-calculator/' | relative_url }}">House Painting</a>
+      </div>
+      <div class="footer-col">
+        <h4>Guides</h4>
+        <a href="{{ '/blog/how-much-does-it-cost-to-remove-a-car-wrap/' | relative_url }}">Car Wrap Removal</a>
+        <a href="{{ '/blog/how-much-does-a-car-wrap-cost/' | relative_url }}">Car Wrap Cost</a>
+        <a href="{{ '/blog/how-much-does-it-cost-to-paint-a-house/' | relative_url }}">House Painting Cost</a>
+        <a href="{{ '/blog/how-much-does-it-cost-to-replace-a-roof/' | relative_url }}">Roof Cost</a>
+        <a href="{{ '/blog/' | relative_url }}">All Guides</a>
+      </div>
+      <div class="footer-col">
+        <h4>About</h4>
+        <a href="{{ '/about/' | relative_url }}">About Us</a>
+        <a href="{{ '/contact/' | relative_url }}">Contact</a>
+        <a href="{{ '/privacy/' | relative_url }}">Privacy Policy</a>
+      </div>
+      <div class="footer-col">
+        <h4>Get price updates</h4>
+        <p>New calculators and guides, once a month. No spam.</p>
+        <div class="news-input">
+          <input type="email" placeholder="Your email address" aria-label="Email address">
+          <button class="circle-btn" type="button" aria-label="Subscribe">&rarr;</button>
+        </div>
+        <div class="social-row">
+          <a class="social-btn" href="#" aria-label="X">X</a>
+          <a class="social-btn" href="#" aria-label="Facebook">f</a>
+          <a class="social-btn" href="#" aria-label="Pinterest">P</a>
+        </div>
+      </div>
     </div>
-    <nav class="footer-col" aria-label="Calculators">
-      <h2>Calculators</h2>
-      <a href="{{ '/tools/' | relative_url }}">All Calculators</a>
-      <a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers</a>
-      <a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof</a>
-      <a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence</a>
-    </nav>
-    <nav class="footer-col" aria-label="Guides">
-      <h2>Guides</h2>
-      <a href="{{ '/blog/' | relative_url }}">All Guides</a>
-      <a href="{{ '/blog/how-much-do-movers-cost/' | relative_url }}">Movers Cost</a>
-      <a href="{{ '/blog/how-much-does-an-oil-change-cost/' | relative_url }}">Oil Change Cost</a>
-    </nav>
-    <nav class="footer-col" aria-label="Company">
-      <h2>Company</h2>
-      <a href="{{ '/about/' | relative_url }}">About</a>
-      <a href="{{ '/contact/' | relative_url }}">Contact</a>
-      <a href="{{ '/privacy/' | relative_url }}">Privacy Policy</a>
-    </nav>
-  </div>
-  <div class="wrap footer-note">
-    <p>Copyright 2026 How Much Does It Cost USA. All rights reserved.</p>
+    <div class="footer-bottom">
+      <span>Prices are sample estimated USA ranges, not quotes.</span>
+      <span>&copy; 2026 How Much Does It Cost USA. All rights reserved.</span>
+    </div>
   </div>
 </footer>
