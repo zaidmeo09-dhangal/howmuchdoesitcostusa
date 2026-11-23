@@ -155,10 +155,19 @@ schema: |
   }
 ---
 
+<section class="hero page-hero">
+  <div class="wrap">
+    <nav class="breadcrumb"><a href="{{ '/' | relative_url }}">Home</a> / <a href="{{ '/tools/' | relative_url }}">Tools</a> / <span aria-current="page">Car Wrap Cost Calculator</span></nav>
+    <div class="hero-badge"><span class="hero-badge-dot"></span>Free Calculator</div>
+    <h1>Car <span class="accent">Wrap</span> Cost: Full, Partial, and Vinyl Wrap Prices</h1>
+    <p class="hero-copy">A typical sedan full car wrap in the USA costs about $3,500, with a sample range of $2,500 to $5,500.</p>
+    <div class="hero-actions">
+      <a class="btn-primary" href="{{ '/blog/how-much-does-a-car-wrap-cost/' | relative_url }}">Read the Guide</a>
+      <a class="btn-secondary" href="{{ '/tools/' | relative_url }}">All Calculators</a>
+    </div>
+  </div>
+</section>
 <section class="wrap">
-  <p class="crumb"><a href="{{ '/' | relative_url }}">Home</a> / <a href="{{ '/tools/' | relative_url }}">Tools</a> / Car Wrap Cost Calculator</p>
-  <p class="kicker">Free Calculator</p>
-  <h1>Car Wrap Cost: Full, Partial, and Vinyl Wrap Prices</h1>
   <p class="page-byline">By <strong>How Much Does It Cost USA Team</strong> <span class="byline-dot" aria-hidden="true">|</span> Updated November 21, 2026</p>
   <div class="answer">
     <p id="answerIntro">A typical sedan full car wrap in the USA costs about $3,500, with a sample range of $2,500 to $5,500.</p>
@@ -170,10 +179,6 @@ schema: |
     <span>Free forever</span>
     <span>No sign-up</span>
     <span>USA prices</span>
-  </div>
-  <div class="hero-cta" style="margin-top:18px">
-    <a class="btn btn-orange" href="{{ '/blog/how-much-does-a-car-wrap-cost/' | relative_url }}">Read the guide &rarr;</a>
-    <a class="btn btn-white" href="{{ '/tools/' | relative_url }}">All calculators &rarr;</a>
   </div>
 
   <div class="calc">
