@@ -179,7 +179,7 @@ schema: |
 </div>
 
 <div class="key-takeaways">
-<p class="key-takeaways-title">Key facts</p>
+<p class="key-takeaways-title">Key Takeaways</p>
 <ul>
 <li>A typical 1,800 sq ft asphalt shingle roof costs about $9,180, with a sample range of $7,528 to $11,475.</li>
 <li>Metal costs $13,500 to $21,000 with a typical total of $17,100, and clay tile costs $16,000 to $25,000 with a typical total of $21,600.</li>
@@ -190,6 +190,8 @@ schema: |
 </div>
 
 <figure><img src="/assets/images/blog/roof-replacement-cost/roof-replacement-inpost-1.webp" alt="Roofer installing asphalt shingles on a residential roof with a nail gun" width="1000" height="667" loading="lazy"></figure>
+
+<p class="eyebrow">Price table</p>
 
 ## Roof replacement cost by material
 
