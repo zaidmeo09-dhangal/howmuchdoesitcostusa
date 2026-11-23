@@ -157,7 +157,6 @@ schema: |
     <p class="note">All prices on this page are sample estimated USA ranges, not quotes.</p>
   <p>How much does it cost to paint a car? The short answer is about $3,500 for a typical quality repaint of a sedan, with a sample range of $1,500 to $10,000 by quality. The same question comes up as how much does it cost to get a car painted and how much does it cost to repaint an entire car, and the answer is the same range: basic single coat $1,500 to $2,499, standard quality $2,500 to $4,999, and show quality $5,000 to $10,000.</p>
   <p>Use the paint a car cost calculator below to price your own car by size, paint quality, and job scope before you ask shops for quotes.</p>
-    <p class="updated-line">Updated November 21, 2026</p>
   </div>
 
   <div class="calc">
@@ -387,7 +386,6 @@ schema: |
     <li>Ask what prep is included</li>
     <li>Decide on dents before you get quotes</li>
     <li>Consider a wrap for a color change</li>
-    <li>Get 3 written quotes</li>
   </ul>
 
   <h2>References</h2>
