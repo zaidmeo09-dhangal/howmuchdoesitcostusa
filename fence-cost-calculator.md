@@ -172,6 +172,15 @@ schema: |
     <p id="answerIntro">A typical 150 ft wood privacy fence in the USA costs about $3,335, with a sample range of $2,100 to $5,400.</p>
     <p class="note">All prices on this page are sample estimated USA ranges, not quotes. Read the full <a href="{{ '/blog/how-much-does-a-fence-cost/' | relative_url }}">fence cost guide</a> for prices by material, height, and region.</p>
   </div>
+  <div class="trust-row">
+    <span>Free forever</span>
+    <span>No sign-up</span>
+    <span>USA prices</span>
+  </div>
+  <div class="hero-cta" style="margin-top:18px">
+    <a class="btn btn-orange" href="{{ '/blog/how-much-does-a-fence-cost/' | relative_url }}">Read the guide &rarr;</a>
+    <a class="btn btn-white" href="{{ '/tools/' | relative_url }}">All calculators &rarr;</a>
+  </div>
 
   <div class="calc">
     <h2>Estimate your fence installation cost</h2>
@@ -218,6 +227,7 @@ schema: |
     </div>
   </div>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Price bands</div>
   <h2>Low, typical, and high cost</h2>
   <p>These bands update with your calculator choices. Use them to plan your budget before you request quotes.</p>
   <div class="bands">
@@ -238,6 +248,7 @@ schema: |
     </div>
   </div>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Breakdown</div>
   <h2>Itemized cost breakdown</h2>
   <p class="note live-note">Updates live with your calculator choices.</p>
   <p class="table-hint">Swipe to see the High column &rarr;</p>
@@ -260,6 +271,7 @@ schema: |
   </div>
   <p class="note">Sample estimated USA ranges. Materials and labor together are most of the total. Staining and sealing is $0 for vinyl and chain link, because those materials are not stained. The staining amount is moved into the materials row for those materials, so the totals still add up exactly.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> How to</div>
   <h2>How to calculate fence cost in 4 steps</h2>
   <ol class="steps">
     <li><strong>Measure your fence length.</strong> Walk the boundary and add gate openings to the total length.</li>
@@ -268,24 +280,52 @@ schema: |
     <li><strong>Compare 3 written quotes.</strong> Ask each installer to list panels, posts, gates, and permits separately.</li>
   </ol>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> What drives the price</div>
   <h2>What affects the price</h2>
-  <h3>Fence length</h3>
-  <p>Cost scales with length, so an accurate measurement matters more than any other input. Walk the boundary with a tape or measuring wheel, and include the space for every gate.</p>
-  <h3>Material</h3>
-  <p>Chain link is the cheapest per foot, and wood privacy is the cheapest full privacy fence up front. Chain link costs $14.00 per foot in this calculator, so 200 ft of chain link fence costs $2,800 typical, from 200 times $14.00. Vinyl costs more to install but needs less care, so it can cost less over its life. Your choice sets both the up front price and the long term upkeep.</p>
-  <h3>Fence height and style</h3>
-  <p>Taller fences and privacy styles use more material and cost more than short picket fences. Going from a 4 ft fence to a 6 ft fence adds about 30 to 50 percent per foot, per Quotsey, and an 8 ft fence adds about 25 to 35 percent over a 6 ft fence, per BuilderMuse. The calculator applies the middle of each range: 4 ft costs about 71 percent of the 6 ft rate, and 8 ft costs 130 percent of the 6 ft rate. At the 150 ft wood default, that is $2,382 for 4 ft, $3,335 for 6 ft, and $4,335 for 8 ft. A 6-foot privacy fence costs $22.23 per foot for wood in this calculator, so the 150 ft 6 ft fence costs about $3,335 typical.</p>
-  <h3>Gates and slopes</h3>
-  <p>Gates add hardware and labor, and sloped ground needs stepped panels and extra posts. Each walk gate adds about $150 to $600, per RemodelCalculators, so count them before you ask for a quote. On a slope, a racked fence follows the ground on gentle slopes below about 15 degrees, while a stepped fence is used on steeper ground, per RemodelCalculators.</p>
-  <h3>Permits and surveys</h3>
-  <p>Many cities require a fence permit, and a survey may be needed to confirm the boundary. Permit fees vary by city, and a survey is often a separate cost.</p>
+  <div class="adv-grid">
+    <div class="adv-card">
+      <div class="adv-icon">$</div>
+      <h3>Fence length</h3>
+      <p>Cost scales with length, so an accurate measurement matters more than any other input. Walk the boundary with a tape or measuring wheel, and include the space for every gate.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">&#10003;</div>
+      <h3>Material</h3>
+      <p>Chain link is the cheapest per foot, and wood privacy is the cheapest full privacy fence up front. Chain link costs $14.00 per foot in this calculator, so 200 ft of chain link fence costs $2,800 typical, from 200 times $14.00. Vinyl costs more to install but needs less care, so it can cost less over its life. Your choice sets both the up front price and the long term upkeep.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">&#9733;</div>
+      <h3>Fence height and style</h3>
+      <p>Taller fences and privacy styles use more material and cost more than short picket fences. Going from a 4 ft fence to a 6 ft fence adds about 30 to 50 percent per foot, per Quotsey, and an 8 ft fence adds about 25 to 35 percent over a 6 ft fence, per BuilderMuse. The calculator applies the middle of each range: 4 ft costs about 71 percent of the 6 ft rate, and 8 ft costs 130 percent of the 6 ft rate. At the 150 ft wood default, that is $2,382 for 4 ft, $3,335 for 6 ft, and $4,335 for 8 ft. A 6-foot privacy fence costs $22.23 per foot for wood in this calculator, so the 150 ft 6 ft fence costs about $3,335 typical.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">&#9873;</div>
+      <h3>Gates and slopes</h3>
+      <p>Gates add hardware and labor, and sloped ground needs stepped panels and extra posts. Each walk gate adds about $150 to $600, per RemodelCalculators, so count them before you ask for a quote. On a slope, a racked fence follows the ground on gentle slopes below about 15 degrees, while a stepped fence is used on steeper ground, per RemodelCalculators.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">$</div>
+      <h3>Permits and surveys</h3>
+      <p>Many cities require a fence permit, and a survey may be needed to confirm the boundary. Permit fees vary by city, and a survey is often a separate cost.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">&#10003;</div>
+      <h3>Post depth and spacing</h3>
+      <p>Posts carry the fence, so their depth and spacing matter more than the panels. Posts are usually 6 to 8 ft apart, and shallow posts lean within a few years, above all in soft or wet ground. Ask how deep the posts go, how they are set in concrete, and whether the posts are wood or metal. Put the post spec in writing, since a quote that skips it can hide the cheapest part of the job.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">&#9733;</div>
+      <h3>Slope and ground</h3>
+      <p>Sloped ground needs stepped panels and extra posts, which adds labor and material. On gentle slopes below about 15 degrees a racked fence follows the ground, while steeper ground needs a stepped fence, per RemodelCalculators. Walk the boundary before you ask for a quote and note where the ground drops, where roots sit, and where the fence must step. A flat quote for a sloped yard is a sign the installer has not seen the site.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">&#9873;</div>
+      <h3>Old fence removal</h3>
+      <p>Old fence removal is not included in the price on this page. If an old fence stands on the boundary, ask for removal and disposal as a separate line, and ask who hauls the old panels away. Clearing the line yourself can save labor hours, but check the boundary first, since a survey may be needed to confirm where the old fence sat. If you are pricing a full exterior refresh, see the <a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Cost Calculator</a> too.</p>
+    </div>
+  </div>
 
-  <h3>Post depth and spacing</h3>
-  <p>Posts carry the fence, so their depth and spacing matter more than the panels. Posts are usually 6 to 8 ft apart, and shallow posts lean within a few years, above all in soft or wet ground. Ask how deep the posts go, how they are set in concrete, and whether the posts are wood or metal. Put the post spec in writing, since a quote that skips it can hide the cheapest part of the job.</p>
-  <h3>Slope and ground</h3>
-  <p>Sloped ground needs stepped panels and extra posts, which adds labor and material. On gentle slopes below about 15 degrees a racked fence follows the ground, while steeper ground needs a stepped fence, per RemodelCalculators. Walk the boundary before you ask for a quote and note where the ground drops, where roots sit, and where the fence must step. A flat quote for a sloped yard is a sign the installer has not seen the site.</p>
-  <h3>Old fence removal</h3>
-  <p>Old fence removal is not included in the price on this page. If an old fence stands on the boundary, ask for removal and disposal as a separate line, and ask who hauls the old panels away. Clearing the line yourself can save labor hours, but check the boundary first, since a survey may be needed to confirm where the old fence sat. If you are pricing a full exterior refresh, see the <a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Cost Calculator</a> too.</p>
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Included</div>
   <h2>What is included and what is not</h2>
   <div class="two-col">
     <div>
@@ -308,11 +348,13 @@ schema: |
     </div>
   </div>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Method</div>
   <h2>How we estimate</h2>
   <p>We start with the fence length times the per foot rate for the material you pick, then adjust for height: 4 ft uses about 71 percent of the 6 ft rate and 8 ft uses 130 percent. The low band sits at 63 percent of the typical price and the high band at 162 percent. Each extra walk gate then adds $150 at the low end, $375 typical, and $600 at the high end. The result is a sample estimated USA range for planning, and the itemized rows always add up to the totals shown.</p>
   <p>The formula is simple: total equals fence length times the per foot rate for the material, times the height multiplier, plus the gates. At the default, that is 150 times $22.23 times 1.00, which is about $3,335 typical. To count posts, divide the length by the post spacing, round up, and add one post for the end: a 150 ft fence at 8 ft spacing has 19 sections and 20 posts, because 150 divided by 8 is 18.75, which rounds up to 19, plus one end post.</p>
   <p>Your final price depends on height, gates, ground slope, and local labor rates, so always confirm the price in writing before work starts.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Checklist</div>
   <h2>Hiring a pro checklist</h2>
   <ul class="checklist">
     <li>Get 3 written quotes and compare them line by line</li>
@@ -325,6 +367,7 @@ schema: |
     <li>Confirm the installer will call 811 before digging</li>
   </ul>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Save money</div>
   <h2>Budget tips</h2>
   <ul>
     <li>Choose chain link for the lowest cost per foot, or wood for the lowest cost privacy fence</li>
@@ -337,6 +380,7 @@ schema: |
     <li>Ask the installer to call 811 before digging, and confirm it in writing</li>
 </ul>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Cost by height</div>
   <h2>Cost by height at the 150 ft wood default</h2>
   <p>Height changes the price at the same length. The figures below are from the height section on this page, at the 150 ft wood privacy default.</p>
   <div class="table-wrap">
@@ -354,6 +398,7 @@ schema: |
   </div>
   <p>A 6 ft fence is the standard privacy height, and it sits between the $2,382 cost of a 4 ft fence and the $4,335 cost of an 8 ft fence at the same length. If privacy is the goal, the 6 ft height is the usual pick. If the fence is only a boundary marker, a 4 ft fence costs less per foot and still marks the line.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Where the money goes</div>
   <h2>Where the $3,335 typical total goes</h2>
   <p>The table below repeats the typical column from the breakdown above, so you can see the share of each line at the calculator default.</p>
   <div class="table-wrap">
@@ -374,6 +419,7 @@ schema: |
     </table>
   </div>
   <p>Materials at $1,750 and labor at $1,050 together are most of the $3,335 total. Each extra walk gate adds $150 at the low end, $375 typical, and $600 at the high end, so count the gates before you ask for a quote. If the fence is for a new home, the <a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator</a> prices the move itself.</p>
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Cost by material</div>
   <h2>Fence cost by material: wood, vinyl, and chain link</h2>
   <p>Use the calculator above as a wood fence cost calculator, a vinyl fence installation cost calculator, or a chain link fence cost calculator. Change the material and every total on the page updates. The table below shows all three at the same 150 ft, 6 ft default, so you can compare them side by side.</p>
   <p class="table-hint">Swipe to see the High column &rarr;</p>
@@ -392,6 +438,7 @@ schema: |
   </div>
   <p>Chain link is the cheapest fence per foot, and wood privacy is the cheapest full privacy fence up front. Vinyl costs the most to install here, but it needs no staining and sealing, so the $90 to $240 fence stain cost at the wood default is $0 for vinyl and chain link. Your material choice sets both the up front price and the long term upkeep.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Cost by length</div>
   <h2>Fence cost by length</h2>
   <p>Fence length is the biggest price driver, because every extra foot needs more posts, panels, and labor. The table below uses the wood privacy rate of $22.23 per foot at 6 ft, with the same low and high bands as the calculator.</p>
   <p class="table-hint">Swipe to see the High column &rarr;</p>
@@ -413,11 +460,14 @@ schema: |
   </div>
   <p>Doubling the length from 150 ft to 300 ft doubles the typical cost from $3,335 to $6,669, because the price scales with length. Gates, permits, and old fence removal sit on top of these totals, so add them before you compare quotes.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Pro vs DIY</div>
   <h2>Fence installation cost vs DIY</h2>
   <p>At the $3,335 typical default, materials are $1,750 and labor is $1,050, so labor is about a third of the total. Doing the job yourself saves that labor share, but you need the tools, the time, and a call to 811 before digging, which is free. A pro crew sets a 150 ft fence in 1 to 2 days and usually warranties the work. Hire a pro if the ground is sloped or rocky, the fence is over 6 ft, or the boundary is disputed, because fixing a leaning or misplaced fence costs more than building it right the first time.</p>
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Fence styles</div>
   <h2>Fence by style: picket, privacy, and shadow box</h2>
   <p>Style sets how much material the fence uses, so it moves the price as much as the material does. A picket fence uses spaced boards and suits a front boundary, where a 4 ft height marks the line without blocking the view. A privacy fence uses solid boards at the standard 6 ft height, and it costs most because it uses the most material. A shadow box fence sits between the two: boards alternate on each side of the rail, so it gives near privacy with airflow and a finished look from both sides.</p>
   <p>Pick the style by what the fence must do. For privacy, use a 6 ft solid board fence in wood at $22.23 per ft or vinyl at $38.00 per ft. For a boundary marker or a pet fence, a shorter fence or chain link at $14.00 per ft costs less.</p>
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Sources</div>
   <h2>References</h2>
   <p>Our estimates use public US cost data as a guide. Fence prices by material and height come from RemodelCalculators, Quotsey, and BuilderMuse, labor cost context comes from the US Bureau of Labor Statistics, remodeling trends from Harvard JCHS, and material prices from Home Depot and Lowes. All prices on this page are sample estimated USA ranges, not quotes.</p>
   <div class="refs">
@@ -427,9 +477,11 @@ schema: |
   <p><a href="https://www.lowes.com/" target="_blank" rel="noopener">Lowes</a> <span class="ref-note">fence material prices</span></p>
   </div>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Compare</div>
   <h2>Compare with other home projects</h2>
   <p>If you are pricing a full exterior refresh, see the <a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Cost Calculator</a> and the <a href="{{ '/house-painting-cost-calculator/' | relative_url }}">House Painting Cost Calculator</a>. If the fence is for a new home, the <a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator</a> prices the move itself.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Keep exploring</div>
   <h2>Related calculators and guides</h2>
   <div class="grid related-grid">
 <div class="card related-card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h12v11H2z"/><path d="M14 9h4l3 3v4h-7"/><circle cx="6" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg></div><div class="card-top"><span class="card-cat">Moving</span></div><h3><a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator</a></h3><p class="price">$843 - $1,637</p><a class="card-cta" href="{{ '/movers-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
@@ -444,6 +496,7 @@ schema: |
   <li><a href="{{ '/tools/' | relative_url }}">All calculators <span aria-hidden="true">&rarr;</span></a></li>
 </ul>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> FAQ</div>
   <h2>Frequently asked questions</h2>
   <details class="faq">
     <summary>How much does a fence cost per foot?</summary>
@@ -502,6 +555,20 @@ schema: |
     <p>Staining and sealing costs $90 to $240 at the 150 ft wood default in this calculator, with $150 typical. Vinyl and chain link cost $0 for staining, because those materials are not stained. Fence painting is priced separately and is not included in this calculator.</p>
   </details>
 </section>
+<section class="cta-wrap">
+  <div class="wrap">
+    <div class="cta-banner">
+      <div class="eyebrow"><span class="e-icon">&#9733;</span> Free forever</div>
+      <h2>Get your <span class="accent">price</span> in seconds</h2>
+      <p>Free forever, no sign-up, USA prices.</p>
+      <div class="btn-row">
+        <a class="btn btn-orange" href="{{ '/fence-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a>
+        <a class="btn btn-white" href="{{ '/blog/how-much-does-a-fence-cost/' | relative_url }}">Read the guide &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <script>
 (function () {
