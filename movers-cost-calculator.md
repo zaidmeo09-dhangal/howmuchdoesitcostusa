@@ -156,6 +156,15 @@ schema: |
     <p id="answerIntro">A typical 2-bedroom local move in the USA costs about $1,240, with a sample range of $843 to $1,637.</p>
     <p class="note">All prices on this page are sample estimated USA ranges, not quotes.</p>
   </div>
+  <div class="trust-row">
+    <span>Free forever</span>
+    <span>No sign-up</span>
+    <span>USA prices</span>
+  </div>
+  <div class="hero-cta" style="margin-top:18px">
+    <a class="btn btn-orange" href="{{ '/blog/how-much-do-movers-cost/' | relative_url }}">Read the guide &rarr;</a>
+    <a class="btn btn-white" href="{{ '/tools/' | relative_url }}">All calculators &rarr;</a>
+  </div>
 
   <div class="calc">
     <h2>Estimate your moving cost</h2>
@@ -188,6 +197,7 @@ schema: |
     </div>
   </div>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Price bands</div>
   <h2>Low, typical, and high cost</h2>
   <p>These bands update with your calculator choices. Use them to plan your budget before you request quotes.</p>
   <div class="bands">
@@ -208,6 +218,7 @@ schema: |
     </div>
   </div>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Breakdown</div>
   <h2>Itemized cost breakdown</h2>
   <p class="note live-note">Updates live with your calculator choices.</p>
   <p class="table-hint">Swipe to see the High column &rarr;</p>
@@ -229,6 +240,7 @@ schema: |
   </div>
   <p class="note">Sample estimated USA ranges. Labor is usually the largest share of a moving bill.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Worked example</div>
   <h2>Worked example: a 2-bedroom local move</h2>
   <p>This example uses the calculator default, a 2-bedroom local move, and shows every line. The hourly rate sits inside the <a href="https://www.angi.com/articles/how-much-does-it-cost-hire-movers.htm" target="_blank" rel="noopener">Angi</a> range of $60 to $200 per hour for 2 movers.</p>
   <ul>
@@ -241,6 +253,7 @@ schema: |
   </ul>
   <p>That $1,240 matches the calculator typical price for a 2-bedroom local move. Change the hours or the rate and the labor line changes with it: 4 hours x $120 per hour = $480, and 6 hours x $120 per hour = $720.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Cost by home size</div>
   <h2>Local movers cost by home size</h2>
   <p>Local move ranges from <a href="https://www.angi.com/articles/how-much-does-it-cost-hire-movers.htm" target="_blank" rel="noopener">Angi</a>, based on 6,434 verified projects and updated September 17, 2026. Angi reports a national average of $1,694, with most people paying $875 to $2,546 for a local move.</p>
   <p class="table-hint">Swipe to see the range &rarr;</p>
@@ -262,6 +275,7 @@ schema: |
 
   <p>For a 1 bedroom apartment, movers cost about $950 typical for a local move. Select 1 bedroom in the calculator above to see the low and high sample range for your distance.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Cost by distance</div>
   <h2>Average cost of movers by distance</h2>
   <p>Long distance ranges from <a href="https://www.angi.com/articles/how-much-does-it-cost-hire-movers.htm" target="_blank" rel="noopener">Angi</a>. Angi puts long distance moves at $2,700 to $10,000 and over, while FindMoversNow puts the long distance range at $1,300 to $9,500.</p>
   <p class="table-hint">Swipe to see the range &rarr;</p>
@@ -279,6 +293,7 @@ schema: |
     </table>
   </div>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> How to</div>
   <h2>How to estimate movers cost in 4 steps</h2>
   <ol class="steps">
     <li><strong>Measure your home size.</strong> Count bedrooms and large items so the crew size matches the load.</li>
@@ -287,26 +302,57 @@ schema: |
     <li><strong>Compare 3 written quotes.</strong> Ask each mover what packing, stairs, and insurance cost extra.</li>
   </ol>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> What drives the price</div>
   <h2>What affects the cost of movers</h2>
-  <h3>Home size</h3>
-  <p>More rooms mean more boxes, more furniture, and more hours on the job. A studio move can take half the time of a 4-bedroom move, so the crew size and the total both grow with the home.</p>
-  <h3>Distance</h3>
-  <p>Local moves usually charge by the hour, while longer moves add fuel, tolls, and driver time. A move of 100 to 500 miles can cost about twice as much as a local move for the same home size, and a move over 500 miles can cost about three times as much.</p>
-  <h3>Time of year</h3>
-  <p>Summer weekends are the busiest and priciest time to move in the USA. Booking midweek or in the off season can lower the price, and early booking gives you more choice of dates.</p>
-  <h3>Stairs and access</h3>
-  <p>Long carries, stairs, and tight parking slow the crew down and often add a fee. Tell the mover about stairs, elevators, and parking limits before you book so the quote is accurate.</p>
-  <h3>Extra services</h3>
-  <p>Packing, unpacking, storage, and moving pianos or safes are usually priced separately. Piano movers cost $260 to $580, per Angi, so ask for the piano as its own line item on the quote. Ask for each extra as its own line item so you can compare quotes fairly. If the move is into a home you just bought, price the roof too with the <a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Cost Calculator</a>, so the move and the roof do not land in the same month unplanned.</p>
+  <div class="adv-grid">
+    <div class="adv-card">
+      <div class="adv-icon">$</div>
+      <h3>Home size</h3>
+      <p>More rooms mean more boxes, more furniture, and more hours on the job. A studio move can take half the time of a 4-bedroom move, so the crew size and the total both grow with the home.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">&#10003;</div>
+      <h3>Distance</h3>
+      <p>Local moves usually charge by the hour, while longer moves add fuel, tolls, and driver time. A move of 100 to 500 miles can cost about twice as much as a local move for the same home size, and a move over 500 miles can cost about three times as much.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">&#9733;</div>
+      <h3>Time of year</h3>
+      <p>Summer weekends are the busiest and priciest time to move in the USA. Booking midweek or in the off season can lower the price, and early booking gives you more choice of dates.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">&#9873;</div>
+      <h3>Stairs and access</h3>
+      <p>Long carries, stairs, and tight parking slow the crew down and often add a fee. Tell the mover about stairs, elevators, and parking limits before you book so the quote is accurate.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">$</div>
+      <h3>Extra services</h3>
+      <p>Packing, unpacking, storage, and moving pianos or safes are usually priced separately. Piano movers cost $260 to $580, per Angi, so ask for the piano as its own line item on the quote. Ask for each extra as its own line item so you can compare quotes fairly. If the move is into a home you just bought, price the roof too with the <a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Cost Calculator</a>, so the move and the roof do not land in the same month unplanned.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">&#10003;</div>
+      <h3>Crew size</h3>
+      <p>Crew size sets the hourly pace of the job. A 2-mover crew at $80 to $120 per hour suits a studio or 1-bedroom move, while a larger home needs more movers to keep the day short. Match the crew to the home size before you book.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">&#9733;</div>
+      <h3>Packing help</h3>
+      <p>Packing is priced apart from loading in most quotes. Packing materials run $95 to $190 in the breakdown on this page, with $150 typical, and full packing help adds labor hours on top of that. If you pack your own boxes, label each box with the room it belongs in and keep heavy items in small boxes so the crew can move fast. Leave furniture disassembly to the crew unless you have the tools and the time to do it well.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">&#9873;</div>
+      <h3>Insurance and valuation</h3>
+      <p>Insurance and fees run $85 to $175 in the breakdown on this page, with $130 typical. Standard liability coverage is basic, and it pays by weight rather than by value, so a light but valuable item gets little cover. Ask what full value protection costs, what the claims deadline is, and how damage is reported. Put the cover level in writing before moving day, and photograph valuable items before the crew loads them.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">$</div>
+      <h3>Additional costs to budget for</h3>
+      <p>The calculator covers the move itself, but a move has costs around it that catch people out. Long carries apply when the truck cannot park close to the door. A shuttle applies when a full-size truck cannot reach your street and a smaller truck has to carry your things the last part of the way. Storage applies when the new home is not ready on moving day. Travel adds fuel, meals, and a hotel on a long-distance move. Ask whether fuel is inside the quote or added on top as a surcharge. Specialty items such as pianos and safes are priced apart from the main quote, and tips for the crew are not included. Ask each mover which of these apply to your move, and get each one as its own line item before you book.</p>
+    </div>
+  </div>
 
-  <h3>Crew size</h3>
-  <p>Crew size sets the hourly pace of the job. A 2-mover crew at $80 to $120 per hour suits a studio or 1-bedroom move, while a larger home needs more movers to keep the day short. Match the crew to the home size before you book.</p>
-  <h3>Packing help</h3>
-  <p>Packing is priced apart from loading in most quotes. Packing materials run $95 to $190 in the breakdown on this page, with $150 typical, and full packing help adds labor hours on top of that. If you pack your own boxes, label each box with the room it belongs in and keep heavy items in small boxes so the crew can move fast. Leave furniture disassembly to the crew unless you have the tools and the time to do it well.</p>
-  <h3>Insurance and valuation</h3>
-  <p>Insurance and fees run $85 to $175 in the breakdown on this page, with $130 typical. Standard liability coverage is basic, and it pays by weight rather than by value, so a light but valuable item gets little cover. Ask what full value protection costs, what the claims deadline is, and how damage is reported. Put the cover level in writing before moving day, and photograph valuable items before the crew loads them.</p>
-  <h3>Additional costs to budget for</h3>
-  <p>The calculator covers the move itself, but a move has costs around it that catch people out. Long carries apply when the truck cannot park close to the door. A shuttle applies when a full-size truck cannot reach your street and a smaller truck has to carry your things the last part of the way. Storage applies when the new home is not ready on moving day. Travel adds fuel, meals, and a hotel on a long-distance move. Ask whether fuel is inside the quote or added on top as a surcharge. Specialty items such as pianos and safes are priced apart from the main quote, and tips for the crew are not included. Ask each mover which of these apply to your move, and get each one as its own line item before you book.</p>
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Included</div>
   <h2>What is included and what is not</h2>
   <div class="two-col">
     <div>
@@ -329,10 +375,12 @@ schema: |
     </div>
   </div>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Method</div>
   <h2>How we estimate</h2>
   <p>Every home size on this calculator has its own starting price, based on the crew size and hours a home that size usually takes. We then multiply that starting price by a distance factor: local moves stay at 1.0, 50 to 100 miles at 1.4, 100 to 500 miles at 2.1, and over 500 miles at 3.0. Low is 68 percent of the typical price and high is 132 percent, which gives the sample range you see above.</p>
   <p>The Angi averages on this page are shown for comparison and come from Angi survey data, not from our calculator. Final prices vary by city, season, and company, so treat these numbers as estimates, not quotes. Always confirm the price in writing before moving day.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Checklist</div>
   <h2>Hiring a pro checklist</h2>
   <ul class="checklist">
     <li>Get 3 written quotes and compare them line by line</li>
@@ -344,6 +392,7 @@ schema: |
     <li>Read the contract before moving day</li>
   </ul>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Save money</div>
   <h2>Budget tips</h2>
   <ul>
     <li>Move midweek or in the off season when rates are lower</li>
@@ -353,12 +402,15 @@ schema: |
     <li>Price the yard too if you are moving into a new home: see the <a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a></li>
   </ul>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Your options</div>
   <h2>Full-service, self-service, or DIY</h2>
   <p>Full-service movers load, drive, and unload, and they can pack as well. Self-service means you pack and load while the company supplies the truck and drives it. A moving container sits between the two: you load it and the company drives it, so you save the loading labor but still pay for transport and storage time. DIY means you rent the truck and do it all yourself. Our $1,240 typical price is a full-service local move: labor $600, truck and fuel $250, packing materials $150, insurance and fees $130, and supplies $110. If you pack and load yourself, the labor and packing lines shrink, but truck, fuel, and insurance stay.</p>
   <p>Choose by time and risk, not by the total alone. A long-distance move, or one with pianos, safes, or antiques, suits full-service. A small local move with few large items suits self-service or DIY. Ask what each option includes before you decide,</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Estimates</div>
   <h2>Binding vs non-binding estimates</h2>
   <p>A binding estimate is a fixed price: the amount quoted is the amount you pay on moving day, even if the job takes longer than planned. A non-binding estimate can rise if the weight or the hours grow, and a not-to-exceed estimate caps the rise. On an interstate move with a non-binding estimate, federal rules mean the mover cannot make you pay more than 110% of the estimate at delivery to release your goods, and any amount above that is billed after delivery. Compare binding and non-binding estimates before you sign, and get the type in writing. A quote far below the $843 low end for a 2-bedroom local move should raise a question, and a quote far above the $1,637 high end needs a clear reason, such as packing, storage, or a specialty item. Keep the calculator result beside the quotes, and pick the mover whose written terms match the price, not just the lowest total.</p>
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Sources</div>
   <h2>References</h2>
   <p>Our estimates use public US cost data as a guide. Labor cost context comes from the US Bureau of Labor Statistics, and box and packing supply prices come from Home Depot and Lowes. Mover averages on this page come from Angi, FreightWaves, FindMoversNow, and This Old House. All prices on this page are sample estimated USA ranges, not quotes.</p>
   <div class="refs">
@@ -370,6 +422,7 @@ schema: |
   <p>This Old House <span class="ref-note">2025 survey of 1,000 moving customers</span></p>
   </div>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Keep exploring</div>
   <h2>Related calculators and guides</h2>
   <div class="grid related-grid">
 <div class="card related-card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12 12 3l10 9"/><path d="M6 10v10h12V10"/><path d="M9.5 14h2m2 0h2m-6 3h2m2 0h2"/></svg></div><div class="card-top"><span class="card-cat">Home</span></div><h3><a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Cost Calculator</a></h3><p class="price">$7,528 - $11,475</p><a class="card-cta" href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
@@ -384,6 +437,7 @@ schema: |
   <li><a href="{{ '/tools/' | relative_url }}">All calculators <span aria-hidden="true">&rarr;</span></a></li>
 </ul>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> FAQ</div>
   <h2>Frequently asked questions</h2>
   <details class="faq">
     <summary>How much do movers cost per hour?</summary>
@@ -434,6 +488,20 @@ schema: |
     <p>They are accurate enough to plan a budget. This calculator uses typical USA rates for your home size and distance, so it shows whether your budget is in the right range. It is not a quote, so always get 3 written quotes before you book.</p>
   </details>
 </section>
+<section class="cta-wrap">
+  <div class="wrap">
+    <div class="cta-banner">
+      <div class="eyebrow"><span class="e-icon">&#9733;</span> Free forever</div>
+      <h2>Get your <span class="accent">price</span> in seconds</h2>
+      <p>Free forever, no sign-up, USA prices.</p>
+      <div class="btn-row">
+        <a class="btn btn-orange" href="{{ '/movers-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a>
+        <a class="btn btn-white" href="{{ '/blog/how-much-do-movers-cost/' | relative_url }}">Read the guide &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <script>
 (function () {
