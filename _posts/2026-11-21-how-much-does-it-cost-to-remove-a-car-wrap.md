@@ -137,7 +137,7 @@ schema: |
 <p>This guide covers the full picture: one price matrix that combines vehicle size and wrap age, partial and per-panel prices, the DIY question answered honestly, what a quote should include, the rewrap discount, lease return timing, and what your paint will look like when the film comes off.</p>
 
 <div class="key-takeaways">
-<p class="key-takeaways-title">Key facts</p>
+<p class="key-takeaways-title">Key Takeaways</p>
 <ul>
 <li>A typical car costs $500 to $1,500 for professional wrap removal.</li>
 <li>A fresh wrap under 3 years old costs $400 to $800 to remove, while a wrap 5 or more years old costs $1,000 to $2,500.</li>
@@ -146,6 +146,8 @@ schema: |
 <li>Removal is often discounted to $200 to $500 when the same shop installs the new wrap.</li>
 </ul>
 </div>
+
+<p class="eyebrow">Price table</p>
 
 ## Car wrap removal cost by vehicle size and wrap age
 
