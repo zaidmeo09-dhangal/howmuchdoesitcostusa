@@ -88,6 +88,9 @@
       ".post .key-takeaways",
       ".post .pull-quote",
       ".contact-form",
+      ".contact-side",
+      ".steps",
+      ".checklist",
       "section.wrap > h2",
       ".post-body > h2"
     ];
