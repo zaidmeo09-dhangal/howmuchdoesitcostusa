@@ -29,9 +29,17 @@ schema: |
 </section>
 <section class="wrap">
   <h2>How to use the guides</h2>
-  <p>Each guide opens with a direct answer, so you get the price first and the detail after it. Read the answer, then check the price table for your size, material, or type. The guide then explains what drives the price up or down, what is included in the job, and what is not, so you know what a quote should cover.</p>
+  <ol class="steps">
+    <li><strong>Read the direct answer first.</strong> Each guide opens with a direct answer, so you get the price first and the detail after it.</li>
+    <li><strong>Check the price table.</strong> Look up the price for your size, material, or type.</li>
+    <li><strong>Read what drives the price.</strong> The guide explains what drives the price up or down, what is included in the job, and what is not, so you know what a quote should cover.</li>
+  </ol>
   <h2>Guides and calculators, side by side</h2>
-  <p>Use the guide and the calculator together. The guide shows the full range by size and type, and the calculator gives your own low, typical, and high price for the choices you pick. If you want a fast number, go straight to the calculator. If you want to know why one quote is higher than another, read the guide first, then compare the quotes line by line against the breakdown on the calculator page. Check what is included in each quote, since a low total can hide missing prep, permits, or disposal. All prices are sample estimated USA ranges, not quotes, and every guide links to its matching calculator. See <a href="{{ '/tools/' | relative_url }}">all 8 calculators</a> to get your price in seconds.</p>
+  <ul class="checklist">
+    <li><strong>The guide</strong> shows the full range by size and type.</li>
+    <li><strong>The calculator</strong> gives your own low, typical, and high price for the choices you pick.</li>
+  </ul>
+  <p>If you want a fast number, go straight to the calculator. If you want to know why one quote is higher than another, read the guide first, then compare the quotes line by line against the breakdown on the calculator page. Check what is included in each quote, since a low total can hide missing prep, permits, or disposal. All prices are sample estimated USA ranges, not quotes, and every guide links to its matching calculator. See <a href="{{ '/tools/' | relative_url }}">all 8 calculators</a> to get your price in seconds.</p>
   <p>The newest guides cover a car wrap and painting a house, two jobs where the finish and the prep move the price most. The car wrap guide prices full and partial wraps by vehicle size and finish, and the house painting guide prices interior and exterior work by home size, with prep, paint, and coats explained.</p>
   <div class="grid">
     {% for post in site.posts %}
