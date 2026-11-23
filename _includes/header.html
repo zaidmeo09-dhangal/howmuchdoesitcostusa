@@ -1,26 +1,13 @@
 <header class="site-header">
-  <div class="wrap header-inner">
-    <a class="logo" href="{{ '/' | relative_url }}" aria-label="How Much Does It Cost USA, home">
-      <span class="logo-mark" aria-hidden="true">$</span>
-      <span class="logo-text">How Much Does It Cost<span class="logo-tag">USA COST GUIDES + CALCULATORS</span></span>
-    </a>
+  <div class="header-in">
+    <a class="logo" href="{{ '/' | relative_url }}" aria-label="How Much Does It Cost USA, home"><span class="logo-mark" aria-hidden="true">$</span> How Much Does It <em>Cost</em></a>
     <nav class="site-nav" id="siteNav" aria-label="Main navigation">
       <a href="{{ '/tools/' | relative_url }}">Calculators</a>
       <a href="{{ '/blog/' | relative_url }}">Guides</a>
       <a href="{{ '/about/' | relative_url }}">About</a>
       <a href="{{ '/contact/' | relative_url }}">Contact</a>
     </nav>
-    <div class="header-actions">
-      <button class="nav-toggle" id="navToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="siteNav">
-        <span class="bar" aria-hidden="true"></span>
-        <span class="bar" aria-hidden="true"></span>
-        <span class="bar" aria-hidden="true"></span>
-      </button>
-      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to dark theme" aria-pressed="false">
-        <svg class="theme-icon icon-moon" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
-        <svg class="theme-icon icon-sun" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
-      </button>
-      <a class="btn btn-primary head-cta" href="{{ '/tools/' | relative_url }}">Get a Price</a>
-    </div>
+    <button class="menu-btn" id="navToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="siteNav">&#9776;</button>
+    <a class="btn btn-orange btn-sm" href="{{ '/tools/' | relative_url }}">Get a Price &rarr;</a>
   </div>
 </header>
