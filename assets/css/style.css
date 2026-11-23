@@ -685,6 +685,7 @@ section.wrap > p, section.wrap > ul, section.wrap > ol, section.wrap > h2, secti
   .btn-sm { padding: 11px 18px; font-size: 14px; }
   .hero h1 { font-size: 36px; }
   .section-head h2, .h2-left { font-size: 30px; }
+  body.inner .section-head h2, body.inner .section-title { font-size: 26px; }
   .cta-banner h2 { font-size: 28px; }
   .cta-banner { padding: 48px 24px; }
   .section { padding: 48px 0; }
@@ -896,12 +897,55 @@ section.hero.page-hero h1 { margin-bottom: 16px; }
 .pagination a, .pagination span { min-width: 44px; height: 44px; border-radius: 12px; border: 1px solid #EDEDED; background: #fff; color: #191C25; font-weight: 700; font-size: 15px; display: inline-flex; align-items: center; justify-content: center; padding: 0 14px; text-decoration: none; }
 .pagination a:hover { border-color: #F05A30; color: #F05A30; }
 .pagination .current { background: #F05A30; border-color: #F05A30; color: #fff; }
+/* Screenshot fixes (Nov 23, 2026): About mini cards, Tools cards,
+   Contact full-width calculator panel, stats band, button safety net,
+   inner-page H2 consistency. Orange only, Poppins headings, Inter body. */
+/* Safety net: btn-primary/btn-secondary render as proper pill buttons
+   even when used without the base .btn class. */
+.btn-primary, .btn-secondary { display: inline-flex; align-items: center; justify-content: center; gap: 10px; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 16px; padding: 15px 30px; border-radius: 999px; cursor: pointer; transition: background .2s ease, transform .2s ease, color .2s ease, border-color .2s ease; white-space: nowrap; text-decoration: none; }
+/* About "Our Calculators": 8 small uniform cards, 4 columns. */
+.calc-mini-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+.calc-mini-card { background: #FFFFFF; border: 1px solid #EDEDED; border-radius: 20px; padding: 24px 22px; box-shadow: var(--shadow); transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease; }
+.calc-mini-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lift); border-color: #F05A30; }
+.calc-mini-card h3 { font-size: 19px; line-height: 1.3; margin-bottom: 10px; }
+.calc-mini-card h3 a { color: #191C25; text-decoration: none; }
+.calc-mini-card h3 a:hover { color: #F05A30; }
+.calc-mini-card .mini-price { font-family: 'Poppins', sans-serif; font-size: 22px; font-weight: 800; color: #F05A30; margin: 0 0 6px; }
+.calc-mini-card p { color: #5B6472; font-size: 15px; margin: 0; }
+/* Tools page: 8 catchy calculator cards, 2 columns. */
+.tool-cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
+.tool-card { background: #FFFFFF; border: 1px solid #EDEDED; border-radius: 24px; padding: 30px 28px; box-shadow: var(--shadow); transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease; display: flex; flex-direction: column; }
+.tool-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lift); border-color: #F05A30; }
+.tool-num { font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 800; color: #F05A30; letter-spacing: .08em; }
+.tool-card h3 { font-size: 22px; line-height: 1.3; margin: 10px 0 8px; }
+.tool-card h3 a { color: #191C25; text-decoration: none; }
+.tool-card h3 a:hover { color: #F05A30; }
+.tool-card > p { color: #5B6472; font-size: 16px; margin: 0 0 20px; flex: 1; }
+.tool-foot { display: flex; align-items: center; justify-content: space-between; gap: 16px; border-top: 1px solid #EDEDED; padding-top: 20px; }
+.tool-price b { font-family: 'Poppins', sans-serif; font-size: 28px; font-weight: 800; color: #F05A30; display: block; line-height: 1; }
+.tool-price span { font-size: 13px; font-weight: 600; color: #5B6472; }
+/* Contact page: full-width calculator panel below the two columns. */
+.calc-panel-full { margin-top: 32px; }
+.calc-links-grid { list-style: none; padding: 0; margin: 16px 0; display: grid; grid-template-columns: 1fr 1fr; gap: 4px 32px; }
+.calc-links-grid li { padding: 10px 0; border-bottom: 1px solid #EDEDED; font-size: 15px; }
+.calc-links-grid li a { font-weight: 700; }
+/* Stats band: light grey rounded band, dividers between stats. */
+.counters.stats-band { background: #F7F7F7; border: 1px solid #EDEDED; border-radius: 24px; padding: 36px 32px; margin-top: 0; padding-top: 36px; border-top: 1px solid #EDEDED; gap: 0; }
+.counters.stats-band .counter { text-align: center; padding: 0 24px; }
+.counters.stats-band .counter + .counter { border-left: 1px solid #E5E5E5; }
+.counters.stats-band .counter .num { font-size: 40px; }
+.counters.stats-band .counter .cap { font-size: 15px; }
+/* Inner-page H2 consistency: section H2s match the 32px inner standard
+   (calculators and guides already use 32px). Homepage untouched: these
+   rules only apply when the body carries the .inner class. */
+body.inner .section-head h2, body.inner .section-title { font-size: 32px; }
 /* StudentCalc pattern responsive. */
 @media (max-width: 1100px) {
   .process-grid { grid-template-columns: repeat(2, 1fr); }
   .two-column, .blog-hero { grid-template-columns: 1fr; gap: 48px; }
   .blog-hero-photo, .blog-hero-photo img { min-height: 320px; }
   .contact-card { flex-direction: column; align-items: flex-start; gap: 16px; }
+  .calc-mini-grid { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 768px) {
   .summary-grid, .cards-grid, .standards-grid, .guides-grid.cols-2 { grid-template-columns: 1fr; }
@@ -912,4 +956,13 @@ section.hero.page-hero h1 { margin-bottom: 16px; }
   .cta-band h2 { font-size: 28px; }
   .hero-strip { margin-bottom: 48px; }
   .summary-section, .contact-section, .faq-section { padding-bottom: 48px; }
+  .tool-cards { grid-template-columns: 1fr; }
+  .calc-links-grid { grid-template-columns: 1fr; }
+  .calc-mini-grid { grid-template-columns: 1fr; }
+  .counters.stats-band { grid-template-columns: repeat(2, 1fr); gap: 28px 0; padding: 28px 20px; }
+  .counters.stats-band .counter { padding: 0 16px; }
+  .counters.stats-band .counter + .counter { border-left: none; }
+  .counters.stats-band .counter .num { font-size: 32px; }
+  body.inner .section-head h2, body.inner .section-title { font-size: 28px; }
+  .tool-foot { flex-wrap: wrap; }
 }
