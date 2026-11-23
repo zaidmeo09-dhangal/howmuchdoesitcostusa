@@ -243,46 +243,70 @@ schema: |
       <p class="section-copy">All 8 calculators are free, with no sign-up. Each one shows a low, typical, and high price for a typical USA job, with an itemized breakdown on its own page.</p>
     </div>
     <div class="calc-mini-grid reveal">
-      <article class="calc-mini-card">
-        <h3><a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator</a></h3>
-        <p class="mini-price">Typical $1,240</p>
-        <p>2-bedroom local move, range $843 to $1,637.</p>
-      </article>
-      <article class="calc-mini-card">
-        <h3><a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Cost Calculator</a></h3>
-        <p class="mini-price">Typical $9,180</p>
-        <p>1,800 sq ft asphalt roof, range $7,528 to $11,475.</p>
-      </article>
-      <article class="calc-mini-card">
-        <h3><a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a></h3>
-        <p class="mini-price">Typical $3,335</p>
-        <p>150 ft wood privacy fence, range $2,100 to $5,400.</p>
-      </article>
-      <article class="calc-mini-card">
-        <h3><a href="{{ '/oil-change-cost-calculator/' | relative_url }}">Oil Change Cost Calculator</a></h3>
-        <p class="mini-price">Typical $75</p>
-        <p>Full synthetic oil change, range $45 to $140.</p>
-      </article>
-      <article class="calc-mini-card">
-        <h3><a href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}">Central AC Installation Cost Calculator</a></h3>
-        <p class="mini-price">Typical $6,800</p>
-        <p>2.5 ton system, range $5,200 to $9,500.</p>
-      </article>
-      <article class="calc-mini-card">
-        <h3><a href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Car Wrap Cost Calculator</a></h3>
-        <p class="mini-price">Typical $3,500</p>
-        <p>Sedan full wrap, range $2,500 to $5,500.</p>
-      </article>
-      <article class="calc-mini-card">
-        <h3><a href="{{ '/paint-a-car-cost-calculator/' | relative_url }}">Paint a Car Cost Calculator</a></h3>
-        <p class="mini-price">Typical $3,500</p>
-        <p>Car repaint, $1,500 to $10,000 by quality.</p>
-      </article>
-      <article class="calc-mini-card">
-        <h3><a href="{{ '/house-painting-cost-calculator/' | relative_url }}">House Painting Cost Calculator</a></h3>
-        <p class="mini-price">Typical $4,200</p>
-        <p>Exterior paint job, 1,800 sq ft home, range $2,800 to $6,800.</p>
-      </article>
+      <a class="calc-mini-card" href="{{ '/movers-cost-calculator/' | relative_url }}">
+        <img class="mini-photo" src="{{ '/assets/images/movers-card.webp' | relative_url }}" alt="Two professional movers carrying cardboard boxes in a bright room on moving day" loading="lazy">
+        <div class="mini-body">
+          <h3>Movers Cost Calculator</h3>
+          <p class="mini-price">Typical $1,240</p>
+          <span class="pill-btn">Get your price &rarr;</span>
+        </div>
+      </a>
+      <a class="calc-mini-card" href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">
+        <img class="mini-photo" src="{{ '/assets/images/roof-card.webp' | relative_url }}" alt="Roofer installing asphalt shingles on a residential roof with a nail gun" loading="lazy">
+        <div class="mini-body">
+          <h3>Roof Replacement Cost Calculator</h3>
+          <p class="mini-price">Typical $9,180</p>
+          <span class="pill-btn">Get your price &rarr;</span>
+        </div>
+      </a>
+      <a class="calc-mini-card" href="{{ '/fence-cost-calculator/' | relative_url }}">
+        <img class="mini-photo" src="{{ '/assets/images/fence-card.webp' | relative_url }}" alt="Wooden fence and gate beside a stone path in a sunny backyard" loading="lazy">
+        <div class="mini-body">
+          <h3>Fence Cost Calculator</h3>
+          <p class="mini-price">Typical $3,335</p>
+          <span class="pill-btn">Get your price &rarr;</span>
+        </div>
+      </a>
+      <a class="calc-mini-card" href="{{ '/oil-change-cost-calculator/' | relative_url }}">
+        <img class="mini-photo" src="{{ '/assets/images/oil-change-card.webp' | relative_url }}" alt="Mechanic pouring engine oil into a car engine in a garage" loading="lazy">
+        <div class="mini-body">
+          <h3>Oil Change Cost Calculator</h3>
+          <p class="mini-price">Typical $75</p>
+          <span class="pill-btn">Get your price &rarr;</span>
+        </div>
+      </a>
+      <a class="calc-mini-card" href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}">
+        <img class="mini-photo" src="{{ '/assets/images/central-ac-card.webp' | relative_url }}" alt="HVAC technician servicing an outdoor air conditioner condenser unit with pressure gauges" loading="lazy">
+        <div class="mini-body">
+          <h3>Central AC Installation Cost Calculator</h3>
+          <p class="mini-price">Typical $6,800</p>
+          <span class="pill-btn">Get your price &rarr;</span>
+        </div>
+      </a>
+      <a class="calc-mini-card" href="{{ '/car-wrap-cost-calculator/' | relative_url }}">
+        <img class="mini-photo" src="{{ '/assets/images/car-wrap-card.webp' | relative_url }}" alt="Worker applying white vinyl wrap to a car hood with a heat gun in a workshop" loading="lazy">
+        <div class="mini-body">
+          <h3>Car Wrap Cost Calculator</h3>
+          <p class="mini-price">Typical $3,500</p>
+          <span class="pill-btn">Get your price &rarr;</span>
+        </div>
+      </a>
+      <a class="calc-mini-card" href="{{ '/paint-a-car-cost-calculator/' | relative_url }}">
+        <img class="mini-photo" src="{{ '/assets/images/car-paint-card.webp' | relative_url }}" alt="Technician spray painting a car body with a paint spray gun in a spray booth" loading="lazy">
+        <div class="mini-body">
+          <h3>Paint a Car Cost Calculator</h3>
+          <p class="mini-price">Typical $3,500</p>
+          <span class="pill-btn">Get your price &rarr;</span>
+        </div>
+      </a>
+      <a class="calc-mini-card" href="{{ '/house-painting-cost-calculator/' | relative_url }}">
+        <img class="mini-photo" src="{{ '/assets/images/house-painting-card.webp' | relative_url }}" alt="Man painting the exterior wall of a house with a roller on a ladder" loading="lazy">
+        <div class="mini-body">
+          <h3>House Painting Cost Calculator</h3>
+          <p class="mini-price">Typical $4,200</p>
+          <span class="pill-btn">Get your price &rarr;</span>
+        </div>
+      </a>
     </div>
     <p>See <a href="{{ '/tools/' | relative_url }}">all 8 cost calculators</a>, or read the <a href="{{ '/blog/' | relative_url }}">cost guides</a> to learn what drives each price up or down.</p>
   </div>
