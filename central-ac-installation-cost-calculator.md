@@ -157,6 +157,15 @@ schema: |
     <p class="note">All prices on this page are sample estimated USA ranges, not quotes.</p>
     <p>Read the full guide: <a href="{{ '/blog/how-much-does-it-cost-to-install-central-air/' | relative_url }}">How Much Does It Cost to Install Central Air?</a></p>
   </div>
+  <div class="trust-row">
+    <span>Free forever</span>
+    <span>No sign-up</span>
+    <span>USA prices</span>
+  </div>
+  <div class="hero-cta" style="margin-top:18px">
+    <a class="btn btn-orange" href="{{ '/blog/how-much-does-it-cost-to-install-central-air/' | relative_url }}">Read the guide &rarr;</a>
+    <a class="btn btn-white" href="{{ '/tools/' | relative_url }}">All calculators &rarr;</a>
+  </div>
 
   <div class="calc">
     <h2>Central AC Installation Cost Calculator</h2>
@@ -184,6 +193,7 @@ schema: |
     </div>
   </div>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Price bands</div>
   <h2>Cost to install central air: low, typical, and high</h2>
   <p>These bands update with your calculator choices. Use them to plan your budget before you request quotes.</p>
   <div class="bands">
@@ -204,6 +214,7 @@ schema: |
     </div>
   </div>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Breakdown</div>
   <h2>Itemized cost breakdown</h2>
   <p class="note live-note">Updates live with your calculator choices.</p>
   <p class="table-hint">Swipe to see the High column &rarr;</p>
@@ -225,6 +236,7 @@ schema: |
   </div>
   <p class="note">Sample estimated USA ranges. Equipment and labor together are most of the total.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> How to</div>
   <h2>How to estimate in 4 steps</h2>
   <ol class="steps">
     <li><strong>Measure your home size.</strong> Use the cooled floor area to estimate the system size.</li>
@@ -233,18 +245,37 @@ schema: |
     <li><strong>Get a pro load calculation.</strong> Ask an installer to confirm the size, since insulation and windows change the answer.</li>
   </ol>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> What drives the price</div>
   <h2>What affects the price</h2>
-  <h3>Home size</h3>
-  <p>Larger homes need larger systems, and system size is the biggest driver of equipment cost. A 2,500 sq ft home needs a much larger unit than a 1,000 sq ft home.</p>
-  <h3>Efficiency rating (SEER2)</h3>
-  <p>Higher SEER2 units cost more to buy and can lower monthly cooling bills over time. A 16 or 18 SEER2 system costs more up front than a 13.4 SEER2 system of the same size. SEER2 is the current federal test rating, and it replaced SEER for new systems.</p>
+  <div class="adv-grid">
+    <div class="adv-card">
+      <div class="adv-icon">$</div>
+      <h3>Home size</h3>
+      <p>Larger homes need larger systems, and system size is the biggest driver of equipment cost. A 2,500 sq ft home needs a much larger unit than a 1,000 sq ft home.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">&#10003;</div>
+      <h3>Efficiency rating (SEER2)</h3>
+      <p>Higher SEER2 units cost more to buy and can lower monthly cooling bills over time. A 16 or 18 SEER2 system costs more up front than a 13.4 SEER2 system of the same size. SEER2 is the current federal test rating, and it replaced SEER for new systems.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">&#9733;</div>
+      <h3>Insulation and windows</h3>
+      <p>Insulation and windows change the size your home needs, so square feet alone do not settle it. A well insulated home with good windows needs less cooling than a drafty home of the same size, and a home with large west facing windows needs more. A pro should confirm the size with a load calculation before you buy, since insulation, windows, and climate change the answer. Sealing ducts before sizing a new system also helps, since leaky ducts waste cooled air.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">&#9873;</div>
+      <h3>Climate zone</h3>
+      <p>Square feet alone do not set the size, because climate changes how much cooling each square foot needs. A home in a hot climate needs more cooling per square foot than the same home in a cool climate, so the same floor area can need a different tonnage in Florida than in Minnesota. A Manual J load calculation accounts for your climate, insulation, windows, and air leakage, and it is the right way to confirm the size before you buy.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">$</div>
+      <h3>Thermostat and controls</h3>
+      <p>Smart thermostat upgrades are not included in the price on this page. A new thermostat can help a new system run well, but it is a separate cost, so ask for it as its own line if you want one. Check that the thermostat works with the system you pick, and ask who sets it up and shows you how to use it. A good control does not fix a wrong size, so settle the size first.</p>
+    </div>
+  </div>
 
-  <h3>Insulation and windows</h3>
-  <p>Insulation and windows change the size your home needs, so square feet alone do not settle it. A well insulated home with good windows needs less cooling than a drafty home of the same size, and a home with large west facing windows needs more. A pro should confirm the size with a load calculation before you buy, since insulation, windows, and climate change the answer. Sealing ducts before sizing a new system also helps, since leaky ducts waste cooled air.</p>
-  <h3>Climate zone</h3>
-  <p>Square feet alone do not set the size, because climate changes how much cooling each square foot needs. A home in a hot climate needs more cooling per square foot than the same home in a cool climate, so the same floor area can need a different tonnage in Florida than in Minnesota. A Manual J load calculation accounts for your climate, insulation, windows, and air leakage, and it is the right way to confirm the size before you buy.</p>
-  <h3>Thermostat and controls</h3>
-  <p>Smart thermostat upgrades are not included in the price on this page. A new thermostat can help a new system run well, but it is a separate cost, so ask for it as its own line if you want one. Check that the thermostat works with the system you pick, and ask who sets it up and shows you how to use it. A good control does not fix a wrong size, so settle the size first.</p>
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Efficiency standards</div>
   <h2>SEER2 federal minimums by region</h2>
   <p>Since January 2023, new central air systems must meet these SEER2 minimums, per TrueRepairCost. A quote below the minimum for your region is not a legal new install.</p>
   <p class="table-hint">Swipe to see the Minimum column &rarr;</p>
@@ -280,9 +311,11 @@ schema: |
   </div>
   <p>A higher SEER system costs more to buy and less to run. In a hot climate with a long cooling season, the extra cost can pay back through lower power bills. In a cool climate where you run cooling only a few weeks a year, it may never pay back, so compare the extra cost with the yearly saving before you buy.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Refrigerant</div>
   <h2>Refrigerant and the indoor coil</h2>
   <p>New systems use R-454B or R-32 refrigerant. R-454B has a global warming potential of 466, against 2,088 for the older R-410A, per TrueRepairCost. The indoor coil is replaced with the outdoor condenser because the coil must match the new refrigerant and the new SEER2 rating, so a condenser-only swap that keeps an old coil is a false saving.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Replace or install</div>
   <h2>Replacement or new install</h2>
   <p>Replacing an old system on existing ducts is a different job from adding air conditioning where there was none. Use the table to see which job you are pricing.</p>
   <p class="table-hint">Swipe to see the Sample range column &rarr;</p>
@@ -307,13 +340,16 @@ schema: |
   <h3>Central air and furnace together</h3>
   <p>A central air and furnace installation costs $5,000 to $11,000 for the pair, per TrueRepairCost. A combined central heat and air install suits a home that needs both heating and cooling replaced at once, and doing both together costs less than two separate jobs, because the crew is on site once and the coil, duct connections, and controls are shared. A heat pump, which heats and cools with one system, runs $3,625 to $10,800.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Worked example</div>
   <h2>Worked example: 3.5 ton home in Georgia</h2>
   <p>TrueRepairCost prices a 3.5 ton Georgia home at $5,650 to $7,650. Georgia is in the Southeast, so the 14.3 SEER2 minimum applies. Our calculator prices a 3.5 ton system at 3.5 x $2,720 = $9,520 before the efficiency multiplier, which is higher because it is a sample model rate, not a Georgia quote, so get a local quote before you budget.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Worked example</div>
   <h2>Two more worked examples</h2>
   <p>A 2,000 sq ft home needs about 3.5 tons, so the calculator gives $9,520 typical at 13.4 SEER2. At 16 SEER2 the same system costs 1.15 times as much, or about $10,950.</p>
   <p>A 1,000 sq ft home needs about 1.5 tons, so the calculator gives $4,080 typical at 13.4 SEER2. At 18+ SEER2 the same system costs 1.3 times as much, or about $5,300.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Repair or replace</div>
   <h2>Repair or replace: the $5,000 rule</h2>
   <p>iBuyer uses a $5,000 rule: multiply the age of the system in years by the cost of the repair, and replace it if the answer is over $5,000. Worked math: 12 years x $500 repair = $6,000, which is over $5,000, so replace. A 12 year old system that needs a $500 repair fails the test, while the same repair on a 5 year old system gives 5 x $500 = $2,500, which passes.</p>
   <h3>Ductwork condition</h3>
@@ -323,6 +359,7 @@ schema: |
   <h3>Location and permits</h3>
   <p>Labor rates and permit fees vary by city, and some areas require an inspection. Ask your installer which permits are needed and whether the fee is in the quote.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Included</div>
   <h2>What is included and what is not</h2>
   <div class="two-col">
     <div>
@@ -346,10 +383,12 @@ schema: |
     </div>
   </div>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Method</div>
   <h2>How we estimate</h2>
   <p>We size the system first, then price it. Tons come from home size divided by 600, rounded to the nearest half ton, with a 1.5 ton floor. The typical price is tons times $2,720 times the efficiency multiplier (1.0 for 13.4 SEER2, 1.15 for 16 SEER2, 1.3 for 18+ SEER2). At the default 1,500 sq ft home that is 2.5 tons x $2,720 x 1.0 = $6,800. Low is 76.5 percent of typical and high is 139.7 percent, so $6,800 gives $5,200 low and $9,500 high after rounding to the nearest $10.</p>
   <p>A pro should confirm the size with a load calculation before you buy, since insulation, windows, and climate change the answer.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Checklist</div>
   <h2>Hiring a pro checklist</h2>
   <ul class="checklist">
     <li>Get 3 written quotes with the exact condenser and coil models and SEER2 rating listed</li>
@@ -360,6 +399,7 @@ schema: |
     <li>Confirm the warranty on parts and labor, and who pulls the permit</li>
   </ul>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Save money</div>
   <h2>Budget tips</h2>
   <ul>
     <li>Compare 13.4 and 16 SEER2 total cost over 10 years</li>
@@ -369,6 +409,7 @@ schema: |
     <li>Check state and utility rebates, since the federal 25C tax credit ended December 31, 2025</li>
 </ul>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Where the money goes</div>
   <h2>Where the $6,800 typical total goes</h2>
   <p>The table below repeats the typical column from the breakdown above, so you can see the share of each line at the calculator default.</p>
   <div class="table-wrap">
@@ -388,6 +429,7 @@ schema: |
     </table>
   </div>
   <p>Equipment at $3,600 and labor at $2,100 together are most of the $6,800 total. Labor is 40 to 60 percent of the total, per TrueRepairCost. If a quote is far above the $9,500 high end, ask whether full duct replacement or electrical panel work is in it.</p>
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Cost by size</div>
   <h2>Cost by system size</h2>
   <p>The calculator prices tons at $2,720 each at 13.4 SEER2, so the typical price by size is the table below. A 16 SEER2 system costs 1.15 times as much, and an 18+ SEER2 system costs 1.3 times as much.</p>
   <div class="table-wrap">
@@ -409,6 +451,7 @@ schema: |
   </div>
   <p>Size is the biggest driver of equipment cost, but do not pick a size from square feet alone. A pro should confirm the size with a load calculation, since insulation, windows, and climate change the answer. If your home has no ducts, add new ductwork: with new ductwork the job runs $7,500 to $16,000, per TrueRepairCost.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Cost by size</div>
   <h2>Central air installation cost by home size</h2>
   <p>The table below prices each home size with the same formula as the calculator: tons from home size divided by 600, rounded to the nearest half ton, at $2,720 per ton at 13.4 SEER2. Low is 76.5 percent of typical and high is 139.7 percent.</p>
   <div class="table-wrap">
@@ -427,6 +470,7 @@ schema: |
     </table>
   </div>
   <p>A 16 SEER2 system costs 1.15 times as much as the figures above, and an 18+ SEER2 system costs 1.3 times as much. Homes with no ducts need a full duct install on top of these figures.</p>
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Sources</div>
   <h2>References</h2>
   <p>Our estimates use public US cost data as a guide. Labor cost context comes from the US Bureau of Labor Statistics, housing cost context from HUD, remodeling trends from Harvard JCHS, and material prices from Home Depot and Lowes. AC prices in this page also use Angi, TrueRepairCost, and iBuyer. All prices on this page are sample estimated USA ranges, not quotes.</p>
   <div class="refs">
@@ -438,6 +482,7 @@ schema: |
   <p><a href="https://www.angi.com/articles/how-much-does-installing-new-ac-cost.htm" target="_blank" rel="noopener">Angi</a> <span class="ref-note">central AC installation cost, updated October 22, 2026</span></p>
   </div>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Keep exploring</div>
   <h2>Related calculators and guides</h2>
   <div class="grid related-grid">
 <div class="card related-card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M4 6l16 12M20 6 4 18"/><circle cx="12" cy="12" r="3"/></svg></div><div class="card-top"><span class="card-cat">Guide</span></div><h3><a href="{{ '/blog/how-much-does-it-cost-to-install-central-air/' | relative_url }}">How Much Does It Cost to Install Central Air?</a></h3><p class="price">$5,200 - $9,500</p><a class="card-cta" href="{{ '/blog/how-much-does-it-cost-to-install-central-air/' | relative_url }}">Read the guide &rarr;</a></div>
@@ -452,6 +497,7 @@ schema: |
   <li><a href="{{ '/tools/' | relative_url }}">All calculators <span aria-hidden="true">&rarr;</span></a></li>
 </ul>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> FAQ</div>
   <h2>Frequently asked questions</h2>
   <details class="faq">
     <summary>What size AC do I need?</summary>
@@ -502,6 +548,20 @@ schema: |
     <p>A typical 2.5 ton central air system costs about $6,800 to install, with a sample range of $5,200 to $9,500. A 1.5 ton system costs $4,080 typical, and a 3.5 ton system costs $9,520 typical, at 13.4 SEER2.</p>
   </details>
 </section>
+<section class="cta-wrap">
+  <div class="wrap">
+    <div class="cta-banner">
+      <div class="eyebrow"><span class="e-icon">&#9733;</span> Free forever</div>
+      <h2>Get your <span class="accent">price</span> in seconds</h2>
+      <p>Free forever, no sign-up, USA prices.</p>
+      <div class="btn-row">
+        <a class="btn btn-orange" href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a>
+        <a class="btn btn-white" href="{{ '/blog/how-much-does-it-cost-to-install-central-air/' | relative_url }}">Read the guide &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <script>
 (function () {
