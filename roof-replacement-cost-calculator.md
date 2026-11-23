@@ -155,10 +155,19 @@ schema: |
   }
 ---
 
+<section class="hero page-hero">
+  <div class="wrap">
+    <nav class="breadcrumb"><a href="{{ '/' | relative_url }}">Home</a> / <a href="{{ '/tools/' | relative_url }}">Tools</a> / <span aria-current="page">Roof Replacement Cost Calculator</span></nav>
+    <div class="hero-badge"><span class="hero-badge-dot"></span>Free Calculator</div>
+    <h1>Roof Replacement <span class="accent">Cost</span> Calculator</h1>
+    <p class="hero-copy">A typical 1,800 sq ft asphalt shingle roof in the USA costs about $9,180, with a sample range of $7,528 to $11,475.</p>
+    <div class="hero-actions">
+      <a class="btn-primary" href="{{ '/blog/how-much-does-it-cost-to-replace-a-roof/' | relative_url }}">Read the Guide</a>
+      <a class="btn-secondary" href="{{ '/tools/' | relative_url }}">All Calculators</a>
+    </div>
+  </div>
+</section>
 <section class="wrap">
-  <p class="crumb"><a href="{{ '/' | relative_url }}">Home</a> / <a href="{{ '/tools/' | relative_url }}">Tools</a> / Roof Replacement Cost Calculator</p>
-  <p class="kicker">Free Calculator</p>
-  <h1>Roof Replacement Cost Calculator</h1>
   <p class="page-byline">By <strong>How Much Does It Cost USA Team</strong> <span class="byline-dot" aria-hidden="true">|</span> Updated November 21, 2026</p>
   <div class="answer">
     <p id="answerIntro">A typical 1,800 sq ft asphalt shingle roof in the USA costs about $9,180, with a sample range of $7,528 to $11,475.</p>
@@ -168,10 +177,6 @@ schema: |
     <span>Free forever</span>
     <span>No sign-up</span>
     <span>USA prices</span>
-  </div>
-  <div class="hero-cta" style="margin-top:18px">
-    <a class="btn btn-orange" href="{{ '/blog/how-much-does-it-cost-to-replace-a-roof/' | relative_url }}">Read the guide &rarr;</a>
-    <a class="btn btn-white" href="{{ '/tools/' | relative_url }}">All calculators &rarr;</a>
   </div>
 
   <div class="calc">
