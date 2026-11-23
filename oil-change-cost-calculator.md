@@ -162,8 +162,8 @@ schema: |
     <h1>Oil Change <span class="accent">Cost</span> Calculator</h1>
     <p class="hero-copy">A typical full synthetic oil change in the USA costs about $75, with a sample range of $45 to $140.</p>
     <div class="hero-actions">
-      <a class="btn-primary" href="{{ '/blog/how-much-does-an-oil-change-cost/' | relative_url }}">Read the Guide</a>
-      <a class="btn-secondary" href="{{ '/tools/' | relative_url }}">All Calculators</a>
+      <a class="btn btn-primary" href="{{ '/blog/how-much-does-an-oil-change-cost/' | relative_url }}">Read the Guide</a>
+      <a class="btn btn-secondary" href="{{ '/tools/' | relative_url }}">All Calculators</a>
     </div>
   </div>
 </section>
