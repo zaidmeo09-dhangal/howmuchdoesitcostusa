@@ -55,21 +55,18 @@ schema: |
     </div>
     <div class="guides-grid cols-2" id="guides">
 {% for post in site.posts %}
-    <div class="guide-card reveal">
+    <a class="guide-card photo-card reveal" href="{{ post.url | relative_url }}">
       {% if post.image %}
-      <div class="guide-photo">
-        <img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title }}" width="1200" height="630" loading="lazy">
-        <span class="chip">{{ post.guide_category | default: "Guide" }}</span>
-      </div>
+      <img class="photo-card-img" src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title }}" width="1200" height="630" loading="lazy">
+      <span class="chip">{{ post.guide_category | default: "Guide" }}</span>
       {% endif %}
-      <div class="guide-body">
-        <div class="cat">{{ post.guide_category | default: "Guide" }}</div>
-        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <div class="guide-overlay">
+        <span class="guide-date">{{ post.date | date: "%B %Y" }}</span>
+        <h3>{{ post.title }}</h3>
         {% if post.card_price %}<p class="guide-price">{{ post.card_price }}</p>{% endif %}
-        <p>{{ post.meta_description }}</p>
-        <div class="guide-foot"><span class="guide-date">{{ post.date | date: "%B %Y" }}</span><a class="guide-link" href="{{ post.url | relative_url }}">Read More &rarr;</a></div>
+        <span class="pill-btn">Read More &rarr;</span>
       </div>
-    </div>
+    </a>
     {% endfor %}
     </div>
   </div>
