@@ -158,6 +158,15 @@ schema: |
   <p>How much does it cost to paint a car? The short answer is about $3,500 for a typical quality repaint of a sedan, with a sample range of $1,500 to $10,000 by quality. The same question comes up as how much does it cost to get a car painted and how much does it cost to repaint an entire car, and the answer is the same range: basic single coat $1,500 to $2,499, standard quality $2,500 to $4,999, and show quality $5,000 to $10,000.</p>
   <p>Use the paint a car cost calculator below to price your own car by size, paint quality, and job scope before you ask shops for quotes.</p>
   </div>
+  <div class="trust-row">
+    <span>Free forever</span>
+    <span>No sign-up</span>
+    <span>USA prices</span>
+  </div>
+  <div class="hero-cta" style="margin-top:18px">
+    <a class="btn btn-orange" href="{{ '/blog/how-much-does-it-cost-to-paint-a-car/' | relative_url }}">Read the guide &rarr;</a>
+    <a class="btn btn-white" href="{{ '/tools/' | relative_url }}">All calculators &rarr;</a>
+  </div>
 
   <div class="calc">
     <h2>Paint a Car Cost Calculator</h2>
@@ -199,6 +208,7 @@ schema: |
     </div>
   </div>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Price bands</div>
   <h2>Paint a car cost: low, typical, and high</h2>
   <p>These bands update with your calculator choices. Use them to plan your budget before you request quotes.</p>
   <div class="bands">
@@ -219,6 +229,7 @@ schema: |
     </div>
   </div>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Breakdown</div>
   <h2>Itemized cost breakdown</h2>
   <p class="note live-note">Updates live with your calculator choices.</p>
   <p class="table-hint">Swipe to see the High column &rarr;</p>
@@ -239,6 +250,7 @@ schema: |
   </div>
   <p class="note">Sample estimated USA ranges. Prep is most of the total, and it can exceed half the bill, per CARFAX.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> How to</div>
   <h2>How to estimate in 4 steps</h2>
   <ol class="steps">
     <li><strong>Pick your vehicle size.</strong> Larger vehicles need more paint and more labor hours.</li>
@@ -247,22 +259,47 @@ schema: |
     <li><strong>Compare 3 written quotes.</strong> Ask each shop to list paint brand, coats, clear coat, and prep work separately.</li>
   </ol>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> What drives the price</div>
   <h2>What affects the price</h2>
-  <h3>Vehicle size</h3>
-  <p>Bigger cars need more paint and more labor. A sedan costs less to paint than an SUV or a truck, because there is less surface to prep, prime, and paint.</p>
-  <h3>Paint quality</h3>
-  <p>Better paint costs more, and some colors cost more than others. Metallic and pearl colors need extra coats, and a color change costs more than painting the same color again. Basic single coat is the cheapest tier, standard quality suits most daily drivers, and show quality is the dearest tier.</p>
-  <h3>Job scope</h3>
-  <p>A full repaint covers the whole car and costs most. Partial panels cover one or two panels, and a touch-up fixes chips and scratches only, so both cost far less than a full repaint. Decide the scope before you ask for a quote, so each shop prices the same job.</p>
-  <h3>Prep work needed</h3>
-  <p>Prep is where most of the labor goes. Sanding, rust repair, and dent repair all add hours, and a car with faded paint, chips, and dents costs more to prep than a car in good shape. Prep can exceed half the bill, per CARFAX, so on a $3,500 repaint that is more than $1,750 of prep.</p>
-  <h3>Paint system</h3>
-  <p>Single-stage paint mixes color and gloss in one coat and fades in 5 to 8 years. Base and clear coat paint lays color first and clear coat second and lasts 10 to 15 plus years. Tri-coat or pearl paint adds 15 to 25 percent to the price.</p>
-  <h3>Color change</h3>
-  <p>A color change costs more than the same color again because the shop must paint the parts you see when a door, hood, or trunk is open: door jambs, the engine bay, and the trunk channels. A color change adds 15 to 25 percent, and 20 to 40 percent for a full color change.</p>
-  <h3>Shop location and reputation</h3>
-  <p>Labor rates vary across the USA, and big cities usually cost more than small towns for the same job. A shop with a strong reputation and a paint booth also charges more than a low cost shop.</p>
+  <div class="adv-grid">
+    <div class="adv-card">
+      <div class="adv-icon">$</div>
+      <h3>Vehicle size</h3>
+      <p>Bigger cars need more paint and more labor. A sedan costs less to paint than an SUV or a truck, because there is less surface to prep, prime, and paint.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">&#10003;</div>
+      <h3>Paint quality</h3>
+      <p>Better paint costs more, and some colors cost more than others. Metallic and pearl colors need extra coats, and a color change costs more than painting the same color again. Basic single coat is the cheapest tier, standard quality suits most daily drivers, and show quality is the dearest tier.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">&#9733;</div>
+      <h3>Job scope</h3>
+      <p>A full repaint covers the whole car and costs most. Partial panels cover one or two panels, and a touch-up fixes chips and scratches only, so both cost far less than a full repaint. Decide the scope before you ask for a quote, so each shop prices the same job.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">&#9873;</div>
+      <h3>Prep work needed</h3>
+      <p>Prep is where most of the labor goes. Sanding, rust repair, and dent repair all add hours, and a car with faded paint, chips, and dents costs more to prep than a car in good shape. Prep can exceed half the bill, per CARFAX, so on a $3,500 repaint that is more than $1,750 of prep.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">$</div>
+      <h3>Paint system</h3>
+      <p>Single-stage paint mixes color and gloss in one coat and fades in 5 to 8 years. Base and clear coat paint lays color first and clear coat second and lasts 10 to 15 plus years. Tri-coat or pearl paint adds 15 to 25 percent to the price.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">&#10003;</div>
+      <h3>Color change</h3>
+      <p>A color change costs more than the same color again because the shop must paint the parts you see when a door, hood, or trunk is open: door jambs, the engine bay, and the trunk channels. A color change adds 15 to 25 percent, and 20 to 40 percent for a full color change.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">&#9733;</div>
+      <h3>Shop location and reputation</h3>
+      <p>Labor rates vary across the USA, and big cities usually cost more than small towns for the same job. A shop with a strong reputation and a paint booth also charges more than a low cost shop.</p>
+    </div>
+  </div>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Cost by vehicle</div>
   <h2>Paint a car cost by vehicle type</h2>
   <p>Paint and labor rise with vehicle size. AAA prices a small car repaint at $2,000 to $3,500 and an SUV or truck repaint at $3,500 to $7,000, and a sedan repaint runs $1,500 to $10,000 by quality.</p>
   <p class="table-hint">Swipe to see the Sample range column &rarr;</p>
@@ -282,6 +319,7 @@ schema: |
   </div>
   <p class="note">Our calculator uses $2,750 for a small car, $3,500 for a sedan, $5,250 for an SUV, and $5,250 for a truck at the typical standard level.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Cost by quality</div>
   <h2>Paint cost by quality</h2>
   <p>Quality sets the tier. Basic is a single coat job, standard is the tier most daily drivers fall into, and show quality is for show cars and cars kept for many years.</p>
   <p class="table-hint">Swipe to see the Typical price column &rarr;</p>
@@ -299,9 +337,11 @@ schema: |
     </table>
   </div>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Color change</div>
   <h2>Color change cost</h2>
   <p>A color change adds 15 to 25 percent, and 20 to 40 percent for a full color change. On a $3,500 repaint, plus 15 percent is $3,500 x 0.15 = $525, for $4,025, plus 25 percent is $3,500 x 0.25 = $875, for $4,375, and plus 40 percent is $3,500 x 0.40 = $1,400, for $4,900. Ask whether jambs, engine bay, and trunk channels are in the quote before you agree to a price.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Wrap vs paint</div>
   <h2>Paint vs wrap vs paint protection film</h2>
   <p>Paint lasts longer, and a wrap is cheaper and reversible. Choose paint if you plan to keep the car for many years and want the finish to last 10 to 15 plus years with a base and clear coat system. Choose a wrap if you want a color change for a short time, or you want to protect the paint underneath and undo the change later.</p>
   <p class="table-hint">Swipe to see the Typical cost column &rarr;</p>
@@ -320,6 +360,7 @@ schema: |
     </table>
   </div>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Cost per year</div>
   <h2>Cost per year by finish life</h2>
   <p>A dearer paint job can cost less per year if it lasts longer. Base and clear coat paint lasts 10 to 15 plus years, while single-stage paint fades in 5 to 8 years. On a standard $3,500 repaint with base and clear coat, the cost is $350 a year over 10 years and about $233 a year over 15 years. On a basic $2,000 repaint with single-stage paint, the cost is $400 a year over 5 years and $250 a year over 8 years. On a show quality $7,500 repaint, the cost is $750 a year over 10 years and $500 a year over 15 years. The per year math favors the longer lasting paint system, even when the upfront price is higher, so compare the finish life, not just the quote.</p>
   <p class="table-hint">Swipe to see the Cost per year column &rarr;</p>
@@ -337,6 +378,7 @@ schema: |
     </table>
   </div>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Included</div>
   <h2>What is included and what is not</h2>
   <div class="two-col">
     <div>
@@ -363,14 +405,17 @@ schema: |
     </div>
   </div>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Method</div>
   <h2>How we estimate</h2>
   <p>We price a paint job in three steps. Start with the vehicle base: $2,750 small car, $3,500 sedan, $5,250 SUV, $5,250 truck. Multiply by the quality multiplier (0.571 basic, 1.0 standard, 2.143 show), then by the scope multiplier (1.0 full, 0.35 partial panels, 0.12 touch-up), and round the typical price to the nearest $10. Low and high come from the guide bands for the chosen quality: basic $1,500 to $2,499, standard $2,500 to $4,999, and show $5,000 to $10,000 for a sedan full repaint, scaled in proportion to the typical price for other sizes and scopes and rounded to the nearest $10. At the default sedan standard full repaint that is $3,500 x 1.0 x 1.0 = $3,500 typical, with low $2,500 and high $4,999. The multipliers line up with the guide typicals: a basic sedan is $3,500 x 0.571 = $2,000 typical, with low $1,500 and high $2,499, and a show sedan is $3,500 x 2.143 = $7,500 typical, with low $5,000 and high $10,000. An SUV show full repaint is $5,250 x 2.143 = $11,250 typical, with low $7,500 and high $15,000. A sedan standard partial panels job is $3,500 x 0.35 = $1,225, rounded to $1,230 typical, with low $880 and high $1,760.</p>
   <p>Note that the $5,000 to $10,000 show band is for a sedan, and larger vehicles run higher, per CARFAX high-end $7,000 to $15,000 and the guide 2018 F-150 premium example at $8,500 to $14,500.</p>
   <p>Your final price depends on vehicle size, paint quality, job scope, prep work, and the shop, so always confirm the price in writing before work starts.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Your quote</div>
   <h2>How shops build your quote</h2>
   <p>Labor hours drive the vehicle size gap. A sedan takes 30 to 40 labor hours and an SUV or truck takes 55 to 75 labor hours, at $40 to $120 per hour. That gives sedan labor of 30 x $40 = $1,200 at the low end to 40 x $120 = $4,800 at the high end, and SUV or truck labor of 55 x $40 = $2,200 to 75 x $120 = $9,000. Prep comes first and is most of the bill: wash and strip, sanding, dent and rust repair, masking, primer, and sanding the primer smooth before any color goes on. A quote that skips a stage is not the same job at a lower price, it is a smaller job. When you compare quotes, ask each shop for an itemized quote that lists the prep stages, whether trim is removed or masked, the paint system, the number of coats of base and clear coat, and the warranty, so you compare the same job, not just the same total.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Checklist</div>
   <h2>Hiring a pro checklist</h2>
   <ul class="checklist">
     <li>Get 3 written quotes with the same quality level and prep</li>
@@ -380,6 +425,7 @@ schema: |
     <li>Confirm the timeline in writing</li>
   </ul>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Save money</div>
   <h2>Budget tips</h2>
   <ul>
     <li>Pick standard quality unless you need show quality</li>
@@ -388,6 +434,7 @@ schema: |
     <li>Consider a wrap for a color change</li>
   </ul>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Sources</div>
   <h2>References</h2>
   <p>Our estimates use public US cost data as a guide. Labor cost context comes from the US Bureau of Labor Statistics, and car paint and material prices come from Home Depot and Lowes. Paint prices in this page also use Kelley Blue Book, AAA, and CARFAX. All prices on this page are sample estimated USA ranges, not quotes.</p>
   <div class="refs">
@@ -399,6 +446,7 @@ schema: |
   <p><a href="https://www.carfax.com/maintenance/car-paint-job-cost" target="_blank" rel="noopener">CARFAX</a> <span class="ref-note">cost to paint a car by tier and finish</span></p>
   </div>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Keep exploring</div>
   <h2>Related calculators and guides</h2>
   <div class="grid related-grid">
 <div class="card related-card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 11 6 7.2A2 2 0 0 1 7.9 6h8.2a2 2 0 0 1 1.9 1.2L19.5 11"/><rect x="3" y="11" width="18" height="5.5" rx="1.5"/><circle cx="7.5" cy="18" r="1.8"/><circle cx="16.5" cy="18" r="1.8"/></svg></div><div class="card-top"><span class="card-cat">Car</span></div><h3><a href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Car Wrap Cost Calculator</a></h3><p class="price">$2,500 - $5,500</p><a class="card-cta" href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
@@ -411,6 +459,7 @@ schema: |
   <li><a href="{{ '/blog/how-much-does-a-car-wrap-cost/' | relative_url }}">How Much Does a Car Wrap Cost? <span aria-hidden="true">&rarr;</span></a></li>
 </ul>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> FAQ</div>
   <h2>Frequently asked questions</h2>
   <details class="faq">
     <summary>How much does it cost to paint a car?</summary>
@@ -461,6 +510,20 @@ schema: |
     <p>Repaint when the paint has faded, cracked, or peeled, or after damage or rust that needs bodywork first. A basic job takes 1 to 2 days, a midtier job 3 to 5 days, and a premium or custom job 1 to 2 weeks.</p>
   </details>
 </section>
+<section class="cta-wrap">
+  <div class="wrap">
+    <div class="cta-banner">
+      <div class="eyebrow"><span class="e-icon">&#9733;</span> Free forever</div>
+      <h2>Get your <span class="accent">price</span> in seconds</h2>
+      <p>Free forever, no sign-up, USA prices.</p>
+      <div class="btn-row">
+        <a class="btn btn-orange" href="{{ '/paint-a-car-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a>
+        <a class="btn btn-white" href="{{ '/blog/how-much-does-it-cost-to-paint-a-car/' | relative_url }}">Read the guide &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <script>
 (function () {
