@@ -126,14 +126,6 @@ schema: |
               "@type": "Answer",
               "text": "A typical quality repaint for a sedan costs about $3,500, with a sample range of $1,500 to $10,000 by quality. Basic single coat costs $1,500 to $2,499, standard quality $2,500 to $4,999, and show quality $5,000 to $10,000."
             }
-          },
-          {
-            "@type": "Question",
-            "name": "How much does it cost to repaint an entire car?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "A full repaint costs $1,500 to $10,000 by quality: basic $1,500 to $2,499, standard $2,500 to $4,999, and show quality $5,000 to $10,000, with a standard sedan repaint about $3,500."
-            }
           }
         ]
       }
@@ -369,10 +361,8 @@ Painting the door jambs, the engine bay, and the trunk costs extra, because the 
 <details class="faq"><summary>Is a $4,000 repaint worth it on an $8,000 car?</summary><p>A $4,000 repaint, about the mid-tier sedan benchmark per Kelley Blue Book, is 50 percent of an $8,000 car, 20 percent of a $20,000 car, and 10 percent of a $40,000 car. Judge it by that share, not by the price alone.</p></details>
 <details class="faq"><summary>How much does a car wrap cost compared with paint?</summary><p>A sedan full wrap costs about $3,500, with a sample range of $2,500 to $5,500, against $1,500 to $10,000 for a repaint by quality. A wrap is cheaper and reversible, paint lasts longer.</p></details>
 <details class="faq"><summary>When should I repaint my car?</summary><p>Repaint when the paint has faded, cracked, or peeled, or after damage or rust that needs bodywork first. A basic job takes 1 to 2 days, a midtier job 3 to 5 days, and a premium or custom job 1 to 2 weeks.</p></details>
-
 <details class="faq"><summary>What is the cost to tri-coat paint a car bumper?</summary><p>This guide does not publish a separate bumper price. Tri-coat is a premium 3-stage finish that costs more than a standard bumper respray, because it adds a pearl coat between the base coat and the clear coat. For scale, a full repaint costs $1,500 to $10,000 by quality, with a standard sedan repaint about $3,500, and tri-coat paint adds 15 to 25 percent to the price. Ask the shop to price the bumper as its own line.</p></details>
 <details class="faq"><summary>How much does it cost to get a car painted?</summary><p>A typical quality repaint for a sedan costs about $3,500, with a sample range of $1,500 to $10,000 by quality. Basic single coat costs $1,500 to $2,499, standard quality $2,500 to $4,999, and show quality $5,000 to $10,000.</p></details>
-<details class="faq"><summary>How much does it cost to repaint an entire car?</summary><p>A full repaint costs $1,500 to $10,000 by quality: basic $1,500 to $2,499, standard $2,500 to $4,999, and show quality $5,000 to $10,000, with a standard sedan repaint about $3,500.</p></details>
 
 ## References
 
