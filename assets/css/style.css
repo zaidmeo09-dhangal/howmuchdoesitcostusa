@@ -939,6 +939,14 @@ section.hero.page-hero h1 { margin-bottom: 16px; }
    (calculators and guides already use 32px). Homepage untouched: these
    rules only apply when the body carries the .inner class. */
 body.inner .section-head h2, body.inner .section-title { font-size: 32px; }
+/* H2 spacing (Nov 23, 2026): a bare H2 inside a section-wrap (Blog page
+   "Guides and calculators, side by side") had zero gap above it because
+   the global reset zeroes all margins. Give it the 32px inner size, a
+   56px gap above, and the orange underline bar. Also give H2s that follow
+   content inside a section.wrap (Privacy page) a 48px gap above. */
+.section-wrap > h2 { font-size: 32px; margin-top: 56px; margin-bottom: 18px; }
+.section-wrap > h2::after { content: ""; display: block; width: 56px; height: 4px; background: #F05A30; border-radius: 4px; margin-top: 12px; }
+section.wrap > h2:not(:first-child) { margin-top: 48px; }
 /* StudentCalc pattern responsive. */
 @media (max-width: 1100px) {
   .process-grid { grid-template-columns: repeat(2, 1fr); }
