@@ -22,8 +22,8 @@ schema: |
     <h1>About How Much Does It Cost <span class="accent">USA</span></h1>
     <p class="hero-copy">How Much Does It Cost USA is a small team that builds free online tools. We make cost calculators and guides that show what home, car, and moving jobs cost in the USA, in plain English, with no sign-up and no guesswork.</p>
     <div class="hero-actions">
-      <a class="btn-primary" href="{{ '/tools/' | relative_url }}">Browse All Calculators</a>
-      <a class="btn-secondary" href="{{ '/contact/' | relative_url }}">Contact Us</a>
+      <a class="btn btn-primary" href="{{ '/tools/' | relative_url }}">Browse All Calculators</a>
+      <a class="btn btn-secondary" href="{{ '/contact/' | relative_url }}">Contact Us</a>
     </div>
     <ul class="trust-row">
       <li>Free forever</li>
@@ -54,7 +54,7 @@ schema: |
 </section>
 
 <section class="wrap">
-  <div class="counters reveal">
+  <div class="counters stats-band reveal">
     <div class="counter">
       <div class="num"><span class="count" data-count="8">8</span></div>
       <div class="cap">Calculators</div>
@@ -242,16 +242,48 @@ schema: |
       <h2>All 8 calculators, free forever</h2>
       <p class="section-copy">All 8 calculators are free, with no sign-up. Each one shows a low, typical, and high price for a typical USA job, with an itemized breakdown on its own page.</p>
     </div>
-    <ul>
-      <li><a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator</a>: a typical 2-bedroom local move costs about $1,240, in a range of $843 to $1,637.</li>
-      <li><a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Cost Calculator</a>: a typical 1,800 sq ft asphalt roof costs about $9,180, in a range of $7,528 to $11,475.</li>
-      <li><a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a>: a typical 150 ft wood privacy fence costs about $3,335, in a range of $2,100 to $5,400.</li>
-      <li><a href="{{ '/oil-change-cost-calculator/' | relative_url }}">Oil Change Cost Calculator</a>: a typical full synthetic oil change costs about $75, in a range of $45 to $140.</li>
-      <li><a href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}">Central AC Installation Cost Calculator</a>: a typical 2.5 ton system costs about $6,800, in a range of $5,200 to $9,500.</li>
-      <li><a href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Car Wrap Cost Calculator</a>: a typical sedan full wrap costs about $3,500, in a range of $2,500 to $5,500.</li>
-      <li><a href="{{ '/paint-a-car-cost-calculator/' | relative_url }}">Paint a Car Cost Calculator</a>: a car repaint costs $1,500 to $10,000 by quality, and a typical sedan repaint costs about $3,500.</li>
-      <li><a href="{{ '/house-painting-cost-calculator/' | relative_url }}">House Painting Cost Calculator</a>: a typical exterior paint job for a 1,800 sq ft home costs about $4,200, in a range of $2,800 to $6,800.</li>
-    </ul>
+    <div class="calc-mini-grid reveal">
+      <article class="calc-mini-card">
+        <h3><a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator</a></h3>
+        <p class="mini-price">Typical $1,240</p>
+        <p>2-bedroom local move, range $843 to $1,637.</p>
+      </article>
+      <article class="calc-mini-card">
+        <h3><a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Cost Calculator</a></h3>
+        <p class="mini-price">Typical $9,180</p>
+        <p>1,800 sq ft asphalt roof, range $7,528 to $11,475.</p>
+      </article>
+      <article class="calc-mini-card">
+        <h3><a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a></h3>
+        <p class="mini-price">Typical $3,335</p>
+        <p>150 ft wood privacy fence, range $2,100 to $5,400.</p>
+      </article>
+      <article class="calc-mini-card">
+        <h3><a href="{{ '/oil-change-cost-calculator/' | relative_url }}">Oil Change Cost Calculator</a></h3>
+        <p class="mini-price">Typical $75</p>
+        <p>Full synthetic oil change, range $45 to $140.</p>
+      </article>
+      <article class="calc-mini-card">
+        <h3><a href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}">Central AC Installation Cost Calculator</a></h3>
+        <p class="mini-price">Typical $6,800</p>
+        <p>2.5 ton system, range $5,200 to $9,500.</p>
+      </article>
+      <article class="calc-mini-card">
+        <h3><a href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Car Wrap Cost Calculator</a></h3>
+        <p class="mini-price">Typical $3,500</p>
+        <p>Sedan full wrap, range $2,500 to $5,500.</p>
+      </article>
+      <article class="calc-mini-card">
+        <h3><a href="{{ '/paint-a-car-cost-calculator/' | relative_url }}">Paint a Car Cost Calculator</a></h3>
+        <p class="mini-price">Typical $3,500</p>
+        <p>Car repaint, $1,500 to $10,000 by quality.</p>
+      </article>
+      <article class="calc-mini-card">
+        <h3><a href="{{ '/house-painting-cost-calculator/' | relative_url }}">House Painting Cost Calculator</a></h3>
+        <p class="mini-price">Typical $4,200</p>
+        <p>Exterior paint job, 1,800 sq ft home, range $2,800 to $6,800.</p>
+      </article>
+    </div>
     <p>See <a href="{{ '/tools/' | relative_url }}">all 8 cost calculators</a>, or read the <a href="{{ '/blog/' | relative_url }}">cost guides</a> to learn what drives each price up or down.</p>
   </div>
 </section>
