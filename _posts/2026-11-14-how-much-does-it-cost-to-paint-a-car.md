@@ -139,7 +139,7 @@ schema: |
 </div>
 
 <div class="key-takeaways">
-<p class="key-takeaways-title">Key facts</p>
+<p class="key-takeaways-title">Key Takeaways</p>
 <ul>
 <li>A typical quality repaint for a sedan costs about $3,500, with a sample range of $1,500 to $10,000 by quality.</li>
 <li>Basic single coat costs $1,500 to $2,499, standard quality $2,500 to $4,999, and show quality $5,000 to $10,000.</li>
@@ -148,6 +148,8 @@ schema: |
 <li>Base and clear coat paint lasts 10 to 15 plus years, while single-stage paint fades in 5 to 8 years.</li>
 </ul>
 </div>
+
+<p class="eyebrow">Price table</p>
 
 ## Car paint cost by paint job quality
 
