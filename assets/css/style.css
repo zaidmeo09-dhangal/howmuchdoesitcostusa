@@ -903,27 +903,44 @@ section.hero.page-hero h1 { margin-bottom: 16px; }
 /* Safety net: btn-primary/btn-secondary render as proper pill buttons
    even when used without the base .btn class. */
 .btn-primary, .btn-secondary { display: inline-flex; align-items: center; justify-content: center; gap: 10px; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 16px; padding: 15px 30px; border-radius: 999px; cursor: pointer; transition: background .2s ease, transform .2s ease, color .2s ease, border-color .2s ease; white-space: nowrap; text-decoration: none; }
-/* About "Our Calculators": 8 small uniform cards, 4 columns. */
+/* About "Our Calculators": 8 small photo cards, 4 columns. Sirix pattern:
+   the photo fills the card, dark gradient at the bottom, white title +
+   typical price + white pill button overlaid. Whole card is the link. */
 .calc-mini-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
-.calc-mini-card { background: #FFFFFF; border: 1px solid #EDEDED; border-radius: 20px; padding: 24px 22px; box-shadow: var(--shadow); transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease; }
-.calc-mini-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lift); border-color: #F05A30; }
-.calc-mini-card h3 { font-size: 19px; line-height: 1.3; margin-bottom: 10px; }
-.calc-mini-card h3 a { color: #191C25; text-decoration: none; }
-.calc-mini-card h3 a:hover { color: #F05A30; }
-.calc-mini-card .mini-price { font-family: 'Poppins', sans-serif; font-size: 22px; font-weight: 800; color: #F05A30; margin: 0 0 6px; }
-.calc-mini-card p { color: #5B6472; font-size: 15px; margin: 0; }
-/* Tools page: 8 catchy calculator cards, 2 columns. */
-.tool-cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
-.tool-card { background: #FFFFFF; border: 1px solid #EDEDED; border-radius: 24px; padding: 30px 28px; box-shadow: var(--shadow); transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease; display: flex; flex-direction: column; }
-.tool-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lift); border-color: #F05A30; }
-.tool-num { font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 800; color: #F05A30; letter-spacing: .08em; }
-.tool-card h3 { font-size: 22px; line-height: 1.3; margin: 10px 0 8px; }
-.tool-card h3 a { color: #191C25; text-decoration: none; }
-.tool-card h3 a:hover { color: #F05A30; }
-.tool-card > p { color: #5B6472; font-size: 16px; margin: 0 0 20px; flex: 1; }
-.tool-foot { display: flex; align-items: center; justify-content: space-between; gap: 16px; border-top: 1px solid #EDEDED; padding-top: 20px; }
-.tool-price b { font-family: 'Poppins', sans-serif; font-size: 28px; font-weight: 800; color: #F05A30; display: block; line-height: 1; }
-.tool-price span { font-size: 13px; font-weight: 600; color: #5B6472; }
+.calc-mini-card { position: relative; display: flex; flex-direction: column; justify-content: flex-end; min-height: 250px; border-radius: 16px; overflow: hidden; background: #191C25; box-shadow: var(--shadow); transition: transform .2s ease, box-shadow .2s ease; text-decoration: none; }
+.calc-mini-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lift); }
+.calc-mini-card .mini-photo { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+.calc-mini-card::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(25,28,37,0) 28%, rgba(25,28,37,.55) 60%, rgba(25,28,37,.88) 100%); }
+.calc-mini-card .mini-body { position: relative; z-index: 1; padding: 20px; }
+.calc-mini-card h3 { font-size: 19px; line-height: 1.3; margin: 0 0 6px; color: #fff; }
+.calc-mini-card .mini-price { font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 800; color: #fff; margin: 0 0 12px; }
+.pill-btn { display: inline-flex; align-items: center; gap: 8px; background: #fff; color: #F05A30; font-family: 'Inter', sans-serif; font-weight: 800; font-size: 14px; padding: 10px 18px; border-radius: 999px; text-decoration: none; }
+.calc-mini-card:hover .pill-btn, .tool-card:hover .pill-btn, .guide-card.photo-card:hover .pill-btn { background: #FFF4EF; color: #D94826; }
+/* Tools page: 8 catchy photo calculator cards, 4 columns. Same Sirix
+   pattern as the About mini cards, larger. */
+.tool-cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+.tool-card { position: relative; display: flex; flex-direction: column; justify-content: flex-end; min-height: 280px; border-radius: 16px; overflow: hidden; background: #191C25; box-shadow: var(--shadow); transition: transform .2s ease, box-shadow .2s ease; text-decoration: none; }
+.tool-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lift); }
+.tool-card .tool-photo { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+.tool-card::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(25,28,37,0) 28%, rgba(25,28,37,.55) 60%, rgba(25,28,37,.88) 100%); }
+.tool-num { position: absolute; top: 14px; left: 14px; z-index: 2; background: rgba(25,28,37,.55); color: #fff; font-family: 'Poppins', sans-serif; font-size: 13px; font-weight: 800; letter-spacing: .08em; padding: 6px 12px; border-radius: 999px; }
+.tool-card .tool-body { position: relative; z-index: 1; padding: 20px; }
+.tool-card h3 { font-size: 20px; line-height: 1.3; margin: 0 0 6px; color: #fff; }
+.tool-card .tool-price { font-family: 'Poppins', sans-serif; font-size: 22px; font-weight: 800; color: #fff; margin: 0 0 12px; }
+/* Blog guide cards: photo-card pattern. Photo fills the card, gradient,
+   chip top-left, date + white title + price + white pill overlaid. */
+.guide-card.photo-card { position: relative; display: block; min-height: 300px; border-radius: 16px; background: #191C25; border: none; text-decoration: none; }
+.guide-card.photo-card .photo-card-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+.guide-card.photo-card::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(25,28,37,0) 28%, rgba(25,28,37,.55) 60%, rgba(25,28,37,.88) 100%); border-radius: 16px; }
+.guide-card.photo-card .chip { position: absolute; left: 16px; top: 16px; z-index: 2; background: #F05A30; color: #fff; border-radius: 999px; padding: 8px 15px; font-size: 13px; font-weight: 700; }
+.guide-card.photo-card .guide-overlay { position: absolute; left: 0; right: 0; bottom: 0; z-index: 1; padding: 24px; }
+.guide-card.photo-card .guide-overlay .guide-date { color: rgba(255,255,255,.85); font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; }
+.guide-card.photo-card .guide-overlay h3 { color: #fff; font-size: 22px; line-height: 1.3; margin: 8px 0 6px; }
+.guide-card.photo-card .guide-overlay .guide-price { color: #fff; font-size: 16px; font-weight: 800; margin: 0 0 14px; }
+/* Wolverine cleanliness, inner pages only: generous section padding,
+   left-aligned section heads, one accent colour. Homepage untouched. */
+body.inner .section { padding: 80px 0; }
+body.inner .section-head { text-align: left; margin: 0 0 40px; max-width: 860px; }
 /* Contact page: full-width calculator panel below the two columns. */
 .calc-panel-full { margin-top: 32px; }
 .calc-links-grid { list-style: none; padding: 0; margin: 16px 0; display: grid; grid-template-columns: 1fr 1fr; gap: 4px 32px; }
@@ -954,6 +971,7 @@ section.wrap > h2:not(:first-child) { margin-top: 48px; }
   .blog-hero-photo, .blog-hero-photo img { min-height: 320px; }
   .contact-card { flex-direction: column; align-items: flex-start; gap: 16px; }
   .calc-mini-grid { grid-template-columns: repeat(2, 1fr); }
+  .tool-cards { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 768px) {
   .summary-grid, .cards-grid, .standards-grid, .guides-grid.cols-2 { grid-template-columns: 1fr; }
@@ -972,5 +990,10 @@ section.wrap > h2:not(:first-child) { margin-top: 48px; }
   .counters.stats-band .counter + .counter { border-left: none; }
   .counters.stats-band .counter .num { font-size: 32px; }
   body.inner .section-head h2, body.inner .section-title { font-size: 28px; }
-  .tool-foot { flex-wrap: wrap; }
+}
+/* Photo cards on small phones: shorter cards, inner sections back to 48px. */
+@media (max-width: 480px) {
+  body.inner .section { padding: 48px 0; }
+  .tool-card, .calc-mini-card { min-height: 240px; }
+  .guide-card.photo-card { min-height: 260px; }
 }
