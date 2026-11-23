@@ -154,8 +154,8 @@ schema: |
     <h1>How Much Does It Cost to <span class="accent">Paint</span> a Car? Calculator</h1>
     <p class="hero-copy">A typical quality repaint for a sedan in the USA costs about $3,500, with a sample range of $1,500 to $10,000 by quality.</p>
     <div class="hero-actions">
-      <a class="btn-primary" href="{{ '/blog/how-much-does-it-cost-to-paint-a-car/' | relative_url }}">Read the Guide</a>
-      <a class="btn-secondary" href="{{ '/tools/' | relative_url }}">All Calculators</a>
+      <a class="btn btn-primary" href="{{ '/blog/how-much-does-it-cost-to-paint-a-car/' | relative_url }}">Read the Guide</a>
+      <a class="btn btn-secondary" href="{{ '/tools/' | relative_url }}">All Calculators</a>
     </div>
   </div>
 </section>
