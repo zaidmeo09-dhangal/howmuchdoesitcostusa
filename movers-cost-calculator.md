@@ -154,8 +154,8 @@ schema: |
     <h1>Movers <span class="accent">Cost</span> Calculator</h1>
     <p class="hero-copy">A typical 2-bedroom local move in the USA costs about $1,240, with a sample range of $843 to $1,637.</p>
     <div class="hero-actions">
-      <a class="btn-primary" href="{{ '/blog/how-much-do-movers-cost/' | relative_url }}">Read the Guide</a>
-      <a class="btn-secondary" href="{{ '/tools/' | relative_url }}">All Calculators</a>
+      <a class="btn btn-primary" href="{{ '/blog/how-much-do-movers-cost/' | relative_url }}">Read the Guide</a>
+      <a class="btn btn-secondary" href="{{ '/tools/' | relative_url }}">All Calculators</a>
     </div>
   </div>
 </section>
