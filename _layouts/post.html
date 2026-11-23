@@ -5,6 +5,7 @@ layout: default
   <div class="reading-progress" aria-hidden="true"><span id="readingProgressBar"></span></div>
   <header class="post-hero">
     <p class="crumb"><a href="{{ '/' | relative_url }}">Home</a> / <a href="{{ '/blog/' | relative_url }}">Guides</a> / {{ page.title }}</p>
+    <div class="hero-badge"><span class="hero-badge-dot"></span>{{ page.guide_category | default: "Cost Guide" }}</div>
     <div class="post-hero-grid">
       <div class="post-hero-text">
         <p class="post-kicker">{{ page.guide_category | default: "Cost Guide" }}</p>
@@ -16,6 +17,7 @@ layout: default
             <span class="post-date">Published {{ page.date | date: "%B %-d, %Y" }} | Updated November 21, 2026</span>
           </div>
         </div>
+        <p class="hero-copy">{{ page.meta_description }}</p>
         <div class="share-row">
           <span class="share-label">Share</span>
           <a class="share-btn" href="https://x.com/intent/tweet?url={{ page.url | absolute_url | url_encode }}&amp;text={{ page.title | url_encode }}" target="_blank" rel="noopener" aria-label="Share on X"><svg aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.451-6.231zm-1.161 17.52h1.833L7.084 4.126H5.117l11.966 15.644z"/></svg></a>
