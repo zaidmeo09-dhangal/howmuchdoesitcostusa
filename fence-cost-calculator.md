@@ -170,8 +170,8 @@ schema: |
     <h1>Fence <span class="accent">Cost</span> Calculator</h1>
     <p class="hero-copy">A typical 150 ft wood privacy fence in the USA costs about $3,335, with a sample range of $2,100 to $5,400.</p>
     <div class="hero-actions">
-      <a class="btn-primary" href="{{ '/blog/how-much-does-a-fence-cost/' | relative_url }}">Read the Guide</a>
-      <a class="btn-secondary" href="{{ '/tools/' | relative_url }}">All Calculators</a>
+      <a class="btn btn-primary" href="{{ '/blog/how-much-does-a-fence-cost/' | relative_url }}">Read the Guide</a>
+      <a class="btn btn-secondary" href="{{ '/tools/' | relative_url }}">All Calculators</a>
     </div>
   </div>
 </section>
