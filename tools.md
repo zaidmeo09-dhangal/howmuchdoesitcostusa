@@ -14,7 +14,6 @@ schema: |
     "description": "All free cost calculators: movers, roof, fence, oil change, central air, car wrap, car painting, and house painting, with low, typical, and high prices."
   }
 ---
-
 <section class="hero page-hero">
   <div class="wrap">
     <nav class="breadcrumb"><a href="/">Home</a> / <span aria-current="page">Tools</span></nav>
@@ -50,60 +49,6 @@ schema: |
       <h2>USA prices</h2>
       <p>Every price is a sample estimated USA range, in plain English.</p>
     </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="section-wrap">
-    <div class="section-head">
-      <div class="eyebrow">How It Works</div>
-      <h2 class="section-title">How to use the calculators</h2>
-      <p class="section-copy">Pick a job, answer a few questions, and see your price in seconds.</p>
-    </div>
-<ol class="steps">
-    <li><strong>Pick your job.</strong> Movers, roof, fence, oil change, central air, car wrap, car painting, or house painting.</li>
-    <li><strong>Answer a few questions.</strong> A movers price needs your home size and distance, a roof price needs the roof size and material, a fence price needs the length, material, height, and gates, an oil change needs the oil type and vehicle type, central air needs the home size and efficiency, a car wrap needs the vehicle size, wrap type, and finish, a car paint job needs the vehicle size, paint quality, and job scope, and house painting needs the job type and home size.</li>
-    <li><strong>See your low, typical, and high price in seconds.</strong> No calculator asks for your name, email, or address, and every calculation happens in your browser.</li>
-  </ol>
-  </div>
-</section>
-
-<section class="section alt">
-  <div class="section-wrap">
-    <div class="section-head">
-      <div class="eyebrow">Price Bands</div>
-      <h2 class="section-title">How the low, typical, and high ranges work</h2>
-      <p class="section-copy">Every calculator shows three bands for a typical USA job.</p>
-    </div>
-<div class="table-wrap">
-    <table class="cost-table bands-table">
-      <thead>
-        <tr><th>Band</th><th>What it means</th></tr>
-      </thead>
-      <tbody>
-        <tr><td>Low</td><td>A smaller job with basic choices.</td></tr>
-        <tr><td>Typical</td><td>The most common result at typical USA rates.</td></tr>
-        <tr><td>High</td><td>A larger job, premium choices, or extra services.</td></tr>
-      </tbody>
-    </table>
-  </div>
-<p>Below the bands, an itemized breakdown splits the total into material, labor, supplies, and equipment, so you can check the math line by line. The bands update with your choices, so change one input and the range moves with it.</p>
-  </div>
-</section>
-
-<section class="section">
-  <div class="section-wrap">
-    <div class="section-head">
-      <div class="eyebrow">Why Ranges</div>
-      <h2 class="section-title">Why prices are ranges, not quotes</h2>
-      <p class="section-copy">Your size, your materials, and where you live move every price.</p>
-    </div>
-<ul class="checklist">
-    <li><strong>Your size and materials.</strong> A bigger job and premium materials cost more than a smaller job with basic choices.</li>
-    <li><strong>Where you live.</strong> A roof in a big city costs more than the same roof in a small town.</li>
-    <li><strong>Premium vs basic choices.</strong> A premium material costs more than a basic one.</li>
-  </ul>
-<p>The range shows that spread, and the breakdown shows where it comes from. Use the range to check quotes from local pros: ask each pro for a written quote for the same size and options, compare the quotes line by line against the breakdown, and always get 3 quotes before you hire anyone.</p>
   </div>
 </section>
 
@@ -196,6 +141,60 @@ schema: |
 <section class="section">
   <div class="section-wrap">
     <div class="section-head">
+      <div class="eyebrow">How It Works</div>
+      <h2 class="section-title">How to use the calculators</h2>
+      <p class="section-copy">Pick a job, answer a few questions, and see your price in seconds.</p>
+    </div>
+<ol class="steps">
+    <li><strong>Pick your job.</strong> Movers, roof, fence, oil change, central air, car wrap, car painting, or house painting.</li>
+    <li><strong>Answer a few questions.</strong> A movers price needs your home size and distance, a roof price needs the roof size and material, a fence price needs the length, material, height, and gates, an oil change needs the oil type and vehicle type, central air needs the home size and efficiency, a car wrap needs the vehicle size, wrap type, and finish, a car paint job needs the vehicle size, paint quality, and job scope, and house painting needs the job type and home size.</li>
+    <li><strong>See your low, typical, and high price in seconds.</strong> No calculator asks for your name, email, or address, and every calculation happens in your browser.</li>
+  </ol>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="section-wrap">
+    <div class="section-head">
+      <div class="eyebrow">Price Bands</div>
+      <h2 class="section-title">How the low, typical, and high ranges work</h2>
+      <p class="section-copy">Every calculator shows three bands for a typical USA job.</p>
+    </div>
+<div class="table-wrap">
+    <table class="cost-table bands-table">
+      <thead>
+        <tr><th>Band</th><th>What it means</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Low</td><td>A smaller job with basic choices.</td></tr>
+        <tr><td>Typical</td><td>The most common result at typical USA rates.</td></tr>
+        <tr><td>High</td><td>A larger job, premium choices, or extra services.</td></tr>
+      </tbody>
+    </table>
+  </div>
+<p>Below the bands, an itemized breakdown splits the total into material, labor, supplies, and equipment, so you can check the math line by line. The bands update with your choices, so change one input and the range moves with it.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-wrap">
+    <div class="section-head">
+      <div class="eyebrow">Why Ranges</div>
+      <h2 class="section-title">Why prices are ranges, not quotes</h2>
+      <p class="section-copy">Your size, your materials, and where you live move every price.</p>
+    </div>
+<ul class="checklist">
+    <li><strong>Your size and materials.</strong> A bigger job and premium materials cost more than a smaller job with basic choices.</li>
+    <li><strong>Where you live.</strong> A roof in a big city costs more than the same roof in a small town.</li>
+    <li><strong>Premium vs basic choices.</strong> A premium material costs more than a basic one.</li>
+  </ul>
+<p>The range shows that spread, and the breakdown shows where it comes from. Use the range to check quotes from local pros: ask each pro for a written quote for the same size and options, compare the quotes line by line against the breakdown, and always get 3 quotes before you hire anyone.</p>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="section-wrap">
+    <div class="section-head">
       <div class="eyebrow">Cost Guides</div>
       <h2 class="section-title">Read the guides</h2>
       <p class="section-copy">Prefer to read first? Each guide opens with a direct answer, shows a price table, and links to the matching calculator.</p>
@@ -210,7 +209,9 @@ schema: |
     <li><a href="{{ '/blog/how-much-does-it-cost-to-install-central-air/' | relative_url }}">How Much Does It Cost to Install Central Air?</a> <span>By home size and efficiency.</span></li>
     <li><a href="{{ '/blog/how-much-does-it-cost-to-paint-a-car/' | relative_url }}">How Much Does It Cost to Paint a Car?</a> <span>By vehicle size, quality, and scope.</span></li>
   </ul>
-<p>See <a href="{{ '/blog/' | relative_url }}">all cost guides</a> for the full list.</p>
+    <div class="see-all-cta">
+      <a class="btn btn-orange" href="{{ '/blog/' | relative_url }}">See all cost guides &rarr;</a>
+    </div>
   </div>
 </section>
 
