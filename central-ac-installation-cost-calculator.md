@@ -156,7 +156,6 @@ schema: |
     <p id="answerIntro">A typical 2.5 ton central air system in the USA costs about $6,800, with a sample range of $5,200 to $9,500.</p>
     <p class="note">All prices on this page are sample estimated USA ranges, not quotes.</p>
     <p>Read the full guide: <a href="{{ '/blog/how-much-does-it-cost-to-install-central-air/' | relative_url }}">How Much Does It Cost to Install Central Air?</a></p>
-    <p class="updated-line">Updated November 21, 2026</p>
   </div>
 
   <div class="calc">
@@ -367,8 +366,6 @@ schema: |
     <li>Seal ducts before sizing a new system</li>
     <li>Schedule installation in spring or fall, when Angi says you can save 10 to 15 percent</li>
     <li>Do not count on the federal 25C tax credit: it ended December 31, 2025, under Public Law 119-21, per TrueRepairCost. Check state and utility rebates instead</li>
-      <li>Ask for a Manual J load calculation, not a size guess from square feet alone</li>
-    <li>Ask for a duct leakage test and a written price for any duct repair</li>
     <li>Check state and utility rebates, since the federal 25C tax credit ended December 31, 2025</li>
 </ul>
 
