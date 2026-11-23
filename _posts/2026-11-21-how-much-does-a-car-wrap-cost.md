@@ -189,7 +189,7 @@ schema: |
 <p>Car wrap cost is the same question in different words: how much does it cost to wrap a car, how much does it cost to wrap your car, how much does a car wrap cost, and how much does it cost to get your car wrapped all point to the same range, about $3,500 typical for a sedan full wrap, with a sample range of $2,500 to $5,500.</p>
 
 <div class="key-takeaways">
-<p class="key-takeaways-title">Key facts</p>
+<p class="key-takeaways-title">Key Takeaways</p>
 <ul>
 <li>A typical sedan full wrap costs about $3,500, with a sample range of $2,500 to $5,500.</li>
 <li>Typical full wrap prices are $2,800 for a compact, $3,500 for a sedan, $4,800 for an SUV, and $5,500 for a truck.</li>
@@ -200,6 +200,8 @@ schema: |
 </div>
 
 <figure><img src="/assets/images/blog/car-wrap-cost/car-wrap-inpost-1.webp" alt="Worker applying white vinyl wrap to a car hood with a heat gun in a workshop" width="1200" height="800" loading="lazy"></figure>
+
+<p class="eyebrow">Price table</p>
 
 ## Car wrap cost by vehicle type
 
