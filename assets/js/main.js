@@ -64,6 +64,37 @@
   }
   var counters = document.querySelectorAll("[data-count]");
   var bars = document.querySelectorAll(".card .price-bar span");
+  /* Inner pages (everything except the homepage, which already places
+     .reveal by hand): add reveal-on-scroll to the main content blocks so
+     the calculators, guides, and info pages animate like the homepage.
+     The homepage has .hero-grid; no inner page does (guide pages use
+     .post-hero-grid, a different class). This runs before the
+     IntersectionObserver below, so the new .reveal elements are observed.
+     Base state stays visible without JavaScript (noscript fallback in
+     default.html) and without IntersectionObserver (else branch below). */
+  if (!document.querySelector(".hero-grid")) {
+    var revealSelectors = [
+      "section.hero",
+      ".calc",
+      ".bands",
+      ".answer",
+      "details.faq",
+      ".two-col",
+      ".table-wrap",
+      ".grid .card",
+      ".related-grid .card",
+      ".post-hero",
+      ".post-feature",
+      ".post .key-takeaways",
+      ".post .pull-quote",
+      ".contact-form",
+      "section.wrap > h2",
+      ".post-body > h2"
+    ];
+    revealSelectors.forEach(function (sel) {
+      document.querySelectorAll(sel).forEach(function (el) { el.classList.add("reveal"); });
+    });
+  }
   var reveals = document.querySelectorAll(".reveal");
   if ("IntersectionObserver" in window && !reduceMotion) {
     var io = new IntersectionObserver(function (entries) {
