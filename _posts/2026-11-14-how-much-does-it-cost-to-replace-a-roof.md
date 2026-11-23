@@ -113,34 +113,10 @@ schema: |
           },
           {
             "@type": "Question",
-            "name": "What is the cost to replace a roof?",
+            "name": "How much does it cost to replace a roof?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "A typical 1,800 sq ft asphalt shingle roof costs about $9,180 to replace, with a sample range of $7,528 to $11,475. Metal costs $13,500 to $21,000 with a typical total of $17,100, and clay tile costs $16,000 to $25,000 with a typical total of $21,600."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How much does an asphalt roof replacement cost?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "An asphalt roof replacement costs $5.10 per sq ft at the calculator default for architectural asphalt, so a 1,800 sq ft roof costs about $9,180 typical. 3-tab asphalt costs $3 to $5 per sq ft and architectural asphalt costs $4 to $7 per sq ft."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How much does it cost to get a roof replaced?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "The cost to have a roof replaced is the same as the cost to replace a roof. A typical 1,800 sq ft asphalt shingle roof costs about $9,180, with a sample range of $7,528 to $11,475. Use the Roof Replacement Cost Calculator to price your roof size and material."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How much does it cost to replace a metal roof?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "A metal roof costs $13,500 to $21,000 for a 1,800 sq ft roof, with a typical total of $17,100. Metal costs more up front than asphalt, but a metal roof lasts 40 to 70 years."
             }
           },
           {
@@ -153,26 +129,18 @@ schema: |
           },
           {
             "@type": "Question",
-            "name": "How much does it cost to replace a commercial roof?",
+            "name": "How much does it cost to replace a metal roof?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The prices on this page are for residential roofs. Commercial roofs use different materials and systems and are priced per project, so ask a commercial roofer for a separate written quote."
+              "text": "A metal roof costs $13,500 to $21,000 for a 1,800 sq ft roof, with a typical total of $17,100. Metal costs more up front than asphalt, but a metal roof lasts 40 to 70 years."
             }
           },
           {
             "@type": "Question",
-            "name": "How much does it cost to replace a flat roof?",
+            "name": "How much does it cost to replace a commercial, flat, or garage roof?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The prices on this page are for pitched roofs with shingles, metal, or tile. Flat roofs use membrane systems and are priced differently, so ask your roofer for a separate written quote."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How much does it cost to replace a garage roof?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "A garage roof is priced by the same per square foot rates as a house roof, so a small garage roof costs less than a full house roof. Architectural asphalt runs $4 to $7 per sq ft, so multiply your garage roof area by that rate for a rough idea, then get a written quote."
+              "text": "The prices on this page are for pitched residential roofs. Commercial roofs use different materials and systems and are priced per project, so ask a commercial roofer for a separate written quote. Flat roofs use membrane systems and are priced differently, so ask your roofer for a separate written quote. A garage roof is priced by the same per square foot rates as a house roof, so a small garage roof costs less than a full house roof. Architectural asphalt runs $4 to $7 per sq ft, so multiply your garage roof area by that rate for a rough idea, then get a written quote."
             }
           },
           {
@@ -460,15 +428,10 @@ Most US cities require a permit for a full roof replacement, and the permit fee 
 <details class="faq"><summary>How much does roof pitch add to the cost?</summary><p>WhatHomeCosts puts a 4:12 to 8:12 pitch at base to 5 to 10% more, 8:12 to 12:12 at about 15 to 25% more, and 12:12 and over at up to about 30% more. On a $9,180 roof, 30% more is $9,180 x 1.30 = $11,934.</p></details>
 <details class="faq"><summary>How much does a roof cost per year?</summary><p>An asphalt roof at $9,180 costs $459 a year over 20 years and $306 a year over 30 years. A metal roof at $17,100 costs about $428 a year over 40 years and about $244 a year over 70 years.</p></details>
 <details class="faq"><summary>How do I know my roof needs replacing?</summary><p>Look for missing, cracked, or curling shingles, granules in the gutters, daylight in the attic, and water stains inside. Replace if the roof is 20 or more years old, or if damage covers more than 20 percent of the roof surface.</p></details>
-
-<details class="faq"><summary>What is the cost to replace a roof?</summary><p>A typical 1,800 sq ft asphalt shingle roof costs about $9,180 to replace, with a sample range of $7,528 to $11,475. Metal costs $13,500 to $21,000 with a typical total of $17,100, and clay tile costs $16,000 to $25,000 with a typical total of $21,600.</p></details>
-<details class="faq"><summary>How much does an asphalt roof replacement cost?</summary><p>An asphalt roof replacement costs $5.10 per sq ft at the calculator default for architectural asphalt, so a 1,800 sq ft roof costs about $9,180 typical. 3-tab asphalt costs $3 to $5 per sq ft and architectural asphalt costs $4 to $7 per sq ft.</p></details>
-<details class="faq"><summary>How much does it cost to get a roof replaced?</summary><p>The cost to have a roof replaced is the same as the cost to replace a roof. A typical 1,800 sq ft asphalt shingle roof costs about $9,180, with a sample range of $7,528 to $11,475. Use the Roof Replacement Cost Calculator to price your roof size and material.</p></details>
-<details class="faq"><summary>How much does it cost to replace a metal roof?</summary><p>A metal roof costs $13,500 to $21,000 for a 1,800 sq ft roof, with a typical total of $17,100. Metal costs more up front than asphalt, but a metal roof lasts 40 to 70 years.</p></details>
+<details class="faq"><summary>How much does it cost to replace a roof?</summary><p>A typical 1,800 sq ft asphalt shingle roof costs about $9,180 to replace, with a sample range of $7,528 to $11,475. Metal costs $13,500 to $21,000 with a typical total of $17,100, and clay tile costs $16,000 to $25,000 with a typical total of $21,600.</p></details>
 <details class="faq"><summary>How much does it cost to replace a shingle roof?</summary><p>An asphalt shingle roof costs $7,528 to $11,475 for a 1,800 sq ft roof, with a typical total of $9,180. 3-tab asphalt costs $3 to $5 per sq ft and architectural asphalt costs $4 to $7 per sq ft.</p></details>
-<details class="faq"><summary>How much does it cost to replace a commercial roof?</summary><p>The prices on this page are for residential roofs. Commercial roofs use different materials and systems and are priced per project, so ask a commercial roofer for a separate written quote.</p></details>
-<details class="faq"><summary>How much does it cost to replace a flat roof?</summary><p>The prices on this page are for pitched roofs with shingles, metal, or tile. Flat roofs use membrane systems and are priced differently, so ask your roofer for a separate written quote.</p></details>
-<details class="faq"><summary>How much does it cost to replace a garage roof?</summary><p>A garage roof is priced by the same per square foot rates as a house roof, so a small garage roof costs less than a full house roof. Architectural asphalt runs $4 to $7 per sq ft, so multiply your garage roof area by that rate for a rough idea, then get a written quote.</p></details>
+<details class="faq"><summary>How much does it cost to replace a metal roof?</summary><p>A metal roof costs $13,500 to $21,000 for a 1,800 sq ft roof, with a typical total of $17,100. Metal costs more up front than asphalt, but a metal roof lasts 40 to 70 years.</p></details>
+<details class="faq"><summary>How much does it cost to replace a commercial, flat, or garage roof?</summary><p>The prices on this page are for pitched residential roofs. Commercial roofs use different materials and systems and are priced per project, so ask a commercial roofer for a separate written quote. Flat roofs use membrane systems and are priced differently, so ask your roofer for a separate written quote. A garage roof is priced by the same per square foot rates as a house roof, so a small garage roof costs less than a full house roof. Architectural asphalt runs $4 to $7 per sq ft, so multiply your garage roof area by that rate for a rough idea, then get a written quote.</p></details>
 <details class="faq"><summary>How long does it take to replace a roof?</summary><p>Most single-family asphalt roofs take 2 to 3 days with a crew of 4 to 6 roofers. Larger, steeper, or more complex roofs, and metal or tile roofs, take longer.</p></details>
 <details class="faq"><summary>What does a roof cost per square?</summary><p>One roofing square is 100 sq ft of roof surface. A typical 1,800 sq ft asphalt roof is 18 squares at about $9,180, which works out to about $510 per square. A metal roof at $17,100 typical is about $950 per square.</p></details>
 <details class="faq"><summary>What warranty should a new roof have?</summary><p>A new roof should come with two warranties: a workmanship warranty from the roofer and a manufacturer material warranty. Get both in writing in the contract, with the length and what each one covers, and keep the papers with the permit.</p></details>
