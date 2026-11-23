@@ -18,34 +18,42 @@ schema: |
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "Are these cost calculators really free?",
+            "name": "How much do movers cost?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. Every calculator and guide on this site is free, with no account and no sign-up. All calculations happen in your browser."
+              "text": "A typical 2-bedroom local move costs about $1,240, in a range of $843 to $1,637. The final price depends on home size, distance, and the number of movers and hours."
             }
           },
           {
             "@type": "Question",
-            "name": "Are the prices exact quotes?",
+            "name": "How do movers calculate cost?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "No. Prices on this site are sample estimated USA ranges built from typical material and labor costs. Your real quote depends on your size, materials, and location, so always get 3 quotes from local pros."
+              "text": "Local moves are usually priced by the hour, per mover. Long-distance moves are priced by weight and miles. Home size, stairs, and extra services move the price up or down."
             }
           },
           {
             "@type": "Question",
-            "name": "Do the prices cover the whole USA?",
+            "name": "Do movers charge per hour?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. The ranges are USA national averages. Big cities usually cost more than small towns, and the guides explain what moves the price up or down."
+              "text": "Yes, local movers usually charge per hour per mover, often with a minimum of 2 to 3 hours. The hourly rate covers the crew, the truck, and basic equipment."
             }
           },
           {
             "@type": "Question",
-            "name": "Do you store what I type into a calculator?",
+            "name": "Are the prices quotes or estimates?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "No. All calculations happen in your browser. Nothing you type is sent to our servers or stored anywhere."
+              "text": "They are sample estimated USA ranges, not quotes. Use the low, typical, and high to check any quote you receive, and always get 3 quotes from local pros."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need to sign up?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Every calculator is free and needs no account, no email, and no sign-up. Open a calculator and get your price."
             }
           }
         ]
@@ -54,155 +62,657 @@ schema: |
   }
 ---
 
-<div class="ticker" aria-hidden="true"><div class="ticker-track"><span>Movers typically $1,240</span><span>Roof replacement typically $9,180</span><span>Fence typically $3,335</span><span>Oil change typically $75</span><span>Central AC typically $6,800</span><span>Car wrap typically $3,500</span><span>House painting typically $4,200</span><span>Paint a car typically $3,500</span><span>Movers typically $1,240</span><span>Roof replacement typically $9,180</span><span>Fence typically $3,335</span><span>Oil change typically $75</span><span>Central AC typically $6,800</span><span>Car wrap typically $3,500</span><span>House painting typically $4,200</span><span>Paint a car typically $3,500</span></div></div>
-
 <section class="hero">
-  <div class="wrap hero-grid">
-    <div class="hero-copy">
-      <p class="kicker">USA COST GUIDES + CALCULATORS</p>
-      <p class="hero-updated">Updated November 21, 2026</p>
-      <h1 aria-label="How much does it cost in the USA?">How much does it <span class="accent-u">cost</span> in the USA?</h1>
-      <p class="lede">Wondering how much does it cost to move, re-roof, or repaint a home in the USA? Pick a calculator, answer a few questions, and see your low, typical, and high price in seconds.</p>
-      <p class="hero-answer">A typical 2-bedroom local move costs about <strong>$1,240</strong>, in a range of $843 to $1,637. See the full breakdown in the <a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator</a>.</p>
-      <form class="search-box" id="searchForm" role="search" action="{{ '/tools/' | relative_url }}" method="get">
+  <div class="hero-grid">
+    <div>
+      <span class="badge hero-anim d1"><span class="star">&#9733;</span> Free calculators, USA prices</span>
+      <h1 class="hero-anim d2">How much does it <span class="accent">cost</span> in the USA?</h1>
+      <p class="lede hero-anim d3">Wondering how much it costs to move, re-roof, or repaint a home in the USA? Pick a calculator, answer a few questions, and see your low, typical, and high price in seconds.</p>
+      <div class="price-answer hero-anim d4">
+        <div class="label">A typical 2-bedroom local move costs about</div>
+        <div class="big"><span class="count" data-count="1240" data-prefix="$">$1,240</span></div>
+        <div class="range">in a range of $843 to $1,637. See the full breakdown in the <a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator</a>.</div>
+      </div>
+      <div class="hero-cta hero-anim d5">
+        <a class="btn btn-orange" href="{{ '/tools/' | relative_url }}">Get a Price &rarr;</a>
+        <a class="btn btn-white" href="{{ '/blog/' | relative_url }}">Read the Guides &rarr;</a>
+      </div>
+      <form class="search-box hero-anim d5" id="searchForm" role="search" action="{{ '/tools/' | relative_url }}" method="get">
         <label for="siteSearch" class="sr-only">Search cost calculators and guides</label>
         <input type="search" id="siteSearch" name="q" placeholder="Try: movers, roof, fence, oil change..." autocomplete="off">
-        <button class="btn btn-gold" type="submit" style="white-space:nowrap;">Check Price</button>
+        <button class="btn btn-orange" type="submit" style="white-space:nowrap;">Check Price</button>
       </form>
       <ul class="search-results" id="searchResults"></ul>
-      <p><a class="btn btn-gold" href="{{ '/tools/' | relative_url }}">Get a Price</a> <a class="btn btn-outline" href="{{ '/blog/' | relative_url }}">Read the Guides</a></p>
+      <div class="trust-row hero-anim d5">
+        <span>Free forever</span>
+        <span>No sign-up</span>
+        <span>USA prices</span>
+        <span>Updated November 2026</span>
+      </div>
     </div>
-    <aside class="hero-card" aria-label="Sample estimate">
-      <p class="hero-card-label">Sample estimate</p>
-      <p class="hero-card-title">2-bedroom local move</p>
-      <p class="hero-card-price">Typical <span class="hero-counter" data-count="1240" data-start="843" data-prefix="$">$1,240</span></p>
-      <p class="hero-card-range">Low $843 - High $1,637</p>
-      <div class="hero-card-range-bar" aria-hidden="true"><span style="width:50%"></span></div>
-      <p class="hero-card-note">Sample estimated USA range, not a quote. <a href="{{ '/movers-cost-calculator/' | relative_url }}">Calculate your move price</a></p>
-    </aside>
+    <div class="hero-photo-wrap hero-anim d3">
+      <div class="hero-photo">
+        <div class="fallback">
+          <div class="big-dollar">$1,240</div>
+          <p>Typical 2-bedroom local move, USA average. Low $843, high $1,637.</p>
+        </div>
+        <img src="https://images.pexels.com/photos/7464244/pexels-photo-7464244.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Two professional movers carrying cardboard boxes on moving day" onerror="this.style.display='none'">
+      </div>
+      <div class="float-card float-1"><span class="dot"></span> Live prices</div>
+      <div class="float-card float-2">100% Free, <b>No Sign-up</b></div>
+      <div class="float-card float-3">USA Prices &nbsp;<b>$1,240 Typical Move</b></div>
+    </div>
   </div>
+</section>
+
+<section class="section">
   <div class="wrap">
-    <ul class="trust-row">
-      <li>Free forever</li>
-      <li>No sign-up</li>
-      <li>USA prices</li>
-      <li>Updated November 21, 2026</li>
-    </ul>
+    <div class="section-head reveal">
+      <div class="eyebrow"><span class="e-icon">&#10003;</span> Why use our calculators</div>
+      <h2>Simple, honest, <span class="accent">free</span> prices</h2>
+      <p>Every calculator shows a low, typical, and high price, with an itemized breakdown on its own page.</p>
+    </div>
+    <div class="adv-grid">
+      <div class="adv-card reveal">
+        <div class="adv-icon">$</div>
+        <h3>Free Forever</h3>
+        <p>Every calculator and guide is free. No paywall, no trial, no catch.</p>
+      </div>
+      <div class="adv-card reveal">
+        <div class="adv-icon">&#10003;</div>
+        <h3>No Sign-up</h3>
+        <p>No account, no email, no waiting. Open a calculator and get your price.</p>
+      </div>
+      <div class="adv-card reveal">
+        <div class="adv-icon">&#9873;</div>
+        <h3>USA Prices</h3>
+        <p>Sample estimated USA ranges, built for American homes, cities, and jobs.</p>
+      </div>
+      <div class="adv-card reveal">
+        <div class="adv-icon">&#9776;</div>
+        <h3>Itemized Prices</h3>
+        <p>See what drives the price, line by line, so you can check any quote.</p>
+      </div>
+    </div>
   </div>
+</section>
+
+<section class="section">
   <div class="wrap">
-    <figure class="hero-photo"><img src="{{ '/assets/images/hero-home.webp' | relative_url }}" alt="Modern two story suburban house in the USA with a lawn and blue sky" width="900" height="600" fetchpriority="high"></figure>
-  </div>
-</section>
-
-<section class="wrap how-it-works">
-  <h2>How it works</h2>
-  <ol class="how-steps">
-    <li><span class="how-step-num" aria-hidden="true">1</span><h3>Pick your job</h3><p>Choose a calculator or guide for the job you want to price.</p></li>
-    <li><span class="how-step-num" aria-hidden="true">2</span><h3>Answer a few questions</h3><p>Pick your size and options. No account, no sign-up.</p></li>
-    <li><span class="how-step-num" aria-hidden="true">3</span><h3>Get your price range</h3><p>See your low, typical, and high price in seconds.</p></li>
-    <li><span class="how-step-num" aria-hidden="true">4</span><h3>Compare 3 quotes</h3><p>Use the range to check quotes from local pros.</p></li>
-  </ol>
-</section>
-
-<section class="wrap">
-  <h2>What do you want to price?</h2>
-  <div class="grid">
-    <div class="card bucket">
-      <span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/><path d="M9 21v-6h6v6"/></svg></span>
-      <h3><a href="{{ '/tools/' | relative_url }}">Home Projects</a></h3>
-      <p>Roof replacement cost, fences, central air, and house painting. See what a job costs before you call a contractor.</p>
-      <ul class="bucket-links">
-        <li><a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Calculator <span aria-hidden="true">&rarr;</span></a></li>
-        <li><a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator <span aria-hidden="true">&rarr;</span></a></li>
-        <li><a href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}">Central AC Calculator <span aria-hidden="true">&rarr;</span></a></li>
-        <li><a href="{{ '/house-painting-cost-calculator/' | relative_url }}">House Painting Calculator <span aria-hidden="true">&rarr;</span></a></li>
-      </ul>
+    <div class="about-grid">
+      <div class="about-photo reveal">
+        <div class="fallback">
+          <div class="big-dollar">$1,240</div>
+          <p>Typical 2-bedroom local move, USA average.</p>
+        </div>
+        <img src="https://images.pexels.com/photos/20708166/pexels-photo-20708166.jpeg" alt="Modern two story suburban house in the USA with a lawn and blue sky" onerror="this.style.display='none'">
+      </div>
+      <div class="about-copy reveal">
+        <div class="eyebrow"><span class="e-icon">&#9733;</span> About us</div>
+        <h2 class="h2-left">We answer one question, <span class="accent">really well</span></h2>
+        <p>How Much Does It Cost USA is a free price guide for American homes. We research what common jobs cost across the USA and turn it into simple calculators and guides, so you know a fair price before you call a pro.</p>
+        <p>Every price is a sample estimated USA range, not a quote. We show the low, the typical, and the high, with an itemized breakdown, so you can compare quotes with confidence.</p>
+        <a class="btn btn-orange" href="{{ '/about/' | relative_url }}">Read More &rarr;</a>
+      </div>
     </div>
-    <div class="card bucket">
-      <span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 11 6 7.2A2 2 0 0 1 7.9 6h8.2a2 2 0 0 1 1.9 1.2L19.5 11"/><rect x="3" y="11" width="18" height="5.5" rx="1.5"/><circle cx="7.5" cy="18" r="1.8"/><circle cx="16.5" cy="18" r="1.8"/></svg></span>
-      <h3><a href="{{ '/tools/' | relative_url }}">Car Costs</a></h3>
-      <p>Oil change cost and car wrap cost. Quick prices for the car jobs every driver pays for.</p>
-      <ul class="bucket-links">
-        <li><a href="{{ '/oil-change-cost-calculator/' | relative_url }}">Oil Change Calculator <span aria-hidden="true">&rarr;</span></a></li>
-        <li><a href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Car Wrap Calculator <span aria-hidden="true">&rarr;</span></a></li>
-      </ul>
-    </div>
-    <div class="card bucket">
-      <span class="card-icon" aria-hidden="true"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h12v11H2z"/><path d="M14 9h4l3 3v4h-7"/><circle cx="6" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg></span>
-      <h3><a href="{{ '/tools/' | relative_url }}">Moving Costs</a></h3>
-      <p>Local and long distance moves. Price your move by home size and distance.</p>
-      <ul class="bucket-links">
-        <li><a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator <span aria-hidden="true">&rarr;</span></a></li>
-        <li><a href="{{ '/blog/how-much-do-movers-cost/' | relative_url }}">Movers Cost Guide <span aria-hidden="true">&rarr;</span></a></li>
-      </ul>
+    <div class="counters reveal">
+      <div class="counter">
+        <div class="num"><span class="count" data-count="8">8</span></div>
+        <div class="cap">Calculators</div>
+      </div>
+      <div class="counter">
+        <div class="num"><span class="count" data-count="9">9</span></div>
+        <div class="cap">Guides</div>
+      </div>
+      <div class="counter">
+        <div class="num"><span class="count" data-count="23">23</span></div>
+        <div class="cap">USA pages</div>
+      </div>
+      <div class="counter">
+        <div class="num"><span class="count" data-count="1240" data-prefix="$">$1,240</span></div>
+        <div class="cap">Typical move</div>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="wrap">
-  <h2>How much does it cost? Prices people search for most</h2>
-  <p>These are the costs Americans look up most.</p>
-  <div class="grid">
-<div class="card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h12v11H2z"/><path d="M14 9h4l3 3v4h-7"/><circle cx="6" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg><span class="card-art-meta"><span class="card-cat">Moving</span><span class="card-art-price">$843 - $1,637</span></span></div><h3><a href="{{ '/movers-cost-calculator/' | relative_url }}">How much do movers cost?</a></h3><div class="price-bar" aria-hidden="true"><span style="width:50%"></span></div><div class="price-row"><span>Low $843</span><span>High $1,637</span></div><p>Typical: 2-bedroom local move $1,240.</p><a class="card-cta" href="{{ '/movers-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
-    <div class="card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/><path d="M9.5 14a2.5 2.5 0 0 0 2.5 2.5"/></svg><span class="card-art-meta"><span class="card-cat">Car</span><span class="card-art-price">$45 - $140</span></span></div><h3><a href="{{ '/oil-change-cost-calculator/' | relative_url }}">How much does an oil change cost?</a></h3><div class="price-bar" aria-hidden="true"><span style="width:32%"></span></div><div class="price-row"><span>Low $45</span><span>High $140</span></div><p>Typical: full synthetic oil change $75.</p><a class="card-cta" href="{{ '/oil-change-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
-    <div class="card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12 12 3l10 9"/><path d="M6 10v10h12V10"/><path d="M9.5 14h2m2 0h2m-6 3h2m2 0h2"/></svg><span class="card-art-meta"><span class="card-cat">Home</span><span class="card-art-price">$7,528 - $11,475</span></span></div><h3><a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">How much does it cost to replace a roof?</a></h3><div class="price-bar" aria-hidden="true"><span style="width:42%"></span></div><div class="price-row"><span>Low $7,528</span><span>High $11,475</span></div><p>Typical: 1,800 sq ft asphalt roof $9,180.</p><a class="card-cta" href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
-    <div class="card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3v18M10 3v18M16 3v18M20 3v18"/><path d="M3 8h18M3 16h18"/></svg><span class="card-art-meta"><span class="card-cat">Home</span><span class="card-art-price">$2,100 - $5,400</span></span></div><h3><a href="{{ '/fence-cost-calculator/' | relative_url }}">How much does a fence cost?</a></h3><div class="price-bar" aria-hidden="true"><span style="width:37%"></span></div><div class="price-row"><span>Low $2,100</span><span>High $5,400</span></div><p>Typical: 150 ft wood privacy fence $3,335.</p><a class="card-cta" href="{{ '/fence-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
-    <div class="card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M4 6l16 12M20 6 4 18"/><circle cx="12" cy="12" r="3"/></svg><span class="card-art-meta"><span class="card-cat">Home</span><span class="card-art-price">$5,200 - $9,500</span></span></div><h3><a href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}">How much does it cost to install central air?</a></h3><div class="price-bar" aria-hidden="true"><span style="width:37%"></span></div><div class="price-row"><span>Low $5,200</span><span>High $9,500</span></div><p>Typical: 2.5 ton system $6,800.</p><a class="card-cta" href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
-    <div class="card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 11 6 7.2A2 2 0 0 1 7.9 6h8.2a2 2 0 0 1 1.9 1.2L19.5 11"/><rect x="3" y="11" width="18" height="5.5" rx="1.5"/><circle cx="7.5" cy="18" r="1.8"/><circle cx="16.5" cy="18" r="1.8"/></svg><span class="card-art-meta"><span class="card-cat">Car</span><span class="card-art-price">$2,500 - $5,500</span></span></div><h3><a href="{{ '/car-wrap-cost-calculator/' | relative_url }}">How much does a car wrap cost?</a></h3><div class="price-bar" aria-hidden="true"><span style="width:33%"></span></div><div class="price-row"><span>Low $2,500</span><span>High $5,500</span></div><p>Typical: sedan full wrap $3,500.</p><a class="card-cta" href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
-    <div class="card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h13v6H3z"/><path d="M16 7h2a2 2 0 0 1 2 2v2"/><path d="M18 11v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-4"/></svg><span class="card-art-meta"><span class="card-cat">Home</span><span class="card-art-price">$2,800 - $6,800</span></span></div><h3><a href="{{ '/house-painting-cost-calculator/' | relative_url }}">How much does house painting cost?</a></h3><div class="price-bar" aria-hidden="true"><span style="width:35%"></span></div><div class="price-row"><span>Low $2,800</span><span>High $6,800</span></div><p>Typical: exterior paint job for a 1,800 sq ft home $4,200.</p><a class="card-cta" href="{{ '/house-painting-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
+<section class="section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow"><span class="e-icon">&#9873;</span> Our calculators</div>
+      <h2>What do you want to <span class="accent">price?</span></h2>
+      <p>Pick a job below. Each calculator shows your low, typical, and high price in seconds.</p>
+    </div>
+    <div class="reveal">
+      <div class="service-row">
+        <span class="s-num">01</span>
+        <div><h3><a href="{{ '/movers-cost-calculator/' | relative_url }}" style="color:#191C25;">Movers</a></h3><p>2-bedroom local move, USA average</p></div>
+        <div class="s-price"><b>$1,240</b><span>Typical</span></div>
+        <a class="circle-btn" href="{{ '/movers-cost-calculator/' | relative_url }}" aria-label="Movers Cost Calculator">&rarr;</a>
+      </div>
+      <div class="service-row">
+        <span class="s-num">02</span>
+        <div><h3><a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}" style="color:#191C25;">Roof Replacement</a></h3><p>1,800 sq ft asphalt roof</p></div>
+        <div class="s-price"><b>$9,180</b><span>Typical</span></div>
+        <a class="circle-btn" href="{{ '/roof-replacement-cost-calculator/' | relative_url }}" aria-label="Roof Replacement Cost Calculator">&rarr;</a>
+      </div>
+      <div class="service-row">
+        <span class="s-num">03</span>
+        <div><h3><a href="{{ '/fence-cost-calculator/' | relative_url }}" style="color:#191C25;">Fence</a></h3><p>150 ft wood privacy fence</p></div>
+        <div class="s-price"><b>$3,335</b><span>Typical</span></div>
+        <a class="circle-btn" href="{{ '/fence-cost-calculator/' | relative_url }}" aria-label="Fence Cost Calculator">&rarr;</a>
+      </div>
+      <div class="service-row">
+        <span class="s-num">04</span>
+        <div><h3><a href="{{ '/oil-change-cost-calculator/' | relative_url }}" style="color:#191C25;">Oil Change</a></h3><p>Full synthetic oil change</p></div>
+        <div class="s-price"><b>$75</b><span>Typical</span></div>
+        <a class="circle-btn" href="{{ '/oil-change-cost-calculator/' | relative_url }}" aria-label="Oil Change Cost Calculator">&rarr;</a>
+      </div>
+      <div class="service-row">
+        <span class="s-num">05</span>
+        <div><h3><a href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}" style="color:#191C25;">Central AC</a></h3><p>2.5 ton system, installed</p></div>
+        <div class="s-price"><b>$6,800</b><span>Typical</span></div>
+        <a class="circle-btn" href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}" aria-label="Central AC Installation Cost Calculator">&rarr;</a>
+      </div>
+      <div class="service-row">
+        <span class="s-num">06</span>
+        <div><h3><a href="{{ '/car-wrap-cost-calculator/' | relative_url }}" style="color:#191C25;">Car Wrap</a></h3><p>Sedan full wrap</p></div>
+        <div class="s-price"><b>$3,500</b><span>Typical</span></div>
+        <a class="circle-btn" href="{{ '/car-wrap-cost-calculator/' | relative_url }}" aria-label="Car Wrap Cost Calculator">&rarr;</a>
+      </div>
+      <div class="service-row">
+        <span class="s-num">07</span>
+        <div><h3><a href="{{ '/paint-a-car-cost-calculator/' | relative_url }}" style="color:#191C25;">Paint a Car</a></h3><p>Sedan repaint, standard finish</p></div>
+        <div class="s-price"><b>$3,500</b><span>Typical</span></div>
+        <a class="circle-btn" href="{{ '/paint-a-car-cost-calculator/' | relative_url }}" aria-label="Paint a Car Cost Calculator">&rarr;</a>
+      </div>
+      <div class="service-row">
+        <span class="s-num">08</span>
+        <div><h3><a href="{{ '/house-painting-cost-calculator/' | relative_url }}" style="color:#191C25;">House Painting</a></h3><p>1,800 sq ft exterior</p></div>
+        <div class="s-price"><b>$4,200</b><span>Typical</span></div>
+        <a class="circle-btn" href="{{ '/house-painting-cost-calculator/' | relative_url }}" aria-label="House Painting Cost Calculator">&rarr;</a>
+      </div>
+    </div>
   </div>
-  <p class="note">Prices are sample estimated USA ranges, not quotes. See each calculator page for the full breakdown.</p>
-  <p><a class="btn btn-outline" href="{{ '/tools/' | relative_url }}">See all 8 calculators &rarr;</a></p>
 </section>
 
-<section class="wrap">
-  <h2>All 8 calculators at a glance</h2>
-  <p>Every calculator on this site shows a low, typical, and high price, with an itemized breakdown on its own page. Prices are sample estimated USA ranges, not quotes, and big cities usually cost more than small towns.</p>
-  <div class="table-wrap">
-    <table class="cost-table">
-      
-      <thead>
-        <tr><th>Job</th><th>Low</th><th>Typical</th><th>High</th></tr>
-      </thead>
-      <tbody>
-        <tr><td>Movers, 2-bedroom local move</td><td>$843</td><td>$1,240</td><td>$1,637</td></tr>
-        <tr><td>Roof replacement, 1,800 sq ft asphalt</td><td>$7,528</td><td>$9,180</td><td>$11,475</td></tr>
-        <tr><td>Fence, 150 ft wood privacy</td><td>$2,100</td><td>$3,335</td><td>$5,400</td></tr>
-        <tr><td>Oil change, full synthetic</td><td>$45</td><td>$75</td><td>$140</td></tr>
-        <tr><td>Central AC, 2.5 ton system</td><td>$5,200</td><td>$6,800</td><td>$9,500</td></tr>
-        <tr><td>Car wrap, sedan full wrap</td><td>$2,500</td><td>$3,500</td><td>$5,500</td></tr>
-        <tr><td>Paint a car, sedan repaint</td><td>$2,500</td><td>$3,500</td><td>$4,999</td></tr>
-        <tr><td>House painting, 1,800 sq ft exterior</td><td>$2,800</td><td>$4,200</td><td>$6,800</td></tr>
-      </tbody>
-    </table>
+<section class="section sec-soft">
+  <div class="wrap">
+    <div class="hiw-grid">
+      <div class="reveal">
+        <div class="eyebrow"><span class="e-icon">&#10003;</span> How it works</div>
+        <div class="hiw-big">100%<span>Free, forever</span></div>
+        <p style="color:#5B6472;font-size:17px;margin-top:16px">No account, no sign-up, no waiting. Four steps and you know your price.</p>
+        <div class="hiw-photo">
+          <div class="fallback">Your price, in seconds</div>
+          <img src="https://media.graphassets.com/GClEngwdTLOEfGD0ME2r" alt="A woman working out her household budget with a calculator and laptop" onerror="this.style.display='none'">
+        </div>
+      </div>
+      <div>
+        <div class="step-card reveal">
+          <div class="step-icon">&#10122;</div>
+          <div>
+            <div class="step-tag">Step 1</div>
+            <h3>Pick your job</h3>
+            <p>Choose a calculator or guide for the job you want to price.</p>
+          </div>
+        </div>
+        <div class="step-card reveal">
+          <div class="step-icon">&#10123;</div>
+          <div>
+            <div class="step-tag">Step 2</div>
+            <h3>Answer a few questions</h3>
+            <p>Pick your size and options. No account, no sign-up.</p>
+          </div>
+        </div>
+        <div class="step-card reveal">
+          <div class="step-icon">&#10124;</div>
+          <div>
+            <div class="step-tag">Step 3</div>
+            <h3>Get your price range</h3>
+            <p>See your low, typical, and high price in seconds, with a breakdown.</p>
+          </div>
+        </div>
+        <div class="step-card reveal">
+          <div class="step-icon">&#10125;</div>
+          <div>
+            <div class="step-tag">Step 4</div>
+            <h3>Compare 3 quotes</h3>
+            <p>Get 3 quotes and pick the fair price.</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <p><a class="btn btn-outline" href="{{ '/tools/' | relative_url }}">See all 8 calculators &rarr;</a></p>
 </section>
 
-<section class="wrap">
-  <h2>Cost guides</h2>
-  <p>Eight guides that answer how much does it cost for one job at a time, with prices by size and material and tips to save.</p>
-  <div class="grid">
-<div class="card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h12v11H2z"/><path d="M14 9h4l3 3v4h-7"/><circle cx="6" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg><span class="card-art-meta"><span class="card-cat">Guide</span><span class="card-art-price">$843 - $1,637</span></span></div><h3><a href="{{ '/blog/how-much-do-movers-cost/' | relative_url }}">How Much Do Movers Cost? Local and Long-Distance Prices</a></h3><p>Average prices by home size, what affects the cost, and how to save on your move.</p><a class="card-cta" href="{{ '/blog/how-much-do-movers-cost/' | relative_url }}">Read the guide &rarr;</a></div>
-    <div class="card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/><path d="M9.5 14a2.5 2.5 0 0 0 2.5 2.5"/></svg><span class="card-art-meta"><span class="card-cat">Guide</span><span class="card-art-price">$45 - $140</span></span></div><h3><a href="{{ '/blog/how-much-does-an-oil-change-cost/' | relative_url }}">How Much Does an Oil Change Cost?</a></h3><p>Prices by oil type, what is included, and how often to change your oil.</p><a class="card-cta" href="{{ '/blog/how-much-does-an-oil-change-cost/' | relative_url }}">Read the guide &rarr;</a></div>
-    <div class="card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12 12 3l10 9"/><path d="M6 10v10h12V10"/><path d="M9.5 14h2m2 0h2m-6 3h2m2 0h2"/></svg><span class="card-art-meta"><span class="card-cat">Guide</span><span class="card-art-price">$7,528 - $11,475</span></span></div><h3><a href="{{ '/blog/how-much-does-it-cost-to-replace-a-roof/' | relative_url }}">How Much Does It Cost to Replace a Roof?</a></h3><p>Prices by roof size and material, plus how to hire a roofer.</p><a class="card-cta" href="{{ '/blog/how-much-does-it-cost-to-replace-a-roof/' | relative_url }}">Read the guide &rarr;</a></div>
-    <div class="card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3v18M10 3v18M16 3v18M20 3v18"/><path d="M3 8h18M3 16h18"/></svg><span class="card-art-meta"><span class="card-cat">Guide</span><span class="card-art-price">$2,100 - $5,400</span></span></div><h3><a href="{{ '/blog/how-much-does-a-fence-cost/' | relative_url }}">How Much Does a Fence Cost?</a></h3><p>Wood, vinyl, and chain link prices by fence length.</p><a class="card-cta" href="{{ '/blog/how-much-does-a-fence-cost/' | relative_url }}">Read the guide &rarr;</a></div>
-    <div class="card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M4 6l16 12M20 6 4 18"/><circle cx="12" cy="12" r="3"/></svg><span class="card-art-meta"><span class="card-cat">Guide</span><span class="card-art-price">$5,200 - $9,500</span></span></div><h3><a href="{{ '/blog/how-much-does-it-cost-to-install-central-air/' | relative_url }}">How Much Does It Cost to Install Central Air?</a></h3><p>Prices by home size and system type, and what is included in the job.</p><a class="card-cta" href="{{ '/blog/how-much-does-it-cost-to-install-central-air/' | relative_url }}">Read the guide &rarr;</a></div>
-    <div class="card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="6" height="12" rx="1"/><path d="M11 9V5h2v4"/><path d="M12 2v1.5"/><path d="M9 5.5 7 3.5M15 5.5 17 3.5"/></svg><span class="card-art-meta"><span class="card-cat">Guide</span><span class="card-art-price">$1,500 - $10,000</span></span></div><h3><a href="{{ '/blog/how-much-does-it-cost-to-paint-a-car/' | relative_url }}">How Much Does It Cost to Paint a Car?</a></h3><div class="price-bar" aria-hidden="true"><span style="width:24%"></span></div><div class="price-row"><span>Low $1,500</span><span>High $10,000</span></div><p>Paint job prices by quality, what is included, and how to choose a shop.</p><a class="card-cta" href="{{ '/blog/how-much-does-it-cost-to-paint-a-car/' | relative_url }}">Read the guide &rarr;</a></div>
-<div class="card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 11 6 7.2A2 2 0 0 1 7.9 6h8.2a2 2 0 0 1 1.9 1.2L19.5 11"/><rect x="3" y="11" width="18" height="5.5" rx="1.5"/><circle cx="7.5" cy="18" r="1.8"/><circle cx="16.5" cy="18" r="1.8"/></svg><span class="card-art-meta"><span class="card-cat">Guide</span><span class="card-art-price">$2,500 - $5,500</span></span></div><h3><a href="{{ '/blog/how-much-does-a-car-wrap-cost/' | relative_url }}">How Much Does a Car Wrap Cost?</a></h3><p>Full and partial wrap prices by vehicle size and finish, plus what is included.</p><a class="card-cta" href="{{ '/blog/how-much-does-a-car-wrap-cost/' | relative_url }}">Read the guide &rarr;</a></div>
-    <div class="card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h13v6H3z"/><path d="M16 7h2a2 2 0 0 1 2 2v2"/><path d="M18 11v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-4"/></svg><span class="card-art-meta"><span class="card-cat">Guide</span><span class="card-art-price">$2,800 - $6,800</span></span></div><h3><a href="{{ '/blog/how-much-does-it-cost-to-paint-a-house/' | relative_url }}">How Much Does It Cost to Paint a House?</a></h3><p>Interior and exterior painting prices by home size, plus prep, paint, and coats.</p><a class="card-cta" href="{{ '/blog/how-much-does-it-cost-to-paint-a-house/' | relative_url }}">Read the guide &rarr;</a></div>
+<section class="section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow"><span class="e-icon">&#9733;</span> Popular jobs</div>
+      <h2>Our most searched <span class="accent">prices</span></h2>
+      <p>The jobs people price most, with the typical USA price right on the card.</p>
+    </div>
+    <div class="works-grid">
+      <div class="work-card reveal">
+        <div class="work-photo">
+          <img src="https://artisansmobilier.com/img/hero-moving.webp" alt="Two movers loading cardboard boxes into a moving truck" onerror="this.style.display='none'">
+          <span class="pill">Movers</span>
+        </div>
+        <div class="work-body">
+          <div class="work-text"><h3>Movers</h3><p class="work-price">Typical $1,240</p></div>
+          <a class="circle-btn" href="{{ '/movers-cost-calculator/' | relative_url }}" aria-label="Movers Cost Calculator">&rarr;</a>
+        </div>
+      </div>
+      <div class="work-card reveal">
+        <div class="work-photo">
+          <img src="https://images.pexels.com/photos/33404248/pexels-photo-33404248.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop" alt="Roofer installing asphalt shingles on a residential roof" onerror="this.style.display='none'">
+          <span class="pill">Roof Replacement</span>
+        </div>
+        <div class="work-body">
+          <div class="work-text"><h3>Roof Replacement</h3><p class="work-price">Typical $9,180</p></div>
+          <a class="circle-btn" href="{{ '/roof-replacement-cost-calculator/' | relative_url }}" aria-label="Roof Replacement Cost Calculator">&rarr;</a>
+        </div>
+      </div>
+      <div class="work-card reveal">
+        <div class="work-photo">
+          <img src="https://images.pexels.com/photos/36866669/pexels-photo-36866669.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop" alt="Wooden fence and gate beside a stone path in a sunny backyard" onerror="this.style.display='none'">
+          <span class="pill">Fence</span>
+        </div>
+        <div class="work-body">
+          <div class="work-text"><h3>Fence</h3><p class="work-price">Typical $3,335</p></div>
+          <a class="circle-btn" href="{{ '/fence-cost-calculator/' | relative_url }}" aria-label="Fence Cost Calculator">&rarr;</a>
+        </div>
+      </div>
+      <div class="work-card reveal">
+        <div class="work-photo">
+          <img src="https://images.pexels.com/photos/1917849/pexels-photo-1917849.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop" alt="A man painting the exterior wall of a house with a roller on a ladder" onerror="this.style.display='none'">
+          <span class="pill">House Painting</span>
+        </div>
+        <div class="work-body">
+          <div class="work-text"><h3>House Painting</h3><p class="work-price">Typical $4,200</p></div>
+          <a class="circle-btn" href="{{ '/house-painting-cost-calculator/' | relative_url }}" aria-label="House Painting Cost Calculator">&rarr;</a>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
-<section class="wrap">
-  <h2>How we build our prices</h2>
-  <p>Every price on this site starts with a typical USA job, broken into material, labor, supplies, and equipment, and shown as a low, typical, and high band. The totals are the sum of those parts, so you can check the math line by line on each calculator page. Prices are checked against named public sources such as the US Bureau of Labor Statistics, Home Depot, and Lowes, and every calculator page names its own sources. They are sample estimated USA ranges, not quotes, and your real price depends on your size, your materials, and where you live. Read the full method on the <a href="{{ '/about/' | relative_url }}">About page</a>, and always get 3 quotes from local pros before you hire anyone. Plan on the high end of the range, and use the typical price to judge whether a quote looks fair.</p>
+<section class="section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow"><span class="e-icon">$</span> Pricing and packages</div>
+      <h2>What does a move <span class="accent">cost?</span></h2>
+      <p>One job, three prices. Pick your home size and see the range.</p>
+    </div>
+    <div class="toggle-wrap reveal">
+      <div class="toggle">
+        <button type="button" data-beds="1">1 bedroom</button>
+        <button type="button" data-beds="2" class="active">2 bedroom</button>
+      </div>
+    </div>
+    <div class="pricing-grid">
+      <div class="price-card reveal">
+        <h3>Low</h3>
+        <p class="tier-desc">Small load, short distance, off-peak day.</p>
+        <div class="price" id="priceLow">$843</div>
+        <a class="btn btn-white" href="{{ '/movers-cost-calculator/' | relative_url }}">Calculate &rarr;</a>
+        <ul class="check">
+          <li>2 movers, 3 to 4 hours</li>
+          <li>Local move, under 25 miles</li>
+          <li>Basic loading and unloading</li>
+          <li>No packing service</li>
+        </ul>
+      </div>
+      <div class="price-card featured reveal">
+        <span class="pop-badge">Most common</span>
+        <h3>Typical</h3>
+        <p class="tier-desc">The price most 2-bedroom local moves land on.</p>
+        <div class="price" id="priceTyp">$1,240</div>
+        <a class="btn" href="{{ '/movers-cost-calculator/' | relative_url }}">Calculate &rarr;</a>
+        <ul class="check">
+          <li>3 movers, 4 to 5 hours</li>
+          <li>Local move, under 50 miles</li>
+          <li>Furniture protection included</li>
+          <li>Fuel and mileage included</li>
+        </ul>
+      </div>
+      <div class="price-card reveal">
+        <h3>High</h3>
+        <p class="tier-desc">Large load, stairs, long carry, peak season.</p>
+        <div class="price" id="priceHigh">$1,637</div>
+        <a class="btn btn-white" href="{{ '/movers-cost-calculator/' | relative_url }}">Calculate &rarr;</a>
+        <ul class="check">
+          <li>4 movers, 5 to 6 hours</li>
+          <li>Stairs or long carry</li>
+          <li>Packing help available</li>
+          <li>Peak season pricing</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section class="wrap">
-  <h2>Frequently asked questions</h2>
-  <details class="faq"><summary>Are these cost calculators really free?</summary><p>Yes. Every calculator and guide on this site is free, with no account and no sign-up. All calculations happen in your browser.</p></details>
-  <details class="faq"><summary>Are the prices exact quotes?</summary><p>No. Prices on this site are sample estimated USA ranges built from typical material and labor costs. Your real quote depends on your size, materials, and location, so always get 3 quotes from local pros.</p></details>
-  <details class="faq"><summary>Do the prices cover the whole USA?</summary><p>Yes. The ranges are USA national averages. Big cities usually cost more than small towns, and the guides explain what moves the price up or down.</p></details>
-  <details class="faq"><summary>Do you store what I type into a calculator?</summary><p>No. All calculations happen in your browser. Nothing you type is sent to our servers or stored anywhere.</p></details>
+<section class="section">
+  <div class="wrap">
+    <div class="testi-grid">
+      <div class="testi-photo reveal">
+        <div class="fallback">
+          <div class="watermark">$</div>
+          <div class="big-dollar">$1,240</div>
+          <p>Typical 2-bedroom local move, USA average.</p>
+        </div>
+        <img src="https://images.pexels.com/photos/5463575/pexels-photo-5463575.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician servicing an outdoor air conditioner with pressure gauges" onerror="this.style.display='none'">
+        <div class="testi-overlay">
+          <b>Free forever</b>
+          <p>No sign-up. No paywall. Just prices.</p>
+        </div>
+      </div>
+      <div>
+        <div class="section-head left reveal">
+          <div class="eyebrow"><span class="e-icon">&#8220;</span> What homeowners ask</div>
+          <h2>Real questions, <span class="accent">straight answers</span></h2>
+        </div>
+        <div class="quote-card reveal">
+          <div class="q-tag">Prices</div>
+          <blockquote>Are the prices quotes or estimates?</blockquote>
+          <p>They are sample estimated USA ranges, not quotes. Always get 3 quotes from local pros before you hire anyone.</p>
+        </div>
+        <div class="quote-card reveal">
+          <div class="q-tag">Accuracy</div>
+          <blockquote>How accurate are the prices?</blockquote>
+          <p>Each price is a low, typical, and high range built from published USA pricing, so you can see the full spread, not one number.</p>
+        </div>
+        <div class="quote-card reveal">
+          <div class="q-tag">Privacy</div>
+          <blockquote>Do I need to sign up?</blockquote>
+          <p>No. Every calculator is free and needs no account, no email, and no sign-up.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow"><span class="e-icon">#</span> Where we cover</div>
+      <h2>USA prices, <span class="accent">one place</span></h2>
+      <p>Everything we publish is built for the USA, with the ranges, the breakdowns, and the fine print.</p>
+    </div>
+    <div class="tags reveal">
+      <span class="tag">#usaprices</span>
+      <span class="tag">#freecalculators</span>
+      <span class="tag">#nosignup</span>
+      <span class="tag">#lowtypicalhigh</span>
+      <span class="tag">#itemizedbreakdown</span>
+      <span class="tag">#trustedprices</span>
+    </div>
+  </div>
+</section>
+
+<section class="section sec-soft">
+  <div class="wrap">
+    <div class="faq-grid">
+      <div class="reveal">
+        <div class="eyebrow"><span class="e-icon">?</span> Frequently asked</div>
+        <h2 class="h2-left">Questions, <span class="accent">answered</span></h2>
+        <p style="color:#5B6472;font-size:17px;margin:14px 0 26px">The questions people ask most about moving costs and our prices.</p>
+        <a class="btn btn-orange" href="{{ '/tools/' | relative_url }}">Get a Price &rarr;</a>
+      </div>
+      <div>
+        <div class="faq-item open">
+          <div class="faq-q"><h3>How much do movers cost?</h3><span class="faq-toggle">&minus;</span></div>
+          <div class="faq-a">A typical 2-bedroom local move costs about $1,240, in a range of $843 to $1,637. The final price depends on home size, distance, and the number of movers and hours.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q"><h3>How do movers calculate cost?</h3><span class="faq-toggle">+</span></div>
+          <div class="faq-a">Local moves are usually priced by the hour, per mover. Long-distance moves are priced by weight and miles. Home size, stairs, and extra services move the price up or down.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q"><h3>Do movers charge per hour?</h3><span class="faq-toggle">+</span></div>
+          <div class="faq-a">Yes, local movers usually charge per hour per mover, often with a minimum of 2 to 3 hours. The hourly rate covers the crew, the truck, and basic equipment.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q"><h3>Are the prices quotes or estimates?</h3><span class="faq-toggle">+</span></div>
+          <div class="faq-a">They are sample estimated USA ranges, not quotes. Use the low, typical, and high to check any quote you receive, and always get 3 quotes from local pros.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q"><h3>Do I need to sign up?</h3><span class="faq-toggle">+</span></div>
+          <div class="faq-a">No. Every calculator is free and needs no account, no email, and no sign-up. Open a calculator and get your price.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="form-grid">
+      <div class="reveal">
+        <div class="eyebrow"><span class="e-icon">$</span> Get your price</div>
+        <h2 class="h2-left">Ready to find your <span class="accent">price?</span> Let us get started right now!</h2>
+        <div class="form-box" style="margin-top:28px">
+          <label for="jobPicker">Pick a job</label>
+          <select id="jobPicker">
+            <option value="movers">Movers, 2-bedroom local move</option>
+            <option value="roof">Roof replacement, 1,800 sq ft asphalt</option>
+            <option value="fence">Fence, 150 ft wood privacy</option>
+            <option value="oil">Oil change, full synthetic</option>
+            <option value="ac">Central AC, 2.5 ton system</option>
+            <option value="wrap">Car wrap, sedan full wrap</option>
+            <option value="paintcar">Paint a car, sedan repaint</option>
+            <option value="housepaint">House painting, 1,800 sq ft exterior</option>
+          </select>
+          <div class="form-result">
+            <div class="label">Typical price</div>
+            <div class="big" id="jobTyp">$1,240</div>
+            <div class="range" id="jobRange">Range $843 to $1,637. Sample estimated USA range, not a quote.</div>
+          </div>
+          <a class="btn btn-orange" href="{{ '/tools/' | relative_url }}" style="width:100%">Get Your Price &rarr;</a>
+        </div>
+      </div>
+      <div class="form-photo reveal">
+        <div class="fallback">
+          <div class="big-dollar">$1,240</div>
+          <p>Typical 2-bedroom local move, USA average.</p>
+        </div>
+        <img src="https://plm-wordpress-preprod.s3.us-east-2.amazonaws.com/wp-content/uploads/devlopment/2023/08/07113753/budget-1024x487.jpg" alt="A woman managing household finances with a calculator and laptop" onerror="this.style.display='none'">
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="marquee-band">
+  <div class="marquee">
+    <span>Free Calculators <i>&bull;</i> USA Prices <i>&bull;</i> No Sign-up <i>&bull;</i> Low Typical High <i>&bull;</i> Itemized Breakdown <i>&bull;</i> Trusted Prices <i>&bull;</i>&nbsp;</span>
+    <span>Free Calculators <i>&bull;</i> USA Prices <i>&bull;</i> No Sign-up <i>&bull;</i> Low Typical High <i>&bull;</i> Itemized Breakdown <i>&bull;</i> Trusted Prices <i>&bull;</i>&nbsp;</span>
+  </div>
+</div>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow"><span class="e-icon">&#9998;</span> Latest guides</div>
+      <h2>Read the <span class="accent">guides</span></h2>
+      <p>Full price guides with tables, breakdowns, and answers to the questions people ask most.</p>
+    </div>
+    <div class="guides-grid">
+      <div class="guide-card reveal">
+        <div class="guide-photo">
+          <img src="https://201wrap.com/wp-content/uploads/2025/08/wrap-remove3-scaled.jpeg" alt="A gloved hand peeling a vinyl wrap off a car fender" onerror="this.style.display='none'">
+          <span class="chip">Car Wrap</span>
+        </div>
+        <div class="guide-body">
+          <div class="cat">Cost guide</div>
+          <h3>How Much Does It Cost to Remove a Car Wrap?</h3>
+          <p class="guide-price">Removal cost $500 - $1,500</p>
+          <p>Removal cost by car size, wrap age, and condition, plus DIY vs pro prices.</p>
+          <a class="guide-link" href="{{ '/blog/how-much-does-it-cost-to-remove-a-car-wrap/' | relative_url }}">Read the guide &rarr;</a>
+        </div>
+      </div>
+      <div class="guide-card reveal">
+        <div class="guide-photo">
+          <img src="https://images.pexels.com/photos/10126657/pexels-photo-10126657.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop" alt="Worker applying white vinyl wrap to a car hood with a heat gun in a workshop" onerror="this.style.display='none'">
+          <span class="chip">Car Wrap</span>
+        </div>
+        <div class="guide-body">
+          <div class="cat">Cost guide</div>
+          <h3>How Much Does It Cost to Wrap a Car?</h3>
+          <p class="guide-price">Typical $3,500</p>
+          <p>Full wrap prices by car size and vinyl type, with a cost table for every finish.</p>
+          <a class="guide-link" href="{{ '/blog/how-much-does-a-car-wrap-cost/' | relative_url }}">Read the guide &rarr;</a>
+        </div>
+      </div>
+      <div class="guide-card reveal">
+        <div class="guide-photo">
+          <img src="https://topquoterpm.com/services/outdoor-painting-1.jpg" alt="A man painting the exterior wall of a house white from a ladder" onerror="this.style.display='none'">
+          <span class="chip">House Painting</span>
+        </div>
+        <div class="guide-body">
+          <div class="cat">Cost guide</div>
+          <h3>How Much Does It Cost to Paint a House?</h3>
+          <p class="guide-price">Typical $4,200</p>
+          <p>Exterior and interior painting prices by home size, surface, and paint quality.</p>
+          <a class="guide-link" href="{{ '/blog/how-much-does-it-cost-to-paint-a-house/' | relative_url }}">Read the guide &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow"><span class="e-icon">$</span> All calculators</div>
+      <h2>All 8 calculators <span class="accent">at a glance</span></h2>
+      <p>Every calculator on this site shows a low, typical, and high price, with an itemized breakdown on its own page. Prices are sample estimated USA ranges, not quotes, and big cities usually cost more than small towns.</p>
+    </div>
+    <div class="table-wrap reveal">
+      <table class="cost-table">
+        <thead>
+          <tr><th>Job</th><th>Low</th><th>Typical</th><th>High</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Movers, 2-bedroom local move</td><td>$843</td><td>$1,240</td><td>$1,637</td></tr>
+          <tr><td>Roof replacement, 1,800 sq ft asphalt</td><td>$7,528</td><td>$9,180</td><td>$11,475</td></tr>
+          <tr><td>Fence, 150 ft wood privacy</td><td>$2,100</td><td>$3,335</td><td>$5,400</td></tr>
+          <tr><td>Oil change, full synthetic</td><td>$45</td><td>$75</td><td>$140</td></tr>
+          <tr><td>Central AC, 2.5 ton system</td><td>$5,200</td><td>$6,800</td><td>$9,500</td></tr>
+          <tr><td>Car wrap, sedan full wrap</td><td>$2,500</td><td>$3,500</td><td>$5,500</td></tr>
+          <tr><td>Paint a car, sedan repaint</td><td>$2,500</td><td>$3,500</td><td>$4,999</td></tr>
+          <tr><td>House painting, 1,800 sq ft exterior</td><td>$2,800</td><td>$4,200</td><td>$6,800</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="text-align:center;margin-top:28px"><a class="btn btn-white" href="{{ '/tools/' | relative_url }}">See all 8 calculators &rarr;</a></p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow"><span class="e-icon">&#9998;</span> Cost guides</div>
+      <h2>Cost <span class="accent">guides</span></h2>
+      <p>Eight guides that answer how much does it cost for one job at a time, with prices by size and material and tips to save.</p>
+    </div>
+    <div class="guides-grid">
+      <div class="guide-card reveal">
+        <div class="guide-body">
+          <div class="cat">Guide</div>
+          <h3>How Much Do Movers Cost? Local and Long-Distance Prices</h3>
+          <p class="guide-price">$843 - $1,637</p>
+          <p>Average prices by home size, what affects the cost, and how to save on your move.</p>
+          <a class="guide-link" href="{{ '/blog/how-much-do-movers-cost/' | relative_url }}">Read the guide &rarr;</a>
+        </div>
+      </div>
+      <div class="guide-card reveal">
+        <div class="guide-body">
+          <div class="cat">Guide</div>
+          <h3>How Much Does an Oil Change Cost?</h3>
+          <p class="guide-price">$45 - $140</p>
+          <p>Prices by oil type, what is included, and how often to change your oil.</p>
+          <a class="guide-link" href="{{ '/blog/how-much-does-an-oil-change-cost/' | relative_url }}">Read the guide &rarr;</a>
+        </div>
+      </div>
+      <div class="guide-card reveal">
+        <div class="guide-body">
+          <div class="cat">Guide</div>
+          <h3>How Much Does It Cost to Replace a Roof?</h3>
+          <p class="guide-price">$7,528 - $11,475</p>
+          <p>Prices by roof size and material, plus how to hire a roofer.</p>
+          <a class="guide-link" href="{{ '/blog/how-much-does-it-cost-to-replace-a-roof/' | relative_url }}">Read the guide &rarr;</a>
+        </div>
+      </div>
+      <div class="guide-card reveal">
+        <div class="guide-body">
+          <div class="cat">Guide</div>
+          <h3>How Much Does a Fence Cost?</h3>
+          <p class="guide-price">$2,100 - $5,400</p>
+          <p>Wood, vinyl, and chain link prices by fence length.</p>
+          <a class="guide-link" href="{{ '/blog/how-much-does-a-fence-cost/' | relative_url }}">Read the guide &rarr;</a>
+        </div>
+      </div>
+      <div class="guide-card reveal">
+        <div class="guide-body">
+          <div class="cat">Guide</div>
+          <h3>How Much Does It Cost to Install Central Air?</h3>
+          <p class="guide-price">$5,200 - $9,500</p>
+          <p>Prices by home size and system type, and what is included in the job.</p>
+          <a class="guide-link" href="{{ '/blog/how-much-does-it-cost-to-install-central-air/' | relative_url }}">Read the guide &rarr;</a>
+        </div>
+      </div>
+      <div class="guide-card reveal">
+        <div class="guide-body">
+          <div class="cat">Guide</div>
+          <h3>How Much Does It Cost to Paint a Car?</h3>
+          <p class="guide-price">$1,500 - $10,000</p>
+          <p>Paint job prices by quality, what is included, and how to choose a shop.</p>
+          <a class="guide-link" href="{{ '/blog/how-much-does-it-cost-to-paint-a-car/' | relative_url }}">Read the guide &rarr;</a>
+        </div>
+      </div>
+      <div class="guide-card reveal">
+        <div class="guide-body">
+          <div class="cat">Guide</div>
+          <h3>How Much Does a Car Wrap Cost?</h3>
+          <p class="guide-price">$2,500 - $5,500</p>
+          <p>Full and partial wrap prices by vehicle size and finish, plus what is included.</p>
+          <a class="guide-link" href="{{ '/blog/how-much-does-a-car-wrap-cost/' | relative_url }}">Read the guide &rarr;</a>
+        </div>
+      </div>
+      <div class="guide-card reveal">
+        <div class="guide-body">
+          <div class="cat">Guide</div>
+          <h3>How Much Does It Cost to Paint a House?</h3>
+          <p class="guide-price">$2,800 - $6,800</p>
+          <p>Interior and exterior painting prices by home size, plus prep, paint, and coats.</p>
+          <a class="guide-link" href="{{ '/blog/how-much-does-it-cost-to-paint-a-house/' | relative_url }}">Read the guide &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head left reveal">
+      <div class="eyebrow"><span class="e-icon">&#10003;</span> Our method</div>
+      <h2 class="h2-left">How we build <span class="accent">our prices</span></h2>
+    </div>
+    <p class="reveal" style="max-width:860px;color:#5B6472;font-size:17px">Every price on this site starts with a typical USA job, broken into material, labor, supplies, and equipment, and shown as a low, typical, and high band. The totals are the sum of those parts, so you can check the math line by line on each calculator page. Prices are checked against named public sources such as the US Bureau of Labor Statistics, Home Depot, and Lowes, and every calculator page names its own sources. They are sample estimated USA ranges, not quotes, and your real price depends on your size, your materials, and where you live. Read the full method on the <a href="{{ '/about/' | relative_url }}">About page</a>, and always get 3 quotes from local pros before you hire anyone. Plan on the high end of the range, and use the typical price to judge whether a quote looks fair.</p>
+  </div>
+</section>
+
+<section class="cta-wrap">
+  <div class="wrap">
+    <div class="cta-banner reveal">
+      <div class="eyebrow"><span class="e-icon">&#9733;</span> Free forever</div>
+      <h2>Get your <span class="accent">price</span> in seconds</h2>
+      <p>Free forever, no sign-up, USA prices.</p>
+      <div class="btn-row">
+        <a class="btn btn-orange" href="{{ '/tools/' | relative_url }}">Get a Price &rarr;</a>
+        <a class="btn btn-white" href="{{ '/blog/' | relative_url }}">Read the Guides &rarr;</a>
+      </div>
+    </div>
+  </div>
 </section>
