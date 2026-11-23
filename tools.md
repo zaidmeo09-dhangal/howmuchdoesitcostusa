@@ -56,17 +56,57 @@ schema: |
   </ul>
   <p>The range shows that spread, and the breakdown shows where it comes from. Use the range to check quotes from local pros: ask each pro for a written quote for the same size and options, compare the quotes line by line against the breakdown, and always get 3 quotes before you hire anyone.</p>
   <div id="searchNotice" class="search-notice" role="status" hidden></div>
-  <div class="grid">
-    <div class="card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h12v11H2z"/><path d="M14 9h4l3 3v4h-7"/><circle cx="6" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg><span class="card-art-meta"><span class="card-cat">Moving</span><span class="card-art-price">$843 - $1,637</span></span></div><h3><a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator</a></h3><div class="price-bar" aria-hidden="true"><span style="width:50%"></span></div><div class="price-row"><span>Low $843</span><span>High $1,637</span></div><p>Price a local or long distance move by home size and distance. Typical: 2-bedroom move $1,240.</p><a class="card-cta" href="{{ '/movers-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
-    <div class="card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12 12 3l10 9"/><path d="M6 10v10h12V10"/><path d="M9.5 14h2m2 0h2m-6 3h2m2 0h2"/></svg><span class="card-art-meta"><span class="card-cat">Home</span><span class="card-art-price">$7,528 - $11,475</span></span></div><h3><a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Cost Calculator</a></h3><div class="price-bar" aria-hidden="true"><span style="width:42%"></span></div><div class="price-row"><span>Low $7,528</span><span>High $11,475</span></div><p>Price a new roof by size and material. Typical: 1,800 sq ft asphalt roof $9,180.</p><a class="card-cta" href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
-    <div class="card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3v18M10 3v18M16 3v18M20 3v18"/><path d="M3 8h18M3 16h18"/></svg><span class="card-art-meta"><span class="card-cat">Home</span><span class="card-art-price">$2,100 - $5,400</span></span></div><h3><a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a></h3><div class="price-bar" aria-hidden="true"><span style="width:37%"></span></div><div class="price-row"><span>Low $2,100</span><span>High $5,400</span></div><p>Price a wood, vinyl, or chain link fence by length. Typical: 150 ft wood fence $3,335.</p><a class="card-cta" href="{{ '/fence-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
-    <div class="card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/><path d="M9.5 14a2.5 2.5 0 0 0 2.5 2.5"/></svg><span class="card-art-meta"><span class="card-cat">Car</span><span class="card-art-price">$45 - $140</span></span></div><h3><a href="{{ '/oil-change-cost-calculator/' | relative_url }}">Oil Change Cost Calculator</a></h3><div class="price-bar" aria-hidden="true"><span style="width:32%"></span></div><div class="price-row"><span>Low $45</span><span>High $140</span></div><p>Price an oil change by oil type. Typical: full synthetic oil change $75.</p><a class="card-cta" href="{{ '/oil-change-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
-    <div class="card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M4 6l16 12M20 6 4 18"/><circle cx="12" cy="12" r="3"/></svg><span class="card-art-meta"><span class="card-cat">Home</span><span class="card-art-price">$5,200 - $9,500</span></span></div><h3><a href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}">Central AC Installation Cost Calculator</a></h3><div class="price-bar" aria-hidden="true"><span style="width:37%"></span></div><div class="price-row"><span>Low $5,200</span><span>High $9,500</span></div><p>Price a new central air system by home size. Typical: 2.5 ton system $6,800.</p><a class="card-cta" href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
-    <div class="card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 11 6 7.2A2 2 0 0 1 7.9 6h8.2a2 2 0 0 1 1.9 1.2L19.5 11"/><rect x="3" y="11" width="18" height="5.5" rx="1.5"/><circle cx="7.5" cy="18" r="1.8"/><circle cx="16.5" cy="18" r="1.8"/></svg><span class="card-art-meta"><span class="card-cat">Car</span><span class="card-art-price">$2,500 - $5,500</span></span></div><h3><a href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Car Wrap Cost Calculator</a></h3><div class="price-bar" aria-hidden="true"><span style="width:33%"></span></div><div class="price-row"><span>Low $2,500</span><span>High $5,500</span></div><p>Price a full or partial car wrap by vehicle size. Typical: sedan full wrap $3,500.</p><a class="card-cta" href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
-    <div class="card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 11 6 7.2A2 2 0 0 1 7.9 6h8.2a2 2 0 0 1 1.9 1.2L19.5 11"/><rect x="3" y="11" width="18" height="5.5" rx="1.5"/><circle cx="7.5" cy="18" r="1.8"/><circle cx="16.5" cy="18" r="1.8"/></svg><span class="card-art-meta"><span class="card-cat">Car</span><span class="card-art-price">$2,500 - $4,999</span></span></div><h3><a href="{{ '/paint-a-car-cost-calculator/' | relative_url }}">Paint a Car Cost Calculator</a></h3><div class="price-bar" aria-hidden="true"><span style="width:33%"></span></div><div class="price-row"><span>Low $2,500</span><span>High $4,999</span></div><p>Price a car repaint by vehicle size, quality, and scope. Typical: sedan repaint $3,500.</p><a class="card-cta" href="{{ '/paint-a-car-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
-    <div class="card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h13v6H3z"/><path d="M16 7h2a2 2 0 0 1 2 2v2"/><path d="M18 11v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-4"/></svg><span class="card-art-meta"><span class="card-cat">Home</span><span class="card-art-price">$2,800 - $6,800</span></span></div><h3><a href="{{ '/house-painting-cost-calculator/' | relative_url }}">House Painting Cost Calculator</a></h3><div class="price-bar" aria-hidden="true"><span style="width:35%"></span></div><div class="price-row"><span>Low $2,800</span><span>High $6,800</span></div><p>Price interior and exterior house painting by home size. Typical: exterior job $4,200.</p><a class="card-cta" href="{{ '/house-painting-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
-    <div class="card card-wide"><h3>Not sure where to start?</h3><p>Read the cost guides first. Each guide explains what moves the price up or down, and links to the matching calculator.</p><a class="card-cta" href="{{ '/blog/' | relative_url }}">Read all cost guides &rarr;</a></div>
+  <div class="reveal">
+    <div class="service-row">
+      <span class="s-num">01</span>
+      <div><h3><a href="{{ '/movers-cost-calculator/' | relative_url }}" style="color:#191C25;">Movers Cost Calculator</a></h3><p>Price a local or long distance move by home size and distance. Typical: 2-bedroom move. Range $843 - $1,637.</p></div>
+      <div class="s-price"><b>$1,240</b><span>Typical</span></div>
+      <a class="circle-btn" href="{{ '/movers-cost-calculator/' | relative_url }}" aria-label="Movers Cost Calculator">&rarr;</a>
+    </div>
+    <div class="service-row">
+      <span class="s-num">02</span>
+      <div><h3><a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}" style="color:#191C25;">Roof Replacement Cost Calculator</a></h3><p>Price a new roof by size and material. Typical: 1,800 sq ft asphalt roof. Range $7,528 - $11,475.</p></div>
+      <div class="s-price"><b>$9,180</b><span>Typical</span></div>
+      <a class="circle-btn" href="{{ '/roof-replacement-cost-calculator/' | relative_url }}" aria-label="Roof Replacement Cost Calculator">&rarr;</a>
+    </div>
+    <div class="service-row">
+      <span class="s-num">03</span>
+      <div><h3><a href="{{ '/fence-cost-calculator/' | relative_url }}" style="color:#191C25;">Fence Cost Calculator</a></h3><p>Price a wood, vinyl, or chain link fence by length. Typical: 150 ft wood fence. Range $2,100 - $5,400.</p></div>
+      <div class="s-price"><b>$3,335</b><span>Typical</span></div>
+      <a class="circle-btn" href="{{ '/fence-cost-calculator/' | relative_url }}" aria-label="Fence Cost Calculator">&rarr;</a>
+    </div>
+    <div class="service-row">
+      <span class="s-num">04</span>
+      <div><h3><a href="{{ '/oil-change-cost-calculator/' | relative_url }}" style="color:#191C25;">Oil Change Cost Calculator</a></h3><p>Price an oil change by oil type. Typical: full synthetic oil change. Range $45 - $140.</p></div>
+      <div class="s-price"><b>$75</b><span>Typical</span></div>
+      <a class="circle-btn" href="{{ '/oil-change-cost-calculator/' | relative_url }}" aria-label="Oil Change Cost Calculator">&rarr;</a>
+    </div>
+    <div class="service-row">
+      <span class="s-num">05</span>
+      <div><h3><a href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}" style="color:#191C25;">Central AC Installation Cost Calculator</a></h3><p>Price a new central air system by home size. Typical: 2.5 ton system. Range $5,200 - $9,500.</p></div>
+      <div class="s-price"><b>$6,800</b><span>Typical</span></div>
+      <a class="circle-btn" href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}" aria-label="Central AC Installation Cost Calculator">&rarr;</a>
+    </div>
+    <div class="service-row">
+      <span class="s-num">06</span>
+      <div><h3><a href="{{ '/car-wrap-cost-calculator/' | relative_url }}" style="color:#191C25;">Car Wrap Cost Calculator</a></h3><p>Price a full or partial car wrap by vehicle size. Typical: sedan full wrap. Range $2,500 - $5,500.</p></div>
+      <div class="s-price"><b>$3,500</b><span>Typical</span></div>
+      <a class="circle-btn" href="{{ '/car-wrap-cost-calculator/' | relative_url }}" aria-label="Car Wrap Cost Calculator">&rarr;</a>
+    </div>
+    <div class="service-row">
+      <span class="s-num">07</span>
+      <div><h3><a href="{{ '/paint-a-car-cost-calculator/' | relative_url }}" style="color:#191C25;">Paint a Car Cost Calculator</a></h3><p>Price a car repaint by vehicle size, quality, and scope. Typical: sedan repaint. Range $2,500 - $4,999.</p></div>
+      <div class="s-price"><b>$3,500</b><span>Typical</span></div>
+      <a class="circle-btn" href="{{ '/paint-a-car-cost-calculator/' | relative_url }}" aria-label="Paint a Car Cost Calculator">&rarr;</a>
+    </div>
+    <div class="service-row">
+      <span class="s-num">08</span>
+      <div><h3><a href="{{ '/house-painting-cost-calculator/' | relative_url }}" style="color:#191C25;">House Painting Cost Calculator</a></h3><p>Price interior and exterior house painting by home size. Typical: exterior job. Range $2,800 - $6,800.</p></div>
+      <div class="s-price"><b>$4,200</b><span>Typical</span></div>
+      <a class="circle-btn" href="{{ '/house-painting-cost-calculator/' | relative_url }}" aria-label="House Painting Cost Calculator">&rarr;</a>
+    </div>
   </div>
+  <div class="card card-wide"><h3>Not sure where to start?</h3><p>Read the cost guides first. Each guide explains what moves the price up or down, and links to the matching calculator.</p><a class="card-cta" href="{{ '/blog/' | relative_url }}">Read all cost guides &rarr;</a></div>
   <h2>Read the guides</h2>
   <p>Prefer to read first? Each guide opens with a direct answer, shows a price table, and links to the matching calculator. Start with the two newest guides.</p>
   <ul class="link-cols">
@@ -80,6 +120,20 @@ schema: |
     <li><a href="{{ '/blog/how-much-does-it-cost-to-paint-a-car/' | relative_url }}">How Much Does It Cost to Paint a Car?</a> <span>By vehicle size, quality, and scope.</span></li>
   </ul>
   <p>See <a href="{{ '/blog/' | relative_url }}">all cost guides</a> for the full list.</p>
+</section>
+
+<section class="cta-wrap">
+  <div class="wrap">
+    <div class="cta-banner reveal">
+      <div class="eyebrow"><span class="e-icon">&#9733;</span> Free forever</div>
+      <h2>Get your <span class="accent">price</span> in seconds</h2>
+      <p>Free forever, no sign-up, USA prices.</p>
+      <div class="btn-row">
+        <a class="btn btn-orange" href="{{ '/tools/' | relative_url }}">Get a Price &rarr;</a>
+        <a class="btn btn-white" href="{{ '/blog/' | relative_url }}">Read the Guides &rarr;</a>
+      </div>
+    </div>
+  </div>
 </section>
 
 <script>
