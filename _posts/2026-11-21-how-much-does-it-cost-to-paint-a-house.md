@@ -155,7 +155,7 @@ schema: |
 </div>
 
 <div class="key-takeaways">
-<p class="key-takeaways-title">Key facts</p>
+<p class="key-takeaways-title">Key Takeaways</p>
 <ul>
 <li>A typical exterior paint job for a 1,800 sq ft home costs about $4,200, with a sample range of $2,800 to $6,800.</li>
 <li>Exterior painting costs $2.33 per sq ft of floor area, and interior painting costs $1.85 per sq ft, so the same 1,800 sq ft home costs about $3,350 interior.</li>
@@ -166,6 +166,8 @@ schema: |
 </div>
 
 <figure><img src="/assets/images/blog/house-painting-cost/house-painting-inpost-1.webp" alt="Man painting the exterior wall of a house with a roller on an extension pole beside a ladder" width="1200" height="800" loading="lazy"></figure>
+
+<p class="eyebrow">Price table</p>
 
 ## House painting cost by home size
 
