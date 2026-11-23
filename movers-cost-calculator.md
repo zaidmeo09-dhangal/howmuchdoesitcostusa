@@ -155,7 +155,6 @@ schema: |
   <div class="answer">
     <p id="answerIntro">A typical 2-bedroom local move in the USA costs about $1,240, with a sample range of $843 to $1,637.</p>
     <p class="note">All prices on this page are sample estimated USA ranges, not quotes.</p>
-    <p class="updated-line">Updated November 21, 2026</p>
   </div>
 
   <div class="calc">
@@ -353,26 +352,6 @@ schema: |
     <li>Compare binding and nonbinding estimates before you sign</li>
     <li>Price the yard too if you are moving into a new home: see the <a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a></li>
   </ul>
-
-  <h2>Where the $1,240 typical total goes</h2>
-  <p>The table below repeats the typical column from the breakdown above, so you can see the share of each line at the calculator default.</p>
-  <div class="table-wrap">
-    <table class="cost-table">
-      
-      <thead>
-        <tr><th>Item</th><th>Typical</th></tr>
-      </thead>
-      <tbody>
-        <tr><td>Labor (2 movers, 4 to 6 hours)</td><td>$600</td></tr>
-        <tr><td>Truck and fuel</td><td>$250</td></tr>
-        <tr><td>Packing materials</td><td>$150</td></tr>
-        <tr><td>Insurance and fees</td><td>$130</td></tr>
-        <tr><td>Supplies and equipment</td><td>$110</td></tr>
-        <tr class="total"><td>Total</td><td>$1,240</td></tr>
-      </tbody>
-    </table>
-  </div>
-  <p>Labor is the largest line at $600, and truck and fuel is next at $250.</p>
 
   <h2>Full-service, self-service, or DIY</h2>
   <p>Full-service movers load, drive, and unload, and they can pack as well. Self-service means you pack and load while the company supplies the truck and drives it. A moving container sits between the two: you load it and the company drives it, so you save the loading labor but still pay for transport and storage time. DIY means you rent the truck and do it all yourself. Our $1,240 typical price is a full-service local move: labor $600, truck and fuel $250, packing materials $150, insurance and fees $130, and supplies $110. If you pack and load yourself, the labor and packing lines shrink, but truck, fuel, and insurance stay.</p>
