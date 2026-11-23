@@ -15,11 +15,16 @@ schema: |
   }
 ---
 
-<section class="hero">
+<section class="hero page-hero">
   <div class="wrap">
-    <p class="kicker">Free Calculators</p>
-    <h1>All Cost <span class="accent-u">Calculators</span></h1>
-    <p class="lede">Every calculator on this site is free, with no sign-up. Pick a job, answer a few questions, and see your low, typical, and high price in seconds. All prices are sample estimated USA ranges. Each calculator shows its own breakdown of material, labor, supplies, and equipment, so you can check the math line by line. Prefer to read first? See the <a href="{{ '/blog/' | relative_url }}">cost guides</a>, where each guide explains what moves the price up or down and links to its calculator.</p>
+    <nav class="breadcrumb"><a href="/">Home</a> / <span aria-current="page">Tools</span></nav>
+    <div class="hero-badge"><span class="hero-badge-dot"></span>Free Calculators</div>
+    <h1>All Cost <span class="accent">Calculators</span></h1>
+    <p class="hero-copy">Every calculator on this site is free, with no sign-up. Pick a job, answer a few questions, and see your low, typical, and high price in seconds. All prices are sample estimated USA ranges. Each calculator shows its own breakdown of material, labor, supplies, and equipment, so you can check the math line by line. Prefer to read first? See the <a href="{{ '/blog/' | relative_url }}">cost guides</a>, where each guide explains what moves the price up or down and links to its calculator.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="{{ '/blog/' | relative_url }}">Read the Guides</a>
+      <a class="btn btn-secondary" href="{{ '/contact/' | relative_url }}">Contact Us</a>
+    </div>
     <ul class="trust-row">
       <li>Free forever</li>
       <li>No sign-up</li>
@@ -27,15 +32,50 @@ schema: |
     </ul>
   </div>
 </section>
-<section class="wrap">
-  <h2>How to use the calculators</h2>
-  <ol class="steps">
+
+<section class="summary-section">
+  <div class="summary-grid">
+    <div class="summary-card">
+      <div class="summary-icon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8.5 12.5l2.5 2.5 4.5-5"/></svg></div>
+      <h2>Free forever</h2>
+      <p>Every calculator is free, with no paywall and no trial.</p>
+    </div>
+    <div class="summary-card">
+      <div class="summary-icon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M5 20c0-3.5 3-5.5 7-5.5s7 2 7 5.5"/><line x1="4" y1="4" x2="20" y2="20"/></svg></div>
+      <h2>No sign-up</h2>
+      <p>No account, no email, no sign-up. Just open a page and get your price.</p>
+    </div>
+    <div class="summary-card">
+      <div class="summary-icon" aria-hidden="true"><span style="font-weight:800">$</span></div>
+      <h2>USA prices</h2>
+      <p>Every price is a sample estimated USA range, in plain English.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-wrap">
+    <div class="section-head">
+      <div class="eyebrow">How It Works</div>
+      <h2 class="section-title">How to use the calculators</h2>
+      <p class="section-copy">Pick a job, answer a few questions, and see your price in seconds.</p>
+    </div>
+<ol class="steps">
     <li><strong>Pick your job.</strong> Movers, roof, fence, oil change, central air, car wrap, car painting, or house painting.</li>
     <li><strong>Answer a few questions.</strong> A movers price needs your home size and distance, a roof price needs the roof size and material, a fence price needs the length, material, height, and gates, an oil change needs the oil type and vehicle type, central air needs the home size and efficiency, a car wrap needs the vehicle size, wrap type, and finish, a car paint job needs the vehicle size, paint quality, and job scope, and house painting needs the job type and home size.</li>
     <li><strong>See your low, typical, and high price in seconds.</strong> No calculator asks for your name, email, or address, and every calculation happens in your browser.</li>
   </ol>
-  <h2>How the low, typical, and high ranges work</h2>
-  <div class="table-wrap">
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="section-wrap">
+    <div class="section-head">
+      <div class="eyebrow">Price Bands</div>
+      <h2 class="section-title">How the low, typical, and high ranges work</h2>
+      <p class="section-copy">Every calculator shows three bands for a typical USA job.</p>
+    </div>
+<div class="table-wrap">
     <table class="cost-table bands-table">
       <thead>
         <tr><th>Band</th><th>What it means</th></tr>
@@ -47,15 +87,34 @@ schema: |
       </tbody>
     </table>
   </div>
-  <p>Below the bands, an itemized breakdown splits the total into material, labor, supplies, and equipment, so you can check the math line by line. The bands update with your choices, so change one input and the range moves with it.</p>
-  <h2>Why prices are ranges, not quotes</h2>
-  <ul class="checklist">
+<p>Below the bands, an itemized breakdown splits the total into material, labor, supplies, and equipment, so you can check the math line by line. The bands update with your choices, so change one input and the range moves with it.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-wrap">
+    <div class="section-head">
+      <div class="eyebrow">Why Ranges</div>
+      <h2 class="section-title">Why prices are ranges, not quotes</h2>
+      <p class="section-copy">Your size, your materials, and where you live move every price.</p>
+    </div>
+<ul class="checklist">
     <li><strong>Your size and materials.</strong> A bigger job and premium materials cost more than a smaller job with basic choices.</li>
     <li><strong>Where you live.</strong> A roof in a big city costs more than the same roof in a small town.</li>
     <li><strong>Premium vs basic choices.</strong> A premium material costs more than a basic one.</li>
   </ul>
-  <p>The range shows that spread, and the breakdown shows where it comes from. Use the range to check quotes from local pros: ask each pro for a written quote for the same size and options, compare the quotes line by line against the breakdown, and always get 3 quotes before you hire anyone.</p>
-  <div id="searchNotice" class="search-notice" role="status" hidden></div>
+<p>The range shows that spread, and the breakdown shows where it comes from. Use the range to check quotes from local pros: ask each pro for a written quote for the same size and options, compare the quotes line by line against the breakdown, and always get 3 quotes before you hire anyone.</p>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="section-wrap">
+    <div class="section-head">
+      <div class="eyebrow">All Calculators</div>
+      <h2 class="section-title">All 8 cost calculators</h2>
+      <p class="section-copy">Pick a job and get your low, typical, and high price in seconds.</p>
+    </div>
+    <div id="searchNotice" class="search-notice" role="status" hidden></div>
   <div class="reveal">
     <div class="service-row">
       <span class="s-num">01</span>
@@ -106,10 +165,18 @@ schema: |
       <a class="circle-btn" href="{{ '/house-painting-cost-calculator/' | relative_url }}" aria-label="House Painting Cost Calculator">&rarr;</a>
     </div>
   </div>
-  <div class="card card-wide"><h3>Not sure where to start?</h3><p>Read the cost guides first. Each guide explains what moves the price up or down, and links to the matching calculator.</p><a class="card-cta" href="{{ '/blog/' | relative_url }}">Read all cost guides &rarr;</a></div>
-  <h2>Read the guides</h2>
-  <p>Prefer to read first? Each guide opens with a direct answer, shows a price table, and links to the matching calculator. Start with the two newest guides.</p>
-  <ul class="link-cols">
+    <div class="card card-wide"><h3>Not sure where to start?</h3><p>Read the cost guides first. Each guide explains what moves the price up or down, and links to the matching calculator.</p><a class="card-cta" href="{{ '/blog/' | relative_url }}">Read all cost guides &rarr;</a></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-wrap">
+    <div class="section-head">
+      <div class="eyebrow">Cost Guides</div>
+      <h2 class="section-title">Read the guides</h2>
+      <p class="section-copy">Prefer to read first? Each guide opens with a direct answer, shows a price table, and links to the matching calculator.</p>
+    </div>
+<ul class="link-cols">
     <li><a href="{{ '/blog/how-much-does-a-car-wrap-cost/' | relative_url }}">How Much Does a Car Wrap Cost?</a> <span>Full and partial wraps by vehicle size and finish.</span></li>
     <li><a href="{{ '/blog/how-much-does-it-cost-to-paint-a-house/' | relative_url }}">How Much Does It Cost to Paint a House?</a> <span>Interior and exterior painting by home size.</span></li>
     <li><a href="{{ '/blog/how-much-do-movers-cost/' | relative_url }}">How Much Do Movers Cost?</a> <span>Local and long-distance moves by home size and distance.</span></li>
@@ -119,7 +186,8 @@ schema: |
     <li><a href="{{ '/blog/how-much-does-it-cost-to-install-central-air/' | relative_url }}">How Much Does It Cost to Install Central Air?</a> <span>By home size and efficiency.</span></li>
     <li><a href="{{ '/blog/how-much-does-it-cost-to-paint-a-car/' | relative_url }}">How Much Does It Cost to Paint a Car?</a> <span>By vehicle size, quality, and scope.</span></li>
   </ul>
-  <p>See <a href="{{ '/blog/' | relative_url }}">all cost guides</a> for the full list.</p>
+<p>See <a href="{{ '/blog/' | relative_url }}">all cost guides</a> for the full list.</p>
+  </div>
 </section>
 
 <section class="cta-wrap">
