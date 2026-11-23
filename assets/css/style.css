@@ -918,7 +918,7 @@ section.hero.page-hero h1 { margin-bottom: 16px; }
 .calc-mini-card:hover .pill-btn, .tool-card:hover .pill-btn, .guide-card.photo-card:hover .pill-btn { background: #FFF4EF; color: #D94826; }
 /* Tools page: 8 catchy photo calculator cards, 4 columns. Same Sirix
    pattern as the About mini cards, larger. */
-.tool-cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+.tool-cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; margin-bottom: 56px; }
 .tool-card { position: relative; display: flex; flex-direction: column; justify-content: flex-end; min-height: 280px; border-radius: 16px; overflow: hidden; background: #191C25; box-shadow: var(--shadow); transition: transform .2s ease, box-shadow .2s ease; text-decoration: none; }
 .tool-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lift); }
 .tool-card .tool-photo { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
@@ -941,15 +941,29 @@ section.hero.page-hero h1 { margin-bottom: 16px; }
    left-aligned section heads, one accent colour. Homepage untouched. */
 body.inner .section { padding: 80px 0; }
 body.inner .section-head { text-align: left; margin: 0 0 40px; max-width: 860px; }
-/* Contact page: full-width calculator panel below the two columns. */
-.calc-panel-full { margin-top: 32px; }
+/* Contact page: full-width calculator panel below the two columns.
+   Light-grey band, grey border, and NO orange outline on hover. */
+.calc-panel-full { margin-top: 32px; background: #F7F7F7; border: 1px solid #EDEDED; }
+.calc-panel-full:hover { transform: none; box-shadow: var(--shadow); border-color: #EDEDED; }
 .calc-links-grid { list-style: none; padding: 0; margin: 16px 0; display: grid; grid-template-columns: 1fr 1fr; gap: 4px 32px; }
 .calc-links-grid li { padding: 10px 0; border-bottom: 1px solid #EDEDED; font-size: 15px; }
 .calc-links-grid li a { font-weight: 700; }
-/* Stats band: light grey rounded band, dividers between stats. */
-.counters.stats-band { background: #F7F7F7; border: 1px solid #EDEDED; border-radius: 24px; padding: 36px 32px; margin-top: 0; padding-top: 36px; border-top: 1px solid #EDEDED; gap: 0; }
+/* "See all" CTA rows (About, Contact, Tools): two pill buttons, centred,
+   replacing plain running-text links. Buttons may wrap on small screens. */
+.see-all-cta { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 16px; margin-top: 40px; }
+.see-all-cta .btn { white-space: normal; text-align: center; }
+.see-all-note { text-align: center; color: #5B6472; font-size: 15px; margin-top: 40px; margin-bottom: 0; }
+.see-all-note + .see-all-cta { margin-top: 20px; }
+/* Tight section spacing where a CTA row ends one section and a small card
+   starts the next (About calculators -> contact card). */
+body.inner .section-tight-b { padding-bottom: 48px; }
+body.inner .section-tight-t { padding-top: 48px; }
+/* Stats band: light grey rounded band, dividers between stats.
+   Colours are deliberately clear (not near-white) so the band is
+   unmistakable in a screenshot. */
+.counters.stats-band { background: #F0F0F0; border: 1px solid #E2E2E2; border-radius: 24px; padding: 36px 32px; margin-top: 0; padding-top: 36px; border-top: 1px solid #E2E2E2; gap: 0; }
 .counters.stats-band .counter { text-align: center; padding: 0 24px; }
-.counters.stats-band .counter + .counter { border-left: 1px solid #E5E5E5; }
+.counters.stats-band .counter + .counter { border-left: 1px solid #D5D5D5; }
 .counters.stats-band .counter .num { font-size: 40px; }
 .counters.stats-band .counter .cap { font-size: 15px; }
 /* Inner-page H2 consistency: section H2s match the 32px inner standard
