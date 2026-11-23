@@ -97,14 +97,6 @@ schema: |
           },
           {
             "@type": "Question",
-            "name": "How much does it cost to replace central AC with new ductwork?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "The calculator prices ductwork modifications at $350 to $750, with a typical cost of $500, on a standard install. A home with no ducts at all needs a full duct install on top of the $5,200 to $9,500 range for a typical 2.5 ton system, so ask each installer to list ductwork as its own line."
-            }
-          },
-          {
-            "@type": "Question",
             "name": "What does a 3.5 ton central AC system cost?",
             "acceptedAnswer": {
               "@type": "Answer",
@@ -121,7 +113,7 @@ schema: |
           },
           {
             "@type": "Question",
-            "name": "How much does it cost to get central air installed?",
+            "name": "How much does it cost to install central air?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "A typical 2.5 ton central air system costs about $6,800 to get installed, with a sample range of $5,200 to $9,500. The final price rises if the home needs new ductwork, electrical work, or a higher SEER2 system, so compare 3 written quotes with the same scope before you decide."
@@ -149,14 +141,6 @@ schema: |
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "Central air helps a home sell in hot climates, where buyers expect it, and it matters at inspection and at sale. It does not add a fixed dollar premium to a home value, so treat it as a comfort and saleability upgrade, not as an investment with a set return."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How much does it cost to install central air?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "A typical 2.5 ton central air system costs about $6,800 to install, with a sample range of $5,200 to $9,500."
             }
           }
         ]
@@ -396,16 +380,12 @@ An older home may need a panel upgrade or a new circuit for the outdoor unit. Th
 <details class="faq"><summary>What is not included?</summary><p>Panel upgrades and duct replacement are usually not included in a standard install quote. Ask each installer to list these items, so you know what the price does and does not cover.</p></details>
 <details class="faq"><summary>How much does it cost to replace central AC instead of installing new?</summary><p>Replacing only the AC on existing ducts costs less than a full new install, because the scope is smaller. A typical new 2.5 ton install costs about $6,800, with a sample range of $5,200 to $9,500, and the calculator prices ductwork modifications at $350 to $750, with a typical cost of $500. Compare the scope line by line before you compare the totals.</p></details>
 <details class="faq"><summary>Is there still a federal tax credit for central AC in 2026?</summary><p>No. The federal 25C tax credit ended December 31, 2025, under Public Law 119-21, per the IRS. Check state and utility rebates instead.</p></details>
-<details class="faq"><summary>How much does it cost to replace central AC with new ductwork?</summary><p>The calculator prices ductwork modifications at $350 to $750, with a typical cost of $500, on a standard install. A home with no ducts at all needs a full duct install on top of the $5,200 to $9,500 range for a typical 2.5 ton system, so ask each installer to list ductwork as its own line.</p></details>
 <details class="faq"><summary>What does a 3.5 ton central AC system cost?</summary><p>A 3.5 ton system costs about $9,520 at the calculator rate of $2,720 per ton at 13.4 SEER2, inside the $7,000 to $12,000 range for a 2,000 sq ft home on this page. A 16 SEER2 system costs 1.15 times as much, and an 18+ SEER2 system costs 1.3 times as much.</p></details>
 <details class="faq"><summary>Is central air or a mini-split cheaper when there are no ducts?</summary><p>A mini-split can be cheaper when there are no ducts, because new ductwork is one of the biggest cost swings. The calculator prices ductwork modifications at $350 to $750, with a typical cost of $500, and a home with no ducts needs a full duct install on top of the $5,200 to $9,500 install range.</p></details>
-
-<details class="faq"><summary>How much does it cost to get central air installed?</summary><p>A typical 2.5 ton central air system costs about $6,800 to get installed, with a sample range of $5,200 to $9,500. The final price rises if the home needs new ductwork, electrical work, or a higher SEER2 system, so compare 3 written quotes with the same scope before you decide.</p></details>
+<details class="faq"><summary>How much does it cost to install central air?</summary><p>A typical 2.5 ton central air system costs about $6,800 to get installed, with a sample range of $5,200 to $9,500. The final price rises if the home needs new ductwork, electrical work, or a higher SEER2 system, so compare 3 written quotes with the same scope before you decide.</p></details>
 <details class="faq"><summary>How much does it cost to install central air with new ductwork?</summary><p>With new ductwork, the calculator prices the job at $7,500 to $16,000, against $5,200 to $9,500 for a typical 2.5 ton install on good existing ducts. A home with no ducts needs a full duct install on top of the standard range, so ask each installer to list ductwork as its own line.</p></details>
 <details class="faq"><summary>What size central air unit do I need for a 2,000 sq ft home?</summary><p>A 2,000 sq ft home needs a 3.5 ton system, at $7,000 to $12,000 for a full install. That is a rough guide from home size only, and a pro should confirm it with a Manual J load calculation, which looks at insulation, windows, and local climate.</p></details>
 <details class="faq"><summary>Does central air add value to a home?</summary><p>Central air helps a home sell in hot climates, where buyers expect it, and it matters at inspection and at sale. It does not add a fixed dollar premium to a home value, so treat it as a comfort and saleability upgrade, not as an investment with a set return.</p></details>
-
-<details class="faq"><summary>How much does it cost to install central air?</summary><p>A typical 2.5 ton central air system costs about $6,800 to install, with a sample range of $5,200 to $9,500.</p></details>
 
 ## References
 
