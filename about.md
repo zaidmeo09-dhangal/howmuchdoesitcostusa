@@ -28,6 +28,24 @@ schema: |
   </div>
 </section>
 <section class="wrap">
+  <div class="counters reveal">
+    <div class="counter">
+      <div class="num"><span class="count" data-count="8">8</span></div>
+      <div class="cap">Calculators</div>
+    </div>
+    <div class="counter">
+      <div class="num"><span class="count" data-count="9">9</span></div>
+      <div class="cap">Guides</div>
+    </div>
+    <div class="counter">
+      <div class="num"><span class="count" data-count="23">23</span></div>
+      <div class="cap">Pages</div>
+    </div>
+    <div class="counter">
+      <div class="num"><span class="count" data-count="1240" data-prefix="$">$1,240</span></div>
+      <div class="cap">Typical move</div>
+    </div>
+  </div>
   <div class="grid">
     <div class="card"><div class="card-icon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8.5 12.5l2.5 2.5 4.5-5"/></svg></div><h3>Free forever</h3><p>Every calculator and guide is free, with no paywall and no trial.</p></div>
     <div class="card"><div class="card-icon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M5 20c0-3.5 3-5.5 7-5.5s7 2 7 5.5"/><line x1="4" y1="4" x2="20" y2="20"/></svg></div><h3>No sign-up</h3><p>No account, no email, no sign-up. Just open a page and get your price.</p></div>
@@ -68,4 +86,18 @@ schema: |
   <p>How Much Does It Cost USA is run by a small site team, not a large company. The team builds the calculators, writes the guides, checks the prices against the sources, and reads every message readers send. You can reach the team through the <a href="{{ '/contact/' | relative_url }}">contact page</a> or by email at <a href="mailto:support&#64;howmuchdoesitcostusa.com">support&#64;howmuchdoesitcostusa.com</a>.</p>
   <h2>Contact</h2>
   <p>Found a wrong price or a broken calculator? <a href="{{ '/contact/' | relative_url }}">Contact us</a> and we will check it.</p>
+</section>
+
+<section class="cta-wrap">
+  <div class="wrap">
+    <div class="cta-banner reveal">
+      <div class="eyebrow"><span class="e-icon">&#9733;</span> Free forever</div>
+      <h2>Get your <span class="accent">price</span> in seconds</h2>
+      <p>Free forever, no sign-up, USA prices.</p>
+      <div class="btn-row">
+        <a class="btn btn-orange" href="{{ '/tools/' | relative_url }}">Get a Price &rarr;</a>
+        <a class="btn btn-white" href="{{ '/blog/' | relative_url }}">Read the Guides &rarr;</a>
+      </div>
+    </div>
+  </div>
 </section>
