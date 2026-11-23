@@ -235,7 +235,7 @@ schema: |
   </div>
 </section>
 
-<section class="section">
+<section class="section section-tight-b">
   <div class="section-wrap">
     <div class="section-head">
       <p class="eyebrow">Our Calculators</p>
@@ -308,11 +308,14 @@ schema: |
         </div>
       </a>
     </div>
-    <p>See <a href="{{ '/tools/' | relative_url }}">all 8 cost calculators</a>, or read the <a href="{{ '/blog/' | relative_url }}">cost guides</a> to learn what drives each price up or down.</p>
+    <div class="see-all-cta">
+      <a class="btn btn-orange" href="{{ '/tools/' | relative_url }}">See all 8 cost calculators &rarr;</a>
+      <a class="btn btn-white" href="{{ '/blog/' | relative_url }}">Read the cost guides &rarr;</a>
+    </div>
   </div>
 </section>
 
-<section class="section">
+<section class="section section-tight-t">
   <div class="section-wrap">
     <div class="contact-card">
       <h3>Contact How Much Does It Cost USA</h3>
