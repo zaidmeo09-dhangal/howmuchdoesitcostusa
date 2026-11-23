@@ -171,7 +171,6 @@ schema: |
   <div class="answer">
     <p id="answerIntro">A typical 150 ft wood privacy fence in the USA costs about $3,335, with a sample range of $2,100 to $5,400.</p>
     <p class="note">All prices on this page are sample estimated USA ranges, not quotes. Read the full <a href="{{ '/blog/how-much-does-a-fence-cost/' | relative_url }}">fence cost guide</a> for prices by material, height, and region.</p>
-    <p class="updated-line">Updated November 21, 2026</p>
   </div>
 
   <div class="calc">
