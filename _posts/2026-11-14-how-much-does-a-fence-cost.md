@@ -155,7 +155,7 @@ schema: |
 </div>
 
 <div class="key-takeaways">
-<p class="key-takeaways-title">Key facts</p>
+<p class="key-takeaways-title">Key Takeaways</p>
 <ul>
 <li>A typical 150 ft wood privacy fence costs about $3,335, with a sample range of $2,100 to $5,400.</li>
 <li>Installed cost per foot is $14 to $36 for wood, $25 to $55 for vinyl, and $9 to $20 for chain link.</li>
@@ -166,6 +166,8 @@ schema: |
 </div>
 
 <figure><img src="/assets/images/blog/fence-cost/fence-inpost-1.webp" alt="Wooden fence and gate beside a stone path in a sunny backyard" width="1200" height="800" loading="lazy"></figure>
+
+<p class="eyebrow">Price table</p>
 
 ## Fence cost per foot installed
 
