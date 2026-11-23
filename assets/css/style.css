@@ -752,3 +752,28 @@ section.wrap > p, section.wrap > ul, section.wrap > ol, section.wrap > h2, secti
   .price-bar span { transition: none; }
   * { transition: none; }
 }
+
+/* Content restructure (Nov 23, 2026): bands table, guide link list, contact layout. */
+/* Bands table: 2 columns, both left aligned (the default cost-table right
+   aligns the last column, which is wrong for a description column). */
+.cost-table.bands-table { min-width: 0; }
+.cost-table.bands-table th, .cost-table.bands-table td { text-align: left; font-weight: 400; }
+.cost-table.bands-table th:first-child, .cost-table.bands-table td:first-child { font-weight: 800; color: #191C25; white-space: nowrap; width: 120px; }
+/* Guide link list: clean 2-column list with an orange arrow marker. */
+.link-cols { list-style: none; padding: 0; margin: 16px 0; display: grid; grid-template-columns: 1fr 1fr; gap: 4px 32px; }
+.link-cols li { padding: 10px 0 10px 26px; position: relative; border-bottom: 1px solid #EDEDED; }
+.link-cols li::before { content: "\2192"; position: absolute; left: 0; top: 10px; color: #F05A30; font-weight: 800; }
+.link-cols li a { font-weight: 700; }
+.link-cols li span { color: #5B6472; }
+/* Contact page: form on the left, content column on the right. Stacks on mobile. */
+.contact-layout { display: grid; grid-template-columns: 1.35fr 1fr; gap: 32px; align-items: start; margin-top: 8px; }
+.contact-side h2 { font-size: 24px; margin-top: 0; }
+.contact-side .side-block { margin-bottom: 28px; }
+.contact-side .side-block:last-child { margin-bottom: 0; }
+.contact-side ul { margin: 8px 0; }
+.contact-side .calc-links li { padding: 6px 0; border-bottom: 1px solid #EDEDED; }
+.contact-side .calc-links li:last-child { border-bottom: none; }
+@media (max-width: 768px) {
+  .link-cols { grid-template-columns: 1fr; }
+  .contact-layout { grid-template-columns: 1fr; }
+}
