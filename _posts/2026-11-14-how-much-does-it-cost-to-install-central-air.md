@@ -155,7 +155,7 @@ schema: |
 </div>
 
 <div class="key-takeaways">
-<p class="key-takeaways-title">Key facts</p>
+<p class="key-takeaways-title">Key Takeaways</p>
 <ul>
 <li>A typical 2.5 ton central air system costs about $6,800, with a sample range of $5,200 to $9,500.</li>
 <li>A 1,000 sq ft home needs a 1.5 ton system at $4,500 to $7,500, and a 2,500 sq ft home needs a 4 ton system at $8,000 to $14,000.</li>
@@ -166,6 +166,8 @@ schema: |
 </div>
 
 <figure><img src="/assets/images/blog/central-air-cost/central-air-inpost-1.webp" alt="HVAC technician servicing an outdoor air conditioner condenser unit with pressure gauges" width="1100" height="538" loading="lazy"></figure>
+
+<p class="eyebrow">Price table</p>
 
 ## Cost to install central air by home size
 
