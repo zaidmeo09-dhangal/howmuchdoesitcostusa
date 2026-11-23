@@ -172,6 +172,15 @@ schema: |
     <p id="answerIntro">A typical exterior paint job for a 1,800 sq ft home in the USA costs about $4,200, with a sample range of $2,800 to $6,800.</p>
     <p class="note">All prices on this page are sample estimated USA ranges, not quotes.</p>
   </div>
+  <div class="trust-row">
+    <span>Free forever</span>
+    <span>No sign-up</span>
+    <span>USA prices</span>
+  </div>
+  <div class="hero-cta" style="margin-top:18px">
+    <a class="btn btn-orange" href="{{ '/blog/how-much-does-it-cost-to-paint-a-house/' | relative_url }}">Read the guide &rarr;</a>
+    <a class="btn btn-white" href="{{ '/tools/' | relative_url }}">All calculators &rarr;</a>
+  </div>
 
   <div class="calc">
     <h2>House Painting Cost Calculator</h2>
@@ -197,6 +206,7 @@ schema: |
     </div>
   </div>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Price bands</div>
   <h2>Low, typical, and high cost</h2>
   <p>These bands update with your calculator choices. Use them to plan your budget before you request quotes.</p>
   <div class="bands">
@@ -217,6 +227,7 @@ schema: |
     </div>
   </div>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Breakdown</div>
   <h2>Itemized cost breakdown</h2>
   <p class="note live-note">Updates live with your calculator choices.</p>
   <p class="table-hint">Swipe to see the High column &rarr;</p>
@@ -238,6 +249,7 @@ schema: |
   </div>
   <p class="note">Sample estimated USA ranges. Labor is usually the largest share of a paint job.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> What it prices</div>
   <h2>Which area does this calculator price?</h2>
   <p>This calculator prices by home floor area, the square feet you enter above. It does not price by paintable wall area. That matters because published per square foot exterior averages use floor area while per-surface figures use wall area, so the two never match, per PaintDeck. Wall area is larger than floor area, so a quote priced per wall square foot will show a lower rate per square foot for the same job. Compare totals, not per square foot rates, when you compare quotes.</p>
   <p>For paint quantity, use paintable surface area, not floor area. One gallon covers 350 to 400 sq ft per coat, per Angi. Do not divide your floor area by 350, because that understates the paint: the wall area you actually paint is larger than the floor area.</p>
@@ -259,6 +271,7 @@ schema: |
   <p class="note">Math: 1,000 / 400 = 2.5 and 1,000 / 350 = 2.9 gallons; 1,500 / 400 = 3.8 and 1,500 / 350 = 4.3; 2,000 / 400 = 5.0 and 2,000 / 350 = 5.7; 3,000 / 400 = 7.5 and 3,000 / 350 = 8.6. Double the gallons for two coats. A gallon costs $20 to $30 on average, with a $10 to $100 range, per Angi.</p>
   <p><strong>Lead paint note:</strong> homes built before 1978 may contain lead paint, and federal law requires EPA RRP certification for renovation that disturbs lead paint, per PaintDeck. Tell your painter the age of the home before work starts.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Cost by room</div>
   <h2>Interior house painting cost calculator: cost by room</h2>
   <p>Interior prices vary by room size and by room type, per Angi. A 10 by 12 ft room costs $240 to $720, and a 20 by 25 ft room costs $1,000 to $3,000. A room with more trim, cabinets, and fixtures to work around costs more than a plain room of the same size, so compare rooms with the same scope, not just the same size.</p>
   <p class="table-hint">Swipe to see the Sample range column &rarr;</p>
@@ -279,6 +292,7 @@ schema: |
   </div>
   <p class="note">A single room costs $400 to $1,200, and a whole interior of 1,500 to 2,000 sq ft costs $3,000 to $8,000, per HousecallPro.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Cost by siding</div>
   <h2>Exterior house painting cost calculator: cost by siding</h2>
   <p>Exterior cost per square foot depends on the siding material, per Angi.</p>
   <p class="table-hint">Swipe to see the Per sq ft column &rarr;</p>
@@ -299,6 +313,7 @@ schema: |
     </table>
   </div>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Cost by stories</div>
   <h2>Cost by stories (exterior)</h2>
   <p>More stories mean more ladder and scaffolding work, per Angi. Extra stories add up to 50 percent to labor.</p>
   <p class="table-hint">Swipe to see the Sample range column &rarr;</p>
@@ -316,6 +331,7 @@ schema: |
     </table>
   </div>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Prep and add-ons</div>
   <h2>Prep and add-ons</h2>
   <p>Prep is priced apart from the paint itself in many quotes, per Angi. Cabinet painting is a separate add-on, not part of a wall paint price.</p>
   <p class="table-hint">Swipe to see the Price column &rarr;</p>
@@ -342,6 +358,7 @@ schema: |
   </div>
   <p class="note">Labor is 70 to 90 percent of the total, at $25 to $100 per hour, per Angi.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> How to</div>
   <h2>How to estimate in 4 steps</h2>
   <ol class="steps">
     <li><strong>Measure your home size.</strong> Use the home floor area as the starting point for the estimate.</li>
@@ -350,22 +367,47 @@ schema: |
     <li><strong>Compare 3 written quotes.</strong> Ask each painter to list paint brand, coats, prep, and repairs separately.</li>
   </ol>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> What drives the price</div>
   <h2>What affects the price</h2>
-  <h3>Home size</h3>
-  <p>Larger homes need more paint and more labor hours, so size drives the total. A 3,000 sq ft home needs far more paint and time than a 1,000 sq ft home.</p>
-  <h3>Job type</h3>
-  <p>Exterior jobs face weather and need tougher paint, while interior jobs need more care around furniture and floors. Exterior work also needs ladders and weather-safe days.</p>
-  <h3>Prep work</h3>
-  <p>Cleaning, sanding, caulking, and minor repairs add time before any paint goes on. Homes with peeling paint or cracks need more prep than homes in good shape.</p>
-  <h3>Paint quality</h3>
-  <p>Premium paint costs more per gallon and often covers better and lasts longer. A cheaper paint may need an extra coat, which can erase the saving.</p>
-  <h3>Number of coats</h3>
-  <p>Two coats cost more than one and usually look better and last longer. A color change almost always needs two coats for full coverage.</p>
+  <div class="adv-grid">
+    <div class="adv-card">
+      <div class="adv-icon">$</div>
+      <h3>Home size</h3>
+      <p>Larger homes need more paint and more labor hours, so size drives the total. A 3,000 sq ft home needs far more paint and time than a 1,000 sq ft home.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">&#10003;</div>
+      <h3>Job type</h3>
+      <p>Exterior jobs face weather and need tougher paint, while interior jobs need more care around furniture and floors. Exterior work also needs ladders and weather-safe days.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">&#9733;</div>
+      <h3>Prep work</h3>
+      <p>Cleaning, sanding, caulking, and minor repairs add time before any paint goes on. Homes with peeling paint or cracks need more prep than homes in good shape.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">&#9873;</div>
+      <h3>Paint quality</h3>
+      <p>Premium paint costs more per gallon and often covers better and lasts longer. A cheaper paint may need an extra coat, which can erase the saving.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">$</div>
+      <h3>Number of coats</h3>
+      <p>Two coats cost more than one and usually look better and last longer. A color change almost always needs two coats for full coverage.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">&#10003;</div>
+      <h3>Color change</h3>
+      <p>A color change almost always needs two coats for full coverage, and two coats cost more than one. Primer is usually included, but ask your painter to confirm, and check the paint brand and number of coats in the quote.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">&#9733;</div>
+      <h3>Weather and timing for exterior work</h3>
+      <p>Exterior work needs dry, mild days, and paint in the off season can bring better rates. Rain, cold, and strong sun all slow exterior paint, and a rushed job in bad weather peels early. If the house needs exterior work beyond paint, price the roof with the <a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Cost Calculator</a>.</p>
+    </div>
+  </div>
 
-  <h3>Color change</h3>
-  <p>A color change almost always needs two coats for full coverage, and two coats cost more than one. Primer is usually included, but ask your painter to confirm, and check the paint brand and number of coats in the quote.</p>
-  <h3>Weather and timing for exterior work</h3>
-  <p>Exterior work needs dry, mild days, and paint in the off season can bring better rates. Rain, cold, and strong sun all slow exterior paint, and a rushed job in bad weather peels early. If the house needs exterior work beyond paint, price the roof with the <a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Cost Calculator</a>.</p>
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Included</div>
   <h2>What is included and what is not</h2>
   <div class="two-col">
     <div>
@@ -388,16 +430,20 @@ schema: |
     </div>
   </div>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Method</div>
   <h2>How we estimate</h2>
   <p>This paint house cost calculator prices by floor area, not wall area. The typical price is home floor area times the job rate: $2.33 per sq ft for exterior, $1.85 per sq ft for interior. At the default 1,800 sq ft exterior job that is 1,800 x $2.33 = $4,194, rounded to the nearest $50 to $4,200. For the same home interior it is 1,800 x $1.85 = $3,330, rounded to $3,350. Low is 66.7 percent of typical and high is 161.9 percent, so $4,200 gives $2,800 low and $6,800 high after rounding to the nearest $10.</p>
   <p>Your final price depends on prep needs, paint brand, and local labor rates, so always confirm the price in writing before work starts.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Worked example</div>
   <h2>Worked example: a 2,000 sq ft house</h2>
   <p>Take a 2,000 sq ft home and run the same formula. Exterior: 2,000 x $2.33 = $4,660, rounded to $4,650 typical, with a sample range of $3,100 low to $7,530 high. Interior: 2,000 x $1.85 = $3,700 typical. The two results differ only because the job rate differs, so a quote that mixes the two job types is not comparable with either one. Check the worked example against the size table in the guide, and use the same steps for your own home size: floor area times the job rate, then the low and high bands around it.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Scope</div>
   <h2>Scope: walls only, or walls, ceilings, and trim?</h2>
   <p>Scope is the biggest price swing inside a house, and it is easy to compare the wrong jobs. Walls only is the cheapest scope, because it covers the largest flat surfaces and nothing else. Adding ceilings adds labor for overhead work and for cutting in around light fixtures, and adding trim and baseboards adds slow, detailed work around doors, windows, and floors. This calculator gives one interior rate and one exterior rate, and it does not split walls only from walls, ceilings, and trim, so treat the result as a planning figure and confirm the scope in each quote. A low quote that covers walls only is not cheaper than a higher quote that covers walls, ceilings, and trim, it is a smaller job.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Avoid mistakes</div>
   <h2>Common mistakes when you use a house painting cost calculator</h2>
   <ul>
     <li><strong>Comparing a per wall square foot price with a per floor square foot price.</strong> Wall area is larger than floor area, so a quote priced per wall square foot shows a lower rate for the same job. Compare totals, not per square foot rates.</li>
@@ -407,9 +453,11 @@ schema: |
     <li><strong>Taking one bid.</strong> Quotes for the same job vary by prep, paint brand, and local labor rates, so get 3 written quotes and compare them line by line.</li>
   </ul>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Limits</div>
   <h2>When this calculator is the wrong tool</h2>
   <p>Use a pro walkthrough instead of this calculator when the job is not a standard repaint. Cabinet painting is a separate add-on at $3,000 to $10,000, lead paint removal is not included in a standard quote, and rot repair, deck staining, and wallpaper removal are priced apart. Very high ceilings, huge windows, or an open plan layout also skew a floor area estimate, because the paintable surface no longer tracks the floor area in the usual way. In those cases, ask painters to walk the home and price the actual surfaces.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Checklist</div>
   <h2>Hiring a pro checklist</h2>
   <ul class="checklist">
     <li>Get 3 written quotes with the paint brand, number of coats, and prep items listed line by line</li>
@@ -419,11 +467,13 @@ schema: |
     <li>Confirm the cleanup plan and the warranty on the work in writing</li>
   </ul>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Save money</div>
   <h2>Budget tips</h2>
   <ul>
       <li>Ask whether the quote prices floor area or wall area, and compare totals, not per square foot rates</li>
 </ul>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Where the money goes</div>
   <h2>Where the $4,200 typical total goes</h2>
   <p>The table below repeats the typical column from the breakdown above, so you can see the share of each line at the calculator default.</p>
   <div class="table-wrap">
@@ -443,9 +493,11 @@ schema: |
     </table>
   </div>
   <p>Labor at $2,300 is the largest line, and labor is 70 to 90 percent of the total, at $25 to $100 per hour, per Angi. Doing interior prep yourself saves $700 to $1,800 in labor, and doing exterior prep yourself saves $500 to $1,000, per Angi.</p>
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Interior vs exterior</div>
   <h2>Interior vs exterior: what changes</h2>
   <p>Exterior and interior jobs use different paint and prep, so prices differ even for the same home. Exterior work runs $2.33 per sq ft of floor area, and a 1,800 sq ft home costs $4,200 typical. Interior work runs $1.85 per sq ft, and the same home costs $3,350 typical. Exterior paint must stand up to weather, and the job needs ladders and weather-safe days. Interior paint needs more care around furniture and floors, and it needs cutting in around trim, doors, and ceilings.</p>
   <p>Labor is the largest share of both jobs, at $25 to $100 per hour, per Angi. Do not compare an interior quote with an exterior quote: compare totals for the same job type, and check the paint brand, the number of coats, and the prep items in each one.</p>
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Sources</div>
   <h2>References</h2>
   <p>Our estimates use public US cost data as a guide. Labor cost context comes from the US Bureau of Labor Statistics, housing cost context from HUD, remodeling trends from Harvard JCHS, and material prices from Home Depot and Lowes. Painting prices in this page also use Angi, HousecallPro, and PaintDeck. All prices on this page are sample estimated USA ranges, not quotes.</p>
   <div class="refs">
@@ -457,6 +509,7 @@ schema: |
   <p><a href="https://www.angi.com/articles/cost-paint-interior-and-exterior.htm" target="_blank" rel="noopener">Angi</a> <span class="ref-note">interior and exterior painting cost, updated October 29, 2026</span></p>
   </div>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Keep exploring</div>
   <h2>Related calculators and guides</h2>
   <div class="grid related-grid">
 <div class="card related-card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h12v11H2z"/><path d="M14 9h4l3 3v4h-7"/><circle cx="6" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg></div><div class="card-top"><span class="card-cat">Moving</span></div><h3><a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator</a></h3><p class="price">$843 - $1,637</p><a class="card-cta" href="{{ '/movers-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
@@ -471,6 +524,7 @@ schema: |
   <li><a href="{{ '/tools/' | relative_url }}">All calculators <span aria-hidden="true">&rarr;</span></a></li>
 </ul>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> FAQ</div>
   <h2>Frequently asked questions</h2>
   <details class="faq">
     <summary>How often should I repaint my house exterior?</summary>
@@ -529,6 +583,20 @@ schema: |
     <p>This calculator uses $2.33 per sq ft of floor area for exterior work and $1.85 per sq ft for interior work. Exterior painting costs $1.50 to $4 per square foot, per Angi.</p>
   </details>
 </section>
+<section class="cta-wrap">
+  <div class="wrap">
+    <div class="cta-banner">
+      <div class="eyebrow"><span class="e-icon">&#9733;</span> Free forever</div>
+      <h2>Get your <span class="accent">price</span> in seconds</h2>
+      <p>Free forever, no sign-up, USA prices.</p>
+      <div class="btn-row">
+        <a class="btn btn-orange" href="{{ '/house-painting-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a>
+        <a class="btn btn-white" href="{{ '/blog/how-much-does-it-cost-to-paint-a-house/' | relative_url }}">Read the guide &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <script>
 (function () {
