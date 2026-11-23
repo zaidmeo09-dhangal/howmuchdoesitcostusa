@@ -49,6 +49,11 @@ schema: |
       </form>
     </div>
     <aside class="contact-side">
+      <div class="card">
+        <h3>Email us directly</h3>
+        <p><a href="mailto:support&#64;howmuchdoesitcostusa.com">support&#64;howmuchdoesitcostusa.com</a></p>
+        <p>We read every message.</p>
+      </div>
       <div class="side-block">
         <h2>What to include in a price correction</h2>
         <ul class="checklist">
@@ -80,4 +85,18 @@ schema: |
     </aside>
   </div>
   <p class="note">This form opens your own email app addressed to the site team at <a href="mailto:support&#64;howmuchdoesitcostusa.com">support&#64;howmuchdoesitcostusa.com</a>. We do not store form submissions on this site.</p>
+</section>
+
+<section class="cta-wrap">
+  <div class="wrap">
+    <div class="cta-banner reveal">
+      <div class="eyebrow"><span class="e-icon">&#9733;</span> Free forever</div>
+      <h2>Get your <span class="accent">price</span> in seconds</h2>
+      <p>Free forever, no sign-up, USA prices.</p>
+      <div class="btn-row">
+        <a class="btn btn-orange" href="{{ '/tools/' | relative_url }}">Get a Price &rarr;</a>
+        <a class="btn btn-white" href="{{ '/blog/' | relative_url }}">Read the Guides &rarr;</a>
+      </div>
+    </div>
+  </div>
 </section>
