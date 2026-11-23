@@ -116,78 +116,78 @@ schema: |
     </div>
     <div id="searchNotice" class="search-notice" role="status" hidden></div>
   <div class="tool-cards reveal">
-    <article class="tool-card">
+    <a class="tool-card" href="{{ '/movers-cost-calculator/' | relative_url }}">
+      <img class="tool-photo" src="{{ '/assets/images/movers-card.webp' | relative_url }}" alt="Two professional movers carrying cardboard boxes in a bright room on moving day" loading="lazy">
       <span class="tool-num">01</span>
-      <h3><a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator</a></h3>
-      <p>Price a local or long distance move by home size and distance. Typical: 2-bedroom move. Range $843 - $1,637.</p>
-      <div class="tool-foot">
-        <div class="tool-price"><b>$1,240</b><span>Typical</span></div>
-        <a class="btn btn-primary btn-sm" href="{{ '/movers-cost-calculator/' | relative_url }}">Get your price &rarr;</a>
+      <div class="tool-body">
+        <h3>Movers Cost Calculator</h3>
+        <p class="tool-price">Typical $1,240</p>
+        <span class="pill-btn">Get your price &rarr;</span>
       </div>
-    </article>
-    <article class="tool-card">
+    </a>
+    <a class="tool-card" href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">
+      <img class="tool-photo" src="{{ '/assets/images/roof-card.webp' | relative_url }}" alt="Roofer installing asphalt shingles on a residential roof with a nail gun" loading="lazy">
       <span class="tool-num">02</span>
-      <h3><a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Cost Calculator</a></h3>
-      <p>Price a new roof by size and material. Typical: 1,800 sq ft asphalt roof. Range $7,528 - $11,475.</p>
-      <div class="tool-foot">
-        <div class="tool-price"><b>$9,180</b><span>Typical</span></div>
-        <a class="btn btn-primary btn-sm" href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Get your price &rarr;</a>
+      <div class="tool-body">
+        <h3>Roof Replacement Cost Calculator</h3>
+        <p class="tool-price">Typical $9,180</p>
+        <span class="pill-btn">Get your price &rarr;</span>
       </div>
-    </article>
-    <article class="tool-card">
+    </a>
+    <a class="tool-card" href="{{ '/fence-cost-calculator/' | relative_url }}">
+      <img class="tool-photo" src="{{ '/assets/images/fence-card.webp' | relative_url }}" alt="Wooden fence and gate beside a stone path in a sunny backyard" loading="lazy">
       <span class="tool-num">03</span>
-      <h3><a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a></h3>
-      <p>Price a wood, vinyl, or chain link fence by length. Typical: 150 ft wood fence. Range $2,100 - $5,400.</p>
-      <div class="tool-foot">
-        <div class="tool-price"><b>$3,335</b><span>Typical</span></div>
-        <a class="btn btn-primary btn-sm" href="{{ '/fence-cost-calculator/' | relative_url }}">Get your price &rarr;</a>
+      <div class="tool-body">
+        <h3>Fence Cost Calculator</h3>
+        <p class="tool-price">Typical $3,335</p>
+        <span class="pill-btn">Get your price &rarr;</span>
       </div>
-    </article>
-    <article class="tool-card">
+    </a>
+    <a class="tool-card" href="{{ '/oil-change-cost-calculator/' | relative_url }}">
+      <img class="tool-photo" src="{{ '/assets/images/oil-change-card.webp' | relative_url }}" alt="Mechanic pouring engine oil into a car engine in a garage" loading="lazy">
       <span class="tool-num">04</span>
-      <h3><a href="{{ '/oil-change-cost-calculator/' | relative_url }}">Oil Change Cost Calculator</a></h3>
-      <p>Price an oil change by oil type. Typical: full synthetic oil change. Range $45 - $140.</p>
-      <div class="tool-foot">
-        <div class="tool-price"><b>$75</b><span>Typical</span></div>
-        <a class="btn btn-primary btn-sm" href="{{ '/oil-change-cost-calculator/' | relative_url }}">Get your price &rarr;</a>
+      <div class="tool-body">
+        <h3>Oil Change Cost Calculator</h3>
+        <p class="tool-price">Typical $75</p>
+        <span class="pill-btn">Get your price &rarr;</span>
       </div>
-    </article>
-    <article class="tool-card">
+    </a>
+    <a class="tool-card" href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}">
+      <img class="tool-photo" src="{{ '/assets/images/central-ac-card.webp' | relative_url }}" alt="HVAC technician servicing an outdoor air conditioner condenser unit with pressure gauges" loading="lazy">
       <span class="tool-num">05</span>
-      <h3><a href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}">Central AC Installation Cost Calculator</a></h3>
-      <p>Price a new central air system by home size. Typical: 2.5 ton system. Range $5,200 - $9,500.</p>
-      <div class="tool-foot">
-        <div class="tool-price"><b>$6,800</b><span>Typical</span></div>
-        <a class="btn btn-primary btn-sm" href="{{ '/central-ac-installation-cost-calculator/' | relative_url }}">Get your price &rarr;</a>
+      <div class="tool-body">
+        <h3>Central AC Installation Cost Calculator</h3>
+        <p class="tool-price">Typical $6,800</p>
+        <span class="pill-btn">Get your price &rarr;</span>
       </div>
-    </article>
-    <article class="tool-card">
+    </a>
+    <a class="tool-card" href="{{ '/car-wrap-cost-calculator/' | relative_url }}">
+      <img class="tool-photo" src="{{ '/assets/images/car-wrap-card.webp' | relative_url }}" alt="Worker applying white vinyl wrap to a car hood with a heat gun in a workshop" loading="lazy">
       <span class="tool-num">06</span>
-      <h3><a href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Car Wrap Cost Calculator</a></h3>
-      <p>Price a full or partial car wrap by vehicle size. Typical: sedan full wrap. Range $2,500 - $5,500.</p>
-      <div class="tool-foot">
-        <div class="tool-price"><b>$3,500</b><span>Typical</span></div>
-        <a class="btn btn-primary btn-sm" href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Get your price &rarr;</a>
+      <div class="tool-body">
+        <h3>Car Wrap Cost Calculator</h3>
+        <p class="tool-price">Typical $3,500</p>
+        <span class="pill-btn">Get your price &rarr;</span>
       </div>
-    </article>
-    <article class="tool-card">
+    </a>
+    <a class="tool-card" href="{{ '/paint-a-car-cost-calculator/' | relative_url }}">
+      <img class="tool-photo" src="{{ '/assets/images/car-paint-card.webp' | relative_url }}" alt="Technician spray painting a car body with a paint spray gun in a spray booth" loading="lazy">
       <span class="tool-num">07</span>
-      <h3><a href="{{ '/paint-a-car-cost-calculator/' | relative_url }}">Paint a Car Cost Calculator</a></h3>
-      <p>Price a car repaint by vehicle size, quality, and scope. Typical: sedan repaint. Range $2,500 - $4,999.</p>
-      <div class="tool-foot">
-        <div class="tool-price"><b>$3,500</b><span>Typical</span></div>
-        <a class="btn btn-primary btn-sm" href="{{ '/paint-a-car-cost-calculator/' | relative_url }}">Get your price &rarr;</a>
+      <div class="tool-body">
+        <h3>Paint a Car Cost Calculator</h3>
+        <p class="tool-price">Typical $3,500</p>
+        <span class="pill-btn">Get your price &rarr;</span>
       </div>
-    </article>
-    <article class="tool-card">
+    </a>
+    <a class="tool-card" href="{{ '/house-painting-cost-calculator/' | relative_url }}">
+      <img class="tool-photo" src="{{ '/assets/images/house-painting-card.webp' | relative_url }}" alt="Man painting the exterior wall of a house with a roller on a ladder" loading="lazy">
       <span class="tool-num">08</span>
-      <h3><a href="{{ '/house-painting-cost-calculator/' | relative_url }}">House Painting Cost Calculator</a></h3>
-      <p>Price interior and exterior house painting by home size. Typical: exterior job. Range $2,800 - $6,800.</p>
-      <div class="tool-foot">
-        <div class="tool-price"><b>$4,200</b><span>Typical</span></div>
-        <a class="btn btn-primary btn-sm" href="{{ '/house-painting-cost-calculator/' | relative_url }}">Get your price &rarr;</a>
+      <div class="tool-body">
+        <h3>House Painting Cost Calculator</h3>
+        <p class="tool-price">Typical $4,200</p>
+        <span class="pill-btn">Get your price &rarr;</span>
       </div>
-    </article>
+    </a>
   </div>
     <div class="card card-wide"><h3>Not sure where to start?</h3><p>Read the cost guides first. Each guide explains what moves the price up or down, and links to the matching calculator.</p><a class="card-cta" href="{{ '/blog/' | relative_url }}">Read all cost guides &rarr;</a></div>
   </div>
