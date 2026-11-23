@@ -1,5 +1,6 @@
-/* How Much Does It Cost USA - shared behaviour.
-   Theme toggle, hero counters, homepage search. Calculator math lives
+/* How Much Does It Cost USA - shared behaviour (v9 design).
+   Mobile menu, reveal on scroll, counters, homepage search, FAQ
+   accordion, pricing toggle, job picker. Calculator math lives
    inline on each calculator page so every page works on its own. */
 (function () {
   "use strict";
@@ -8,56 +9,37 @@
     return "$" + Math.round(n).toLocaleString("en-US");
   }
 
-  /* Theme toggle: light is the default, dark only by choice. Choice is saved. */
-  var toggle = document.getElementById("themeToggle");
-  function applyTheme(t) {
-    document.documentElement.setAttribute("data-theme", t);
-    if (toggle) {
-      toggle.setAttribute("aria-pressed", t === "dark" ? "true" : "false");
-      toggle.setAttribute("aria-label", t === "dark" ? "Switch to light theme" : "Switch to dark theme");
-    }
-  }
-  var saved = null;
-  try { localStorage.removeItem("hm-cost-theme"); saved = localStorage.getItem("hm-cost-theme-v2"); } catch (e) { saved = null; }
-  applyTheme(saved || "light");
-  if (toggle) {
-    toggle.addEventListener("click", function () {
-      var next = document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
-      try { localStorage.setItem("hm-cost-theme-v2", next); } catch (e) {}
-      applyTheme(next);
+  /* Mobile hamburger menu: toggles the nav as an absolute dropdown below 1100px. */
+  var menuBtn = document.querySelector(".menu-btn");
+  var mainNav = document.querySelector("header .site-nav");
+  if (menuBtn && mainNav) {
+    menuBtn.addEventListener("click", function () {
+      var open = mainNav.classList.toggle("open");
+      menuBtn.setAttribute("aria-expanded", open ? "true" : "false");
+      menuBtn.innerHTML = open ? "&#10005;" : "&#9776;";
+      menuBtn.setAttribute("aria-label", open ? "Close menu" : "Open menu");
     });
-  }
-
-  /* Mobile hamburger menu: opens the nav links hidden below 900px. */
-  var navToggle = document.getElementById("navToggle");
-  var header = document.querySelector(".site-header");
-  var nav = document.getElementById("siteNav");
-  function setMenu(open) {
-    if (!header || !navToggle) return;
-    header.classList.toggle("nav-open", open);
-    navToggle.setAttribute("aria-expanded", open ? "true" : "false");
-    navToggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
-  }
-  if (navToggle) {
-    navToggle.addEventListener("click", function () {
-      setMenu(!header.classList.contains("nav-open"));
-    });
-    if (nav) {
-      nav.addEventListener("click", function (ev) {
-        if (ev.target && ev.target.tagName === "A") setMenu(false);
+    mainNav.querySelectorAll("a").forEach(function (a) {
+      a.addEventListener("click", function () {
+        mainNav.classList.remove("open");
+        menuBtn.setAttribute("aria-expanded", "false");
+        menuBtn.setAttribute("aria-label", "Open menu");
+        menuBtn.innerHTML = "&#9776;";
       });
-    }
+    });
     document.addEventListener("keydown", function (ev) {
-      if (ev.key === "Escape") setMenu(false);
+      if (ev.key === "Escape") {
+        mainNav.classList.remove("open");
+        menuBtn.setAttribute("aria-expanded", "false");
+        menuBtn.setAttribute("aria-label", "Open menu");
+        menuBtn.innerHTML = "&#9776;";
+      }
     });
   }
 
   /* Visible motion, safe by design: the HTML already holds the final
      numbers and bar widths, so the page is complete without JavaScript.
-     JavaScript only animates them when they scroll into view.
-     Counters count up to their data-count value; price bars fill from
-     0 to their inline width; cards rise in. Reduced motion shows the
-     final values at once. */
+     JavaScript only animates them when they scroll into view. */
   var reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   function animateCount(el) {
     var target = parseInt(el.getAttribute("data-count"), 10);
@@ -70,7 +52,7 @@
       return;
     }
     var start = null;
-    var dur = 900;
+    var dur = 1400;
     var step = function (ts) {
       if (!start) start = ts;
       var p = Math.min(1, (ts - start) / dur);
@@ -82,19 +64,18 @@
   }
   var counters = document.querySelectorAll("[data-count]");
   var bars = document.querySelectorAll(".card .price-bar span");
-  var risers = document.querySelectorAll(".grid .card, .how-steps li, .bands .band, .calc, .answer, .key-takeaways, .post .table-wrap, .hero-card");
+  var reveals = document.querySelectorAll(".reveal");
   if ("IntersectionObserver" in window && !reduceMotion) {
-    var seen = function (entries, obs) {
+    var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (entry) {
         if (!entry.isIntersecting) return;
         var el = entry.target;
         if (el.hasAttribute("data-count")) animateCount(el);
         if (el.classList.contains("price-bar-fill")) el.style.width = el.getAttribute("data-target-width");
-        el.classList.add("rise");
-        obs.unobserve(el);
+        el.classList.add("in");
+        io.unobserve(el);
       });
-    };
-    var io = new IntersectionObserver(seen, { threshold: 0.15 });
+    }, { threshold: 0.12 });
     counters.forEach(function (el) { io.observe(el); });
     bars.forEach(function (el) {
       el.setAttribute("data-target-width", el.style.width || "50%");
@@ -102,12 +83,69 @@
       el.style.width = "0%";
       io.observe(el);
     });
-    risers.forEach(function (el) { io.observe(el); });
-  } else if (reduceMotion) {
+    reveals.forEach(function (el) { io.observe(el); });
+  } else {
     counters.forEach(function (el) {
       var t = parseInt(el.getAttribute("data-count"), 10);
       var pre = el.getAttribute("data-prefix") || "";
       if (!isNaN(t)) el.textContent = pre + t.toLocaleString("en-US");
+    });
+    reveals.forEach(function (el) { el.classList.add("in"); });
+  }
+
+  /* Homepage FAQ accordion: one open at a time, first open by default in the HTML. */
+  document.querySelectorAll(".faq-q").forEach(function (q) {
+    q.addEventListener("click", function () {
+      var item = q.parentElement;
+      var wasOpen = item.classList.contains("open");
+      document.querySelectorAll(".faq-item").forEach(function (i) {
+        i.classList.remove("open");
+        var t = i.querySelector(".faq-toggle");
+        if (t) t.textContent = "+";
+      });
+      if (!wasOpen) {
+        item.classList.add("open");
+        var tg = item.querySelector(".faq-toggle");
+        if (tg) tg.textContent = "\u2212";
+      }
+    });
+  });
+
+  /* Movers pricing toggle: 1 bedroom / 2 bedroom. */
+  var tierData = {
+    "1": { low: "$646", typ: "$950", high: "$1,254" },
+    "2": { low: "$843", typ: "$1,240", high: "$1,637" }
+  };
+  document.querySelectorAll(".toggle button").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      document.querySelectorAll(".toggle button").forEach(function (b) { b.classList.remove("active"); });
+      btn.classList.add("active");
+      var d = tierData[btn.getAttribute("data-beds")];
+      var l = document.getElementById("priceLow");
+      var t = document.getElementById("priceTyp");
+      var h = document.getElementById("priceHigh");
+      if (d && l && t && h) { l.textContent = d.low; t.textContent = d.typ; h.textContent = d.high; }
+    });
+  });
+
+  /* Get Your Price job picker. */
+  var jobData = {
+    movers: { typ: "$1,240", range: "Range $843 to $1,637. Sample estimated USA range, not a quote." },
+    roof: { typ: "$9,180", range: "Range $7,528 to $11,475. Sample estimated USA range, not a quote." },
+    fence: { typ: "$3,335", range: "Range $2,100 to $5,400. Sample estimated USA range, not a quote." },
+    oil: { typ: "$75", range: "Range $45 to $140. Sample estimated USA range, not a quote." },
+    ac: { typ: "$6,800", range: "Range $5,200 to $9,500. Sample estimated USA range, not a quote." },
+    wrap: { typ: "$3,500", range: "Range $2,500 to $5,500. Sample estimated USA range, not a quote." },
+    paintcar: { typ: "$3,500", range: "Range $2,500 to $4,999. Sample estimated USA range, not a quote." },
+    housepaint: { typ: "$4,200", range: "Range $2,800 to $6,800. Sample estimated USA range, not a quote." }
+  };
+  var picker = document.getElementById("jobPicker");
+  if (picker) {
+    picker.addEventListener("change", function () {
+      var d = jobData[picker.value];
+      var t = document.getElementById("jobTyp");
+      var r = document.getElementById("jobRange");
+      if (d && t && r) { t.textContent = d.typ; r.textContent = d.range; }
     });
   }
 
@@ -135,9 +173,6 @@
     { name: "How Much Does a Car Wrap Cost? (Guide)", url: "blog/how-much-does-a-car-wrap-cost/", keys: "car wrap guide cost" },
     { name: "How Much Does It Cost to Paint a House? (Guide)", url: "blog/how-much-does-it-cost-to-paint-a-house/", keys: "paint house guide cost" }
   ];
-  /* Ranked search: a title match outranks a keyword match, so "car" returns
-     Car Wrap first and "paint" returns the Paint a Car Cost Calculator first. Exact word
-     matches score more than substring matches, so "paint" beats "painting". */
   function scorePage(p, words) {
     var title = p.name.toLowerCase();
     var titleWords = title.split(/[^a-z0-9]+/);
@@ -206,7 +241,6 @@
       try { document.execCommand("copy"); } catch (e) {}
       document.body.removeChild(ta);
     }
-    /* Table of contents, built from the guide H2s. Hidden until JS fills it. */
     var toc = document.getElementById("postToc");
     var tocList = document.getElementById("postTocList");
     if (postBody && toc && tocList) {
@@ -241,7 +275,6 @@
         spy();
       }
     }
-    /* Thin reading progress bar under the header. */
     var bar = document.getElementById("readingProgressBar");
     if (bar) {
       var onScroll = function () {
@@ -254,7 +287,6 @@
       window.addEventListener("resize", onScroll);
       onScroll();
     }
-    /* Copy link buttons, top and bottom of the guide. */
     var copyBtns = postArticle.querySelectorAll(".share-copy");
     copyBtns.forEach(function (btn) {
       btn.addEventListener("click", function () {
@@ -274,7 +306,6 @@
         } else { fallbackCopy(url); done(); }
       });
     });
-    /* Mid-guide calculator banner after the first table, driven by front matter. */
     var calcUrl = postArticle.getAttribute("data-calculator-url");
     var calcName = postArticle.getAttribute("data-calculator-name");
     var calcHeading = postArticle.getAttribute("data-calculator-heading");
