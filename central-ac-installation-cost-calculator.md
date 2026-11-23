@@ -154,8 +154,8 @@ schema: |
     <h1>Central Air Installation <span class="accent">Cost</span> Calculator</h1>
     <p class="hero-copy">A typical 2.5 ton central air system in the USA costs about $6,800, with a sample range of $5,200 to $9,500.</p>
     <div class="hero-actions">
-      <a class="btn-primary" href="{{ '/blog/how-much-does-it-cost-to-install-central-air/' | relative_url }}">Read the Guide</a>
-      <a class="btn-secondary" href="{{ '/tools/' | relative_url }}">All Calculators</a>
+      <a class="btn btn-primary" href="{{ '/blog/how-much-does-it-cost-to-install-central-air/' | relative_url }}">Read the Guide</a>
+      <a class="btn btn-secondary" href="{{ '/tools/' | relative_url }}">All Calculators</a>
     </div>
   </div>
 </section>
