@@ -164,6 +164,15 @@ schema: |
     <p id="answerIntro">A typical full synthetic oil change in the USA costs about $75, with a sample range of $45 to $140.</p>
     <p class="note">All prices on this page are sample estimated USA ranges, not quotes. Read the full <a href="{{ '/blog/how-much-does-an-oil-change-cost/' | relative_url }}">oil change cost guide</a> for prices by oil type, provider, and vehicle.</p>
   </div>
+  <div class="trust-row">
+    <span>Free forever</span>
+    <span>No sign-up</span>
+    <span>USA prices</span>
+  </div>
+  <div class="hero-cta" style="margin-top:18px">
+    <a class="btn btn-orange" href="{{ '/blog/how-much-does-an-oil-change-cost/' | relative_url }}">Read the guide &rarr;</a>
+    <a class="btn btn-white" href="{{ '/tools/' | relative_url }}">All calculators &rarr;</a>
+  </div>
 
   <div class="calc">
     <h2>Estimate your oil change cost</h2>
@@ -195,6 +204,7 @@ schema: |
     </div>
   </div>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Price bands</div>
   <h2>How much does an oil change cost?</h2>
   <p>These bands update with your calculator choices. Use them to plan your budget before you request quotes.</p>
   <div class="bands">
@@ -215,6 +225,7 @@ schema: |
     </div>
   </div>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Breakdown</div>
   <h2>Itemized cost breakdown</h2>
   <p class="note live-note">Updates live with your calculator choices.</p>
   <p class="table-hint">Swipe to see the High column &rarr;</p>
@@ -235,6 +246,7 @@ schema: |
   </div>
   <p class="note">Sample estimated USA ranges. Oil is usually the largest share of the bill. Shop fees and disposal run $2 to $10, per HowMuchDoesThatCost, and the rows above add up exactly to the totals at the default: $40 + $12 + $18 + $5 = $75.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> How to</div>
   <h2>How to estimate in 4 steps</h2>
   <ol class="steps">
     <li><strong>Check your manual.</strong> Find the oil type and grade your car needs before you book.</li>
@@ -243,26 +255,57 @@ schema: |
     <li><strong>Compare 3 shops.</strong> Ask each shop to confirm the oil brand, filter, and any shop fees in the quote.</li>
   </ol>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> What drives the price</div>
   <h2>What affects the price</h2>
-  <h3>Oil type</h3>
-  <p>Full synthetic costs more than conventional oil but protects better and lasts longer between changes. Most modern cars call for synthetic, so the cheaper oil is not always an option.</p>
-  <h3>Vehicle type</h3>
-  <p>SUVs and trucks often need more oil and a larger filter, which raises the price. A small sedan with a 4 quart engine costs less than a truck that needs 7 or 8 quarts.</p>
-  <h3>Oil amount</h3>
-  <p>Some engines need 6 or more quarts, and each extra quart adds to the bill. An extra quart costs $7 to $12 over 5 quarts, per MotorTriage, so an SUV or truck that needs 7 quarts pays about $14 to $24 more for oil alone. Check your manual for the exact amount so you can spot a quote that is missing it.</p>
-  <h3>Shop type</h3>
-  <p>Dealers usually charge more than quick lube shops and independent mechanics. A dealer may include a full inspection, while a quick lube shop is faster and cheaper.</p>
-  <h3>Extra services</h3>
-  <p>Fluid top-offs, tire rotation, and inspections may be included or added as extras. Ask what is in the quoted price before you agree to the work.</p>
+  <div class="adv-grid">
+    <div class="adv-card">
+      <div class="adv-icon">$</div>
+      <h3>Oil type</h3>
+      <p>Full synthetic costs more than conventional oil but protects better and lasts longer between changes. Most modern cars call for synthetic, so the cheaper oil is not always an option.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">&#10003;</div>
+      <h3>Vehicle type</h3>
+      <p>SUVs and trucks often need more oil and a larger filter, which raises the price. A small sedan with a 4 quart engine costs less than a truck that needs 7 or 8 quarts.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">&#9733;</div>
+      <h3>Oil amount</h3>
+      <p>Some engines need 6 or more quarts, and each extra quart adds to the bill. An extra quart costs $7 to $12 over 5 quarts, per MotorTriage, so an SUV or truck that needs 7 quarts pays about $14 to $24 more for oil alone. Check your manual for the exact amount so you can spot a quote that is missing it.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">&#9873;</div>
+      <h3>Shop type</h3>
+      <p>Dealers usually charge more than quick lube shops and independent mechanics. A dealer may include a full inspection, while a quick lube shop is faster and cheaper.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">$</div>
+      <h3>Extra services</h3>
+      <p>Fluid top-offs, tire rotation, and inspections may be included or added as extras. Ask what is in the quoted price before you agree to the work.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">&#10003;</div>
+      <h3>Oil grade and viscosity</h3>
+      <p>Oil grade matters as much as oil type. Your manual lists the grade your engine needs, such as 5W-30, and the wrong grade can hurt fuel use and wear. Check the manual before you book, and ask the shop to confirm the grade in writing. A shop that cannot name the grade it plans to use is a shop to skip. Keep the receipt with the grade on it for your service records.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">&#9733;</div>
+      <h3>Filter type</h3>
+      <p>The filter is a small line with a real effect on price. An OEM or cartridge filter adds $5 to $25, per MotorTriage, against a standard filter. Ask which filter type is fitted, standard, OEM, or cartridge, and check that the quoted price includes it. A cheap filter that fits badly can leak, so the filter is not the place to cut corners on a $75 job.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">&#9873;</div>
+      <h3>Engine size and oil amount</h3>
+      <p>Some engines need 6 or more quarts, and each extra quart adds to the bill. An extra quart costs $7 to $12 over 5 quarts, per MotorTriage, so an SUV or truck that needs 7 quarts pays about $14 to $24 more for oil alone. The calculator applies a 1.25 multiplier for SUVs and trucks, which need more oil and a larger filter. Check your manual for the exact amount so you can spot a quote that is missing it.</p>
+    </div>
+    <div class="adv-card">
+      <div class="adv-icon">$</div>
+      <h3>Service history</h3>
+      <p>Keep the receipt from every oil change, with the date, the miles, the oil type, and the grade. A clear history helps the next shop pick the right oil, and it helps a buyer trust the car when you sell it. If you switch shops, bring the last receipt so the new shop does not guess. A car with a steady history of full synthetic changes at the manual interval is worth more than the same car with no records.</p>
+    </div>
+  </div>
 
-  <h3>Oil grade and viscosity</h3>
-  <p>Oil grade matters as much as oil type. Your manual lists the grade your engine needs, such as 5W-30, and the wrong grade can hurt fuel use and wear. Check the manual before you book, and ask the shop to confirm the grade in writing. A shop that cannot name the grade it plans to use is a shop to skip. Keep the receipt with the grade on it for your service records.</p>
-  <h3>Filter type</h3>
-  <p>The filter is a small line with a real effect on price. An OEM or cartridge filter adds $5 to $25, per MotorTriage, against a standard filter. Ask which filter type is fitted, standard, OEM, or cartridge, and check that the quoted price includes it. A cheap filter that fits badly can leak, so the filter is not the place to cut corners on a $75 job.</p>
-  <h3>Engine size and oil amount</h3>
-  <p>Some engines need 6 or more quarts, and each extra quart adds to the bill. An extra quart costs $7 to $12 over 5 quarts, per MotorTriage, so an SUV or truck that needs 7 quarts pays about $14 to $24 more for oil alone. The calculator applies a 1.25 multiplier for SUVs and trucks, which need more oil and a larger filter. Check your manual for the exact amount so you can spot a quote that is missing it.</p>
-  <h3>Service history</h3>
-  <p>Keep the receipt from every oil change, with the date, the miles, the oil type, and the grade. A clear history helps the next shop pick the right oil, and it helps a buyer trust the car when you sell it. If you switch shops, bring the last receipt so the new shop does not guess. A car with a steady history of full synthetic changes at the manual interval is worth more than the same car with no records.</p>
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Included</div>
   <h2>What is included and what is not</h2>
   <div class="two-col">
     <div>
@@ -285,10 +328,12 @@ schema: |
     </div>
   </div>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Method</div>
   <h2>How we estimate</h2>
   <p>We price the oil, filter, labor, and shop fees for the oil type you pick, using sample low, typical, and high totals for a sedan, then apply a 1.25 multiplier for SUVs and trucks, which need more oil and a larger filter. Diesel, high-mileage, and European oil use the Firestone ranges published by MotorTriage, with the typical price at the middle of each range. The itemized rows always add up to the totals shown.</p>
   <p>Your final price depends on your car, the shop, and local labor rates, so always confirm the price before the work starts.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Checklist</div>
   <h2>Hiring a pro checklist</h2>
   <ul class="checklist">
     <li>Confirm the oil type and grade in writing</li>
@@ -300,6 +345,7 @@ schema: |
     <li>Keep the receipt for your service records</li>
   </ul>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Save money</div>
   <h2>Budget tips</h2>
   <ul>
     <li>Follow your manual interval instead of changing oil early</li>
@@ -311,6 +357,7 @@ schema: |
     <li>Ask whether the quoted price includes shop fees and disposal, or adds them at the till</li>
 </ul>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Where the money goes</div>
   <h2>Where the $75 typical total goes</h2>
   <p>The table below repeats the typical column from the breakdown above, so you can see the share of each line at the calculator default.</p>
   <div class="table-wrap">
@@ -330,10 +377,12 @@ schema: |
   </div>
   <p>Oil at $40 is the largest line, and the rows add up exactly: $40 + $12 + $18 + $5 = $75. Shop fees and disposal run $2 to $10, per HowMuchDoesThatCost. If your bill is far above the $140 high end, check the extra lines: extra quarts at $7 to $12 each, an OEM or cartridge filter at $5 to $25, access labor at $10 to $30, and shop supplies and disposal at $5 to $15, per MotorTriage. Ask the shop to point to each extra on the bill before you pay.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> How it works</div>
   <h2>How the calculator works</h2>
   <p>An oil change has four lines: oil, filter, labor, and shop fees. The calculator adds them up for the oil type you pick, using sample low, typical, and high totals for a sedan, then applies a 1.25 multiplier for SUVs and trucks, which need more oil and a larger filter.</p>
   <p><strong>Worked example, full synthetic on a sedan.</strong> Oil (5 quarts) $40, plus a $12 filter, plus $18 labor, plus $5 shop fees and disposal, equals $75. The oil and filter alone cost $52, which is the parts cost if you change the oil yourself. For an SUV or truck, the 1.25 multiplier takes the $75 typical total to about $94.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Maintenance</div>
   <h2>How often to change your oil</h2>
   <p>Follow your manual interval instead of changing oil early. The intervals below are from SoFi citing Kelley Blue Book, and they are the same figures used in the FAQ on this page.</p>
   <div class="table-wrap">
@@ -351,6 +400,7 @@ schema: |
   </div>
   <p>Full synthetic costs more per visit but lasts longest, so it can cost less per mile than conventional oil changed twice as often. A car that does short trips in cold weather may need shorter intervals than a car that runs long highway trips, so use the manual for your car, not a sticker on the windshield.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Annual cost</div>
   <h2>Annual oil change cost calculation</h2>
   <p>The price per change is only half the story. A cheaper oil that needs changing twice as often can cost more over a year. The table below runs the math at 12,000 miles a year, using the typical prices and intervals on this page.</p>
   <div class="table-wrap">
@@ -368,11 +418,14 @@ schema: |
   </div>
   <p>Conventional oil at $45 a change every 4,000 miles, the middle of the 3,000 to 5,000 mile interval, is 3 changes a year, or $135 a year. Synthetic blend at $65 a change every 7,500 miles is 1.6 changes a year, or about $104 a year. Full synthetic at $75 a change every 10,000 miles is 1.2 changes a year, or $90 a year. Full synthetic costs the most per visit and the least per year, and the least per mile, because it lasts longest between changes. Redo the math with your own yearly miles: divide your miles by your change interval, then multiply by the price per change.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Before you book</div>
   <h2>What to ask before you book</h2>
   <p>Ask the shop to confirm the oil brand, the grade, the filter type, and any shop fees in the quote. Ask how long the visit will take: an oil change takes about 30 to 45 minutes. Ask whether fluid top-offs, a tire rotation, and an inspection are included or added as extras, since a tire rotation is not included in the price on this page. Look for a coupon from the chain or the shop before you book, and compare quick lube shops and independent mechanics. For bigger car spending, see the <a href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Car Wrap Cost Calculator</a>, and if the car is part of a move, the <a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator</a> prices the move itself.</p>
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Where to go</div>
   <h2>Dealer, quick lube, or independent shop</h2>
   <p>Dealers usually charge more than quick lube shops and independent mechanics, and a dealer may include a full inspection with the change. Quick lube chains such as Jiffy Lube, Valvoline, and Take 5 generally fall within the $45 to $140 range on this page, with $75 typical for a full synthetic change, so ask the shop to confirm the oil type, grade, and filter in the quote rather than trusting a brand name price. A quick lube shop is faster and cheaper, and it suits a standard oil change on a common car. An independent mechanic sits between the two on price, and it suits a car that needs other work at the same visit. The $45 to $140 range on this page covers all three, with $75 typical for a full synthetic change on a sedan.</p>
   <p>Wherever you go, ask the same questions: the oil brand and grade, the filter type, the shop fees, and what the quoted price includes. A dealer quote that includes a full inspection is not the same as a quick lube quote that covers oil and filter only, so compare what is included, not just the total.</p>
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Sources</div>
   <h2>References</h2>
   <p>Our estimates use public US cost data as a guide. Oil change prices by oil type come from SoFi, citing Kelley Blue Book, and from MotorTriage, with typical prices from HowMuchDoesThatCost and ARI invoice data, and labor cost context from the US Bureau of Labor Statistics. All prices on this page are sample estimated USA ranges, not quotes.</p>
   <div class="refs">
@@ -380,9 +433,11 @@ schema: |
   <p><a href="https://www.bls.gov/" target="_blank" rel="noopener">US Bureau of Labor Statistics</a> <span class="ref-note">labor cost data</span></p>
   </div>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Compare</div>
   <h2>Compare with other car costs</h2>
   <p>An oil change is the cheapest regular car job. For bigger car spending, see the <a href="{{ '/car-wrap-cost-calculator/' | relative_url }}">Car Wrap Cost Calculator</a> and <a href="{{ '/blog/how-much-does-it-cost-to-paint-a-car/' | relative_url }}">how much it costs to paint a car</a>. If the car is part of a move, the <a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator</a> prices the move itself.</p>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> Keep exploring</div>
   <h2>Related calculators and guides</h2>
   <div class="grid related-grid">
 <div class="card related-card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h12v11H2z"/><path d="M14 9h4l3 3v4h-7"/><circle cx="6" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg></div><div class="card-top"><span class="card-cat">Moving</span></div><h3><a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator</a></h3><p class="price">$843 - $1,637</p><a class="card-cta" href="{{ '/movers-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
@@ -397,6 +452,7 @@ schema: |
   <li><a href="{{ '/tools/' | relative_url }}">All calculators <span aria-hidden="true">&rarr;</span></a></li>
 </ul>
 
+  <div class="eyebrow"><span class="e-icon">&#10003;</span> FAQ</div>
   <h2>Frequently asked questions</h2>
   <details class="faq">
     <summary>How often should I change my oil?</summary>
@@ -451,6 +507,20 @@ schema: |
     <p>Most sedans take 5 quarts. SUVs and trucks often take 7 or 8 quarts, which is why the calculator applies a 1.25 multiplier for them. Check your manual for the exact amount for your car.</p>
   </details>
 </section>
+<section class="cta-wrap">
+  <div class="wrap">
+    <div class="cta-banner">
+      <div class="eyebrow"><span class="e-icon">&#9733;</span> Free forever</div>
+      <h2>Get your <span class="accent">price</span> in seconds</h2>
+      <p>Free forever, no sign-up, USA prices.</p>
+      <div class="btn-row">
+        <a class="btn btn-orange" href="{{ '/oil-change-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a>
+        <a class="btn btn-white" href="{{ '/blog/how-much-does-an-oil-change-cost/' | relative_url }}">Read the guide &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <script>
 (function () {
