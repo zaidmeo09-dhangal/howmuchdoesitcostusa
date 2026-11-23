@@ -163,7 +163,6 @@ schema: |
   <div class="answer">
     <p id="answerIntro">A typical 1,800 sq ft asphalt shingle roof in the USA costs about $9,180, with a sample range of $7,528 to $11,475.</p>
     <p class="note">All prices on this page are sample estimated USA ranges, not quotes.</p>
-    <p class="updated-line">Updated November 21, 2026</p>
   </div>
 
   <div class="calc">
@@ -375,7 +374,6 @@ schema: |
     <li>If you are moving into the home, price the move too with the <a href="{{ '/movers-cost-calculator/' | relative_url }}">Movers Cost Calculator</a></li>
       <li>Ask whether tear-off and disposal are included before you compare totals</li>
     <li>Ask for the per-sheet decking price in writing so repairs are not an open bill</li>
-    <li>Fix small leaks early before deck damage grows and raises the bill</li>
     <li>Ask about payment plans before you sign. Many roofers offer monthly payments, and a home equity loan is another common way to pay for a roof. Compare the total cost of any financing, not just the monthly payment</li>
 </ul>
 
