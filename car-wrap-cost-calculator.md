@@ -165,7 +165,6 @@ schema: |
     <p class="note">All prices on this page are sample estimated USA ranges, not quotes.</p>
   <p>Car wrap cost is the first question most buyers ask, whether they phrase it as how much does it cost to wrap a car, how much does it cost to wrap your car, how much does a car wrap cost, or how much does it cost to get a car wrapped. The answer is the same range: about $3,500 typical for a sedan full wrap, with a sample range of $2,500 to $5,500.</p>
   <p>Use the car wrap cost calculator below to price your own car by size, wrap type, and finish before you ask shops for quotes.</p>
-    <p class="updated-line">Updated November 21, 2026</p>
   </div>
 
   <div class="calc">
@@ -437,8 +436,6 @@ schema: |
     <li>Fix paint chips before wrapping</li>
     <li>Compare vinyl brands, not just totals</li>
     <li>Wrap in the off season when shops are quieter</li>
-      <li>Ask whether door jambs, mirrors, and removal of an old wrap are included, with prices</li>
-    <li>Check the shop portfolio for your finish, since matte and chrome show flaws more than gloss</li>
     <li>Fix paint chips before wrapping, since vinyl shows flaws underneath</li>
 </ul>
 
