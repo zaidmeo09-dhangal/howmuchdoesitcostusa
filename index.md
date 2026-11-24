@@ -157,8 +157,7 @@ schema: |
     </div>
     {% assign calc_count = site.pages | where_exp: "p", "p.url contains 'cost-calculator'" | size %}
     {% assign guide_count = site.posts | size %}
-    {% assign real_pages = site.pages | where_exp: "p", "p.url != '/404.html'" %}
-    {% assign page_count = real_pages.size | plus: site.posts.size %}
+    {% assign page_count = site.pages.size | plus: site.posts.size | minus: 1 %}
     <div class="counters stats-band reveal">
       <div class="counter">
         <div class="num"><span class="count" data-count="{{ calc_count }}">{{ calc_count }}</span></div>
