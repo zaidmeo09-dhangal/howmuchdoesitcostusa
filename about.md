@@ -54,17 +54,21 @@ schema: |
 </section>
 
 <section class="wrap">
+  {% assign calc_count = site.pages | where_exp: "p", "p.url contains 'cost-calculator'" | size %}
+  {% assign guide_count = site.posts | size %}
+  {% assign real_pages = site.pages | where_exp: "p", "p.url != '/404.html'" %}
+  {% assign page_count = real_pages | size | plus: site.posts | size %}
   <div class="counters stats-band reveal">
     <div class="counter">
-      <div class="num"><span class="count" data-count="8">8</span></div>
+      <div class="num"><span class="count" data-count="{{ calc_count }}">{{ calc_count }}</span></div>
       <div class="cap">Calculators</div>
     </div>
     <div class="counter">
-      <div class="num"><span class="count" data-count="9">9</span></div>
+      <div class="num"><span class="count" data-count="{{ guide_count }}">{{ guide_count }}</span></div>
       <div class="cap">Guides</div>
     </div>
     <div class="counter">
-      <div class="num"><span class="count" data-count="23">23</span></div>
+      <div class="num"><span class="count" data-count="{{ page_count }}">{{ page_count }}</span></div>
       <div class="cap">Pages</div>
     </div>
     <div class="counter">
@@ -146,7 +150,7 @@ schema: |
         <p>Our prices are sample estimated USA ranges built from typical material and labor costs, checked against named public sources such as the US Bureau of Labor Statistics, HUD, Harvard JCHS, Home Depot, and Lowes.</p>
       </div>
     </div>
-    <p class="methodology-note">Every calculator page names its own sources in the references section, so you can see where the figures came from. We do not copy prices from other websites and present them as our own. See <a href="{{ '/tools/' | relative_url }}">all 8 cost calculators</a> to check a price.</p>
+    <p class="methodology-note">Every calculator page names its own sources in the references section, so you can see where the figures came from. We do not copy prices from other websites and present them as our own. See <a href="{{ '/tools/' | relative_url }}">all cost calculators</a> to check a price.</p>
   </div>
 </section>
 
@@ -239,8 +243,8 @@ schema: |
   <div class="section-wrap">
     <div class="section-head">
       <p class="eyebrow">Our Calculators</p>
-      <h2>All 8 calculators, free forever</h2>
-      <p class="section-copy">All 8 calculators are free, with no sign-up. Each one shows a low, typical, and high price for a typical USA job, with an itemized breakdown on its own page.</p>
+      <h2>All calculators, free forever</h2>
+      <p class="section-copy">All calculators are free, with no sign-up. Each one shows a low, typical, and high price for a typical USA job, with an itemized breakdown on its own page.</p>
     </div>
     <div class="calc-mini-grid reveal">
       <a class="calc-mini-card" href="{{ '/movers-cost-calculator/' | relative_url }}">
@@ -309,7 +313,7 @@ schema: |
       </a>
     </div>
     <div class="see-all-cta">
-      <a class="btn btn-orange" href="{{ '/tools/' | relative_url }}">See all 8 cost calculators &rarr;</a>
+      <a class="btn btn-orange" href="{{ '/tools/' | relative_url }}">See all cost calculators &rarr;</a>
       <a class="btn btn-white" href="{{ '/blog/' | relative_url }}">Read the cost guides &rarr;</a>
     </div>
   </div>
