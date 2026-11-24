@@ -22,7 +22,7 @@ schema: |
         <nav class="breadcrumb"><a href="/">Home</a> / <span aria-current="page">Blog</span></nav>
         <div class="hero-badge"><span class="hero-badge-dot"></span>Cost Guides</div>
         <h1>Cost <span class="accent">Guides</span></h1>
-        <p class="hero-copy">Every guide opens with a direct answer, shows a price table, and links to the matching calculator. All prices are sample estimated USA ranges. Each guide covers what drives the price up or down, what is included in the job, and how to compare quotes from local pros. Prefer a calculator? <a href="{{ '/tools/' | relative_url }}">See all 8 calculators</a> and get your low, typical, and high price in seconds.</p>
+        <p class="hero-copy">Every guide opens with a direct answer, shows a price table, and links to the matching calculator. All prices are sample estimated USA ranges. Each guide covers what drives the price up or down, what is included in the job, and how to compare quotes from local pros. Prefer a calculator? <a href="{{ '/tools/' | relative_url }}">See all calculators</a> and get your low, typical, and high price in seconds.</p>
         <div class="hero-actions">
           <a class="btn btn-primary" href="{{ '/tools/' | relative_url }}">See All Calculators</a>
           <a class="btn btn-secondary" href="{{ '/contact/' | relative_url }}">Contact Us</a>
@@ -43,8 +43,6 @@ schema: |
     </div>
   </div>
 </section>
-
-<p class="hero-strip">9 guides, 8 calculators, all free, all USA prices.</p>
 
 <section class="section">
   <div class="section-wrap">
@@ -89,7 +87,7 @@ schema: |
     <li><strong>The guide</strong> shows the full range by size and type.</li>
     <li><strong>The calculator</strong> gives your own low, typical, and high price for the choices you pick.</li>
   </ul>
-<p>If you want a fast number, go straight to the calculator. If you want to know why one quote is higher than another, read the guide first, then compare the quotes line by line against the breakdown on the calculator page. Check what is included in each quote, since a low total can hide missing prep, permits, or disposal. All prices are sample estimated USA ranges, not quotes, and every guide links to its matching calculator. See <a href="{{ '/tools/' | relative_url }}">all 8 calculators</a> to get your price in seconds.</p>
+<p>If you want a fast number, go straight to the calculator. If you want to know why one quote is higher than another, read the guide first, then compare the quotes line by line against the breakdown on the calculator page. Check what is included in each quote, since a low total can hide missing prep, permits, or disposal. All prices are sample estimated USA ranges, not quotes, and every guide links to its matching calculator. See <a href="{{ '/tools/' | relative_url }}">all calculators</a> to get your price in seconds.</p>
 <p>The newest guides cover a car wrap and painting a house, two jobs where the finish and the prep move the price most. The car wrap guide prices full and partial wraps by vehicle size and finish, and the house painting guide prices interior and exterior work by home size, with prep, paint, and coats explained.</p>
   </div>
 </section>
