@@ -155,17 +155,21 @@ schema: |
         <a class="btn btn-orange" href="{{ '/about/' | relative_url }}">Read More &rarr;</a>
       </div>
     </div>
+    {% assign calc_count = site.pages | where_exp: "p", "p.url contains 'cost-calculator'" | size %}
+    {% assign guide_count = site.posts | size %}
+    {% assign real_pages = site.pages | where_exp: "p", "p.url != '/404.html'" %}
+    {% assign page_count = real_pages | size | plus: site.posts | size %}
     <div class="counters stats-band reveal">
       <div class="counter">
-        <div class="num"><span class="count" data-count="8">8</span></div>
+        <div class="num"><span class="count" data-count="{{ calc_count }}">{{ calc_count }}</span></div>
         <div class="cap">Calculators</div>
       </div>
       <div class="counter">
-        <div class="num"><span class="count" data-count="9">9</span></div>
+        <div class="num"><span class="count" data-count="{{ guide_count }}">{{ guide_count }}</span></div>
         <div class="cap">Guides</div>
       </div>
       <div class="counter">
-        <div class="num"><span class="count" data-count="23">23</span></div>
+        <div class="num"><span class="count" data-count="{{ page_count }}">{{ page_count }}</span></div>
         <div class="cap">USA pages</div>
       </div>
       <div class="counter">
@@ -585,7 +589,7 @@ schema: |
   <div class="wrap">
     <div class="section-head reveal">
       <div class="eyebrow"><span class="e-icon">$</span> All calculators</div>
-      <h2>All 8 calculators <span class="accent">at a glance</span></h2>
+      <h2>All calculators <span class="accent">at a glance</span></h2>
       <p>Every calculator on this site shows a low, typical, and high price, with an itemized breakdown on its own page. Prices are sample estimated USA ranges, not quotes, and big cities usually cost more than small towns.</p>
     </div>
     <div class="table-wrap reveal">
@@ -605,7 +609,7 @@ schema: |
         </tbody>
       </table>
     </div>
-    <p style="text-align:center;margin-top:28px"><a class="btn btn-white" href="{{ '/tools/' | relative_url }}">See all 8 calculators &rarr;</a></p>
+    <p style="text-align:center;margin-top:28px"><a class="btn btn-white" href="{{ '/tools/' | relative_url }}">See all calculators &rarr;</a></p>
   </div>
 </section>
 
