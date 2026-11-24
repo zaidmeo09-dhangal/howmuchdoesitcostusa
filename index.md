@@ -155,7 +155,7 @@ schema: |
         <a class="btn btn-orange" href="{{ '/about/' | relative_url }}">Read More &rarr;</a>
       </div>
     </div>
-    <div class="counters reveal">
+    <div class="counters stats-band reveal">
       <div class="counter">
         <div class="num"><span class="count" data-count="8">8</span></div>
         <div class="cap">Calculators</div>
