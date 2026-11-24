@@ -966,6 +966,10 @@ body.inner .section-tight-t { padding-top: 48px; }
 .counters.stats-band .counter + .counter { border-left: 1px solid #D5D5D5; }
 .counters.stats-band .counter .num { font-size: 40px; }
 .counters.stats-band .counter .cap { font-size: 15px; }
+/* Homepage stats band: identical to the About band, plus a top gap from
+   the about-grid above it (the About band gets its gap from the
+   summary-section padding). Scoped to body.home so inner pages are untouched. */
+body.home .counters.stats-band { margin-top: 64px; }
 /* Inner-page H2 consistency: section H2s match the 32px inner standard
    (calculators and guides already use 32px). Homepage untouched: these
    rules only apply when the body carries the .inner class. */
@@ -1003,6 +1007,7 @@ section.wrap > h2:not(:first-child) { margin-top: 48px; }
   .counters.stats-band .counter { padding: 0 16px; }
   .counters.stats-band .counter + .counter { border-left: none; }
   .counters.stats-band .counter .num { font-size: 32px; }
+  body.home .counters.stats-band { margin-top: 48px; }
   body.inner .section-head h2, body.inner .section-title { font-size: 28px; }
 }
 /* Photo cards on small phones: shorter cards, inner sections back to 48px. */
