@@ -119,7 +119,7 @@ schema: |
       </ul>
       <p class="see-all-note">The guides include the car wrap guide and the house painting guide, with prices by size, material, and type.</p>
       <div class="see-all-cta">
-        <a class="btn btn-orange" href="{{ '/tools/' | relative_url }}">See all 8 calculators &rarr;</a>
+        <a class="btn btn-orange" href="{{ '/tools/' | relative_url }}">See all calculators &rarr;</a>
         <a class="btn btn-white" href="{{ '/blog/' | relative_url }}">Read the cost guides &rarr;</a>
       </div>
     </div>
