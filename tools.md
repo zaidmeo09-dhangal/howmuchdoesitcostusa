@@ -1,7 +1,7 @@
 ---
 layout: default
-title: All 8 Free Cost Calculators in the USA for Home and Car
-meta_title: "All 8 Free Cost Calculators in the USA for Home and Car"
+title: All Free Cost Calculators in the USA for Home and Car
+meta_title: "All Free Cost Calculators in the USA for Home and Car"
 meta_description: "All cost calculators from How Much Does It Cost USA: movers, roof, fence, oil change, central air, car wrap, car painting, and house painting, all free."
 permalink: /tools/
 breadcrumb: Tools
@@ -56,7 +56,7 @@ schema: |
   <div class="section-wrap">
     <div class="section-head">
       <div class="eyebrow">All Calculators</div>
-      <h2 class="section-title">All 8 cost calculators</h2>
+      <h2 class="section-title">All cost calculators</h2>
       <p class="section-copy">Pick a job and get your low, typical, and high price in seconds.</p>
     </div>
     <div id="searchNotice" class="search-notice" role="status" hidden></div>
