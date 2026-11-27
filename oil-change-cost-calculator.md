@@ -114,23 +114,7 @@ schema: |
             "name": "How much does an oil change cost at Jiffy Lube?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "This page does not publish a Jiffy Lube price, because prices vary by location and oil type. Quick lube shops generally fall within the $45 to $140 range on this page, with $75 typical for a full synthetic change. Ask the shop to confirm the oil type, grade, and filter in the quote."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How much does an oil change cost at Valvoline?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "This page does not publish a Valvoline price, because prices vary by location and oil type. Quick lube shops generally fall within the $45 to $140 range on this page, with $75 typical for a full synthetic change. Ask the shop to confirm the oil type, grade, and filter in the quote."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How much does an oil change cost at Take 5?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "This page does not publish a Take 5 price, because prices vary by location and oil type. Quick lube shops generally fall within the $45 to $140 range on this page, with $75 typical for a full synthetic change. Ask the shop to confirm the oil type, grade, and filter in the quote."
+              "text": "This page does not publish a Jiffy Lube, Valvoline, or Take 5 price, because prices vary by location and oil type. Quick lube shops generally fall within the $45 to $140 range on this page, with $75 typical for a full synthetic change. Ask the shop to confirm the oil type, grade, and filter in the quote."
             }
           },
           {
@@ -493,15 +477,7 @@ schema: |
   </details>
   <details class="faq">
     <summary>How much does an oil change cost at Jiffy Lube?</summary>
-    <p>This page does not publish a Jiffy Lube price, because prices vary by location and oil type. Quick lube shops generally fall within the $45 to $140 range on this page, with $75 typical for a full synthetic change. Ask the shop to confirm the oil type, grade, and filter in the quote.</p>
-  </details>
-  <details class="faq">
-    <summary>How much does an oil change cost at Valvoline?</summary>
-    <p>This page does not publish a Valvoline price, because prices vary by location and oil type. Quick lube shops generally fall within the $45 to $140 range on this page, with $75 typical for a full synthetic change. Ask the shop to confirm the oil type, grade, and filter in the quote.</p>
-  </details>
-  <details class="faq">
-    <summary>How much does an oil change cost at Take 5?</summary>
-    <p>This page does not publish a Take 5 price, because prices vary by location and oil type. Quick lube shops generally fall within the $45 to $140 range on this page, with $75 typical for a full synthetic change. Ask the shop to confirm the oil type, grade, and filter in the quote.</p>
+    <p>This page does not publish a Jiffy Lube, Valvoline, or Take 5 price, because prices vary by location and oil type. Quick lube shops generally fall within the $45 to $140 range on this page, with $75 typical for a full synthetic change. Ask the shop to confirm the oil type, grade, and filter in the quote.</p>
   </details>
   <details class="faq">
     <summary>How much does an oil change cost per year?</summary>
