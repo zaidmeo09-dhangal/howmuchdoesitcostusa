@@ -106,36 +106,12 @@ schema: |
             "name": "How much does it cost to paint a house?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "A typical exterior paint job for a 1,800 sq ft home costs about $4,200, with a sample range of $2,800 to $6,800. The same home interior costs about $3,350 typical."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is the cost to paint exterior of house?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "The cost to paint the exterior of a house is $2.33 per sq ft of floor area, so a 1,800 sq ft home costs about $4,200 typical, with a sample range of $2,800 to $6,800. Exterior painting costs $1.50 to $4 per square foot, per Angi."
+              "text": "A typical exterior paint job for a 1,800 sq ft home costs about $4,200, with a sample range of $2,800 to $6,800, at $2.33 per sq ft of floor area. Exterior painting costs $1.50 to $4 per square foot, per Angi. The same home interior costs about $3,350 typical."
             }
           },
           {
             "@type": "Question",
             "name": "How much does it cost to paint a 1500 sq ft house interior?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "A 1500 sq ft house interior costs about $2,800 typical, from 1,500 times $1.85, which is $2,775, rounded to $2,800, with a sample range of about $1,870 to $4,530."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is the exterior house painting cost?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Exterior house painting cost for a 1,800 sq ft home is about $4,200 typical, with a sample range of $2,800 to $6,800, at $2.33 per sq ft of floor area."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How do I calculate the cost of painting a house?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "Multiply the home floor area by the job rate: $2.33 per sq ft for exterior and $1.85 per sq ft for interior. For a 1,800 sq ft home that is $4,200 typical exterior and $3,350 typical interior."
@@ -561,22 +537,10 @@ schema: |
   </details>
   <details class="faq">
     <summary>How much does it cost to paint a house?</summary>
-    <p>A typical exterior paint job for a 1,800 sq ft home costs about $4,200, with a sample range of $2,800 to $6,800. The same home interior costs about $3,350 typical.</p>
-  </details>
-  <details class="faq">
-    <summary>What is the cost to paint exterior of house?</summary>
-    <p>The cost to paint the exterior of a house is $2.33 per sq ft of floor area, so a 1,800 sq ft home costs about $4,200 typical, with a sample range of $2,800 to $6,800. Exterior painting costs $1.50 to $4 per square foot, per Angi.</p>
+    <p>A typical exterior paint job for a 1,800 sq ft home costs about $4,200, with a sample range of $2,800 to $6,800, at $2.33 per sq ft of floor area. Exterior painting costs $1.50 to $4 per square foot, per Angi. The same home interior costs about $3,350 typical.</p>
   </details>
   <details class="faq">
     <summary>How much does it cost to paint a 1500 sq ft house interior?</summary>
-    <p>A 1500 sq ft house interior costs about $2,800 typical, from 1,500 times $1.85, which is $2,775, rounded to $2,800, with a sample range of about $1,870 to $4,530.</p>
-  </details>
-  <details class="faq">
-    <summary>What is the exterior house painting cost?</summary>
-    <p>Exterior house painting cost for a 1,800 sq ft home is about $4,200 typical, with a sample range of $2,800 to $6,800, at $2.33 per sq ft of floor area.</p>
-  </details>
-  <details class="faq">
-    <summary>How do I calculate the cost of painting a house?</summary>
     <p>Multiply the home floor area by the job rate: $2.33 per sq ft for exterior and $1.85 per sq ft for interior. For a 1,800 sq ft home that is $4,200 typical exterior and $3,350 typical interior.</p>
   </details>
   <details class="faq">
