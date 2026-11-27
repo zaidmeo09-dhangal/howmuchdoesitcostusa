@@ -117,7 +117,6 @@ schema: |
         <li><a href="{{ '/paint-a-car-cost-calculator/' | relative_url }}">Paint a Car Cost Calculator</a>: a typical sedan repaint costs about $3,500, in a range of $1,500 to $10,000.</li>
         <li><a href="{{ '/house-painting-cost-calculator/' | relative_url }}">House Painting Cost Calculator</a>: a typical exterior paint job for a 1,800 sq ft home costs about $4,200, in a range of $2,800 to $6,800.</li>
       </ul>
-      <p class="see-all-note">The guides include the car wrap guide and the house painting guide, with prices by size, material, and type.</p>
       <div class="see-all-cta">
         <a class="btn btn-orange" href="{{ '/tools/' | relative_url }}">See all calculators &rarr;</a>
         <a class="btn btn-white" href="{{ '/blog/' | relative_url }}">Read the cost guides &rarr;</a>
