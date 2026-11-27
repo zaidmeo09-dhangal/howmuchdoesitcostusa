@@ -124,7 +124,7 @@ schema: |
             "name": "How much does it cost to paint a brick house?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Brick costs $1.40 to $4.20 per sq ft, per Angi. The total depends on the size of the home and the prep the brick needs, because rough brick takes more paint than smooth siding."
+              "text": "Brick costs $1.50 to $2.50 per sq ft, per Angi. The total depends on the size of the home and the prep the brick needs, because rough brick takes more paint than smooth siding."
             }
           },
           {
@@ -140,7 +140,7 @@ schema: |
             "name": "What is the best time of year to paint a house?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Spring and fall are the best seasons for exterior painting in most of the USA, because the weather is dry and mild. Paint in the off season for better rates, and do not start an exterior job when rain is expected before the paint has dried."
+              "text": "Spring and fall are the best seasons for exterior painting in most of the USA, because the weather is dry and mild."
             }
           }
         ]
@@ -202,7 +202,7 @@ schema: |
 
 ## How much does it cost to paint a house interior
 
-<p>Interior prices vary by room size and by room type, per Angi. A 10 by 12 ft room costs $240 to $720, and a 20 by 25 ft room costs $1,000 to $3,000. A single room costs $400 to $1,200, and a whole interior of 1,500 to 2,000 sq ft costs $3,000 to $8,000.</p>
+<p>Interior prices vary by room size and by room type, per Angi. A 10 by 12 ft room costs $240 to $720, and a 20 by 25 ft room costs $1,000 to $3,000. A single room costs $400 to $1,200, and a whole interior of a 2,000 sq ft home costs $4,000 to $12,000, per Angi.</p>
 
 <p class="table-hint">Swipe to see the Sample range column &rarr;</p>
   <div class="table-wrap">
@@ -239,13 +239,13 @@ schema: |
 <tr><td>Stucco</td><td>$1.50 to $4</td></tr>
 <tr><td>Wood</td><td>$1 to $3</td></tr>
 <tr><td>Concrete</td><td>$1 to $3.50</td></tr>
-<tr><td>Brick</td><td>$1.40 to $4.20</td></tr>
+<tr><td>Brick</td><td>$1.50 to $2.50</td></tr>
 <tr><td>Metal</td><td>$1.50 to $2.50</td></tr>
 </tbody>
 </table>
 </div>
 
-<p class="note">Stucco has the widest range, at $1.50 to $4 per sq ft, because rough stucco takes more paint and more prep than smooth siding. Wood is the cheapest per square foot at $1 to $3, but it needs more prep when the paint is peeling. How much does it cost to paint a brick house? Brick costs $1.40 to $4.20 per sq ft, per Angi, and rough brick takes more paint than smooth siding, so ask how the painter prices the brick and the prep before you compare totals.</p>
+<p class="note">Stucco has the widest range, at $1.50 to $4 per sq ft, because rough stucco takes more paint and more prep than smooth siding. Wood is the cheapest per square foot at $1 to $3, but it needs more prep when the paint is peeling. How much does it cost to paint a brick house? Brick costs $1.50 to $2.50 per sq ft, per Angi, and rough brick takes more paint than smooth siding, so ask how the painter prices the brick and the prep before you compare totals.</p>
 
 ## Cost by stories (exterior)
 
@@ -400,7 +400,7 @@ Two coats cost more than one and usually look better and last longer. A color ch
 <ul class="checklist">
 <li><strong>Paint in the off season for better rates.</strong> Painters with open dates are often more flexible on price.</li>
 <li><strong>Choose a mid-grade paint for the best value.</strong> Premium paint costs more per gallon, and the cheapest paint may need an extra coat.</li>
-<li><strong>Do your own moving and light prep.</strong> Doing interior prep yourself saves $700 to $1,800 in labor, and doing exterior prep yourself saves $500 to $1,000, per Angi.</li>
+<li><strong>Do your own moving and light prep.</strong> Doing interior prep yourself saves $700 to $1,800 in labor, and doing an exterior job yourself costs about $500 to $1,000 total, per Angi.</li>
 <li><strong>Compare quotes line by line, not just the total.</strong> Ask each painter to list paint brand, coats, prep, and repairs separately.</li>
 <li><strong>Ask whether the quote prices floor area or wall area.</strong> Compare totals, not per square foot rates, when you compare quotes.</li>
 </ul>
@@ -464,9 +464,9 @@ Two coats cost more than one and usually look better and last longer. A color ch
 <details class="faq"><summary>Should I paint the trim and ceilings too?</summary><p>It depends on the scope you want. Walls only is the cheapest job, while adding ceilings and trim adds labor for overhead work and detailed cutting in. Check that each quote lists the same scope before you compare prices.</p></details>
 <details class="faq"><summary>How much does it cost to paint a house?</summary><p>A typical exterior paint job for a 1,800 sq ft home costs about $4,200, with a sample range of $2,800 to $6,800. The same home interior costs about $3,350 typical.</p></details>
 <details class="faq"><summary>How much does it cost to paint a 1500 sq ft house interior?</summary><p>A 1500 sq ft house interior costs about $2,800 typical, from 1,500 times $1.85, which is $2,775, rounded to $2,800, with a sample range of about $1,870 to $4,530.</p></details>
-<details class="faq"><summary>How much does it cost to paint a brick house?</summary><p>Brick costs $1.40 to $4.20 per sq ft, per Angi. The total depends on the size of the home and the prep the brick needs, because rough brick takes more paint than smooth siding.</p></details>
+<details class="faq"><summary>How much does it cost to paint a brick house?</summary><p>Brick costs $1.50 to $2.50 per sq ft, per Angi. The total depends on the size of the home and the prep the brick needs, because rough brick takes more paint than smooth siding.</p></details>
 <details class="faq"><summary>How much does it cost to paint a 2,000 sq ft house?</summary><p>A 2,000 sq ft home costs about $4,650 typical exterior, with a sample range of $3,100 to $7,530, and about $3,700 typical interior.</p></details>
-<details class="faq"><summary>What is the best time of year to paint a house?</summary><p>Spring and fall are the best seasons for exterior painting in most of the USA, because the weather is dry and mild. Paint in the off season for better rates, and do not start an exterior job when rain is expected before the paint has dried.</p></details>
+<details class="faq"><summary>What is the best time of year to paint a house?</summary><p>Spring and fall are the best seasons for exterior painting in most of the USA, because the weather is dry and mild.</p></details>
 
 ## References
 
