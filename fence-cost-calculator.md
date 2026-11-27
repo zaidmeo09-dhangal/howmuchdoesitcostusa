@@ -50,7 +50,7 @@ schema: |
             "name": "How much does a fence cost per foot?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "A sample range is $14 to $38 per foot installed, by material."
+              "text": "A sample range is $14 to $38 per foot installed, by material. A 6-foot wood privacy fence costs $22.23 per foot in this calculator, so a 150 ft fence costs about $3,335 typical."
             }
           },
           {
@@ -99,14 +99,6 @@ schema: |
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "You can, but posts must be set deep in concrete and spaced 6 to 8 ft apart, and the installer must call 811 before digging. A fence that leans in a year costs more to fix than it saved."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How much does a 6-foot privacy fence cost per foot?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "A 6-foot wood privacy fence costs $22.23 per foot in this calculator, so a 150 ft fence costs about $3,335 typical. The sample range on this page is $14 to $38 per foot installed, by material."
             }
           },
           {
@@ -505,7 +497,7 @@ schema: |
   <h2>Frequently asked questions</h2>
   <details class="faq">
     <summary>How much does a fence cost per foot?</summary>
-    <p>A sample range is $14 to $38 per foot installed, by material.</p>
+    <p>A sample range is $14 to $38 per foot installed, by material. A 6-foot wood privacy fence costs $22.23 per foot in this calculator, so a 150 ft fence costs about $3,335 typical.</p>
   </details>
   <details class="faq">
     <summary>Wood or vinyl fence, which is cheaper?</summary>
@@ -530,10 +522,6 @@ schema: |
   <details class="faq">
     <summary>Can I install a fence myself to save money?</summary>
     <p>You can, but posts must be set deep in concrete and spaced 6 to 8 ft apart, and the installer must call 811 before digging. A fence that leans in a year costs more to fix than it saved.</p>
-  </details>
-  <details class="faq">
-    <summary>How much does a 6-foot privacy fence cost per foot?</summary>
-    <p>A 6-foot wood privacy fence costs $22.23 per foot in this calculator, so a 150 ft fence costs about $3,335 typical. The sample range on this page is $14 to $38 per foot installed, by material.</p>
   </details>
   <details class="faq">
     <summary>How much does 200 ft of chain link fence cost?</summary>
