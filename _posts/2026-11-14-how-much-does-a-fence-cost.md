@@ -7,7 +7,7 @@ date: 2026-11-14
 permalink: /blog/how-much-does-a-fence-cost/
 breadcrumb: Blog
 guide_category: "Home Costs"
-card_price: "$2,100 - $5,400"
+card_price: "$3,000 - $7,500"
 calculator_url: "/fence-cost-calculator/"
 calculator_name: "Fence Cost Calculator"
 calculator_heading: "Price your own fence"
@@ -84,7 +84,7 @@ schema: |
             "name": "How much does a 200 ft wood fence cost?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The fence alone costs $2,600 to $6,000 at $13 to $30 per foot, per Quotsey. With two walk gates, old fence removal, and a permit, the worked example in this guide totals $3,520 to $8,950."
+              "text": "The fence alone costs $4,000 to $10,000 at $20 to $50 per foot, per HomeAdvisor and HomeGuide. With two walk gates, old fence removal, and a permit, the worked example in this guide totals $4,940 to $12,750."
             }
           },
           {
@@ -92,7 +92,7 @@ schema: |
             "name": "How many posts does a 200 ft fence need?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "At 8 ft spacing, a 200 ft fence needs 27 posts, because 200 divided by 8 plus 2 equals 27."
+              "text": "At 8 ft spacing, a 200 ft fence needs 27 posts by the HomeAdvisor method, because 200 divided by 8 plus 2 equals 27. A straight run alone needs 26 posts, and the extra post covers a corner or gate."
             }
           },
           {
@@ -108,7 +108,7 @@ schema: |
             "name": "How much does it cost to build a fence?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "To build a fence, multiply the length by the installed cost per foot, then add gates, permits, and removal. Installed cost per foot is $14 to $36 for wood, $25 to $55 for vinyl, and $9 to $20 for chain link, so a 150 ft wood privacy fence costs about $3,335 typical, with a sample range of $2,100 to $5,400. To put up a fence on the same 150 ft line in vinyl costs $3,750 to $8,250."
+              "text": "To build a fence, multiply the length by the installed cost per foot, then add gates, permits, and removal. Installed cost per foot is $20 to $50 for wood, $30 to $60 for vinyl, and $9 to $30 for chain link, so a 150 ft wood privacy fence costs about $5,250 typical, with a sample range of $3,000 to $7,500. To put up a fence on the same 150 ft line in vinyl costs $4,500 to $9,000."
             }
           },
           {
@@ -116,7 +116,7 @@ schema: |
             "name": "How much does a privacy fence cost?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "A 6 ft wood privacy fence costs about $22 per foot typical, in a sample range of $14 to $36 per foot installed, so a 150 ft wood privacy fence costs about $3,335 typical. The same 150 ft line in vinyl costs $3,750 to $8,250 at $25 to $55 per foot."
+              "text": "A 6 ft wood privacy fence costs about $35 per foot typical, in a sample range of $20 to $50 per foot installed, so a 150 ft wood privacy fence costs about $5,250 typical. The same 150 ft line in vinyl costs $4,500 to $9,000 at $30 to $60 per foot."
             }
           },
           {
@@ -124,7 +124,7 @@ schema: |
             "name": "How much does a chain link fence cost?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Chain link costs $9 to $20 per foot installed, with $14 typical, so a 150 ft chain link fence costs $1,350 to $3,000, with $2,100 typical."
+              "text": "Chain link costs $9 to $30 per foot installed, with $19.50 typical, so a 150 ft chain link fence costs $1,350 to $4,500, with $2,925 typical."
             }
           },
           {
@@ -132,7 +132,7 @@ schema: |
             "name": "How much does a wood fence cost?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Wood costs $14 to $36 per foot installed, with $22 typical, so a 150 ft wood privacy fence costs $2,100 to $5,400, with about $3,335 typical."
+              "text": "Wood costs $20 to $50 per foot installed, with $35 typical, so a 150 ft wood privacy fence costs $3,000 to $7,500, with about $5,250 typical."
             }
           },
           {
@@ -150,17 +150,17 @@ schema: |
 ---
 
 <div class="answer">
-<p><strong>Direct answer:</strong> A typical 150 ft wood privacy fence in the USA costs about $3,335, with a sample range of $2,100 to $5,400. Use the <a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a> to price your fence.</p>
+<p><strong>Direct answer:</strong> A typical 150 ft wood privacy fence in the USA costs about $5,250, with a sample range of $3,000 to $7,500. Use the <a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a> to price your fence.</p>
 <p class="note">All prices on this page are sample estimated USA ranges, not quotes. Your real price depends on your fence length, material, height, and the installer you hire.</p>
 </div>
 
 <div class="key-takeaways">
 <p class="key-takeaways-title">Key Takeaways</p>
 <ul>
-<li>A typical 150 ft wood privacy fence costs about $3,335, with a sample range of $2,100 to $5,400.</li>
-<li>Installed cost per foot is $14 to $36 for wood, $25 to $55 for vinyl, and $9 to $20 for chain link.</li>
+<li>A typical 150 ft wood privacy fence costs about $5,250, with a sample range of $3,000 to $7,500.</li>
+<li>Installed cost per foot is $20 to $50 for wood, $30 to $60 for vinyl, and $9 to $30 for chain link.</li>
 <li>A wood fence lasts about 15 to 20 years with regular care, while vinyl and chain link last about 20 to 30 years.</li>
-<li>A 200 ft wood fence with two walk gates, old fence removal, and a permit totals $3,520 to $8,950 in the worked example.</li>
+<li>A 200 ft wood fence with two walk gates, old fence removal, and a permit totals $4,940 to $12,750 in the worked example.</li>
 <li>Call 811 before digging, which is free, and check your HOA rules, city rules, and permit needs before anyone digs.</li>
 </ul>
 </div>
@@ -179,16 +179,16 @@ schema: |
 <tr><th>Material</th><th>Cost per foot</th><th>Typical cost per foot</th><th>Sample total for 150 ft</th></tr>
 </thead>
 <tbody>
-<tr><td>Wood</td><td>$14 to $36</td><td>$22</td><td>$2,100 to $5,400</td></tr>
-<tr><td>Vinyl</td><td>$25 to $55</td><td>$38</td><td>$3,750 to $8,250</td></tr>
-<tr><td>Chain link</td><td>$9 to $20</td><td>$14</td><td>$1,350 to $3,000</td></tr>
+<tr><td>Wood</td><td>$20 to $50</td><td>$35</td><td>$3,000 to $7,500</td></tr>
+<tr><td>Vinyl</td><td>$30 to $60</td><td>$45</td><td>$4,500 to $9,000</td></tr>
+<tr><td>Chain link</td><td>$9 to $30</td><td>$19.50</td><td>$1,350 to $4,500</td></tr>
 </tbody>
 </table>
 </div>
 
-<p class="note">Totals are the per foot price times 150 ft. For wood, $14 times 150 equals $2,100 and $36 times 150 equals $5,400. The typical 150 ft wood total of $3,335 uses an unrounded per foot figure near $22.</p>
+<p class="note">Headline ranges are from HomeAdvisor and HomeGuide. Totals are the per foot price times 150 ft. For wood, $20 times 150 equals $3,000 and $50 times 150 equals $7,500. The typical 150 ft wood total of $5,250 uses the midpoint rate of $35 per foot, which matches the $5,250 average HomeAdvisor gives for a 150 ft wood fence.</p>
 
-<p>A 6-foot privacy fence costs about $22 per foot typical for wood, in a sample range of $14 to $36 per foot installed, so a 150 ft wood privacy fence costs about $3,335 typical. Chain link costs $9 to $20 per foot installed, with $14 typical, so 200 ft of chain link fence costs $1,800 to $4,000, with $2,800 typical, from 200 times $14.</p>
+<p>A 6-foot privacy fence costs about $35 per foot typical for wood, in a sample range of $20 to $50 per foot installed, so a 150 ft wood privacy fence costs about $5,250 typical. Chain link costs $9 to $30 per foot installed, with $19.50 typical, so 200 ft of chain link fence costs $1,800 to $6,000, with $3,900 typical, from 200 times $19.50.</p>
 
 ## What affects the price
 
@@ -224,16 +224,16 @@ BuilderMuse works through a 200 ft wood fence with two walk gates, old fence rem
 <tr><th>Item</th><th>Source range</th><th>Low</th><th>High</th></tr>
 </thead>
 <tbody>
-<tr><td>200 ft wood fence, $13 to $30 per foot</td><td>Quotsey</td><td>$2,600</td><td>$6,000</td></tr>
+<tr><td>200 ft wood fence, $20 to $50 per foot</td><td>HomeAdvisor and HomeGuide</td><td>$4,000</td><td>$10,000</td></tr>
 <tr><td>Two walk gates, $150 to $600 each</td><td>RemodelCalculators</td><td>$300</td><td>$1,200</td></tr>
-<tr><td>Old fence removal, $3 to $8 per foot</td><td>Quotsey</td><td>$600</td><td>$1,600</td></tr>
-<tr><td>Permit, $20 to $150</td><td>RemodelCalculators</td><td>$20</td><td>$150</td></tr>
-<tr class="total"><td>Totals</td><td></td><td>$3,520</td><td>$8,950</td></tr>
+<tr><td>Old fence removal, $3 to $7 per foot</td><td>RemodelCalculators</td><td>$600</td><td>$1,400</td></tr>
+<tr><td>Permit, $40 to $150</td><td>HomeAdvisor and HomeGuide</td><td>$40</td><td>$150</td></tr>
+<tr class="total"><td>Totals</td><td></td><td>$4,940</td><td>$12,750</td></tr>
 </tbody>
 </table>
 </div>
 
-<p class="note">Arithmetic: low is $2,600 + $300 + $600 + $20 = $3,520. High is $6,000 + $1,200 + $1,600 + $150 = $8,950. BuilderMuse lands a little higher at the low end and a little lower at the high end, at roughly $3,700 to $8,860, because it uses different per foot and permit assumptions for the same job. Post count for this job: 200 ft at 8 ft spacing is 200 / 8 + 2 = 27 posts, per the BuilderMuse formula.</p>
+<p class="note">Arithmetic: low is $4,000 + $300 + $600 + $40 = $4,940. High is $10,000 + $1,200 + $1,400 + $150 = $12,750. BuilderMuse lands lower at both ends, at roughly $3,700 to $8,860, because it uses different per foot and permit assumptions for the same job. Post count for this job: 200 ft at 8 ft spacing is 200 / 8 + 2 = 27 posts, per the HomeAdvisor method quoted by BuilderMuse. A straight run alone needs 26 posts, and the extra post covers a corner or gate.</p>
 
 ## Fence cost by material and height
 
@@ -250,13 +250,13 @@ BuilderMuse works through a 200 ft wood fence with two walk gates, old fence rem
 <tr><td>Cedar privacy</td><td>6 ft</td><td>$22 to $60</td><td>$3,300 to $9,000</td></tr>
 <tr><td>Vinyl privacy</td><td>6 ft</td><td>$25 to $60</td><td>$3,750 to $9,000</td></tr>
 <tr><td>Aluminum, ornamental</td><td>6 ft</td><td>$25 to $75</td><td>$3,750 to $11,250</td></tr>
-<tr><td>Composite privacy</td><td>6 ft</td><td>$35 to $95</td><td>$5,250 to $14,250</td></tr>
-<tr><td>Wrought iron / steel</td><td>6 ft</td><td>$25 to $85</td><td>$3,750 to $12,750</td></tr>
+<tr><td>Composite privacy</td><td>6 ft</td><td>$20 to $85</td><td>$3,000 to $12,750</td></tr>
+<tr><td>Wrought iron / steel</td><td>6 ft</td><td>$50 to $85</td><td>$7,500 to $12,750</td></tr>
 </tbody>
 </table>
 </div>
 
-<p class="note">Totals are the per foot price times 150 ft. For height changes, going from 4 ft to 6 ft adds about 30 to 50 percent per foot, per Quotsey, and 8 ft adds about 25 to 35 percent over 6 ft, per BuilderMuse.</p>
+<p class="note">Totals are the per foot price times 150 ft. Most rows use RemodelCalculators height and grade rows, so the 6 ft privacy rows differ from the headline ranges above: wood privacy 6 ft is $15 to $45 and vinyl privacy 6 ft is $25 to $60, which Angi also gives for vinyl privacy. Composite and wrought iron use the HomeAdvisor and HomeGuide ranges. For height changes, going from 4 ft to 6 ft adds about 30 to 50 percent per foot, per Quotsey, and 8 ft adds about 25 to 35 percent over 6 ft, per BuilderMuse.</p>
 
 ## Whole fence cost by material and length
 
@@ -268,8 +268,8 @@ BuilderMuse works through a 200 ft wood fence with two walk gates, old fence rem
 <tr><th>Material</th><th>100 ft</th><th>150 ft</th><th>200 ft</th><th>400 ft</th></tr>
 </thead>
 <tbody>
-<tr><td>Chain link, $15 to $25 per foot</td><td>$1,500 to $2,500</td><td>$2,250 to $3,750</td><td>$3,000 to $5,000</td><td>$6,000 to $10,000</td></tr>
-<tr><td>Pressure treated wood, $13 to $30 per foot</td><td>$1,300 to $3,000</td><td>$1,950 to $4,500</td><td>$2,600 to $6,000</td><td>$5,200 to $12,000</td></tr>
+<tr><td>Chain link, $9 to $30 per foot</td><td>$900 to $3,000</td><td>$1,350 to $4,500</td><td>$1,800 to $6,000</td><td>$3,600 to $12,000</td></tr>
+<tr><td>Pressure treated wood, $20 to $50 per foot</td><td>$2,000 to $5,000</td><td>$3,000 to $7,500</td><td>$4,000 to $10,000</td><td>$8,000 to $20,000</td></tr>
 <tr><td>Vinyl, $30 to $60 per foot</td><td>$3,000 to $6,000</td><td>$4,500 to $9,000</td><td>$6,000 to $12,000</td><td>$12,000 to $24,000</td></tr>
 </tbody>
 </table>
@@ -311,19 +311,19 @@ Prices move with local labor rates. Quotsey gives these ranges for a 150 ft pres
 <tr><th>Budget</th><th>Fence</th><th>Sample cost</th></tr>
 </thead>
 <tbody>
-<tr><td>Small side yard</td><td>100 ft chain link</td><td>$900 to $2,000</td></tr>
-<tr><td>Standard backyard</td><td>150 ft wood privacy</td><td>$2,100 to $5,400, about $3,335 typical</td></tr>
-<tr><td>Privacy fence</td><td>150 ft vinyl</td><td>$3,750 to $8,250</td></tr>
-<tr><td>Large yard</td><td>300 ft wood</td><td>$4,200 to $10,800</td></tr>
+<tr><td>Small side yard</td><td>100 ft chain link</td><td>$900 to $3,000</td></tr>
+<tr><td>Standard backyard</td><td>150 ft wood privacy</td><td>$3,000 to $7,500, about $5,250 typical</td></tr>
+<tr><td>Privacy fence</td><td>150 ft vinyl</td><td>$4,500 to $9,000</td></tr>
+<tr><td>Large yard</td><td>300 ft wood</td><td>$6,000 to $15,000</td></tr>
 </tbody>
 </table>
 </div>
 
-<p class="note">Each total is the per foot range times the length. For the standard backyard, 150 ft of wood at $14 to $36 per foot is $2,100 to $5,400, with about $3,335 typical.</p>
+<p class="note">Each total is the per foot range times the length. For the standard backyard, 150 ft of wood at $20 to $50 per foot is $3,000 to $7,500, with about $5,250 typical.</p>
 
 ## Where the money goes
 
-<p>At the $3,335 typical total for a 150 ft wood privacy fence, the money splits like this: materials $1,750, labor $1,050, gates and hardware $200, staining and sealing $150, permits and fees $110, and supplies and equipment $75. Materials and labor together are about 84 percent of the total, so shopping for cheaper panels can only ever move about half the bill. The labor half is set mostly by your ground and your local market, not by negotiation, which is why two honest quotes for the same fence can still differ by a lot.</p>
+<p>At the $5,250 typical total for a 150 ft wood privacy fence, labor is about half the job, per HomeAdvisor, or about $2,625, and materials make up most of the rest. Shopping for cheaper panels can only ever move part of the bill. The labor half is set mostly by your ground and your local market, not by negotiation, which is why two honest quotes for the same fence can still differ by a lot.</p>
 
 ## Sloped ground: stepped vs racked
 
@@ -331,7 +331,7 @@ A fence on a slope is built one of two ways, per RemodelCalculators. A racked fe
 
 ## Replacement vs a new fence
 
-Replacing an old fence costs more per foot than building on clear ground. RemodelCalculators puts replacement at $30 to $80 per linear foot, against $20 to $60 per linear foot for a new fence. Removal alone runs $3 to $7 per foot, per RemodelCalculators, or $3 to $8 per foot as a standalone job, per Quotsey. On a 150 ft fence, removal alone is $450 to $1,050 at $3 to $7 per foot. If the old posts are sound and the line is unchanged, ask whether the new fence can reuse the post holes, which can cut the labor.
+Replacing an old fence costs more per foot than building on clear ground. HomeGuide puts replacement at $30 to $80 per linear foot, against $20 to $60 per linear foot for a new fence. Removal alone runs $3 to $7 per foot, per RemodelCalculators, corroborated by Angi at $3 to $7 for a wood fence. HomeAdvisor and HomeGuide put removal higher, at $10 to $20 per foot including disposal, so a quote that includes haul-away can run above $7 per foot. On a 150 ft fence, removal alone is $450 to $1,050 at $3 to $7 per foot. If the old posts are sound and the line is unchanged, ask whether the new fence can reuse the post holes, which can cut the labor.
 
 ## Lifetime cost per foot per year
 
@@ -372,7 +372,7 @@ Labor runs $10 to $30 per linear foot and is about half the job, per Quotsey, so
 
 ## Before you build
 
-Check these five things before anyone digs. A property survey costs $200 to $545, per BuilderMuse, and it settles where the fence can legally go. Call 811 before digging, which is free, per BuilderMuse, so buried lines get marked. Check your HOA rules, because many HOAs limit material, style, and height. Check your city setback rules, because a fence usually must sit inside your line, not on it. Check your city height cap, because front yard fences are often limited to a lower height than backyard fences. A permit costs $20 to $150, per RemodelCalculators, or $50 to $300, per Quotsey, depending on the city.
+Check these five things before anyone digs. A property survey costs $200 to $545, per BuilderMuse, and it settles where the fence can legally go. Call 811 before digging, which is free, per BuilderMuse, so buried lines get marked. Check your HOA rules, because many HOAs limit material, style, and height. Check your city setback rules, because a fence usually must sit inside your line, not on it. Check your city height cap, because front yard fences are often limited to a lower height than backyard fences. A permit costs $40 to $150, per HomeAdvisor and HomeGuide, depending on the city. Angi puts a typical fence permit lower, at $20 to $60.
 
 ## What is included and what is not included
 
@@ -433,7 +433,7 @@ Check these five things before anyone digs. A property survey costs $200 to $545
 
 ## How to measure your fence line
 
-<p>Measure before you ask for a quote, because length is the biggest price driver. Walk the line with a tape or a measuring wheel, and add a little extra for corners and gates. Count the posts too: at 8 ft spacing, a 200 ft fence needs 27 posts, because 200 divided by 8 plus 2 equals 27. Mark where each gate should go, and note slopes, trees, and rocks along the line, because slopes, rocks, tree roots, and wet soil slow the crew down and add labor. A clear measurement means each installer prices the same fence, so the quotes are easy to compare.</p>
+<p>Measure before you ask for a quote, because length is the biggest price driver. Walk the line with a tape or a measuring wheel, and add a little extra for corners and gates. Count the posts too: at 8 ft spacing, a 200 ft fence needs 27 posts by the HomeAdvisor method, because 200 divided by 8 plus 2 equals 27. A straight run alone needs 26 posts, and the extra post covers a corner or gate. Mark where each gate should go, and note slopes, trees, and rocks along the line, because slopes, rocks, tree roots, and wet soil slow the crew down and add labor. A clear measurement means each installer prices the same fence, so the quotes are easy to compare.</p>
 
 ## Fence care by material
 
@@ -456,19 +456,23 @@ Check these five things before anyone digs. A property survey costs $200 to $545
 <details class="faq"><summary>How long does a wood fence last?</summary><p>About 15 to 20 years with regular care. Sealing or staining every few years, keeping the boards off the soil, and fixing loose posts early all help a wood fence last longer.</p></details>
 <details class="faq"><summary>How much is a gate?</summary><p>A sample price is $150 to $600 per walk gate, per RemodelCalculators. Wide drive gates cost $600 to $1,500, and an automatic opener adds $500 to $2,000, per Quotsey.</p></details>
 <details class="faq"><summary>What is not included?</summary><p>Old fence removal and surveys are usually not included in a standard fence quote. Ask each installer to list removal, permit fees, and gates, so you know what the price does and does not cover.</p></details>
-<details class="faq"><summary>How much does a 200 ft wood fence cost?</summary><p>The fence alone costs $2,600 to $6,000 at $13 to $30 per foot, per Quotsey. With two walk gates, old fence removal, and a permit, the worked example in this guide totals $3,520 to $8,950.</p></details>
-<details class="faq"><summary>How many posts does a 200 ft fence need?</summary><p>At 8 ft spacing, a 200 ft fence needs 27 posts, because 200 divided by 8 plus 2 equals 27.</p></details>
+<details class="faq"><summary>How much does a 200 ft wood fence cost?</summary><p>The fence alone costs $4,000 to $10,000 at $20 to $50 per foot, per HomeAdvisor and HomeGuide. With two walk gates, old fence removal, and a permit, the worked example in this guide totals $4,940 to $12,750.</p></details>
+<details class="faq"><summary>How many posts does a 200 ft fence need?</summary><p>At 8 ft spacing, a 200 ft fence needs 27 posts by the HomeAdvisor method, because 200 divided by 8 plus 2 equals 27. A straight run alone needs 26 posts, and the extra post covers a corner or gate.</p></details>
 <details class="faq"><summary>Which fence is best for privacy?</summary><p>A 6 ft wood or vinyl privacy fence gives the most privacy. A shadow box fence looks finished from both sides and lets some air through, while a picket or rail fence gives little privacy.</p></details>
-<details class="faq"><summary>How much does it cost to build a fence?</summary><p>To build a fence, multiply the length by the installed cost per foot, then add gates, permits, and removal. Installed cost per foot is $14 to $36 for wood, $25 to $55 for vinyl, and $9 to $20 for chain link, so a 150 ft wood privacy fence costs about $3,335 typical, with a sample range of $2,100 to $5,400. To put up a fence on the same 150 ft line in vinyl costs $3,750 to $8,250.</p></details>
-<details class="faq"><summary>How much does a privacy fence cost?</summary><p>A 6 ft wood privacy fence costs about $22 per foot typical, in a sample range of $14 to $36 per foot installed, so a 150 ft wood privacy fence costs about $3,335 typical. The same 150 ft line in vinyl costs $3,750 to $8,250 at $25 to $55 per foot.</p></details>
-<details class="faq"><summary>How much does a chain link fence cost?</summary><p>Chain link costs $9 to $20 per foot installed, with $14 typical, so a 150 ft chain link fence costs $1,350 to $3,000, with $2,100 typical.</p></details>
-<details class="faq"><summary>How much does a wood fence cost?</summary><p>Wood costs $14 to $36 per foot installed, with $22 typical, so a 150 ft wood privacy fence costs $2,100 to $5,400, with about $3,335 typical.</p></details>
+<details class="faq"><summary>How much does it cost to build a fence?</summary><p>To build a fence, multiply the length by the installed cost per foot, then add gates, permits, and removal. Installed cost per foot is $20 to $50 for wood, $30 to $60 for vinyl, and $9 to $30 for chain link, so a 150 ft wood privacy fence costs about $5,250 typical, with a sample range of $3,000 to $7,500. To put up a fence on the same 150 ft line in vinyl costs $4,500 to $9,000.</p></details>
+<details class="faq"><summary>How much does a privacy fence cost?</summary><p>A 6 ft wood privacy fence costs about $35 per foot typical, in a sample range of $20 to $50 per foot installed, so a 150 ft wood privacy fence costs about $5,250 typical. The same 150 ft line in vinyl costs $4,500 to $9,000 at $30 to $60 per foot.</p></details>
+<details class="faq"><summary>How much does a chain link fence cost?</summary><p>Chain link costs $9 to $30 per foot installed, with $19.50 typical, so a 150 ft chain link fence costs $1,350 to $4,500, with $2,925 typical.</p></details>
+<details class="faq"><summary>How much does a wood fence cost?</summary><p>Wood costs $20 to $50 per foot installed, with $35 typical, so a 150 ft wood privacy fence costs $3,000 to $7,500, with about $5,250 typical.</p></details>
 <details class="faq"><summary>How much does it cost to replace a fence?</summary><p>Replacement costs $30 to $80 per linear foot, per RemodelCalculators, against $20 to $60 per linear foot for a new fence, because replacement adds removal at $3 to $7 per foot. On a 150 ft fence, removal alone is $450 to $1,050.</p></details>
 
 ## References
 
-<p>Price ranges in this guide come from RemodelCalculators, Quotsey, and BuilderMuse, with labor context from the US Bureau of Labor Statistics. All prices are sample estimated USA ranges, not quotes.</p>
+<p>Headline price ranges in this guide come from HomeAdvisor and HomeGuide, with height and grade rows from RemodelCalculators and labor context from the US Bureau of Labor Statistics. All prices are sample estimated USA ranges, not quotes.</p>
 <div class="refs">
+<p><a href="https://www.homeadvisor.pro/cost/fencing/install-a-fence/" target="_blank" rel="noopener">HomeAdvisor</a> <span class="ref-note">fence installation cost by material</span></p>
+<p><a href="https://homeguide.com/costs/fence-installation-cost" target="_blank" rel="noopener">HomeGuide</a> <span class="ref-note">fence installation cost by material</span></p>
+<p><a href="https://www.angi.com/articles/how-much-does-fence-installation-cost.htm?mf_ct_campaign=msn-feed" target="_blank" rel="noopener">Angi</a> <span class="ref-note">fence installation cost, removal and permits</span></p>
+<p><a href="https://remodelcalculators.com/fence-cost" target="_blank" rel="noopener">RemodelCalculators</a> <span class="ref-note">fence cost by material and height</span></p>
 <p><a href="https://www.bls.gov/" target="_blank" rel="noopener">US Bureau of Labor Statistics</a> <span class="ref-note">fence erector wage data</span></p>
 </div>
 
@@ -479,7 +483,7 @@ Check these five things before anyone digs. A property survey costs $200 to $545
 ## Related links
 
 <div class="grid related-grid">
-<div class="card related-card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3v18M10 3v18M16 3v18M20 3v18"/><path d="M3 8h18M3 16h18"/></svg></div><div class="card-top"><span class="card-cat">Home</span></div><h3><a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a></h3><p class="price">$2,100 - $5,400</p><a class="card-cta" href="{{ '/fence-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
+<div class="card related-card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3v18M10 3v18M16 3v18M20 3v18"/><path d="M3 8h18M3 16h18"/></svg></div><div class="card-top"><span class="card-cat">Home</span></div><h3><a href="{{ '/fence-cost-calculator/' | relative_url }}">Fence Cost Calculator</a></h3><p class="price">$3,000 - $7,500</p><a class="card-cta" href="{{ '/fence-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
 <div class="card related-card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12 12 3l10 9"/><path d="M6 10v10h12V10"/><path d="M9.5 14h2m2 0h2m-6 3h2m2 0h2"/></svg></div><div class="card-top"><span class="card-cat">Home</span></div><h3><a href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Roof Replacement Cost Calculator</a></h3><p class="price">$7,528 - $11,475</p><a class="card-cta" href="{{ '/roof-replacement-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
 <div class="card related-card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h13v6H3z"/><path d="M16 7h2a2 2 0 0 1 2 2v2"/><path d="M18 11v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-4"/></svg></div><div class="card-top"><span class="card-cat">Home</span></div><h3><a href="{{ '/house-painting-cost-calculator/' | relative_url }}">House Painting Cost Calculator</a></h3><p class="price">$2,800 - $6,800</p><a class="card-cta" href="{{ '/house-painting-cost-calculator/' | relative_url }}">Calculate your price &rarr;</a></div>
 <div class="card related-card"><div class="card-art" aria-hidden="true"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12 12 3l10 9"/><path d="M6 10v10h12V10"/><path d="M9.5 14h2m2 0h2m-6 3h2m2 0h2"/></svg></div><div class="card-top"><span class="card-cat">Guide</span></div><h3><a href="{{ '/blog/how-much-does-it-cost-to-replace-a-roof/' | relative_url }}">How Much Does It Cost to Replace a Roof?</a></h3><p class="price">$7,528 - $11,475</p><a class="card-cta" href="{{ '/blog/how-much-does-it-cost-to-replace-a-roof/' | relative_url }}">Read the guide &rarr;</a></div>
