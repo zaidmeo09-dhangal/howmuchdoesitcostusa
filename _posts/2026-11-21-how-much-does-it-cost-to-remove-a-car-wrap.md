@@ -128,7 +128,7 @@ schema: |
 ---
 
 <div class="answer">
-<p><strong>Direct answer:</strong> Professional removal of a full wrap on a typical car costs $500 to $1,500. <a href="https://www.autoblog.com/features/thinking-about-wrapping-your-car-heres-what-you-need-to-know-about-cost-and-care" target="_blank" rel="noopener">Autoblog</a> puts typical full-vehicle removal in the same range. A small car with a fresh wrap can cost as little as $300, while a wrap that is 5 or more years old, sun-baked, or chrome can cost $2,500 or more. The price is mostly labor: heat, peel, and clean, panel by panel.</p>
+<p><strong>Direct answer:</strong> Professional removal of a full wrap on a typical car costs $500 to $1,500. <a href="https://www.autoblog.com/features/thinking-about-wrapping-your-car-heres-what-you-need-to-know-about-cost-and-care" target="_blank" rel="noopener">Autoblog</a> puts typical full-vehicle removal in the same range. A small car with a fresh wrap can cost as little as $300, while a wrap that is 5 or more years old, sun-baked, or chrome can cost $2,500 or more. The price is mostly labor: heat, peel, and clean, panel by panel. If you are pricing a replacement wrap, see <a href="{{ '/car-wrap-cost-calculator/' | relative_url }}">how much does it cost to wrap a car</a>.</p>
 <p class="note">All prices on this page are typical USA shop ranges, not quotes. Your real price depends on your vehicle size, wrap age, film type, and paint condition.</p>
 </div>
 
@@ -171,7 +171,7 @@ schema: |
 </table>
 </div>
 
-<p class="note">No shop publishes a cell-by-cell matrix, so each cell above combines the published vehicle-size range with the published wrap-age range. A fresh wrap prices near the low end of its vehicle range, a mid-age wrap spans the full vehicle range, and an old wrap starts at the top of the vehicle range and runs into the age range. Treat every cell as a typical range, not a quote. A wrap in suitable condition costs roughly $500 to $600 to remove, while a severely deteriorated wrap can cost more than $2,500.</p>
+<p class="note">No shop publishes a cell-by-cell matrix, so each cell above combines the published vehicle-size range with the published wrap-age range. The detailed tables on this page were synthesized from niche wrap sites (APG, WrapPriceGuide, Wrappered, CarWrapHub, and NJ Vinyl Wrapz), which converge on the same ranges. A fresh wrap prices near the low end of its vehicle range, a mid-age wrap spans the full vehicle range, and an old wrap starts at the top of the vehicle range and runs into the age range. Treat every cell as a typical range, not a quote. A wrap in suitable condition costs roughly $500 to $600 to remove, while a severely deteriorated wrap can cost more than $2,500.</p>
 
 <p>Read the matrix by your row first, then your column. A sedan with a 2-year-old wrap sits in the $500 to $700 cell, while the same sedan with a 6-year-old sun-baked wrap sits in the $900 to $1,500 cell, and a chrome wrap of the same age can reach $1,200 to $2,500. The cheapest credible low end anywhere is $300, for a small car with a fresh wrap. The lesson is simple: remove a wrap before it passes 5 years, because every year past that point adds labor, and labor is the whole bill.</p>
 
@@ -277,7 +277,7 @@ schema: |
 
 <p>If you are taking one wrap off to put another on, book both jobs with the same shop. Removal is often discounted to $200 to $500 when the same shop does the new wrap, because the car is already in the bay, the panels are already clean, and the shop keeps the whole job. That discount is not the same as free removal, and free removal is rare, so ask for the removal line in writing before you agree.</p>
 
-<p>Before you pick the new film, price the new wrap with our <a href="{{ '/car-wrap-cost-calculator/' | relative_url }}">car wrap cost</a> calculator, then add the discounted removal on top. A sedan full wrap plus discounted removal is far cheaper as one booked job than as two separate visits.</p>
+<p>Before you pick the new film, price the new wrap with our car wrap cost calculator, then add the discounted removal on top. A sedan full wrap plus discounted removal is far cheaper as one booked job than as two separate visits.</p>
 
 ## Lease return: remove the wrap before turn-in
 
@@ -322,3 +322,7 @@ schema: |
 <details class="faq"><summary>How much does it cost to remove a wrap and rewrap a car?</summary><p>When the same shop removes the old wrap and installs the new one, removal is often discounted to $200 to $500. You still pay the full price of the new wrap on top of that.</p></details>
 <details class="faq"><summary>Is car wrap removal free with a new wrap?</summary><p>Usually not. Some shops discount removal to $200 to $500 or fold it into a rewrap package, but free removal is rare, so ask for the removal line in writing before you agree.</p></details>
 <details class="faq"><summary>Is PPF removal different from vinyl wrap removal?</summary><p>Yes. Paint protection film is a different product from a vinyl color wrap, with thicker film and different adhesive, and shops price its removal separately. No standard published price range exists for PPF removal, so get a separate quote for it.</p></details>
+
+## References
+
+<p>The detailed price tables on this page were synthesized from niche wrap sites (APG, WrapPriceGuide, Wrappered, CarWrapHub, and NJ Vinyl Wrapz), which converge on the same ranges. These sites are named here as plain text, with no links, per our sourcing rule. The typical $500 to $1,500 full-vehicle removal range is also stated by Autoblog, linked in the direct answer above. All prices on this page are typical USA shop ranges, not quotes.</p>
