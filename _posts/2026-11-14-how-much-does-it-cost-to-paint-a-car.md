@@ -163,9 +163,9 @@ schema: |
 <tr><th>Paint job quality</th><th>Sample range</th><th>Typical price</th><th>Warranty</th><th>Turnaround</th><th>Finish life</th><th>Best for</th></tr>
 </thead>
 <tbody>
-<tr><td>Basic single coat</td><td>$1,500 to $2,499</td><td>$2,000</td><td>Confirm in writing, not stated in the sources used</td><td>About 3 to 7 days for most repaints</td><td>Single-stage paint fades in 5 to 8 years</td><td class="best-for">A budget repaint</td></tr>
-<tr><td>Standard quality</td><td>$2,500 to $4,999</td><td>$3,500</td><td>Confirm in writing, not stated in the sources used</td><td>About 3 to 7 days for most repaints</td><td>Base and clear coat lasts 10 to 15 plus years</td><td class="best-for">Most daily drivers</td></tr>
-<tr><td>Show quality</td><td>$5,000 to $10,000</td><td>$7,500</td><td>Confirm in writing, not stated in the sources used</td><td>Longer than a standard job, more coats and more sanding between coats</td><td>Base and clear coat lasts 10 to 15 plus years</td><td class="best-for">Show cars, and cars kept for many years</td></tr>
+<tr><td>Basic single coat</td><td>$1,500 to $2,499</td><td>$2,000</td><td>6 months to 1 year</td><td>About 3 to 7 days for most repaints</td><td>Single-stage paint fades in 5 to 8 years</td><td class="best-for">A budget repaint</td></tr>
+<tr><td>Standard quality</td><td>$2,500 to $4,999</td><td>$3,500</td><td>3 to 5 years</td><td>About 3 to 7 days for most repaints</td><td>Base and clear coat lasts 10 to 15 plus years</td><td class="best-for">Most daily drivers</td></tr>
+<tr><td>Show quality</td><td>$5,000 to $10,000</td><td>$7,500</td><td>Lifetime</td><td>Longer than a standard job, more coats and more sanding between coats</td><td>Base and clear coat lasts 10 to 15 plus years</td><td class="best-for">Show cars, and cars kept for many years</td></tr>
 </tbody>
 </table>
 </div>
@@ -239,7 +239,7 @@ schema: |
 
 ## Paint vs wrap: how to decide
 
-<p>Paint lasts longer and a wrap is cheaper and reversible. Choose paint if you plan to keep the car for many years and want the finish to last 10 to 15 plus years with a base and clear coat system. Choose a wrap if you want a color change for a short time, or you want to protect the paint underneath and undo the change later. Price the wrap with the Car Wrap Cost Calculator, a sedan full wrap costs about $3,500 there. Price a paint job with the Paint a Car Cost Calculator.</p>
+<p>Paint lasts longer and a wrap is cheaper and reversible. Choose paint if you plan to keep the car for many years and want the finish to last 10 to 15 plus years with a base and clear coat system. Choose a wrap if you want a color change for a short time, or you want to protect the paint underneath and undo the change later. Price the wrap with the Car Wrap Cost Calculator, a sedan full wrap costs about $3,500 there.</p>
 
 ## DIY vs a professional shop
 
@@ -247,7 +247,7 @@ schema: |
 
 ## Protecting new paint
 
-<p>New paint needs protection in its first months. Ceramic coating costs $500 to $3,000 and paint protection film costs $1,000 to $8,000. Paint materials rose 7.4 percent in 2025, per Kelley Blue Book, so a quote from last year is not a reliable guide to this year price.</p>
+<p>New paint needs protection in its first months. Ceramic coating costs $500 to $2,000 and paint protection film costs $1,000 to $8,000. Paint materials rose 7.4 percent in 2025, per Kelley Blue Book, so a quote from last year is not a reliable guide to this year price.</p>
 
 <p class="note">The direct answer range of $1,500 to $10,000 runs from the low end of a basic job to the high end of a show quality job, as the table shows.</p>
 
@@ -328,11 +328,11 @@ Painting the door jambs, the engine bay, and the trunk costs extra, because the 
 
 ## Paint or wrap: cost side by side
 
-<p>Paint and wrap solve the same problem in different ways. A repaint costs $1,500 to $10,000 by quality, while a sedan full wrap costs about $3,500, with a sample range of $2,500 to $5,500. Paint protection film costs $1,000 to $8,000, and ceramic coating costs $500 to $3,000. Paint lasts longer, and a wrap is cheaper and reversible. Choose paint if you plan to keep the car for many years and want the finish to last 10 to 15 plus years. Choose a wrap if you want a color change for a short time, or you want to protect the paint underneath and undo the change later. Price the wrap with the Car Wrap Cost Calculator, and read the full comparison in <a href="{{ '/blog/how-much-does-a-car-wrap-cost/' | relative_url }}">How Much Does a Car Wrap Cost?</a>.</p>
+<p>Paint and wrap solve the same problem in different ways. A repaint costs $1,500 to $10,000 by quality, while a sedan full wrap costs about $3,500, with a sample range of $2,500 to $5,500. Paint protection film costs $1,000 to $8,000, and ceramic coating costs $500 to $2,000. Paint lasts longer, and a wrap is cheaper and reversible. Choose paint if you plan to keep the car for many years and want the finish to last 10 to 15 plus years. Choose a wrap if you want a color change for a short time, or you want to protect the paint underneath and undo the change later. Price the wrap with the Car Wrap Cost Calculator, and read the full comparison in <a href="{{ '/blog/how-much-does-a-car-wrap-cost/' | relative_url }}">How Much Does a Car Wrap Cost?</a>.</p>
 
 ## Aftercare: the first weeks with new paint
 
-<p>New paint needs gentle care in its first weeks. Wash it by hand with a soft cloth, skip automatic car washes until the paint has fully cured, and park out of strong sun where you can. Ceramic coating costs $500 to $3,000 and paint protection film costs $1,000 to $8,000, and both protect new paint from chips and sun. Garage parking, regular washing, and wax help paint last longer, while sun, salt, and harsh chemicals wear it out faster. If you spot a run, a dust speck, or a thin patch after the job, tell the shop at once, while the warranty claim is fresh and the car is still in their records.</p>
+<p>New paint needs gentle care in its first weeks. Wash it by hand with a soft cloth, skip automatic car washes until the paint has fully cured, and park out of strong sun where you can. Ceramic coating costs $500 to $2,000 and paint protection film costs $1,000 to $8,000, and both protect new paint from chips and sun. Garage parking, regular washing, and wax help paint last longer, while sun, salt, and harsh chemicals wear it out faster. If you spot a run, a dust speck, or a thin patch after the job, tell the shop at once, while the warranty claim is fresh and the car is still in their records.</p>
 
 ## When to paint your car
 
