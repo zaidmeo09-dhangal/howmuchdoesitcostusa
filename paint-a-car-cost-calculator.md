@@ -55,22 +55,6 @@ schema: |
           },
           {
             "@type": "Question",
-            "name": "How much does it cost to get a car painted?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "A typical quality repaint for a sedan costs about $3,500, with a sample range of $1,500 to $10,000 by quality. Basic single coat costs $1,500 to $2,499, standard quality $2,500 to $4,999, and show quality $5,000 to $10,000."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How much does it cost to repaint an entire car?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "A full repaint costs $1,500 to $10,000 by quality: basic $1,500 to $2,499, standard $2,500 to $4,999, and show quality $5,000 to $10,000, with a standard sedan repaint about $3,500."
-            }
-          },
-          {
-            "@type": "Question",
             "name": "How long does car paint last?",
             "acceptedAnswer": {
               "@type": "Answer",
@@ -447,7 +431,7 @@ schema: |
   <p><a href="https://www.homedepot.com/" target="_blank" rel="noopener">Home Depot</a> <span class="ref-note">car paint prices</span></p>
   <p><a href="https://www.lowes.com/" target="_blank" rel="noopener">Lowes</a> <span class="ref-note">car paint prices</span></p>
   <p><a href="https://www.kbb.com/car-advice/cost-to-paint-car/" target="_blank" rel="noopener">Kelley Blue Book</a> <span class="ref-note">cost to paint a car by tier, updated June 10, 2026</span></p>
-  <p><a href="https://www.aaa.com/autorepair/articles/www.aaa/how-much-does-it-cost-to-paint-a-car" target="_blank" rel="noopener">AAA</a> <span class="ref-note">cost to paint a car by tier, finish, and vehicle size</span></p>
+  <p><a href="https://www.aaa.com/autorepair/articles/how-much-does-it-cost-to-paint-a-car" target="_blank" rel="noopener">AAA</a> <span class="ref-note">cost to paint a car by tier, finish, and vehicle size</span></p>
   <p><a href="https://www.carfax.com/maintenance/car-paint-job-cost" target="_blank" rel="noopener">CARFAX</a> <span class="ref-note">cost to paint a car by tier and finish</span></p>
   </div>
 
@@ -469,14 +453,6 @@ schema: |
   <details class="faq">
     <summary>How much does it cost to paint a car?</summary>
     <p>A typical quality repaint for a sedan costs about $3,500, with a sample range of $1,500 to $10,000 by quality. Basic single coat costs $1,500 to $2,499, standard quality $2,500 to $4,999, and show quality $5,000 to $10,000.</p>
-  </details>
-  <details class="faq">
-    <summary>How much does it cost to get a car painted?</summary>
-    <p>A typical quality repaint for a sedan costs about $3,500, with a sample range of $1,500 to $10,000 by quality. Basic single coat costs $1,500 to $2,499, standard quality $2,500 to $4,999, and show quality $5,000 to $10,000.</p>
-  </details>
-  <details class="faq">
-    <summary>How much does it cost to repaint an entire car?</summary>
-    <p>A full repaint costs $1,500 to $10,000 by quality: basic $1,500 to $2,499, standard $2,500 to $4,999, and show quality $5,000 to $10,000, with a standard sedan repaint about $3,500.</p>
   </details>
   <details class="faq">
     <summary>How long does car paint last?</summary>
