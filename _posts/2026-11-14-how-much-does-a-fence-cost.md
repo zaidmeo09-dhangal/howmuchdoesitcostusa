@@ -30,7 +30,7 @@ schema: |
           "name": "How Much Does It Cost USA"
         },
         "datePublished": "2026-11-14",
-        "dateModified": "2026-11-21",
+        "dateModified": "2026-11-27",
         "mainEntityOfPage": {
           "@type": "WebPage",
           "@id": "https://howmuchdoesitcostusa.com/blog/how-much-does-a-fence-cost/"
@@ -399,6 +399,8 @@ Check these five things before anyone digs. A property survey costs $200 to $545
 </ul>
 </div>
 </div>
+
+<p>Staining is priced separately from the build: see <a href="{{ '/blog/how-much-does-it-cost-to-stain-a-fence/' | relative_url }}">how much it costs to stain a fence</a>.</p>
 
 ## How to save money
 
