@@ -103,34 +103,10 @@ schema: |
           },
           {
             "@type": "Question",
-            "name": "How much does it cost to wrap your car?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "A typical sedan full wrap costs about $3,500, with a sample range of $2,500 to $5,500. A compact costs $2,800 typical, an SUV $4,800, and a truck $5,500."
-            }
-          },
-          {
-            "@type": "Question",
             "name": "How much does a car wrap cost?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Car wrap cost for a typical sedan full wrap is about $3,500, with a sample range of $2,500 to $5,500. A partial wrap costs about 0.55 of a full wrap, so about $1,925 on a $3,500 sedan wrap, and roof and hood only costs about 0.35, so about $1,225."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How much does it cost to get your car wrapped?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Getting your car wrapped costs about $3,500 typical for a sedan full wrap, with a sample range of $2,500 to $5,500. Chrome or color-shift wraps cost more, at $6,000 to $10,000 or more."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is the cost to vinyl wrap a car?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "The cost to vinyl wrap a car is about $3,500 typical for a sedan full wrap, with a sample range of $2,500 to $5,500. Standard film costs $2.80 to $3.50 per sq ft, and a car needs about 255 sq ft of film."
+              "text": "Car wrap cost for a typical sedan full wrap is about $3,500, with a sample range of $2,500 to $5,500. A compact costs $2,800 typical, an SUV $4,800, and a truck $5,500. A partial wrap costs about 0.55 of a full wrap, so about $1,925 on a $3,500 sedan wrap, and roof and hood only costs about 0.35, so about $1,225. Chrome or color-shift wraps cost more, at $6,000 to $10,000 or more. Standard film costs $2.80 to $3.50 per sq ft, and a car needs about 255 sq ft of film."
             }
           },
           {
@@ -434,7 +410,7 @@ schema: |
       </thead>
       <tbody>
         <tr><td>Vinyl wrap</td><td>$2,000 to $10,000 plus, per CostFigure</td><td>Yes</td><td>A color change you may want to undo</td></tr>
-        <tr><td>Repaint</td><td>$1,500 to $10,000 by quality, see our paint a car guide</td><td>No</td><td>A car you plan to keep for many years</td></tr>
+        <tr><td>Repaint</td><td>$1,500 to $10,000 by quality, see our <a href="{{ '/paint-a-car-cost-calculator/' | relative_url }}">paint a car cost calculator</a></td><td>No</td><td>A car you plan to keep for many years</td></tr>
         <tr><td>Paint protection film</td><td>$1,000 to $8,000, per CostFigure</td><td>Yes</td><td>Protecting new or good paint</td></tr>
       </tbody>
     </table>
@@ -558,20 +534,8 @@ schema: |
     <p>A vinyl wrap costs $2,000 to $10,000 plus, per CostFigure, and a repaint costs $1,500 to $10,000 by quality. A wrap is reversible and a repaint is not, so choose by how long you will keep the car.</p>
   </details>
   <details class="faq">
-    <summary>How much does it cost to wrap your car?</summary>
-    <p>A typical sedan full wrap costs about $3,500, with a sample range of $2,500 to $5,500. A compact costs $2,800 typical, an SUV $4,800, and a truck $5,500.</p>
-  </details>
-  <details class="faq">
     <summary>How much does a car wrap cost?</summary>
-    <p>Car wrap cost for a typical sedan full wrap is about $3,500, with a sample range of $2,500 to $5,500. A partial wrap costs about 0.55 of a full wrap, so about $1,925 on a $3,500 sedan wrap, and roof and hood only costs about 0.35, so about $1,225.</p>
-  </details>
-  <details class="faq">
-    <summary>How much does it cost to get your car wrapped?</summary>
-    <p>Getting your car wrapped costs about $3,500 typical for a sedan full wrap, with a sample range of $2,500 to $5,500. Chrome or color-shift wraps cost more, at $6,000 to $10,000 or more.</p>
-  </details>
-  <details class="faq">
-    <summary>What is the cost to vinyl wrap a car?</summary>
-    <p>The cost to vinyl wrap a car is about $3,500 typical for a sedan full wrap, with a sample range of $2,500 to $5,500. Standard film costs $2.80 to $3.50 per sq ft, and a car needs about 255 sq ft of film.</p>
+    <p>Car wrap cost for a typical sedan full wrap is about $3,500, with a sample range of $2,500 to $5,500. A compact costs $2,800 typical, an SUV $4,800, and a truck $5,500. A partial wrap costs about 0.55 of a full wrap, so about $1,925 on a $3,500 sedan wrap, and roof and hood only costs about 0.35, so about $1,225. Chrome or color-shift wraps cost more, at $6,000 to $10,000 or more. Standard film costs $2.80 to $3.50 per sq ft, and a car needs about 255 sq ft of film.</p>
   </details>
   <details class="faq">
     <summary>What is the difference between cast and calendered vinyl?</summary>
