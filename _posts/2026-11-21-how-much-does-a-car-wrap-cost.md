@@ -44,7 +44,7 @@ schema: |
             "name": "How long does a car wrap last?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "A car wrap lasts about 5 to 7 years with care. Hand wash only, wait a week before the first wash, and park out of the sun to help it last."
+              "text": "A car wrap lasts about 3 to 7 years with care. Hand wash only, wait a week before the first wash, and park out of the sun to help it last."
             }
           },
           {
@@ -105,34 +105,10 @@ schema: |
           },
           {
             "@type": "Question",
-            "name": "How much does it cost to wrap your car?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "A typical sedan full wrap costs about $3,500, with a sample range of $2,500 to $5,500. A compact costs $2,800 typical, an SUV $4,800, and a truck $5,500."
-            }
-          },
-          {
-            "@type": "Question",
             "name": "How much does a car wrap cost?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Car wrap cost for a typical sedan full wrap is about $3,500, with a sample range of $2,500 to $5,500. A partial wrap costs about 0.55 of a full wrap, so about $1,925 on a $3,500 sedan wrap, and roof and hood only costs about 0.35, so about $1,225."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How much does it cost to get your car wrapped?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Getting your car wrapped costs about $3,500 typical for a sedan full wrap, with a sample range of $2,500 to $5,500. Chrome or color-shift wraps cost more, at $6,000 to $10,000 or more."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How much does it cost to vinyl wrap a car?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "The cost to vinyl wrap a car is about $3,500 typical for a sedan full wrap, with a sample range of $2,500 to $5,500. Standard film costs $2.80 to $3.50 per sq ft, and a car needs about 255 sq ft of film."
+              "text": "Car wrap cost for a typical sedan full wrap is about $3,500, with a sample range of $2,500 to $5,500. A partial wrap costs about 0.55 of a full wrap, so about $1,925 on a $3,500 sedan wrap, and roof and hood only costs about 0.35, so about $1,225. Standard film costs $2.80 to $3.50 per sq ft, and a car needs about 255 sq ft of film."
             }
           },
           {
@@ -148,7 +124,7 @@ schema: |
             "name": "How much does it cost to wrap a small car?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "A small car full wrap costs $1,800 to $2,500. A compact costs $2,800 typical on our calculator, against $3,500 for a sedan, $4,800 for an SUV, and $5,500 for a truck."
+              "text": "A small car full wrap costs $1,800 to $2,800. A compact costs $2,800 typical on our calculator, against $3,500 for a sedan, $4,800 for an SUV, and $5,500 for a truck."
             }
           },
           {
@@ -157,14 +133,6 @@ schema: |
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "Standard film costs $2.80 to $3.50 per sq ft, and a car needs about 255 sq ft of film, before tools, prep, and the days the job takes. A DIY wrap costs less in cash than a pro shop and far more in time and risk, and a bad DIY job can cost more to strip and redo than the pro price."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How much does it cost to have a car wrapped?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Having a car wrapped by a pro shop costs about $3,500 typical for a sedan full wrap, with a sample range of $2,500 to $5,500. The price includes film, labor, prep, and design, and a full wrap takes 3 to 5 days."
             }
           },
           {
@@ -186,15 +154,13 @@ schema: |
 <p class="note">All prices on this page are sample estimated USA ranges, not quotes. Your real price depends on your vehicle size, wrap type, vinyl brand, finish, and paint condition.</p>
 </div>
 
-<p>Car wrap cost is the same question in different words: how much does it cost to wrap a car, how much does it cost to wrap your car, how much does a car wrap cost, and how much does it cost to get your car wrapped all point to the same range, about $3,500 typical for a sedan full wrap, with a sample range of $2,500 to $5,500.</p>
-
 <div class="key-takeaways">
 <p class="key-takeaways-title">Key Takeaways</p>
 <ul>
 <li>A typical sedan full wrap costs about $3,500, with a sample range of $2,500 to $5,500.</li>
 <li>Typical full wrap prices are $2,800 for a compact, $3,500 for a sedan, $4,800 for an SUV, and $5,500 for a truck.</li>
 <li>A chrome or color-shift wrap costs $6,000 to $10,000 or more, against $2,500 to $4,000 for a gloss sedan wrap.</li>
-<li>A car wrap lasts about 5 to 7 years with care, and wrapping usually takes 3 to 5 days.</li>
+<li>A car wrap lasts about 3 to 7 years with care, and wrapping usually takes 3 to 5 days.</li>
 <li>A wrap usually protects the paint underneath, and it is reversible, so it suits a color change you may want to undo.</li>
 </ul>
 </div>
@@ -215,18 +181,18 @@ schema: |
 <tr><th>Vehicle type</th><th>Full wrap range</th></tr>
 </thead>
 <tbody>
-<tr><td>Small car</td><td>$1,800 to $2,500</td></tr>
+<tr><td>Small car</td><td>$1,800 to $2,800</td></tr>
 <tr><td>Hatchback</td><td>$2,800 to $3,500</td></tr>
 <tr><td>Sedan</td><td>$3,000 to $4,500</td></tr>
 <tr><td>Small SUV</td><td>$3,200 to $4,500</td></tr>
 <tr><td>Large SUV or sedan</td><td>$3,500 to $5,000</td></tr>
-<tr><td>Pickup</td><td>$3,200 to $5,000</td></tr>
+<tr><td>Pickup</td><td>$3,200 to $5,500</td></tr>
 <tr><td>Luxury</td><td>$5,500 to $10,000</td></tr>
 </tbody>
 </table>
 </div>
 
-<p class="note">Our calculator uses $2,800 for a compact, $3,500 for a sedan, $4,800 for an SUV, and $5,500 for a truck at the typical level, which sits inside the ranges above. A truck wrap costs more than a compact car wrap with the same vinyl, because it needs more film and more time.</p>
+<p class="note">Our calculator uses $2,800 for a compact, $3,500 for a sedan, $4,800 for an SUV, and $5,500 for a truck at the typical level, which sits inside the ranges above. A truck wrap costs more than a compact car wrap with the same vinyl, because it needs more film and more time. The three sedan figures on this page cover different things: $2,500 to $5,500 in the direct answer is the low to high span around the $3,500 sedan typical, $3,000 to $4,500 in the table above is the published typical range for a sedan, and $2,500 to $4,000 below is the gloss-finish sedan range before matte or chrome uplifts.</p>
 
 ## Cost by finish
 
@@ -336,7 +302,7 @@ schema: |
 </table>
 </div>
 
-<p class="note">Math for the $3,500 wrap: $3,500 divided by 3 is $1,167 a year, $3,500 divided by 5 is $700 a year, and $3,500 divided by 7 is $500 a year. Care decides where in the 5 to 7 year range a wrap lands.</p>
+<p class="note">Math for the $3,500 wrap: $3,500 divided by 3 is $1,167 a year, $3,500 divided by 5 is $700 a year, and $3,500 divided by 7 is $500 a year. Care decides where in the 3 to 7 year range a wrap lands.</p>
 
 ## Wrap vs paint vs paint protection film
 
@@ -365,7 +331,7 @@ schema: |
 
 ## How long does a wrap last by film
 
-<p>Lifespan depends on the film and on where it sits. Vertical panels last longer than horizontal panels, which take more sun. 3M 2080 lasts up to 8 years on vertical surfaces and 3 years on horizontal surfaces, while Avery lasts up to 12 years in black and white, 10 years in colors, and 5 years in metallic. A car wrap lasts about 5 to 7 years with care. Hand wash only, wait a week before the first wash, and park out of the sun.</p>
+<p>Lifespan depends on the film and on where it sits. Vertical panels last longer than horizontal panels, which take more sun. 3M 2080 lasts up to 8 years on vertical surfaces and 3 years on horizontal surfaces, while Avery lasts up to 12 years in black and white, 10 years in colors, and 5 years in metallic. A car wrap lasts about 3 to 7 years with care. Hand wash only, wait a week before the first wash, and park out of the sun.</p>
 
 <aside class="pull-quote">
 <p class="pull-quote-label">Money-saving tip</p>
@@ -457,7 +423,7 @@ Shop labor rates vary by city and cost of living, the same way any skilled trade
 
 ## Wrap care after install
 
-<p>Wait a week before the first wash, then hand wash only. Park out of the sun where you can, because horizontal panels take more sun and wear faster. Wash off bird droppings, bugs, and road salt promptly, and skip automatic car washes with stiff brushes. A wrap that is washed gently and kept out of harsh sun lasts closer to 7 years than to 5, which cuts the cost per year from $700 to $500 on a $3,500 wrap.</p>
+<p>Wait a week before the first wash, then hand wash only. Park out of the sun where you can, because horizontal panels take more sun and wear faster. Wash off bird droppings, bugs, and road salt promptly, and skip automatic car washes with stiff brushes. A wrap that is washed gently and kept out of harsh sun lasts closer to 7 years than to 3, which cuts the cost per year from $1,167 to $500 on a $3,500 wrap.</p>
 
 ## How the calculator estimates your wrap
 
@@ -481,7 +447,7 @@ Shop labor rates vary by city and cost of living, the same way any skilled trade
 
 ## Frequently asked questions
 
-<details class="faq"><summary>How long does a car wrap last?</summary><p>A car wrap lasts about 5 to 7 years with care. Hand wash only, wait a week before the first wash, and park out of the sun to help it last.</p></details>
+<details class="faq"><summary>How long does a car wrap last?</summary><p>A car wrap lasts about 3 to 7 years with care. Hand wash only, wait a week before the first wash, and park out of the sun to help it last.</p></details>
 <details class="faq"><summary>Does a wrap damage paint?</summary><p>No, a wrap usually protects the paint underneath. It does not hide bad paint, and it can lift off damaged areas, so fix dents, rust, and peeling paint first.</p></details>
 <details class="faq"><summary>Can I wrap a leased car?</summary><p>Often yes, you can wrap a leased car, but check your lease first. A wrap is reversible, so it suits a leased car when the lease allows it.</p></details>
 <details class="faq"><summary>How long does wrapping take?</summary><p>Wrapping usually takes 3 to 5 days for a full wrap. A partial wrap takes 1 to 2 days, and a roof and hood only wrap takes about 1 day.</p></details>
@@ -490,14 +456,10 @@ Shop labor rates vary by city and cost of living, the same way any skilled trade
 <details class="faq"><summary>Should I wrap or paint my car?</summary><p>A wrap is cheaper and reversible, paint lasts longer. A sedan full wrap costs about $3,500, while a repaint costs $1,500 to $10,000 by quality, so a wrap suits a color change you may want to undo, and paint suits a car you plan to keep for many years.</p></details>
 <details class="faq"><summary>How much does a car wrap cost per month?</summary><p>On a $3,500 sedan wrap, about $97 a month over 3 years, about $58 a month over 5 years, and about $42 a month over 7 years.</p></details>
 
-<details class="faq"><summary>How much does it cost to wrap your car?</summary><p>A typical sedan full wrap costs about $3,500, with a sample range of $2,500 to $5,500. A compact costs $2,800 typical, an SUV $4,800, and a truck $5,500.</p></details>
-<details class="faq"><summary>How much does a car wrap cost?</summary><p>Car wrap cost for a typical sedan full wrap is about $3,500, with a sample range of $2,500 to $5,500. A partial wrap costs about 0.55 of a full wrap, so about $1,925 on a $3,500 sedan wrap, and roof and hood only costs about 0.35, so about $1,225.</p></details>
-<details class="faq"><summary>How much does it cost to get your car wrapped?</summary><p>Getting your car wrapped costs about $3,500 typical for a sedan full wrap, with a sample range of $2,500 to $5,500. Chrome or color-shift wraps cost more, at $6,000 to $10,000 or more.</p></details>
-<details class="faq"><summary>How much does it cost to vinyl wrap a car?</summary><p>The cost to vinyl wrap a car is about $3,500 typical for a sedan full wrap, with a sample range of $2,500 to $5,500. Standard film costs $2.80 to $3.50 per sq ft, and a car needs about 255 sq ft of film.</p></details>
+<details class="faq"><summary>How much does a car wrap cost?</summary><p>Car wrap cost for a typical sedan full wrap is about $3,500, with a sample range of $2,500 to $5,500. A partial wrap costs about 0.55 of a full wrap, so about $1,925 on a $3,500 sedan wrap, and roof and hood only costs about 0.35, so about $1,225. Standard film costs $2.80 to $3.50 per sq ft, and a car needs about 255 sq ft of film.</p></details>
 <details class="faq"><summary>How much does it cost to wrap a car hood?</summary><p>A hood or roof wrap costs about $350. A hood, roof, and trunk together cost about $750. A full wrap costs far more, about $3,500 typical for a sedan, so a hood wrap is the cheaper way to change the look.</p></details>
-<details class="faq"><summary>How much does it cost to wrap a small car?</summary><p>A small car full wrap costs $1,800 to $2,500. A compact costs $2,800 typical on our calculator, against $3,500 for a sedan, $4,800 for an SUV, and $5,500 for a truck.</p></details>
+<details class="faq"><summary>How much does it cost to wrap a small car?</summary><p>A small car full wrap costs $1,800 to $2,800. A compact costs $2,800 typical on our calculator, against $3,500 for a sedan, $4,800 for an SUV, and $5,500 for a truck.</p></details>
 <details class="faq"><summary>How much does it cost to wrap a car yourself?</summary><p>Standard film costs $2.80 to $3.50 per sq ft, and a car needs about 255 sq ft of film, before tools, prep, and the days the job takes. A DIY wrap costs less in cash than a pro shop and far more in time and risk, and a bad DIY job can cost more to strip and redo than the pro price.</p></details>
-<details class="faq"><summary>How much does it cost to have a car wrapped?</summary><p>Having a car wrapped by a pro shop costs about $3,500 typical for a sedan full wrap, with a sample range of $2,500 to $5,500. The price includes film, labor, prep, and design, and a full wrap takes 3 to 5 days.</p></details>
 <details class="faq"><summary>Why do quotes for the same car differ?</summary><p>Labor rate, film brand, finish, disassembly, prep, and city all move a quote. One shop may remove mirrors, badges, and handles and wrap the edges, while another wraps around them. Ask each shop for an itemized quote that lists coverage, film brand and series, labor, and prep, then compare the same job.</p></details>
 
 ## References
@@ -505,6 +467,7 @@ Shop labor rates vary by city and cost of living, the same way any skilled trade
 <p>Prices on this page are sample estimated USA ranges from the Car Wrap Cost Calculator, not quotes. Labor cost context comes from the US Bureau of Labor Statistics, and vinyl and supply prices from Home Depot and Lowes. All prices on this page are sample estimated USA ranges, not quotes.</p>
 <div class="refs">
 <p><a href="https://www.bls.gov/" target="_blank" rel="noopener">US Bureau of Labor Statistics</a> <span class="ref-note">labor cost data</span></p>
+<p><a href="https://www.autoblog.com/features/thinking-about-wrapping-your-car-heres-what-you-need-to-know-about-cost-and-care" target="_blank" rel="noopener">Autoblog</a> <span class="ref-note">wrap lifespan, three to seven years; sedan wrap range</span></p>
 <p><a href="https://www.homedepot.com/" target="_blank" rel="noopener">Home Depot</a> <span class="ref-note">vinyl and supply prices</span></p>
 <p><a href="https://www.lowes.com/" target="_blank" rel="noopener">Lowes</a> <span class="ref-note">vinyl and supply prices</span></p>
 </div>
