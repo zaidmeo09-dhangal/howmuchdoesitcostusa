@@ -520,7 +520,7 @@ schema: |
           <div class="big-dollar">$1,240</div>
           <p>Typical 2-bedroom local move, USA average.</p>
         </div>
-        <img src="https://plm-wordpress-preprod.s3.us-east-2.amazonaws.com/wp-content/uploads/devlopment/2023/08/07113753/budget-1024x487.jpg" alt="A woman managing household finances with a calculator and laptop" onerror="this.style.display='none'">
+        <img src="{{ '/assets/images/movers-card.webp' | relative_url }}" alt="Two professional movers carrying cardboard boxes in a bright room on moving day" onerror="this.style.display='none'">
       </div>
     </div>
   </div>
@@ -617,7 +617,7 @@ schema: |
     <div class="section-head reveal">
       <div class="eyebrow"><span class="e-icon">&#9998;</span> Cost guides</div>
       <h2>Cost <span class="accent">guides</span></h2>
-      <p>Eight guides that answer how much does it cost for one job at a time, with prices by size and material and tips to save.</p>
+      <p>Guides that answer how much does it cost for one job at a time, with prices by size and material and tips to save.</p>
     </div>
     <div class="guides-grid">
       <div class="guide-card reveal">
